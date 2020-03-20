@@ -1,0 +1,21 @@
+{
+  "name": "bdp-rps.de",
+  "version": "1.0.0",
+  "description": "Official bdp-rps.de website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "now dev",
+    "build": "next build",
+    "now-build": "yarn build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "now --prod"
+  },
+  "dependencies": {
+    "@bdp-rps/ui": "^0.0.1",
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

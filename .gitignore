@@ -1,0 +1,35 @@
+# OS or Editor files
+._*
+.DS_Store
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Always-ignore extensions
+*~
+*.diff
+*.err
+*.log
+*.orig
+*.pyc
+*.rej
+*.vsix
+
+*.sass-cache
+*.sw?
+*.vi
+
+*.elo.*
+*.bs.js
+*Style.re
+.bsb.lock
+
+package-lock.json
+.merlin
+node_modules
+lib
+es 
+coverage 
+.next

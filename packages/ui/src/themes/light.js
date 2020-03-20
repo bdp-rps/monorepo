@@ -1,0 +1,115 @@
+const colors = {
+  yellow: 'rgb(255, 203, 004)',
+  blue: 'rgb(29, 72, 153)',
+  brown: 'rgb(107, 92, 72)',
+  red: 'rgb(211, 0, 20)',
+  black: 'rgb(10, 10, 10)',
+  grey1: 'rgb(40, 40, 40)',
+  grey2: 'rgb(75, 75, 75)',
+  grey3: 'rgb(100, 100, 100)',
+  grey4: 'rgb(130, 130, 130)',
+  grey5: 'rgb(160, 160, 160)',
+  grey6: 'rgb(190, 190, 190)',
+  grey7: 'rgb(220, 220, 220)',
+  grey8: 'rgb(240, 240, 240)',
+  white: 'rgb(255, 255, 255)',
+}
+
+const fonts = {
+  content: 'Aleo, Helvetica Neue, Helvetica, Arial, sans-serif',
+  heading: 'Immenhausen, Helvetica Neue, Helvetica, Arial, sans-serif',
+}
+
+export default {
+  colors,
+  tokens: {
+    primary: colors.blue,
+    secondary: colors.yellow,
+    alert: colors.red,
+    inputPaddingVertical: 10,
+    inputPaddingHorizontal: 10,
+    inputDisabledBackground: colors.grey8,
+    inputDisabledForeground: colors.grey2,
+    inputBorder: colors.grey5,
+    inputForeground: colors.grey1,
+  },
+  baselineGrid: 4,
+  elementGrid: 8,
+  direction: 'ltr',
+  breakpoints: {
+    small: '@media (min-width: 480px)',
+    medium: '@media (min-width: 800px)',
+    large: '@media (min-width: 1024px)',
+    huge: '@media (min-width: 1600px)',
+  },
+  fonts,
+  typography: {
+    note: {
+      element: 'span',
+      fontFamily: fonts.content,
+      fontSize: 14.0,
+      lineHeight: 16.0,
+      color: colors.grey3,
+      // baseline correction
+      marginBottom: 1,
+      paddingTop: 3,
+      variants: {
+        info: {
+          textTransform: 'lowercase',
+          fontVariant: 'small-caps',
+          fontWeight: 500,
+        },
+      },
+    },
+    label: {
+      element: 'span',
+      fontFamily: fonts.content,
+      fontSize: 16.0,
+      lineHeight: 16.0,
+      color: colors.grey3,
+      // baseline correction
+      marginBottom: 1,
+      paddingTop: 3,
+    },
+    body: {
+      element: 'p',
+      fontFamily: 'Arial, sans-serif',
+      fontSize: 16.0,
+      lineHeight: 24.0,
+      color: colors.grey1,
+      // baseline correction
+      marginBottom: 2,
+      paddingTop: 2,
+    },
+    category: {
+      element: 'h3',
+      fontFamily: fonts.content,
+      fontSize: 18.0,
+      lineHeight: 22.0,
+      fontWeight: 700,
+      color: colors.blue,
+      // baseline correction
+      paddingTop: 1,
+      marginBottom: 3,
+    },
+    subtitle: {
+      element: 'h2',
+      fontFamily: fonts.heading,
+      fontSize: 32.0,
+      lineHeight: 40.0,
+      fontWeight: 400,
+      color: colors.grey1,
+    },
+    title: {
+      element: 'h1',
+      fontFamily: fonts.heading,
+      fontWeight: 900,
+      fontSize: 40.0,
+      lineHeight: 40.0,
+      color: colors.grey1,
+      // baseline correction
+      marginBottom: 3,
+      paddingTop: 1,
+    },
+  },
+}
