@@ -2,13 +2,10 @@ import React from 'react'
 import { setAddon, configure, addDecorator } from '@storybook/react'
 import JSXAddon from 'storybook-addon-jsx'
 import { withKnobs } from '@storybook/addon-knobs'
-import { ThemeProvider } from 'react-fela'
-
-import theme from '../src/themes/light'
 
 setAddon(JSXAddon)
 
-import FelaProvider from '../src/styling/FelaProvider'
+import FelaWrapper from './FelaWrapper'
 
 const req = require.context('../src/components', true, /stories\.js$/)
 
@@ -41,7 +38,7 @@ function loadStories() {
 addDecorator(withKnobs)
 addDecorator(story => {
   const content = story()
-  return <FelaProvider theme={theme}>{content}</FelaProvider>
+  return <FelaWrapper>{content}</FelaWrapper>
 })
 
 configure(loadStories, module)

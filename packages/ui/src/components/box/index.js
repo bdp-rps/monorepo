@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React, { Children } from 'react'
 import { useFela } from 'react-fela'
 
@@ -30,8 +31,8 @@ const style = ({
   marginTop,
   height,
   width,
-  grow = 0,
-  shrink = 0,
+  grow,
+  shrink,
   minWidth,
   maxWidth,
   minHeight,
@@ -41,11 +42,11 @@ const style = ({
   justifyContent,
   alignSelf,
   flex,
-  basis = 'auto',
-  direction = 'column',
-  display = 'flex',
-  alignItems = 'stretch',
-  wrap = 'nowrap',
+  basis,
+  direction,
+  display,
+  alignItems,
+  wrap,
 }) => {
   const spacing = applySpacing(theme.baselineGrid)
 
@@ -85,8 +86,9 @@ const style = ({
 
 export default function Box({
   children,
-  as: As = 'div',
+  as: As,
   extend,
+  style: inlineStyle,
   spacing,
   ...props
 }) {
@@ -95,7 +97,7 @@ export default function Box({
   const domProps = removeResponsiveProps(props)
 
   return (
-    <As {...domProps} className={css(style, extend)}>
+    <As {...domProps} style={inlineStyle} className={css(style, extend)}>
       {spacing
         ? Children.toArray(children).map((child, index, arr) => (
             <React.Fragment key={index}>
@@ -106,4 +108,108 @@ export default function Box({
         : children}
     </As>
   )
+}
+
+const responsiveProp = PropTypes.oneOfType([
+  PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.number, PropTypes.string])),
+  PropTypes.string,
+  PropTypes.number,
+])
+
+const responsiveNumberProp = PropTypes.oneOfType([
+  PropTypes.arrayOf(PropTypes.number),
+  PropTypes.number,
+])
+
+const responsiveStringProp = PropTypes.oneOfType([
+  PropTypes.arrayOf(PropTypes.string),
+  PropTypes.string,
+])
+
+const directionProp = PropTypes.oneOfType([
+  PropTypes.arrayOf(
+    PropTypes.oneOf(['row', 'column', 'row-reverse', 'column-reverse'])
+  ),
+  PropTypes.oneOf(['row', 'column', 'row-reverse', 'column-reverse']),
+])
+
+Box.defaultProps = {
+  direction: 'column',
+  as: 'div',
+  grow: 0,
+  shrink: 0,
+  basis: 'auto',
+  direction: 'column',
+  display: 'flex',
+  alignItems: 'stretch',
+  wrap: 'nowrap',
+}
+
+Box.propTypes = {
+  /** The HTML node that is rendered. */
+  as: PropTypes.string,
+  /** Adds a custom CSS class. */
+  className: PropTypes.string,
+  /** Extends the Fela style object. */
+  extends: PropTypes.object,
+  /** Adds inline styles. */
+  style: PropTypes.object,
+  /** Adds spacing between children based on the baselineGrid. */
+  spacing: responsiveNumberProp,
+  /** Adds left padding based on the baselineGrid. */
+  paddingLeft: responsiveProp,
+  /** Adds right padding based on the baselineGrid. */
+  paddingRight: responsiveProp,
+  /** Adds bottom padding based on the baselineGrid. */
+  paddingBottom: responsiveProp,
+  /** Adds top padding based on the baselineGrid. */
+  paddingTop: responsiveProp,
+  /** Adds padding based on the baselineGrid.<br>Overwritten by specific directional paddings. */
+  padding: responsiveProp,
+  /** Adds left margin based on the baselineGrid. */
+  marginLeft: responsiveProp,
+  /** Adds right margin based on the baselineGrid. */
+  marginRight: responsiveProp,
+  /** Adds bottom margin based on the baselineGrid. */
+  marginBottom: responsiveProp,
+  /** Adds top margin based on the baselineGrid. */
+  marginTop: responsiveProp,
+  /** Adds margin based on the baselineGrid.<br>Overwritten by specific directional margins. */
+  margin: responsiveProp,
+  /** Sets display. */
+  display: responsiveStringProp,
+  /** Sets flex-wrap. */
+  wrap: responsiveStringProp,
+  /** Sets the flex-direction. */
+  direction: directionProp,
+  /** Sets flex-grow. */
+  grow: responsiveNumberProp,
+  /** Sets flex-shrink. */
+  shrink: responsiveNumberProp,
+  /** Sets flex-basis. */
+  basis: responsiveProp,
+  /** Sets order. */
+  order: responsiveNumberProp,
+  /** Sets flex. */
+  flex: responsiveProp,
+  /** Sets justify-content. */
+  justifyContent: responsiveStringProp,
+  /** Sets align-content. */
+  alignContent: responsiveStringProp,
+  /** Sets align-items. */
+  alignItems: responsiveStringProp,
+  /** Sets align-self. */
+  alignSelf: responsiveStringProp,
+  /** Sets max-width. */
+  maxWidth: responsiveProp,
+  /** Sets min-width. */
+  minWidth: responsiveProp,
+  /** Sets width. */
+  width: responsiveProp,
+  /** Sets max-height. */
+  maxHeight: responsiveProp,
+  /** Sets min-height. */
+  minHeight: responsiveProp,
+  /** Sets height. */
+  height: responsiveProp,
 }

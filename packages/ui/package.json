@@ -30,6 +30,7 @@
     "test": "cross-env BABEL_ENV=commonjs echo 1",
     "coverage": "yarn test --coverage",
     "storybook": "start-storybook -p 6006  -s ./public -c .storybook",
+    "styleguide": "styleguidist server",
     "release": "yarn build && npm publish"
   },
   "repository": "https://github.com/bdp-rps/mono.git",
@@ -42,6 +43,7 @@
     "fela-plugin-rtl": "^11.2.0",
     "fela-preset-web": "^11.2.0",
     "fela-sort-media-query-mobile-first": "^11.2.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fela": "^11.2.0"
@@ -65,6 +67,7 @@
     "cross-env": "^6.0.3",
     "jest": "^23.6.0",
     "playroom": "^0.9.4",
+    "react-styleguidist": "^11.0.4",
     "rimraf": "^3.0.0",
     "storybook-addon-jsx": "^7.1.15"
   }
