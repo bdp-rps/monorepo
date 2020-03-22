@@ -5,19 +5,13 @@ import { useFela } from 'react-fela'
 import Spacer from '../spacer'
 
 import applySpacing from '../../utils/applySpacing'
-import { responsiveProps } from '../../styling/getFelaRenderer'
 
-const removeResponsiveProps = props =>
-  Object.keys(props).reduce((domProps, key) => {
-    if (!responsiveProps[key]) {
-      domProps[key] = props[key]
-    }
-
-    return domProps
-  }, {})
-
-const style = ({
-  theme,
+export default function Box({
+  children,
+  as: As,
+  extend,
+  style: inlineStyle,
+  gap,
   className,
   padding,
   paddingLeft,
@@ -40,69 +34,62 @@ const style = ({
   order,
   alignContent,
   justifyContent,
+  alignItems,
   alignSelf,
   flex,
   basis,
   direction,
   display,
-  alignItems,
   wrap,
-}) => {
-  const spacing = applySpacing(theme.baselineGrid)
-
-  return {
-    _className: className,
-    boxSizing: 'border-box',
-    flexDirection: direction,
-    flexWrap: wrap,
-    flexGrow: grow,
-    flexShrink: shrink,
-    flexBasis: basis,
-    flex,
-    justifyContent,
-    alignContent,
-    alignItems,
-    alignSelf,
-    order,
-    display,
-    maxWidth,
-    minWidth,
-    width,
-    maxHeight,
-    minHeight,
-    height,
-    padding: spacing(padding),
-    paddingLeft: spacing(paddingLeft),
-    paddingRight: spacing(paddingRight),
-    paddingBottom: spacing(paddingBottom),
-    paddingTop: spacing(paddingTop),
-    margin: spacing(margin),
-    marginLeft: spacing(marginLeft),
-    marginRight: spacing(marginRight),
-    marginBottom: spacing(marginBottom),
-    marginTop: spacing(marginTop),
-  }
-}
-
-export default function Box({
-  children,
-  as: As,
-  extend,
-  style: inlineStyle,
-  spacing,
   ...props
 }) {
   const { css, theme } = useFela(props)
-
-  const domProps = removeResponsiveProps(props)
+  const spacing = applySpacing(theme.baselineGrid)
 
   return (
-    <As {...domProps} style={inlineStyle} className={css(style, extend)}>
-      {spacing
+    <As
+      {...props}
+      style={inlineStyle}
+      className={css(
+        {
+          _className: className,
+          boxSizing: 'border-box',
+          flexDirection: direction,
+          flexWrap: wrap,
+          flexGrow: grow,
+          flexShrink: shrink,
+          flexBasis: basis,
+          flex,
+          justifyContent,
+          alignContent,
+          alignItems,
+          alignSelf,
+          order,
+          display,
+          maxWidth,
+          minWidth,
+          width,
+          maxHeight,
+          minHeight,
+          height,
+          padding: spacing(padding),
+          paddingLeft: spacing(paddingLeft),
+          paddingRight: spacing(paddingRight),
+          paddingBottom: spacing(paddingBottom),
+          paddingTop: spacing(paddingTop),
+          margin: spacing(margin),
+          marginLeft: spacing(marginLeft),
+          marginRight: spacing(marginRight),
+          marginBottom: spacing(marginBottom),
+          marginTop: spacing(marginTop),
+        },
+        extend
+      )}>
+      {gap
         ? Children.toArray(children).map((child, index, arr) => (
             <React.Fragment key={index}>
               {child}
-              {index === arr.length - 1 ? null : <Spacer size={spacing} />}
+              {index === arr.length - 1 ? null : <Spacer size={gap} />}
             </React.Fragment>
           ))
         : children}
@@ -155,7 +142,7 @@ Box.propTypes = {
   /** Adds inline styles. */
   style: PropTypes.object,
   /** Adds spacing between children based on the baselineGrid. */
-  spacing: responsiveNumberProp,
+  gap: responsiveNumberProp,
   /** Adds left padding based on the baselineGrid. */
   paddingLeft: responsiveProp,
   /** Adds right padding based on the baselineGrid. */

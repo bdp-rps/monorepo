@@ -4,11 +4,11 @@ It supports a couple of responsive props which means that it accepts either a si
 ### Basic Usage
 
 ```jsx
-<Box spacing={5} direction="row">
+<Box gap={5} direction="row">
   <Box padding={10} extend={{ backgroundColor: 'grey' }} />
   <Box
     padding={10}
-    spacing={3}
+    gap={3}
     direction="row"
     extend={{ backgroundColor: 'grey' }}>
     <Box padding={10} extend={{ backgroundColor: 'lightgrey' }} />
@@ -22,7 +22,7 @@ It supports a couple of responsive props which means that it accepts either a si
 ```jsx
 <Box
   padding={10}
-  spacing={[3, , , 10]}
+  gap={[3, , , 10]}
   direction={['column', , , 'row']}
   extend={{ backgroundColor: 'grey' }}>
   <Box padding={10} extend={{ backgroundColor: 'lightgrey' }} />

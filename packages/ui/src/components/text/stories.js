@@ -9,15 +9,15 @@ import Wrapper from '../../../stories/Wrapper'
 storiesOf('Core/Typography', module).addWithJSX('Default', () => (
   <>
     <BaselineGrid />
-    <Text intent="title">Title</Text>
-    <Text intent="subtitle">Subtitle</Text>
-    <Text intent="category">Category</Text>
-    <Text intent="body">Body Text</Text>
-    <Text>Default Text</Text>
-    <Text intent="label">Label Text</Text>
-    <Text intent="note">Note Text</Text>
+    <Text intent="title">A Quick Brown Fox Jumps Over The Lazy Dog</Text>
+    <Text intent="subtitle">A Quick Brown Fox Jumps Over The Lazy Dog</Text>
+    <Text intent="category">A Quick Brown Fox Jumps Over The Lazy Dog</Text>
+    <Text intent="body">A Quick Brown Fox Jumps Over The Lazy Dog</Text>
+    <Text>A Quick Brown Fox Jumps Over The Lazy Dog</Text>
+    <Text intent="label">A Quick Brown Fox Jumps Over The Lazy Dog</Text>
+    <Text intent="note">A Quick Brown Fox Jumps Over The Lazy Dog</Text>
     <Text intent="note" variant="info">
-      Note Text
+      A Quick Brown Fox Jumps Over The Lazy Dog
     </Text>
   </>
 ))

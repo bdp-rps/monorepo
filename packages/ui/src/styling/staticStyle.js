@@ -7,6 +7,13 @@ export default [
     },
   },
   {
+    selector: '::-webkit-scrollbar',
+    style: {
+      display: 'none',
+    },
+  },
+
+  {
     selector: 'body, html, #__next',
     style: {
       width: '100%',

@@ -6,6 +6,8 @@ import Box from './components/box'
 import Button from './components/button'
 import Card from './components/card'
 import Col from './components/col'
+import Checkbox from './components/checkbox'
+import Radio from './components/radio'
 import Grid from './components/grid'
 import Row from './components/row'
 import ScrollView from './components/scrollView'
@@ -20,6 +22,8 @@ export {
   Box,
   Button,
   Card,
+  Checkbox,
+  Radio,
   Col,
   FelaProvider,
   getFelaRenderer,

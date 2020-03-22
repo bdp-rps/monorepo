@@ -1,19 +1,30 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import Box from '../box'
 import Card from './'
+import Box from '../box'
+import Text from '../text'
 
 storiesOf('Layout/Card', module).addWithJSX('Default', () => (
-  <Box spacing={4} maxWidth={350} padding={4}>
-    <Card elevation="minimal">Minimal</Card>
-    <Card elevation="low">Low</Card>
-    <Card elevation="medium">Medium</Card>
-    <Card elevation="high">High</Card>
+  <Box gap={4} maxWidth={350} padding={4}>
+    <Card extend={{ textAlign: 'center' }} elevation="minimal">
+      <Text>Minimal</Text>
+    </Card>
+    <Card extend={{ textAlign: 'center' }} elevation="low">
+      <Text>Low</Text>
+    </Card>
+    <Card extend={{ textAlign: 'center' }} elevation="medium">
+      <Text>Medium</Text>
+    </Card>
+    <Card extend={{ textAlign: 'center' }} elevation="high">
+      <Text>High</Text>
+    </Card>
     <Card elevation="minimal">
       <Card elevation="low">
         <Card elevation="medium">
-          <Card elevation="high">Pyramid</Card>
+          <Card extend={{ textAlign: 'center' }} elevation="high">
+            <Text>Pyramid</Text>
+          </Card>
         </Card>
       </Card>
     </Card>

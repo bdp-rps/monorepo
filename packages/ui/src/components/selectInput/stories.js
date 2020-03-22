@@ -34,7 +34,7 @@ storiesOf('Forms/SelectInput', module).add('Default', () => {
 
   return (
     <>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty">
           <SelectInputWithValue />
         </Wrapper>
@@ -42,7 +42,7 @@ storiesOf('Forms/SelectInput', module).add('Default', () => {
           <SelectInputWithValue defaultValue="A" />
         </Wrapper>
       </Box>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty - Error">
           <SelectInputWithValue
             isValid={false}
@@ -58,7 +58,7 @@ storiesOf('Forms/SelectInput', module).add('Default', () => {
           />
         </Wrapper>
       </Box>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty - Disabled">
           <SelectInputWithValue disabled description="I'm a helper text." />
         </Wrapper>

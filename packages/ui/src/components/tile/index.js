@@ -15,7 +15,7 @@ export default function Tile({ image, title, children }) {
   return (
     <Box
       padding={3}
-      spacing={1}
+      gap={1}
       extend={{
         backgroundColor: 'white',
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',
@@ -23,11 +23,11 @@ export default function Tile({ image, title, children }) {
       <Box
         justifyContent="flex-end"
         alignItems="flex-start"
+        width="100%"
+        height={image ? 120 : 'auto'}
         extend={{
           backgroundImage: image ? 'url("' + image + '")' : undefined,
           backgroundSize: 'cover',
-          width: '100%',
-          height: image ? 120 : 'auto',
         }}>
         {title ? (
           <Box

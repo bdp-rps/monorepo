@@ -31,7 +31,7 @@ storiesOf('Forms/TextInput', module).add('Default', () => {
 
   return (
     <>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty">
           <TextInputWithValue />
         </Wrapper>
@@ -39,7 +39,7 @@ storiesOf('Forms/TextInput', module).add('Default', () => {
           <TextInputWithValue defaultValue="Entry" />
         </Wrapper>
       </Box>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty - Error">
           <TextInputWithValue
             isValid={false}
@@ -55,7 +55,7 @@ storiesOf('Forms/TextInput', module).add('Default', () => {
           />
         </Wrapper>
       </Box>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty - Disabled">
           <TextInputWithValue disabled description="I'm a helper text." />
         </Wrapper>

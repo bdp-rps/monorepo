@@ -2,10 +2,14 @@ var path = require('path')
 
 module.exports = {
   title: 'BdP LV RPS Styleguide',
+  assetsDir: path.resolve(__dirname, 'public'),
   pagePerSection: true,
   exampleMode: 'expand',
   usageMode: 'expand',
   components: 'src/components/**/index.js',
+  context: {
+    Box: path.resolve(__dirname, 'src/components/box/index.js'),
+  },
   template: {
     head: {
       raw:

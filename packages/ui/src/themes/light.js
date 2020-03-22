@@ -1,6 +1,8 @@
 const colors = {
-  yellow: 'rgb(255, 203, 004)',
+  yellow: 'rgb(255, 203, 4)',
+  yellowLight: 'rgb(245, 193, 0)',
   blue: 'rgb(29, 72, 153)',
+  blueLight: 'rgb(39, 82, 163)',
   brown: 'rgb(107, 92, 72)',
   red: 'rgb(211, 0, 20)',
   black: 'rgb(10, 10, 10)',
@@ -24,7 +26,9 @@ export default {
   colors,
   tokens: {
     primary: colors.blue,
+    primaryLight: colors.blueLight,
     secondary: colors.yellow,
+    secondaryLight: colors.yellowLight,
     alert: colors.red,
     inputPaddingVertical: 10,
     inputPaddingHorizontal: 10,

@@ -7,7 +7,7 @@ import Box from '../box'
 import Wrapper from '../../../stories/Wrapper'
 
 storiesOf('Molecules/Tile', module).addWithJSX('Default', () => (
-  <Box spacing={1} maxWidth={350}>
+  <Box gap={1} maxWidth={350}>
     <Wrapper name="Text only">
       <Tile>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import { useFela } from 'react-fela'
 
+import Box from '../box'
+
 const style = ({ elevation }) => ({
   transition: 'box-shadow 200ms ease-in-out',
-  borderRadius: 7,
   padding: 20,
   backgroundColor: 'white',
   extend: [
@@ -46,8 +48,26 @@ const style = ({ elevation }) => ({
   ],
 })
 
-export default function Card({ children, elevation = 'low' }) {
-  const { css } = useFela({ elevation })
+export default function Card({
+  children,
+  extend,
+  elevation = 'low',
+  ...props
+}) {
+  return (
+    <Box {...props} extend={[style({ elevation }), extend]}>
+      {children}
+    </Box>
+  )
+}
 
-  return <div className={css(style)}>{children}</div>
+Card.defaultProps = {
+  elevation: 'low',
+}
+
+Card.propTypes = {
+  /** Sets the amount of elevation that the card is above the page. */
+  elevation: PropTypes.oneOf(['minimal', 'low', 'medium', 'high']),
+  /** Extends the Fela style object. */
+  extends: PropTypes.object,
 }

@@ -25,6 +25,11 @@ function loadStories() {
     './textInput/stories.js',
     './textArea/stories.js',
     './selectInput/stories.js',
+    './checkbox/stories.js',
+    './radio/stories.js',
+
+    // Actions
+    './button/stories.js',
 
     // Molecules
     './tile/stories.js',

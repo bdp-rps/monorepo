@@ -31,7 +31,7 @@ storiesOf('Forms/TextArea', module).add('Default', () => {
 
   return (
     <>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty">
           <TextAreaWithValue />
         </Wrapper>
@@ -39,7 +39,7 @@ storiesOf('Forms/TextArea', module).add('Default', () => {
           <TextAreaWithValue defaultValue="Entry" />
         </Wrapper>
       </Box>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty - Error">
           <TextAreaWithValue
             isValid={false}
@@ -55,7 +55,7 @@ storiesOf('Forms/TextArea', module).add('Default', () => {
           />
         </Wrapper>
       </Box>
-      <Box spacing={4} direction="row">
+      <Box gap={4} direction="row">
         <Wrapper name="Empty - Disabled">
           <TextAreaWithValue disabled description="I'm a helper text." />
         </Wrapper>
