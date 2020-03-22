@@ -3,6 +3,7 @@ var path = require('path')
 module.exports = {
   title: 'BdP LV RPS Styleguide',
   assetsDir: path.resolve(__dirname, 'public'),
+  styleguideDir: '../website/public/styleguide',
   pagePerSection: true,
   exampleMode: 'expand',
   usageMode: 'expand',

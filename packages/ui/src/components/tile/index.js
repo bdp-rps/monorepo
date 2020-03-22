@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import { useFela } from 'react-fela'
 
@@ -41,4 +42,13 @@ export default function Tile({ image, title, children }) {
       <Text>{children}</Text>
     </Box>
   )
+}
+
+Tile.propTypes = {
+  /** The highlighted tile title. */
+  title: PropTypes.string,
+  /** The tile main content. */
+  children: PropTypes.string,
+  /** The highlighted image.. */
+  children: PropTypes.string,
 }

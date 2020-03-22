@@ -1,8 +1,9 @@
 import { Box, TextInput } from '@bdp-rps/ui'
 
 export default () => (
-  <Box spacing={2}>
-    <Box>Ho</Box>
-    <TextInput label="Label" description="Hehe geht ja" value="foo" />
+  <Box gap={10} padding={10}>
+    <a href="/styleguide/index.html">Styleguide</a>
+    <a href="/storybook/index.html">Storybook</a>
+    <a href="/playroom/index.html">Playroom</a>
   </Box>
 )

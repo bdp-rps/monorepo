@@ -4,7 +4,7 @@
   "description": "Official bdp-rps.de website",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf public/storybook public/playroom",
     "dev": "now dev",
     "build": "next build",
     "now-build": "yarn build",

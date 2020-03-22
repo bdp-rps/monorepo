@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import { useFela } from 'react-fela'
 
@@ -37,14 +38,14 @@ const style = ({ isValid, disabled, theme }) => ({
 export default function TextInput({
   name,
   value,
-  isValid = true,
+  isValid,
   disabled,
   required,
   onChange,
   onBlur,
   onFocus,
   placeholder,
-  type = 'text',
+  type,
   label,
   errorMessage,
   description,
@@ -58,7 +59,9 @@ export default function TextInput({
 
   return (
     <Box>
-      <label htmlFor={name}>
+      <label
+        htmlFor={name}
+        className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
         <Text intent="label">{label}</Text>
       </label>
       <input
@@ -73,7 +76,7 @@ export default function TextInput({
         onFocus={onFocus}
         className={css(style)}
       />
-      {errorMessage ? (
+      {errorMessage && !isValid ? (
         <Text intent="note" extend={{ color: theme.tokens.alert }}>
           {errorMessage}
         </Text>
@@ -81,4 +84,38 @@ export default function TextInput({
       {description ? <Text intent="note">{description}</Text> : null}
     </Box>
   )
+}
+
+TextInput.defaultProps = {
+  isValid: true,
+  disabled: false,
+  required: false,
+  type: 'text',
+}
+
+TextInput.propTypes = {
+  /** The change event handler.<br>Function signature is (newValue, event) => handler. */
+  onChange: PropTypes.func.isRequired,
+  /** The bur event handler. */
+  onBlur: PropTypes.func.isRequired,
+  /** The focus event handler. */
+  onFocus: PropTypes.func.isRequired,
+  /** A unique semantic name that is connected to the label. */
+  name: PropTypes.string.isRequired,
+  /** The controlled value. */
+  value: PropTypes.string,
+  /** Sets the validation state. */
+  isValid: PropTypes.bool,
+  /** Sets disabled. */
+  disabled: PropTypes.bool,
+  /** Sets required. */
+  required: PropTypes.bool,
+  /** The label text. */
+  label: PropTypes.string,
+  /** An error message text that is displayed once isValid is false. */
+  errorMessage: PropTypes.string,
+  /** Additional description information display beneath the input. */
+  description: PropTypes.string,
+  /** The input type. */
+  type: PropTypes.oneOf(['text', 'number', 'tel', 'email']),
 }

@@ -90,18 +90,20 @@ export default function Radio({
       <Box direction="row" gap={1.5} alignItems="center">
         <input
           type="radio"
-          id={name + value}
+          id={name + id}
           name={name}
           value={name}
           checked={value === id}
           disabled={disabled}
           required={required}
-          onChange={e => onChange(e.target.value, e)}
+          onChange={e => onChange(id, e)}
           onBlur={onBlur}
           onFocus={onFocus}
           className={css(style)}
         />
-        <label htmlFor={name + value}>
+        <label
+          htmlFor={name + id}
+          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
           <Text intent="label">{label}</Text>
         </label>
       </Box>
@@ -125,10 +127,12 @@ Radio.defaultProps = {
 Radio.propTypes = {
   /** The change event handler.<br>Function signature is (newValue, event) => handler. */
   onChange: PropTypes.func.isRequired,
-  /** A unique semantic name that is connected to the label. */
+  /** A unique semantic name for the radio group. */
   name: PropTypes.string.isRequired,
   /** The controlled value. */
   value: PropTypes.bool,
+  /** A unique id for that radio button. */
+  id: PropTypes.bool,
   /** Sets the validation state. */
   isValid: PropTypes.bool,
   /** Sets disabled. */

@@ -98,16 +98,18 @@ export default function Checkbox({
           checked={value}
           disabled={disabled}
           required={required}
-          onChange={e => onChange(e.target.value, e)}
+          onChange={e => onChange(!value, e)}
           onBlur={onBlur}
           onFocus={onFocus}
           className={css(style)}
         />
-        <label htmlFor={name}>
+        <label
+          htmlFor={name}
+          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
           <Text intent="label">{label}</Text>
         </label>
       </Box>
-      {errorMessage ? (
+      {errorMessage && !isValid ? (
         <Text intent="note" extend={{ color: theme.tokens.alert }}>
           {errorMessage}
         </Text>

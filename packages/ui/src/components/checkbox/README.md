@@ -5,31 +5,51 @@ A basic Checkbox form input that is best used as a controlled input field with `
 ```jsx
 <Box gap={4}>
   <Checkbox label="Default" />
-  <Checkbox
-    label="Checked"
-    description="This is checked by default"
-    value={true}
-  />
-  <Checkbox label="Disabled" disabled={true} />
-  <Checkbox label="Disabled + Checked" disabled={true} value={true} />
+  <Checkbox label="Checked" value={true} />
+</Box>
+```
+
+### Description & Error Message
+
+```jsx
+<Box gap={4}>
+  <Checkbox label="Default" description="Some description" />
   <Checkbox
     label="Error"
-    errorMessage="Something went wrong."
-    isValid={false}
-  />
-  <Checkbox
-    label="Error + Checked"
     description="This is checked by default"
     errorMessage="Something went wrong."
     isValid={false}
     value={true}
   />
+</Box>
+```
+
+### Disabled
+
+```jsx
+<Box gap={4}>
+  <Checkbox label="Default" disabled={true} />
+  <Checkbox label="Checked" disabled={true} value={true} />
   <Checkbox
-    label="Error + Disabled + Checked"
+    label="Error + Checked"
     errorMessage="Something went wrong."
     isValid={false}
     disabled={true}
     value={true}
   />
 </Box>
+```
+
+### Controlled
+
+```jsx
+const [value, setValue] = React.useState(false)
+
+;<Checkbox
+  label="Default"
+  value={value}
+  onChange={setValue}
+  isValid={!value}
+  errorMessage="Check me please"
+/>
 ```
