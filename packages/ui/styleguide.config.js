@@ -8,6 +8,10 @@ module.exports = {
   exampleMode: 'expand',
   usageMode: 'expand',
   components: 'src/components/**/index.js',
+  dangerouslyUpdateWebpackConfig(webpackConfig, env) {
+    webpackConfig.plugins[3].dangerouslyAllowCleanPatternsOutsideProject = true
+    return webpackConfig
+  },
   context: {
     Box: path.resolve(__dirname, 'src/components/box/index.js'),
   },

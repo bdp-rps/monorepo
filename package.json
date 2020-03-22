@@ -9,7 +9,7 @@
     "build": "lerna run build",
     "format": "prettier --write \"**/*.js\"",
     "coverage": "lerna run coverage",
-    "publish-website": "cd website && yarn deploy",
+    "deploy": "yarn build && cd packages/ui && npm run release && cd ../website && yarn deploy",
     "setup": "yarn bootstrap && yarn build",
     "test": "lerna run test",
     "check": "yarn run test",
