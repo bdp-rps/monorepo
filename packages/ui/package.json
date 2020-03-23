@@ -1,6 +1,6 @@
 {
   "name": "@bdp-rps/ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -21,9 +21,8 @@
     "Edge >= 15"
   ],
   "scripts": {
-    "clean": "rimraf lib es coverage",
     "build": "yarn build:package && yarn build:tools",
-    "build:package": "yarn run clean && yarn build:es && yarn build:lib",
+    "build:package": "yarn build:es && yarn build:lib",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
     "build:storybook": "build-storybook -c .storybook -o ../website/public/storybook",
@@ -75,5 +74,5 @@
     "rimraf": "^3.0.0",
     "storybook-addon-jsx": "^7.1.15"
   },
-  "gitHead": "32074d8bc718fbeb44b2e42a72f4d2435114656f"
+  "gitHead": "26b380965e04c5efe58c5bb13ddfb67aad156d3b"
 }

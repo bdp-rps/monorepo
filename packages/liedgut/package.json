@@ -1,7 +1,7 @@
 {
   "name": "@bdp-rps/liedgut",
   "description": "Vorlagen, Inhalte und Zusatzmaterial rund ums Thema Liedgut",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf dist lib es coverage",
+    "clean": "rimraf ./dist ./lib ./es ./coverage",
     "prepare": "yarn run clean && mkdir dist",
     "build": "yarn prepare && yarn build:songlist && yarn build:ohrwurm && yarn build:package",
     "build:package": "yarn build:es && yarn build:lib",
@@ -39,7 +39,7 @@
     "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
-    "@bdp-rps/react-pdf-renderer": "^0.0.4",
+    "@bdp-rps/react-pdf-renderer": "^0.0.5",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -48,5 +48,5 @@
   "devDependencies": {
     "@babel/polyfill": "^7.2.5"
   },
-  "gitHead": "32074d8bc718fbeb44b2e42a72f4d2435114656f"
+  "gitHead": "26b380965e04c5efe58c5bb13ddfb67aad156d3b"
 }

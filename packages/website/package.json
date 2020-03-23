@@ -1,10 +1,10 @@
 {
   "name": "bdp-rps.de",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Official bdp-rps.de website",
   "private": true,
   "scripts": {
-    "clean": "rimraf public/storybook public/playroom",
+    "clean": "rimraf ./public/storybook ./public/playroom",
     "dev": "now dev",
     "build": "next build",
     "now-build": "yarn build",
@@ -13,8 +13,8 @@
     "deploy": "now --prod"
   },
   "dependencies": {
-    "@bdp-rps/liedgut": "^0.0.4",
-    "@bdp-rps/ui": "^0.0.4",
+    "@bdp-rps/liedgut": "^0.0.5",
+    "@bdp-rps/ui": "^0.0.5",
     "next": "^9.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
