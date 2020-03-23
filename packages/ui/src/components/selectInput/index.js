@@ -6,6 +6,7 @@ import Text from '../text'
 
 const style = ({ isValid, disabled, theme }) => ({
   display: 'flex',
+  borderRadius: 0,
   appearance: 'none',
   borderWidth: 2,
   borderStyle: 'solid',

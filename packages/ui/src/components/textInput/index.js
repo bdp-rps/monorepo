@@ -7,6 +7,7 @@ import Text from '../text'
 
 const style = ({ isValid, disabled, theme }) => ({
   appearance: 'none',
+  borderRadius: 0,
   borderWidth: 2,
   borderStyle: 'solid',
   borderColor: theme.tokens.inputBorder,

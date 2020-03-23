@@ -5,5 +5,7 @@ export default () => (
     <a href="/styleguide/index.html">Styleguide</a>
     <a href="/storybook/index.html">Storybook</a>
     <a href="/playroom/index.html">Playroom</a>
+    <a href="/liedgut">Liedgut</a>
+    <a href="/map">Platzfinder</a>
   </Box>
 )

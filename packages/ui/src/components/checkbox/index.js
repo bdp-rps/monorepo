@@ -8,6 +8,7 @@ import Text from '../text'
 const style = ({ theme, isValid }) => ({
   appearance: 'none',
   boxSizing: 'border-box',
+  borderRadius: 0,
   width: 24,
   height: 24,
   margin: 0,
