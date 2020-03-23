@@ -1,6 +1,6 @@
 {
   "name": "@bdp-rps/ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -75,5 +75,5 @@
     "rimraf": "^3.0.0",
     "storybook-addon-jsx": "^7.1.15"
   },
-  "gitHead": "0e549ea3470714b97c4b2a1359d8d9eaf71f42d1"
+  "gitHead": "039acea848e0c40488052fb649af5af668256b0a"
 }
