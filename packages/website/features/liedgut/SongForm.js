@@ -5,10 +5,16 @@ import {
   TextArea,
   TextInput,
   SelectInput,
+  Checkbox,
+  Text,
   useTheme,
 } from '@bdp-rps/ui'
+import renderAuthors from '@bdp-rps/liedgut/lib/utils/renderAuthors'
 
 import Song from '../../components/Song'
+import Modal from '../../components/Modal'
+import ListItem from '../../components/ListItem'
+import Loading from '../../components/Loading'
 
 const defaultSong = {
   content: '',
@@ -28,7 +34,7 @@ const TabNav = ({ onChange, style, extend, children }) => (
     <Box
       as="nav"
       direction="row"
-      justifyContent="center"
+      justifyContent="flex-start"
       style={style}
       extend={[style, extend]}>
       {children}
@@ -44,8 +50,8 @@ const TabNavItem = ({ disabled = false, id, active, children }) => {
     <Box
       alignSelf="auto"
       minWidth={50}
-      paddingTop={3}
-      paddingBottom={2.5}
+      paddingTop={2}
+      paddingBottom={1.5}
       marginLeft={2}
       marginRight={2}
       extend={[
@@ -57,12 +63,6 @@ const TabNavItem = ({ disabled = false, id, active, children }) => {
           borderBottomWidth: 3,
           borderBottomStyle: 'solid',
           borderBottomColor: active ? theme.tokens.primary : 'transparent',
-          ':first-child': {
-            marginLeft: 0,
-          },
-          ':last-child': {
-            marginRight: 0,
-          },
         },
       ]}
       onClick={() => {
@@ -70,73 +70,261 @@ const TabNavItem = ({ disabled = false, id, active, children }) => {
           onChange(id)
         }
       }}>
-      <Text intent="category">{children}</Text>
+      <Text
+        extend={{
+          fontFamily: theme.fonts.content,
+        }}
+        color={
+          disabled
+            ? theme.tokens.inputDisabledForeground
+            : active
+            ? theme.tokens.primary
+            : theme.tokens.foreground
+        }>
+        {children}
+      </Text>
     </Box>
   )
 }
 
+const defaultAuthor = {
+  name: '',
+  nickname: '',
+  group: '',
+  organisation: '',
+  year: '',
+}
+
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [song, setSong] = useState(initialSong)
+  const [author, setAuthor] = useState(defaultAuthor)
+  const [tab, setTab] = useState('details')
+  const [authorVisible, setAuthorVisible] = useState(false)
+  const [wordsAndTune, setWordsAndTune] = useState(false)
+  const [authorMode, setAuthorMode] = useState()
 
   return (
-    <Box direction="row" grow={1} height="100%">
-      <Box gap={5} padding={5} grow={1} basis="50%" height="100%">
-        <TabNav onChange={id => alert(id)}>
-          <TabNavItem id="foo">Foo</TabNavItem>
-          <TabNavItem id="bar">Bar</TabNavItem>
+    <Box direction={['column', , , 'row']} grow={1} alignSelf="stretch">
+      <Box grow={[1, , , 0]} basis="50%">
+        <TabNav onChange={setTab}>
+          <TabNavItem active={tab === 'details'} id="details">
+            Details
+          </TabNavItem>
+          <TabNavItem active={tab === 'text'} id="text">
+            Liedtext
+          </TabNavItem>
         </TabNav>
-        <TextInput
-          label="Titel"
-          value={song.title}
-          onChange={title => setSong({ ...song, title })}
-        />
-        <TextInput
-          type="number"
-          label="Tempo"
-          value={song.tempo}
-          onChange={tempo => setSong({ ...song, tempo })}
-        />
-        <SelectInput
-          label="Takt"
-          value={song.beat}
-          onChange={beat => setSong({ ...song, beat })}>
-          <option value="1/2">1/2</option>
-          <option value="2/4">2/4</option>
-          <option value="3/4">3/4</option>
-          <option value="4/4">4/4</option>
-          <option value="5/4">5/4</option>
-          <option value="6/8">6/8</option>
-        </SelectInput>
-        <TextArea
-          label="Zusatz-Information"
-          description="z.B. Worterklärung, Ergänzungen ode Widmungen"
-          value={song.info}
-          onChange={info => setSong({ ...song, info })}
-        />
-        <TextArea
-          extend={{ flexGrow: 1 }}
-          label="Liedtext"
-          description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
-          value={song.content}
-          onChange={content =>
-            setSong({
-              ...song,
-              content,
-            })
-          }
-        />
+        <Box grow={1} extend={{ backgroundColor: 'rgb(245, 245, 245)' }}>
+          <Box
+            grow={1}
+            gap={5}
+            padding={5}
+            display={tab === 'details' ? 'flex' : 'none'}>
+            <TextInput
+              label="Titel"
+              value={song.title}
+              onChange={title => setSong({ ...song, title })}
+            />
+            <TextInput
+              type="number"
+              label="Tempo"
+              value={song.tempo}
+              onChange={tempo => setSong({ ...song, tempo })}
+            />
+            <SelectInput
+              label="Takt"
+              value={song.beat}
+              onChange={beat => setSong({ ...song, beat })}>
+              <option value="1/2">1/2</option>
+              <option value="2/4">2/4</option>
+              <option value="3/4">3/4</option>
+              <option value="4/4">4/4</option>
+              <option value="5/4">5/4</option>
+              <option value="6/8">6/8</option>
+            </SelectInput>
+            <TextArea
+              label="Zusatz-Information"
+              description="z.B. Worterklärung, Ergänzungen oder Widmungen"
+              value={song.info}
+              onChange={info => setSong({ ...song, info })}
+            />
+
+            <Box gap={1}>
+              <Text intent="label">Worte</Text>
+
+              <Box>
+                {song.words.map(author => (
+                  <ListItem>
+                    <Box direction="row" gap={2} alignItems="center">
+                      <Text>{renderAuthors([author])}</Text>
+
+                      <Box direction="row" alignSelf="flex-end" gap={2}>
+                        <Button
+                          variant="secondary"
+                          onClick={() =>
+                            setSong({
+                              ...song,
+                              words: song.words.filter(a => author !== a),
+                            })
+                          }>
+                          Löschen
+                        </Button>
+                      </Box>
+                    </Box>
+                  </ListItem>
+                ))}
+              </Box>
+              <Box alignSelf="flex-start">
+                <Button
+                  onClick={() => {
+                    setAuthorMode('words')
+                    setAuthorVisible(true)
+                  }}>
+                  Hinzufügen
+                </Button>
+              </Box>
+            </Box>
+
+            <Box gap={1}>
+              <Text intent="label">Weise</Text>
+
+              <Box>
+                {song.tune.map(author => (
+                  <ListItem>
+                    <Box direction="row" gap={2} alignItems="center">
+                      <Text>{renderAuthors([author])}</Text>
+
+                      <Box direction="row" alignSelf="flex-end" gap={2}>
+                        <Button
+                          variant="secondary"
+                          onClick={() =>
+                            setSong({
+                              ...song,
+                              tune: song.tune.filter(a => author !== a),
+                            })
+                          }>
+                          Löschen
+                        </Button>
+                      </Box>
+                    </Box>
+                  </ListItem>
+                ))}
+              </Box>
+              <Box alignSelf="flex-start">
+                <Button
+                  onClick={() => {
+                    setAuthorMode('tune')
+                    setAuthorVisible(true)
+                  }}>
+                  Hinzufügen
+                </Button>
+              </Box>
+            </Box>
+            <Modal
+              visible={authorVisible}
+              onClose={() => setAuthorVisible(false)}>
+              <Box gap={4} padding={2} minWidth={350}>
+                <Text intent="category">Autor hinzufügen</Text>
+                <TextInput
+                  value={author.name}
+                  onChange={name => setAuthor({ ...author, name })}
+                  label="Name"
+                />
+                <TextInput
+                  value={author.nickname}
+                  onChange={nickname => setAuthor({ ...author, nickname })}
+                  label="Fahrtenname"
+                />
+                <TextInput
+                  value={author.group}
+                  onChange={group => setAuthor({ ...author, group })}
+                  label="Gruppe"
+                />
+                <TextInput
+                  value={author.organisation}
+                  onChange={organisation =>
+                    setAuthor({ ...author, organisation })
+                  }
+                  label="Organisation"
+                />
+                <TextInput
+                  value={author.year}
+                  onChange={year => setAuthor({ ...author, year })}
+                  label="Jahr"
+                />
+                <Checkbox
+                  name="words-and-tune"
+                  label="Weise & Worte"
+                  value={wordsAndTune}
+                  onChange={setWordsAndTune}
+                />
+                <Box paddingTop={2} gap={2}>
+                  <Button
+                    onClick={() => {
+                      if (wordsAndTune) {
+                        setSong({
+                          ...song,
+                          words: [...song.words, author],
+                          tune: [...song.tune, author],
+                        })
+                      } else {
+                        setSong({
+                          ...song,
+                          [authorMode]: [...song[authorMode], author],
+                        })
+                      }
+
+                      setAuthor(defaultAuthor)
+                      setAuthorVisible(false)
+                    }}>
+                    Hinzufügen
+                  </Button>
+                  <Button
+                    variant="secondary"
+                    onClick={() => {
+                      setAuthor(defaultAuthor)
+                      setAuthorVisible(false)
+                    }}>
+                    Abbrechen
+                  </Button>
+                </Box>
+              </Box>
+            </Modal>
+          </Box>
+          <Box
+            grow={1}
+            gap={5}
+            padding={5}
+            display={tab === 'text' ? 'flex' : 'none'}>
+            <TextArea
+              extend={{ flexGrow: 1 }}
+              label="Liedtext"
+              description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
+              value={song.content}
+              onChange={content =>
+                setSong({
+                  ...song,
+                  content,
+                })
+              }
+            />
+          </Box>
+        </Box>
       </Box>
       <Box
-        grow={1}
+        grow={0}
         basis="50%"
         padding={5}
-        paddingTop={8}
+        paddingTop={5}
         paddingBottom={8}
         gap={8}
         extend={{ overflow: 'auto' }}>
         <Song {...song} />
-        <Box alignSelf="flex-start">
+        <Box alignSelf="flex-start" gap={2} direction="row">
           <Button onClick={() => onSubmit(song)}>Exportieren</Button>
+          <Button variant="secondary" onClick={() => onSubmit(song)}>
+            Als PDF herunterladen
+          </Button>
         </Box>
       </Box>
     </Box>

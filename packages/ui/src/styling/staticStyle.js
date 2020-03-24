@@ -20,4 +20,13 @@ export default [
       height: '100%',
     },
   },
+  {
+    selector: '#__next',
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignSelf: 'stretch',
+      alignItems: 'stretch',
+    },
+  },
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useFela } from 'react-fela'
 
-import { Box } from '@bdp-rps/ui'
+import Box from '../box'
 
 const style = ({ theme }) => ({
   textDecoration: 'none',

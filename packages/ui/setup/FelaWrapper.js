@@ -1,4 +1,5 @@
 import React from 'react'
+
 import FelaProvider from '../src/styling/FelaProvider'
 import theme from '../src/themes/light'
 

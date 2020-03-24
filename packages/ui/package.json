@@ -26,13 +26,11 @@
     "build:package": "yarn build:es && yarn build:lib",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
-    "build:storybook": "build-storybook -c .storybook -o ../website/public/storybook",
     "build:styleguide": "styleguidist build",
     "build:playroom": "playroom build",
-    "build:tools": "yarn build:storybook && yarn build:styleguide && yarn build:playroom",
+    "build:tools": "yarn build:styleguide && yarn build:playroom",
     "test": "cross-env BABEL_ENV=commonjs echo 1",
     "coverage": "yarn test --coverage",
-    "storybook": "start-storybook -p 6006  -s ./public -c .storybook",
     "styleguide": "styleguidist server",
     "release": "yarn build && npm publish"
   },
@@ -58,12 +56,6 @@
     "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "@storybook/addon-actions": "^5.3.13",
-    "@storybook/addon-backgrounds": "^5.3.13",
-    "@storybook/addon-knobs": "^5.3.13",
-    "@storybook/addon-viewport": "^5.3.13",
-    "@storybook/addons": "^5.1.10",
-    "@storybook/react": "^5.1.10",
     "@svgr/cli": "^4.3.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
@@ -72,8 +64,7 @@
     "jest": "^23.6.0",
     "playroom": "^0.16.1",
     "react-styleguidist": "^11.0.4",
-    "rimraf": "^3.0.0",
-    "storybook-addon-jsx": "^7.1.15"
+    "rimraf": "^3.0.0"
   },
   "gitHead": "5ee69ff9b55ad4660785422eab899744c8b346fb"
 }

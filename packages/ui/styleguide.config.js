@@ -14,6 +14,9 @@ module.exports = {
   },
   context: {
     Box: path.resolve(__dirname, 'src/components/box/index.js'),
+    Button: path.resolve(__dirname, 'src/components/button/index.js'),
+    TabNavItem: path.resolve(__dirname, 'src/components/tabNavItem/index.js'),
+    NavBarItem: path.resolve(__dirname, 'src/components/navBarItem/index.js'),
   },
   template: {
     head: {
@@ -22,7 +25,7 @@ module.exports = {
     },
   },
   styleguideComponents: {
-    Wrapper: path.join(__dirname, 'stories/FelaWrapper'),
+    Wrapper: path.join(__dirname, 'setup/FelaWrapper'),
   },
   sections: [
     {

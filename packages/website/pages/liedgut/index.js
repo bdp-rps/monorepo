@@ -6,6 +6,7 @@ import NextLink from 'next/link'
 import Link from '../../components/Link'
 import ListItem from '../../components/ListItem'
 import Layout from '../../components/Layout'
+import Header from '../../components/Header'
 
 const songData = songList.reduce((songData, name) => {
   const song = require('@bdp-rps/liedgut/lib/songs/' + name).default
@@ -33,7 +34,7 @@ const SongList = () => {
   const normalizedSearch = search.toLowerCase().trim()
 
   return (
-    <Box paddingTop={10} paddingBottom={10} gap={5}>
+    <Box paddingTop={5} paddingBottom={10} gap={5}>
       <Box alignSelf="flex-start">
         <NextLink href="/liedgut/neu">
           <Button>Lied Hinzufügen</Button>
@@ -122,7 +123,10 @@ const SongList = () => {
 }
 
 export default () => (
-  <Layout>
-    <SongList />
-  </Layout>
+  <>
+    <Header />
+    <Layout>
+      <SongList />
+    </Layout>
+  </>
 )

@@ -1,8 +1,12 @@
 import React, { useRef } from 'react'
 import { Box, Card } from '@bdp-rps/ui'
 
-export default function Modal({ children, onClose }) {
+export default function Modal({ children, visible = false, onClose }) {
   const innerRef = useRef()
+
+  if (!visible) {
+    return null
+  }
 
   return (
     <Box

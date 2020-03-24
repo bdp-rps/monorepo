@@ -1,9 +1,8 @@
-import PropTypes from 'prop-types'
 import React from 'react'
-import { useFela } from 'react-fela'
+import { useTheme } from '@bdp-rps/ui'
 
-export default function Loading({ size, className, color }) {
-  const { theme } = useFela()
+export default function Loading({ size = 5, className, color }) {
+  const theme = useTheme()
 
   const pxSize = size * theme.baselineGrid
 
@@ -91,15 +90,4 @@ export default function Loading({ size, className, color }) {
       </circle>
     </svg>
   )
-}
-
-Loading.defaultProps = {
-  size: 5,
-}
-
-Loading.propTypes = {
-  /** How big the loading is rendered.<br>Based on the baselineGird. */
-  size: PropTypes.number,
-  /** A custom color to replace the default primary color. */
-  color: PropTypes.string,
 }

@@ -50,6 +50,7 @@ export default function TextInput({
   label,
   errorMessage,
   description,
+  ...props
 }) {
   const styleProps = {
     isValid,
@@ -66,6 +67,7 @@ export default function TextInput({
         <Text intent="label">{label}</Text>
       </label>
       <input
+        {...props}
         type={type}
         id={name}
         name={name}

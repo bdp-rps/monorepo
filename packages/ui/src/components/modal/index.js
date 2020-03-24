@@ -1,8 +1,15 @@
+import PropTypes from 'prop-types'
 import React, { useRef } from 'react'
-import { Box, Card } from '@bdp-rps/ui'
 
-export default function Modal({ children, onClose }) {
+import Box from '../box'
+import Card from '../card'
+
+export default function Modal({ children, visible, onClose }) {
   const innerRef = useRef()
+
+  if (!visible) {
+    return null
+  }
 
   return (
     <Box
@@ -34,4 +41,15 @@ export default function Modal({ children, onClose }) {
       </Box>
     </Box>
   )
+}
+
+Modal.defaultProps = {
+  visible: false,
+}
+
+Modal.propTypes = {
+  /** Sets the visiblity of the modal. */
+  visible: PropTypes.bool,
+  /** A listener that is called once clicked outside of the modal. */
+  onClose: PropTypes.func,
 }

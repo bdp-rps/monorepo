@@ -1,6 +1,61 @@
-import { Text, Box, Spacer, Button, useTheme } from '@bdp-rps/ui'
+import React, { useState } from 'react'
+import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
 
 import renderAuthors from '@bdp-rps/liedgut/lib/utils/renderAuthors'
+
+const chords = [
+  'c',
+  'cis',
+  'd',
+  'dis',
+  'e',
+  'f',
+  'fis',
+  'g',
+  'gis',
+  'a',
+  'ais',
+  'h',
+]
+
+const bMap = {
+  des: 'cis',
+  es: 'dis',
+  ges: 'fis',
+  as: 'gis',
+  b: 'ais',
+}
+
+const checkDur = chord =>
+  chord.substr(0, 1).toLowerCase() !== chord.substr(0, 1)
+
+const transposeChord = (chord, transpose) => {
+  const isDur = checkDur(chord)
+
+  if (chords.indexOf(chord.toLowerCase()) === -1) {
+    chord = bMap[chord.toLowerCase()]
+  }
+
+  const index = chords.indexOf(chord.toLowerCase())
+
+  let newIndex
+
+  if (transpose > 0 && index + transpose > chords.length - 1) {
+    newIndex = transpose - (chords.length - index)
+  } else if (transpose < 0 && index + transpose < 0) {
+    newIndex = chords.length + (index + transpose)
+  } else {
+    newIndex = index + transpose
+  }
+
+  const newChord = chords[newIndex]
+
+  if (isDur) {
+    return newChord.substr(0, 1).toUpperCase() + newChord.substr(1)
+  }
+
+  return newChord
+}
 
 export default function Song({
   content,
@@ -12,6 +67,7 @@ export default function Song({
   translation,
   info,
 }) {
+  const [transpose, setTranspose] = useState('0')
   const theme = useTheme()
 
   const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map(block => {
@@ -45,7 +101,7 @@ export default function Song({
   return (
     <Box>
       <Text intent="category">{title}</Text>
-      <Spacer size={2} />
+      <Spacer size={4} />
       <Box>
         {blocks.map(lines => (
           <Box wrap="wrap">
@@ -66,7 +122,9 @@ export default function Song({
                             lineHeight: 0.8,
                             color: theme.tokens.primary,
                           }}>
-                          {p.chord || ' '}
+                          {p.chord
+                            ? transposeChord(p.chord, parseInt(transpose))
+                            : ' '}
                         </Text>
 
                         <Text>{p.word.replace(/ $/, ' ')}</Text>
@@ -106,7 +164,7 @@ export default function Song({
             </Box>
           )}
 
-          {translation ? (
+          {translation && translation.length > 0 ? (
             <Text intent="note">
               Übesetzung: {renderAuthors(translation).join('; ')}
             </Text>
@@ -115,6 +173,16 @@ export default function Song({
         <Box>
           <Text intent="note">Tempo: {tempo}</Text>
           <Text intent="note">Takt: {beat}</Text>
+        </Box>
+        <Box alignItems="flex-start">
+          <TextInput
+            type="number"
+            onChange={setTranspose}
+            max={14}
+            min={-14}
+            value={transpose}
+            label="Transponieren"
+          />
         </Box>
       </Box>
     </Box>

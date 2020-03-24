@@ -7,6 +7,7 @@ import renderAuthors from '@bdp-rps/liedgut/lib/utils/renderAuthors'
 import Layout from '../../components/Layout'
 import Link from '../../components/Link'
 import Song from '../../components/Song'
+import Header from '../../components/Header'
 
 export default function Page() {
   const theme = useTheme()
@@ -20,21 +21,24 @@ export default function Page() {
   }
 
   return (
-    <Layout>
-      <Box gap={2} paddingTop={10} paddingBottom={10}>
-        <NextLink passHref href="/liedgut">
-          <Link>← Zurück zur Übersicht</Link>
-        </NextLink>
-        <Spacer size={2} />
-        <Song {...songData.default} />
-        <Box paddingTop={4} gap={2} alignSelf="flex-start" direction="row">
-          <Button>Als PDF herunterladen</Button>
-          <NextLink href={'/liedgut/edit/' + songId}>
-            <Button variant="secondary">Änderungsvorschlag</Button>
+    <>
+      <Header />
+      <Layout>
+        <Box gap={2} paddingTop={10} paddingBottom={10}>
+          <NextLink passHref href="/liedgut">
+            <Link>← Zurück zur Übersicht</Link>
           </NextLink>
+          <Spacer size={2} />
+          <Song {...songData.default} />
+          <Box paddingTop={4} gap={2} alignSelf="flex-start" direction="row">
+            <Button>Als PDF herunterladen</Button>
+            <NextLink href={'/liedgut/edit/' + songId}>
+              <Button variant="secondary">Änderungsvorschlag</Button>
+            </NextLink>
+          </Box>
         </Box>
-      </Box>
-    </Layout>
+      </Layout>
+    </>
   )
 }
 

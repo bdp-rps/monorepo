@@ -4,7 +4,7 @@ module.exports = {
 
   // Optional:
   title: 'BdP LV RPS Design System',
-  frameComponent: './stories/FelaWrapper.js',
+  frameComponent: './setup/FelaWrapper.js',
   widths: [320, 1024],
   port: 9000,
   openBrowser: true,

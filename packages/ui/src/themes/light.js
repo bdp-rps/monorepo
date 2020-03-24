@@ -30,6 +30,8 @@ export default {
     secondary: colors.yellow,
     secondaryLight: colors.yellowLight,
     alert: colors.red,
+    foreground: colors.grey1,
+    background: colors.white,
     inputPaddingVertical: 10,
     inputPaddingHorizontal: 10,
     inputDisabledBackground: colors.grey8,
