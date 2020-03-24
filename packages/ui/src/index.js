@@ -1,6 +1,7 @@
 import FelaProvider from './styling/FelaProvider'
 import StyleTags from './styling/StyleTags'
 import getFelaRenderer from './styling/getFelaRenderer'
+import useTheme from './styling/useTheme'
 
 import Box from './components/box'
 import Button from './components/button'
@@ -37,4 +38,5 @@ export {
   TextArea,
   TextInput,
   StyleTags,
+  useTheme,
 }

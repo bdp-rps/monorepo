@@ -6,6 +6,7 @@ import Box from '../box'
 import Text from '../text'
 
 const style = ({ isValid, disabled, theme }) => ({
+  flexGrow: 1,
   appearance: 'none',
   borderRadius: 0,
   borderWidth: 2,
@@ -50,6 +51,7 @@ export default function TextArea({
   label,
   errorMessage,
   description,
+  extend,
 }) {
   const styleProps = {
     isValid,
@@ -59,13 +61,13 @@ export default function TextArea({
   const { css, theme } = useFela(styleProps)
 
   return (
-    <Box>
+    <Box extend={extend}>
       <label
         htmlFor={name}
         className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
         <Text intent="label">{label}</Text>
       </label>
-      <textArea
+      <textarea
         id={name}
         name={name}
         value={value}

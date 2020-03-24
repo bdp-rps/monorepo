@@ -11,8 +11,8 @@
   "files.exclude": {
     "**/.next": true,
     "**/node_modules": true,
-    // "**/lib": true,
-    // "**/es": true,
+    "**/lib": true,
+    "**/es": true,
     "**/*.elo.*": true,
     "**/*Style.re": true,
     "**/*.bs.js": true,
@@ -36,7 +36,6 @@
     "**/*.sw?": true,
     "**/*.vi": true,
     "**/package-lock.json": true,
-    "**/es ": true,
     "**/coverage ": true
   }
 }

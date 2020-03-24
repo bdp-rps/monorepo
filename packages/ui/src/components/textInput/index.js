@@ -66,6 +66,7 @@ export default function TextInput({
         <Text intent="label">{label}</Text>
       </label>
       <input
+        type={type}
         id={name}
         name={name}
         value={value}
