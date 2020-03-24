@@ -29,6 +29,7 @@ Thumbs.db
 .merlin
 node_modules
 lib
-es 
+es
+dist
 coverage 
 .next

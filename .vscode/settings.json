@@ -36,6 +36,13 @@
     "**/*.sw?": true,
     "**/*.vi": true,
     "**/package-lock.json": true,
-    "**/coverage ": true
+    "**/coverage ": true,
+    "packages/react-pdf/**/node_modules": true,
+    "packages/react-pdf/**/*.log": true,
+    "packages/react-pdf/**/.jshintrc": true,
+    "packages/react-pdf/**/.idea": true,
+    "packages/react-pdf/**/dist": true,
+    "packages/react-pdf/**/.DS_Store": true,
+    "**/dist": true
   }
 }

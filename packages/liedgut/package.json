@@ -10,7 +10,8 @@
   },
   "files": [
     "lib/**",
-    "es/**"
+    "es/**",
+    "dist/**"
   ],
   "browserslist": [
     "IE >= 11",
