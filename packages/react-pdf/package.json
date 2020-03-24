@@ -79,5 +79,6 @@
   "files": [
     "dist",
     "index.d.ts"
-  ]
+  ],
+  "gitHead": "271ce7b81b340654f5cc2c516f9f5fef4bb04db5"
 }

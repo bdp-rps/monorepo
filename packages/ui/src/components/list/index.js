@@ -2,6 +2,6 @@ import React from 'react'
 
 import Box from '../box'
 
-export default function Grid({ children }) {
+export default function List({ children }) {
   return null
 }
