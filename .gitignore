@@ -26,7 +26,8 @@ Thumbs.db
 *Style.re
 .bsb.lock
 
-
+public/playroom
+public/styleguide
 .merlin
 node_modules
 lib
