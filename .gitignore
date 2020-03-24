@@ -28,7 +28,7 @@ Thumbs.db
 
 packages/website/public/playroom
 packages/website/public/styleguide
-
+packages/liedgut/dist
 
 .merlin
 node_modules
