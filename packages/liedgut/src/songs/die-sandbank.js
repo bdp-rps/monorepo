@@ -1,6 +1,5 @@
 export default {
   title: 'Die Sandbank',
-  year: '',
   words: [
     {
       name: 'Alexander Gordoninski',
