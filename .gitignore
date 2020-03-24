@@ -26,12 +26,13 @@ Thumbs.db
 *Style.re
 .bsb.lock
 
-public/playroom
-public/styleguide
+packages/website/public/playroom
+packages/website/public/styleguide
+
+
 .merlin
 node_modules
 lib
 es
-dist
 coverage 
 .next
