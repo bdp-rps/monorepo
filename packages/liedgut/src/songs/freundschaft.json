@@ -1,0 +1,61 @@
+{
+  "title": "Freundschaft",
+  "words": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "organisation": "BdP",
+      "year": 2020
+    },
+    {
+      "name": "Philipp Winicker",
+      "nickname": "",
+      "organisation": "BdP",
+      "year": 2020
+    },
+    {
+      "name": "Sebastian Lück",
+      "nickname": "bär",
+      "organisation": "BdP",
+      "year": 2020
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "organisation": "BdP",
+      "year": 2020
+    },
+    {
+      "name": "Philipp Winicker",
+      "nickname": "",
+      "organisation": "BdP",
+      "year": 2020
+    },
+    {
+      "name": "Sebastian Lück",
+      "nickname": "bär",
+      "organisation": "BdP",
+      "year": 2020
+    }
+  ],
+  "beat": "4/4",
+  "info": "",
+  "content": "{C}Wo wären wir nur ohne {G}unsre {a}Freunde,\nim Rad der {C}Zeit, ge{F}fangen ohne {G}Ziel.\nDrum lasst uns {C}heute hier in {G}dieser {a}Runde,\nzusammen {F}singen {G}und {C}musizieren.\n\nIm Kamin hell lodert auf die Flamme.\nDer Kessel Tee pfeift wie der Wind.\nWir rücken alle näher noch zusammen,\nerzähl'n davon wie's früher einmal war.\n\nAll die von uns, erlebten Abenteuer,\nvon großer Fahrt, vom Segeln über See,\nvon warmen Nächten rund ums Lagerfeuer,\nmit kalten Füßen im Winter durch den Schnee.\n\nDie Zeit steht nie, doch Freunde kein Bedenken,\ndie Zukunft wird gewiss uns ein Kumpan.\nWenn gemeinsam wir sie bestreiten, \nwie wir's so oft auch früher schon getan.",
+  "tempo": "80",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170355
+    },
+    {
+      "date": 1585221794528,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update"
+    }
+  ]
+}
