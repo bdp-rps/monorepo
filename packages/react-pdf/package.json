@@ -1,6 +1,6 @@
 {
   "name": "@bdp-rps/react-pdf-renderer",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -80,5 +80,5 @@
     "dist",
     "index.d.ts"
   ],
-  "gitHead": "271ce7b81b340654f5cc2c516f9f5fef4bb04db5"
+  "gitHead": "822e1a1072dfd318a261df2f0802d4cdee12f03f"
 }
