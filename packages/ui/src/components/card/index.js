@@ -6,7 +6,6 @@ import Box from '../box'
 
 const style = ({ elevation }) => ({
   transition: 'box-shadow 200ms ease-in-out',
-  padding: 20,
   backgroundColor: 'white',
   extend: [
     {
@@ -55,7 +54,7 @@ export default function Card({
   ...props
 }) {
   return (
-    <Box {...props} extend={[style({ elevation }), extend]}>
+    <Box {...props} padding={5} extend={[style({ elevation }), extend]}>
       {children}
     </Box>
   )

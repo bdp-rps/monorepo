@@ -132,11 +132,9 @@ export default async function addSong(
   const submitDate = Date.now()
 
   const commitMessage = (change ? 'update ' : 'add ') + fileName + extension
-  const body = `${change ? 'Änderung: ' : ''}${song.content}
-  
-  Art: ${change ? 'Änderung' : 'Neu hinzugefügt'}
-  Datum: ${new Date(submitDate)}
-  Submitted by ${submitter} (${submitterMail})`
+  const body = `Art: ${change ? 'Änderung' : 'Neu hinzugefügt'}
+Datum: ${new Date(submitDate)}
+Eingereicht von: ${submitter} (${submitterMail})`
 
   const file = JSON.stringify(
     {

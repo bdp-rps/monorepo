@@ -12,3 +12,16 @@ const [visible, setVisible] = React.useState(false)
   </Modal>
 </Box>
 ```
+
+### Titled
+
+```jsx
+const [visible, setVisible] = React.useState(false)
+
+;<Box space={4}>
+  <Button onClick={() => setVisible(true)}>Open</Button>
+  <Modal title="Title" visible={visible} onClose={() => setVisible(false)}>
+    Modal
+  </Modal>
+</Box>
+```

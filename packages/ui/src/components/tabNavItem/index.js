@@ -29,6 +29,12 @@ export default function TabNavItem({ disabled, id, active, children }) {
           borderBottomWidth: 3,
           borderBottomStyle: 'solid',
           borderBottomColor: active ? theme.tokens.primary : 'transparent',
+          ':first-child': {
+            marginLeft: 0,
+          },
+          ':last-child': {
+            marginRight: 0,
+          },
           ':hover': {
             '> p:not([disabled])': {
               color: theme.tokens.primaryLight,

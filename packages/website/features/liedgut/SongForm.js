@@ -125,7 +125,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         <Box grow={1} extend={{ backgroundColor: 'rgb(245, 245, 245)' }}>
           <Box
             grow={1}
-            space={5}
+            space={4}
             padding={5}
             display={tab === 'details' ? 'flex' : 'none'}>
             <TextInput
@@ -330,7 +330,13 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         <Song {...song} />
         <Box alignSelf="flex-start" space={2} direction="row">
           <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
-          <Modal visible={sendVisible} onClose={() => setSendVisible(false)}>
+          <Modal
+            visible={sendVisible}
+            onClose={() => {
+              if (!isLoading) {
+                setSendVisible(false)
+              }
+            }}>
             <Box space={4} padding={2} minWidth={350}>
               <Text intent="category">Deine Daten</Text>
               <TextInput
@@ -354,6 +360,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                     })
 
                     if (res.success) {
+                      setSendVisible(false)
                       alert(`Erfolgreich!
 Danke für die Einsendung.`)
                     } else {
@@ -366,9 +373,9 @@ Danke für die Einsendung.`)
                 </Button>
                 <Button
                   variant="secondary"
+                  disabled={isLoading}
                   onClick={() => {
-                    setAuthor(defaultAuthor)
-                    setAuthorVisible(false)
+                    setSendVisible(false)
                   }}>
                   Abbrechen
                 </Button>

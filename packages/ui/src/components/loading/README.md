@@ -9,3 +9,11 @@ A simple loading component.
   <Loading size={6} />
 </Box>
 ```
+
+### Color
+
+```jsx
+<Box space={4}>
+  <Loading size={4} color="red" />
+</Box>
+```

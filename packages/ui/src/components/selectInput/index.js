@@ -31,7 +31,7 @@ const style = ({ isValid, disabled, theme }) => ({
     {
       condition: !isValid,
       style: {
-        borderColor: theme.tokens.alert,
+        borderColor: theme.tokens.destructive,
       },
     },
   ],
@@ -82,7 +82,7 @@ export default function SelectInput({
       </select>
 
       {errorMessage && errorMessageVisible ? (
-        <Text intent="note" extend={{ color: theme.tokens.alert }}>
+        <Text intent="note" extend={{ color: theme.tokens.destructive }}>
           {errorMessage}
         </Text>
       ) : null}

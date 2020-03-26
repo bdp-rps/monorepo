@@ -45,7 +45,7 @@
     "fela-preset-web": "^11.2.0",
     "fela-sort-media-query-mobile-first": "^11.2.0",
     "prop-types": "^15.7.2",
-    "kilvin": "^2.0.7",
+    "kilvin": "^2.0.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fela": "^11.2.0"

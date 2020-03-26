@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types'
 import React, { useRef } from 'react'
+import { useFela } from 'react-fela'
 
 import Box from '../box'
 import Card from '../card'
+import Text from '../text'
 
-export default function Modal({ children, visible, onClose }) {
+export default function Modal({ children, visible, title, onClose }) {
+  const { theme } = useFela()
   const innerRef = useRef()
 
   if (!visible) {
@@ -29,15 +32,31 @@ export default function Modal({ children, visible, onClose }) {
         left: 0,
         right: 0,
         bottom: 0,
+        padding: 10,
         backgroundColor: 'rgba(0,0,0, 0.3)',
+        overflow: 'auto',
       }}>
       <Box
         ref={innerRef}
-        alignSelf="center"
+        alignSelf={['stretch', , 'center']}
+        alignItems={['stretch', , 'center']}
         justifyContent="center"
-        alignItems="center"
-        shrink={1}>
-        <Card>{children}</Card>
+        width="100%"
+        grow={[1, , 0]}
+        shrink={[0, , 1]}>
+        <Card elevation="medium" space={title ? 2 : 0} extend={{ padding: 0 }}>
+          {title ? (
+            <Box
+              padding={2}
+              width="100%"
+              extend={{ backgroundColor: theme.tokens.secondary }}>
+              <Text intent="subtitle" color={theme.tokens.primary} height={1}>
+                {title}
+              </Text>
+            </Box>
+          ) : null}
+          <Box padding={5}>{children}</Box>
+        </Card>
       </Box>
     </Box>
   )

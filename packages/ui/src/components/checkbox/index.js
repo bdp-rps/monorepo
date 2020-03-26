@@ -59,7 +59,7 @@ const style = ({ theme, isValid }) => ({
     {
       condition: !isValid,
       style: {
-        borderColor: theme.tokens.alert,
+        borderColor: theme.tokens.destructive,
         ':focus': {
           borderColor: theme.tokens.primary,
         },
@@ -111,7 +111,7 @@ export default function Checkbox({
         </label>
       </Box>
       {errorMessage && !isValid ? (
-        <Text intent="note" extend={{ color: theme.tokens.alert }}>
+        <Text intent="note" extend={{ color: theme.tokens.destructive }}>
           {errorMessage}
         </Text>
       ) : null}
