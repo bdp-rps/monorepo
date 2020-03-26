@@ -69,5 +69,5 @@ Card.propTypes = {
   /** Sets the amount of elevation that the card is above the page. */
   elevation: PropTypes.oneOf(['minimal', 'low', 'medium', 'high']),
   /** Extends the Fela style object. */
-  extends: PropTypes.object,
+  extend: PropTypes.object,
 }

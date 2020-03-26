@@ -1,0 +1,31 @@
+{
+  "title": "Piratenlied",
+  "words": [
+    {
+      "name": "Julian Colins",
+      "nickname": "jusch",
+      "group": "Die Opis",
+      "organisation": "BdP"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Julian Colins",
+      "nickname": "jusch",
+      "group": "Die Opis",
+      "organisation": "BdP"
+    }
+  ],
+  "beat": "3/4",
+  "tempo": 100,
+  "info": "",
+  "content": "Klingt ein {e}Lied durch die {D}Nacht, klingt so {Gschrecklich ver{D}traut,\nVoller {e}Sehnsucht doch {h}lüstern, mord{C}gierig {D}und {e}roh.\nAlle Ratten an {D}Bord eh der {G}Morgen uns {H7}graut\nIhr ge{a}suchten, verruchten, auf ewig ver{e}fluchten.\n{D}Und schon {G}bald schallt {D}es {G}laut: Pi{H7}raten Johoo!\n\n/: {e}Jo{C}hoo, {G}grüßet uns {D}froh, {a}Jo{e}hoo, {D}fern Fala{e}do. :/\n\nManches Heck hat der Sturm in den Kurs uns gelenkt,\nUnd Queen Mary, die machten gleich dreimal wir froh.\nSelbst der stolzen Fregatte, die mit Blei uns beschenkt\nWinkt der Stückpforten Flug, unser Stolz vorn am Bug\nHat noch jede versenkt - Piraten Johoo!\n\n{e}Auf Krämer{C}seelen, Ban{D}kiers und Kriegs{A}helden zum {e}höfischen {C}Tanz -\nwer nicht {D}schwarz trägt ist {A}bunt, ein freies Ge{C}sicht lacht im {G}Rhythmus der {A}Messer\nriecht nach {F}brennenden Planken, Schweiß, Meersalz, Fisch und mit A{G}hoi, einem Kuss,\neinem Fluch und mit Glück geht es {H7}dreimal zum Teufel und dreimal zurück.\n\nBrüder trinkt auf die See, die uns ruft weit hinaus,\nAller Sünder Weg treiben wir ins nirgendwo,\nKehrt doch keiner von unseren Fahrten nach Haus.\nUnd so trinkt auf dies Leben, das bleibt unvergeben!\nUnd zum Ende trinkt aus - Piraten Johoo!",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    }
+  ]
+}

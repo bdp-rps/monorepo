@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <NavBar>
       <Layout>
-        <Box direction="row" gap={[2, , , 4]}>
+        <Box direction="row" space={[2, , , 4]}>
           <NextLink href="/" passHref>
             <NavBarItem>Home</NavBarItem>
           </NextLink>

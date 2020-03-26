@@ -1,0 +1,27 @@
+{
+  "title": "Am Ural",
+  "words": [
+    {
+      "name": "Alexej Stachowitsch",
+      "nickname": "axi"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alexej Stachowitsch",
+      "nickname": "axi"
+    }
+  ],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "content": "Am {e}Ural{D}, {e}fern von der Heimat{D}, {e}sitzen Kos{D}aken beim Feuer{e}schein{D}.{e}\nDer ein{D}e {e}spielt Balalaik{D}a, {e}die {D}andern stimmen mit {e}ein{D}. {e}\nOssa, Ossa, schöne Stadt am Karmar. {D}Ossa, Ossa, schöne Stadt am Karmar.\n{e}Ossa, Ossa, schöne Stadt am Karmar. {D}Johei, {e}jo{D}hei {e}jo, jo{D}hei {e}jo, {D}johei, {e}jo{D}hei {e}jo.\n\nDen Pferden gellts in den Ohren, wenn die Kosaken jauchzen und schrein.\nSie geben den Rossen die Sporen, drüben liegt Ossa im Feuerschein.\n\nAm Himmel, da leuchten die Sterne, der Wolf heult im finstren Tann.\nDie Heimat, sie grüßt von Ferne, vergessen ist alle Qual.",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170355
+    }
+  ]
+}

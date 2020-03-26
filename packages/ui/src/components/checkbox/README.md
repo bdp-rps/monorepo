@@ -3,7 +3,7 @@ A basic Checkbox form input that is best used as a controlled input field with `
 ### Basic Usage
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <Checkbox label="Default" />
   <Checkbox label="Checked" value={true} />
 </Box>
@@ -12,7 +12,7 @@ A basic Checkbox form input that is best used as a controlled input field with `
 ### Description & Error Message
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <Checkbox label="Default" description="Some description" />
   <Checkbox
     label="Error"
@@ -27,7 +27,7 @@ A basic Checkbox form input that is best used as a controlled input field with `
 ### Disabled
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <Checkbox label="Default" disabled={true} />
   <Checkbox label="Checked" disabled={true} value={true} />
   <Checkbox

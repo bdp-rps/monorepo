@@ -49,6 +49,7 @@ export default function TextInput({
   type,
   label,
   errorMessage,
+  errorMessageVisible,
   description,
   ...props
 }) {
@@ -80,7 +81,7 @@ export default function TextInput({
         onFocus={onFocus}
         className={css(style)}
       />
-      {errorMessage && !isValid ? (
+      {errorMessage && errorMessageVisible ? (
         <Text intent="note" extend={{ color: theme.tokens.alert }}>
           {errorMessage}
         </Text>

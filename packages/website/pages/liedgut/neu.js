@@ -1,11 +1,18 @@
 import React from 'react'
+import { Button } from '@bdp-rps/ui'
 
 import SongForm from '../../features/liedgut/SongForm'
 import Header from '../../components/Header'
 
+import addSong from '../../api/addSong'
+
 export default () => (
   <>
     <Header />
-    <SongForm onSubmit={song => alert(JSON.stringify(song))} />
+    <SongForm
+      onSubmit={async (song, meta) =>
+        await addSong(song, { ...meta, change: false })
+      }
+    />
   </>
 )

@@ -1,0 +1,25 @@
+{
+  "title": "Jörg von Frundsberg",
+  "words": [
+    {
+      "name": "Wilhelm Kutschbach"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Wilhelm Kutschbach"
+    }
+  ],
+  "beat": "2/4",
+  "tempo": 100,
+  "info": "",
+  "content": "{a}Jörg von Frundsberg {E}führt uns {a}an Tira, tira, tira, tiralala   {E}\n/: {F}Der die {G}Schlacht ge{a}wann, lerman, vor {E}Pavi{a}a :/\n\nKaiser Franz von Frankenland heija, taho und taho\nfiel in des Frundsbergers Hand, lerman, vor Pavia\n\nAlle blümlein stunden rot heija, taho und taho\nHeissa, wie schneit der Tod, lerman, vor Pavia\n\nUnd der die lied lien sang heija, taho und taho\nWird ein Landsknecht gennant, lerman, vor Pavia",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    }
+  ]
+}

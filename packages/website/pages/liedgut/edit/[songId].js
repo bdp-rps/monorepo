@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 import SongForm from '../../../features/liedgut/SongForm'
 import Header from '../../../components/Header'
 
+import addSong from '../../../api/addSong'
+
 export default function Page() {
   const router = useRouter()
   const { songId } = router.query
@@ -12,7 +14,7 @@ export default function Page() {
     return null
   }
 
-  const songData = require('@bdp-rps/liedgut/lib/songs/' + songId).default
+  const songData = require('@bdp-rps/liedgut/lib/songs/' + songId + '.json')
 
   return (
     <>
@@ -20,10 +22,10 @@ export default function Page() {
 
       <SongForm
         initialSong={songData}
-        onSubmit={song => alert(JSON.stringify(song))}
+        onSubmit={async (song, meta) =>
+          await addSong(song, { ...meta, change: true })
+        }
       />
     </>
   )
 }
-
-Page.getInitialProps = () => ({})

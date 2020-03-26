@@ -1,7 +1,7 @@
 import { Box, TextInput } from '@bdp-rps/ui'
 
 export default () => (
-  <Box gap={10} padding={10}>
+  <Box space={10} padding={10}>
     <a href="/styleguide/index.html">Styleguide</a>
     <a href="/playroom/index.html">Playroom</a>
     <a href="/liedgut">Liedgut</a>

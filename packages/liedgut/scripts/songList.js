@@ -7,7 +7,7 @@ fs.readdir('./src/songs', (err, files) => {
 
   fs.writeFile(
     './src/index.js',
-    'export default ' + JSON.stringify(files.map(f => f.replace('.js', ''))),
+    'export default ' + JSON.stringify(files.map(f => f.replace('.json', ''))),
     err => {
       if (err) {
         console.error(err)

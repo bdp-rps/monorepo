@@ -3,7 +3,7 @@ Well, a button, not much to say about that.
 ### Basic Usage
 
 ```jsx
-<Box gap={2}>
+<Box space={2}>
   <Button variant="primary" onClick={() => console.log('Clicked')}>
     Click Me
   </Button>

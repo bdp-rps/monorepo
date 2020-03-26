@@ -3,7 +3,7 @@ A general purpose text input field that is used with controlled state manangemen
 ### Basic Usage
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <TextInput name="firstname" label="Label" placeholder="e.g., Max" />
 </Box>
 ```
@@ -11,7 +11,7 @@ A general purpose text input field that is used with controlled state manangemen
 ### Description & Error Message
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <TextInput
     name="firstname-invalid"
     label="Label"
@@ -26,7 +26,7 @@ A general purpose text input field that is used with controlled state manangemen
 ### Disabled
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <TextInput
     name="firstname-disabled"
     disabled={true}
@@ -42,7 +42,7 @@ A general purpose text input field that is used with controlled state manangemen
 ```jsx
 const [value, setValue] = React.useState('')
 
-;<Box gap={4}>
+;<Box space={4}>
   <TextInput
     name="firstname-controlled"
     value={value}

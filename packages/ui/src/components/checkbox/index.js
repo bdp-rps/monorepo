@@ -91,7 +91,7 @@ export default function Checkbox({
 
   return (
     <Box>
-      <Box direction="row" gap={1.5} alignItems="center">
+      <Box direction="row" space={1.5} alignItems="center">
         <input
           type="checkbox"
           id={name}

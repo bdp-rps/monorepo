@@ -11,7 +11,7 @@ const fileName = process.argv[2]
 let data
 
 try {
-  data = require('../src/songs/' + fileName + '.js')
+  data = require('../src/songs/' + fileName + '.json')
 } catch (e) {
   if (!data) {
     console.error('A song with this name does not exist!')

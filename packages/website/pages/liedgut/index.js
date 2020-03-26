@@ -9,7 +9,7 @@ import Layout from '../../components/Layout'
 import Header from '../../components/Header'
 
 const songData = songList.reduce((songData, name) => {
-  const song = require('@bdp-rps/liedgut/lib/songs/' + name).default
+  const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
 
   songData[name] = {
     ...song,
@@ -34,7 +34,7 @@ const SongList = () => {
   const normalizedSearch = search.toLowerCase().trim()
 
   return (
-    <Box paddingTop={5} paddingBottom={10} gap={5}>
+    <Box paddingTop={5} paddingBottom={10} space={5}>
       <Box alignSelf="flex-start">
         <NextLink href="/liedgut/neu">
           <Button>Lied Hinzufügen</Button>

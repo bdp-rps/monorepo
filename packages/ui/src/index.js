@@ -11,7 +11,7 @@ import Col from './components/col'
 import Grid from './components/grid'
 import Link from './components/link'
 import List from './components/list'
-import ListItem from './components/ListItem'
+import ListItem from './components/listItem'
 import Loading from './components/loading'
 import Modal from './components/modal'
 import NavBar from './components/navBar'
@@ -29,6 +29,13 @@ import TextInput from './components/textInput'
 import Tile from './components/tile'
 import Toggle from './components/toggle'
 
+import {
+  isFormValid,
+  touchFields,
+  getDataFromFields,
+  useField,
+} from './utils/form'
+
 export {
   Box,
   Button,
@@ -36,8 +43,10 @@ export {
   Checkbox,
   Col,
   FelaProvider,
+  getDataFromFields,
   getFelaRenderer,
   Grid,
+  isFormValid,
   Link,
   List,
   ListItem,
@@ -58,5 +67,7 @@ export {
   TextInput,
   Tile,
   Toggle,
+  touchFields,
+  useField,
   useTheme,
 }

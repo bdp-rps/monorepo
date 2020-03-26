@@ -30,6 +30,10 @@ const checkDur = chord =>
   chord.substr(0, 1).toLowerCase() !== chord.substr(0, 1)
 
 const transposeChord = (chord, transpose) => {
+  if (transpose === 0) {
+    return chord
+  }
+
   const isDur = checkDur(chord)
 
   if (chords.indexOf(chord.toLowerCase()) === -1) {
@@ -141,7 +145,7 @@ export default function Song({
         ))}
       </Box>
 
-      <Box gap={4}>
+      <Box space={4}>
         <hr />
         <Box>
           <Text
@@ -174,7 +178,7 @@ export default function Song({
           <Text intent="note">Tempo: {tempo}</Text>
           <Text intent="note">Takt: {beat}</Text>
         </Box>
-        <Box alignItems="flex-start">
+        {/* <Box alignItems="flex-start">
           <TextInput
             type="number"
             onChange={setTranspose}
@@ -183,7 +187,7 @@ export default function Song({
             value={transpose}
             label="Transponieren"
           />
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   )

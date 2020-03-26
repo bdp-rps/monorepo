@@ -95,13 +95,21 @@ const defaultAuthor = {
   year: '',
 }
 
+const defaultSubmitter = {
+  name: '',
+  mail: '',
+}
+
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [song, setSong] = useState(initialSong)
   const [author, setAuthor] = useState(defaultAuthor)
+  const [submitter, setSubmitter] = useState(defaultSubmitter)
   const [tab, setTab] = useState('details')
   const [authorVisible, setAuthorVisible] = useState(false)
   const [wordsAndTune, setWordsAndTune] = useState(false)
   const [authorMode, setAuthorMode] = useState()
+  const [sendVisible, setSendVisible] = useState(false)
+  const [isLoading, setLoading] = useState(false)
 
   return (
     <Box direction={['column', , , 'row']} grow={1} alignSelf="stretch">
@@ -117,7 +125,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         <Box grow={1} extend={{ backgroundColor: 'rgb(245, 245, 245)' }}>
           <Box
             grow={1}
-            gap={5}
+            space={5}
             padding={5}
             display={tab === 'details' ? 'flex' : 'none'}>
             <TextInput
@@ -149,16 +157,16 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               onChange={info => setSong({ ...song, info })}
             />
 
-            <Box gap={1}>
+            <Box space={1}>
               <Text intent="label">Worte</Text>
 
               <Box>
                 {song.words.map(author => (
                   <ListItem>
-                    <Box direction="row" gap={2} alignItems="center">
+                    <Box direction="row" space={2} alignItems="center">
                       <Text>{renderAuthors([author])}</Text>
 
-                      <Box direction="row" alignSelf="flex-end" gap={2}>
+                      <Box direction="row" alignSelf="flex-end" space={2}>
                         <Button
                           variant="secondary"
                           onClick={() =>
@@ -185,16 +193,16 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               </Box>
             </Box>
 
-            <Box gap={1}>
+            <Box space={1}>
               <Text intent="label">Weise</Text>
 
               <Box>
                 {song.tune.map(author => (
                   <ListItem>
-                    <Box direction="row" gap={2} alignItems="center">
+                    <Box direction="row" space={2} alignItems="center">
                       <Text>{renderAuthors([author])}</Text>
 
-                      <Box direction="row" alignSelf="flex-end" gap={2}>
+                      <Box direction="row" alignSelf="flex-end" space={2}>
                         <Button
                           variant="secondary"
                           onClick={() =>
@@ -223,7 +231,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             <Modal
               visible={authorVisible}
               onClose={() => setAuthorVisible(false)}>
-              <Box gap={4} padding={2} minWidth={350}>
+              <Box space={4} padding={2} minWidth={350}>
                 <Text intent="category">Autor hinzufügen</Text>
                 <TextInput
                   value={author.name}
@@ -258,7 +266,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                   value={wordsAndTune}
                   onChange={setWordsAndTune}
                 />
-                <Box paddingTop={2} gap={2}>
+                <Box paddingTop={2} space={2}>
                   <Button
                     onClick={() => {
                       if (wordsAndTune) {
@@ -293,7 +301,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           </Box>
           <Box
             grow={1}
-            gap={5}
+            space={5}
             padding={5}
             display={tab === 'text' ? 'flex' : 'none'}>
             <TextArea
@@ -317,11 +325,56 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         padding={5}
         paddingTop={5}
         paddingBottom={8}
-        gap={8}
+        space={8}
         extend={{ overflow: 'auto' }}>
         <Song {...song} />
-        <Box alignSelf="flex-start" gap={2} direction="row">
-          <Button onClick={() => onSubmit(song)}>Exportieren</Button>
+        <Box alignSelf="flex-start" space={2} direction="row">
+          <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
+          <Modal visible={sendVisible} onClose={() => setSendVisible(false)}>
+            <Box space={4} padding={2} minWidth={350}>
+              <Text intent="category">Deine Daten</Text>
+              <TextInput
+                value={submitter.name}
+                onChange={name => setSubmitter({ ...submitter, name })}
+                label="Dein Name"
+              />
+              <TextInput
+                value={submitter.mail}
+                onChange={mail => setSubmitter({ ...submitter, mail })}
+                label="Deine E-Mail"
+              />
+              <Box paddingTop={2} space={2}>
+                <Button
+                  disabled={isLoading}
+                  onClick={async () => {
+                    setLoading(true)
+                    const res = await onSubmit(song, {
+                      submitter: submitter.name,
+                      submitterMail: submitter.mail,
+                    })
+
+                    if (res.success) {
+                      alert(`Erfolgreich!
+Danke für die Einsendung.`)
+                    } else {
+                      alert(res.error)
+                    }
+
+                    setLoading(false)
+                  }}>
+                  {isLoading ? 'Daten werden gesendet...' : 'Einreichen'}
+                </Button>
+                <Button
+                  variant="secondary"
+                  onClick={() => {
+                    setAuthor(defaultAuthor)
+                    setAuthorVisible(false)
+                  }}>
+                  Abbrechen
+                </Button>
+              </Box>
+            </Box>
+          </Modal>
           <Button variant="secondary" onClick={() => onSubmit(song)}>
             Als PDF herunterladen
           </Button>

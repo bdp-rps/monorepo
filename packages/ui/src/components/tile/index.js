@@ -16,7 +16,7 @@ export default function Tile({ image, title, children }) {
   return (
     <Box
       padding={3}
-      gap={1}
+      space={1}
       extend={{
         backgroundColor: 'white',
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',

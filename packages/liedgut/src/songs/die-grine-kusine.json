@@ -22,5 +22,13 @@
       "year": "",
       "name": "Abe Schwartz"
     }
+  ],
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170355
+    }
   ]
 }

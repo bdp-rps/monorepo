@@ -50,6 +50,7 @@ export default function TextArea({
   type = 'text',
   label,
   errorMessage,
+  errorMessageVisible,
   description,
   extend,
 }) {
@@ -79,7 +80,7 @@ export default function TextArea({
         onFocus={onFocus}
         className={css(style)}
       />
-      {errorMessage && !isValid ? (
+      {errorMessage && errorMessageVisible ? (
         <Text intent="note" extend={{ color: theme.tokens.alert }}>
           {errorMessage}
         </Text>

@@ -3,7 +3,7 @@ A basic Radio form input that is best used as a controlled input field with `Rea
 ### Basic Usage
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <Radio name="radio1" id="meute" label="Meute" />
   <Radio name="radio1" id="sippe" label="Sippe" value="sippe" />
 </Box>
@@ -12,7 +12,7 @@ A basic Radio form input that is best used as a controlled input field with `Rea
 ### Description & Error Message
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <Radio
     name="radio2"
     id="meute"
@@ -36,7 +36,7 @@ A basic Radio form input that is best used as a controlled input field with `Rea
 ### Disabled
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <Radio name="radio3" id="meute" label="Meute" disabled={true} />
   <Radio name="radio3" id="sippe" label="Sippe" value="sippe" disabled={true} />
   <Radio
@@ -56,7 +56,7 @@ A basic Radio form input that is best used as a controlled input field with `Rea
 ```jsx
 const [value, setValue] = React.useState('meute')
 
-;<Box gap={2}>
+;<Box space={2}>
   <Radio
     name="group"
     id="meute"

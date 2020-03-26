@@ -1,0 +1,26 @@
+{
+  "title": "Ziehharmonika",
+  "words": [
+    {
+      "name": "Theodor Kramer"
+    }
+  ],
+  "tune": [
+    {
+      "group": "Singekreis Silberburg",
+      "organisation": "BdP"
+    }
+  ],
+  "beat": "2/4",
+  "tempo": 100,
+  "info": "",
+  "content": "{a}Nicht für's {F}Süße, {C}nur fürs {G}Scharfe {a}und für's {F}Bitt're {C}bin ich {G}da;\n{G}schlag', ihr {E}Leute, {a}nicht die Harfe, {F}spiel die {G}Ziehhar{e}moni{a}ka.\n\n{a}Lai la {F}lai lai, {G}lai la {C}lai lai,\n{a}lai la {F}lai lai, {G}lai la {a}la,\n{F}schlag', ihr {G}Leute, {a}nicht die Harfe, {F}spiel die {G}Ziehhar{e}moni{a}ka.\n\nLeer, verfilzt ist meine Tasche und durchlöchert ist der Hut;\ndass ich leb', das Herz aus Asche, macht: Aus Branntwein ist mein Blut.\n\nLieß' das Salz der Tränen Spuren, wären meine Gucker blind;\nmeine Liebsten sind die Huren, mir Gesellen Staub und Wind.\n\nDas Falsett, das möcht' umarmen, doch das Ganze trägt der Baß;\nhab' Erbarmen, brauch' Erbarmen, doch zuinnerst haust der Hass.\n\nWeiß zuviel und möcht' doch träumen wie der Echs im Sonnenschein;\nleeres Brausen in den Bäumen, braus' für mich, nick‚ träg' ich ein!\n\nDarf nicht ruhn, muss Straßen weiter; denn bald bin ich nicht mehr da.\nUnd es spielt die Stadt kein zweiter so die Ziehharmonika.",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    }
+  ]
+}

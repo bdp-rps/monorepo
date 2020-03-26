@@ -50,6 +50,7 @@ export default function SelectInput({
   type = 'text',
   label,
   errorMessage,
+  errorMessageVisible,
   description,
   children,
 }) {
@@ -80,7 +81,7 @@ export default function SelectInput({
         {children}
       </select>
 
-      {errorMessage ? (
+      {errorMessage && errorMessageVisible ? (
         <Text intent="note" extend={{ color: theme.tokens.alert }}>
           {errorMessage}
         </Text>

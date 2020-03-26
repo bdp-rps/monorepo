@@ -5,7 +5,7 @@ import Song from './Song'
 
 import songs from '../index'
 
-const songData = songs.map(song => require('../songs/' + song + '.js').default)
+const songData = songs.map(song => require('../songs/' + song + '.json'))
 
 const normalizeContent = content =>
   content.replace(/{[a-z0-9]}/gi, '').toLowerCase()

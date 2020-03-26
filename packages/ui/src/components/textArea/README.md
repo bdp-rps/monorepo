@@ -3,7 +3,7 @@ A general purpose muli-line text input field that is used with controlled state 
 ### Basic Usage
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <TextArea name="firstname" label="Label" placeholder="e.g., Max" />
 </Box>
 ```
@@ -11,7 +11,7 @@ A general purpose muli-line text input field that is used with controlled state 
 ### Description & Error Message
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <TextArea
     name="firstname-invalid"
     label="Label"
@@ -26,7 +26,7 @@ A general purpose muli-line text input field that is used with controlled state 
 ### Disabled
 
 ```jsx
-<Box gap={4}>
+<Box space={4}>
   <TextArea
     name="firstname-disabled"
     disabled={true}
@@ -42,7 +42,7 @@ A general purpose muli-line text input field that is used with controlled state 
 ```jsx
 const [value, setValue] = React.useState('')
 
-;<Box gap={4}>
+;<Box space={4}>
   <TextArea
     name="firstname-controlled"
     value={value}

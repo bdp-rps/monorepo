@@ -14,7 +14,7 @@ export default function Page() {
   const router = useRouter()
   const { songId } = router.query
 
-  const songData = require('@bdp-rps/liedgut/lib/songs/' + songId)
+  const songData = require('@bdp-rps/liedgut/lib/songs/' + songId + '.json')
 
   if (!songData) {
     return <div>Something went wrong.</div>
@@ -24,13 +24,13 @@ export default function Page() {
     <>
       <Header />
       <Layout>
-        <Box gap={2} paddingTop={10} paddingBottom={10}>
+        <Box space={2} paddingTop={10} paddingBottom={10}>
           <NextLink passHref href="/liedgut">
             <Link>← Zurück zur Übersicht</Link>
           </NextLink>
           <Spacer size={2} />
-          <Song {...songData.default} />
-          <Box paddingTop={4} gap={2} alignSelf="flex-start" direction="row">
+          <Song {...songData} />
+          <Box paddingTop={4} space={2} alignSelf="flex-start" direction="row">
             <Button>Als PDF herunterladen</Button>
             <NextLink href={'/liedgut/edit/' + songId}>
               <Button variant="secondary">Änderungsvorschlag</Button>

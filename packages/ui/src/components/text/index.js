@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { useFela } from 'react-fela'
-
-import applySpacing from '../../utils/applySpacing'
+import { applyMultiplier } from 'kilvin'
 
 export default function Text({
   as,
@@ -17,7 +16,8 @@ export default function Text({
   ...props
 }) {
   const { css, theme } = useFela()
-  const spacing = applySpacing(theme.baselineGrid)
+  const spacing = applyMultiplier(theme.baselineGrid)
+
   const {
     element,
     fontSize,
@@ -68,5 +68,5 @@ Text.propTypes = {
   /** Some intents also support specific variants. */
   variant: PropTypes.oneOf(['info']),
   /** Extends the Fela style object. */
-  extends: PropTypes.object,
+  extend: PropTypes.object,
 }
