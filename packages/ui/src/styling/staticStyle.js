@@ -27,6 +27,7 @@ export default [
       flexDirection: 'column',
       alignSelf: 'stretch',
       alignItems: 'stretch',
+      maxHeight: '100vh',
     },
   },
 ]

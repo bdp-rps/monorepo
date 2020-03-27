@@ -125,14 +125,16 @@ async function executeCreatePullRequestMutation(
 
 export default async function addSong(
   song,
-  { submitter, submitterMail, change }
+  { submitter, submitterMail, submitterContent, change }
 ) {
   const fileName = escapeSongName(song.title)
   const branchName = fileName
   const submitDate = Date.now()
 
   const commitMessage = (change ? 'update ' : 'add ') + fileName + extension
-  const body = `Art: ${change ? 'Änderung' : 'Neu hinzugefügt'}
+  const body = `${submitterContent}
+
+Art: ${change ? 'Änderung' : 'Neu hinzugefügt'}
 Datum: ${new Date(submitDate)}
 Eingereicht von: ${submitter} (${submitterMail})`
 
@@ -146,6 +148,7 @@ Eingereicht von: ${submitter} (${submitterMail})`
           name: submitter,
           mail: submitterMail,
           type: change ? 'update' : 'create',
+          content: submitterContent,
         },
       ],
     },

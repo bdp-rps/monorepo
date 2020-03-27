@@ -1,4 +1,4 @@
-import React, { useState, createContext, useContext } from 'react'
+import React, { useState, createContext, useEffect, useContext } from 'react'
 import {
   Box,
   Button,
@@ -17,6 +17,7 @@ import ListItem from '../../components/ListItem'
 import Loading from '../../components/Loading'
 
 const defaultSong = {
+  notation: '',
   content: '',
   title: '',
   words: [],
@@ -98,6 +99,7 @@ const defaultAuthor = {
 const defaultSubmitter = {
   name: '',
   mail: '',
+  content: '',
 }
 
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
@@ -112,14 +114,21 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [isLoading, setLoading] = useState(false)
 
   return (
-    <Box direction={['column', , , 'row']} grow={1} alignSelf="stretch">
-      <Box grow={[1, , , 0]} basis="50%">
+    <Box
+      direction={['column', , , 'row']}
+      grow={1}
+      alignSelf="stretch"
+      maxHeight="calc(100% - 50px)">
+      <Box grow={[1, , , 0]} basis="40%">
         <TabNav onChange={setTab}>
           <TabNavItem active={tab === 'details'} id="details">
             Details
           </TabNavItem>
           <TabNavItem active={tab === 'text'} id="text">
             Liedtext
+          </TabNavItem>
+          <TabNavItem active={tab === 'melody'} id="melody">
+            Melodie
           </TabNavItem>
         </TabNav>
         <Box grow={1} extend={{ backgroundColor: 'rgb(245, 245, 245)' }}>
@@ -169,6 +178,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                       <Box direction="row" alignSelf="flex-end" space={2}>
                         <Button
                           variant="secondary"
+                          size="small"
+                          intent="negative"
                           onClick={() =>
                             setSong({
                               ...song,
@@ -205,6 +216,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                       <Box direction="row" alignSelf="flex-end" space={2}>
                         <Button
                           variant="secondary"
+                          size="small"
+                          intent="negative"
                           onClick={() =>
                             setSong({
                               ...song,
@@ -305,7 +318,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             padding={5}
             display={tab === 'text' ? 'flex' : 'none'}>
             <TextArea
-              extend={{ flexGrow: 1 }}
+              extend={{ minHeight: 400, flexGrow: 1 }}
               label="Liedtext"
               description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
               value={song.content}
@@ -317,17 +330,44 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               }
             />
           </Box>
+          <Box
+            grow={1}
+            space={5}
+            padding={5}
+            display={tab === 'melody' ? 'flex' : 'none'}>
+            <TextArea
+              extend={{ minHeight: 400, flexGrow: 1 }}
+              label="Melody"
+              name="melody"
+              description={
+                <>
+                  Die Melodie wird im ABC-Format notiert. z.B. "C2DE2F Bc|A4B4"
+                  <br />
+                  Achtung: Die Wiedergabe funktioniert am besten in Chrome und
+                  Firefox.
+                </>
+              }
+              value={song.notation}
+              onChange={notation =>
+                setSong({
+                  ...song,
+                  notation,
+                })
+              }
+            />
+          </Box>
         </Box>
       </Box>
       <Box
         grow={0}
-        basis="50%"
+        basis="60%"
         padding={5}
         paddingTop={5}
         paddingBottom={8}
         space={8}
         extend={{ overflow: 'auto' }}>
-        <Song {...song} />
+        <Song {...song} key={JSON.stringify(song)} />
+
         <Box alignSelf="flex-start" space={2} direction="row">
           <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
           <Modal
@@ -349,6 +389,11 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 onChange={mail => setSubmitter({ ...submitter, mail })}
                 label="Deine E-Mail"
               />
+              <TextArea
+                value={submitter.content}
+                onChange={content => setSubmitter({ ...submitter, content })}
+                label="Beschreibung (bei Änderung)"
+              />
               <Box paddingTop={2} space={2}>
                 <Button
                   disabled={isLoading}
@@ -357,6 +402,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                     const res = await onSubmit(song, {
                       submitter: submitter.name,
                       submitterMail: submitter.mail,
+                      submitterContent: submitter.content,
                     })
 
                     if (res.success) {

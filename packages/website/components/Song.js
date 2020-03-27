@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
 
 import renderAuthors from '@bdp-rps/liedgut/lib/utils/renderAuthors'
@@ -61,17 +61,61 @@ const transposeChord = (chord, transpose) => {
   return newChord
 }
 
-export default function Song({
-  content,
-  title,
-  tune,
-  words,
-  tempo,
-  beat,
-  translation,
-  info,
-}) {
+export default function Song(props) {
+  const {
+    content,
+    title,
+    tune,
+    words,
+    tempo,
+    beat,
+    translation,
+    info,
+    notation,
+  } = props
   const [transpose, setTranspose] = useState('0')
+  const [didMount, setDidMount] = useState(false)
+
+  const json = JSON.stringify(props)
+  useEffect(() => setDidMount(true), [])
+
+  let melody
+  if (didMount && notation) {
+    const { Notation, Midi } = require('react-abc')
+
+    // set soundfont (see https://github.com/gleitz/midi-js-soundfonts)
+    const midi = require('abcjs/src/midi/abc_midi_controls')
+    // midi.setSoundFont('https://gleitz.github.io/midi-js-soundfonts/FatBoy/')
+
+    const notationText =
+      'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n' + notation
+    try {
+      melody = (
+        <Box>
+          <Box
+            extend={{
+              '> div': {
+                overflow: 'auto !important',
+                width: '100%',
+              },
+            }}>
+            <Notation notation={notationText} />
+          </Box>
+          <Box maxWidth={300}>
+            <Midi
+              notation={notation.replace(/\"[a-z0-9]*\"/gi, '')}
+              midiParams={{
+                qpm: tempo,
+              }}
+            />
+          </Box>
+        </Box>
+      )
+    } catch (e) {
+      console.error(e)
+    }
+  }
+
   const theme = useTheme()
 
   const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map(block => {
@@ -188,6 +232,7 @@ export default function Song({
             label="Transponieren"
           />
         </Box> */}
+        <Box>{melody}</Box>
       </Box>
     </Box>
   )
