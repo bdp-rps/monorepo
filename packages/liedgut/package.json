@@ -1,7 +1,7 @@
 {
   "name": "@bdp-rps/liedgut",
   "description": "Vorlagen, Inhalte und Zusatzmaterial rund ums Thema Liedgut",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -39,7 +39,7 @@
     "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
-    "@bdp-rps/react-pdf-renderer": "^0.0.13",
+    "@bdp-rps/react-pdf-renderer": "^0.0.14",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
