@@ -56,6 +56,14 @@
       "name": "Robin Weser",
       "mail": "robin@bdp-rps.de",
       "type": "update"
+    },
+    {
+      "date": 1585412827379,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
-  ]
+  ],
+  "notation": "C: Swing\n\"C\" z4 z C C D | E5/2 A \"G\" G E D C | \"a\" A, C  C5/2 C C D | \"C\" E5/2 E \"F\" F2 F E |\n\"G\" D4 z C C D | \"C\" E5/2 A \"G\" G E D C | \"a\" A, C  C5/2 C D E | \"F\" F2 E2 \"G\" D2 \"C\" C B, | C2 z6 |"
 }
