@@ -1,41 +1,36 @@
 {
+  "notation": "",
+  "content": "{d}All diese {A7}Wellen, ja diese {d}Wellen, die sollen {C}bloß zur Hölle {F}fahr’n.{(D7)}\n/: Und keine {g}Karten von diesen {d}Stellen{(B)}, ich treibe {g}vorwärts {A7}ohne {d}Plan.{(D7)} :/\n\nIrgendwo leben, die wilden Weiber, sitzt mancher Freund beim Wodkaglas,\n/: Doch hier beherrschen der Wind die Steine, mein Boot voll Löcher, Moos und Gras. :/\n\nAm großen Fluss bin ich am Morgen, der Sommer ist dann längst vorbei,\n/: Um mich da macht euch mal keine Sorgen, denn bald schon ist es wieder Mai. :/\n\nAber vielleicht gibt’s dich und so lang du mich nicht quälst mit deinem Leid,\n/: Ich liebe dich doch nur bis zur Sandbank, was dann kommt bringt uns schon die Zeit. :/",
   "title": "Die Sandbank",
   "words": [
     {
-      "name": "Alexander Gordoninski",
-      "year": 1960
+      "name": "Erik Schellhorn & Igor Plachonin (Russ. orginal: Alexander Gordoninski)",
+      "nickname": "fotler & igor",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2003"
     }
   ],
   "tune": [
     {
       "name": "Alexander Gordoninski",
-      "year": 1960
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
     }
   ],
-  "translation": [
-    {
-      "name": "Erik Schellhorn",
-      "nickname": "fotler",
-      "year": 2003,
-      "organisation": "Zugvogel"
-    },
-    {
-      "name": "Igor Plachonin",
-      "nickname": "igor",
-      "year": 2003,
-      "organisation": "Zugvogel"
-    }
-  ],
+  "translation": [],
   "beat": "4/4",
   "tempo": 60,
   "info": "",
-  "content": "{d}All diese {A7}Wellen, ja diese {d}Wellen, die sollen {C}bloß zur Hölle {F}fahr’n{(D7)}.\n/: und keine {g}Karten von diesen {d}Stellen{(B)}, ich treibe {g}vorwärts {A7}ohne {d}Pla{(D7)}n. :/\n\nIrgendwo leben, die wilden Weiber, sitzt mancher Freund beim Wodkaglas,\n/: doch hier beherrschen der Wind die Steine, mein Boot voll Löcher, Moos und Gras. :/\n\nAm großen Fluss bin ich am Morgen, der Sommer ist dann längst vorbei,\n/: um mich da macht euch mal keine Sorgen, denn bald schon ist es wieder Mai. :/\n\nAber vielleicht gibt’s dich und so lang du mich nicht quälst mit deinem Leid,\n/: ich liebe dich doch nur bis zur Sandbank, was dann kommt bringt uns schon die Zeit. :/",
   "changes": [
     {
-      "name": "Robin Weser",
-      "mail": "robin@bdp-rps.de",
+      "date": 1585331659885,
+      "name": "cätch",
+      "mail": "caetch@stamm-luchs.de",
       "type": "create",
-      "date": 1585221170355
+      "content": ""
     }
   ]
 }
