@@ -1,0 +1,36 @@
+{
+  "notation": "K:Em\n|:\"G\"D3/2D3/2G|\"C\"E3/2E3/2G|\"D\"F3/2G3/2A|\"G\"G3/2D3|\nB3/2B3/2G|\"C\"c3/2c3/2B|\"D\"AA1/2G3/2F|\"G\"G2z2:|\nD\"e\"E3/2G3/2B|\"D\"A3D|\"e\"E3/2G3/2B|\"D\"A2GF|\n\"C\"G3/2F3/2E|\"G\"D2GB|\"D\"A3/2B3/2A|\"G\"G3z1|",
+  "content": "{G}Was uns lässt {C}fahren kann {D}nicht jeder {G}fühlen,   \n{G}kann nur {C}verstehn, wer {D}mit uns einmal {G}zog.      \n{G}Wer seine {C}Stirn mag an {D}Quellwasser {G}kühlen,\nkönnte ge{C}raten in {D}unseren {G}Sog.  \n|: Es {e}liegt uns im {D}Blut und {e}treibt uns {D}davon     \nimmer {C}wieder {G}davon, immer {D}wieder {G}davon.:|\n\nNur wer mit uns viele Nächte verbrachte, \nan unsren Feuern, in unserem Kreis,\nwer da erzählte, mitsang und mitlachte, \nvon unserm Fühlen vielleicht etwas weiß.\n\nUnsre Gefährten sind Freunde fürs Leben,\nUnrast erfüllt uns, wenn Winter vergeht.\nIn uns erwacht dann ein Sehnen und Streben;\nwer weiß, wohin uns der Wind diesmal weht.",
+  "title": "Was uns lässt fahren",
+  "words": [
+    {
+      "name": "Erik Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Erik Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "tempo": "70",
+  "info": "",
+  "changes": [
+    {
+      "date": 1585401927467,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
