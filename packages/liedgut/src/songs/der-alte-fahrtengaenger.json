@@ -1,11 +1,27 @@
 {
   "notation": "",
-  "content": "Viele {C}Straßen vie{G}le {C}Pfade bin ich {F}durch die Zeit ge{C}fahren,\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {C}waren?\nWo sind jene nur ge{C}blieben, die mit {G}auf der Reise {F}wa{G}ren{C}?\n\nDunkle Wälder, lichte Berge, denken sie auch mal zurück,\nManchmal wenn die Feuer brennen, ans vergangne Fahrtenglück.\n\nStaub'ger ranzen alte Klampfe, Erinn'rung steckt im Wanderschuh,\nIch heb mit Wein den Fahrtenbecher trinke den Gefährten zu.\n\nLetzte wie Erste.\n",
+  "content": "Viele {C}Straßen vie{G}le {C}Pfade bin ich {F}durch die Zeit ge{C}fahren,\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {C}waren?\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {F}wa{G}ren{C}?\n\nDunkle Wälder, lichte Berge, denken sie auch mal zurück,\nManchmal wenn die Feuer brennen, ans vergangne Fahrtenglück.\n\nStaub'ger ranzen alte Klampfe, Erinn'rung steckt im Wanderschuh,\nIch heb mit Wein den Fahrtenbecher trinke den Gefährten zu.\n\nLetzte wie Erste.\n",
   "title": "Der alte Fahrtengänger",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Oliver Gall",
+      "nickname": "",
+      "group": "Vogt von Hunolstein",
+      "organisation": "BdP",
+      "year": "2018"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Oliver Gall",
+      "nickname": "",
+      "group": "Vogt von Hunolstein",
+      "organisation": "BdP",
+      "year": "2018"
+    }
+  ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "tempo": 60,
   "info": "",
   "changes": [
@@ -15,6 +31,13 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1585414511961,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Akkord verbessert, Autor hinzugefügt"
     }
   ]
 }
