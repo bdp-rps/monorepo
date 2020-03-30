@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "{e}Steu{D}ermann {G}ho! Drei {e}Strich nord-west-nord, da liegt ein {D}hansischer {G}Krä{D}mer vor {e}Ort.\n{G}Ho {D}ho {G}ho - ho {D}hohoho {e}ho. Hisst Segel, hisst Segel, {D}heia hopp {G}hopp,\nwir {D}führen den {G}Jolly {D}Roger im {e}Top. Hoho ho, {D}ho {G}ho - ho {D}hohoho {e}ho, {D}Schiff {e}ahoi.\n\nKäpten ahoi! Schafft Rum uns an Deck, wir schlagen das Fass mit dem Enterbeil leck. Ho ho ho, ho ho ho, Zurrt fester die Tampen, hiev opp, hiev opp! Wir führen de Jolly Roger im Top. Hoho ho, ho, ho, ho ho ho, Schiff ahoi!\n\nMannschaft klar Deck! Die Klingen zur Hand, vom Mastkorb zum Bugspriet die Wan- ten bemannt. Ho ho ho – ho ho ho. Die Stückpforten auf, ran an den Pott! Wir führen den Jolly Roger im Top. Hoho ho ho ho, ho, ho, ho, Schiff ahoi!",
+  "title": "Steuermann ho",
+  "words": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1958"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1958"
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1585592080300,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
