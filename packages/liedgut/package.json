@@ -48,5 +48,5 @@
   "devDependencies": {
     "@babel/polyfill": "^7.2.5"
   },
-  "gitHead": "822e1a1072dfd318a261df2f0802d4cdee12f03f"
+  "gitHead": "ce2b3529ac84a0f391128c0fa81a734d30a1eafb"
 }
