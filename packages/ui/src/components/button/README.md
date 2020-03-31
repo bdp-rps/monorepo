@@ -11,6 +11,19 @@ Well, a button, not much to say about that.
 </Box>
 ```
 
+### Disabled
+
+```jsx
+<Box space={2}>
+  <Button disabled variant="primary" onClick={() => console.log('Clicked')}>
+    Click Me
+  </Button>
+  <Button disabled variant="secondary">
+    Click Me
+  </Button>
+</Box>
+```
+
 ### Loading
 
 ```jsx

@@ -14,6 +14,26 @@ if (typeof window !== 'undefined') {
   })
 }
 
+const hash = function(s) {
+  /* Simple hash function. */
+  var a = 1,
+    c = 0,
+    h,
+    o
+  if (s) {
+    a = 0
+    /*jshint plusplus:false bitwise:false*/
+    for (h = s.length - 1; h >= 0; h--) {
+      o = s.charCodeAt(h)
+      a = ((a << 6) & 268435455) + o + (o << 14)
+      c = a & 266338304
+      a = c !== 0 ? a ^ (c >> 21) : a
+    }
+  }
+
+  return a.toString(36)
+}
+
 // This setup is only needed once per application
 async function fetchOneGraph(auth, operationsDoc, operationName, variables) {
   const result = await fetch(
@@ -128,8 +148,10 @@ export default async function addSong(
   { submitter, submitterMail, submitterContent, change }
 ) {
   const fileName = escapeSongName(song.title)
-  const branchName = fileName
   const submitDate = Date.now()
+
+  const { changes, ...songData } = song
+  const branchName = fileName + '_' + hash(JSON.stringify(songData))
 
   const commitMessage = (change ? 'update ' : 'add ') + fileName + extension
   const body = `${submitterContent}

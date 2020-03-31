@@ -103,6 +103,7 @@ export default function Song(props) {
           </Box>
           <Box maxWidth={300}>
             <Midi
+              // notation={notation}
               notation={notation.replace(/\"[a-z0-9]*\"/gi, '')}
               midiParams={{
                 qpm: tempo,

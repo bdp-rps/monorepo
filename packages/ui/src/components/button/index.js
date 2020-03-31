@@ -50,6 +50,7 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
 
   ':disabled': {
     backgroundColor: theme.tokens.inputDisabledBackground,
+    borderColor: theme.tokens.inputDisabledBackground,
     color: theme.tokens.inputDisabledForeground,
     cursor: 'not-allowed',
   },
@@ -74,7 +75,7 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
       },
     },
     {
-      condition: variant === 'secondary',
+      condition: !disabled && variant === 'secondary',
       style: {
         borderColor: theme.tokens[colorMap[intent]],
         color: theme.tokens[colorMap[intent]],
