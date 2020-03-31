@@ -1,0 +1,36 @@
+{
+  "notation": "K: G\n\"H7\" B2 F2 ^D2 B,2| \"e\"E4 z EEE | \"a\"c2 B2 A2 G2 | \"H7\" F4 z2 FF|\nw: Sieb zehn Ta ge fährt das Schiff, durch Ne bel, Wel-len, Gischt, und wir\n\"C\"GG GG \"H7\"F3B | \"a\"BA \"H7\"GF \"e\"E4 | z2 z E \"F\"=F2 FF |\nw: ha ben kei nen Kurs und auch zu es sen nicht, Wir ta sten uns \n\"C\"E4 \"a\"(E3/2E/2) GE | \"H7\"^D3 D \"F\"=F2 FF | \"e\"E3 E \"C\"G2 GG | \nw:vor, durch die grau-e Wand, fast stirbt in uns schon die Hoff-nung auf \n\"H7\"F4 \"Refrain\"z B B3/2G/2 | \"e\"E4 z B B3/2G/2 | \"a\"c4zc B3/2A/2 | \nw:Land. Wir fahr'n da-hin wir fahr'n da-hin, wir fahr'n da\n\"e\"B4 z G GG | \"H7\"E4zB B3/2G/2 | \"e\"E4zE EE | \nw:hin, auf ho-her See, wir fahr'n da-hin durch grau-e \n\"C\"c4zG F3/2E/2 | \"e\"GE EG \"H7\"FE ^DF | \"e\"E8 |\nw:Not wir fahr'n da-hin, denn un-ser Steu-er-mann ist tot\n",
+  "content": "{H7}17 Tage {e}fährt das Schiff durch {a}Nebel, Wellen, {H7}Gischt und wir {C}haben keinen {H7}Kurs und {a}auch zu {H7}essen {e}nicht.\nWir {F}tasten uns {C}vor, {a}durch die graue {H7}Wand, fast }F}stirbt in uns {e}schon\ndie {C}Hoffnung auf {H7}Land.\n\nWir fahr’n {e}dahin, wir fahr’n {a}dahin, wir fahr’n {e}dahin, auf hoher {H7}See,\nwir fahr’n {e}dahin, durch graue {C}Not, wir fahr’n {e}dahin, denn unser {H7}Steuermann ist {e}tot.\n\nEin Schlag links und einer rechts, doch geradeaus geht’s nicht. Wabernd graue Teufels- flossen nehmen jedes Licht.\nAngst greift um sich, wann endet diese Fahrt? Vielleicht stirbt schon morgen auch der erste Maat.\n\nDas Schiff im Nebel ist verlor’n, denn keiner weiß wohin. Nur Rudern, Rudern, Aus- schauhalten ohne viel Gewinn!\nWir tasten uns vor, durch die graue Wand,fast stirbt in uns schon die Hoffnung auf Land.\n",
+  "title": "Schiff im Nebel",
+  "words": [
+    {
+      "name": "Manuel Hornauer",
+      "nickname": "manu",
+      "group": "Stamm Normannen",
+      "organisation": "BdP",
+      "year": "2012"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Manuel Hornauer",
+      "nickname": "manu",
+      "group": "Stamm Normannen",
+      "organisation": "BdP",
+      "year": "2012"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "90",
+  "info": "",
+  "changes": [
+    {
+      "date": 1585593508454,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": "Melodie näher am Original als an der zersungenen Version"
+    }
+  ]
+}
