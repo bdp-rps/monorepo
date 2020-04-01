@@ -36,7 +36,7 @@ export default () => {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
-        Downloads
+        Blog
       </Layout>
     </Template>
   )

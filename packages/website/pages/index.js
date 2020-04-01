@@ -69,8 +69,10 @@ export default () => {
           </Box>
         </Box>
 
-        <Box paddingTop={8} alignSelf="center" alignItems="center">
-          <Button href="/blog">Weitere Beiträge</Button>
+        <Box paddingTop={9} alignSelf="flex-start" alignItems="flex-start">
+          <Button href="/blog" size="large">
+            Weitere Beiträge
+          </Button>
         </Box>
       </Layout>
       <Layout paddingTop={10} paddingBottom={12}>
