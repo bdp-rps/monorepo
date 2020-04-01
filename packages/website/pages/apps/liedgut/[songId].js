@@ -4,10 +4,10 @@ import { useFela } from 'react-fela'
 import NextLink from 'next/link'
 import renderAuthors from '@bdp-rps/liedgut/lib/utils/renderAuthors'
 
-import Layout from '../../components/Layout'
-import Link from '../../components/Link'
-import Song from '../../components/Song'
-import Header from '../../components/Header'
+import Layout from '../../../components/Layout'
+import Link from '../../../components/Link'
+import Song from '../../../components/Song'
+import Header from '../../../components/Header'
 
 export default function Page() {
   const theme = useTheme()
@@ -25,14 +25,14 @@ export default function Page() {
       <Header />
       <Layout>
         <Box space={2} paddingTop={10} paddingBottom={10}>
-          <NextLink passHref href="/liedgut">
+          <NextLink passHref href="/apps/liedgut">
             <Link>← Zurück zur Übersicht</Link>
           </NextLink>
           <Spacer size={2} />
           <Song {...songData} />
           <Box paddingTop={4} space={2} alignSelf="flex-start" direction="row">
             <Button>Als PDF herunterladen</Button>
-            <NextLink href={'/liedgut/edit/' + songId}>
+            <NextLink href={'/apps/liedgut/edit/' + songId}>
               <Button variant="secondary">Änderungsvorschlag</Button>
             </NextLink>
           </Box>

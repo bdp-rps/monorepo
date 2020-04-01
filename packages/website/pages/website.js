@@ -7,7 +7,6 @@ import {
   Spacer,
   Tile,
   Link,
-  Button,
 } from '@bdp-rps/ui'
 
 import Layout from '../components/Layout'
@@ -49,7 +48,7 @@ export default () => {
       <Layout
         grow={1}
         paddingTop={5}
-        paddingBottom={10}
+        paddingBottom={20}
         alignSelf="stretch"
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
         <Text intent="subtitle">Das läuft bei uns.</Text>
@@ -67,10 +66,6 @@ export default () => {
               Das ist der aktuelle Post, der wird gehighlighted.
             </Tile>
           </Box>
-        </Box>
-
-        <Box paddingTop={8} alignSelf="center" alignItems="center">
-          <Button href="/blog">Weitere Beiträge</Button>
         </Box>
       </Layout>
       <Layout paddingTop={10} paddingBottom={12}>

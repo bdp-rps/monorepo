@@ -3,10 +3,10 @@ import { Box, TextInput, Text, Button, useTheme } from '@bdp-rps/ui'
 import songList from '@bdp-rps/liedgut'
 import NextLink from 'next/link'
 
-import Link from '../../components/Link'
-import ListItem from '../../components/ListItem'
-import Layout from '../../components/Layout'
-import Header from '../../components/Header'
+import Link from '../../../components/Link'
+import ListItem from '../../../components/ListItem'
+import Layout from '../../../components/Layout'
+import Header from '../../../components/Header'
 
 const songData = songList.reduce((songData, name) => {
   const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
@@ -36,7 +36,7 @@ const SongList = () => {
   return (
     <Box paddingTop={5} paddingBottom={10} space={5}>
       <Box alignSelf="flex-start">
-        <NextLink href="/liedgut/neu">
+        <NextLink href="/apps/liedgut/neu">
           <Button>Lied Hinzufügen</Button>
         </NextLink>
       </Box>
@@ -64,7 +64,7 @@ const SongList = () => {
           const matchesContent = contentIndex !== -1
 
           return (
-            <NextLink href={'/liedgut/' + name} passHref>
+            <NextLink href={'/apps/liedgut/' + name} passHref>
               <ListItem
                 extend={{
                   display: matchesTitle || matchesContent ? 'flex' : 'none',

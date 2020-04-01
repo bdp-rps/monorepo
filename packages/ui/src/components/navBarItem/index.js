@@ -4,7 +4,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-export default function NavBarItem({ href, onClick, children }) {
+export default function NavBarItem({ href, active, onClick, children }) {
   const { theme } = useFela()
 
   return (
@@ -12,10 +12,10 @@ export default function NavBarItem({ href, onClick, children }) {
       as={href ? 'a' : 'div'}
       href={href}
       onClick={onClick}
-      paddingTop={[1, , , 3]}
-      paddingBottom={[1, , , 3]}
-      paddingRight={1.25}
-      paddingLeft={1.25}
+      paddingTop={[1, , , 4]}
+      paddingBottom={[1, , , 4]}
+      paddingRight={[1.5, , , 2]}
+      paddingLeft={[1.5, , , 2]}
       minWidth={50}
       extend={{
         cursor: 'pointer',
@@ -33,7 +33,7 @@ export default function NavBarItem({ href, onClick, children }) {
         },
       }}>
       <Text
-        color={theme.tokens.background}
+        color={active ? theme.tokens.secondary : theme.tokens.background}
         extend={{ fontSize: 18, lineHeight: 1 }}>
         {children}
       </Text>

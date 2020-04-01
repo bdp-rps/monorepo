@@ -58,9 +58,6 @@ export default {
       fontSize: 14.0,
       lineHeight: 16.0,
       color: colors.grey3,
-      // baseline correction
-      marginBottom: 1,
-      paddingTop: 3,
       variants: {
         info: {
           textTransform: 'lowercase',
@@ -75,9 +72,6 @@ export default {
       fontSize: 16.0,
       lineHeight: 16.0,
       color: colors.grey3,
-      // baseline correction
-      marginBottom: 1,
-      paddingTop: 3,
     },
     body: {
       element: 'p',
@@ -85,9 +79,6 @@ export default {
       fontSize: 16.0,
       lineHeight: 24.0,
       color: colors.grey1,
-      // baseline correction
-      marginBottom: 2,
-      paddingTop: 2,
     },
     category: {
       element: 'h3',
@@ -96,9 +87,6 @@ export default {
       lineHeight: 22.0,
       fontWeight: 700,
       color: colors.blue,
-      // baseline correction
-      paddingTop: 1,
-      marginBottom: 3,
     },
     subtitle: {
       element: 'h2',
@@ -115,9 +103,6 @@ export default {
       fontSize: 40.0,
       lineHeight: 40.0,
       color: colors.grey1,
-      // baseline correction
-      marginBottom: 3,
-      paddingTop: 1,
     },
   },
 }

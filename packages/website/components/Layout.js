@@ -1,8 +1,8 @@
 import { Box } from '@bdp-rps/ui'
 
-export default function Layout({ children }) {
+export default function Layout({ children, extend, ...props }) {
   return (
-    <Box alignItems="center">
+    <Box {...props} alignItems="center" extend={extend}>
       <Box
         padding={[2.5, , , 0]}
         maxWidth={1000}
