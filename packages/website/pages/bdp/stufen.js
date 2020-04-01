@@ -15,11 +15,10 @@ import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
 const subNav = {
-  '/landesleitung': 'Landesleitung',
-  '/staemme': 'Stämme',
-  '/leitsaetze': 'Leitsätze',
-  '/club-29': 'Club 29',
-  '/watato-kabisa': 'Watato Kabisa',
+  '/pfadfinden': 'Pfadfinden?',
+  '/stufen': 'Stufen',
+  '/versprechen': 'Versprechen',
+  '/ausbildung': 'Ausbildung',
   '/geschichte': 'Geschichte',
 }
 
@@ -33,7 +32,7 @@ export default () => {
           <Box direction={['column', , 'row']} paddingLeft={5}>
             {Object.keys(subNav).map(path => (
               <NavBarItem
-                href={'/landesverband' + path}
+                href={'/bdp' + path}
                 active={router.pathname.indexOf(path) !== -1}>
                 {subNav[path]}
               </NavBarItem>
@@ -42,7 +41,7 @@ export default () => {
         </Layout>
       </NavBar>
       <Layout paddingTop={10} paddingBottom={10}>
-        Leitsätze
+        Stufen
       </Layout>
     </Template>
   )

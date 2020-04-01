@@ -53,7 +53,7 @@ export default () => {
         alignSelf="stretch"
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
         <Text intent="subtitle">Das läuft bei uns.</Text>
-        <Box paddingTop={2} direction="row" space={4}>
+        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
             <Tile title="Aktueller Post" image="/images/bg.jpg" highlight>
               Das ist der aktuelle Post, der wird gehighlighted.
@@ -78,7 +78,10 @@ export default () => {
       <Layout paddingTop={10} paddingBottom={12}>
         <Text intent="subtitle">Das steht an.</Text>
 
-        <Box paddingTop={5} direction="row">
+        <Box
+          paddingTop={5}
+          space={[8, , , 0]}
+          direction={['column', , , 'row']}>
           <Box grow={1}>
             <TextBox>April</TextBox>
             <Text>10-12. LV</Text>

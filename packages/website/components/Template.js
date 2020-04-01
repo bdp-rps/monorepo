@@ -29,13 +29,13 @@ export default function Template({ children }) {
   return (
     <Box grow={1}>
       <Box
-        paddingBottom={2}
+        paddingBottom={[1, , , 2]}
+        minHeight={[200, , , 230]}
+        height={['12vh', , , '20vh']}
         extend={{
           backgroundImage: 'url("/images/bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: '70% 50%',
-          height: '20%',
-          minHeight: 230,
           width: '100%',
           justifyContent: 'flex-end',
         }}>
@@ -57,7 +57,7 @@ export default function Template({ children }) {
       </Box>
       <NavBar>
         <Layout>
-          <Box direction="row">
+          <Box direction={['column', , 'row']}>
             {Object.keys(nav).map(path => (
               <NavBarItem
                 href={path}
@@ -78,7 +78,7 @@ export default function Template({ children }) {
         paddingBottom={10}
         extend={{ backgroundColor: theme.tokens.secondary }}>
         <Box space={10}>
-          <Box direction="row">
+          <Box direction={['column', , , 'row']} space={[14, , , 0]}>
             <Box space={2} grow={1}>
               <Text intent="category">Rechtliches</Text>
               <Spacer size={0.5} />

@@ -27,7 +27,7 @@ export default () => {
     <Template>
       <NavBar intent="secondary">
         <Layout>
-          <Box direction="row" paddingLeft={5}>
+          <Box direction={['column', , 'row']} paddingLeft={5}>
             {Object.keys(subNav).map(path => (
               <NavBarItem
                 href={'/digital' + path}

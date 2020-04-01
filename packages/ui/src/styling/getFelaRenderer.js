@@ -1,6 +1,7 @@
 import { createRenderer } from 'fela'
 import plugins from 'fela-preset-web'
 import responsiveValue from 'fela-plugin-responsive-value'
+import sortMediaQueryMobileFirst from 'fela-sort-media-query-mobile-first'
 
 import staticStyle from './staticStyle'
 
@@ -50,6 +51,7 @@ const getResponsiveMediaQueries = (values, props) => {
 
 export default function getFelaRenderer() {
   const renderer = createRenderer({
+    enhancers: [sortMediaQueryMobileFirst()],
     plugins: [
       responsiveValue(getResponsiveMediaQueries, responsiveProps),
       ...plugins,

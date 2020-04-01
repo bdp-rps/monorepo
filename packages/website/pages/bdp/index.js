@@ -16,8 +16,9 @@ import Template from '../../components/Template'
 
 const subNav = {
   '/pfadfinden': 'Pfadfinden?',
-  '/die-stufen': 'Stufen',
-  '/das-versprechen': 'Versprechen',
+  '/stufen': 'Stufen',
+  '/versprechen': 'Versprechen',
+  '/ausbildung': 'Ausbildung',
   '/geschichte': 'Geschichte',
 }
 
@@ -28,7 +29,7 @@ export default () => {
     <Template>
       <NavBar intent="secondary">
         <Layout>
-          <Box direction="row" paddingLeft={5}>
+          <Box direction={['column', , 'row']} paddingLeft={5}>
             {Object.keys(subNav).map(path => (
               <NavBarItem
                 href={'/bdp' + path}

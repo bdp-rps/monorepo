@@ -12,19 +12,22 @@ export default function NavBarItem({ href, active, onClick, children }) {
       as={href ? 'a' : 'div'}
       href={href}
       onClick={onClick}
-      paddingTop={[1, , , 4]}
-      paddingBottom={[1, , , 4]}
-      paddingRight={[1.5, , , 2]}
-      paddingLeft={[1.5, , , 2]}
+      paddingTop={[3, , 2, 4]}
+      paddingBottom={[3, , 2, 4]}
+      paddingRight={[1.5, , 2]}
+      paddingLeft={[1.5, , 2]}
+      width={['100%', , 'auto']}
       minWidth={50}
       extend={{
         cursor: 'pointer',
         textDecoration: 'none',
-        ':first-child': {
-          paddingLeft: 0,
-        },
-        ':last-child': {
-          paddingRight: 0,
+        '@media (min-width: 800px)': {
+          ':first-child': {
+            paddingLeft: 0,
+          },
+          ':last-child': {
+            paddingRight: 0,
+          },
         },
         ':hover': {
           '> p': {
