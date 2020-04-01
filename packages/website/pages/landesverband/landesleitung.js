@@ -14,36 +14,58 @@ import {
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-const subNav = {
-  '/landesleitung': 'Landesleitung',
-  '/staemme': 'Stämme',
-  '/leitsaetze': 'Leitsätze',
-  '/club-29': 'Club 29',
-  '/watato-kabisa': 'Watato Kabisa',
-  '/geschichte': 'Geschichte',
-}
+import landesleitung from '../../data/landesleitung.json'
 
-export default () => {
-  const router = useRouter()
+const parts = landesleitung.reduce((parts, member) => {
+  if (!parts[member.part]) {
+    parts[member.part] = []
+  }
 
-  return (
-    <Template>
-      <NavBar intent="secondary">
-        <Layout>
-          <Box direction={['column', , 'row']} paddingLeft={5}>
-            {Object.keys(subNav).map(path => (
-              <NavBarItem
-                href={'/landesverband' + path}
-                active={router.pathname.indexOf(path) !== -1}>
-                {subNav[path]}
-              </NavBarItem>
-            ))}
+  parts[member.part].push(member)
+  return parts
+}, {})
+
+export default () => (
+  <Template>
+    <Layout
+      paddingTop={10}
+      paddingBottom={10}
+      grow={1}
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+      <Box space={8}>
+        {Object.keys(parts).map(part => (
+          <Box>
+            <Text intent="subtitle">{part}</Text>
+
+            <Box direction="row" wrap="wrap" space={4}>
+              {parts[part].map(({ name, group, contact, position }) => (
+                <Box
+                  marginBottom={4}
+                  basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
+                  <Tile title={name}>
+                    <Box>
+                      <Text>{position}</Text>
+                    </Box>
+                    {group ? (
+                      <Box>
+                        <Text>Stamm {group}</Text>
+                      </Box>
+                    ) : null}
+                    {contact ? (
+                      <Box>
+                        <Text>
+                          <Link href={'mailto:' + contact}>{contact}</Link>
+                        </Text>
+                      </Box>
+                    ) : null}
+                  </Tile>
+                </Box>
+              ))}
+            </Box>
           </Box>
-        </Layout>
-      </NavBar>
-      <Layout paddingTop={10} paddingBottom={10}>
-        Landesleitung
-      </Layout>
-    </Template>
-  )
-}
+        ))}
+      </Box>
+    </Layout>
+    <Box height={80} extend={{ backgroundColor: 'white' }} />
+  </Template>
+)

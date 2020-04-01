@@ -1,0 +1,36 @@
+{
+  "notation": "\"F\"z2F2GA2A2\"C\"GAGAGAGF2|\"d\"z2[FA]2GA2F\"a\"EFEFE2|\n\"d\"z2DFA2F2|\"a\"z2CEG2E2|\"E\"D2D2E2ED|\"a\"C2G2\"A\"A2G2:|",
+  "content": "{F}Wir Zigeuner {C}sausen immer wie die Winde{d}, wir Zigeuner {a}kenn’ die ganze Welt. \n{d}Wir Zigeuner{a}, spiel’n für alle {E}und wir singen {a}immer{A}zu.\n\n/: {F}Ore, ore, {C}Scha-bada-bada amore{d}, Hei Amore, {a}Scha-bada-bada{d}, o Murjate{a}, o Schograte, {E}heida, Trojka {a}na Menj{(A)}a. :/\n\nWenn ich tanze, tanz der ganze Himmel mit mir. Wenn ich pfeife, pfeift mit mir der Wind. Schließ die Augen - Blätter welken. Wenn ich schweige, schweigt die Welt.\n\nEs wird leichter, leichter wird es, heller wird es, diese Freude machen wir nur euch! Es wird leichter, heller wird es, wenn dann jeder von uns singt:",
+  "title": "Ore, Ore",
+  "words": [
+    {
+      "name": "Don Vasyl",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Don Vasyl",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "90",
+  "info": "Don Vasyl (Roma), polnisches Volkslied",
+  "changes": [
+    {
+      "date": 1585675904522,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

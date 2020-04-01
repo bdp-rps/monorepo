@@ -1,0 +1,154 @@
+[
+  {
+    "part": "Vorstand",
+    "name": "Stefan Schmidt (mefan)",
+    "position": "Landesvorsitzender",
+    "contact": "mefan@bdp-rps.de",
+    "group": "Sturmvogel"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Linda Flohrer",
+    "position": "Stellv. Landesvorsitzende",
+    "contact": "linda@bdp-rps.de",
+    "group": "Franz von Sickingen"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Anne Wendel",
+    "position": "Stellv. Landesvorsitzende",
+    "contact": "anne@bdp-rps.de",
+    "group": "Franz von Sickingen"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Hannes Müller",
+    "position": "Stellv. Landesvorsitzender",
+    "contact": "hannes@bdp-rps.de",
+    "group": "Kurzpfalz"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Dominik Meisinger",
+    "position": "Landesschatzmeister",
+    "contact": "dominik@bdp-rps.de",
+    "group": "Kurzpfalz"
+  },
+  {
+    "part": "Mitgliederverwaltung",
+    "name": "Arno Schäfer",
+    "contact": "arno@bdp-rps.de",
+    "group": "der Piraten"
+  },
+  {
+    "part": "Landesbeauftragte Wölflings-Stufe",
+    "name": "Victoria Ehl",
+    "contact": "victoria@bdp-rps.de",
+    "group": "Falke"
+  },
+  {
+    "part": "Landesbeauftragte Wölflings-Stufe",
+    "name": "Roxanne Schaefer (roxy)",
+    "contact": "roxy@bdp-rps.de",
+    "group": "Albert Schweitzer"
+  },
+  {
+    "part": "Landesbeauftragte Pfadfinder-Stufe",
+    "name": "Lukas Ebel",
+    "contact": "lukas@bdp-rps.de",
+    "group": "Franz von Sickingen"
+  },
+  {
+    "part": "Landesbeauftragte Pfadfinder-Stufe",
+    "name": "Victoria Schilde (zappussel)",
+    "contact": "zappussel@bdp-rps.de",
+    "group": "Roter Löwe"
+  },
+  {
+    "part": "Landesbeauftragte R/R-Stufe",
+    "name": "Merlin Schäfer",
+    "contact": "merlin@bdp-rps.de",
+    "group": "der Piraten"
+  },
+  {
+    "part": "Landesbeauftragte R/R-Stufe",
+    "name": "Michael Küppers (profi)",
+    "contact": "profi@bdp-rps.de",
+    "group": "Pilgrim Falkoni"
+  },
+  {
+    "part": "Landesbeauftragte Ausbildung",
+    "name": "Wiebke Spieß",
+    "contact": "wiebke@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Ausbildung",
+    "name": "Michelle Büttner",
+    "contact": "michelle@bdp-rps.de",
+    "group": "Goten"
+  },
+  {
+    "part": "Landesbeauftragte Medien & IT",
+    "name": "Timon Flick",
+    "contact": "timon@bdp-rps.de",
+    "group": "Sturmvogel"
+  },
+  {
+    "part": "Landesbeauftragte Medien & IT",
+    "name": "Robin Weser",
+    "contact": "robin@bdp-rps.de",
+    "group": "Luchs"
+  },
+  {
+    "part": "Landesbeauftragter Material",
+    "name": "Meik Selig",
+    "contact": "meik@bdp-rps.de",
+    "group": "Bundschuh"
+  },
+  {
+    "part": "Landesjugendring Rheinland-Pfalz",
+    "name": "Peter Krietemeyer (charly)",
+    "contact": "charly@bdp-rps.de",
+    "group": "Goten"
+  },
+  {
+    "part": "Landesjugendring Rheinland-Pfalz",
+    "name": "Berthold Müller (bertsch)",
+    "contact": "bertsch@bdp-rps.de",
+    "group": "Kurzpfalz"
+  },
+  {
+    "part": "Landesjugendring Rheinland-Pfalz",
+    "name": "Karin Kienle (sorry)",
+    "contact": "sorry@bdp-rps.de"
+  },
+  {
+    "part": "Landesjugendring Saarland",
+    "name": "Michael Braun (micha)",
+    "contact": "micha@bdp-rps.de",
+    "group": "Tscherkessen"
+  },
+  {
+    "part": "AK Liedgut",
+    "name": "Singerunde RP/S",
+    "contact": "liedgut@bdp-rps.de"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Gabi Zimmer (rapunzel)",
+    "contact": "rapunzel@bdp-rps.de"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Martina Schleich (tina)"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Sabine Gall"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Frank Bernhard (fränki)"
+  }
+]
