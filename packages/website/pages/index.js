@@ -80,7 +80,7 @@ export default () => {
 
         <Box
           paddingTop={5}
-          space={[8, , , 0]}
+          space={[10, , , 0]}
           direction={['column', , , 'row']}>
           <Box grow={1}>
             <TextBox>April</TextBox>
