@@ -1,0 +1,36 @@
+{
+  "notation": "K:Em\nF|\"e\"GE2FGE2G|\"H7\"FG2F\"e\"E2\"D7\"D2|\"G\"GG2G\"D\"Ad2c|\"G\"B6\nw:Wir sind ei-ne ...\n|:B2|\"C\"c2c2c2c2|\"G\"BB2AG2GA|BB2B\"D\"AB2A|\"G\"G6:|\nw:Und je-der ...\nz2|\"e\"B4G3A|B4G4|\"a\"c4A2c2|\"e\"B2A2G2GG|\"H7\"A4F2A2|\"e\"G2F2E2EE|\"H7\"F4B,2GF|\"e\"E6|\nw: Zwi-schen-spiel",
+  "content": "Wir {e}sind eine kleine ver{H7}lorene {e}Schar, {D7}wir {G}stehen für {D}uns auf der {G}Welt\n/: und {C}jeder Kerl der {G}mit uns war, hat für immer sich {D}zu uns ge{G}sellt. :/\n{e}{--aeH7eH7e}\n     \nWir leben in Lumpen, wir lieben die Nacht, unsre Zeit heißt immer das Jetzt. Wir haben die Spießer ängstlich gemacht, und wir lachen, wenn man uns hetzt.\n\nSo ziehen wir weiter, durchs Land, durch die Zeit, wir ändern uns nimmermehr, lasst uns die Fahne, die Fahrt uns das Scheit und den abgebrochenen Speer.\n",
+  "title": "Wir sind eine kleine verloren Schar",
+  "words": [
+    {
+      "name": "Alfred Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alfred Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "80",
+  "info": "",
+  "changes": [
+    {
+      "date": 1586194356942,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
