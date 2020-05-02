@@ -1,0 +1,43 @@
+{
+  "notation": "",
+  "content": "{a}An den Flammen {C}zusammen gerü{E7}ckt {a} sitzt die Horte, vom {C}Lied noch entzü{E7}ckt.\n{d}Sie wollen von den Tages {a}Bürde zehren, {d}sich mit Decken gegen {a}Kälte wehren.\n{d}Schwarze Kothe am {a}Waldesrand, {d}Nacht senkt sich {E}übers Land.\n{d}Ein großer Rabe mit {G}seltsamen Schrei fliegt {C}dicht an ihren {a}Köpfen vorbei.\n\n/: Sie {d}hoffen auf das {G}Tageslicht, denn im {C}Dunkeln sieht man seinen {a}Schatten nicht. :/\n\nDer Rabe sich auf breiten Schultern wiegt, der selbst nachts noch seine Runden zieht. Begleitet Ihn schon seit langen Tagen, den dunklen Fremden aus alten Sagen.\nDas erste Mal, dass sie ihn sehen, stumm bleibt er zwischen den Bäumen stehen.\n\nRingsrum Stille, nur das Feuer knistert. Einer ängstlich zu ihm flüstert: „Komm hinein in unser ́n Kreis, Essen ist für dich gewiss noch heiß.“ Er nimmt sie mit auf seine Reise, erzählt von vergessenen alten Weisen.\nDas Feuer ist aus, der Tag bricht an, verschwunden ist der alte Mann. \n/: Doch hört man noch lange Zeit, wie der Rabe in der Ferne schreit. :/",
+  "title": "Der Rabe",
+  "words": [
+    {
+      "name": "",
+      "nickname": "nobby",
+      "group": "Stamm Graf Luckner",
+      "organisation": "DPBM",
+      "year": ""
+    },
+    {
+      "name": "toni",
+      "nickname": "",
+      "group": "Stamm Graf Luckner",
+      "organisation": "DPBM",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Ton, Steine, Scherben",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1588438194990,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
