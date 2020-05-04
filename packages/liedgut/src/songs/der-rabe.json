@@ -36,6 +36,13 @@
       "date": 1588438194990,
       "name": "cätch",
       "mail": "",
+      "type": "change",
+      "content": ""
+    },
+    {
+      "date": 1587738765841,
+      "name": "Rouven",
+      "mail": "rouven@bdp-io.de",
       "type": "create",
       "content": ""
     }

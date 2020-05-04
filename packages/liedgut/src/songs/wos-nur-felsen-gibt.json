@@ -1,0 +1,36 @@
+{
+  "notation": "K:Dm\n\"d\"A3GF2E2|D4A2z2|A3GF2G2|\"A\"E2E2z4|G3FE2D2|E4A2z2|F3ED2^C2|\"d\"D4D4|\n\"g\"B3AG2d2|\"d\"A6z2|\"g\"B3AG2d2|\"d\"A6z2|\"A\"G3FE2D2|E4A2z2|F3ED2^C2|\"d\"D6z2|\n|:F2F2FFED|\"A\"EA2AAGFE|\"d\"F2FFFFED|\"g\"GVBBB2B2|\nd2ddd2cB|\"d\"dA2AA2A2|z8|\"A\"G2GGG2FE|\"d\"FD2DD2D2:|",
+  "content": "{d}Wo‘s nur Felsen gibt, da bin ich {A}geboren.\nFrüh ward ich gel{A7}iebt, früh bekam ich {d}Sporen,\n{g}Dolch und Silbersch{d}loss {g}wählte mir mein {d}Ross, \n{A7}tanzte manchen Tanz, Kelche trank ich {d}ganz.\n\n/: Wir sind voller Märchen {A}und Legenden, {d}wir haben Schwielen von den {g}Säbeln an den\nHänden, wir schlafen tags und durch{d}reiten die Nächte, {A}stolz auf die Narben vom {d}letzten Gefechte. :/\n\nWo im ew‘gen Schnee stolz der Kasbek thront hat im stillen Tal einst mein Ahn gewohnt. War ein starker Held, kühn und wohlgemut, starb von Feindeshand jäh in seinem Blut.\n",
+  "title": "Wo´s nur Felsen gibt",
+  "words": [
+    {
+      "name": "Werner Helwig",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "russ. Nomadenlied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1586282830764,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
