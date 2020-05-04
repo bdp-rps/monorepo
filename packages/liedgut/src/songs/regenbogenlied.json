@@ -1,0 +1,36 @@
+{
+  "notation": "M:C\nL:1/8\n\"C\"zEEEE2E2|\"F\"F2F2F2F2|\"G\"zDDDE2F2|\"C\"ED2E3z2|\nw:1.~Von ü-ber all sind wir ge-kom-men, im La-ger grund steht Zelt an Zelt,\n\"a\"zEEEE2E2|\"F\"F2E2D2C2|\"G\"zDDDD2D2|\"C\"CD3E2z2\nw:und habt ihr un-sern Ruf ver-nom-men, so tragt ihn raus in al-le Welt!\n|:\"F\"z2AAA2A2|\"G\"B2A2G2F2|\"C\"zGGGG2G2|\"a\"CD3E2z2|\nw:Ü-ber uns ein Re-gen-bo-gen, zeigt uns den Weg in sei-nem Licht,\n\"F\"zAAAA2A2|\"G\"G2F2E2D2|\"C\"zEEE\"F\"F2D2|\"G\"CB,2\"C\"C3z2:|\nw:die Wol-ken sind schon fort-ge-zo-gen, ver-weh-ren uns die Son-ne nicht!",
+  "content": "{C}Von überall sind {F}wir gekommen, {G}im Lagergrund steht {C}Zelt an Zelt,\n{a}und habt ihr unsern {F}Ruf vernommen, {G}so tragt ihn raus in {C}alle Welt!\n{F}Über uns ein {G}Regenbogen, {C}zeigt uns den Weg in {a}seinem Licht,\n{F}die Wolken sind schon {G}fortgezogen, {C}verwehren {F}uns die {G}Sonne {C}nicht!\n\nAus Süden, Osten, West und Norden sind wir vereint zum großen Spiel,\ndenn weit ist unser Kreis geworden und nur in ihm liegt unser Ziel.\n\nUnd abends in der Lagerrunde erzählen wir von dir und mir,\nbrennt auch kein Licht in dieser Stunde, am nächsten Morgen wissen wir:\n\nSind wir einmal fortgezogen, dahin, wo es uns gefällt,\nbringt auch unser Regenbogen neue Farben in die Welt.",
+  "title": "Regenbogenlied",
+  "words": [
+    {
+      "name": "P. Kümmel, J. Geißler, C. Ette, P. Steinacker",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1977"
+    }
+  ],
+  "tune": [
+    {
+      "name": "P. Kümmel, J. Geißler, C. Ette, P. Steinacker",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1977"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "120",
+  "info": "",
+  "changes": [
+    {
+      "date": 1587667855801,
+      "name": "Rouven",
+      "mail": "rouven@bdp-io.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
