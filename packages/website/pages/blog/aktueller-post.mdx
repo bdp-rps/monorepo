@@ -1,0 +1,29 @@
+import BlogLayout from '../../components/BlogLayout'
+
+export const meta = {
+  title: 'Aktueller Post',
+  teaser: 1,
+  description: 'Das ist die Beschreibung des aktuellen Posts',
+  author: {
+    name: 'Timon Flick',
+    nickname: '',
+    position: 'LB Medien',
+  },
+  date: {
+    year: 2020,
+    month: 6,
+    day: 2,
+  },
+}
+
+export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
+
+Das hier ist ein Post.
+
+## Lorem ipsum
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+### Mit Headings
+
+und mit [Links](/)

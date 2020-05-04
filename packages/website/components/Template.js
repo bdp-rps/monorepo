@@ -76,7 +76,7 @@ export default function Template({ children }) {
               backgroundColor: theme.colors.yellow,
               alignSelf: 'flex-start',
             }}>
-            <Text intent="title" height={1} color={theme.colors.brown}>
+            <Text intent="title" height={1} color={theme.colors.blue}>
               BdP LV RPS
             </Text>
           </Box>

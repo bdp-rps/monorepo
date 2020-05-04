@@ -8,6 +8,7 @@ import Button from './components/button'
 import Card from './components/card'
 import Checkbox from './components/checkbox'
 import Col from './components/col'
+import Fixed from './components/fixed'
 import Grid from './components/grid'
 import Link from './components/link'
 import List from './components/list'
@@ -43,6 +44,7 @@ export {
   Checkbox,
   Col,
   FelaProvider,
+  Fixed,
   getDataFromFields,
   getFelaRenderer,
   Grid,

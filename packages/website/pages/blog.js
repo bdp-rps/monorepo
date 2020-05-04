@@ -8,9 +8,13 @@ import {
   Tile,
   Link,
 } from '@bdp-rps/ui'
+import NextLink from 'next/link'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
+import PostTile from '../components/PostTile'
+
+import manifest from '../public/blog-manifest.json'
 
 const TextBox = ({ children }) => {
   const theme = useTheme()
@@ -35,8 +39,15 @@ export default () => {
 
   return (
     <Template>
-      <Layout paddingTop={10} paddingBottom={10}>
-        Blog
+      <Layout
+        paddingTop={10}
+        paddingBottom={20}
+        extend={{ backgroundColor: 'rgb(240, 240, 240)' }}>
+        <Box space={5}>
+          {manifest.map(post => (
+            <PostTile key={post.id} {...post} />
+          ))}
+        </Box>
       </Layout>
     </Template>
   )

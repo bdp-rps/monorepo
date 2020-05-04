@@ -9,9 +9,14 @@ import {
   Link,
   Button,
 } from '@bdp-rps/ui'
+import NextLink from 'next/link'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
+import PostTile from '../components/PostTile'
+
+import manifest from '../public/blog-manifest.json'
+const [firstPost, ...otherPosts] = manifest
 
 const TextBox = ({ children }) => {
   const theme = useTheme()
@@ -37,14 +42,15 @@ export default () => {
   return (
     <Template>
       <Layout paddingTop={5} paddingBottom={5}>
-        <Text>
+        <Box space={2}>
           <Text intent="category">Willkommen bei den Pfadfindern.</Text>
-          <br />
-          Der Bund der Pfadfinderinnen und Pfadfinder ist der größte
-          interkonfessionelle Pfadfinderbund in Deutschland.
-          <br />
-          In Rheinland-Pfalz und im Saarland sind wir mit 20 Gruppen präsent.
-        </Text>
+          <Text>
+            Der Bund der Pfadfinderinnen und Pfadfinder ist der größte
+            interkonfessionelle Pfadfinderbund in Deutschland.
+            <br />
+            In Rheinland-Pfalz und im Saarland sind wir mit 20 Gruppen präsent.
+          </Text>
+        </Box>
       </Layout>
       <Layout
         grow={1}
@@ -55,17 +61,12 @@ export default () => {
         <Text intent="subtitle">Das läuft bei uns.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
-            <Tile title="Aktueller Post" image="/images/bg.jpg" highlight>
-              Das ist der aktuelle Post, der wird gehighlighted.
-            </Tile>
+            <PostTile highlight {...firstPost} />
           </Box>
           <Box grow={1} space={4}>
-            <Tile title="Aktueller Post" image="/images/bg.jpg">
-              Das ist der aktuelle Post, der wird gehighlighted.
-            </Tile>
-            <Tile title="Aktueller Post" image="/images/bg.jpg">
-              Das ist der aktuelle Post, der wird gehighlighted.
-            </Tile>
+            {otherPosts.splice(0, 2).map(post => (
+              <PostTile key={post.id} {...post} />
+            ))}
           </Box>
         </Box>
 

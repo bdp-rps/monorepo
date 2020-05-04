@@ -1,0 +1,21 @@
+import BlogLayout from '../../components/BlogLayout'
+
+export const meta = {
+  title: 'Erster Post',
+  teaser: 1,
+  description: 'Das ist die Beschreibung des ersten Posts',
+  author: {
+    name: 'Robin Weser',
+    nickname: '',
+    position: 'LB Medien',
+  },
+  date: {
+    year: 2020,
+    month: 4,
+    day: 20,
+  },
+}
+
+export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

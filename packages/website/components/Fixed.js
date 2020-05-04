@@ -1,7 +1,7 @@
-import React from 'react'
+import { useState, useEffect, createContext, useContext } from 'react'
 import { useFela } from 'react-fela'
 
-function getConstraints(id, offset = 0, order, cache) {
+const getConstraints = (id, offset = 0, order, cache) => {
   const previous = order.slice(0, order.indexOf(id) + offset)
 
   return previous.reduce(

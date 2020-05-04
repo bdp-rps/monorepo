@@ -11,10 +11,10 @@ export default function Header() {
     <NavBar>
       <Layout>
         <Box direction="row" space={[2, , , 4]}>
-          <NextLink href="/" passHref>
+          <NextLink href="/apps" passHref>
             <NavBarItem>Home</NavBarItem>
           </NextLink>
-          <NextLink href="/liedgut" passHref>
+          <NextLink href="/apps/liedgut" passHref>
             <NavBarItem>Liedgut</NavBarItem>
           </NextLink>
         </Box>
