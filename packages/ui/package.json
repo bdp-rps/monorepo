@@ -1,6 +1,6 @@
 {
   "name": "@bdp-rps/ui",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -67,5 +67,5 @@
     "react-styleguidist": "^11.0.4",
     "rimraf": "^3.0.0"
   },
-  "gitHead": "58110dbc227a0b59efe6674ce6ea93588cf3f594"
+  "gitHead": "347d7fa27b948702c4a52ccc2c1f4a583b94f0bc"
 }

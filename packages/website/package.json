@@ -1,6 +1,6 @@
 {
   "name": "bdp-rps.de",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Official bdp-rps.de website",
   "private": true,
   "scripts": {
@@ -14,8 +14,8 @@
     "deploy": "now --prod"
   },
   "dependencies": {
-    "@bdp-rps/liedgut": "^0.0.22",
-    "@bdp-rps/ui": "^0.0.22",
+    "@bdp-rps/liedgut": "^0.0.23",
+    "@bdp-rps/ui": "^0.0.23",
     "@mdx-js/loader": "^1.5.8",
     "@mdx-js/react": "^1.5.8",
     "@next/bundle-analyzer": "9.3.4",
