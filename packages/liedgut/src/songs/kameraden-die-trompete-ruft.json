@@ -1,0 +1,36 @@
+{
+  "notation": "K:D\nDE|\"D\"F3F2FG|\"A\"F2E2\"D\"D3DE|F2D2\"A\"E4|\"D\"F8|\n|:\"G\"G4G4|GGFE\"D\"D2F2|F3DF3D|\"A\"1E4\"D\"F4:|\"A\"2E4\"D\"D4|",
+  "content": "Kame{D}raden, die Trom{A}pete {D}ruft\nheute heißt es {A}wan{D}dern.\n{G}Morgen scheint die Sonne {D}uns\nin Rußland oder {A}Flan{D}dern.\n\nKameraden, macht das Herze leicht,\nlaßt die Trommeln rühren.\nPfeifen und Trommeln müssen sein,\ndenn es heißt marschieren.\n\nMeine Liebste, ja, die mag mich nicht,\nhat mich längst verlassen.\nKam´rad, morgen schon vielleicht\nsterb ich auf der Straßen.\n\nRöslein, Röslein pflanzet auf mein Grab,\nRöslein, rot und grüne.\nWie mein junges Blut so rot,\nund so heiß die Liebe.\n\nKameraden, die Trompete ruft\nheute heißt es wandern.\nMorgen scheint die Sonne uns\nin Rußland oder Flandern.",
+  "title": "Kameraden die Trompete ruft",
+  "words": [
+    {
+      "name": "Gustav Wilhelm Harmssen",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Otto Leis",
+      "nickname": "ottsch",
+      "group": "",
+      "organisation": "",
+      "year": "1931"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "90",
+  "info": "",
+  "changes": [
+    {
+      "date": 1599405121031,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
