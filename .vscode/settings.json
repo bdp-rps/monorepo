@@ -42,7 +42,7 @@
     "packages/react-pdf/**/.jshintrc": true,
     "packages/react-pdf/**/.idea": true,
     "packages/react-pdf/**/dist": true,
-    "packages/react-pdf/**/.DS_Store": true,
-    "**/dist": true
+    "packages/react-pdf/**/.DS_Store": true
+    // "**/dist": true
   }
 }

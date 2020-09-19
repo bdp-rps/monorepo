@@ -11,7 +11,7 @@
     "now-build": "yarn build",
     "start": "next start",
     "export": "next export",
-    "deploy": "now --prod"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@bdp-rps/liedgut": "^0.0.23",
