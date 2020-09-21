@@ -1,0 +1,43 @@
+{
+  "notation": "K:D\nA,2|\"D\"D2D2\"A\"E2|\"D\"F4DD|\"G\"G2G3G|\"D\"F2F3F|\"A\"E2D2E2|\"D\"F2A2\"G\"B2|\n\"D\"A3GF2|\"A\"E6|\"D\"F2F3D|\"A\"E2E3C|\"D\"D6-|D6|A2A3F|\"A\"G2A3G|\"E\"F6|",
+  "content": "Die {D}Dämmerung {A}fällt, wir sind {G}müde vom {D}Traben.\nDie {A}Straßen, sie {D}haben {G}der {D}Steine gar {A}viel.\n/: {D}Lasst sie für {A}heute {D}allein. :/\n\nEs ist uns bestimmt, mit brennenden Füßen\ndie Unrast zu büßen, die der Tag mit sich bringt.\n/: Bald, Kameraden, ist Ruh. :/\n\nWer weiß, wo der Wind uns morgen schon hinweht, wo keiner mehr mitgeht, der Bruder uns ist.\n/: Bald sind wir alle allein. :/\n\nDoch glauben wir fest, dass stets sich erneure, der Bund und die Treue zu unserem Werk.\n/: Drum Kameraden, gut Nacht. :/\n",
+  "title": "Die Dämmerung fällt",
+  "words": [
+    {
+      "name": "K.A. Christel",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "K.A. Christel",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "Helmut König",
+      "nickname": "helm",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "tempo": "100",
+  "info": "",
+  "changes": [
+    {
+      "date": 1600710338969,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
