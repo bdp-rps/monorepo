@@ -152,7 +152,12 @@ export default async function addSong(
   const submitDate = Date.now()
 
   const { changes, ...songData } = song
-  const branchName = fileName + '_' + hash(JSON.stringify(songData))
+  const branchName =
+    fileName +
+    '_' +
+    hash(JSON.stringify(songData)) +
+    '_' +
+    hash(songData.content)
 
   const commitMessage = (change ? 'update ' : 'add ') + fileName + extension
   const body = `${submitterContent}
