@@ -4,40 +4,32 @@
     {
       "name": "Robin Weser",
       "nickname": "",
+      "group": "Die Tippelbrüder",
       "organisation": "BdP",
-      "year": 2020
+      "year": "2020"
     },
     {
       "name": "Philipp Winicker",
       "nickname": "",
+      "group": "Die Tippelbrüder",
       "organisation": "BdP",
-      "year": 2020
-    },
-    {
-      "name": "Sebastian Lück",
-      "nickname": "bär",
-      "organisation": "BdP",
-      "year": 2020
+      "year": "2020"
     }
   ],
   "tune": [
     {
       "name": "Robin Weser",
       "nickname": "",
+      "group": "Die Tippelbrüder",
       "organisation": "BdP",
-      "year": 2020
+      "year": "2020"
     },
     {
       "name": "Philipp Winicker",
       "nickname": "",
+      "group": "Die Tippelbrüder",
       "organisation": "BdP",
-      "year": 2020
-    },
-    {
-      "name": "Sebastian Lück",
-      "nickname": "bär",
-      "organisation": "BdP",
-      "year": 2020
+      "year": "2020"
     }
   ],
   "beat": "4/4",
@@ -70,7 +62,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Akkordposition in Melodie angepasst\n"
+    },
+    {
+      "date": 1600858479115,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Authoren angepasst"
     }
   ],
-  "notation": "C: Swing\n\"C\" z4 z C C D | E5/2 A  G E \"G\" D C | \"a\" A, C  C5/2 C C D | \"C\" E5/2 E \"F\" F2 F E |\n\"G\" D4 z C C D | \"C\" E5/2 A  G E \"G\" D C | \"a\" A, C  C5/2 C D E | \"F\" F2 E2 \"G\" D2 \"C\" C B, | C2 z6 |"
+  "notation": "C: Swing\n\"C\" z4 z C C D | E5/2 A  G E \"G\" D C | \"a\" A, C  C5/2 C C D | \"C\" E5/2 E \"F\" F2 F E |\n\"G\" D4 z C C D | \"C\" E5/2 A  G E \"G\" D C | \"a\" A, C  C5/2 C D E | \"F\" F2 E2 \"G\" D2 \"C\" C B, | C2 z6 |",
+  "translation": []
 }
