@@ -2,6 +2,7 @@
   "name": "@bdp-rps/liedgut",
   "description": "Vorlagen, Inhalte und Zusatzmaterial rund ums Thema Liedgut",
   "version": "0.0.23",
+  "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
