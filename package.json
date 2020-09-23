@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "bdp-rps",
-  "repository": "https://github.com/bdp-rps/mono.git",
+  "repository": "https://github.com/bdp-rps/monorepo.git",
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap --reject-cycles",

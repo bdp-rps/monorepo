@@ -1,0 +1,33 @@
+{
+  "name": "map.bdp-rps.de",
+  "version": "0.0.24",
+  "description": "Map app",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./public/styleguide ./public/playroom",
+    "dev": "vercel dev",
+    "build": "next build",
+    "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
+    "now-build": "yarn build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@bdp-rps/ui": "^0.0.24",
+    "@mdx-js/loader": "^1.5.8",
+    "@mdx-js/react": "^1.5.8",
+    "@next/bundle-analyzer": "9.3.4",
+    "@next/mdx": "^9.3.5",
+    "next": "^9.3.1",
+    "node-fetch": "^2.6.0",
+    "onegraph-auth": "^2.2.1",
+    "react": "^16.13.1",
+    "react-abc": "^0.4.0",
+    "react-dom": "^16.13.1",
+    "rehype-slug": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.8.7"
+  }
+}

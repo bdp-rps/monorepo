@@ -9,7 +9,8 @@
   },
   "files": [
     "lib/**",
-    "es/**"
+    "es/**",
+    "src/**"
   ],
   "browserslist": [
     "IE >= 11",
@@ -22,19 +23,22 @@
   ],
   "scripts": {
     "clean": "rimraf lib es coverage",
-    "build": "yarn clean && yarn build:package && yarn build:tools",
+    "dev": "vercel dev",
+    "now-build": "yarn build:styleguide",
+    "deploy": "vercel --prod",
+    "build": "yarn clean && yarn build:package",
+    "build:styleguide": "styleguidist build",
     "build:package": "yarn build:es && yarn build:lib",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
-    "build:styleguide": "styleguidist build",
-    "build:playroom": "playroom build",
-    "build:tools": "yarn build:styleguide && yarn build:playroom",
+    "watch": "npm run watch:lib & npm run watch:es",
+    "watch:lib": "BABEL_ENV=commonjs babel src -d lib -w",
+    "watch:es": "babel src -d es -w",
     "test": "cross-env BABEL_ENV=commonjs echo 1",
     "coverage": "yarn test --coverage",
-    "styleguide": "styleguidist server",
-    "release": "yarn build && npm publish"
+    "styleguide": "styleguidist server"
   },
-  "repository": "https://github.com/bdp-rps/mono.git",
+  "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",
   "license": "MIT",
   "dependencies": {
