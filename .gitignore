@@ -29,6 +29,7 @@ Thumbs.db
 packages/website/public/playroom
 packages/website/public/styleguide
 packages/react-pdf/dist
+packages/liedgut/public/dist
 
 
 .merlin
