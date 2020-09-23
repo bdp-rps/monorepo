@@ -1,1 +1,32 @@
-{"title":"Norwärts","words":[{"name":"Silke Neumann","group":"Coburg","organisation":"BdP","year":1982}],"tune":[{"name":"Silke Neumann","group":"Coburg","organisation":"BdP","year":1982}],"beat":"2/4","tempo":100,"info":"","content":"{a}Nordwärts, nordwärts {G}wolln wir ziehen {d}zu den Bergen {a}und den Seen,\n{C}wollen neues {G}Land erleben, {a}wolln auf {G}Fahrten {a}gehn.\n\nWollen frei, so wie ein Vogel, wiegen uns im kalten Wind,\nwolln den Ruf der Wildnis hören, wenn wir glücklich sind.\n\nWolln durch Moor und Sümpfe waten, abends legen uns zur Ruh.\nKlampfen sollen leis erklingen, singen immerzu.\n\nIn der Kohte brennt ein Feuer, füllt uns alle mit Bedacht.\nSchlaf senkt sich auf uns hernieder, doch die Wildnis wacht.\n\nKäuzchenschreie, Bäume rauschen bis zum frühen Morgengrau.\nÜber ausgequalmtem Feuer strahlt der Himmel blau.\n\nWenn wir wieder heimwärts ziehen, sehnet jeder sich zurück,\ndenkt an die vergangenen Fahrten, an vergangnes Glück.\n\nNordwärts, nordwärts wolln wir wieder, zu den Bergen und den Seen,\ndieses Land nochmal erleben, und auf Fahrten gehn.","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170356}],"translation":[]}
+{
+  "title": "Norwärts",
+  "words": [
+    {
+      "name": "Silke Neumann",
+      "group": "Coburg",
+      "organisation": "BdP",
+      "year": 1982
+    }
+  ],
+  "tune": [
+    {
+      "name": "Silke Neumann",
+      "group": "Coburg",
+      "organisation": "BdP",
+      "year": 1982
+    }
+  ],
+  "beat": "2/4",
+  "tempo": 100,
+  "info": "",
+  "content": "{a}Nordwärts, nordwärts {G}wolln wir ziehen {d}zu den Bergen {a}und den Seen,\n{C}wollen neues {G}Land erleben, {a}wolln auf {G}Fahrten {a}gehn.\n\nWollen frei, so wie ein Vogel, wiegen uns im kalten Wind,\nwolln den Ruf der Wildnis hören, wenn wir glücklich sind.\n\nWolln durch Moor und Sümpfe waten, abends legen uns zur Ruh.\nKlampfen sollen leis erklingen, singen immerzu.\n\nIn der Kohte brennt ein Feuer, füllt uns alle mit Bedacht.\nSchlaf senkt sich auf uns hernieder, doch die Wildnis wacht.\n\nKäuzchenschreie, Bäume rauschen bis zum frühen Morgengrau.\nÜber ausgequalmtem Feuer strahlt der Himmel blau.\n\nWenn wir wieder heimwärts ziehen, sehnet jeder sich zurück,\ndenkt an die vergangenen Fahrten, an vergangnes Glück.\n\nNordwärts, nordwärts wolln wir wieder, zu den Bergen und den Seen,\ndieses Land nochmal erleben, und auf Fahrten gehn.",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    }
+  ],
+  "translation": []
+}

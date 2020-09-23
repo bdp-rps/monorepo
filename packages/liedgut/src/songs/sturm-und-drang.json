@@ -1,1 +1,32 @@
-{"title":"Sturm und Drang","words":[{"name":"Heiner Knoch","nickname":"bounty","group":"Stamm Burgund","organisation":"BdP"}],"tune":[{"name":"Heiner Knoch","nickname":"bounty","group":"Stamm Burgund","organisation":"BdP"}],"beat":"4/4","tempo":100,"info":"","content":"{a}Jeden Morgen ruft das {d}junge Leben, {a}was der Tag ihm {E}bringt.\n/: {a}bis der Zweifel all die {d}guten Taten {a}schließlich zu {E}Boden {a}ringt. :/\nGestern ist vorbei, {C}morgen einerlei, {G}heute noch da sind wir {a}jung.\n\nIrgendwann sucht ihr nach eurem Leben fragt man hört euch nicht.\n/:Schon zu lange schob der Trübsal Schatten euer Angesicht. :/\nGestern ist vorbei, morgen einerlei, heute noch lacht uns das Glück.\n\nDrum verlacht die niederträchtgen Pfeile die der Teufel schnitz,\n/:handelt stehts nach eurem eigenen Herzen das kein Pfeil es rizt. :/\nGestern ist vorbei,morgen einerlei, heute noch da sind wir jung.","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170356}],"translation":[]}
+{
+  "title": "Sturm und Drang",
+  "words": [
+    {
+      "name": "Heiner Knoch",
+      "nickname": "bounty",
+      "group": "Stamm Burgund",
+      "organisation": "BdP"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Heiner Knoch",
+      "nickname": "bounty",
+      "group": "Stamm Burgund",
+      "organisation": "BdP"
+    }
+  ],
+  "beat": "4/4",
+  "tempo": 100,
+  "info": "",
+  "content": "{a}Jeden Morgen ruft das {d}junge Leben, {a}was der Tag ihm {E}bringt.\n/: {a}bis der Zweifel all die {d}guten Taten {a}schließlich zu {E}Boden {a}ringt. :/\nGestern ist vorbei, {C}morgen einerlei, {G}heute noch da sind wir {a}jung.\n\nIrgendwann sucht ihr nach eurem Leben fragt man hört euch nicht.\n/:Schon zu lange schob der Trübsal Schatten euer Angesicht. :/\nGestern ist vorbei, morgen einerlei, heute noch lacht uns das Glück.\n\nDrum verlacht die niederträchtgen Pfeile die der Teufel schnitz,\n/:handelt stehts nach eurem eigenen Herzen das kein Pfeil es rizt. :/\nGestern ist vorbei,morgen einerlei, heute noch da sind wir jung.",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    }
+  ],
+  "translation": []
+}

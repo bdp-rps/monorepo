@@ -1,1 +1,32 @@
-{"title":"Kanadischer Herbst","words":[{"name":"Jürgen Sesselmann","nickname":"mayer","organisation":"Nerother WV","year":1985}],"tune":[{"name":"Jürgen Sesselmann","nickname":"mayer","organisation":"Nerother WV","year":1985}],"beat":"3/4","tempo":165,"info":"geschrieben im Kanu auf dem Forty-Mile River in Canada","content":"{G}Zart taucht das Paddel ein in {D7}bleiche {G}Flut.\nFührt das Kanu im Schein der gold'nen {D7}Glut.\n/: {C}Sin{e}gen im {C}Fluß die Stei{G}ne\nihr Lied mir ganz a{D7}llei{G}ne. :/\n\nDie Espenwipfel wiegt der Raschler lind.\nDurch gelbe Blätter fliegt dahin sein Wind.\n/: Ruft er mit Waldes Kehles,\nsummt leise meine Seele. :/\n\nHellt nachts den Himmel auf ein wallendes Licht.\nSteigt auch mein Ich hinauf, verblasst es nicht.\n/: Trinke grünes Gefunkel,\nverjagt in mir das Dunkel. :/\n\nNun meine Seele ist auf ewig entzweit.\nSehnsucht das Herz zerfrisst, dem Einst geweiht.\n/: Träume von jenen Breiten:\nDer Wälder Einsamkeiten. :/","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170356}],"translation":[]}
+{
+  "title": "Kanadischer Herbst",
+  "words": [
+    {
+      "name": "Jürgen Sesselmann",
+      "nickname": "mayer",
+      "organisation": "Nerother WV",
+      "year": 1985
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jürgen Sesselmann",
+      "nickname": "mayer",
+      "organisation": "Nerother WV",
+      "year": 1985
+    }
+  ],
+  "beat": "3/4",
+  "tempo": 165,
+  "info": "geschrieben im Kanu auf dem Forty-Mile River in Canada",
+  "content": "{G}Zart taucht das Paddel ein in {D7}bleiche {G}Flut.\nFührt das Kanu im Schein der gold'nen {D7}Glut.\n/: {C}Sin{e}gen im {C}Fluß die Stei{G}ne\nihr Lied mir ganz a{D7}llei{G}ne. :/\n\nDie Espenwipfel wiegt der Raschler lind.\nDurch gelbe Blätter fliegt dahin sein Wind.\n/: Ruft er mit Waldes Kehles,\nsummt leise meine Seele. :/\n\nHellt nachts den Himmel auf ein wallendes Licht.\nSteigt auch mein Ich hinauf, verblasst es nicht.\n/: Trinke grünes Gefunkel,\nverjagt in mir das Dunkel. :/\n\nNun meine Seele ist auf ewig entzweit.\nSehnsucht das Herz zerfrisst, dem Einst geweiht.\n/: Träume von jenen Breiten:\nDer Wälder Einsamkeiten. :/",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    }
+  ],
+  "translation": []
+}

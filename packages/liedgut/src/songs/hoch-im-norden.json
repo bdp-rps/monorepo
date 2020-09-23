@@ -1,1 +1,39 @@
-{"title":"Hoch im Norden","words":[{"name":"Jürgen Sesselmann","nickname":"mayer","year":"1980 + 2017 (5. Strophe)","organisation":"Nerother WV"}],"tune":[{"name":"Jürgen Sesselmann","nickname":"mayer","year":"1980 + 2017 (5. Strophe)","organisation":"Nerother WV"}],"beat":"4/4","tempo":120,"info":"Entstand in abenteuerlichen Monaten am herbstlichen Yukon River","content":"{e}Frühling {D7}dringt in den {G}Norden,\nBerg und {D7}Tal sind ein {C}Blüten{D}meer ge{e}worden.\nLetztes Eis {D}treibt {G}auf dem Fluss,\n{C}Vogelwerben bie{G}tet dar {C}die Geburt wie je{G}des Jahr,\n{C}Elche {G}steh'n in {a}hellem {e}Grün im {C}Frühling {D}hoch im {e}Norden.\n\nZwischenspiel: /: e   D G   D    e :/\n\nSommer erfüllt den Norden,\nMücken sind zur Plage uns geworden.\nIn den Höhen kreist der Greif,\nLachse zieh'n zum Laichen, auf bis ans Ziel und sterben d'rauf.\nLichter Tag nicht enden mag im Sommer hoch im Norden.\n\nHerbstzeit durchjagt den Norden,\nerste Nächte sind frostig kalt geworden.\nStürme zerr'n am gelben Laub,\nreife Früchte prahlen bunt, Bären schwelgen sich dran rund.\nGegen Süd die Graugans flieht zur Herbstzeit hoch im Norden.\n\nWinter beherrscht den Norden,\nalle Wasser sind zu Kristall geworden.\nWölfe heulen fern im Tal.\nLange Zeit Schneekönig Mond über'm Land alleine trohnt.\nWie ein Spuk der Nordlichtflug im Winter hoch im Norden.\n\nFüllt neu der Lenz den Norden,\nsind die Blüten ihm zuteilgeworden.\nEis treibt schmelzend mit dem Strom.\nAbermals die Vögel dann künden laut den Frühling an.\nJung durch's Grün die Elche zieh'n, im nächsten Lenz im Norden.","notation":"L:1/4\nM:4/4\nK:G\n\"Em\" E2 E2- |E/2 z/2 \"D7\" F G A | \"G\" B2 B2 | z2 d B | \"D7\" A2 A4/3 D/2 | \"C\" E G \"D\" F D | \"Em\" E2 E4/3 z/2 |\n E/2 F/2 G/2 \"D\" A/2 \"G\" B B | B4/3 z/2 \"C\" c2/3 c/4 c/2 c/2 | c/2 \"G\" B/2 G \"C\"c2/3 c/4 c/2 c/2 | c/2 \"G\" B/2 G \"C\" c2- | c B \"G\" G2 |\n z G \"Am\" A2- | A G \"Em\" E2 | z D \"C\" E2 | G2 \"D\" F2- | F D \"Em\" E2 | E2 | ","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170356},{"date":1585322497971,"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"update"}],"translation":[]}
+{
+  "title": "Hoch im Norden",
+  "words": [
+    {
+      "name": "Jürgen Sesselmann",
+      "nickname": "mayer",
+      "year": "1980 + 2017 (5. Strophe)",
+      "organisation": "Nerother WV"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jürgen Sesselmann",
+      "nickname": "mayer",
+      "year": "1980 + 2017 (5. Strophe)",
+      "organisation": "Nerother WV"
+    }
+  ],
+  "beat": "4/4",
+  "tempo": 120,
+  "info": "Entstand in abenteuerlichen Monaten am herbstlichen Yukon River",
+  "content": "{e}Frühling {D7}dringt in den {G}Norden,\nBerg und {D7}Tal sind ein {C}Blüten{D}meer ge{e}worden.\nLetztes Eis {D}treibt {G}auf dem Fluss,\n{C}Vogelwerben bie{G}tet dar {C}die Geburt wie je{G}des Jahr,\n{C}Elche {G}steh'n in {a}hellem {e}Grün im {C}Frühling {D}hoch im {e}Norden.\n\nZwischenspiel: /: e   D G   D    e :/\n\nSommer erfüllt den Norden,\nMücken sind zur Plage uns geworden.\nIn den Höhen kreist der Greif,\nLachse zieh'n zum Laichen, auf bis ans Ziel und sterben d'rauf.\nLichter Tag nicht enden mag im Sommer hoch im Norden.\n\nHerbstzeit durchjagt den Norden,\nerste Nächte sind frostig kalt geworden.\nStürme zerr'n am gelben Laub,\nreife Früchte prahlen bunt, Bären schwelgen sich dran rund.\nGegen Süd die Graugans flieht zur Herbstzeit hoch im Norden.\n\nWinter beherrscht den Norden,\nalle Wasser sind zu Kristall geworden.\nWölfe heulen fern im Tal.\nLange Zeit Schneekönig Mond über'm Land alleine trohnt.\nWie ein Spuk der Nordlichtflug im Winter hoch im Norden.\n\nFüllt neu der Lenz den Norden,\nsind die Blüten ihm zuteilgeworden.\nEis treibt schmelzend mit dem Strom.\nAbermals die Vögel dann künden laut den Frühling an.\nJung durch's Grün die Elche zieh'n, im nächsten Lenz im Norden.",
+  "notation": "L:1/4\nM:4/4\nK:G\n\"Em\" E2 E2- |E/2 z/2 \"D7\" F G A | \"G\" B2 B2 | z2 d B | \"D7\" A2 A4/3 D/2 | \"C\" E G \"D\" F D | \"Em\" E2 E4/3 z/2 |\n E/2 F/2 G/2 \"D\" A/2 \"G\" B B | B4/3 z/2 \"C\" c2/3 c/4 c/2 c/2 | c/2 \"G\" B/2 G \"C\"c2/3 c/4 c/2 c/2 | c/2 \"G\" B/2 G \"C\" c2- | c B \"G\" G2 |\n z G \"Am\" A2- | A G \"Em\" E2 | z D \"C\" E2 | G2 \"D\" F2- | F D \"Em\" E2 | E2 | ",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    },
+    {
+      "date": 1585322497971,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update"
+    }
+  ],
+  "translation": []
+}

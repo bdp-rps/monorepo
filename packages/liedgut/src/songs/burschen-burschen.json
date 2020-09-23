@@ -1,1 +1,36 @@
-{"notation":"","content":"{a}Burschen, {G}Burschen, {d}wir ver{a}derben, geht es fort so {E}wild und {a}toll.\n/: Hei, {G}hei, {a}hei, hei, {G}ja, {a}wild {G}und {a}toll. :/\n\nVon den Füßen weggesoffen werden bald die Stiefel sein.\n/: Hei, hei, hei, hei, ja, Stiefel sein. :/\n\nEine Nacht, zwei tolle Tage zechen wir an diesem Ort.\n/: Hei, hei, hei, hei, ja, diesem Ort. :/\n\nZechen wir an diesem Orte, hier in diesem blauen Krug.\n/: Hei, hei, hei, hei, ja, blauen Krug. :/\n\nSüß das Bier und weiß die Kannen, schön die flinke Krügerin.\n/: Hei, hei, hei, hei, ja, Krügerin. :/\n\nTrinkt das Bier, zerschlagt die Kannen, küßt die schöne Krügerin!\n/: Hei, hei, hei, hei, ja, Krügerin. :/","title":"Burschen, Burschen","words":[{"name":"Rudolf Blaumanis & Hans Schmidt","nickname":"","group":"","organisation":"","year":""}],"tune":[{"name":"Helmut König)","nickname":"helm","group":"","organisation":"","year":""}],"translation":[],"beat":"2/4","tempo":"80","info":"","changes":[{"date":1587746370202,"name":"Rouven","mail":"rouven@bdp-io.de","type":"create","content":""}]}
+{
+  "notation": "",
+  "content": "{a}Burschen, {G}Burschen, {d}wir ver{a}derben, geht es fort so {E}wild und {a}toll.\n/: Hei, {G}hei, {a}hei, hei, {G}ja, {a}wild {G}und {a}toll. :/\n\nVon den Füßen weggesoffen werden bald die Stiefel sein.\n/: Hei, hei, hei, hei, ja, Stiefel sein. :/\n\nEine Nacht, zwei tolle Tage zechen wir an diesem Ort.\n/: Hei, hei, hei, hei, ja, diesem Ort. :/\n\nZechen wir an diesem Orte, hier in diesem blauen Krug.\n/: Hei, hei, hei, hei, ja, blauen Krug. :/\n\nSüß das Bier und weiß die Kannen, schön die flinke Krügerin.\n/: Hei, hei, hei, hei, ja, Krügerin. :/\n\nTrinkt das Bier, zerschlagt die Kannen, küßt die schöne Krügerin!\n/: Hei, hei, hei, hei, ja, Krügerin. :/",
+  "title": "Burschen, Burschen",
+  "words": [
+    {
+      "name": "Rudolf Blaumanis & Hans Schmidt",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Helmut König)",
+      "nickname": "helm",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "tempo": "80",
+  "info": "",
+  "changes": [
+    {
+      "date": 1587746370202,
+      "name": "Rouven",
+      "mail": "rouven@bdp-io.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

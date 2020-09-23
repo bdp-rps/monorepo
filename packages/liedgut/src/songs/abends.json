@@ -1,1 +1,37 @@
-{"title":"Abends","words":[{"name":"Hermann Hesse","year":1918}],"tune":[{"name":"","nickname":"flo","group":"Stamm Raugrafen","organisation":"BdP"}],"beat":"4/4","tempo":60,"info":"","content":"{d}Abends gehen die {C}Liebespaare, {d}langsam {C}durch das {d}Feld,\nFrauen lösen {C}ihre Haare, {d}Händler {C}zählen {d}Geld,\n{F}Bürger lesen {C}bang das Neuste {d}in dem {C}Abend{d}blatt,\n{F}Kinder ballen {C}kleine Fäuste, {d}schlafen {C}tief und {d}satt.\n{B}Jeder tut das {F}einzig Wahre, {C}folgt erhabner {d}Pflicht,\n{B}Säugling, Bürger, {F}Liebespaare - {C}und ich {d}sel{C}ber {d}nicht?\n\n/: {B}Leider, {F}Leider, {C}la- la {d}Leider; {B}la - {F}la {d}L{C}ei{d}der :/\n\nDoch! Auch meine Abendtaten, deren Sklav' ich bin,\nkann der Weltgeist nicht entraten, sie auch haben Sinn.\nUnd so geh ich auf und nieder, Tanze innerlich,\nsumme dumme Gassenlieder, lobe Gott und mich, \ntrinke Wein und phantasiere, dass ich Pascha wär,\nfühle Sorgen an der Niere, lächle - trinke mehr.\n\n/: Weiter, weiter, immer weiter; wa - wa weiter :/\n\nSage ja zu meinem Herzen, morgens geht es nicht,\nspinne aus vergangen Schmerzen, spielend ein Gedicht,\nsehe Mond und Sterne kreisen, ahne ihren Sinn,\nfühle mich mit ihnen reisen, einerlei wohin.\n\n/: Leider, Leider, la- la Leider; la – la Leider :/","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170355},{"date":1587737365464,"name":"Rouven","mail":"rouven@bdp-io.de","type":"update","content":"Laut Ohrwurm war da ein Akkord zu viel"}],"translation":[]}
+{
+  "title": "Abends",
+  "words": [
+    {
+      "name": "Hermann Hesse",
+      "year": 1918
+    }
+  ],
+  "tune": [
+    {
+      "name": "",
+      "nickname": "flo",
+      "group": "Stamm Raugrafen",
+      "organisation": "BdP"
+    }
+  ],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "content": "{d}Abends gehen die {C}Liebespaare, {d}langsam {C}durch das {d}Feld,\nFrauen lösen {C}ihre Haare, {d}Händler {C}zählen {d}Geld,\n{F}Bürger lesen {C}bang das Neuste {d}in dem {C}Abend{d}blatt,\n{F}Kinder ballen {C}kleine Fäuste, {d}schlafen {C}tief und {d}satt.\n{B}Jeder tut das {F}einzig Wahre, {C}folgt erhabner {d}Pflicht,\n{B}Säugling, Bürger, {F}Liebespaare - {C}und ich {d}sel{C}ber {d}nicht?\n\n/: {B}Leider, {F}Leider, {C}la- la {d}Leider; {B}la - {F}la {d}L{C}ei{d}der :/\n\nDoch! Auch meine Abendtaten, deren Sklav' ich bin,\nkann der Weltgeist nicht entraten, sie auch haben Sinn.\nUnd so geh ich auf und nieder, Tanze innerlich,\nsumme dumme Gassenlieder, lobe Gott und mich, \ntrinke Wein und phantasiere, dass ich Pascha wär,\nfühle Sorgen an der Niere, lächle - trinke mehr.\n\n/: Weiter, weiter, immer weiter; wa - wa weiter :/\n\nSage ja zu meinem Herzen, morgens geht es nicht,\nspinne aus vergangen Schmerzen, spielend ein Gedicht,\nsehe Mond und Sterne kreisen, ahne ihren Sinn,\nfühle mich mit ihnen reisen, einerlei wohin.\n\n/: Leider, Leider, la- la Leider; la – la Leider :/",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170355
+    },
+    {
+      "date": 1587737365464,
+      "name": "Rouven",
+      "mail": "rouven@bdp-io.de",
+      "type": "update",
+      "content": "Laut Ohrwurm war da ein Akkord zu viel"
+    }
+  ],
+  "translation": []
+}

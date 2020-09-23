@@ -1,1 +1,41 @@
-{"title":"Nehmt Abschied, Brüder","words":[{"name":"Robert Burns","year":1794}],"tune":[{"name":"Robert Burns","year":1794}],"translation":[{"name":"Claus Ludwig Laue","year":1950}],"beat":"4/4","tempo":100,"info":"","content":"Nehmt {D}Abschied, Brüder, {A}ungewiss ist {D}alle Wieder{G}kehr\ndie {D}Zukunft liegt in {A}Finsternis und {G}macht das {A}Herz uns {D}schwer.\nDer Himmel wölbt sich {A}übers Land, {D}adé auf Wieder{G}sehn!\nWir {D}ruhen all in {A}Freundes Hand, Gut {G}Pfad, auf {A}Wieder{D}sehn!\n\nDie Sonne sinkt, es steigt die Nacht, vergangen ist der Tag.\nDie Welt schläft ein und leis erwacht der Nachtigallen Schlag.\n\nSo ist in jedem Anbeginn das Ende nicht mehr weit.\nWir kommen her und gehen hin und mit uns geht die Zeit.\n\nNehmt Abschied Brüder, schließt den Kreis, das Leben ist ein Spiel.\nNur wer es recht zu spielen weiß, gelangt ans große Ziel.","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170356},{"date":1587736399196,"name":"Rouven","mail":"rouven@bdp-io.de","type":"update","content":"Melodie eingefügt, und der erste Autor hat ein \"G\" bei \"macht\" vergessen ^^"}],"notation":"M:C\nL:1/4\nK:F\nC|\"D\"F>F/1FA|\"A\"G>F/1GA/2G/2|\"D\"F>F/1Ac|\"G\"d3d|\nw:1.Nehmt Ab-schied, Brü-der, un-ge-wiss _ist al-le Wie-der-kehr. Die\n\"D\"c>AAF|\"A\"G>FGA/G/|\"G\"F>D\"A\"DC|\"D\"F3d|\nw:Zu-kunft liegt in Fins-ter-nis _und macht das Herz uns schwer. Der\nc>AAF|\"A\"G>FGd|\"D\"c>AAc|\"G\"d3f|\nw:Him-mel wölbt sich ü-bers Land, a-dé auf Wie-der-sehn! Wir\n\"D\"c>AAF|\"A\"G>FG>A/2G/4|\"G\"F>D\"A\"DC|\"D\"F3z\nw:ru-hen all in Freun-des Hand, _Gut Pfad, auf Wie-der-sehn!"}
+{
+  "title": "Nehmt Abschied, Brüder",
+  "words": [
+    {
+      "name": "Robert Burns",
+      "year": 1794
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robert Burns",
+      "year": 1794
+    }
+  ],
+  "translation": [
+    {
+      "name": "Claus Ludwig Laue",
+      "year": 1950
+    }
+  ],
+  "beat": "4/4",
+  "tempo": 100,
+  "info": "",
+  "content": "Nehmt {D}Abschied, Brüder, {A}ungewiss ist {D}alle Wieder{G}kehr\ndie {D}Zukunft liegt in {A}Finsternis und {G}macht das {A}Herz uns {D}schwer.\nDer Himmel wölbt sich {A}übers Land, {D}adé auf Wieder{G}sehn!\nWir {D}ruhen all in {A}Freundes Hand, Gut {G}Pfad, auf {A}Wieder{D}sehn!\n\nDie Sonne sinkt, es steigt die Nacht, vergangen ist der Tag.\nDie Welt schläft ein und leis erwacht der Nachtigallen Schlag.\n\nSo ist in jedem Anbeginn das Ende nicht mehr weit.\nWir kommen her und gehen hin und mit uns geht die Zeit.\n\nNehmt Abschied Brüder, schließt den Kreis, das Leben ist ein Spiel.\nNur wer es recht zu spielen weiß, gelangt ans große Ziel.",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170356
+    },
+    {
+      "date": 1587736399196,
+      "name": "Rouven",
+      "mail": "rouven@bdp-io.de",
+      "type": "update",
+      "content": "Melodie eingefügt, und der erste Autor hat ein \"G\" bei \"macht\" vergessen ^^"
+    }
+  ],
+  "notation": "M:C\nL:1/4\nK:F\nC|\"D\"F>F/1FA|\"A\"G>F/1GA/2G/2|\"D\"F>F/1Ac|\"G\"d3d|\nw:1.Nehmt Ab-schied, Brü-der, un-ge-wiss _ist al-le Wie-der-kehr. Die\n\"D\"c>AAF|\"A\"G>FGA/G/|\"G\"F>D\"A\"DC|\"D\"F3d|\nw:Zu-kunft liegt in Fins-ter-nis _und macht das Herz uns schwer. Der\nc>AAF|\"A\"G>FGd|\"D\"c>AAc|\"G\"d3f|\nw:Him-mel wölbt sich ü-bers Land, a-dé auf Wie-der-sehn! Wir\n\"D\"c>AAF|\"A\"G>FG>A/2G/4|\"G\"F>D\"A\"DC|\"D\"F3z\nw:ru-hen all in Freun-des Hand, _Gut Pfad, auf Wie-der-sehn!"
+}

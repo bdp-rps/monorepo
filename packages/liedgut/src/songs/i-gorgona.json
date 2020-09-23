@@ -1,1 +1,36 @@
-{"notation":"M: 2/4\nL: 1/4\nK: Em\n|: \"Intro\" EF | \"e\"GG | AG | \"D\"FF | DE | \"e\"FF | GF |E2 :|\n|: \"e\"eedc | \"D\"ddcB | \"C\"ccdc | B2 | \"H7\" :|\n|: EF | \"e\"GG | AG | \"D\"FF | DE | \"e\"FF | GF |E2 :|\nw:Melodie\n\"H7\"BB | \"e\"E2 |\"H7\"FF |\"e\"G2 |\"H7\"DD| \"e\"EE |\"H7\"FF |\"e\"GG| \"a\"AA| \"e\"GG| \"H7\"FF| \"e\"EE |\"(a)\"AA| \"(e)\"GG |\"(H7)\"FF |\"(e)\"E2\n\"D\"DD|\"G\"G2|\"D\"AA|\"G\"B2|\"D\"DD|\"G\"GG|\"D\"AA|\"G\"BB|\"C\"cc|\"G\"BB|\"D\"AA|\"G\"GG|\"(C)\"cc|\"(G)\"BB|\"(D)\"AA|\"(G)\"G2 \n|:BB|\"C\"c2|cc|\"G\"B2|BB|\"C\"cc|cc|\"G\"BB|BB|\"a\"AA|\"e\"BA|GG|\"H7\"GG|FF|GF|\"e\"\nEE|1 z2 |\"D\"D2|\"G\"G2 :|2 z2|]","content":"/: e D e :/ /: e D C H7 :/ /: e D e :/\n{H7}Stin a {e}pa, {H7}stin a {e}pa, {H7}stin a {e}pano {H7}jiton{e}itsa, {a}stin a {e}pano {H7}jiton{e}itsa. {(a e H7 e)}\n{D}Maga {G}pa, {D}maga {G}pa, {D}maga {G}pane {D}dhio kor{G}itsia,{C}stin a {G}pano {D}jiton{G}itsa.{(C G D G)}\nC G C G a e H7 e\n/: Ma {C}ego, ma {G}ego, ma {C}ego ponao {G}jialli, ma {a}ego ponao {e}jialli, mia {H7}gorgona stakro{e}jalli {(D G)}:/\n\nFilachto, filachto, filachto me t‘agio xilo, filachto me t‘agio xilo.\nPutha vro, putha vro, putha vro ja na tis stilo, filachto me t‘agio xilo.\n/: Filachto, filachto, filachto na tin filai, filachto ja tin filai, ke as mi me agapai :/\n\nLetzte wie erste","title":"I gorgona","words":[{"name":"L. Papadopulos","nickname":"","group":"","organisation":"","year":""}],"tune":[{"name":"Manos Loizos","nickname":"","group":"","organisation":"","year":""}],"translation":[],"beat":"2/4","tempo":"120","info":"","changes":[{"date":1585334449815,"name":"cätch","mail":"caetch@stamm-luchs.de","type":"create","content":""}]}
+{
+  "notation": "M: 2/4\nL: 1/4\nK: Em\n|: \"Intro\" EF | \"e\"GG | AG | \"D\"FF | DE | \"e\"FF | GF |E2 :|\n|: \"e\"eedc | \"D\"ddcB | \"C\"ccdc | B2 | \"H7\" :|\n|: EF | \"e\"GG | AG | \"D\"FF | DE | \"e\"FF | GF |E2 :|\nw:Melodie\n\"H7\"BB | \"e\"E2 |\"H7\"FF |\"e\"G2 |\"H7\"DD| \"e\"EE |\"H7\"FF |\"e\"GG| \"a\"AA| \"e\"GG| \"H7\"FF| \"e\"EE |\"(a)\"AA| \"(e)\"GG |\"(H7)\"FF |\"(e)\"E2\n\"D\"DD|\"G\"G2|\"D\"AA|\"G\"B2|\"D\"DD|\"G\"GG|\"D\"AA|\"G\"BB|\"C\"cc|\"G\"BB|\"D\"AA|\"G\"GG|\"(C)\"cc|\"(G)\"BB|\"(D)\"AA|\"(G)\"G2 \n|:BB|\"C\"c2|cc|\"G\"B2|BB|\"C\"cc|cc|\"G\"BB|BB|\"a\"AA|\"e\"BA|GG|\"H7\"GG|FF|GF|\"e\"\nEE|1 z2 |\"D\"D2|\"G\"G2 :|2 z2|]",
+  "content": "/: e D e :/ /: e D C H7 :/ /: e D e :/\n{H7}Stin a {e}pa, {H7}stin a {e}pa, {H7}stin a {e}pano {H7}jiton{e}itsa, {a}stin a {e}pano {H7}jiton{e}itsa. {(a e H7 e)}\n{D}Maga {G}pa, {D}maga {G}pa, {D}maga {G}pane {D}dhio kor{G}itsia,{C}stin a {G}pano {D}jiton{G}itsa.{(C G D G)}\nC G C G a e H7 e\n/: Ma {C}ego, ma {G}ego, ma {C}ego ponao {G}jialli, ma {a}ego ponao {e}jialli, mia {H7}gorgona stakro{e}jalli {(D G)}:/\n\nFilachto, filachto, filachto me t‘agio xilo, filachto me t‘agio xilo.\nPutha vro, putha vro, putha vro ja na tis stilo, filachto me t‘agio xilo.\n/: Filachto, filachto, filachto na tin filai, filachto ja tin filai, ke as mi me agapai :/\n\nLetzte wie erste",
+  "title": "I gorgona",
+  "words": [
+    {
+      "name": "L. Papadopulos",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Manos Loizos",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "tempo": "120",
+  "info": "",
+  "changes": [
+    {
+      "date": 1585334449815,
+      "name": "cätch",
+      "mail": "caetch@stamm-luchs.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

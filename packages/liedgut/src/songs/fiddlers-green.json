@@ -1,1 +1,28 @@
-{"title":"Fiddler's Green","words":[{"name":"John Conolly","year":"1960er"}],"tune":[{"name":"John Conolly","year":"1960er"}],"beat":"3/4","tempo":60,"info":"","content":"As I {C}walked by the {F}dockside one {C}evening so {a}fair\nto {C}view the salt {F}water and {C}taste the sea {G}air.\nI {F}heard an old fisherman {C}singing this {a}song:\n\"Won't you {C}take me a{F}way, boys, my {C}time isn't {G}long!\"\n\nWrap me {C}up in my {G}oilskin and {C}jumper, no {F}more on the {C}docks I'll be {G}seen,\njust {F}tell me old shipmates, I'm {C}taking a trip mates and {G}I'll see you somedays in Fiddler's {C}Green.\n\nNow, Fiddler's Green is a place I heard tell,\nwhere fishermen go if they don't go to hell,\nwhere the skies are all clear and the dolphins do play\nand the cold coast of greenland is far, far away.\n\nWhere the skies are all clear and there's never a gale.\nAnd the fish jump on board with a switch on their tail\nWhere you lie at your leisure, there's no work to do.\nAnd the skipper's below making tea for the crew.\n\nWhen you get to the docks and the long trip is through,\nthere's pubs and there's clubs and there's lassies there, too,\nwhere the girls are all pretty and the beer it is free\nand there's bottles of rum growing from every tree.\n\nNow I don't want a harp nor a halo, not me,\njust give me a breeze and a good rolling sea.\nI'll play me old squeeze-box as we sail along\nwith the wind in the rigging to sing me a song.","changes":[{"name":"Robin Weser","mail":"robin@bdp-rps.de","type":"create","date":1585221170355}],"translation":[]}
+{
+  "title": "Fiddler's Green",
+  "words": [
+    {
+      "name": "John Conolly",
+      "year": "1960er"
+    }
+  ],
+  "tune": [
+    {
+      "name": "John Conolly",
+      "year": "1960er"
+    }
+  ],
+  "beat": "3/4",
+  "tempo": 60,
+  "info": "",
+  "content": "As I {C}walked by the {F}dockside one {C}evening so {a}fair\nto {C}view the salt {F}water and {C}taste the sea {G}air.\nI {F}heard an old fisherman {C}singing this {a}song:\n\"Won't you {C}take me a{F}way, boys, my {C}time isn't {G}long!\"\n\nWrap me {C}up in my {G}oilskin and {C}jumper, no {F}more on the {C}docks I'll be {G}seen,\njust {F}tell me old shipmates, I'm {C}taking a trip mates and {G}I'll see you somedays in Fiddler's {C}Green.\n\nNow, Fiddler's Green is a place I heard tell,\nwhere fishermen go if they don't go to hell,\nwhere the skies are all clear and the dolphins do play\nand the cold coast of greenland is far, far away.\n\nWhere the skies are all clear and there's never a gale.\nAnd the fish jump on board with a switch on their tail\nWhere you lie at your leisure, there's no work to do.\nAnd the skipper's below making tea for the crew.\n\nWhen you get to the docks and the long trip is through,\nthere's pubs and there's clubs and there's lassies there, too,\nwhere the girls are all pretty and the beer it is free\nand there's bottles of rum growing from every tree.\n\nNow I don't want a harp nor a halo, not me,\njust give me a breeze and a good rolling sea.\nI'll play me old squeeze-box as we sail along\nwith the wind in the rigging to sing me a song.",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170355
+    }
+  ],
+  "translation": []
+}

@@ -1,1 +1,36 @@
-{"notation":"L:1/8\n\"a\"A,2B,CC1/2B,A,|\"F\"F,2F,2A,A,1/2B,C|\"G\"CB,1/2B,2B,B,1/2CD|\"a\"EE1/2\"E\"E2\nw:Ban-ner ...\n|:z3E\"C\"E2FGG1/2FE|\"G\"D2DFF1/2ED|\"a\"C2A,EE1/2DC|1\"E\"B,2:|2\"E\"B,2B,CB,\"a\"A,2]\nw:Im Man-tel ...\nw: Aus ei-nem ...\n\"a\"EE1/2EDCB,1/2A,A,|\"F\"AA1/2AGFE1/2DE1/2F1/2\nw: Va-ga-bund ...\n\"G\"GG1/2GABB1/2cB|\"a\"AE1/2EF\"E\"EFEFE2\nz2 E1/2E1/2|\"C\"E2F\"G\"G2F|\"E\"E4\nw: und der Spiel-man\nA,|\"a\"EE1/2EDCB,1/2A,A,|\"F\"AA1/2AGFE1/2DE1/2F1/2\nw:Fünd Schwä-ne ...\n\"G\"GG1/2GABB1/2cB|\"a\"AE1/2EF\"E\"EFEFE4\n","content":"{a}Banner, Zelte, \"Wer da?\" -{F}Rufe, Stille um das {G}Lager her, Feuer scheinen {a}in der {E}Nacht.\nIm {C}Mantel schläft die Wache {G}ein, ein Leutnant schritt {a}vorbei. Das Würfelspiel ist {E}falsch.\nAus {C}einem Schatten tritt {G}herbei ein Spielmann in den {a}Kreis, der Posten läßt {E}vorbei und flüstert {a}leis: aF\n\"Vagabund, so hör mich an, die {F}Nacht ist kurz und irgendwann\nder {G}Ruf des Kornett laut ertönt, drum {a}spiele mir das {E}altgesung'ne Lied\"\nUnd der {C}Spielmann {G}singt ein {a}Lied:\n\nFünf Schwäne durch die Ödmark zieh'n, ein {F}König mit vier Recken hin,\nim {G}Morgenrot ihr Banner fliegt und {a}weiter geht es {E}für das gute Ziel.\n\nIm Feindeslager hört man's auch, durch Stille säuselt Melodie und Herzen horchen wie noch nie. Die Klampfe in der Hand ein Spielmann singt allein und alles lauscht in dieser Nacht. Doch plötzlich hinter sich hört er wie vereint den Chor und alle stimmen ein in diese Melodie:\n\nFünf Schwäne...\n\nUnd als der Morgen hell durchstrahlt, die Schlacht beginnt, die Trommel warnt, dort vorne steht ein Grenadier, er denkt zurück und legt nieder das Schwert.\n\nUnd als drei Jahr vergangen war'n, das Feld liegt öd' und leer vorweg, und nichts erinnert mehr daran, an eine nicht gewes'ne Schlacht,\ndoch plötzlich hört man dann der Nachtigallen Schlag.\nAls ob eine fremde Melodie zog' über das Feld,\nvon Ferne weht der Wind und trägt sie fort.\n\nFünf Schwäne...\n\nLalalalalala…","title":"Banner","words":[{"name":"Wolfgang Hartmann","nickname":"","group":"Stamm Franken","organisation":"VCP","year":"1984"}],"tune":[{"name":"Wolfgang Hartmann","nickname":"","group":"Stamm Franken","organisation":"VCP","year":"1984"}],"translation":[],"beat":"4/4","tempo":60,"info":"","changes":[{"date":1585381152086,"name":"cätch","mail":"caetch@stamm-luchs","type":"create","content":"Takt könnte falsch sein ,Melodie stimmt ;)"}]}
+{
+  "notation": "L:1/8\n\"a\"A,2B,CC1/2B,A,|\"F\"F,2F,2A,A,1/2B,C|\"G\"CB,1/2B,2B,B,1/2CD|\"a\"EE1/2\"E\"E2\nw:Ban-ner ...\n|:z3E\"C\"E2FGG1/2FE|\"G\"D2DFF1/2ED|\"a\"C2A,EE1/2DC|1\"E\"B,2:|2\"E\"B,2B,CB,\"a\"A,2]\nw:Im Man-tel ...\nw: Aus ei-nem ...\n\"a\"EE1/2EDCB,1/2A,A,|\"F\"AA1/2AGFE1/2DE1/2F1/2\nw: Va-ga-bund ...\n\"G\"GG1/2GABB1/2cB|\"a\"AE1/2EF\"E\"EFEFE2\nz2 E1/2E1/2|\"C\"E2F\"G\"G2F|\"E\"E4\nw: und der Spiel-man\nA,|\"a\"EE1/2EDCB,1/2A,A,|\"F\"AA1/2AGFE1/2DE1/2F1/2\nw:Fünd Schwä-ne ...\n\"G\"GG1/2GABB1/2cB|\"a\"AE1/2EF\"E\"EFEFE4\n",
+  "content": "{a}Banner, Zelte, \"Wer da?\" -{F}Rufe, Stille um das {G}Lager her, Feuer scheinen {a}in der {E}Nacht.\nIm {C}Mantel schläft die Wache {G}ein, ein Leutnant schritt {a}vorbei. Das Würfelspiel ist {E}falsch.\nAus {C}einem Schatten tritt {G}herbei ein Spielmann in den {a}Kreis, der Posten läßt {E}vorbei und flüstert {a}leis: aF\n\"Vagabund, so hör mich an, die {F}Nacht ist kurz und irgendwann\nder {G}Ruf des Kornett laut ertönt, drum {a}spiele mir das {E}altgesung'ne Lied\"\nUnd der {C}Spielmann {G}singt ein {a}Lied:\n\nFünf Schwäne durch die Ödmark zieh'n, ein {F}König mit vier Recken hin,\nim {G}Morgenrot ihr Banner fliegt und {a}weiter geht es {E}für das gute Ziel.\n\nIm Feindeslager hört man's auch, durch Stille säuselt Melodie und Herzen horchen wie noch nie. Die Klampfe in der Hand ein Spielmann singt allein und alles lauscht in dieser Nacht. Doch plötzlich hinter sich hört er wie vereint den Chor und alle stimmen ein in diese Melodie:\n\nFünf Schwäne...\n\nUnd als der Morgen hell durchstrahlt, die Schlacht beginnt, die Trommel warnt, dort vorne steht ein Grenadier, er denkt zurück und legt nieder das Schwert.\n\nUnd als drei Jahr vergangen war'n, das Feld liegt öd' und leer vorweg, und nichts erinnert mehr daran, an eine nicht gewes'ne Schlacht,\ndoch plötzlich hört man dann der Nachtigallen Schlag.\nAls ob eine fremde Melodie zog' über das Feld,\nvon Ferne weht der Wind und trägt sie fort.\n\nFünf Schwäne...\n\nLalalalalala…",
+  "title": "Banner",
+  "words": [
+    {
+      "name": "Wolfgang Hartmann",
+      "nickname": "",
+      "group": "Stamm Franken",
+      "organisation": "VCP",
+      "year": "1984"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Wolfgang Hartmann",
+      "nickname": "",
+      "group": "Stamm Franken",
+      "organisation": "VCP",
+      "year": "1984"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1585381152086,
+      "name": "cätch",
+      "mail": "caetch@stamm-luchs",
+      "type": "create",
+      "content": "Takt könnte falsch sein ,Melodie stimmt ;)"
+    }
+  ]
+}

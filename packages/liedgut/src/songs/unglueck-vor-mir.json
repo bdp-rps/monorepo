@@ -1,1 +1,36 @@
-{"notation":"K:Em\n\"G\"G3\"D\"F\"e\"E2E2|\"G\"G3\"D\"F\"C\"E2E2|\"D\"DDD3EFG|\"e\"E6z2:|\n|:\"G\"G2GAB2B2|\"C\"c2c2\"G\"BAG2:|\"a\"A2Bc\"G\"d2G2|G2\"D\"F2\"C\"E4|\"e\"E4z4|","content":"|: {G}Un{D}glück {e}vor mir, {G}Un{D}glück {C}nach mir, {D}wo ich bin ist lauter {e}Glück. :|\n|: {G}Wo ich ging, blieb {C}eine {G}Fährte :| {a}umge{G}worfnen Lands {D}zu{C}rück.\n\n|: Meine Sonne neigt sich gnädig über mich und lacht. :|\n|: denn ich hab aus meinem Kerker :| mir ein Paradies gemacht.\n         \n|: {H7}Meine {e}Nerven {H7}zittern {e}leise {D}in Gedan{e}ken an die {a}Türen die noch {H7}sperren, :|\n|: an die Feuer, an die Feuer :| die mich bitten sie zu schüren.\n\n|: Aber heute lasst mich schlafen, heute bin ich klein. :|\n|: Gestern bin ich stark gewesen, :| morgen werd ich's wieder sein.","title":"Unglück vor mir","words":[{"name":"Eberhard Koebel","nickname":"tusk","group":"","organisation":"","year":""}],"tune":[{"name":"Kurt Kremers","nickname":"turi","group":"","organisation":"","year":""}],"translation":[],"beat":"4/4","tempo":"90","info":"","changes":[{"date":1586114313107,"name":"cätch","mail":"","type":"create","content":""}]}
+{
+  "notation": "K:Em\n\"G\"G3\"D\"F\"e\"E2E2|\"G\"G3\"D\"F\"C\"E2E2|\"D\"DDD3EFG|\"e\"E6z2:|\n|:\"G\"G2GAB2B2|\"C\"c2c2\"G\"BAG2:|\"a\"A2Bc\"G\"d2G2|G2\"D\"F2\"C\"E4|\"e\"E4z4|",
+  "content": "|: {G}Un{D}glück {e}vor mir, {G}Un{D}glück {C}nach mir, {D}wo ich bin ist lauter {e}Glück. :|\n|: {G}Wo ich ging, blieb {C}eine {G}Fährte :| {a}umge{G}worfnen Lands {D}zu{C}rück.\n\n|: Meine Sonne neigt sich gnädig über mich und lacht. :|\n|: denn ich hab aus meinem Kerker :| mir ein Paradies gemacht.\n         \n|: {H7}Meine {e}Nerven {H7}zittern {e}leise {D}in Gedan{e}ken an die {a}Türen die noch {H7}sperren, :|\n|: an die Feuer, an die Feuer :| die mich bitten sie zu schüren.\n\n|: Aber heute lasst mich schlafen, heute bin ich klein. :|\n|: Gestern bin ich stark gewesen, :| morgen werd ich's wieder sein.",
+  "title": "Unglück vor mir",
+  "words": [
+    {
+      "name": "Eberhard Koebel",
+      "nickname": "tusk",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "90",
+  "info": "",
+  "changes": [
+    {
+      "date": 1586114313107,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

@@ -1,1 +1,36 @@
-{"notation":"","content":"Ye {e}Jacobites by name, lend an {G}ear, lend an {D}ear!\nYe {e}Jacobites by name, {D}lend an {e}ear!\nYe {G}Jacobites by name, your {D}faults I will proclaim.\nYour {e}doctrins I must blame, you shall hear, you shall {D}hear.\nYour {e}doctrins I must blame, you {D}shall {e}hear.\n\nWhat's right and what is wrong, by the law, by the law. What's right and what is wrong, by the law?\nWhat's right and what is wrong, a short sword or a long, a weak arm or a strong, for to draw, for to draw.\nA weak arm or a strong, for to draw.\n\nWhat makes heroic strife, famed afar, famed afar? What makes heroic strife, famed afar?\nWhat makes heroic strife, to whet assassin's knife or haunt a parent's life with bloody war, bloody war. Or haunt a parent's life with bloody war.\n\nThen leave your schemes alone in the state, in the state. Then leave your schemes alone in the state.\nThen leave your schemes alone, adore the rising sun and leave a man undone to his fate, to his fate,\nand leave a man undone to his fate.","title":"Ye Jacobites","words":[{"name":"Robert Burns","nickname":"","group":"","organisation":"","year":""}],"tune":[{"name":"schottisches Volkslied","nickname":"","group":"","organisation":"","year":""}],"translation":[],"beat":"4/4","tempo":60,"info":"","changes":[{"date":1586340568048,"name":"cätch","mail":"","type":"create","content":""}]}
+{
+  "notation": "",
+  "content": "Ye {e}Jacobites by name, lend an {G}ear, lend an {D}ear!\nYe {e}Jacobites by name, {D}lend an {e}ear!\nYe {G}Jacobites by name, your {D}faults I will proclaim.\nYour {e}doctrins I must blame, you shall hear, you shall {D}hear.\nYour {e}doctrins I must blame, you {D}shall {e}hear.\n\nWhat's right and what is wrong, by the law, by the law. What's right and what is wrong, by the law?\nWhat's right and what is wrong, a short sword or a long, a weak arm or a strong, for to draw, for to draw.\nA weak arm or a strong, for to draw.\n\nWhat makes heroic strife, famed afar, famed afar? What makes heroic strife, famed afar?\nWhat makes heroic strife, to whet assassin's knife or haunt a parent's life with bloody war, bloody war. Or haunt a parent's life with bloody war.\n\nThen leave your schemes alone in the state, in the state. Then leave your schemes alone in the state.\nThen leave your schemes alone, adore the rising sun and leave a man undone to his fate, to his fate,\nand leave a man undone to his fate.",
+  "title": "Ye Jacobites",
+  "words": [
+    {
+      "name": "Robert Burns",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "schottisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1586340568048,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

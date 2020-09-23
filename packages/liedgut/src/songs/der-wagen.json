@@ -1,1 +1,43 @@
-{"notation":"\"a\"A,2\"F\"A2\"G\"zGGD\"a\"E2EEG\"F\"F2C\"G\"zDDE\"a\"E2zAG\"F\"A2A2\"G\"zGA\"d\"D2zCCD\"a\"EG2\"e\"zEcB\"a\"A2|\nw:Zwischen spiel:\ncBc2B2G2A2|z2|cBc2d2B2c2|z2|\nw: ... oder ...\ncBc2B1/2cB1/2A2|","content":"{a}Staub, {F}Staub {G}    und Steppen{a}land, zwei alte {F}Mulis {G}  am Weges{a}rand\nziehn den {F}Wagen {G}   aus der {d}Stadt, weiter nach {a}Osten {e}  dreht sich das {a}Rad.\n\nZwischenspiel: /: a F G a :/\n\nGlaub‘, glaub‘, mein alter Freund, vom Glück da hab en wir oft geträumt. Knarrt das Fuhrwerk im Sturmgebraus, die Mulis finden nie mehr nach Haus.\n\nFern, fern in schwerer Stund, hilft nur die Kneipe am Wiesengrund.\nDie Wahrheit ändern wir niemals, dem Schicksal trot zend auf weiter Straß‘\n\nWeit, weit und grau der Weg und unsre Stiefel stehn starr vor Dreck. Die Fahrt vorbei - in Träumen ziehn wir im Wagen no chmals dahin.\n\nStjep, Stjep, Stjep krugom, dwa starich mula vesut furgon. Iz gorodor ot sujeti na dalni zapad uchodim my.","title":"Der Wagen","words":[{"name":"Erik Schellhorn","nickname":"","group":"","organisation":"Zugvogel","year":""},{"name":"Igor Plachonin","nickname":"","group":"","organisation":"Zugvogel","year":""}],"tune":[{"name":"Sergej Kosigin (russ. Original)","nickname":"","group":"","organisation":"","year":"1987"}],"translation":[],"beat":"2/4","tempo":"100","info":"","changes":[{"date":1585413911535,"name":"cätch","mail":"","type":"create","content":"Taktstriche fehlen"}]}
+{
+  "notation": "\"a\"A,2\"F\"A2\"G\"zGGD\"a\"E2EEG\"F\"F2C\"G\"zDDE\"a\"E2zAG\"F\"A2A2\"G\"zGA\"d\"D2zCCD\"a\"EG2\"e\"zEcB\"a\"A2|\nw:Zwischen spiel:\ncBc2B2G2A2|z2|cBc2d2B2c2|z2|\nw: ... oder ...\ncBc2B1/2cB1/2A2|",
+  "content": "{a}Staub, {F}Staub {G}    und Steppen{a}land, zwei alte {F}Mulis {G}  am Weges{a}rand\nziehn den {F}Wagen {G}   aus der {d}Stadt, weiter nach {a}Osten {e}  dreht sich das {a}Rad.\n\nZwischenspiel: /: a F G a :/\n\nGlaub‘, glaub‘, mein alter Freund, vom Glück da hab en wir oft geträumt. Knarrt das Fuhrwerk im Sturmgebraus, die Mulis finden nie mehr nach Haus.\n\nFern, fern in schwerer Stund, hilft nur die Kneipe am Wiesengrund.\nDie Wahrheit ändern wir niemals, dem Schicksal trot zend auf weiter Straß‘\n\nWeit, weit und grau der Weg und unsre Stiefel stehn starr vor Dreck. Die Fahrt vorbei - in Träumen ziehn wir im Wagen no chmals dahin.\n\nStjep, Stjep, Stjep krugom, dwa starich mula vesut furgon. Iz gorodor ot sujeti na dalni zapad uchodim my.",
+  "title": "Der Wagen",
+  "words": [
+    {
+      "name": "Erik Schellhorn",
+      "nickname": "",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": ""
+    },
+    {
+      "name": "Igor Plachonin",
+      "nickname": "",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Sergej Kosigin (russ. Original)",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1987"
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "tempo": "100",
+  "info": "",
+  "changes": [
+    {
+      "date": 1585413911535,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": "Taktstriche fehlen"
+    }
+  ]
+}

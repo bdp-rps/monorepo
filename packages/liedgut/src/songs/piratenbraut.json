@@ -1,1 +1,36 @@
-{"notation":"","content":"Wild {a}tosend bedrohlich greift der {E}Sturm nach dem {a}Heck,\ndas {d}bärtige Pack schleppt sich {a}seekrank zur {B}Reling.\nNicht die {a}schmutzigsten Ratten rühr'n sich {E}heute vom {a}Fleck.\nDoch {B}oben am Mast, wo der Kla{a}bautermann haust,\nwo der {B}Wind pfeift und braust, es die {d}Männer vor {a}graust,\ndort {d}oben fühlt Katrina sich {E7}frei.\n\n{a}Sie war das, sie war das, sie war das einzige {E}Weib an Deck, drum po{F}lierten sie ihr das \n{C}Silberbesteck und des {d}Nachts, wenn sie {B}schliefen auf {F}knarrenden {C}Matten,\n{d}träumten sie {B}wild von den {F}größten Fre{C}gatten und {d}an ihrer {C}Seite so {F}stürmisch ver{E7}traut\n{a}  {E7}   {a} Ka{a}trina, die {E7}schönste Piraten{a}braut.\n\nZahm und blind tanzt die Gischt dir ins lockende Netz,\nzarte Hand fasst das Tau auch in luftiger Höh'.\nRauer Klang ihrer Stimme macht das Wort zum Gesetz.\nDoch drunten an Deck, wo der Rum nur so fließt,\nwo du vor lauter Wellen das Meer nicht mehr siehst,\nvon dort wandert Sehnsucht hinauf.\n\nJeder Seemann, der sein Glück auf die Waagschale legt,\nwird vom Käpt'n der Crew in die Wogen verbannt,\nKatrina, sein Goldstück, ist das Kind, das er hegt.\nDoch in den Kajüten, wo der Kerzenschein irrt,\nwo der weibische Duft ihre Sinne verwirrt,\nbring Begehr das Pack um den Verstand.","title":"Piratenbraut","words":[{"name":"Marie Noda","nickname":"","group":"","organisation":"","year":""}],"tune":[{"name":"Marie Noda, Michael Hornauer, Manuel Hornauer","nickname":"","group":"Stamm Normannen","organisation":"BdP","year":"2010"}],"translation":[],"beat":"6/8","tempo":60,"info":"","changes":[{"date":1585382457605,"name":"cätch","mail":"","type":"create","content":""}]}
+{
+  "notation": "",
+  "content": "Wild {a}tosend bedrohlich greift der {E}Sturm nach dem {a}Heck,\ndas {d}bärtige Pack schleppt sich {a}seekrank zur {B}Reling.\nNicht die {a}schmutzigsten Ratten rühr'n sich {E}heute vom {a}Fleck.\nDoch {B}oben am Mast, wo der Kla{a}bautermann haust,\nwo der {B}Wind pfeift und braust, es die {d}Männer vor {a}graust,\ndort {d}oben fühlt Katrina sich {E7}frei.\n\n{a}Sie war das, sie war das, sie war das einzige {E}Weib an Deck, drum po{F}lierten sie ihr das \n{C}Silberbesteck und des {d}Nachts, wenn sie {B}schliefen auf {F}knarrenden {C}Matten,\n{d}träumten sie {B}wild von den {F}größten Fre{C}gatten und {d}an ihrer {C}Seite so {F}stürmisch ver{E7}traut\n{a}  {E7}   {a} Ka{a}trina, die {E7}schönste Piraten{a}braut.\n\nZahm und blind tanzt die Gischt dir ins lockende Netz,\nzarte Hand fasst das Tau auch in luftiger Höh'.\nRauer Klang ihrer Stimme macht das Wort zum Gesetz.\nDoch drunten an Deck, wo der Rum nur so fließt,\nwo du vor lauter Wellen das Meer nicht mehr siehst,\nvon dort wandert Sehnsucht hinauf.\n\nJeder Seemann, der sein Glück auf die Waagschale legt,\nwird vom Käpt'n der Crew in die Wogen verbannt,\nKatrina, sein Goldstück, ist das Kind, das er hegt.\nDoch in den Kajüten, wo der Kerzenschein irrt,\nwo der weibische Duft ihre Sinne verwirrt,\nbring Begehr das Pack um den Verstand.",
+  "title": "Piratenbraut",
+  "words": [
+    {
+      "name": "Marie Noda",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Marie Noda, Michael Hornauer, Manuel Hornauer",
+      "nickname": "",
+      "group": "Stamm Normannen",
+      "organisation": "BdP",
+      "year": "2010"
+    }
+  ],
+  "translation": [],
+  "beat": "6/8",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1585382457605,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
