@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button } from '@bdp-rps/ui'
 
-import SongForm from '../../../features/liedgut/SongForm'
-import Header from '../../../components/Header'
+import SongForm from '../features/SongForm'
+import Header from '../components/Header'
 
-import addSong from '../../../api/addSong'
+import addSong from '../api/addSong'
 
 export default () => (
   <>

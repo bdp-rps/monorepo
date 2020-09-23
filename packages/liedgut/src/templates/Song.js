@@ -103,10 +103,11 @@ export default function Song({
       <Text>{' '}</Text>
       <View>
         {blocks.map(lines => (
-          <View wrap={false}>
+          <View key={JSON.stringify(lines)} wrap={false}>
             {lines.map(line => {
               return (
                 <View
+                  key={JSON.stringify(line)}
                   fixed
                   render={({ pageNumber }) => (
                     <View>
@@ -124,7 +125,7 @@ export default function Song({
                           <Text wrap={false}>{line ? line : ' '}</Text>
                         ) : (
                           line.map((p, index) => (
-                            <>
+                            <Fragment key={p.chord + p.word}>
                               <View
                                 style={{
                                   display: 'inline-flex',
@@ -138,7 +139,7 @@ export default function Song({
 
                                 <Text>{p.word}</Text>
                               </View>
-                            </>
+                            </Fragment>
                           ))
                         )}
                       </View>
@@ -176,12 +177,12 @@ export default function Song({
               render={({ subPageNumber, subPageTotalPages }) =>
                 subPageNumber === subPageTotalPages
                   ? (JSON.stringify(words) === JSON.stringify(tune)
-                      ? (translation ? '' : '\n') +
+                      ? (translation.length > 0 ? '' : '\n') +
                         `Worte & Weise: ${renderAuthors(words).join('; ')}`
                       : `Worte: ${renderAuthors(words).join(
                           '; '
                         )}\nWeise: ${renderAuthors(tune).join('; ')}`) +
-                    (translation
+                    (translation.length > 0
                       ? `\nÜbesetzung: ${renderAuthors(translation).join('; ')}`
                       : '')
                   : ''

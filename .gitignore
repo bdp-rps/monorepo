@@ -28,8 +28,9 @@ Thumbs.db
 
 packages/website/public/playroom
 packages/website/public/styleguide
-packages/liedgut/dist
 packages/react-pdf/dist
+packages/liedgut/public/dist
+
 
 .merlin
 node_modules
@@ -37,3 +38,4 @@ lib
 es
 coverage 
 .next
+.vercel

@@ -5,4 +5,4 @@ import '../src/utils/init'
 
 import Ohrwurm from '../src/templates/Ohrwurm'
 
-ReactPDF.render(<Ohrwurm />, `${__dirname}/../dist/ohrwurm.pdf`)
+ReactPDF.render(<Ohrwurm />, `${__dirname}/../public/dist/ohrwurm.pdf`)

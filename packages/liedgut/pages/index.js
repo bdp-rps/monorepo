@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import { Box, TextInput, Text, Button, useTheme } from '@bdp-rps/ui'
-import songList from '@bdp-rps/liedgut'
 import NextLink from 'next/link'
 
-import Link from '../../../components/Link'
-import ListItem from '../../../components/ListItem'
-import Layout from '../../../components/Layout'
-import Header from '../../../components/Header'
+import Link from '../components/Link'
+import ListItem from '../components/ListItem'
+import Layout from '../components/Layout'
+import Header from '../components/Header'
+
+import songList from '../src/songs'
 
 const songData = songList.reduce((songData, name) => {
-  const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
+  const song = require('../src/songs/' + name + '.json')
 
   songData[name] = {
     ...song,
@@ -35,17 +36,12 @@ const SongList = () => {
 
   return (
     <Box paddingTop={5} paddingBottom={10} space={5}>
-      <Box alignSelf="flex-start">
-        <NextLink href="/apps/liedgut/neu">
-          <Button>Lied Hinzufügen</Button>
-        </NextLink>
-      </Box>
       <TextInput
         value={search}
         onChange={setSearch}
-        placeholder="z.B. Am Ural"
-        description="Aktuell kann man nach Titel und Liedtext suchen."
-        label="Suche"
+        placeholder={
+          'Suche nach Titel oder Liedtext z.B. "Am Ural" oder "schöne Stadt am Karmar"'
+        }
       />
 
       <Box>
@@ -64,7 +60,7 @@ const SongList = () => {
           const matchesContent = contentIndex !== -1
 
           return (
-            <NextLink href={'/apps/liedgut/' + name} passHref>
+            <NextLink key={name} href={'/' + name} passHref>
               <ListItem
                 extend={{
                   display: matchesTitle || matchesContent ? 'flex' : 'none',

@@ -29,7 +29,7 @@ export default () => (
   <Template>
     <Layout
       paddingTop={10}
-      paddingBottom={10}
+      paddingBottom={15}
       grow={1}
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Box space={8}>
@@ -66,6 +66,6 @@ export default () => (
         ))}
       </Box>
     </Layout>
-    <Box height={80} extend={{ backgroundColor: 'white' }} />
+    <Box height={40} extend={{ backgroundColor: 'white' }} />
   </Template>
 )

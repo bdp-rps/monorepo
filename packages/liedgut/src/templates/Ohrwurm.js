@@ -3,7 +3,7 @@ import { Document } from '@bdp-rps/react-pdf-renderer'
 
 import Song from './Song'
 
-import songs from '../index'
+import songs from '../songs/index.json'
 
 const songData = songs.map(song => require('../songs/' + song + '.json'))
 
