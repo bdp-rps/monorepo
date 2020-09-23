@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "Ich bin {e} ein Lied {H7}\nNice oder {G} {H7} {G}\n\nFoo",
+  "title": "Testlied",
+  "words": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "Luchs",
+      "organisation": "BdP",
+      "year": "2020"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "Luchs",
+      "organisation": "BdP",
+      "year": "2020"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1600857890321,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "create",
+      "content": "Test"
+    }
+  ]
+}
