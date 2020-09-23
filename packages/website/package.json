@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "clean": "rimraf ./public/styleguide ./public/playroom",
-    "dev": "now dev",
+    "dev": "vercel dev",
     "build": "next build",
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
     "now-build": "yarn build",
@@ -14,7 +14,6 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "@bdp-rps/liedgut": "^0.0.23",
     "@bdp-rps/ui": "^0.0.23",
     "@mdx-js/loader": "^1.5.8",
     "@mdx-js/react": "^1.5.8",

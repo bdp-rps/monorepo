@@ -21,7 +21,7 @@ try {
 
 ReactPDF.render(
   <Document>
-    <Song {...data.default} />
+    <Song {...data} />
   </Document>,
-  `${__dirname}/../dist/${fileName}.pdf`
+  `${__dirname}/../public/dist/${fileName}.pdf`
 )

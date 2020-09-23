@@ -176,12 +176,12 @@ export default function Song({
               render={({ subPageNumber, subPageTotalPages }) =>
                 subPageNumber === subPageTotalPages
                   ? (JSON.stringify(words) === JSON.stringify(tune)
-                      ? (translation ? '' : '\n') +
+                      ? (translation.length > 0 ? '' : '\n') +
                         `Worte & Weise: ${renderAuthors(words).join('; ')}`
                       : `Worte: ${renderAuthors(words).join(
                           '; '
                         )}\nWeise: ${renderAuthors(tune).join('; ')}`) +
-                    (translation
+                    (translation.length > 0
                       ? `\nÜbesetzung: ${renderAuthors(translation).join('; ')}`
                       : '')
                   : ''

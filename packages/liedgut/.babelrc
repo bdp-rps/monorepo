@@ -1,11 +1,12 @@
 {
   "presets": [
     [
-      "@babel/preset-env",
+      "next/babel",
       {
-        "loose": true,
-        "targets": {
-          "node": "8.11.3"
+        "preset-env": {
+          "targets": {
+            "node": "8.11.3"
+          }
         }
       }
     ],

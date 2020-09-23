@@ -32,7 +32,7 @@ const subNavs = {
   },
   '/digital': {
     '/downloads': 'Downloads',
-    '/cloud': 'Cloud',
+    'https://cloud.bdp-rps.de': 'Cloud',
     '/apps': 'Apps',
   },
   '/landesverband': {
@@ -105,7 +105,7 @@ export default function Template({ children }) {
             <Box direction={['column', , 'row']} paddingLeft={5}>
               {Object.keys(subNavs[isSubPage]).map(path => (
                 <NavBarItem
-                  href={isSubPage + path}
+                  href={path.indexOf('http') === -1 ? isSubPage + path : path}
                   active={router.pathname.indexOf(path) !== -1}>
                   {subNavs[isSubPage][path]}
                 </NavBarItem>
@@ -126,22 +126,30 @@ export default function Template({ children }) {
               <Spacer size={0.5} />
               <Link href="/impressum">Impressum</Link>
               <Link href="/datenschutz">Datenschutz</Link>
-              <Link href="/datenschutz">Kontakt</Link>
+              <Link href="/kontakt">Kontakt</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text intent="category">Andere Seiten</Text>
               <Spacer size={0.5} />
-              <Link href="/impressum">Bundesseite</Link>
-              <Link href="/datenschutz">Bundeskämmerei</Link>
-              <Link href="/datenschutz">Landesjugendring Rheinland-Pfalz</Link>
-              <Link href="/datenschutz">Landesjugendring Saarland</Link>
-              <Link href="/datenschutz">Stiftung Pfadfinden</Link>
+              <Link href="https://www.pfadfinden.de">Bundesseite</Link>
+              <Link href="http://www.ljr-rlp.de">
+                Landesjugendring Rheinland-Pfalz
+              </Link>
+              <Link href="http://www.landesjugendring-saar.de">
+                Landesjugendring Saarland
+              </Link>
+              <Link href="https://www.stiftungpfadfinden.de">
+                Stiftung Pfadfinden
+              </Link>
+              <Link href="https://www.ausruester-eschwege.de">
+                Der Ausrüster
+              </Link>
             </Box>
             <Box space={2} grow={1}>
               <Text intent="category">Soziales</Text>
               <Spacer size={0.5} />
-              <Link href="/impressum">Facebook</Link>
-              <Link href="/datenschutz">Instagram</Link>
+              <Link href="https://www.facebook.com/bdprps">Facebook</Link>
+              <Link href="https://instagram.com/bdp_lv_rps/">Instagram</Link>
             </Box>
           </Box>
           <Text>

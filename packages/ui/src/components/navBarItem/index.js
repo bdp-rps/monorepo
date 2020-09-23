@@ -19,19 +19,19 @@ export default function NavBarItem({ href, active, onClick, children }) {
       width={['100%', , 'auto']}
       minWidth={50}
       extend={{
-        cursor: 'pointer',
         textDecoration: 'none',
+        cursor: 'pointer',
+        ':hover': {
+          '> p': {
+            color: theme.tokens.secondaryLight,
+          },
+        },
         '@media (min-width: 800px)': {
           ':first-child': {
             paddingLeft: 0,
           },
           ':last-child': {
             paddingRight: 0,
-          },
-        },
-        ':hover': {
-          '> p': {
-            color: theme.tokens.secondaryLight,
           },
         },
       }}>

@@ -23,31 +23,42 @@
     "Edge >= 15"
   ],
   "scripts": {
+    "dev": "vercel dev",
+    "clean": "rimraf public/dist lib es coverage && mkdir public/dist",
+    "songlist": "babel-node scripts/songList",
+    "normalize": "babel-node scripts/normalize",
+    "now-build": "yarn build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "vercel --prod",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf dist lib es coverage && mkdir dist",
-    "build": "yarn run clean && yarn build:songlist && yarn build:ohrwurm && yarn build:package",
+    "build": "yarn run clean && yarn songlist && yarn normalize && yarn build:book && yarn build:songs && yarn build:package && next build",
     "build:package": "yarn build:es && yarn build:lib",
     "build:es": "babel src --out-dir es --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --copy-files",
-    "build:song": "babel-node scripts/page",
-    "build:ohrwurm": "babel-node scripts/full",
-    "build:songlist": "babel-node scripts/songList",
-    "gwint": "babel-node scripts/gwint"
+    "build:song": "babel-node scripts/song",
+    "build:songs": "babel-node scripts/songs",
+    "build:book": "babel-node scripts/book"
   },
   "dependencies": {
-    "@babel/node": "^7.7.4",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/plugin-transform-runtime": "^7.7.6",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/preset-react": "^7.7.4",
+    "@bdp-rps/ui": "^0.0.23",
     "@bdp-rps/react-pdf-renderer": "^0.0.23",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "onegraph-auth": "^2.2.1",
+    "next": "^9.3.1",
+    "node-fetch": "^2.6.0",
     "react": "^16.12.0",
+    "react-abc": "^0.4.0",
     "react-dom": "^16.12.0",
     "rimraf": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/polyfill": "^7.2.5"
+    "@babel/node": "^7.7.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4"
   },
   "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
 }
