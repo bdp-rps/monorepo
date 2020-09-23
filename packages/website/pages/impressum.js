@@ -52,7 +52,7 @@ export default () => {
             <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
             <br />
             <br />
-            Jugenverband
+            Jugendverband
           </Text>
           <Text>
             <b>Gesetzliche Vertreter:</b>

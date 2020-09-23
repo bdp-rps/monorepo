@@ -85,7 +85,7 @@ export default function Song(props) {
 
     // set soundfont (see https://github.com/gleitz/midi-js-soundfonts)
     const midi = require('abcjs/src/midi/abc_midi_controls')
-    // midi.setSoundFont('https://gleitz.github.io/midi-js-soundfonts/FatBoy/')
+    midi.setSoundFont('https://gleitz.github.io/midi-js-soundfonts/FatBoy/')
 
     const notationText =
       'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n' + notation
@@ -103,8 +103,8 @@ export default function Song(props) {
           </Box>
           <Box maxWidth={300}>
             <Midi
-              notation={notation}
-              // notation={notation.replace(/\"[a-z0-9]*\"/gi, '')}
+              // notation={notation}
+              notation={notation.replace(/\"[a-z0-9]*\"/gi, '')}
               midiParams={{
                 qpm: tempo,
               }}
