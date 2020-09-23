@@ -10,7 +10,6 @@
     "format": "prettier --write \"**/*.js\"",
     "coverage": "lerna run coverage",
     "release": "yarn build && lerna publish --force-publish",
-    "deploy": "cd ./packages/website && yarn deploy",
     "setup": "yarn bootstrap && yarn build",
     "test": "lerna run test",
     "check": "yarn run test",

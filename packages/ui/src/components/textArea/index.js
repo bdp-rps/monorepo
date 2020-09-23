@@ -16,7 +16,7 @@ const style = ({ isValid, disabled, theme }) => ({
   paddingRight: theme.tokens.inputPaddingHorizontal,
   paddingTop: theme.tokens.inputPaddingVertical,
   paddingBottom: theme.tokens.inputPaddingVertical,
-  fontFaminotely: theme.fonts.content,
+  fontFamily: theme.fonts.content,
   fontSize: 16,
   ':focus': {
     outline: 0,

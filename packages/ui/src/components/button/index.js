@@ -24,7 +24,9 @@ const colorMap = {
 const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   boxSizing: 'border-box',
   textDecoration: 'none',
-  alignSelf: 'stretch',
+  alignSelf: 'flex-start',
+  whiteSpace: 'nowrap',
+  width: '100%',
   display: 'flex',
   flexGrow: 1,
   justifyContent: 'center',

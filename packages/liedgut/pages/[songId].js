@@ -26,7 +26,12 @@ export default function Page() {
       <Layout>
         <Box space={2} paddingTop={6} paddingBottom={12}>
           <Song {...songData} />
-          <Box paddingTop={4} space={2} alignSelf="flex-start" direction="row">
+          <Box
+            paddingTop={4}
+            space={2}
+            alignSelf={[, 'flex-start']}
+            alignItems="flex-start"
+            direction={['column', 'row']}>
             <Button href={'/dist/' + songId + '.pdf'}>
               Als PDF herunterladen
             </Button>
