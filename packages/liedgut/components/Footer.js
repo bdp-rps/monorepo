@@ -32,7 +32,7 @@ export default function Footer() {
           Rheinland-Pfalz/Saarland
         </Text>
         <a
-          href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"
+          href="https://vercel.com?utm_source=liedgut&utm_campaign=oss"
           style={{ textDecoration: 'none' }}>
           <svg
             width="212"
