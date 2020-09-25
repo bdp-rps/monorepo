@@ -21,6 +21,12 @@ export default [
     },
   },
   {
+    selector: 'html',
+    style: {
+      WebkitTextSizeAdjust: '100%',
+    },
+  },
+  {
     selector: '#__next',
     style: {
       display: 'flex',

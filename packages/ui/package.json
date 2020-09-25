@@ -68,7 +68,8 @@
     "cross-env": "^6.0.3",
     "jest": "^23.6.0",
     "react-styleguidist": "^11.0.4",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.0",
+    "webpack": "^4.44.2"
   },
   "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
 }
