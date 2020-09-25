@@ -15,8 +15,7 @@
   "scripts": {
     "build": "rimraf ./dist && rollup -c",
     "watch": "rimraf ./dist && rollup -c -w",
-    "prepublish": "npm run build",
-    "test:size": "bundlesize"
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@babel/runtime": "7.6.2",
@@ -49,7 +48,6 @@
     "babel-eslint": "10.0.1",
     "babel-jest": "24.1.0",
     "babel-plugin-add-module-exports": "1.0.0",
-    "bundlesize": "0.17.1",
     "chalk": "2.4.2",
     "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.9.1",
