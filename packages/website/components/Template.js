@@ -159,7 +159,7 @@ export default function Template({ children }) {
         </Box>
         <Box paddingTop={5}>
           <a
-            href="https://vercel.com?utm_source=website&utm_campaign=oss"
+            href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"
             style={{ textDecoration: 'none' }}>
             <svg
               width="212"
