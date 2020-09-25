@@ -4,7 +4,6 @@
   "description": "Official bdp-rps.de website",
   "private": true,
   "scripts": {
-    "clean": "rimraf ./public/styleguide ./public/playroom",
     "dev": "next dev",
     "build": "next build",
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
