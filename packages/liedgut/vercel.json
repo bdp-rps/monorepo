@@ -1,5 +1,0 @@
-{
-  "version": 2,
-  "alias": "liedgut.bdp-rps.app",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
-}

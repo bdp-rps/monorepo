@@ -1,5 +1,0 @@
-{
-  "version": 2,
-  "alias": "map.bdp-rps.app",
-  "builds": [{ "src": "next.config.js", "use": "@vercel/next" }]
-}
