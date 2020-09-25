@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Link from '../components/Link'
 import Song from '../components/Song'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import renderAuthors from '../src/utils/renderAuthors'
 
 export default function Page() {
@@ -24,7 +25,7 @@ export default function Page() {
     <>
       <Header />
       <Layout>
-        <Box space={2} paddingTop={6} paddingBottom={12}>
+        <Box minHeight="95vh" space={2} paddingTop={6} paddingBottom={25}>
           <Song {...songData} />
           <Box
             paddingTop={4}
@@ -41,6 +42,7 @@ export default function Page() {
           </Box>
         </Box>
       </Layout>
+      <Footer />
     </>
   )
 }

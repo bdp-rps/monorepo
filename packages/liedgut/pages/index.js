@@ -6,6 +6,7 @@ import Link from '../components/Link'
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import songList from '../src/songs'
 
@@ -35,7 +36,7 @@ const SongList = () => {
   const normalizedSearch = search.toLowerCase().trim()
 
   return (
-    <Box paddingTop={5} paddingBottom={10} space={5}>
+    <Box minHeight="95vh" paddingTop={5} paddingBottom={15} space={5}>
       <TextInput
         value={search}
         onChange={setSearch}
@@ -124,5 +125,6 @@ export default () => (
     <Layout>
       <SongList />
     </Layout>
+    <Footer />
   </>
 )

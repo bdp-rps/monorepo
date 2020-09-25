@@ -24,7 +24,7 @@
   "scripts": {
     "clean": "rimraf lib es coverage",
     "dev": "vercel dev",
-    "now-build": "yarn build:styleguide",
+    "vercel-build": "yarn build:styleguide",
     "deploy": "vercel --prod",
     "build": "yarn clean && yarn build:package",
     "build:styleguide": "styleguidist build",
@@ -67,7 +67,6 @@
     "babel-loader": "^8.1.0",
     "cross-env": "^6.0.3",
     "jest": "^23.6.0",
-    "playroom": "^0.16.1",
     "react-styleguidist": "^11.0.4",
     "rimraf": "^3.0.0"
   },

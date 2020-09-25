@@ -1,5 +1,5 @@
 module.exports = {
-  components: './src/components.js',
+  components: '@bdp-rps/ui/lib',
   outputPath: './public',
 
   // Optional:

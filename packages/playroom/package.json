@@ -5,8 +5,8 @@
   "scripts": {
     "clean": "rimraf public",
     "start": "playroom start",
+    "vercel-build": "yarn build",
     "dev": "vercel dev",
-    "now-build": "yarn build",
     "build": "yarn run clean && playroom build",
     "deploy": "vercel --prod",
     "test": "cross-env BABEL_ENV=commonjs echo 1",
@@ -30,7 +30,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.1.0",
-    "playroom": "^0.16.1",
+    "playroom": "^0.21.7",
     "rimraf": "^3.0.0"
   },
   "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"

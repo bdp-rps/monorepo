@@ -24,11 +24,11 @@
     "Edge >= 15"
   ],
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "next dev",
     "clean": "rimraf public/dist lib es coverage && mkdir public/dist",
     "songlist": "babel-node scripts/songList",
     "normalize": "babel-node scripts/normalize",
-    "now-build": "yarn build:page",
+    "vercel-build": "yarn build:page",
     "start": "next start",
     "export": "next export",
     "deploy": "vercel --prod",
