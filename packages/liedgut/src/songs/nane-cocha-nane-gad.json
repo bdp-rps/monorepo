@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "{a}Nane cocha, {G}nane {C}gad,\n{F}  mi kinel man{C}ge o {A}dad,\n{d}sar me dzava {a}pal o rom,\n{E}  mi kinel man{a}ge o rom.\n\n{a}Lai lai lai lai lai {G}lai lai lai {C}lai lai.\n{F}Lai lai lai lai {C}lai lai lai {A}lai lai.\n/: {d}Lai lai lai lai {a}lai lai lai lai lai lai lai.\n{E}Lai lai lai lai {a}lai lai lai. :/\n\nDado mamo cin cena,\no la cena somnakune.\nsat ru mange na cineha,\nna basavna o chaja.\n\nGe'om me androda sados,\npirkerdzome leskero,\npokerdzome tro sero.\nKaj tu kames mro jilo.\n\n(Letzte wie erste)",
+  "title": "Nane cocha nane gad",
+  "words": [
+    {
+      "name": "russisches Romalied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "russisches Romalied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "120",
+  "info": "Polka, Tempo langsam steigernd",
+  "changes": [
+    {
+      "date": 1601115912112,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
