@@ -1,6 +1,6 @@
 {
   "notation": "K:D\n|:\"D\"D3/2E1/2FFED|D3/2E1/2FFED|1\"G\"B,3\"D\"A,3z6:|2\"G\"B,6|z6]\nC3/2D1/2EEDC|C3/2D1/2EEFG|\"D\"F3\"A\"E3|\"G\"D3/2C1/2B,\"D\"A,D\"A\"C|\"D\"D6|\n|:\"G\"BAG\"D\"AGF|\"A\"EFG\"D\"FED|\"G\"BAG\"D\"AGF|\"A\"E6:|\n\"Ending\"zz\"D\"A,A,D\"A\"C\"D\"D3|\nw:...Ge-flüs-ter und Schrei\n",
-  "content": "{D}An der Allee die Akazien blühen, es {G}schwe{D}ben{(D+Gis)}{(D)}\nüber uns Flieger und Vögel, es ist wieder {G}Mai. \n{A}So könnten wir unsre Zeit miteinander ver{D}le{A}ben, GDAD\n{G}dachte ich {D}heut' ne{A}ben{D}bei.\n\nDein weißes Kleid weht den Fahnen gleich über die Straßen gehen wir zwei, niemand stört uns, nicht mal Polizei,\nwarn wir so frei dass wir alles da um uns vergaßen? Dachte ich heut' nebenbei.\n\n{G}Aber es {D}hält mich hier {A}auf dieser {D}Welt mit dir {G}zwischen {D}Geflüster und {A}Schrei. GDADGDA\n{G}Eben ver{D}geben wir {A}jetzt unser {D}Leben hier {G}und das nicht {D}nur neben{A}bei.\n\nLiebste was wird aus uns, wenn wir uns daran gewöhnen, dass alles bleibt, wie es ist, dass es sei, wie es sei.\nWenn wir verzaubert in fernen romantischen Tönen denken an uns, nur uns zwei.\nAber es hält mich hier auf dieser Welt mit dir zwischen Geflüster und Schrei. Eben vergeben wir jetzt unser Leben hier und das nicht nur nebenbei.\nWenn uns die Bilder der Toten nicht schmerzhaft berühren, wir nicht mehr hören die Schüsse, nicht spüren das Blei sind wir nur glücklich so hinter verschlossenen Türen? Dachte ich heut' nebenbei.\n/: Eben vergeben wir jetzt unser Leben hier und das nicht nur nebenbei.\nAber es hält mich hier auf dieser Welt mit dir zwischen Geflüster und Schrei. :/\n",
+  "content": "{D}An der Allee die Akazien blühen, es {G}schwe{D}ben\nüber uns Flieger und Vögel, es ist wieder {G}Mai. \n{A}So könnten wir unsre Zeit miteinander ver{D}le{A}ben,\n{G}dachte ich {D}heut' ne{A}ben{D}bei.\n\nDein weißes Kleid weht den Fahnen gleich über die Straßen\ngehen wir zwei, niemand stört uns, nicht mal Polizei,\nwarn wir so frei dass wir alles da um uns vergaßen?\nDachte ich heut' nebenbei.\n\n{G}Aber es {D}hält mich hier {A}auf dieser {D}Welt mit dir {G}zwischen {D}Geflüster und {A}Schrei.\n{G}Eben ver{D}geben wir {A}jetzt unser {D}Leben hier {G}und das nicht nur nebenbei.\n\nLiebste was wird aus uns, wenn wir uns daran gewöhnen,\ndass alles bleibt, wie es ist, dass es sei, wie es sei.\nWenn wir verzaubert in fernen romantischen Tönen\ndenken an uns, nur uns zwei.\n\nAber es hält mich hier ...\n\nWenn uns die Bilder der Toten nicht schmerzhaft berühren,\nwir nicht mehr hören die Schüsse, nicht spüren das Blei\nsind wir nur glücklich so hinter verschlossenen Türen?\nDachte ich heut' nebenbei.\n\n/: Eben vergeben wir jetzt unser Leben hier und das nicht nur nebenbei.\nAber es hält mich hier auf dieser Welt mit dir zwischen Geflüster und Schrei. :/\n",
   "title": "An der Allee",
   "words": [
     {
@@ -38,6 +38,13 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1601118353793,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Format + Akkorde"
     }
   ]
 }
