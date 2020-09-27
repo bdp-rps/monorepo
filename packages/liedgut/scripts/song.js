@@ -1,6 +1,5 @@
-import path from 'path'
 import React from 'react'
-import ReactPDF, { Document } from '@bdp-rps/react-pdf-renderer'
+import ReactPDF, { render, Document } from '@bdp-rps/react-pdf-renderer'
 
 import '../src/utils/init'
 
@@ -19,7 +18,7 @@ try {
   }
 }
 
-ReactPDF.render(
+render(
   <Document>
     <Song {...data} />
   </Document>,

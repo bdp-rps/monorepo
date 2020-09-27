@@ -1,8 +1,8 @@
 import React from 'react'
-import ReactPDF from '@bdp-rps/react-pdf-renderer'
+import { render } from '@bdp-rps/react-pdf-renderer'
 
 import '../src/utils/init'
 
 import Ohrwurm from '../src/templates/Ohrwurm'
 
-ReactPDF.render(<Ohrwurm />, `${__dirname}/../public/dist/ohrwurm.pdf`)
+render(<Ohrwurm />, `${__dirname}/../public/dist/ohrwurm.pdf`)

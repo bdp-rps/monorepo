@@ -1,9 +1,8 @@
-import path from 'path'
 import { Font } from '@bdp-rps/react-pdf-renderer'
 
 Font.register({
   family: 'Bell Gothic',
-  src: 'https://liedgut.bpd-rps.app/fonts/Bell_Gothic.ttf',
+  src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic.ttf',
 })
 
 Font.register({
