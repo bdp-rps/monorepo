@@ -42,6 +42,7 @@ export default function Modal({ children, visible, title, onClose }) {
         alignItems={['stretch', , 'center']}
         justifyContent="center"
         width="100%"
+        padding={2}
         grow={[1, , 0]}
         shrink={[0, , 1]}>
         <Card elevation="medium" space={title ? 2 : 0} extend={{ padding: 0 }}>

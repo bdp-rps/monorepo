@@ -36,6 +36,7 @@ export default function Text({
       className={css(
         {
           ...fontStyle,
+          display: 'inline-block',
           color: color || defaultColor,
           textAlign: align,
           fontWeight: weight || fontWeight,

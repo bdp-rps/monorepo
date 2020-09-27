@@ -5,15 +5,15 @@ import {
   TextArea,
   TextInput,
   SelectInput,
+  Modal,
+  Loading,
   Checkbox,
   Text,
   useTheme,
 } from '@bdp-rps/ui'
 
 import Song from '../components/Song'
-import Modal from '../components/Modal'
 import ListItem from '../components/ListItem'
-import Loading from '../components/Loading'
 import renderAuthors from '../src/utils/renderAuthors'
 
 const defaultSong = {

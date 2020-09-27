@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { Box, TextInput, Text, Button, useTheme } from '@bdp-rps/ui'
+import { Box, Link, TextInput, Text, Button, useTheme } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
-import Link from '../components/Link'
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
@@ -36,7 +35,7 @@ const SongList = () => {
   const normalizedSearch = search.toLowerCase().trim()
 
   return (
-    <Box minHeight="95vh" paddingTop={5} paddingBottom={15} space={5}>
+    <Box minHeight="95vh" paddingTop={2} paddingBottom={15} space={2}>
       <TextInput
         value={search}
         onChange={setSearch}
@@ -119,12 +118,14 @@ const SongList = () => {
   )
 }
 
-export default () => (
-  <>
-    <Header />
-    <Layout>
-      <SongList />
-    </Layout>
-    <Footer />
-  </>
-)
+export default function Page() {
+  return (
+    <>
+      <Header />
+      <Layout>
+        <SongList />
+      </Layout>
+      <Footer />
+    </>
+  )
+}
