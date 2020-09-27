@@ -11,8 +11,7 @@
   },
   "files": [
     "lib/**",
-    "es/**",
-    "dist/**"
+    "es/**"
   ],
   "browserslist": [
     "IE >= 11",
@@ -25,7 +24,7 @@
   ],
   "scripts": {
     "dev": "next dev",
-    "clean": "rimraf public/dist lib es coverage && mkdir public/dist",
+    "clean": "rimraf lib es coverage",
     "songlist": "babel-node scripts/songList",
     "normalize": "babel-node scripts/normalize",
     "vercel-build": "yarn build:page",
@@ -34,7 +33,7 @@
     "deploy": "vercel --prod",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn run clean && yarn songlist && yarn normalize && yarn build:package",
-    "build:page": "yarn build && yarn build:book && yarn build:songs && next build",
+    "build:page": "yarn build && next build",
     "build:package": "yarn build:es && yarn build:lib",
     "build:es": "babel src --out-dir es --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --copy-files",

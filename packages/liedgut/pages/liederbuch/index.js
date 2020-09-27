@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Box, Text, Spacer, Checkbox, Button, useTheme } from '@bdp-rps/ui'
-import { PDFViewer, Document } from '@bdp-rps/react-pdf-renderer'
+import { PDFViewer, Document, Font } from '@bdp-rps/react-pdf-renderer'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -10,8 +10,6 @@ import normalizeContent from '../../src/utils/normalizeContent'
 import Song from '../../src/templates/Song'
 
 import songs from '../../src/songs'
-
-import '../../src/utils/init'
 
 const songData = songs.reduce((songData, name) => {
   const song = require('../../src/songs/' + name + '.json')
@@ -27,6 +25,19 @@ export default function Page() {
   const [selected, setSelected] = useState([])
   const [step, setStep] = useState(0)
   const theme = useTheme()
+
+  useEffect(() => {
+    Font.register({
+      family: 'Bell Gothic',
+      src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic.ttf',
+    })
+
+    Font.register({
+      family: 'Bell Gothic Bold',
+      src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic_Bold.ttf',
+      fontWeight: 'bold',
+    })
+  }, [])
 
   return (
     <>

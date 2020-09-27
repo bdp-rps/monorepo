@@ -35,7 +35,7 @@ const SongList = () => {
   const normalizedSearch = search.toLowerCase().trim()
 
   return (
-    <Box minHeight="95vh" paddingTop={2} paddingBottom={15} space={2}>
+    <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={2}>
       <TextInput
         value={search}
         onChange={setSearch}
