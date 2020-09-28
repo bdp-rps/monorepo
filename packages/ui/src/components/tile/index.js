@@ -23,7 +23,7 @@ export default function Tile({ image, title, highlight, children }) {
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',
       }}>
       <Box
-        grow={1}
+        grow={image ? 1 : 0}
         justifyContent="flex-end"
         alignItems="flex-start"
         width="100%"
