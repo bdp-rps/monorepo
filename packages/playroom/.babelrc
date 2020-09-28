@@ -8,17 +8,5 @@
     ],
     "@babel/preset-react"
   ],
-  "env": {
-    "commonjs": {
-      "presets": [
-        [
-          "@babel/preset-env",
-          {
-            "modules": "commonjs"
-          }
-        ],
-        "@babel/preset-react"
-      ]
-    }
-  }
+  "plugins": ["@babel/plugin-proposal-export-default-from"]
 }

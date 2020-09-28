@@ -49,7 +49,7 @@ export default function TextInput({
   type,
   label,
   errorMessage,
-  errorMessageVisible,
+  errorMessageVisible = true,
   description,
   ...props
 }) {
@@ -81,7 +81,7 @@ export default function TextInput({
         onFocus={onFocus}
         className={css(style)}
       />
-      {errorMessage && errorMessageVisible ? (
+      {errorMessage && errorMessageVisible && !isValid ? (
         <Text intent="note" extend={{ color: theme.tokens.destructive }}>
           {errorMessage}
         </Text>
@@ -95,6 +95,7 @@ TextInput.defaultProps = {
   isValid: true,
   disabled: false,
   required: false,
+  errorMessageVisible: true,
   type: 'text',
 }
 
@@ -119,6 +120,8 @@ TextInput.propTypes = {
   label: PropTypes.string,
   /** An error message text that is displayed once isValid is false. */
   errorMessage: PropTypes.string,
+  /** Wether the errorMessage is displayed once isValid is false. */
+  errorMessageVisible: PropTypes.bool,
   /** Additional description information display beneath the input. */
   description: PropTypes.string,
   /** The input type. */
