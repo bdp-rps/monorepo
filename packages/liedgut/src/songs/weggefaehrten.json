@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "{e}Mögest du {D}Weggefährten {G}haben, \ndie mit {C}dir ein {D}Stück des {G}weiten Weges {e}teilen, \nder {C}Reise durch das {D}Abenteuer {G}Leben,\ndie ein {C}Stück des {D}Wegs an {G}deiner Seite {e}weilen,\n{C}die dir Freundschaft {D}auf der Reise {G}geben.\n\nAuf dass {G}eine Hand dir {D}reichlich Hilfe gibt\n{C}wenn dein Fuß sich {D}in der Wurzel {G}fängt.\n||: Auf dass, {C}wenn sich der {D}Regen vor {G}deine Sonne {e}schiebt\n{C}jemand dir den {D}Regenbogen {G}schenkt.:||\n\nAuf dass jemand deine Sorgen wohl vernimmt,\nder dir deine Tränen trocknen mag.\n||: Auf dass jemand mit dir in dein helles Lachen stimmt\nan einem wunderschönen Sonnentag.:||\n",
+  "title": "Weggefährten",
+  "words": [
+    {
+      "name": "Almut Karig",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Almut Karig",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": 60,
+  "info": "Nach einem irischen Segensspruch",
+  "changes": [
+    {
+      "date": 1601226019187,
+      "name": "cätch",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
