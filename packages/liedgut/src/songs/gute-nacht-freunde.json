@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "{A}Gute Nacht {h}Freunde, {E}\n{E7}Es wird Zeit für mich zu {A}geh'n.\n{D}Was ich noch zu sagen {cis}hätte,\ndauert eine Ziga{h}rette, {E}\nund ein letztes Glas im {A}Steh'n.\n\n{A}Für den Tag, für die {h}Nacht unter eurem Dach habt {E}Dank.\nFür den Platz an eurem {A}Tisch, für jedes Glas, das ich trank.\nFür den Teller, den ihr {h}mir zu den euren {E}stellt,\nals sei selbstver{A}ständlicher {D}nichts auf der {E}Welt.\n\nHabt Dank für die Zeit, die ich mit euch verplaudert hab.\nUnd für eure Geduld, wenn's mehr als eine Meinung gab.\nDafür, dass ihr nie fragt, wann ich komm oder geh.\nFür die stets offene Tür, in der ich jetzt steh.\n\nFür die Freiheit, die als steter Gast bei euch wohnt.\nHabt Dank, dass ihr nie fragt, was es bringt, ob es lohnt.\nVielleicht liegt es daran, dass man von draußen meint,\ndass in euren Fenstern das Licht wärmer scheint.",
+  "title": "Gute Nacht Freunde",
+  "words": [
+    {
+      "name": "Reinhard Mey",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Reinhard Mey",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "110",
+  "info": "",
+  "changes": [
+    {
+      "date": 1601809605733,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
