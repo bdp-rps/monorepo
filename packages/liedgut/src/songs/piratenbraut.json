@@ -6,16 +6,30 @@
     {
       "name": "Marie Noda",
       "nickname": "",
-      "group": "",
-      "organisation": "",
-      "year": ""
+      "group": "Normannen",
+      "organisation": "BdP",
+      "year": "2010"
     }
   ],
   "tune": [
     {
-      "name": "Marie Noda, Michael Hornauer, Manuel Hornauer",
+      "name": "Marie Noda",
       "nickname": "",
-      "group": "Stamm Normannen",
+      "group": "Normannen",
+      "organisation": "BdP",
+      "year": "2010"
+    },
+    {
+      "name": "Michael Hornauer",
+      "nickname": "",
+      "group": "Normannen",
+      "organisation": "BdP",
+      "year": "2010"
+    },
+    {
+      "name": "Manuel Hornauer",
+      "nickname": "",
+      "group": "Normannen",
       "organisation": "BdP",
       "year": "2010"
     }
@@ -31,6 +45,13 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1602174815532,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Weise aufgeteilt"
     }
   ]
 }
