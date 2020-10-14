@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "{C}Ach, wie eilte {G7}so geschwinde\n{C}dieser Sommer {G7}durch die Welt.\n{C}Herbstlich {G}rauscht es {D}in der {G}Linde,\n{a}ihre Blätter {e}mit dem {a}Winde\n/: {F}wehen übers {e}Stoppel{a}feld. :/\n\nHörst du in den Lüften klingend\nsehnlich klagend das Kuru?\nWandervögel, flügelschwingend,\nLebewohl der Heimat singend,\n/: ziehn dem fremden Lande zu. :/\n\nMorgen muss ich in die Ferne,\nliebes Mädchen, bleib mir gut.\nMorgen lebt in der Kaserne,\ndass er exerzieren lerne,\n/: dein dich liebender Rekrut. :/",
+  "title": "Ach wie eilte so geschwinde",
+  "words": [
+    {
+      "name": "Wilhelm Busch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Herbert Reyer",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "tempo": "105",
+  "info": "",
+  "changes": [
+    {
+      "date": 1602675264299,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
