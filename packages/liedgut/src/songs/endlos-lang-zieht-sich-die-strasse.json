@@ -1,0 +1,36 @@
+{
+  "notation": "M:2/4\nK:G\n\"e\" E4 B,4 | E4 \"D\" F4 | \"G\" G4 \"D\" F4 |  \"e\" E4 E4 | \"G\" G4 \"D\" A4 | \"G\" B4 B4 | \"C\" C'2B2 \"D\" A4 | \"e\" E8 | E8 |\n|: \"a\" A5 A2 | \"e\" G4 E4 | \"a\" A5 A2 | \"e\" G4 E4 | \"G\" G4 \"D\" A4 | \"G\" B4 B4 | \"C\" C'2B2 \"D\" A4 | \"e\" E8 | E8  :|",
+  "content": "{e}Endlos lang {D}zieht {G}sich {D}die {e}Straße,\n{G}hin{D}ter {G}Wolken {C}däm{D}mert {e}Morgen.\n/: {a}Früher {e}Vögel {a}Ruf im {e}Walde,\n{G}Ne{D}bel {G}steigt von {C}Berg {D}und {e}Halde. :/\n\nAuf dem blauen Tuch der Blusen\nliegt der Staub der vielen Stunden.\n/: Schweigend zieht die junge Horte,\nweiter Weg braucht wenig Worte. :/\n\nWer kann unsre Wege messen,\nwer kann unser Wollen wägen?\n/: Alle, die mit uns marschieren,\nwerden Weg und Ziel erspüren. :/\n\nNeuer Tag wird Sonne bringen,\nSonne ruft das junge Leben.\n/: Dunkel kann es nicht mehr halten,\nmuss zu Hohem sich entfalten. :/\n",
+  "title": "Endlos lang zieht sich die Straße",
+  "words": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1962"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1962"
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "tempo": "120",
+  "info": "",
+  "changes": [
+    {
+      "date": 1602679033691,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
