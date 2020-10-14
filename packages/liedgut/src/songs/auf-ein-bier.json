@@ -1,0 +1,50 @@
+{
+  "notation": "",
+  "content": "{C}Komm noch auf ein {G}Bier mit zu mir,\nStell Dich bitte nicht so {C}an.\nJa, ich weiß, es ist {G}spät, kurz vor vier\nUnd Dein Alltag fängt bald {C}an.\n\n{F}Lass uns noch, bevor es hell wird,\nEtwas {C}reden, diskutier'n,\nDenn ich {F}weiß, ich kann jetzt noch nicht schlafen,\nLass uns {C}keine Zeit verlieren.\nWenn der {e}erste Wecker erst mal {h}schrillt\nIst die {F}Ruhe vor{G}bei.\nUnd dann {C}bricht der Stadtlärm wieder los\nUnd das {G}auch in uns zwein.\nAlso {C}komm, lass uns {G}geh'n,\nNicht länger auf der Strasse {C}steh'n.\n\nSieh Dich bitte dann nachher\nNicht so gründlich bei mir um.\nAuf dem Tisch steht, glaub' ich,\nNoch der Teller von heut Mittag herum.\nSetz Dich einfach hin, mach's Dir bequem,\nStell das Radio leise an.\nDie Blumen darauf sind verwelkt,\nAlso schau sie nicht an,\nSondern sprich über Dich,\nDenn Du beschäftigst mich.\n\nSeit nun über einem Jahr,\nSolange ist das jetzt her,\nGeh'n wir beide in dieselbe Kneipe,\nDoch wir kennen uns nicht mehr\nAls eine Busschaffner seine Kunden,\nDie er täglich zur Arbeit bringt.\nWir haben uns immer zwar gegrüßt,\nHast mich gefragt, wer da singt.\n\nÜber Witze haben wir gelacht,\nübers Wetter geflucht.\nIrgendwie hab' ich jetzt das Gefühl,\nDas ist Dir nicht mehr genug.\nFreund, so geht es auch mir.\nkomm noch mit auf ein Bier.",
+  "title": "Auf ein Bier",
+  "words": [
+    {
+      "name": "Walther Richter",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    },
+    {
+      "name": "Schobert Schulz",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Walther Richter",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    },
+    {
+      "name": "Schobert Schulz",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "70",
+  "info": "bekannt von Inga & Wolf",
+  "changes": [
+    {
+      "date": 1602667553709,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
