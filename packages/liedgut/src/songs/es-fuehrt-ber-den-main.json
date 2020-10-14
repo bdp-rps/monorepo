@@ -1,0 +1,43 @@
+{
+  "notation": "",
+  "content": "{(a)}  Es {e}führt {a}über den {e}Main eine {F}Brücke von {e}Stein.\nWer da{F}rüber will {G}geh'n, muss im {C}Tanze sich {a}dreh'n.\nFalalala-{C}la, fala-{G}la-{a}la.\n\nKommt ein Fuhrmann daher, hat geladen gar schwer\nSeine Rösser sind drei und sie tanzen vorbei.\n\nUnd ein Bursch ohne Schuh' und in Lumpen dazu.\nAls die Brücke er sah, ei, wie tanzte er da.\n\nKommt ein Mädchen allein auf die Brücke von Stein.\nFasst ihr Röcklein geschwind und sie tanzt wie der Wind.\n\nUnd der König in Person steigt herab von seinem Thron.\nKaum betritt er das Brett, tanzt er gleich Menuet.",
+  "title": "Es führt über den Main",
+  "words": [
+    {
+      "name": "deutsches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "Felicitas Kuckuck",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "",
+      "nickname": "",
+      "group": "Orden der Wandalen",
+      "organisation": "Nerother Wandervogel",
+      "year": "2000"
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "tempo": "110",
+  "info": "Diese Spielweise ist der CD-Version von  \"Auf der Strasse nach Kasan\" entnommen",
+  "changes": [
+    {
+      "date": 1602663359879,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
