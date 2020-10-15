@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "{a}Bruder nun wird es {E}Abend, {a}nimm dir ein Glas zum {E}Wein.\n/: {G}schenke, {C}triodimali, {a}triodimali, {F}triodimali, {a}ein. :/\n\nStopf dir die lange Pfeife, denke nicht viel dabei,\n/: singe, triodimali, triodimali, triodimali, zwei. :/\n\nNichts soll das Lied bedeuten, als etwas glücklich sein,\n/: dreimal, triodimali, triodimali, triodimali, drei. :/\n\nMondlampe scheint durchs Fenster, Schlaf klopft an die Tür,\n/: leise, triodimali, triodimali, triodimali, vier. :/\n\nTraumschwere Worte fallen, Stille durchzieht das Haus, \n/: trinke, triodimali, triodimali, triodimali, aus. :/",
+  "title": "Triodimali",
+  "words": [
+    {
+      "name": "Erich Scholz",
+      "nickname": "olka",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Erich Scholz",
+      "nickname": "olka",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "tempo": "220",
+  "info": "",
+  "changes": [
+    {
+      "date": 1602767604043,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
