@@ -1,0 +1,36 @@
+{
+  "notation": "",
+  "content": "Sturm bricht {e}los aus {D}Wolken{G}türmen. Lasst ihn {e}rasen, {D}lasst ihn {H7}stürmen,\nSoll das {G}Schwache {C}er ver{D7}wehen, lässt er {a}doch das Starke {H7}stehen.\n/: {G}Wie des {e}Donners {D}Hammer {G}bebt, {e}wie der {D}Blitz im {e}Auge lebt. :/\n\nÜber eisigkalte Wogen kommen Schiffe angeflogen.\nAuf den Steven grinsen Fratzen, ihre Ruder sind wie Tatzen.\n/: Buckelschilde an den Borden, Recken stark aus Nordlands Fjorden. :/\n\nSchrei schwillt auf in den Gewittern, Könige und Kaiser zittern,\nfeiste Mönche beten bange, Olaf naht auf Ormen-Lange!\n/: Wird euch bald zum Tanze spielen, wenn aufs Herz die Speere zielen. :/\n\nWas den Bauern ihr gestohlen, kommt sich bald der Wiking holen,\nwird die Streitaxt schrecklich schwingen, lässt vom Hals die Köpfe springen.\n/: Boote, schwer mit Gold beladen, kehr'n zu heimischen Gestaden. :/",
+  "title": "Hammer des Nordens",
+  "words": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Herbert Reyer",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "105",
+  "info": "",
+  "changes": [
+    {
+      "date": 1602768130742,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
