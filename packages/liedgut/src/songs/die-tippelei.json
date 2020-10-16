@@ -33,7 +33,7 @@
     }
   ],
   "beat": "6/8",
-  "tempo": 120,
+  "tempo": "110",
   "info": "",
   "content": "{D}Endlich {G}ist es {A}wieder so{D}weit,\nder Rucksack ge{G}packt, die {A}Klampfe be{D}reit,\ndie {h}Stiefel ge{A}schnürt, die {G}Karte zur {D}Hand,\nbald tippeln wir {G}los, weit {A}durch das {D}Land.  {G}  {A}\n\n{h}Heute {G}wollen wir {A}fah{D}ren,\n{h}über {G}Berge und {A}Höhen,\ndurch {h}tiefe {A}Täler, {G}grüne {D}Auen,\n{D}fahren {A}wir da{D}hin.\n\nMal prasselt der Regen, mal gleiset die Sonn',\nmal flüsternder Wind, mal tosender Sturm,\nmal funkeln die Sterne am Firmanent,\nmal dichtester Nebel, die Sicht uns hemmt.\n\nWeiter wollen wir ...\n\nDes Abends kehrt die Dunkelheit ein,\ndie Horte ruht am Feuerschein,\nsie singen und träumen von ihrer Fahrt,\nmorgen schon - ein neuer Tag.\n\nEndlos wollen wir ...",
   "changes": [
@@ -42,7 +42,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "date": 1585221170355
+    },
+    {
+      "date": 1602886344326,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie + 2. Stimme"
     }
   ],
-  "translation": []
+  "translation": [],
+  "notation": "%%score [(1 2)]\nM:6/8\nK:D\nV:1\n\"D\" D2 D \"G\" B,2 B,  | \"A\" A, B, C \"D\" D2 F  | \"D\" F F F \"G\" G2 G   | \"A\" A A G \"D\" F2 F   | \n\"h\" B B B \"A\" A2 A  | \"G\"  G A G \"D\" F2 A,  | F E F \"G\" G2 E   | \"A\" C D E \"D\" D2 z   | z6 | \"G\" z3 \"A\" z3  | \n\"h\" D2 D \"G\" D C D  | \"A\" E3 \"D\" F3 | \"h\" F2 F \"G\" G F G | \"A\" A4 z A | \n\"h\" B2 B \"A\" A2 A | \"G\" G A G \"D\" F3  | F G F \"A\" E D C  | \"D\" D3 z3 ||\nV:2\n x6 |  x6 | x6  | x6  | \nx6  |x6  | x6  | x6  | x6 |x6 | \n B,2 B, G, G, G, | A,3 D3 |  B,2 B, G, G, G, | A,4 z A, | \n B,2 B, C2 C |  D2 D F3 |  D2 D A,2 A, |  D3 z3 ||"
 }
