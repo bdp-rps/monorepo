@@ -4,8 +4,8 @@
   "title": "Zug der Schwäne",
   "words": [
     {
-      "name": "tusk",
-      "nickname": "Eberhard Köbel",
+      "name": "Eberhard Köbel",
+      "nickname": "tusk",
       "group": "",
       "organisation": "",
       "year": "1934"
@@ -31,6 +31,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1602847962969,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Fahrtenname & Name gedreht"
     }
   ]
 }
