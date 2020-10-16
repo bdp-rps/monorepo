@@ -79,7 +79,7 @@ export default function Song(props) {
             <Midi
               // notation={notation}
               // we remove chords since those are not played correctly
-              notation={removeChords(transposedNotation)}
+              notation={transposedNotation.replace(/\"[a-z0-9]*\"/gi, '')}
               midiParams={{
                 qpm: tempo,
               }}
