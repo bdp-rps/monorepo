@@ -1,65 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
+import Chord from './Chord'
 
 import renderAuthors from '../src/utils/renderAuthors'
-
-const chords = [
-  'c',
-  'cis',
-  'd',
-  'dis',
-  'e',
-  'f',
-  'fis',
-  'g',
-  'gis',
-  'a',
-  'ais',
-  'h',
-]
-
-const bMap = {
-  des: 'cis',
-  es: 'dis',
-  ges: 'fis',
-  as: 'gis',
-  b: 'ais',
-}
-
-const checkDur = chord =>
-  chord.substr(0, 1).toLowerCase() !== chord.substr(0, 1)
-
-const transposeChord = (chord, transpose) => {
-  if (transpose === 0) {
-    return chord
-  }
-
-  const isDur = checkDur(chord)
-
-  if (chords.indexOf(chord.toLowerCase()) === -1) {
-    chord = bMap[chord.toLowerCase()]
-  }
-
-  const index = chords.indexOf(chord.toLowerCase())
-
-  let newIndex
-
-  if (transpose > 0 && index + transpose > chords.length - 1) {
-    newIndex = transpose - (chords.length - index)
-  } else if (transpose < 0 && index + transpose < 0) {
-    newIndex = chords.length + (index + transpose)
-  } else {
-    newIndex = index + transpose
-  }
-
-  const newChord = chords[newIndex]
-
-  if (isDur) {
-    return newChord.substr(0, 1).toUpperCase() + newChord.substr(1)
-  }
-
-  return newChord
-}
+import transposeChord from '../src/utils/transpose'
+import * as transposeMelody from '../src/utils/transposeMelody'
+import removeChords from '../src/utils/removeChords'
+import chords from '../src/utils/chords'
 
 export default function Song(props) {
   const {
@@ -73,11 +20,30 @@ export default function Song(props) {
     info,
     notation,
   } = props
-  const [transpose, setTranspose] = useState('0')
+  const [transpose, setTranspose] = useState(0)
   const [didMount, setDidMount] = useState(false)
 
   const json = JSON.stringify(props)
+  const step = parseInt(transpose)
+
   useEffect(() => setDidMount(true), [])
+
+  const usedChords = content
+    .match(/\{[A-Z0-9\(\)\/]*\}/gi)
+    .filter((chord, index, chords) => chords.indexOf(chord) === index)
+    .map(chord => chord.replace(/[{}\(\)]/gi, ''))
+    .reduce((usedChords, chord) => {
+      const split = chord.split('/')
+      split.forEach(c => {
+        if (usedChords.indexOf(c) === -1) {
+          usedChords.push(c)
+        }
+      })
+
+      return usedChords
+    }, [])
+
+  const isB = usedChords.find(chord => chord.match(/(es|as|b)/gi) !== null)
 
   let melody
   if (didMount && notation) {
@@ -87,8 +53,16 @@ export default function Song(props) {
     const midi = require('abcjs/src/midi/abc_midi_controls')
     midi.setSoundFont('https://gleitz.github.io/midi-js-soundfonts/FatBoy/')
 
+    const transposedNotation =
+      step > 0
+        ? transposeMelody.up(notation, step, isB)
+        : step < 0
+        ? transposeMelody.down(notation, -step, isB)
+        : notation
+
     const notationText =
-      'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n' + notation
+      'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n' + transposedNotation
+
     try {
       melody = (
         <Box>
@@ -104,7 +78,8 @@ export default function Song(props) {
           <Box maxWidth={300}>
             <Midi
               // notation={notation}
-              notation={notation.replace(/\"[a-z0-9]*\"/gi, '')}
+              // we remove chords since those are not played correctly
+              notation={removeChords(transposedNotation)}
               midiParams={{
                 qpm: tempo,
               }}
@@ -153,9 +128,9 @@ export default function Song(props) {
       <Spacer size={4} />
       <Box>
         {blocks.map(lines => (
-          <Box key={lines} wrap="wrap">
+          <Box key={JSON.stringify(lines)} wrap="wrap">
             {lines.map(line => (
-              <Box key={line} direction="row" wrap="wrap">
+              <Box key={JSON.stringify(line)} direction="row" wrap="wrap">
                 {typeof line === 'string' ? (
                   <Text>{line ? line : ' '}</Text>
                 ) : (
@@ -169,11 +144,10 @@ export default function Song(props) {
                           extend={{
                             transform: 'translate(0, 1px)',
                             lineHeight: 0.8,
+                            paddingRight: 5,
                             color: theme.tokens.primary,
                           }}>
-                          {p.chord
-                            ? transposeChord(p.chord, parseInt(transpose))
-                            : ' '}
+                          {p.chord ? transposeChord(p.chord, step, isB) : ' '}
                         </Text>
 
                         <Text>{p.word.replace(/ $/, ' ')}</Text>
@@ -223,17 +197,34 @@ export default function Song(props) {
           <Text intent="note">Tempo: {tempo}</Text>
           <Text intent="note">Takt: {beat}</Text>
         </Box>
-        {/* <Box alignItems="flex-start">
+        <Box alignItems="flex-start">
           <TextInput
             type="number"
             onChange={setTranspose}
-            max={14}
-            min={-14}
+            max={11}
+            min={-11}
             value={transpose}
             label="Transponieren"
           />
-        </Box> */}
+        </Box>
         <Box>{melody}</Box>
+        <Box direction="row">
+          {usedChords.map(chord => {
+            const transposed = transposeChord(chord, step, isB)
+
+            if (transposed && chords[transposed]) {
+              return (
+                <Chord
+                  name={transposed}
+                  key={transposed}
+                  chord={chords[transposed]}
+                />
+              )
+            }
+
+            return null
+          })}
+        </Box>
       </Box>
     </Box>
   )

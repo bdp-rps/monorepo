@@ -44,6 +44,7 @@
   "dependencies": {
     "@bdp-rps/react-pdf-renderer": "^0.0.24",
     "@bdp-rps/ui": "^0.0.24",
+    "abc-transpose": "^1.0.3",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "next": "^9.3.1",
     "node-fetch": "^2.6.0",

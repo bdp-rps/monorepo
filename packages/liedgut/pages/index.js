@@ -8,20 +8,18 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 import songList from '../src/songs'
+import removeChords from '../src/utils/removeChords'
+import removeBreaks from '../src/utils/removeBreaks'
 
 const songData = songList.reduce((songData, name) => {
   const song = require('../src/songs/' + name + '.json')
 
+  const content = removeChords(removeBreaks(song.content))
+
   songData[name] = {
     ...song,
-    content: song.content
-      .replace(/\{[A-Z0-9]*\}/gi, '')
-      .replace(/(?:\r\n|\r|\n)/gi, ' '),
-    normalizedContent: song.content
-      .replace(/\{[A-Z0-9]*\}/gi, '')
-      .replace(/(?:\r\n|\r|\n)/gi, ' ')
-      .toLowerCase(),
-
+    content,
+    normalizedContent: content.toLowerCase(),
     normalizedTitle: song.title.toLowerCase(),
   }
 
