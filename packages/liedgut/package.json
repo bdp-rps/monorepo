@@ -44,8 +44,6 @@
   "dependencies": {
     "@bdp-rps/react-pdf-renderer": "^0.0.24",
     "@bdp-rps/ui": "^0.0.24",
-    "abc-transpose": "^1.0.3",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "next": "^9.3.1",
     "node-fetch": "^2.6.0",
     "onegraph-auth": "^2.2.1",
@@ -63,6 +61,7 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "cross-env": "^6.0.3"
   },
   "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
