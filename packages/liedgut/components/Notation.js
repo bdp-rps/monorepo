@@ -177,7 +177,7 @@ export default function Notation({
         })
         .then(function(response) {
           if (synthControl) {
-            synthControl.setTune(visualObj, true, {
+            synthControl.setTune(visualObj, false, {
               qpm: tempo,
               chordsOff: true,
             })
