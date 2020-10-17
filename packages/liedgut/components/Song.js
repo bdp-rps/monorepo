@@ -46,16 +46,20 @@ export default function Song({
   const isB = usedChords.find(chord => chord.match(/(es|as|b)/gi) !== null)
 
   // TODO add takt & key to transposed
-  const key = notation.match(/K:\s*(\w)\s*(\w*)/) !== null ? '' : 'K:C\n'
-  const transposedNotation =
-    step > 0
-      ? transposeMelody.up(key + notation, step, isB)
-      : step < 0
-      ? transposeMelody.down(key + notation, -step, isB)
-      : key + notation
+  let notationText, prefix, key
 
-  const prefix = 'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n'
-  const notationText = prefix + transposedNotation
+  if (notation) {
+    key = notation.match(/K:\s*(\w)\s*(\w*)/) !== null ? '' : 'K:C\n'
+    const transposedNotation =
+      step > 0
+        ? transposeMelody.up(key + notation, step, isB)
+        : step < 0
+        ? transposeMelody.down(key + notation, -step, isB)
+        : key + notation
+
+    prefix = 'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n'
+    notationText = prefix + transposedNotation
+  }
 
   const theme = useTheme()
 
@@ -190,14 +194,8 @@ export default function Song({
             return null
           })}
         </Box>
-        <Box>
-          <Box
-            extend={{
-              '> div': {
-                overflow: 'auto !important',
-                width: '100%',
-              },
-            }}>
+        {notationText && (
+          <Box>
             <Notation
               notation={notationText}
               tempo={tempo}
@@ -205,7 +203,7 @@ export default function Song({
               selectionOffset={prefix.length + key.length}
             />
           </Box>
-        </Box>
+        )}
       </Box>
     </Box>
   )
