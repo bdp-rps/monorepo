@@ -173,7 +173,7 @@ export default function Song({
           />
         </Box>
 
-        <Box direction="row">
+        <Box direction="row" wrap="wrap">
           {usedChords.map(chord => {
             const transposed = transposeChord(chord, step, isB)
 

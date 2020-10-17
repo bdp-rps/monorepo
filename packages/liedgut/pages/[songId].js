@@ -54,8 +54,11 @@ export default function Page() {
             alignItems="flex-start"
             direction={['column', 'row']}>
             {!isMounted ? null : (
-              <PDFDownloadLink
-                style={{ textDecoration: 'none' }}
+              <Box
+                as={PDFDownloadLink}
+                grow={1}
+                alignSelf="stretch"
+                extend={{ textDecoration: 'none' }}
                 document={
                   <Document>
                     <PDFSong {...songData} />
@@ -65,7 +68,7 @@ export default function Page() {
                 {({ blob, url, loading, error }) => (
                   <Button loading={loading}>Als PDF herunterladen</Button>
                 )}
-              </PDFDownloadLink>
+              </Box>
             )}
             <NextLink href={'/bearbeiten/' + songId}>
               <Button variant="secondary">Änderungsvorschlag</Button>

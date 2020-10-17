@@ -148,8 +148,7 @@ export default function Notation({
         hint_measures: false,
         print: false,
         stop_on_warning: false,
-        chords_off: true,
-        add_classes: false,
+        add_classes: true,
         editable: false,
         listener: null,
         responsive: 'resize',
@@ -189,7 +188,11 @@ export default function Notation({
 
   return (
     <Box>
-      <Box ref={paperRef} id="paper" />
+      <Box extend={{ overflow: 'auto' }}>
+        <Box minWidth={700} width="100%">
+          <Box ref={paperRef} id="paper" />
+        </Box>
+      </Box>
       <Box direction="row">
         <Box grow={1} paddingRight={[0, , '20%']} ref={audioRef} />
       </Box>
