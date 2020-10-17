@@ -44,6 +44,7 @@
   "dependencies": {
     "@bdp-rps/react-pdf-renderer": "^0.0.24",
     "@bdp-rps/ui": "^0.0.24",
+    "abcjs": "^6.0.0-beta.19",
     "next": "^9.3.1",
     "node-fetch": "^2.6.0",
     "onegraph-auth": "^2.2.1",

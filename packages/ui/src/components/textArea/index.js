@@ -1,5 +1,5 @@
+import React, { forwardRef } from 'react'
 import PropTypes from 'prop-types'
-import React from 'react'
 import { useFela } from 'react-fela'
 
 import Box from '../box'
@@ -37,58 +37,67 @@ const style = ({ isValid, disabled, theme }) => ({
   ],
 })
 
-export default function TextArea({
-  name,
-  value,
-  isValid = true,
-  disabled,
-  required,
-  onChange,
-  onBlur,
-  onFocus,
-  placeholder,
-  type = 'text',
-  label,
-  errorMessage,
-  errorMessageVisible,
-  description,
-  extend,
-}) {
-  const styleProps = {
-    isValid,
-    disabled,
+const TextArea = forwardRef(
+  (
+    {
+      name,
+      value,
+      isValid = true,
+      disabled,
+      required,
+      onChange,
+      onBlur,
+      onFocus,
+      placeholder,
+      type = 'text',
+      label,
+      errorMessage,
+      errorMessageVisible,
+      description,
+      extend,
+    },
+    ref
+  ) => {
+    const styleProps = {
+      isValid,
+      disabled,
+    }
+
+    const { css, theme } = useFela(styleProps)
+
+    return (
+      <Box extend={extend}>
+        <label
+          htmlFor={name}
+          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
+          <Text intent="label">{label}</Text>
+        </label>
+        <textarea
+          ref={ref}
+          id={name}
+          name={name}
+          value={value}
+          disabled={disabled}
+          required={required}
+          placeholder={placeholder}
+          onChange={e => onChange(e.target.value, e)}
+          onBlur={onBlur}
+          onFocus={onFocus}
+          className={css(style)}
+        />
+        {errorMessage && errorMessageVisible ? (
+          <Text intent="note" extend={{ color: theme.tokens.destructive }}>
+            {errorMessage}
+          </Text>
+        ) : null}
+        {description ? <Text intent="note">{description}</Text> : null}
+      </Box>
+    )
   }
+)
 
-  const { css, theme } = useFela(styleProps)
-
-  return (
-    <Box extend={extend}>
-      <label
-        htmlFor={name}
-        className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
-        <Text intent="label">{label}</Text>
-      </label>
-      <textarea
-        id={name}
-        name={name}
-        value={value}
-        disabled={disabled}
-        required={required}
-        placeholder={placeholder}
-        onChange={e => onChange(e.target.value, e)}
-        onBlur={onBlur}
-        onFocus={onFocus}
-        className={css(style)}
-      />
-      {errorMessage && errorMessageVisible ? (
-        <Text intent="note" extend={{ color: theme.tokens.destructive }}>
-          {errorMessage}
-        </Text>
-      ) : null}
-      {description ? <Text intent="note">{description}</Text> : null}
-    </Box>
-  )
-}
+TextArea.displayName = 'TextArea'
+export default TextArea
 
 TextArea.defaultProps = {
   isValid: true,

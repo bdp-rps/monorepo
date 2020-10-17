@@ -35,7 +35,7 @@ const transposeTone = function(abc, transpose, method, forceB) {
   }
 
   let abcout
-  const group = /[a-zA-Z]:\s*\w/
+  const group = /[a-zA-Z]:\s*(\w|=|\/)+/
   const staff = /%/
   const key = /K:\s*(\w)\s*(\w*)/
   let map

@@ -1,4 +1,10 @@
-import React, { useState, createContext, useEffect, useContext } from 'react'
+import React, {
+  useRef,
+  useState,
+  createContext,
+  useEffect,
+  useContext,
+} from 'react'
 import {
   Box,
   Button,
@@ -103,6 +109,7 @@ const defaultSubmitter = {
 }
 
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
+  const textAreaRef = useRef()
   const [song, setSong] = useState(initialSong)
   const [author, setAuthor] = useState(defaultAuthor)
   const [submitter, setSubmitter] = useState(defaultSubmitter)
@@ -337,6 +344,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             display={tab === 'melody' ? 'flex' : 'none'}>
             <TextArea
               extend={{ minHeight: 400, flexGrow: 1 }}
+              ref={textAreaRef}
               label="Melody"
               name="melody"
               description={
@@ -366,8 +374,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         paddingBottom={8}
         space={8}
         extend={{ overflow: 'auto' }}>
-        <Song {...song} key={JSON.stringify(song)} />
-
+        <Song {...song} textAreaRef={textAreaRef} />
         <Box alignSelf="flex-start" space={2} direction="row">
           <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
           <Modal

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
+
 import Chord from './Chord'
+import Notation from './Notation'
 
 import renderAuthors from '../src/utils/renderAuthors'
 import transposeChord from '../src/utils/transpose'
@@ -8,28 +10,26 @@ import * as transposeMelody from '../src/utils/transposeMelody'
 import removeChords from '../src/utils/removeChords'
 import chords from '../src/utils/chords'
 
-export default function Song(props) {
-  const {
-    content,
-    title,
-    tune,
-    words,
-    tempo,
-    beat,
-    translation,
-    info,
-    notation,
-  } = props
+export default function Song({
+  content,
+  title,
+  tune,
+  words,
+  tempo,
+  beat,
+  translation,
+  info,
+  notation,
+  textAreaRef,
+}) {
   const [transpose, setTranspose] = useState(0)
   const [didMount, setDidMount] = useState(false)
 
-  const json = JSON.stringify(props)
   const step = parseInt(transpose)
 
   useEffect(() => setDidMount(true), [])
 
-  const usedChords = content
-    .match(/\{[A-Z0-9\(\)\/]*\}/gi)
+  const usedChords = (content.match(/\{[A-Z0-9\(\)\/]*\}/gi) || [])
     .filter((chord, index, chords) => chords.indexOf(chord) === index)
     .map(chord => chord.replace(/[{}\(\)]/gi, ''))
     .reduce((usedChords, chord) => {
@@ -45,52 +45,17 @@ export default function Song(props) {
 
   const isB = usedChords.find(chord => chord.match(/(es|as|b)/gi) !== null)
 
-  let melody
-  if (didMount && notation) {
-    const { Notation, Midi } = require('react-abc')
+  // TODO add takt & key to transposed
+  const key = notation.match(/K:\s*(\w)\s*(\w*)/) !== null ? '' : 'K:C\n'
+  const transposedNotation =
+    step > 0
+      ? transposeMelody.up(key + notation, step, isB)
+      : step < 0
+      ? transposeMelody.down(key + notation, -step, isB)
+      : key + notation
 
-    // set soundfont (see https://github.com/gleitz/midi-js-soundfonts)
-    const midi = require('abcjs/src/midi/abc_midi_controls')
-    midi.setSoundFont('https://gleitz.github.io/midi-js-soundfonts/FatBoy/')
-
-    const transposedNotation =
-      step > 0
-        ? transposeMelody.up(notation, step, isB)
-        : step < 0
-        ? transposeMelody.down(notation, -step, isB)
-        : notation
-
-    const notationText =
-      'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n' + transposedNotation
-
-    try {
-      melody = (
-        <Box>
-          <Box
-            extend={{
-              '> div': {
-                overflow: 'auto !important',
-                width: '100%',
-              },
-            }}>
-            <Notation notation={notationText} />
-          </Box>
-          <Box maxWidth={300}>
-            <Midi
-              // notation={notation}
-              // we remove chords since those are not played correctly
-              notation={transposedNotation.replace(/\"[a-z0-9]*\"/gi, '')}
-              midiParams={{
-                qpm: tempo,
-              }}
-            />
-          </Box>
-        </Box>
-      )
-    } catch (e) {
-      console.error(e)
-    }
-  }
+  const prefix = 'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n'
+  const notationText = prefix + transposedNotation
 
   const theme = useTheme()
 
@@ -207,7 +172,7 @@ export default function Song(props) {
             label="Transponieren"
           />
         </Box>
-        <Box>{melody}</Box>
+
         <Box direction="row">
           {usedChords.map(chord => {
             const transposed = transposeChord(chord, step, isB)
@@ -224,6 +189,22 @@ export default function Song(props) {
 
             return null
           })}
+        </Box>
+        <Box>
+          <Box
+            extend={{
+              '> div': {
+                overflow: 'auto !important',
+                width: '100%',
+              },
+            }}>
+            <Notation
+              notation={notationText}
+              tempo={tempo}
+              textAreaRef={textAreaRef}
+              selectionOffset={prefix.length + key.length}
+            />
+          </Box>
         </Box>
       </Box>
     </Box>

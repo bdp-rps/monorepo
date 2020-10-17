@@ -32,6 +32,7 @@ export default class MyDocument extends Document {
             content="width=device-width,height=device-height,initial-scale=1, viewport-fit=cover"
           />
           <StyleTags renderer={renderer} />
+          <link rel="stylesheet" href="/abc_controls.css" />
         </Head>
         <body>
           <Main />

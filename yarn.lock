@@ -3035,15 +3035,17 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-abc-transpose@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/abc-transpose/-/abc-transpose-1.0.3.tgz#a0a6b0ee5893a50fd13fb58f319da971d93664cb"
-  integrity sha512-ttLq0v8+HFyzuTpd9vlzfeVrTBx9AhYnZqYwcoArwjVTwLdib6dpSVN21X25kJs3HGZeK2u12HS10I3CP/b+jw==
-
 abcjs@5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/abcjs/-/abcjs-5.1.2.tgz#113c9e66a8911a0bf7c47c0517a4832b25c6f2e0"
   integrity sha512-mOrZlWV3xh6VPSTPNmNLwj7seC0xmuUP54SJiIRswdLCaen6f4LIXhjNX1mKiD5K56CWznVDV5kM3GtCkHGMdA==
+  dependencies:
+    midi "https://github.com/paulrosen/MIDI.js.git#abcjs"
+
+abcjs@^6.0.0-beta.19:
+  version "6.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/abcjs/-/abcjs-6.0.0-beta.19.tgz#a145d1495ccaa61c0ba85a0baa7d6527222b69a2"
+  integrity sha512-PDknvR5yW3K5JKfs7qVBg+m+LL97n8L+QndogKDlkL0rjJB0OsIguKDuhftEMin5TaVlUoM//4z6X+y0A42e0g==
   dependencies:
     midi "https://github.com/paulrosen/MIDI.js.git#abcjs"
 
@@ -10809,6 +10811,11 @@ micromatch@^4.0.2:
   dependencies:
     braces "^3.0.1"
     picomatch "^2.0.5"
+
+"midi@git+https://github.com/paulrosen/MIDI.js.git#abcjs":
+  version "0.4.2"
+  uid e593ffef81a0350f99448e3ab8111957145ff6b2
+  resolved "git+https://github.com/paulrosen/MIDI.js.git#e593ffef81a0350f99448e3ab8111957145ff6b2"
 
 "midi@https://github.com/paulrosen/MIDI.js.git#abcjs":
   version "0.4.2"
