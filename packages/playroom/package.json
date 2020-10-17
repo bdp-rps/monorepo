@@ -1,6 +1,6 @@
 {
   "name": "playroom.bdp-rps.app",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "private": true,
   "scripts": {
     "clean": "rimraf public",
@@ -16,7 +16,7 @@
   "author": "BdP LV RPS <medien@bdp-rps.de>",
   "license": "MIT",
   "dependencies": {
-    "@bdp-rps/ui": "^0.0.24",
+    "@bdp-rps/ui": "^0.0.25",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
