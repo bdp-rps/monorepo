@@ -102,7 +102,7 @@ export default () => (
       size={50}
       body="#container"
       align="top">
-      Fox
+      Fux
     </Fixed>
     <Fixed
       style={{ backgroundColor: 'red' }}
