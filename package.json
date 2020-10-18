@@ -4,16 +4,15 @@
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap --reject-cycles",
     "cleanup": "lerna run clean && lerna clean --yes",
     "build": "lerna run build",
+    "prepare": "lerna run prepare",
     "format": "prettier --write \"**/*.js\"",
     "coverage": "lerna run coverage",
     "release": "yarn build && lerna publish --force-publish",
-    "setup": "yarn bootstrap && yarn build",
     "test": "lerna run test",
     "check": "yarn run test",
-    "postinstall": "yarn build"
+    "postinstall": "yarn prepare"
   },
   "workspaces": [
     "packages/*"

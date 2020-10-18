@@ -10,7 +10,8 @@
     "build": "yarn run clean && playroom build",
     "deploy": "vercel --prod",
     "test": "cross-env BABEL_ENV=commonjs echo 1",
-    "coverage": "yarn test --coverage"
+    "coverage": "yarn test --coverage",
+    "prepare": "echo 1"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",

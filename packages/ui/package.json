@@ -26,6 +26,7 @@
     "dev": "vercel dev",
     "vercel-build": "yarn build:styleguide",
     "deploy": "vercel --prod",
+    "prepare": "yarn build:package",
     "build": "yarn clean && yarn build:package",
     "build:styleguide": "styleguidist build",
     "build:package": "yarn build:es && yarn build:lib",

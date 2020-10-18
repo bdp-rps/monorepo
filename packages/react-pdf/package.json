@@ -15,7 +15,8 @@
   "scripts": {
     "build": "rimraf ./dist && rollup -c",
     "watch": "rimraf ./dist && rollup -c -w",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "yarn build"
   },
   "dependencies": {
     "@babel/runtime": "7.6.2",
