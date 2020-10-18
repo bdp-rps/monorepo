@@ -6,7 +6,7 @@ const config = {
   experimental: {
     granularChunks: true,
   },
-  serverless: true,
+  target: 'serverless',
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   webpack(config) {
     for (const rule of config.module.rules) {

@@ -21,11 +21,6 @@ Thumbs.db
 *.sw?
 *.vi
 
-*.elo.*
-*.bs.js
-*Style.re
-.bsb.lock
-
 packages/playroom/public
 packages/ui/public/build
 packages/ui/public/index.html
@@ -41,3 +36,4 @@ coverage
 dist
 .next
 .vercel
+out
