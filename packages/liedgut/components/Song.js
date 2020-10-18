@@ -25,7 +25,7 @@ export default function Song({
   const [transpose, setTranspose] = useState(0)
   const [didMount, setDidMount] = useState(false)
 
-  const step = parseInt(transpose)
+  const step = parseInt(transpose) || 0
 
   useEffect(() => setDidMount(true), [])
 
@@ -67,7 +67,7 @@ export default function Song({
     const lines = block.split(/(?:\r\n|\r|\n)/g)
 
     return lines.map(line => {
-      if (line.match(/{[A-Z0-9]+}/gi) === null) {
+      if (line.match(/{[A-Z0-9\(\)\/]+}/gi) === null) {
         return line
       }
 
