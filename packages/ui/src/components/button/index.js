@@ -184,7 +184,7 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   /** Enables a loading state. Hover, active and click events aren't triggered anymore. */
   loading: PropTypes.bool,
-  /** Makes the button a <input type="submit"> for forms. */
+  /** Renders an input of type="submit" for forms. */
   submit: PropTypes.bool,
   /** Makes the button act as a link tag. */
   href: PropTypes.string,
