@@ -1,1 +1,1 @@
-export default () => <div>Hier der Map stuff</div>
+export default () => <div>Hier der Map kram</div>
