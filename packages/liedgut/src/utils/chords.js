@@ -7,9 +7,9 @@ export const equivalent = {
 }
 
 const cis = {
-  b: [{ fret: 1, finger: 2 }],
-  G: [{ fret: 2, finger: 3 }],
-  D: [{ fret: 1, finger: 1 }],
+  b: { fret: 1, finger: 2 },
+  G: { fret: 2, finger: 3 },
+  D: { fret: 1, finger: 1 },
 }
 const cis7 = {}
 const Cis = {}
@@ -23,21 +23,15 @@ const Dis7 = {}
 const fis = {}
 const fis7 = {}
 const Fis = {
-  e: [{ fret: 2, finger: 1 }],
-  b: [{ fret: 2, finger: 1 }],
-  G: [
-    { fret: 2, finger: 1 },
-    { fret: 3, finger: 2 },
-  ],
-  D: [
-    { fret: 2, finger: 1 },
-    { fret: 4, finger: 4 },
-  ],
-  A: [
-    { fret: 2, finger: 1 },
-    { fret: 4, finger: 3 },
-  ],
-  E: [{ fret: 2, finger: 1 }],
+  barre: {
+    fret: 2,
+    finger: 1,
+    from: 'e',
+    to: 'E',
+  },
+  G: { fret: 3, finger: 2 },
+  D: { fret: 4, finger: 4 },
+  A: { fret: 4, finger: 3 },
 }
 const Fis7 = {}
 
@@ -48,22 +42,32 @@ const Gis7 = {}
 
 const ais = {}
 const ais7 = {}
-const Ais = {}
+const Ais = {
+  barre: {
+    fret: 1,
+    finger: 1,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 3, finger: 4 },
+  G: { fret: 3, finger: 3 },
+  D: { fret: 3, finger: 2 },
+}
 const Ais7 = {}
 
 export default {
   // C
   C: {
-    b: [{ fret: 1, finger: 1 }],
-    D: [{ fret: 2, finger: 2 }],
-    A: [{ fret: 3, finger: 3 }],
+    b: { fret: 1, finger: 1 },
+    D: { fret: 2, finger: 2 },
+    A: { fret: 3, finger: 3 },
   },
 
   C7: {
-    b: [{ fret: 1, finger: 1 }],
-    G: [{ fret: 3, finger: 4 }],
-    D: [{ fret: 2, finger: 2 }],
-    A: [{ fret: 3, finger: 3 }],
+    b: { fret: 1, finger: 1 },
+    G: { fret: 3, finger: 4 },
+    D: { fret: 2, finger: 2 },
+    A: { fret: 3, finger: 3 },
   },
   Cis,
   Cis7,
@@ -74,16 +78,20 @@ export default {
 
   // D
   D: {
-    e: [{ fret: 2, finger: 2 }],
-    b: [{ fret: 3, finger: 3 }],
-    G: [{ fret: 2, finger: 1 }],
+    e: { fret: 2, finger: 2 },
+    b: { fret: 3, finger: 3 },
+    G: { fret: 2, finger: 1 },
   },
   D7: {},
   Dis,
   Dis7,
   Des: Cis,
   Des7: Cis7,
-  d: {},
+  d: {
+    e: { fret: 1, finger: 1 },
+    b: { fret: 3, finger: 3 },
+    G: { fret: 2, finger: 2 },
+  },
   d7: {},
   dis,
   dis7,
@@ -92,16 +100,16 @@ export default {
 
   // E
   E: {
-    G: [{ fret: 1, finger: 1 }],
-    D: [{ fret: 2, finger: 3 }],
-    A: [{ fret: 2, finger: 2 }],
+    G: { fret: 1, finger: 1 },
+    D: { fret: 2, finger: 3 },
+    A: { fret: 2, finger: 2 },
   },
   E7: {},
   Es: Dis,
   Es7: Dis7,
   e: {
-    D: [{ fret: 2, finger: 2 }],
-    A: [{ fret: 2, finger: 1 }],
+    D: { fret: 2, finger: 2 },
+    A: { fret: 2, finger: 1 },
   },
   e7: {},
   es: dis,
@@ -109,21 +117,16 @@ export default {
 
   // F
   F: {
-    e: [{ fret: 1, finger: 1 }],
-    b: [{ fret: 1, finger: 1 }],
-    G: [
-      { fret: 1, finger: 1 },
-      { fret: 2, finger: 2 },
-    ],
-    D: [
-      { fret: 1, finger: 1 },
-      { fret: 3, finger: 4 },
-    ],
-    A: [
-      { fret: 1, finger: 1 },
-      { fret: 3, finger: 3 },
-    ],
-    E: [{ fret: 1, finger: 1 }],
+    barre: {
+      fret: 1,
+      finger: 1,
+      from: 'e',
+      to: 'E',
+    },
+
+    G: { fret: 2, finger: 2 },
+    D: { fret: 3, finger: 4 },
+    A: { fret: 3, finger: 3 },
   },
   F7: {},
   Fis,
@@ -135,9 +138,9 @@ export default {
 
   // G
   G: {
-    e: [{ fret: 3, finger: 4 }],
-    A: [{ fret: 2, finger: 1 }],
-    E: [{ fret: 3, finger: 2 }],
+    e: { fret: 3, finger: 4 },
+    A: { fret: 2, finger: 1 },
+    E: { fret: 3, finger: 2 },
   },
   G7: {},
   Gis,
@@ -153,9 +156,9 @@ export default {
 
   // A
   A: {
-    b: [{ fret: 2, finger: 3 }],
-    G: [{ fret: 2, finger: 2 }],
-    D: [{ fret: 2, finger: 1 }],
+    b: { fret: 2, finger: 3 },
+    G: { fret: 2, finger: 2 },
+    D: { fret: 2, finger: 1 },
   },
   A7: {},
   Ais,
@@ -163,9 +166,9 @@ export default {
   As: Gis,
   As7: Gis7,
   a: {
-    b: [{ fret: 1, finger: 1 }],
-    G: [{ fret: 2, finger: 3 }],
-    D: [{ fret: 2, finger: 2 }],
+    b: { fret: 1, finger: 1 },
+    G: { fret: 2, finger: 3 },
+    D: { fret: 2, finger: 2 },
   },
   a7: {},
   ais,

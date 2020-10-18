@@ -102,7 +102,7 @@ export default () => (
       size={50}
       body="#container"
       align="top">
-      Fux
+      Fuex
     </Fixed>
     <Fixed
       style={{ backgroundColor: 'red' }}

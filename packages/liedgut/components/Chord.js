@@ -45,11 +45,7 @@ export default function Chord({ name, chord, config }) {
     const height = options.stringStep * stringCount
 
     const maxFret = Object.keys(chord).reduce(
-      (max, str) =>
-        Math.max(
-          chord[str].reduce((m, f) => Math.max(m, f.fret), 0),
-          max
-        ),
+      (max, str) => Math.max(chord[str].fret, max),
       4
     )
 
@@ -80,6 +76,7 @@ export default function Chord({ name, chord, config }) {
 
     // thick top border
     ctx.beginPath()
+    ctx.fillStyle = 'rgb(40, 40, 40)'
     ctx.rect(options.leftPad - 6, options.topPad - 1, 5, height + 2)
     ctx.fill()
 
@@ -114,35 +111,97 @@ export default function Chord({ name, chord, config }) {
     // fingers
     const offset = options.leftPad + options.fretStep / 2
 
-    Object.keys(chord).forEach(list => {
-      chord[list].forEach(({ fret, finger = null, optional }) => {
+    function drawBaree(fret, start, end, finger) {
+      ctx.beginPath()
+      ctx.fillStyle = 'black'
+      ctx.arc(
+        offset + options.fretStep * fret,
+        options.topPad + options.stringStep * start,
+        options.circleSize,
+        0,
+        2 * Math.PI,
+        false
+      )
+      ctx.fill()
+      ctx.beginPath()
+      ctx.rect(
+        offset + options.fretStep * fret - options.circleSize,
+        options.topPad + options.stringStep * start,
+        options.circleSize * 2,
+        options.stringStep * (end - start)
+      )
+      ctx.arc(
+        offset + options.fretStep * fret,
+        options.topPad +
+          options.stringStep * start +
+          options.stringStep * (end - start),
+        options.circleSize,
+        0,
+        2 * Math.PI,
+        false
+      )
+      ctx.fill()
+
+      if (finger) {
+        ctx.beginPath()
+        ctx.font = '11px Arial'
+        ctx.fillStyle = 'rgb(220, 220, 220)'
+        ctx.fillText(
+          finger,
+          offset + options.fretStep * fret - 3,
+          options.topPad +
+            (options.stringStep * start) / 2 +
+            options.stringStep * (end / 2) +
+            options.circleSize / 2
+        )
+      }
+    }
+
+    function drawChord(fret, pos, finger, optional = false) {
+      ctx.beginPath()
+      ctx.fillStyle = optional ? 'rgb(120, 120, 120)' : 'black'
+      ctx.arc(
+        offset + options.fretStep * fret,
+        options.topPad + options.stringStep * pos,
+        options.circleSize,
+        0,
+        2 * Math.PI,
+        false
+      )
+      ctx.fill()
+
+      if (finger) {
+        ctx.beginPath()
+        ctx.font = '11px Arial'
+        ctx.fillStyle = 'rgb(220, 220, 220)'
+        ctx.fillText(
+          finger,
+          offset + options.fretStep * fret - 3,
+          options.topPad + options.stringStep * pos + 3.5
+        )
+      }
+    }
+
+    if (chord.barre) {
+      const { fret, finger, from, to } = chord.barre
+      drawBaree(
+        fret - 1,
+        options.strings[from] - 1,
+        options.strings[to] - 1,
+        finger
+      )
+    }
+
+    Object.keys(chord)
+      .filter(k => k !== 'barre')
+      .forEach(list => {
+        const { fret, finger = null, optional } = chord[list]
+
         let stringIndex = options.strings[list] - 1
         let fretIndex = fret - 1
 
-        ctx.beginPath()
-        ctx.fillStyle = optional ? 'rgb(120, 120, 120)' : 'black'
-        ctx.arc(
-          offset + options.fretStep * fretIndex,
-          options.topPad + options.stringStep * stringIndex,
-          options.circleSize,
-          0,
-          2 * Math.PI,
-          false
-        )
-        ctx.fill()
-
-        if (finger) {
-          ctx.beginPath()
-          ctx.font = '11px Arial'
-          ctx.fillStyle = 'rgb(220, 220, 220)'
-          ctx.fillText(
-            finger,
-            offset + options.fretStep * fretIndex - 3,
-            options.topPad + options.stringStep * stringIndex + 3.5
-          )
-        }
+        drawChord(fretIndex, stringIndex, finger, optional)
       })
-    })
   }, [chord, name, config])
 
   return (
