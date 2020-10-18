@@ -2,7 +2,7 @@ module.exports = {
   experimental: {
     granularChunks: true,
   },
-  serverless: true,
+  target: 'serverless',
   pageExtensions: ['js', 'jsx'],
   webpack(config) {
     for (const rule of config.module.rules) {
