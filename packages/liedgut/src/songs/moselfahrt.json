@@ -42,7 +42,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "date": 1585221170356
+    },
+    {
+      "date": 1603108798403,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
   ],
-  "translation": []
+  "translation": [],
+  "notation": "L:1/4\nM:4/4\nK: E\n\"E\" E, B, B, B, | \"H7\" B, B, \"A\" C2 | -C3/ C/ C3/ C/ | C C \"E\" B, E | \"H7\" F2 z2 |\n|: \"cis\" E/ E E/ E/ D D/ |1 \"A\" C3 z/ C/ :|2 \"A\" C3 C | \"E\" B,2 \"H7\" B, A, | \"E\" G,2 z2 |]"
 }
