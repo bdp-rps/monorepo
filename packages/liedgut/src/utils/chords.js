@@ -227,7 +227,8 @@ export default {
     b: { fret: 4, finger: 4 },
     G: { fret: 4, finger: 3 },
     D: { fret: 4, finger: 2 },
-  },,
+  },
+
   H7: {
     e: { fret: 2, finger: 4 },
     G: { fret: 2, finger: 3 },
