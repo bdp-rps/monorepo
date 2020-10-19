@@ -50,12 +50,13 @@ export default function Song({
 
   if (notation) {
     key = notation.match(/K:\s*(\w)\s*(\w*)/) !== null ? '' : 'K:C\n'
-    const transposedNotation =
-      step > 0
-        ? transposeMelody.up(key + notation, step, isB)
-        : step < 0
-        ? transposeMelody.down(key + notation, -step, isB)
-        : key + notation
+    // const transposedNotation =
+    //   step > 0
+    //     ? transposeMelody.up(key + notation, step, isB)
+    //     : step < 0
+    //     ? transposeMelody.down(key + notation, -step, isB)
+    //     : key + notation
+    const transposedNotation = key + notation
 
     prefix = 'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n'
     notationText = prefix + transposedNotation

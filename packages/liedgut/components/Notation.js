@@ -107,14 +107,12 @@ export default function Notation({
 }) {
   const [synthControl, setSynthControl] = useState()
   const [speed, setSpeed] = useState(100)
-  const [chords, setChords] = useState(transpose === 0)
+  const [chords, setChords] = useState(true)
   const paperRef = useRef()
   const audioRef = useRef()
 
   const { parserParams = {}, engraverParams = {}, renderParams = {} } = options
   const speedPercent = (parseInt(speed) || 20) / 100
-
-  useEffect(() => setChords(transpose !== 0), [transpose])
 
   useEffect(() => {
     if (ABC.synth.supportsAudio()) {
@@ -162,37 +160,34 @@ export default function Notation({
       }
 
       const notationWithSpeed = setTempo(
-        notation,
+        normalizeNotation(notation),
         parseInt(tempo) * speedPercent
       )
 
-      const visualObj = ABC.renderAbc(
-        paperRef.current,
-        chords ? normalizeNotation(notationWithSpeed) : notationWithSpeed,
-        {
-          header_only: false,
-          hint_measures: false,
-          print: false,
-          stop_on_warning: false,
-          add_classes: true,
-          editable: false,
-          listener: null,
-          responsive: 'resize',
-          paddingleft: 0,
-          paddingright: 0,
-          paddingtop: 0,
-          paddingbottom: 0,
-          scale: 1,
-          oneSvgPerLine: false,
-          scrollHorizontal: false,
-          startingTune: 0,
-          viewportHorizontal: false,
-          ...parserParams,
-          ...engraverParams,
-          ...renderParams,
-          clickListener,
-        }
-      )[0]
+      const visualObj = ABC.renderAbc(paperRef.current, notationWithSpeed, {
+        visualTranspose: transpose,
+        header_only: false,
+        hint_measures: false,
+        print: false,
+        stop_on_warning: false,
+        add_classes: true,
+        editable: false,
+        listener: null,
+        responsive: 'resize',
+        paddingleft: 0,
+        paddingright: 0,
+        paddingtop: 0,
+        paddingbottom: 0,
+        scale: 1,
+        oneSvgPerLine: false,
+        scrollHorizontal: false,
+        startingTune: 0,
+        viewportHorizontal: false,
+        ...parserParams,
+        ...engraverParams,
+        ...renderParams,
+        clickListener,
+      })[0]
 
       const midiBuffer = new ABC.synth.CreateSynth()
       midiBuffer
@@ -206,11 +201,21 @@ export default function Notation({
           if (synthControl) {
             synthControl.setTune(visualObj, false, {
               chordsOff: !chords,
+              midiTranspose: transpose,
             })
           }
         })
     }
-  }, [synthControl, notation, paperRef, speed, chords, audioRef, textAreaRef])
+  }, [
+    synthControl,
+    notation,
+    paperRef,
+    speed,
+    chords,
+    audioRef,
+    transpose,
+    textAreaRef,
+  ])
 
   return (
     <Box>
@@ -232,7 +237,6 @@ export default function Notation({
         <Checkbox
           label="Akkorde"
           name="chords"
-          disabled={transpose !== 0}
           onChange={setChords}
           value={chords}
         />
