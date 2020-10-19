@@ -32,10 +32,10 @@
       "year": 2019
     }
   ],
-  "beat": "3/4",
+  "beat": "4/4",
   "tempo": 100,
-  "info": "Mosella = alt-römische Personifizierung der Mosel\nUndine = Fährschiff zwischen Bla und Trier",
-  "content": "{E}Auf und ab der {H7}Pfad uns {A}führt,\nZum Sang der Riemen {E}klingt ein {H7}Lied.\n{cis}Schlangen durchziehen das {A}Land,\n{cis}Mosella, dein schimmerndes {A}Band,\ndein {E}schim{H7}merndes {E}Band.\n\nIm Abschied der Sonne das Tal erglüht,\nein knisterndes Feuer, das Wärme bringt,\nDie Kohte hoch oben thront,\nmit Blick auf dein Land uns lohnt,\ndein Land uns lohnt.\n\nFeinster Wein, dein Rebensaft,\nwir tippeln selig durch die Nacht.\nKraniche ziehen fort,\nverlassen den magischen Ort,\nden magischen Ort.\n\nMit Sehnsucht geht's gen Süden zu,\nlässt uns dein Zauber keine Ruh,\nUndine, gewähr uns Fahrt,\ndenn ferner Regen naht,\ndenn Regen naht.",
+  "info": "Mosella = alt-römische Personifizierung der Mosel\nUndine = Fährschiff zwischen Bernkastel-Kues und Trier",
+  "content": "{E}Auf und ab der {H7}Pfad uns {A}führt,\nZum Sang der Riemen {E}klingt ein {H7}Lied.\n{cis}Schlangen durchziehen das {A}Land,\nMo{cis}sella, dein schimmerndes {A}Band,\ndein {E}schim{H7}merndes {E}Band.\n\nIm Abschied der Sonne das Tal erglüht,\nein knisterndes Feuer, das Wärme bringt,\nDie Kohte hoch oben thront,\nmit Blick auf dein Land uns lohnt,\ndein Land uns lohnt.\n\nFeinster Wein, dein Rebensaft,\nwir tippeln selig durch die Nacht.\nKraniche ziehen fort,\nverlassen den magischen Ort,\nden magischen Ort.\n\nMit Sehnsucht geht's gen Süden zu,\nlässt uns dein Zauber keine Ruh,\nUndine, gewähr uns Fahrt,\ndenn ferner Regen naht,\ndenn Regen naht.",
   "changes": [
     {
       "name": "Robin Weser",
@@ -49,6 +49,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Melodie hinzugefügt"
+    },
+    {
+      "date": 1603116323205,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Taktanpassung"
     }
   ],
   "translation": [],
