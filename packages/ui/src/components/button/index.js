@@ -5,12 +5,21 @@ import { useFela } from 'react-fela'
 import Loading from '../loading'
 
 const fontSizeMap = {
+  tiny: 12,
   small: 14,
   medium: 16,
   large: 18,
 }
 
+const padding = {
+  tiny: 8,
+  small: 10,
+  medium: 14,
+  large: 14,
+}
+
 const loadingSizeMap = {
+  tiny: 3,
   small: 3.5,
   medium: 4,
   large: 4.5,
@@ -32,10 +41,10 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   justifyContent: 'center',
   appearance: 'none',
   cursor: 'pointer',
-  paddingLeft: 15,
-  paddingRight: 15,
-  paddingTop: 14,
-  paddingBottom: 14,
+  paddingLeft: padding[size] + 1,
+  paddingRight: padding[size] + 1,
+  paddingTop: padding[size],
+  paddingBottom: padding[size],
   textAlign: 'center',
   fontFamily: theme.fonts.content,
   lineHeight: 1,
@@ -177,7 +186,7 @@ Button.propTypes = {
   /** Use either a positive blue or a negative red button. */
   intent: PropTypes.oneOf(['positive', 'negative']),
   /** The size of the button. */
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  size: PropTypes.oneOf(['tiny', 'small', 'medium', 'large']),
   /** The onClick event handler */
   onClick: PropTypes.func,
   /** Disables the button. The click event handler won't be triggered. */

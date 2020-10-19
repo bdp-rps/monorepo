@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react'
-import { Box, Button } from '@bdp-rps/ui'
+import { Box, Button, Checkbox, TextInput } from '@bdp-rps/ui'
 import ABC, { synth } from 'abcjs'
 
 function CursorControl() {
@@ -43,6 +43,7 @@ function CursorControl() {
 
     for (var i = 0; i < ev.elements.length; i++) {
       var note = ev.elements[i]
+
       for (var j = 0; j < note.length; j++) {
         note[j].classList.add('highlight')
       }
@@ -72,19 +73,28 @@ function CursorControl() {
 }
 
 function normalizeNotation(notation) {
-  return notation.replace(/\"[A-Z0-7()]*\"/gi, match => {
-    return match
-      .replace(/[() ]+/gi, '')
-      .replace('h', 'b')
-      .replace('H', 'B')
-      .replace(
-        /[a-z]/g,
-        match => match.charAt(0).toUpperCase() + 'm' + match.substr(1)
-      )
-      .replace('is', '#')
-      .replace('s', 'b')
+  return notation.replace(/\"([A-Z0-7()])*\"/gi, (_, match) => {
+    return (
+      '"' +
+      match
+        .replace(/[() ]+/g, '')
+        .replace('h', 'b')
+        .replace('H', 'B')
+        .replace(
+          /^[a-z]/g,
+          match => match.charAt(0).toUpperCase() + 'm' + match.substr(1)
+        )
+        .replace('is', '#')
+        .replace('s', 'b') +
+      '"'
+    )
   })
 }
+
+function setTempo(notation, tempo) {
+  return notation.replace(/=[0-9]+/, '=' + Math.floor(tempo))
+}
+
 export default function Notation({
   notation,
   tempo,
@@ -93,10 +103,13 @@ export default function Notation({
   textAreaRef,
 }) {
   const [synthControl, setSynthControl] = useState()
+  const [speed, setSpeed] = useState(100)
+  const [chords, setChords] = useState(false)
   const paperRef = useRef()
   const audioRef = useRef()
 
   const { parserParams = {}, engraverParams = {}, renderParams = {} } = options
+  const speedPercent = parseInt(speed) / 100
 
   useEffect(() => {
     if (ABC.synth.supportsAudio()) {
@@ -143,29 +156,40 @@ export default function Notation({
         }
       }
 
-      const visualObj = ABC.renderAbc(paperRef.current, notation, {
-        header_only: false,
-        hint_measures: false,
-        print: false,
-        stop_on_warning: false,
-        add_classes: true,
-        editable: false,
-        listener: null,
-        responsive: 'resize',
-        paddingleft: 0,
-        paddingright: 0,
-        paddingtop: 0,
-        paddingbottom: 0,
-        scale: 1,
-        oneSvgPerLine: false,
-        scrollHorizontal: false,
-        startingTune: 0,
-        viewportHorizontal: false,
-        ...parserParams,
-        ...engraverParams,
-        ...renderParams,
-        clickListener,
-      })[0]
+      const notationWithSpeed = setTempo(
+        notation,
+        parseInt(tempo) * speedPercent
+      )
+
+      console.log(notationWithSpeed)
+
+      const visualObj = ABC.renderAbc(
+        paperRef.current,
+        chords ? normalizeNotation(notationWithSpeed) : notationWithSpeed,
+        {
+          header_only: false,
+          hint_measures: false,
+          print: false,
+          stop_on_warning: false,
+          add_classes: true,
+          editable: false,
+          listener: null,
+          responsive: 'resize',
+          paddingleft: 0,
+          paddingright: 0,
+          paddingtop: 0,
+          paddingbottom: 0,
+          scale: 1,
+          oneSvgPerLine: false,
+          scrollHorizontal: false,
+          startingTune: 0,
+          viewportHorizontal: false,
+          ...parserParams,
+          ...engraverParams,
+          ...renderParams,
+          clickListener,
+        }
+      )[0]
 
       const midiBuffer = new ABC.synth.CreateSynth()
       midiBuffer
@@ -178,13 +202,12 @@ export default function Notation({
         .then(function(response) {
           if (synthControl) {
             synthControl.setTune(visualObj, false, {
-              qpm: tempo,
-              chordsOff: true,
+              chordsOff: !chords,
             })
           }
         })
     }
-  }, [synthControl, notation, paperRef, audioRef, textAreaRef])
+  }, [synthControl, notation, paperRef, speed, chords, audioRef, textAreaRef])
 
   return (
     <Box>
@@ -193,8 +216,22 @@ export default function Notation({
           <Box ref={paperRef} id="paper" />
         </Box>
       </Box>
-      <Box direction="row">
-        <Box grow={1} paddingRight={[0, , '20%']} ref={audioRef} />
+      <Box direction="row" space={2} alignItems="center" paddingRight={8}>
+        <Box grow={1} ref={audioRef} />
+        <TextInput
+          type="number"
+          name="speed"
+          maskEnd="%"
+          min="1"
+          onChange={setSpeed}
+          value={speed}
+        />
+        <Checkbox
+          label="Akkorde"
+          name="chords"
+          onChange={setChords}
+          value={chords}
+        />
       </Box>
     </Box>
   )

@@ -138,9 +138,14 @@ export default function Song({
         <Box>
           <Text
             intent="note"
-            extend={{ fontStyle: 'italic', color: theme.foreground }}>
-            {info}
-          </Text>
+            extend={{
+              fontStyle: 'italic',
+              color: theme.foreground,
+            }}
+            dangerouslySetInnerHTML={{
+              __html: info.replace(/(?:\r\n|\r|\n)/g, '<br>'),
+            }}
+          />
         </Box>
         <Box>
           {JSON.stringify(words) === JSON.stringify(tune) ? (

@@ -7,9 +7,15 @@ export const equivalent = {
 }
 
 const cis = {
-  b: { fret: 1, finger: 2 },
-  G: { fret: 2, finger: 3 },
-  D: { fret: 1, finger: 1 },
+  barre: {
+    finger: 1,
+    fret: 4,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 5, finger: 2 },
+  G: { fret: 6, finger: 4 },
+  D: { fret: 6, finger: 3 },
 }
 const cis7 = {}
 const Cis = {}
@@ -178,10 +184,25 @@ export default {
 
   // H
   H: {},
-  H7: {},
+  H7: {
+    e: { fret: 2, finger: 4 },
+    G: { fret: 2, finger: 3 },
+    D: { fret: 1, finger: 1 },
+    A: { fret: 2, finger: 2 },
+  },
   B: Ais,
   B7: Ais7,
-  h: {},
+  h: {
+    barre: {
+      fret: 2,
+      finger: 1,
+      from: 'e',
+      to: 'A',
+    },
+    b: { fret: 3, finger: 2 },
+    G: { fret: 4, finger: 4 },
+    D: { fret: 4, finger: 3 },
+  },
   h7: {},
   b: ais,
   b7: ais7,

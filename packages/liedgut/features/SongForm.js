@@ -14,6 +14,7 @@ import {
   Modal,
   Loading,
   Checkbox,
+  Link,
   Text,
   useTheme,
 } from '@bdp-rps/ui'
@@ -173,79 +174,87 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               onChange={info => setSong({ ...song, info })}
             />
 
-            <Box space={1}>
-              <Text intent="label">Worte</Text>
+            <Box space={10} paddingTop={5}>
+              <Box space={1}>
+                <Text intent="label">Worte</Text>
 
-              <Box>
-                {song.words.map(author => (
-                  <ListItem>
-                    <Box direction="row" space={2} alignItems="center">
-                      <Text>{renderAuthors([author])}</Text>
+                <Box>
+                  {song.words.map(author => (
+                    <ListItem>
+                      <Box direction="row" space={2} alignItems="center">
+                        <Box grow={1}>
+                          <Text>{renderAuthors([author])}</Text>
+                        </Box>
 
-                      <Box direction="row" alignSelf="flex-end" space={2}>
-                        <Button
-                          variant="secondary"
-                          size="small"
-                          intent="negative"
-                          onClick={() =>
-                            setSong({
-                              ...song,
-                              words: song.words.filter(a => author !== a),
-                            })
-                          }>
-                          Löschen
-                        </Button>
+                        <Box justifyContent="flex-end">
+                          <Button
+                            variant="secondary"
+                            size="tiny"
+                            intent="negative"
+                            onClick={() =>
+                              setSong({
+                                ...song,
+                                words: song.words.filter(a => author !== a),
+                              })
+                            }>
+                            Löschen
+                          </Button>
+                        </Box>
                       </Box>
-                    </Box>
-                  </ListItem>
-                ))}
+                    </ListItem>
+                  ))}
+                </Box>
+                <Box alignSelf="flex-start">
+                  <Button
+                    size="small"
+                    onClick={() => {
+                      setAuthorMode('words')
+                      setAuthorVisible(true)
+                    }}>
+                    Hinzufügen
+                  </Button>
+                </Box>
               </Box>
-              <Box alignSelf="flex-start">
-                <Button
-                  onClick={() => {
-                    setAuthorMode('words')
-                    setAuthorVisible(true)
-                  }}>
-                  Hinzufügen
-                </Button>
-              </Box>
-            </Box>
 
-            <Box space={1}>
-              <Text intent="label">Weise</Text>
+              <Box space={1}>
+                <Text intent="label">Weise</Text>
 
-              <Box>
-                {song.tune.map(author => (
-                  <ListItem>
-                    <Box direction="row" space={2} alignItems="center">
-                      <Text>{renderAuthors([author])}</Text>
+                <Box>
+                  {song.tune.map(author => (
+                    <ListItem>
+                      <Box direction="row" space={2} alignItems="center">
+                        <Box grow={1}>
+                          <Text>{renderAuthors([author])}</Text>
+                        </Box>
 
-                      <Box direction="row" alignSelf="flex-end" space={2}>
-                        <Button
-                          variant="secondary"
-                          size="small"
-                          intent="negative"
-                          onClick={() =>
-                            setSong({
-                              ...song,
-                              tune: song.tune.filter(a => author !== a),
-                            })
-                          }>
-                          Löschen
-                        </Button>
+                        <Box direction="row" alignSelf="flex-end" space={2}>
+                          <Button
+                            variant="secondary"
+                            size="tiny"
+                            intent="negative"
+                            onClick={() =>
+                              setSong({
+                                ...song,
+                                tune: song.tune.filter(a => author !== a),
+                              })
+                            }>
+                            Löschen
+                          </Button>
+                        </Box>
                       </Box>
-                    </Box>
-                  </ListItem>
-                ))}
-              </Box>
-              <Box alignSelf="flex-start">
-                <Button
-                  onClick={() => {
-                    setAuthorMode('tune')
-                    setAuthorVisible(true)
-                  }}>
-                  Hinzufügen
-                </Button>
+                    </ListItem>
+                  ))}
+                </Box>
+                <Box alignSelf="flex-start">
+                  <Button
+                    size="small"
+                    onClick={() => {
+                      setAuthorMode('tune')
+                      setAuthorVisible(true)
+                    }}>
+                    Hinzufügen
+                  </Button>
+                </Box>
               </Box>
             </Box>
             <Modal
@@ -351,8 +360,9 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 <>
                   Die Melodie wird im ABC-Format notiert. z.B. "C2DE2F Bc|A4B4"
                   <br />
-                  Achtung: Die Wiedergabe funktioniert am besten in Chrome und
-                  Firefox.
+                  <Link href="http://kurs.schacherl.info/ABC-Musiknotation/abc_syntax/abc_syntax.html">
+                    ABC Syntax Kurs
+                  </Link>
                 </>
               }
               value={song.notation}

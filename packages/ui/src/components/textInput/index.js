@@ -36,6 +36,20 @@ const style = ({ isValid, disabled, theme }) => ({
   ],
 })
 
+const maskStyle = ({ theme, position = 'start' }) => ({
+  borderRadius: 0,
+  borderWidth: 2,
+  borderStyle: 'solid',
+  borderColor: theme.tokens.inputBorder,
+  backgroundColor: theme.tokens.inputBorder,
+  paddingLeft: position === 'start' ? theme.tokens.inputPaddingHorizontal : 0,
+  paddingRight: position === 'end' ? theme.tokens.inputPaddingHorizontal : 0,
+  paddingTop: theme.tokens.inputPaddingVertical,
+  paddingBottom: theme.tokens.inputPaddingVertical,
+  fontFamily: theme.fonts.content,
+  fontSize: 16,
+})
+
 export default function TextInput({
   name,
   value,
@@ -51,6 +65,8 @@ export default function TextInput({
   errorMessage,
   errorMessageVisible = true,
   description,
+  maskEnd,
+  maskStart,
   ...props
 }) {
   const styleProps = {
@@ -67,20 +83,31 @@ export default function TextInput({
         className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
         <Text intent="label">{label}</Text>
       </label>
-      <input
-        {...props}
-        type={type}
-        id={name}
-        name={name}
-        value={value}
-        disabled={disabled}
-        required={required}
-        placeholder={placeholder}
-        onChange={e => onChange(e.target.value, e)}
-        onBlur={onBlur}
-        onFocus={onFocus}
-        className={css(style)}
-      />
+      <Box direction="row" alignItems="center">
+        {' '}
+        {!maskStart ? null : (
+          <Box extend={maskStyle({ theme, position: 'start' })}>
+            {maskStart}
+          </Box>
+        )}
+        <input
+          {...props}
+          type={type}
+          id={name}
+          name={name}
+          value={value}
+          disabled={disabled}
+          required={required}
+          placeholder={placeholder}
+          onChange={e => onChange(e.target.value, e)}
+          onBlur={onBlur}
+          onFocus={onFocus}
+          className={css(style)}
+        />
+        {!maskEnd ? null : (
+          <Box extend={maskStyle({ theme, position: 'end' })}>{maskEnd}</Box>
+        )}
+      </Box>
       {errorMessage && errorMessageVisible && !isValid ? (
         <Text intent="note" extend={{ color: theme.tokens.destructive }}>
           {errorMessage}

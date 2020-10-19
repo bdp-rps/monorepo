@@ -8,6 +8,7 @@ const style = ({ theme }) => ({
   paddingRight: 8,
   paddingBottom: 8,
   paddingLeft: 0,
+  flexGrow: 1,
   borderBottomWidth: 1,
   borderBottomStyle: 'solid',
   borderBottomColor: theme.colors.grey7,
