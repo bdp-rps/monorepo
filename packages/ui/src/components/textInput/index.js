@@ -17,6 +17,7 @@ const style = ({ isValid, disabled, theme }) => ({
   paddingBottom: theme.tokens.inputPaddingVertical,
   fontFamily: theme.fonts.content,
   fontSize: 16,
+  width: '100%',
   ':focus': {
     outline: 0,
     borderColor: theme.tokens.primary,
@@ -84,7 +85,6 @@ export default function TextInput({
         <Text intent="label">{label}</Text>
       </label>
       <Box direction="row" alignItems="center">
-        {' '}
         {!maskStart ? null : (
           <Box extend={maskStyle({ theme, position: 'start' })}>
             {maskStart}
