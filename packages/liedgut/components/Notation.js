@@ -114,11 +114,7 @@ export default function Notation({
   const { parserParams = {}, engraverParams = {}, renderParams = {} } = options
   const speedPercent = (parseInt(speed) || 20) / 100
 
-  useEffect(() => {
-    if (transpose !== 0) {
-      setChords(false)
-    }
-  }, [transpose])
+  useEffect(() => setChords(transpose !== 0), [transpose])
 
   useEffect(() => {
     if (ABC.synth.supportsAudio()) {
