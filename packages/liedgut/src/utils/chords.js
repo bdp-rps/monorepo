@@ -1,11 +1,3 @@
-export const equivalent = {
-  des: 'cis',
-  es: 'dis',
-  ges: 'fis',
-  as: 'gis',
-  b: 'ais',
-}
-
 const cis = {
   barre: {
     finger: 1,
