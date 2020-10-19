@@ -107,7 +107,7 @@ export default function Notation({
 }) {
   const [synthControl, setSynthControl] = useState()
   const [speed, setSpeed] = useState(100)
-  const [chords, setChords] = useState(transpose !== 0)
+  const [chords, setChords] = useState(transpose === 0)
   const paperRef = useRef()
   const audioRef = useRef()
 
