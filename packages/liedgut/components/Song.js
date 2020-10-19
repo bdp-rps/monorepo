@@ -204,6 +204,7 @@ export default function Song({
             <Notation
               notation={notationText}
               tempo={tempo}
+              transpose={step}
               textAreaRef={textAreaRef}
               selectionOffset={prefix.length + key.length}
             />

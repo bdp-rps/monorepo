@@ -73,11 +73,13 @@ function CursorControl() {
 }
 
 function normalizeNotation(notation) {
-  return notation.replace(/\"([A-Z0-7()])*\"/gi, (_, match) => {
+  return notation.replace(/\"([A-Z0-7()]+)\"/gi, (_, match) => {
     return (
       '"' +
       match
         .replace(/[() ]+/g, '')
+        .replace('b', 'bb')
+        .replace('B', 'Bb')
         .replace('h', 'b')
         .replace('H', 'B')
         .replace(
@@ -98,18 +100,25 @@ function setTempo(notation, tempo) {
 export default function Notation({
   notation,
   tempo,
+  transpose = 0,
   options = {},
   selectionOffset = 0,
   textAreaRef,
 }) {
   const [synthControl, setSynthControl] = useState()
   const [speed, setSpeed] = useState(100)
-  const [chords, setChords] = useState(false)
+  const [chords, setChords] = useState(transpose !== 0)
   const paperRef = useRef()
   const audioRef = useRef()
 
   const { parserParams = {}, engraverParams = {}, renderParams = {} } = options
   const speedPercent = parseInt(speed) / 100
+
+  useEffect(() => {
+    if (transpose !== 0) {
+      setChords(false)
+    }
+  }, [transpose])
 
   useEffect(() => {
     if (ABC.synth.supportsAudio()) {
@@ -160,8 +169,6 @@ export default function Notation({
         notation,
         parseInt(tempo) * speedPercent
       )
-
-      console.log(notationWithSpeed)
 
       const visualObj = ABC.renderAbc(
         paperRef.current,
@@ -229,6 +236,7 @@ export default function Notation({
         <Checkbox
           label="Akkorde"
           name="chords"
+          disabled={transpose !== 0}
           onChange={setChords}
           value={chords}
         />
