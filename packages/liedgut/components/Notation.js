@@ -112,7 +112,7 @@ export default function Notation({
   const audioRef = useRef()
 
   const { parserParams = {}, engraverParams = {}, renderParams = {} } = options
-  const speedPercent = parseInt(speed) / 100
+  const speedPercent = (parseInt(speed) || 20) / 100
 
   useEffect(() => {
     if (transpose !== 0) {
@@ -229,7 +229,7 @@ export default function Notation({
           type="number"
           name="speed"
           maskEnd="%"
-          min="1"
+          min="20"
           onChange={setSpeed}
           value={speed}
         />
