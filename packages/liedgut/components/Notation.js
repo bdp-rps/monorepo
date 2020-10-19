@@ -83,8 +83,8 @@ function normalizeNotation(notation) {
         .replace('h', 'b')
         .replace('H', 'B')
         .replace(
-          /^[a-z]/g,
-          match => match.charAt(0).toUpperCase() + 'm' + match.substr(1)
+          /^[a-z]+/g,
+          match => match.charAt(0).toUpperCase() + match.substr(1) + 'm'
         )
         .replace('is', '#')
         .replace('s', 'b') +
