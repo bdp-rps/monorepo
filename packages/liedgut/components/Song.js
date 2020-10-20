@@ -18,7 +18,6 @@ export default function Song({
   words,
   tempo,
   beat,
-  musicalKey,
   translation,
   info,
   notation,
@@ -199,7 +198,6 @@ export default function Song({
               notation={notation}
               beat={beat}
               tempo={tempo}
-              musicalKey={musicalKey}
               title={title}
               transpose={step}
               author={renderAuthors(tune)}

@@ -48,7 +48,6 @@
     }
   ],
   "translation": [],
-  "notation": "L:1/4\nM:4/4\nK: F\n|: \"d\"DAAA | \"C\"GECC | \"d\"DF \"C\"E/D/ C | \"d\"D2 z2 :| \n|: \"F\"CCCC | \"C\"CCCC |1 \"d\"DD\"C\"CC | \"d\"A,2 z2 :|2 \"d\"DF \"C\"E/D/ C | \"d\"D2 z2 ||\n|: \"B\"BBBB | \"F\"AFFF |1 \"C\"G>GFG | \"d\"A2 z2 :|2 \"C\"G>G\"d\"F\"C\"E | \"d\"D2 z2 ||\n|: \"B\"BB \"F\"AF | \"C\"FE \"d\"FD | \"B\"B2 \"F\"c (F | \"d\"(F)\"C\"E \"d\"D2) :|",
-  "alternativeTitle": "",
-  "musicalKey": "C"
+  "notation": "L:1/4\n\nK:F\n|: \"d\"DAAA | \"C\"GECC | \"d\"DF \"C\"E/D/ C | \"d\"D2 z2 :| \n|: \"F\"CCCC | \"C\"CCCC |1 \"d\"DD\"C\"CC | \"d\"A,2 z2 :|2 \"d\"DF \"C\"E/D/ C | \"d\"D2 z2 ||\n|: \"B\"BBBB | \"F\"AFFF |1 \"C\"G>GFG | \"d\"A2 z2 :|2 \"C\"G>G\"d\"F\"C\"E | \"d\"D2 z2 ||\n|: \"B\"BB \"F\"AF | \"C\"FE \"d\"FD | \"B\"B2 \"F\"c (F | \"d\"(F)\"C\"E \"d\"D2) :|",
+  "alternativeTitle": ""
 }

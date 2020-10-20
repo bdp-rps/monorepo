@@ -9,6 +9,29 @@ ctx.fill();
 */
 import React, { useEffect, useRef } from 'react'
 
+const equivalent = {
+  Gis: 'As',
+  Gis7: 'As7',
+  gis: 'as',
+  gis7: 'as7',
+  Dis: 'Es',
+  Dis7: 'Es7',
+  dis: 'es',
+  dis7: 'es7',
+  Ais: 'B',
+  Ais7: 'B7',
+  ais: 'b',
+  ais7: 'b7',
+  Cis: 'Des',
+  Cis7: 'Des7',
+  cis: 'des',
+  cis7: 'des7',
+  Fis: 'Ges',
+  Fis7: 'Ges7',
+  fis: 'ges',
+  fis7: 'ges7',
+}
+
 const defaultConfig = {
   stringStep: 15,
   fretStep: 20,
@@ -26,6 +49,8 @@ const defaultConfig = {
 
 export default function Chord({ name, chord, config }) {
   const canvasRef = useRef()
+
+  const alternative = equivalent[name]
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -214,6 +239,7 @@ export default function Chord({ name, chord, config }) {
           fontSize: 20,
         }}>
         {name}
+        {alternative ? '/' + alternative : ''}
       </div>
       <canvas ref={canvasRef} />
     </div>

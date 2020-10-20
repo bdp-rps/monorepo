@@ -88,7 +88,6 @@ export default function Notation({
   notation,
   tempo,
   beat,
-  musicalKey,
   title,
   author,
   transpose = 0,
@@ -110,8 +109,7 @@ export default function Notation({
     beat +
     '\nQ:1/4=' +
     tempo +
-    '\nK:' +
-    musicalKey +
+    '\nK:C' +
     '\n'
   const notationText = prefix + notation
 

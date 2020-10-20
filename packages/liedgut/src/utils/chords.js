@@ -17,7 +17,7 @@ const Cis = {
     from: 'e',
     to: 'A',
   },
-  b: { fret: 4, finger: 4 },
+  b: { fret: 5, finger: 4 },
   G: { fret: 6, finger: 3 },
   D: { fret: 6, finger: 2 },
 }
