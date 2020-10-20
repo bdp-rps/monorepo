@@ -16,6 +16,7 @@
       "organisation": "Nerother WV"
     }
   ],
+  "alternativeTitle": "Frühling dringt in den Norden",
   "beat": "4/4",
   "tempo": 120,
   "info": "Entstand in abenteuerlichen Monaten am herbstlichen Yukon River",
@@ -49,5 +50,6 @@
       "content": "Akkorde der Melodie an unsere Schreibweise angepasst"
     }
   ],
-  "translation": []
+  "translation": [],
+  "musicalKey": "C"
 }

@@ -33,6 +33,7 @@ const defaultSong = {
   translation: [],
   beat: '4/4',
   musicalKey: 'C',
+  alternativeTitle: '',
   tempo: 60,
   info: '',
 }
@@ -157,7 +158,11 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             Melodie
           </TabNavItem>
         </TabNav>
-        <Box grow={1} extend={{ backgroundColor: 'rgb(245, 245, 245)' }}>
+        <Box
+          grow={1}
+          height="100%"
+          shrink={1}
+          extend={{ backgroundColor: 'rgb(245, 245, 245)', overflow: 'auto' }}>
           <Box
             grow={1}
             space={4}
@@ -205,6 +210,14 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               <option value="B">B/g</option>
               <option value="F">F/d</option>
             </SelectInput>
+            <TextArea
+              label="Alternativer Titel"
+              description="Für die Suche und Inhaltsverzeichnisse; ein Titel pro Zeile."
+              value={song.alternativeTitle}
+              onChange={alternativeTitle =>
+                setSong({ ...song, alternativeTitle })
+              }
+            />
             <TextArea
               label="Zusatz-Information"
               description="z.B. Worterklärung, Ergänzungen oder Widmungen"
@@ -429,6 +442,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         <Box
           padding={2}
           space={2}
+          grow={1}
           justifyContent="space-between"
           direction={['column', , 'row']}>
           <Button
