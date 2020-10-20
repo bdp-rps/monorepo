@@ -22,6 +22,7 @@ import {
 import Song from '../components/Song'
 import ListItem from '../components/ListItem'
 import renderAuthors from '../src/utils/renderAuthors'
+import normalizeChord from '../src/utils/normalizeChord'
 
 const defaultSong = {
   notation: '',
@@ -31,6 +32,7 @@ const defaultSong = {
   tune: [],
   translation: [],
   beat: '4/4',
+  musicalKey: 'C',
   tempo: 60,
   info: '',
 }
@@ -109,6 +111,8 @@ const defaultSubmitter = {
   content: '',
 }
 
+const CACHE_ID = 'bdp-rps-liedgut-song'
+
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const textAreaRef = useRef()
   const [song, setSong] = useState(initialSong)
@@ -120,6 +124,20 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [authorMode, setAuthorMode] = useState()
   const [sendVisible, setSendVisible] = useState(false)
   const [isLoading, setLoading] = useState(false)
+  const [cache, setCache] = useState()
+  const [reuseCacheVisible, setReuseCacheVisible] = useState(false)
+
+  useEffect(() => {
+    if (localStorage.hasOwnProperty(CACHE_ID)) {
+      setCache(localStorage.getItem(CACHE_ID))
+    }
+  }, [])
+
+  useEffect(() => {
+    if (song !== initialSong || author !== defaultAuthor) {
+      localStorage.setItem(CACHE_ID, JSON.stringify({ song, author }))
+    }
+  }, [song, author])
 
   return (
     <Box
@@ -160,12 +178,32 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               label="Takt"
               value={song.beat}
               onChange={beat => setSong({ ...song, beat })}>
-              <option value="1/2">1/2</option>
+              <option value="1/4">1/4</option>
               <option value="2/4">2/4</option>
               <option value="3/4">3/4</option>
               <option value="4/4">4/4</option>
               <option value="5/4">5/4</option>
               <option value="6/8">6/8</option>
+            </SelectInput>
+            <SelectInput
+              label="Tonart"
+              value={song.musicalKey}
+              onChange={musicalKey => setSong({ ...song, musicalKey })}>
+              <option value="C">C/a</option>
+              <option value="G">G/e</option>
+              <option value="D">D/h</option>
+              <option value="A">A/fis</option>
+              <option value="E">E/cis</option>
+              <option value="H">H/gis</option>
+              <option value="Fis">Fis/dis</option>
+              <option value="Cis">Cis/ais</option>
+              <option value="Ces">Ces/as</option>
+              <option value="Ges">Ges/es</option>
+              <option value="Des">Des/b</option>
+              <option value="As">As/f</option>
+              <option value="Es">Es/c</option>
+              <option value="B">B/g</option>
+              <option value="F">F/d</option>
             </SelectInput>
             <TextArea
               label="Zusatz-Information"
@@ -318,6 +356,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                   </Button>
                   <Button
                     variant="secondary"
+                    intent="negative"
                     onClick={() => {
                       setAuthor(defaultAuthor)
                       setAuthorVisible(false)
@@ -335,7 +374,6 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             display={tab === 'text' ? 'flex' : 'none'}>
             <TextArea
               extend={{ minHeight: 400, flexGrow: 1 }}
-              label="Liedtext"
               description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
               value={song.content}
               onChange={content =>
@@ -348,19 +386,32 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           </Box>
           <Box
             grow={1}
-            space={5}
+            space={0}
             padding={5}
             display={tab === 'melody' ? 'flex' : 'none'}>
+            <Text>
+              T:{song.title}
+              <br />
+              C:{renderAuthors(song.tune)}
+              <br />
+              M:{song.beat}
+              <br />
+              Q:1/4={song.tempo}
+              <br />
+              K:{normalizeChord(song.musicalKey)}
+            </Text>
             <TextArea
               extend={{ minHeight: 400, flexGrow: 1 }}
               ref={textAreaRef}
-              label="Melody"
               name="melody"
               description={
                 <>
                   Die Melodie wird im ABC-Format notiert. z.B. "C2DE2F Bc|A4B4"
                   <br />
-                  <Link href="http://kurs.schacherl.info/ABC-Musiknotation/abc_syntax/abc_syntax.html">
+                  <Link
+                    href="http://kurs.schacherl.info/ABC-Musiknotation/abc_syntax/abc_syntax.html"
+                    target="_blank"
+                    rel="noopener">
                     ABC Syntax Kurs
                   </Link>
                 </>
@@ -375,6 +426,28 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             />
           </Box>
         </Box>
+        <Box
+          padding={2}
+          space={2}
+          justifyContent="space-between"
+          direction={['column', , 'row']}>
+          <Button
+            intent="positive"
+            variant="secondary"
+            disabled={cache === undefined}
+            onClick={() => {
+              if (localStorage.getItem(CACHE_ID) !== cache) {
+                setReuseCacheVisible(true)
+              } else {
+                const { song, author } = JSON.parse(cache)
+                setSong(song)
+                setAuthor(author)
+              }
+            }}>
+            Letzte Sitzung wiederherstellen
+          </Button>
+          <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
+        </Box>
       </Box>
       <Box
         grow={0}
@@ -385,68 +458,97 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         space={8}
         extend={{ overflow: 'auto' }}>
         <Song {...song} textAreaRef={textAreaRef} />
-        <Box alignSelf="flex-start" space={2} direction="row">
-          <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
-          <Modal
-            visible={sendVisible}
-            onClose={() => {
-              if (!isLoading) {
-                setSendVisible(false)
-              }
-            }}>
-            <Box space={4} padding={2} minWidth={350}>
-              <Text intent="category">Deine Daten</Text>
-              <TextInput
-                value={submitter.name}
-                onChange={name => setSubmitter({ ...submitter, name })}
-                label="Dein Name"
-              />
-              <TextInput
-                value={submitter.mail}
-                onChange={mail => setSubmitter({ ...submitter, mail })}
-                label="Deine E-Mail"
-              />
-              <TextArea
-                value={submitter.content}
-                onChange={content => setSubmitter({ ...submitter, content })}
-                label="Beschreibung (bei Änderung)"
-              />
-              <Box paddingTop={2} space={2}>
-                <Button
-                  disabled={isLoading}
-                  onClick={async () => {
-                    setLoading(true)
-                    const res = await onSubmit(song, {
-                      submitter: submitter.name,
-                      submitterMail: submitter.mail,
-                      submitterContent: submitter.content,
-                    })
-
-                    if (res.success) {
-                      setSendVisible(false)
-                      alert(`Erfolgreich!
-Danke für die Einsendung.`)
-                    } else {
-                      alert(res.error)
-                    }
-
-                    setLoading(false)
-                  }}>
-                  {isLoading ? 'Daten werden gesendet...' : 'Einreichen'}
-                </Button>
-                <Button
-                  variant="secondary"
-                  disabled={isLoading}
-                  onClick={() => {
-                    setSendVisible(false)
-                  }}>
-                  Abbrechen
-                </Button>
-              </Box>
-            </Box>
-          </Modal>
-        </Box>
       </Box>
+      <Modal
+        visible={reuseCacheVisible}
+        onClose={() => setReuseCacheVisible(false)}>
+        <Box space={4} padding={2} minWidth={350}>
+          <Text intent="category">Letzte Sitzung wiederherstellen</Text>
+          <Text>
+            Willst du wirklich die letzte Sitzung wiederherstellen?
+            <br />
+            Alle aktuellen Änderungen gehen verloren.
+          </Text>
+
+          <Box paddingTop={2} space={2} direction={['column', , 'row']}>
+            <Button
+              onClick={() => {
+                const { song, author } = JSON.parse(cache)
+                setReuseCacheVisible(false)
+                setSong(song)
+                setAuthor(author)
+              }}>
+              Wiederherstellen
+            </Button>
+            <Button
+              variant="secondary"
+              intent="negative"
+              onClick={() => {
+                setReuseCacheVisible(false)
+              }}>
+              Abbrechen
+            </Button>
+          </Box>
+        </Box>
+      </Modal>
+      <Modal
+        visible={sendVisible}
+        onClose={() => {
+          if (!isLoading) {
+            setSendVisible(false)
+          }
+        }}>
+        <Box space={4} padding={2} minWidth={350}>
+          <Text intent="category">Deine Daten</Text>
+          <TextInput
+            value={submitter.name}
+            onChange={name => setSubmitter({ ...submitter, name })}
+            label="Dein Name"
+          />
+          <TextInput
+            value={submitter.mail}
+            onChange={mail => setSubmitter({ ...submitter, mail })}
+            label="Deine E-Mail"
+          />
+          <TextArea
+            value={submitter.content}
+            onChange={content => setSubmitter({ ...submitter, content })}
+            label="Beschreibung (bei Änderung)"
+          />
+          <Box paddingTop={2} space={2}>
+            <Button
+              disabled={isLoading}
+              onClick={async () => {
+                setLoading(true)
+                const res = await onSubmit(song, {
+                  submitter: submitter.name,
+                  submitterMail: submitter.mail,
+                  submitterContent: submitter.content,
+                })
+
+                if (res.success) {
+                  setSendVisible(false)
+                  alert(`Erfolgreich!
+Danke für die Einsendung.`)
+                } else {
+                  alert(res.error)
+                }
+
+                setLoading(false)
+              }}>
+              {isLoading ? 'Daten werden gesendet...' : 'Einreichen'}
+            </Button>
+            <Button
+              variant="secondary"
+              disabled={isLoading}
+              onClick={() => {
+                setSendVisible(false)
+              }}>
+              Abbrechen
+            </Button>
+          </Box>
+        </Box>
+      </Modal>
     </Box>
   )
 }
