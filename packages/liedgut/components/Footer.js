@@ -30,6 +30,14 @@ export default function Footer() {
         <Text>
           Copyright &copy; {new Date().getFullYear()} BdP Landesverband
           Rheinland-Pfalz/Saarland
+          <br />
+          <br />
+          Diese Seite dient ausschließlich dem Erhalt des bündischen Liedguts
+          und ist nur für den internen Gebrauch bestimmt.
+          <br />
+          Die auf diesen Seiten vorgestellten Lieder unterliegen teilweise dem
+          Copyright und bleiben auch weiterhin das geistige Eigentum der
+          ausgewiesenen Urheber.
         </Text>
         <a
           href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"
