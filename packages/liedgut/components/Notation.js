@@ -2,6 +2,8 @@ import React, { useRef, useState, useEffect } from 'react'
 import { Box, Button, Checkbox, TextInput } from '@bdp-rps/ui'
 import ABC, { synth } from 'abcjs'
 
+import normalizeChord from '../src/utils/normalizeChord'
+
 function CursorControl() {
   var self = this
 
@@ -74,22 +76,7 @@ function CursorControl() {
 
 function normalizeNotation(notation) {
   return notation.replace(/\"([A-Z0-7()]+)\"/gi, (_, match) => {
-    return (
-      '"' +
-      match
-        .replace(/[() ]+/g, '')
-        .replace('b', 'bb')
-        .replace('B', 'Bb')
-        .replace('h', 'b')
-        .replace('H', 'B')
-        .replace(
-          /^[a-z]+/g,
-          match => match.charAt(0).toUpperCase() + match.substr(1) + 'm'
-        )
-        .replace('is', '#')
-        .replace('s', 'b') +
-      '"'
-    )
+    return '"' + normalizeChord(match) + '"'
   })
 }
 
@@ -100,9 +87,12 @@ function setTempo(notation, tempo) {
 export default function Notation({
   notation,
   tempo,
+  beat,
+  musicalKey,
+  title,
+  author,
   transpose = 0,
   options = {},
-  selectionOffset = 0,
   textAreaRef,
 }) {
   const [synthControl, setSynthControl] = useState()
@@ -110,6 +100,20 @@ export default function Notation({
   const [chords, setChords] = useState(true)
   const paperRef = useRef()
   const audioRef = useRef()
+
+  const prefix =
+    'T:' +
+    title +
+    '\nC:' +
+    author +
+    '\nM:' +
+    beat +
+    '\nQ:1/4=' +
+    tempo +
+    '\nK:' +
+    musicalKey +
+    '\n'
+  const notationText = prefix + notation
 
   const { parserParams = {}, engraverParams = {}, renderParams = {} } = options
   const speedPercent = (parseInt(speed) || 20) / 100
@@ -145,8 +149,8 @@ export default function Notation({
       }) => {
         if (textAreaRef && textAreaRef.current) {
           textAreaRef.current.setSelectionRange(
-            startChar - selectionOffset,
-            endChar - selectionOffset
+            startChar - prefix.length,
+            endChar - prefix.length
           )
         }
 
@@ -160,7 +164,7 @@ export default function Notation({
       }
 
       const notationWithSpeed = setTempo(
-        normalizeNotation(notation),
+        normalizeNotation(notationText),
         parseInt(tempo) * speedPercent
       )
 
@@ -208,7 +212,7 @@ export default function Notation({
     }
   }, [
     synthControl,
-    notation,
+    notationText,
     paperRef,
     speed,
     chords,

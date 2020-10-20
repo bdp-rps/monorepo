@@ -3,10 +3,10 @@ import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
 
 import Chord from './Chord'
 import Notation from './Notation'
+import normalizeChord from '../src/utils/normalizeChord'
 
 import renderAuthors from '../src/utils/renderAuthors'
-import transposeChord from '../src/utils/transpose'
-import * as transposeMelody from '../src/utils/transposeMelody'
+import transposeChord from '../src/utils/transposeChord'
 import removeChords from '../src/utils/removeChords'
 import chords from '../src/utils/chords'
 
@@ -17,6 +17,7 @@ export default function Song({
   words,
   tempo,
   beat,
+  musicalKey,
   translation,
   info,
   notation,
@@ -44,23 +45,6 @@ export default function Song({
     }, [])
 
   const isB = usedChords.find(chord => chord.match(/(es|as|b)/gi) !== null)
-
-  // TODO add takt & key to transposed
-  let notationText, prefix, key
-
-  if (notation) {
-    key = notation.match(/K:\s*(\w)\s*(\w*)/) !== null ? '' : 'K:C\n'
-    // const transposedNotation =
-    //   step > 0
-    //     ? transposeMelody.up(key + notation, step, isB)
-    //     : step < 0
-    //     ? transposeMelody.down(key + notation, -step, isB)
-    //     : key + notation
-    const transposedNotation = key + notation
-
-    prefix = 'T:' + title + '\n' + 'Q:1/4=' + tempo + '\n'
-    notationText = prefix + transposedNotation
-  }
 
   const theme = useTheme()
 
@@ -200,14 +184,17 @@ export default function Song({
             return null
           })}
         </Box>
-        {notationText && (
+        {notation && (
           <Box>
             <Notation
-              notation={notationText}
+              notation={notation}
+              beat={beat}
               tempo={tempo}
+              musicalKey={musicalKey}
+              title={title}
               transpose={step}
+              author={renderAuthors(tune)}
               textAreaRef={textAreaRef}
-              selectionOffset={prefix.length + key.length}
             />
           </Box>
         )}

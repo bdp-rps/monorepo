@@ -79,5 +79,7 @@
     }
   ],
   "notation": "M:4/4\nC: Swing\n C C D | \"C\" E2 z A G E \"G\" D C | \"a\" A, C  C2 z C C D | \"C\" E2 z E \"F\" F2 F E |\n\"G\" D4 z C  C D | \"C\" E2 z A  G E \"G\" D C | \"a\" A, C  C2 z C D E | \"F\" F2 E2 \"G\" D2 C B, | \"C\" C2 z6 |",
-  "translation": []
+  "translation": [],
+  "alternativeTitle": "",
+  "musicalKey": "C"
 }
