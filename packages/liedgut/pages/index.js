@@ -21,6 +21,7 @@ const songData = songList.reduce((songData, name) => {
     content,
     normalizedContent: content.toLowerCase(),
     normalizedTitle: song.title.toLowerCase(),
+    normalizedAlternativeTitle: song.alternativeTitle.toLowerCase(),
   }
 
   return songData
@@ -47,12 +48,18 @@ const SongList = () => {
           const {
             title,
             normalizedTitle,
+            normalizedAlternativeTitle,
             content,
             normalizedContent,
           } = songData[name]
 
           const titleIndex = normalizedTitle.indexOf(normalizedSearch)
           const matchesTitle = titleIndex !== -1
+
+          const alternativeTitleIndex = normalizedAlternativeTitle.indexOf(
+            normalizedSearch
+          )
+          const matchesAlternativeTitle = alternativeTitleIndex !== -1
 
           const contentIndex = normalizedContent.indexOf(normalizedSearch)
           const matchesContent = contentIndex !== -1
@@ -61,7 +68,10 @@ const SongList = () => {
             <NextLink key={name} href={'/' + name} passHref>
               <ListItem
                 extend={{
-                  display: matchesTitle || matchesContent ? 'flex' : 'none',
+                  display:
+                    matchesTitle || matchesContent || matchesAlternativeTitle
+                      ? 'flex'
+                      : 'none',
                 }}>
                 <Box>
                   <Text color={theme.tokens.primary}>

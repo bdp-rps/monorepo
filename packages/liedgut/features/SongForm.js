@@ -194,21 +194,21 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               label="Tonart"
               value={song.musicalKey}
               onChange={musicalKey => setSong({ ...song, musicalKey })}>
+              <option value="Ces">Ces/as (7♭)</option>
+              <option value="Ges">Ges/es (6♭)</option>
+              <option value="Des">Des/b (5♭)</option>
+              <option value="As">As/f (4♭)</option>
+              <option value="Es">Es/c (3♭)</option>
+              <option value="B">B/g (2♭)</option>
+              <option value="F">F/d (1♭)</option>
               <option value="C">C/a</option>
-              <option value="G">G/e</option>
-              <option value="D">D/h</option>
-              <option value="A">A/fis</option>
-              <option value="E">E/cis</option>
-              <option value="H">H/gis</option>
-              <option value="Fis">Fis/dis</option>
-              <option value="Cis">Cis/ais</option>
-              <option value="Ces">Ces/as</option>
-              <option value="Ges">Ges/es</option>
-              <option value="Des">Des/b</option>
-              <option value="As">As/f</option>
-              <option value="Es">Es/c</option>
-              <option value="B">B/g</option>
-              <option value="F">F/d</option>
+              <option value="G">G/e (1♯)</option>
+              <option value="D">D/h (2♯)</option>
+              <option value="A">A/fis (3♯)</option>
+              <option value="E">E/cis (4♯)</option>
+              <option value="H">H/gis (5♯)</option>
+              <option value="Fis">Fis/dis (6♯)</option>
+              <option value="Cis">Cis/ais (7♯)</option>
             </SelectInput>
             <TextArea
               label="Alternativer Titel"

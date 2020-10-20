@@ -1,8 +1,8 @@
 .abcjs-inline-audio {
-  height: 26px;
-  padding: 0 5px;
+  height: 30px;
+  padding: 2px 8px 3px;
   border-radius: 3px;
-  background-color: #424242;
+  background-color: rgb(29, 72, 153);
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -68,7 +68,7 @@
 }
 
 .abcjs-inline-audio .abcjs-midi-progress-background {
-  background-color: #424242;
+  background-color: rgb(39, 82, 163);
   height: 10px;
   border-radius: 5px;
   border: 2px solid #cccccc;
@@ -111,11 +111,11 @@
   align-items: center;
 }
 .abcjs-cursor {
-  stroke: rgba(255, 0, 0, 0.5);
+  stroke: rgba(39, 82, 163, 0.5);
 }
 
 .highlight {
-  fill: red;
+  fill: rgb(39, 82, 163);
 }
 .abcjs-inline-audio .abcjs-midi-tempo {
   border-radius: 2px;

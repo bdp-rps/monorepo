@@ -13,6 +13,7 @@ import chords from '../src/utils/chords'
 export default function Song({
   content,
   title,
+  alternativeTitle,
   tune,
   words,
   tempo,
@@ -79,6 +80,13 @@ export default function Song({
   return (
     <Box>
       <Text intent="category">{title}</Text>
+      {!alternativeTitle ? null : (
+        <Box>
+          <Text intent="note">
+            Alternativ: {alternativeTitle.replace('\n', ', ')}
+          </Text>
+        </Box>
+      )}
       <Spacer size={4} />
       <Box>
         {blocks.map(lines => (
@@ -156,6 +164,7 @@ export default function Song({
           <Text intent="note">Tempo: {tempo}</Text>
           <Text intent="note">Takt: {beat}</Text>
         </Box>
+
         <Box alignItems="flex-start">
           <TextInput
             type="number"
