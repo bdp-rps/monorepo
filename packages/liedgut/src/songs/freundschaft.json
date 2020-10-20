@@ -34,7 +34,7 @@
   ],
   "beat": "4/4",
   "info": "",
-  "content": "{C}Wo wären wir nur ohne {G}unsre {a}Freunde,\nim Rad der {C}Zeit, ge{F}fangen ohne {G}Ziel.\nDrum lasst uns {C}heute hier in {G}dieser {a}Runde,\nzusammen {F}singen {G}und {C}musizieren.\n\nIm Kamin hell lodert auf die Flamme.\nDer Kessel Tee pfeift wie der Wind.\nWir rücken alle näher noch zusammen,\nerzähl'n davon wie's früher einmal war.\n\nAll die von uns, erlebten Abenteuer,\nvon großer Fahrt, vom Segeln über See,\nvon warmen Nächten rund ums Lagerfeuer,\nmit kalten Füßen im Winter durch den Schnee.\n\nDie Zeit steht nie, doch Freunde kein Bedenken,\ndie Zukunft wird gewiss uns ein Kumpan.\nWenn gemeinsam wir sie bestreiten, \nwie wir's so oft auch früher schon getan.",
+  "content": "{C}Wo wären wir nur ohne {G}unsre {a}Freunde,\nim Rad der {C}Zeit, ge{F}fangen ohne {G}Ziel.\nDrum lasst uns {C}heute hier in {G}dieser {a}Runde,\nzusammen {F}singen {G}und musi{C}zieren.\n\nIm Kamin hell lodert auf die Flamme.\nDer Kessel Tee pfeift wie der Wind.\nWir rücken alle näher noch zusammen,\nerzähl'n davon wie's früher einmal war.\n\nAll die von uns, erlebten Abenteuer,\nvon großer Fahrt, vom Segeln über See,\nvon warmen Nächten rund ums Lagerfeuer,\nmit kalten Füßen im Winter durch den Schnee.\n\nDie Zeit steht nie, doch Freunde kein Bedenken,\ndie Zukunft wird gewiss uns ein Kumpan.\nWenn gemeinsam wir sie bestreiten, \nwie wir's so oft auch früher schon getan.",
   "tempo": "80",
   "changes": [
     {
@@ -69,8 +69,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Authoren angepasst"
+    },
+    {
+      "date": 1603128707569,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Anpassungen Melodie"
     }
   ],
-  "notation": "C: Swing\n\"C\" z4 z C C D | E5/2 A  G E \"G\" D C | \"a\" A, C  C5/2 C C D | \"C\" E5/2 E \"F\" F2 F E |\n\"G\" D4 z C C D | \"C\" E5/2 A  G E \"G\" D C | \"a\" A, C  C5/2 C D E | \"F\" F2 E2 \"G\" D2 \"C\" C B, | C2 z6 |",
+  "notation": "M:4/4\nC: Swing\n C C D | \"C\" E2 z A G E \"G\" D C | \"a\" A, C  C2 z C C D | \"C\" E2 z E \"F\" F2 F E |\n\"G\" D4 z C  C D | \"C\" E2 z A  G E \"G\" D C | \"a\" A, C  C2 z C D E | \"F\" F2 E2 \"G\" D2 C B, | \"C\" C2 z6 |",
   "translation": []
 }
