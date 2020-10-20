@@ -1,5 +1,5 @@
 {
-  "notation": "L:1/4\nM:4/4\nV:1\n\"C\" C C \"G\" D D | \"F\" F F \"a\" E C | \"G\" D3 z | \"d\" z2 \"G\" z2 |\n\"C\" C C \"G\" D D | \"F\" F F \"a\" E C | \"G\" D3 z | \"d\" z2 \"G\" z G/G/ |\n|: \"C\" G3/ G/ G3/ G/ | \"G\" G F E D/D/ | \"a\" C3/ C/ C3/ E/  | \"E7\" E D C B,/B,/ |\n|1 \"C\" C C \"G7\" D G/F/ | \"C\" E2 z G/G/ :| |2 \"C\" C C \"G7\" D3/ B,/ | \"C\" C2 z2 |]\nV:2 \nz4 | z4 | B B B G | A A B G |\nE2 z2 | z4 | B B B G | F2 z G/G/ |\n|: G3/ C'/ C'3/ C'/ | D' B G G/G/ | A3/ A/ A3/ A/ | A G E G/F/  |\n|1 E G G3/ F/ | E2 z  G/G/ :| |2 E G G3/  B,/ | C2 z2 |]\n\n",
+  "notation": "L:1/4\nK:C\nV:1\n\"C\" C C \"G\" D D | \"F\" F F \"a\" E C | \"G\" D3 z | \"d\" z2 \"G\" z2 |\n\"C\" C C \"G\" D D | \"F\" F F \"a\" E C | \"G\" D3 z | \"d\" z2 \"G\" z G/G/ |\n|: \"C\" G3/ G/ G3/ G/ | \"G\" G F E D/D/ | \"a\" C3/ C/ C3/ E/  | \"E7\" E D C B,/B,/ |\n1 \"C\" C C \"G7\" D G/F/ | \"C\" E2 z G/G/ :| |2 \"C\" C C \"G7\" D3/ B,/ | \"C\" C2 z2 |]\nV:2 \nz4 | z4 | B B B G | A A B G |\nE2 z2 | z4 | B B B G | F2 z G/G/ |\n|: G3/ C'/ C'3/ C'/ | D' B G G/G/ | A3/ A/ A3/ A/ | A G E G/F/  |\n1 E G G3/ F/ | E2 z  G/G/ :| |2 E G G3/  B,/ | C2 z2 |]\n\n",
   "content": "{C}Wenn der {G}Abend {F}naht ganz {a}sacht und {G}leis,  {d}   {G} \n{C}finden {G}wir uns {F}ein im {a}Feuer{G}kreis.  {d}   {G}\n\nUnd wer {C}nie an seine {G}Freunde denkt\nund auch {a}nie den roten {E7}Wein ausschenkt\nder kann {C}bleiben, {G7}wo er {C}ist. \nDraußen weht gewiß ein {G}kalter Wind,\ndoch die {a}Feuer nicht er{E7}loschen sind\nfür uns {C}Sänger, {G7}wie ihr {C}wisst.\n\nSchatten flackern am Ruinenrand,\nhat das Singen Dich nicht lang gebannt?\n\nWer da glaubt, er könnt alleine gehn,\nwird in dieser Welt nicht lang bestehn.",
   "title": "Wenn der Abend naht",
   "words": [
@@ -31,6 +31,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1603199946942,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie korrigiert"
     }
   ],
   "alternativeTitle": ""
