@@ -226,22 +226,27 @@ export default function Notation({
           <Box ref={paperRef} id="paper" />
         </Box>
       </Box>
-      <Box direction="row" space={2} alignItems="center" paddingRight={8}>
-        <Box grow={1} ref={audioRef} />
-        <TextInput
-          type="number"
-          name="speed"
-          maskEnd="%"
-          min="20"
-          onChange={setSpeed}
-          value={speed}
-        />
-        <Checkbox
-          label="Akkorde"
-          name="chords"
-          onChange={setChords}
-          value={chords}
-        />
+      <Box
+        direction={['column', , 'row']}
+        space={2}
+        alignItems={['flex-start', , 'center']}>
+        <Box grow={1} ref={audioRef} alignSelf={['stretch', , 'center']} />
+        <Box direction="row" space={2} alignItems="center" paddingRight={8}>
+          <TextInput
+            type="number"
+            name="speed"
+            maskEnd="%"
+            min="20"
+            onChange={setSpeed}
+            value={speed}
+          />
+          <Checkbox
+            label="Akkorde"
+            name="chords"
+            onChange={setChords}
+            value={chords}
+          />
+        </Box>
       </Box>
     </Box>
   )

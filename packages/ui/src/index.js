@@ -1,6 +1,6 @@
-import FelaProvider from './styling/FelaProvider'
+import StyleProvider from './styling/StyleProvider'
 import StyleTags from './styling/StyleTags'
-import getFelaRenderer from './styling/getFelaRenderer'
+import getStyleRenderer from './styling/getStyleRenderer'
 import useTheme from './styling/useTheme'
 
 import Box from './components/box'
@@ -43,10 +43,10 @@ export {
   Card,
   Checkbox,
   Col,
-  FelaProvider,
   Fixed,
   getDataFromFields,
-  getFelaRenderer,
+  StyleProvider,
+  getStyleRenderer,
   Grid,
   isFormValid,
   Link,

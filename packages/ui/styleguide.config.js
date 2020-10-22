@@ -35,27 +35,25 @@ module.exports = {
     {
       name: 'Introduction',
       content: 'docs/introduction.md',
-      usageMode: 'hide',
+    },
+
+    {
+      name: 'Setup',
+      content: 'docs/setup.md',
     },
     {
-      name: 'Documentation',
-      sectionDepth: 1,
-      sections: [
-        {
-          name: 'Installation',
-          content: 'docs/installation.md',
-          description: 'The description for the installation section',
-        },
-        {
-          name: 'Styling',
-          content: 'docs/styling.md',
-        },
-      ],
+      name: 'Styling',
+      content: 'docs/styling.md',
     },
     {
       name: 'Components',
       components: 'src/components/**/index.js',
       sectionDepth: 1,
+    },
+    {
+      name: 'Playroom',
+      external: true,
+      href: 'http://playroom.bdp-rps.app',
     },
   ],
   webpackConfig: {

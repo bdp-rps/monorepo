@@ -49,7 +49,7 @@ const getResponsiveMediaQueries = (values, props) => {
   return mediaQueryMap[values.length]
 }
 
-export default function getFelaRenderer() {
+export default function getStyleRenderer() {
   const renderer = createRenderer({
     enhancers: [sortMediaQueryMobileFirst()],
     plugins: [

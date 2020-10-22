@@ -1,10 +1,10 @@
 import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
-import { getFelaRenderer, StyleTags } from '@bdp-rps/ui'
+import { getStyleRenderer, StyleTags } from '@bdp-rps/ui'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const renderer = getFelaRenderer()
+    const renderer = getStyleRenderer()
 
     const originalRenderPage = ctx.renderPage
 

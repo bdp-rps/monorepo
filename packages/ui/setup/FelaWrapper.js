@@ -1,8 +1,8 @@
 import React from 'react'
 
-import FelaProvider from '../src/styling/FelaProvider'
+import StyleProvider from '../src/styling/StyleProvider'
 import theme from '../src/themes/light'
 
 export default function FelaWrapper({ children }) {
-  return <FelaProvider theme={theme}>{children}</FelaProvider>
+  return <StyleProvider theme={theme}>{children}</StyleProvider>
 }
