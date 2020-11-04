@@ -8,10 +8,10 @@
   },
   {
     "part": "Vorstand",
-    "name": "Linda Flohrer",
+    "name": "Roxanne Schäfer (roxy)",
     "position": "Stellv. Landesvorsitzende",
-    "contact": "linda@bdp-rps.de",
-    "group": "Franz von Sickingen"
+    "contact": "roxy@bdp-rps.de",
+    "group": "Albert Schweitzer"
   },
   {
     "part": "Vorstand",
@@ -22,10 +22,10 @@
   },
   {
     "part": "Vorstand",
-    "name": "Hannes Müller",
-    "position": "Stellv. Landesvorsitzender",
-    "contact": "hannes@bdp-rps.de",
-    "group": "Kurzpfalz"
+    "name": "Victoria Schilde (zappussel)",
+    "position": "Stellv. Landesvorsitzende",
+    "contact": "zappussel@bdp-rps.de",
+    "group": "Roter Löwe (LV NRW)"
   },
   {
     "part": "Vorstand",
@@ -36,9 +36,9 @@
   },
   {
     "part": "Mitgliederverwaltung",
-    "name": "Arno Schäfer",
-    "contact": "arno@bdp-rps.de",
-    "group": "der Piraten"
+    "name": "Rouven Wachhaus",
+    "contact": "rouven@bdp-rps.de",
+    "group": "Idar-Oberstein"
   },
   {
     "part": "Landesbeauftragte Wölflings-Stufe",
@@ -48,33 +48,33 @@
   },
   {
     "part": "Landesbeauftragte Wölflings-Stufe",
-    "name": "Roxanne Schaefer (roxy)",
-    "contact": "roxy@bdp-rps.de",
-    "group": "Albert Schweitzer"
+    "name": "Christine Limburg (tine)",
+    "contact": "tine@bdp-rps.de",
+    "group": "von Helfenstein"
   },
   {
     "part": "Landesbeauftragte Pfadfinder-Stufe",
-    "name": "Lukas Ebel",
-    "contact": "lukas@bdp-rps.de",
-    "group": "Franz von Sickingen"
-  },
-  {
-    "part": "Landesbeauftragte Pfadfinder-Stufe",
-    "name": "Victoria Schilde (zappussel)",
-    "contact": "zappussel@bdp-rps.de",
-    "group": "Roter Löwe"
-  },
-  {
-    "part": "Landesbeauftragte R/R-Stufe",
-    "name": "Merlin Schäfer",
-    "contact": "merlin@bdp-rps.de",
-    "group": "der Piraten"
-  },
-  {
-    "part": "Landesbeauftragte R/R-Stufe",
-    "name": "Michael Küppers (profi)",
-    "contact": "profi@bdp-rps.de",
+    "name": "Carsten Pütz",
+    "contact": "carsten@bdp-rps.de",
     "group": "Pilgrim Falkoni"
+  },
+  {
+    "part": "Landesbeauftragte Pfadfinder-Stufe",
+    "name": "Marisa Keul",
+    "contact": "marisa@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte R/R-Stufe",
+    "name": "Sandro Mähringer-Kunz",
+    "contact": "sandro@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+  {
+    "part": "Landesbeauftragte R/R-Stufe",
+    "name": "Amina Courbier",
+    "contact": "amina@bdp-rps.de",
+    "group": "von Helfenstein"
   },
   {
     "part": "Landesbeauftragte Ausbildung",
@@ -84,9 +84,9 @@
   },
   {
     "part": "Landesbeauftragte Ausbildung",
-    "name": "Michelle Büttner",
-    "contact": "michelle@bdp-rps.de",
-    "group": "Goten"
+    "name": "Anahita Emminghaus",
+    "contact": "anahita@bdp-rps.de",
+    "group": "Tscherkessen"
   },
   {
     "part": "Landesbeauftragte Medien & IT",
@@ -127,6 +127,12 @@
     "part": "Landesjugendring Saarland",
     "name": "Michael Braun (micha)",
     "contact": "micha@bdp-rps.de",
+    "group": "Tscherkessen"
+  },
+  {
+    "part": "Landesjugendring Saarland",
+    "name": "Lukas Honecker",
+    "contact": "lukas@bdp-rps.de",
     "group": "Tscherkessen"
   },
   {
