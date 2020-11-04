@@ -41,6 +41,19 @@ export default () => (
         <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
           paddingBottom={4}>
+          <NextLink href="https://map.bdp-rps.app">
+            <a style={{ textDecoration: 'none' }}>
+              <Tile title="Platzfinder">
+                <b>Lagerplatzfinden ohne Stress - digital.</b>
+                <br />
+                Ermöglicht das suchen und hinzufügen von allerelei Lagerplätzen.
+              </Tile>
+            </a>
+          </NextLink>
+        </Box>
+        <Box
+          basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
+          paddingBottom={4}>
           <NextLink href="https://styleguide.bdp-rps.app">
             <a style={{ textDecoration: 'none' }}>
               <Tile title="Styleguide">
