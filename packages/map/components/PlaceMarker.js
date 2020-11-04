@@ -1,0 +1,41 @@
+import React, { useState } from 'react';
+import { Marker, Popup } from 'react-leaflet';
+import L from 'leaflet';
+import { Box } from '@bdp-rps/ui';
+
+
+export default ({ place }) => {
+    const position = [place.lat, place.long];
+
+    let url = '/images/Stammesheim.png'
+     switch (place.placetype.name) {
+        case 'Stammesheim':
+            url = '/images/Stammesheim.png'
+            break;
+        case 'Stammeszeltplatz':
+            url = '/images/Stammeszeltplatz.png'
+            break;
+        case 'Zeltplatz':
+            url = '/images/Zeltplatz.png';
+            break;
+        case 'Heim':
+            url = '/images/Heim.png';
+            break;
+    }
+
+    const icon = L.icon({
+        iconUrl: url,
+        iconSize:     [63, 46], 
+        popupAnchor:  [-3, -76]
+    })
+    return (
+        <Box>
+            <Marker
+                position={position}
+                icon={icon}
+            >
+            </Marker>
+         </Box>
+    )
+}
+ 
