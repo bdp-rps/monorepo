@@ -6,13 +6,13 @@ import AddMarker from './AddMarker';
 import React, { useRef, useEffect } from 'react';
 import { Box } from '@bdp-rps/ui';
 import L from 'leaflet';
-import '../styles.css';
-
+ 
 export default ({ places, addingLocation, setLocationToAdd, locationToAdd }) => {
     const map = useRef(null)
     return (
         <Box >
-            <Map
+            <Text> TEST </Text>
+            {/* <Map
                 ref={map}
                 center={[50, 10]}
                 zoom={6}
@@ -25,7 +25,7 @@ export default ({ places, addingLocation, setLocationToAdd, locationToAdd }) => 
                     return <PlaceMarker key={key} place={place} />
                 })}
                 {addingLocation ? <AddMarker center={map.current.leafletElement.getBounds().getCenter()} setLocationToAdd={setLocationToAdd} locationToAdd={locationToAdd} /> : null}
-            </Map>
+            </Map> */}
         </Box>
     )
 }

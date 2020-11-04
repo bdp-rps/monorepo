@@ -3,7 +3,8 @@ import NextLink from 'next/link'
 import Add from './Add';
 import { Box, useTheme, TabNav, TabNavItem } from '@bdp-rps/ui'
 
-import Layout from '../Layout'
+import Layout from '../components/Layout'
+
 
 export default ({placetypes, setAddingLocation,locationToAdd}) =>{
     const theme = useTheme();

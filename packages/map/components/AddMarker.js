@@ -2,8 +2,7 @@ import { Marker, Popup } from 'react-leaflet';
 import React, { useEffect, useState } from 'react';
 import { Box } from '@bdp-rps/ui';
 import L from 'leaflet';
-import '../styles.css';
-
+ 
 let position = { lat: 49.66263157989627, lng: 10.008544921875002 }
 
 const addMarker = ({ center, setLocationToAdd, locationToAdd }) => {

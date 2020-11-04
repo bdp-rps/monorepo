@@ -4,7 +4,7 @@
   "description": "Map app",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export",
