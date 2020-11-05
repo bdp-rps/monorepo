@@ -30,11 +30,30 @@ function Placefinder({ children, placetypes, places }) {
   )
 }
 Placefinder.getInitialProps = async ({ req }) => {
-  const resPlaceTypes = await fetch('http://localhost:5000/placetypes');
-  const resPlaces = await fetch('http://localhost:5000/places');
-  const placetypes = await resPlaceTypes.json();
-  const places = await resPlaces.json();
-  return { placetypes, places };
+  // const resPlaceTypes = await fetch('http://localhost:5000/placetypes');
+  // const resPlaces = await fetch('http://localhost:5000/places');
+  // const placetypes = await resPlaceTypes.json();
+  // const places = await resPlaces.json();
+  const placetypes = [{
+    name: 'Lagerplatz',
+    description: 'Ein Lagerplatz',
+    icon: ''
+  }, {
+    name: 'Stammeslagerplatz',
+    description: 'Ein Stammeslagerplatz',
+    icon: ''
+  },
+  {
+    name: 'Heim',
+    description: 'Ein Heim',
+    icon: ''
+  },
+  {
+    name: 'Stammesheim',
+    description: 'Ein Stammesheim',
+    icon: ''
+  }]
+  // return { placetypes, places };
 };
 
 export default Placefinder;

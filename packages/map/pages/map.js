@@ -29,11 +29,11 @@ const Map = dynamic(() => import('../../components/Map/DynamicMap'), { ssr: fals
   )
 }
 Placefinder.getInitialProps = async ({ req }) => {
-  const resPlaceTypes = await fetch('http://localhost:5000/placetypes');
-  const resPlaces =  await fetch('http://localhost:5000/places');
-  const placetypes = await resPlaceTypes.json();
-  const places = await resPlaces.json();
-  return { placetypes,places};
+  // const resPlaceTypes = await fetch('http://localhost:5000/placetypes');
+  // const resPlaces =  await fetch('http://localhost:5000/places');
+  // const placetypes = await resPlaceTypes.json();
+  // const places = await resPlaces.json();
+  // return { placetypes,places};
 };
 
 export default Placefinder;
