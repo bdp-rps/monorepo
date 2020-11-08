@@ -24,7 +24,7 @@ const addMarker = ({ center, setLocationToAdd, locationToAdd }) => {
     //      setLocationToAdd(position);
     // }
 
-    const url = '/images/AddPlaceIcon.png'
+    const url = '../src/AddPlaceIcon.png'
     const icon = L.icon({
         iconUrl: url,
         iconSize: [40, 40], // size of the icon

@@ -53,7 +53,10 @@ Placefinder.getInitialProps = async ({ req }) => {
     description: 'Ein Stammesheim',
     icon: ''
   }]
-  // return { placetypes, places };
+  const places = [{
+    
+  }]
+  return { placetypes, places };
 };
 
 export default Placefinder;

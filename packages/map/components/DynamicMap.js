@@ -12,7 +12,7 @@ export default ({ places, addingLocation, setLocationToAdd, locationToAdd }) => 
     return (
         <Box >
             <Text> TEST </Text>
-            {/* <Map
+            <Map
                 ref={map}
                 center={[50, 10]}
                 zoom={6}
@@ -25,7 +25,7 @@ export default ({ places, addingLocation, setLocationToAdd, locationToAdd }) => 
                     return <PlaceMarker key={key} place={place} />
                 })}
                 {addingLocation ? <AddMarker center={map.current.leafletElement.getBounds().getCenter()} setLocationToAdd={setLocationToAdd} locationToAdd={locationToAdd} /> : null}
-            </Map> */}
+            </Map>
         </Box>
     )
 }

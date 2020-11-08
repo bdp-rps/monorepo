@@ -7,19 +7,19 @@ import { Box } from '@bdp-rps/ui';
 export default ({ place }) => {
     const position = [place.lat, place.long];
 
-    let url = '/images/Stammesheim.png'
+    let url = '../src/Stammesheim.png'
      switch (place.placetype.name) {
         case 'Stammesheim':
-            url = '/images/Stammesheim.png'
+            url = '../src/Stammesheim.png'
             break;
         case 'Stammeszeltplatz':
-            url = '/images/Stammeszeltplatz.png'
+            url = '../src/Stammeszeltplatz.png'
             break;
         case 'Zeltplatz':
-            url = '/images/Zeltplatz.png';
+            url = '../src/Zeltplatz.png';
             break;
         case 'Heim':
-            url = '/images/Heim.png';
+            url = '../src/Heim.png';
             break;
     }
 
