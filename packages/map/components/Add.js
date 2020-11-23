@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
 import { Box, TextInput, SelectInput, TextArea, Text, Button } from '@bdp-rps/ui';
+import  placetypes from '../src/types/placetypes';
 
-const placetypes = [
-    {
-        name: '',
-        description: '',
-        icon: ''
-    }
-];
 
 const defaultPlace = {
     lat: '',
@@ -107,8 +101,8 @@ export default ({ onSubmit, initialAddress = defaultAddress, initialPlace = defa
                     label="Platzart"
                     value={place.placetype}
                     onChange={placetype => setPlace({ ...place, placetype })}>
-                    {placetypes.map(placetype => {
-                        return <option value={placetype._id} key={placetypes.indexOf(placetype)}>{placetype.name}</option>
+                    {Object.keys(placetypes).map((placetype,key )=> {
+                        return <option value={placetype._id} key={key}>{placetype.name}</option>
                     })}
                 </SelectInput>
             </Box>

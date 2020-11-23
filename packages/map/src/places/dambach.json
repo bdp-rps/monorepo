@@ -1,11 +1,12 @@
 {
-  "name": "Dambach Zelten",
+  "title": "Dambach Zelten",
   "location": [
     {
       "lat": "49.628172",
       "long": "7.132728"
     }
   ],
+  "type": "ZELTPLATZ",
   "price": 100,
   "size": 60,
   "contact": [

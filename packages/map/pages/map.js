@@ -2,8 +2,7 @@ import { Box, Text, Collumn, useTheme } from '@bdp-rps/ui';
 import Header from '../../components/Header'
 import dynamic from 'next/dynamic';
 import SideBar from '../../components/Map/Sidebar';
-import fetch from 'node-fetch'
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 
 
 const Map = dynamic(() => import('../../components/Map/DynamicMap'), { ssr: false })

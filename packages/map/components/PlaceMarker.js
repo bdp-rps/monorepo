@@ -4,27 +4,10 @@ import L from 'leaflet';
 import { Box } from '@bdp-rps/ui';
 
 
-export default ({ place }) => {
-    const position = [place.lat, place.long];
-
-    let url = '../src/Stammesheim.png'
-     switch (place.placetype.name) {
-        case 'Stammesheim':
-            url = '../src/Stammesheim.png'
-            break;
-        case 'Stammeszeltplatz':
-            url = '../src/Stammeszeltplatz.png'
-            break;
-        case 'Zeltplatz':
-            url = '../src/Zeltplatz.png';
-            break;
-        case 'Heim':
-            url = '../src/Heim.png';
-            break;
-    }
-
+const placeMarker = ({ location,type}) => {
+    const position = [location[0].lat, location[0].long];
     const icon = L.icon({
-        iconUrl: url,
+        iconUrl: type.icon,
         iconSize:     [63, 46], 
         popupAnchor:  [-3, -76]
     })
@@ -38,4 +21,6 @@ export default ({ place }) => {
          </Box>
     )
 }
+
+export default placeMarker;
  
