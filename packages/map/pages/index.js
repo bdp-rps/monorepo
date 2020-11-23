@@ -4,7 +4,8 @@ import { Box, Link, TextInput, Text, Button, useTheme } from '@bdp-rps/ui'
 import Header from '../components/Header'
 import SideBar from '../components/Sidebar';
 import dynamic from 'next/dynamic';
-import fetch from 'node-fetch'
+import fetch from 'node-fetch';
+import places from '../src/places';
 
 
 const Map = dynamic(() => import('../components/DynamicMap'), { ssr: false })
@@ -33,8 +34,7 @@ Placefinder.getInitialProps = async ({ req }) => {
   // const resPlaceTypes = await fetch('http://localhost:5000/placetypes');
   // const resPlaces = await fetch('http://localhost:5000/places');
   // const placetypes = await resPlaceTypes.json();
-  // const places = await resPlaces.json();
-  const placetypes = [{
+   const placetypes = [{
     name: 'Lagerplatz',
     description: 'Ein Lagerplatz',
     icon: ''

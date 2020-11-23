@@ -1,0 +1,35 @@
+{
+  "name": "Dambach Zelten",
+  "location": [
+    {
+      "lat": "49.628172",
+      "long": "7.132728"
+    }
+  ],
+  "price": 100,
+  "size": 60,
+  "contact": [
+    {
+      "email": "timonflick@outlook.com",
+      "telephone": "067826655"
+    }
+  ],
+  "address": [
+    {
+      "city": "Dambach",
+      "postcode": "55765",
+      "street": "Hauptstraße",
+      "streetnumber": 14
+    }
+  ],
+  "description":"sehr gut",
+  "changes": [
+    {
+      "date": 1600716772404,
+      "name": "Timon",
+      "mail": "",
+      "type": "create",
+      "content": "erstellt"
+    } 
+  ]
+}

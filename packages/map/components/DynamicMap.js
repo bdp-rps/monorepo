@@ -1,17 +1,16 @@
  
 
-import { TileLayer, Map, Marker, Popup } from 'react-leaflet';
+import { TileLayer,  MapContainer as Map, Marker, Popup } from 'react-leaflet';
 import PlaceMarker from './PlaceMarker';
 import AddMarker from './AddMarker';
 import React, { useRef, useEffect } from 'react';
 import { Box } from '@bdp-rps/ui';
 import L from 'leaflet';
  
-export default ({ places, addingLocation, setLocationToAdd, locationToAdd }) => {
+const DynamicMap = ({ places, addingLocation, setLocationToAdd, locationToAdd }) => {
     const map = useRef(null)
     return (
         <Box >
-            <Text> TEST </Text>
             <Map
                 ref={map}
                 center={[50, 10]}
@@ -29,6 +28,7 @@ export default ({ places, addingLocation, setLocationToAdd, locationToAdd }) => 
         </Box>
     )
 }
+export default DynamicMap;
 
 
 
