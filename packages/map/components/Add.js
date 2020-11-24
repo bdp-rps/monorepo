@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Box, TextInput, SelectInput, TextArea, Text, Button } from '@bdp-rps/ui';
-import  placetypes from '../src/types/placetypes';
-
+ 
 
 const defaultPlace = {
     lat: '',
@@ -12,7 +11,7 @@ const defaultPlace = {
     email: '',
     telephone: '',
     description: '',
-    placetype: placetypes[1],
+    type: null,
     address: ''
 }
 
@@ -23,7 +22,7 @@ const defaultAddress = {
     city: '',
 }
 
-export default ({ onSubmit, initialAddress = defaultAddress, initialPlace = defaultPlace, placetypes = [], setAddingLocation, locationToAdd }) => {
+const Add =({ onSubmit, initialAddress = defaultAddress, initialPlace = defaultPlace, types, setAddingLocation, locationToAdd }) => {
     const [place, setPlace] = useState(initialPlace)
     const [address, setAddress] = useState(initialAddress)
     let addLocation = true
@@ -99,11 +98,9 @@ export default ({ onSubmit, initialAddress = defaultAddress, initialPlace = defa
                 />
                 <SelectInput
                     label="Platzart"
-                    value={place.placetype}
-                    onChange={placetype => setPlace({ ...place, placetype })}>
-                    {Object.keys(placetypes).map((placetype,key )=> {
-                        return <option value={placetype._id} key={key}>{placetype.name}</option>
-                    })}
+                    value={place.type}
+                    onChange={type => setPlace({ ...place, type })}>
+                    {}
                 </SelectInput>
             </Box>
             <Box space={4} padding={2} minWidth={350}>
@@ -139,3 +136,6 @@ export default ({ onSubmit, initialAddress = defaultAddress, initialPlace = defa
         </Box>
     )
 }
+export default  Add;
+
+//Object.keys(type).map((type,key )=> { return <option value={type} key={key}>{placetype.name}</option>})

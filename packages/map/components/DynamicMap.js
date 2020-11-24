@@ -4,7 +4,6 @@ import AddMarker from './AddMarker';
 import React, { useRef, useEffect } from 'react';
 import { Box } from '@bdp-rps/ui';
 import L from 'leaflet';
-import types from '../src/types/placeTypes';
 import placeList from '../src/places';
 
 
@@ -17,9 +16,9 @@ const places = placeList.reduce((places, name) => {
     return places
 }, {})
 
-const DynamicMap = ({ addingLocation, setLocationToAdd, locationToAdd }) => {
+const DynamicMap = ({ types, addingLocation, setLocationToAdd, locationToAdd }) => {
     const map = useRef(null)
-    return (
+     return (
         <Box >
             <Map
                 ref={map}
@@ -30,17 +29,13 @@ const DynamicMap = ({ addingLocation, setLocationToAdd, locationToAdd }) => {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png">
                 </TileLayer>
                 {placeList.map((name, key) => {
-                    const {
+                     const {
                         title,
                         location,
                         type
                     } = places[name]
-                    // console.log("Placename: " + name)
-                    // console.log("Placetypes: ")
-                    // console.log(types)
-                    // console.log("Placelocation: ")
-                    // console.log(location[0])
-                    return (<PlaceMarker location={location}key={key} type={types[type]}  />)
+                    console.log(types);
+                     return (<PlaceMarker location={location}key={key} type={types[type]}  />)
                 })
                 }
             </Map>

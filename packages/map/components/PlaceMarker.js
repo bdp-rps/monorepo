@@ -6,8 +6,9 @@ import { Box } from '@bdp-rps/ui';
 
 const placeMarker = ({ location,type}) => {
     const position = [location[0].lat, location[0].long];
+    console.log(type);
     const icon = L.icon({
-        iconUrl: type.icon,
+        iconUrl: type.iconPath,
         iconSize:     [63, 46], 
         popupAnchor:  [-3, -76]
     })

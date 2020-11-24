@@ -4,9 +4,7 @@ import Add from './Add';
 import { Box, useTheme, TabNav, TabNavItem } from '@bdp-rps/ui'
 
 import Layout from '../components/Layout'
-
-
-export default ({placetypes, setAddingLocation,locationToAdd}) =>{
+const Sidebar = ({types, setAddingLocation,locationToAdd}) =>{
     const theme = useTheme();
     const [activeTab, setActiveTab] = React.useState('add');
     return (
@@ -25,10 +23,11 @@ export default ({placetypes, setAddingLocation,locationToAdd}) =>{
             space={5}
             padding={5}
             display={activeTab === 'add' ? 'flex' : 'none'}>
-            <Add placetypes={placetypes} setAddingLocation={setAddingLocation} locationToAdd={locationToAdd}/>
+            <Add types={types} setAddingLocation={setAddingLocation} locationToAdd={locationToAdd}/>
           </Box>
         
         </Box>
     )
-
 }
+
+export default Sidebar;
