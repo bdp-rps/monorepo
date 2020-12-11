@@ -1,0 +1,24 @@
+{
+  "lat": "",
+  "long": "",
+  "name": "Test",
+  "price": "123",
+  "size": "22",
+  "email": "testmail@mail.com",
+  "telephone": "06023502350235",
+  "description": "Dies ist ein Testort",
+  "type": "stammesheim",
+  "street": "Hauptstraße ",
+  "number": "10101",
+  "postalcode": "",
+  "city": "Musterstadt",
+  "changes": [
+    {
+      "date": 1607704682262,
+      "name": "Timon",
+      "mail": "gehtdichnix@n.com",
+      "type": "create",
+      "content": "Teststadt "
+    }
+  ]
+}
