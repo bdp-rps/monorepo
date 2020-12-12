@@ -188,7 +188,7 @@ Eingereicht von: ${submitter} (${submitterMail})`
 
   if (createBranch.errors) {
     return {
-      error: 'Dieser Titel wurde bereits vor kurzem eingereicht.',
+      error: 'Dieser Name wurde bereits vor kurzem eingereicht.',
       success: false,
     }
   }
@@ -221,7 +221,7 @@ Eingereicht von: ${submitter} (${submitterMail})`
 
   const createPullRequest = await executeCreatePullRequestMutation(
     auth,
-    place.title,
+    place.name,
     branchName,
     body
   )

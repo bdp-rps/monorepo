@@ -1,33 +1,34 @@
-import { Marker, Popup } from 'react-leaflet';
-import React, { useEffect, useState } from 'react';
+import { Marker, Popup, useMap } from 'react-leaflet';
+import React, { useRef, useState, useMemo, useCallback } from 'react';
 import { Box } from '@bdp-rps/ui';
 import L from 'leaflet';
- 
-let position = { lat: 49.66263157989627, lng: 10.008544921875002 }
 
-const addMarker = ({ center, setLocationToAdd, locationToAdd }) => {
 
-    const [isDone, setDone] = useState(false)
+const addMarker = ({ setLocationToAdd}) => {
+    const map = useMap()
+    const center = map.getCenter();
+    const [position, setPosition] = useState(center)
+    const markerRef = useRef(null)
+    const eventHandlers = useMemo(
+        () => ({
+            dragend() {
+                const marker = markerRef.current
+                if (marker != null) {
+                    setPosition(marker.getLatLng())
+                    setLocationToAdd(marker.getLatLng())
+                }
+            },
+        }),
+        [],
+    )
 
-    useEffect(() => {
-        if (center) {
-            position = center;
-            setDone(true);
-        }
-    }, [center])
 
-    if (!isDone) {
-        return null
-    }
 
-    // const onDragEnd = (position) => {
-    //      setLocationToAdd(position);
-    // }
 
-    const url = '../src/AddPlaceIcon.png'
+    const url = 'AddPlaceIcon.png'
     const icon = L.icon({
         iconUrl: url,
-        iconSize: [40, 40], // size of the icon
+        iconSize: [40, 40],
         popupAnchor: [-3, -76]
     })
 
@@ -37,8 +38,9 @@ const addMarker = ({ center, setLocationToAdd, locationToAdd }) => {
                 position={position}
                 icon={icon}
                 draggable={true}
-                onDragend={(event) => {()=>setLocationToAdd(position) }}
-            >
+                eventHandlers={eventHandlers}
+                position={position}
+                ref={markerRef}>
             </Marker>
         </Box>
     )

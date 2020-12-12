@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Box, TextInput, SelectInput, TextArea, Text, Button } from '@bdp-rps/ui';
- 
+import { Box, TextInput, SelectInput, TextArea, Text, Button, Modal } from '@bdp-rps/ui';
+
 
 const defaultPlace = {
     lat: '',
@@ -11,28 +11,32 @@ const defaultPlace = {
     email: '',
     telephone: '',
     description: '',
-    type: null,
-    address: ''
-}
-
-const defaultAddress = {
+    type: '',
     street: '',
     number: '',
     postalcode: '',
     city: '',
 }
 
-const Add =({ onSubmit, initialAddress = defaultAddress, initialPlace = defaultPlace, types, setAddingLocation, locationToAdd }) => {
+
+const defaultSubmitter = {
+    name: '',
+    mail: '',
+    content: '',
+}
+
+const Add = ({ onSubmit, addingLocation, initialPlace = defaultPlace, types, setAddingLocation, locationToAdd }) => {
     const [place, setPlace] = useState(initialPlace)
-    const [address, setAddress] = useState(initialAddress)
-    let addLocation = true
+     const [isLoading, setLoading] = useState(false)
+    const [submitterVisible, setAuthorVisible] = useState(false)
+    const [submitter, setSubmitter] = useState(defaultSubmitter)
     return (
         <Box>
 
             <Box space={4} padding={2} minWidth={350}>
                 <Text intent="category">Platz hinzufügen</Text>
-                <Text>location to add:{locationToAdd.lat}</Text>
-                <Button onClick={() => { setAddingLocation(addLocation); addLocation = !addLocation }}>Standort hinzufügen</Button>
+                <Text intent="note" >location to add:{locationToAdd.lat} {locationToAdd.lat}</Text>
+                <Button onClick={() => { setAddingLocation(!addingLocation) }}>Standort hinzufügen</Button>
                 <TextInput
                     label=""
                     name="lat"
@@ -98,9 +102,13 @@ const Add =({ onSubmit, initialAddress = defaultAddress, initialPlace = defaultP
                 />
                 <SelectInput
                     label="Platzart"
+                    required
                     value={place.type}
-                    onChange={type => setPlace({ ...place, type })}>
-                    {}
+                    onChange={type => setPlace({ ...place, type })}
+                >
+                    {Object.keys(types).map((type, key) => {
+                        return <option value={type} key={key}>{types[type].name}</option>
+                    })}
                 </SelectInput>
             </Box>
             <Box space={4} padding={2} minWidth={350}>
@@ -108,34 +116,89 @@ const Add =({ onSubmit, initialAddress = defaultAddress, initialPlace = defaultP
                 <TextInput
                     label="Straße"
                     name="street"
-                    value={address.street}
-                    onChange={street => setAddress({ ...place, street })}
+                    value={place.street}
+                    onChange={street => setPlace({ ...place, street })}
                     onBlur={() => { }}
                     onFocus={() => { }}
                 />
                 <TextInput
                     label="Hausnummer"
                     name="number"
-                    value={address.number}
-                    onChange={number => setAddress({ ...place, number })}
+                    value={place.number}
+                    onChange={number => setPlace({ ...place, number })}
                     onBlur={() => { }}
                     onFocus={() => { }}
                 />
                 <TextInput
                     label="Stadt"
                     name="city"
-                    value={address.city}
-                    onChange={city => setAddress({ ...place, city })}
+                    value={place.city}
+                    onChange={city => setPlace({ ...place, city })}
                     onBlur={() => { }}
                     onFocus={() => { }}
                 />
             </Box>
+            <Modal
+                visible={submitterVisible}
+                onClose={() => {
+                    setAuthorVisible(false)
+                }}
+            >
+                <Box space={4} padding={2} minWidth={350}>
+                    <Text intent="category">Deine Daten</Text>
+                    <TextInput
+                        value={submitter.name}
+                        onChange={name => setSubmitter({ ...submitter, name })}
+                        label="Dein Name"
+                    />
+                    <TextInput
+                        value={submitter.mail}
+                        onChange={mail => setSubmitter({ ...submitter, mail })}
+                        label="Deine E-Mail"
+                    />
+                    <TextArea
+                        name="content"
+                        value={submitter.content}
+                        onChange={content => setSubmitter({ ...submitter, content })}
+                        label="Beschreibung (bei Änderung)"
+                    />
+                    <Box />
+                    <Box paddingTop={2} space={2}>
+
+                        <Button
+                            disabled={isLoading}
+                            onClick={async () => {
+                                setLoading(true)
+                                const res = await onSubmit(place, {
+                                    submitter: submitter.name,
+                                    submitterMail: submitter.mail,
+                                    submitterContent: submitter.content
+                                })
+                                if (res.sucess) {
+                                    setAuthorVisible(false)
+                                    alert('Erfolgreich! Vielen Dank für deine Einsendung!')
+                                } else {
+                                    alert(res.error)
+                                }
+                                setLoading(false)
+                            }}>{isLoading ? 'Daten werden eingereicht' : 'Einreichen'}</Button>
+                        <Button
+                            variant="secondary"
+
+                            onClick={() => {
+                                setAuthorVisible(false)
+                            }}>
+                            Abbrechen
+            </Button>
+                    </Box>
+                </Box>
+            </Modal>
             <Box space={4} padding={2} minWidth={350}>
-                <Button onClick={() => { }}>Platz hinzufügen</Button>
+                <Button onClick={() => setAuthorVisible(true)}>Platz hinzufügen</Button>
             </Box>
+
         </Box>
     )
 }
-export default  Add;
+export default Add;
 
-//Object.keys(type).map((type,key )=> { return <option value={type} key={key}>{placetype.name}</option>})

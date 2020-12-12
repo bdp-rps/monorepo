@@ -2,9 +2,10 @@ import React from 'react'
 import NextLink from 'next/link'
 import Add from './Add';
 import { Box, useTheme, TabNav, TabNavItem } from '@bdp-rps/ui'
-
 import Layout from '../components/Layout'
-const Sidebar = ({types, setAddingLocation,locationToAdd}) =>{
+import addPlace from '../api/addPlace'
+
+const Sidebar = ({types, setAddingLocation,locationToAdd, addingLocation}) =>{
     const theme = useTheme();
     const [activeTab, setActiveTab] = React.useState('add');
     return (
@@ -23,11 +24,11 @@ const Sidebar = ({types, setAddingLocation,locationToAdd}) =>{
             space={5}
             padding={5}
             display={activeTab === 'add' ? 'flex' : 'none'}>
-            <Add types={types} setAddingLocation={setAddingLocation} locationToAdd={locationToAdd}/>
+            <Add  onSubmit={async(place, meta)=> await addPlace(place, {...meta, change: false})}types={types} setAddingLocation={setAddingLocation} addingLocation={addingLocation}locationToAdd={locationToAdd}/>
           </Box>
         
         </Box>
     )
 }
 
-export default Sidebar;
+export default Sidebar
