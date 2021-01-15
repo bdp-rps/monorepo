@@ -59,13 +59,15 @@ export default () => {
             <br />
             Stefan Schmidt
             <br />
-            Linda Flohrer
-            <br />
-            Hannes Müller
-            <br />
-            Dominik Meisinger
+            Roxanne Schaefer
             <br />
             Anne Wendel
+            <br />
+            Victoria Schilde
+            <br />
+            Lukas Ebel
+            <br />
+            Dominik Meisinger
             <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
