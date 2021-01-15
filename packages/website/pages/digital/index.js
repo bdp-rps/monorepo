@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 import {
@@ -14,10 +15,18 @@ import {
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-export default () => (
-  <Template>
-    <Layout paddingTop={10} paddingBottom={10}>
-      Digital
-    </Layout>
-  </Template>
-)
+export default () => {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.push('/digital/downloads')
+  }, [])
+
+  return (
+    <Template>
+      <Layout paddingTop={10} paddingBottom={10}>
+        Digital
+      </Layout>
+    </Template>
+  )
+}
