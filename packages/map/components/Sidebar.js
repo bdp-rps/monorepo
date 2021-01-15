@@ -12,7 +12,7 @@ const Sidebar = ({types, setAddingLocation,locationToAdd, addingLocation}) =>{
         <Box>
             <TabNav onChange={setActiveTab}>
                 <TabNavItem id="add" active={activeTab === 'add'}>Hinzufügen</TabNavItem>
-                <TabNavItem id="filter" active={activeTab === 'filter'} disabled>Filtern</TabNavItem>
+                <TabNavItem id="filter" active={activeTab === 'filter'} >Filtern</TabNavItem>
                 <TabNavItem id="favorites" active={activeTab === 'favorites'} disabled>Favoriten</TabNavItem>
             </TabNav>
             <Box>

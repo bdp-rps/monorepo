@@ -5,32 +5,63 @@ import Header from '../components/Header'
 import SideBar from '../components/Sidebar';
 import dynamic from 'next/dynamic';
 import typeList from '../src/types';
+import placeList from '../src/places';
 
-const types = typeList.reduce((types, name) => {
+const placeData = placeList.reduce((placeData, name) => {
+  const place = require('../src/places/' + name + '.json')
+  placeData[name] = {
+    ...place,
+  }
+  return placeData
+}, {})
+
+
+
+const typeData = typeList.reduce((typeData, name) => {
   const type = require('../src/types/' + name + '.json')
-  types[name] = {
+  typeData[name] = {
     ...type,
   }
-  return types
+  return typeData
 }, {})
 
 
 const Map = dynamic(() => import('../components/Map'), { ssr: false })
 
 function Placefinder({ children }) {
-
+  const [places, setPlaces] = useState([])
+  const [types, setType] = useState(typeData)
   const [addingLocation, setAddingLocation] = useState(false)
   const [locationToAdd, setLocationToAdd] = useState('')
+ 
+  useEffect(() => {
+    const places = Object.entries(placeData)
+    console.log(places)
+    setPlaces(()=>{
+      return places
+    })
+  }, [])
+
   return (
     <Box  >
       <Header />
       <Box
         direction="row">
         <Box grow={1}>
-          <SideBar types={types} setAddingLocation={setAddingLocation} locationToAdd={locationToAdd} addingLocation={addingLocation} />
+          <SideBar
+            setPlaces={setPlaces}
+            types={types}
+            setAddingLocation={setAddingLocation}
+            locationToAdd={locationToAdd}
+            addingLocation={addingLocation} />
         </Box>
         <Box grow={10}>
-          <Map types={types} addingLocation={addingLocation} locationToAdd={locationToAdd} setLocationToAdd={setLocationToAdd} />
+          <Map
+            places={places}
+            types={types}
+            addingLocation={addingLocation}
+            locationToAdd={locationToAdd}
+            setLocationToAdd={setLocationToAdd} />
         </Box>
         <Box>
         </Box>

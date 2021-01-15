@@ -1,0 +1,36 @@
+{
+  "title": "Pfadfinderzentrum Kurpfalz",
+  "location": [
+    {
+      "lat": "49.4435839473461",
+      "long": "7.566395724154964"
+    }
+  ],
+  "type": "stammesheim",
+  "price": 0,
+  "size": 0,
+  "contact": [
+    {
+      "email": "info@pfadfinderzentrum-kurpfalz.de",
+      "telephone": "+49 6371 58472"
+    }
+  ],
+  "address": [
+    {
+      "city": "Ramstein-Miesenbach",
+      "postcode": "66877",
+      "street": "Im Ramsteiner Feld",
+      "streetnumber": 3
+    }
+  ],
+  "description":"Das Pfadfinderzentrum Kurpfalz, eine Jugendbildungs- und Jugendfreizeitstätte (Jugendbegegnungsstätte) mit Jugendzeltplatz, ist Eigentum des Bund der Pfadfinderinnen und Pfadfinder (BdP) Stamm Kurpfalz Ramstein e.V. Die Einrichtung des Pfadfinderzentrum Kurpfalz nahm 1980 ihren Anfang. Unsere Vereinsmitglieder errichteten bis 1985 ein Selbstversorgerhaus, eine Garage und den Zeltplatz. Das Gelände wurde über die Jahre ständig erweitert und gestaltet. Entstanden sind ein Kinderspielplatz, ein Naturlehrpfad, eine Grillhütte, ein Holzbackoffen, ein Feuchtbiotop und noch vieles mehr. Zwischen 2001 und 2003 wurde das Selbstversorgerhaus komplett neu gestaltet; angebaut, umgebaut und renoviert. In 2014 wurde ein modernes Sanitärgebäude mit Küche für den Zeltplatz neu gebaut.",
+  "changes": [
+    {
+      "date": 1600716772404,
+      "name": "Timon",
+      "mail": "",
+      "type": "create",
+      "content": "erstellt"
+    } 
+  ]
+}

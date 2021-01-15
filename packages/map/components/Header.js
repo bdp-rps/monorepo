@@ -18,8 +18,8 @@ export default function Header() {
   return (
     <NavBar>
       <Layout>
-        <Box direction={['column', , 'row']}>
-          <NavBarItem href="/">Filtern</NavBarItem>
+        {/* <Box direction={['column', , 'row']}>
+          <NavBarItem href="/"></NavBarItem>
           {!title ? null : (
             <Box
               alignItems="center"
@@ -40,7 +40,7 @@ export default function Header() {
           <Box alignItems="flex-end" grow={1} extend={{ textAlign: 'right' }}>
             <NavBarItem href="/neu">Hinzufügen</NavBarItem>
           </Box>
-        </Box>
+        </Box> */}
       </Layout>
     </NavBar>
   )

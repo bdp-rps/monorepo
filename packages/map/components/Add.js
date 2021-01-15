@@ -27,7 +27,7 @@ const defaultSubmitter = {
 
 const Add = ({ onSubmit, addingLocation, initialPlace = defaultPlace, types, setAddingLocation, locationToAdd }) => {
     const [place, setPlace] = useState(initialPlace)
-     const [isLoading, setLoading] = useState(false)
+    const [isLoading, setLoading] = useState(false)
     const [submitterVisible, setAuthorVisible] = useState(false)
     const [submitter, setSubmitter] = useState(defaultSubmitter)
     return (
@@ -51,8 +51,8 @@ const Add = ({ onSubmit, addingLocation, initialPlace = defaultPlace, types, set
                 <Box >
                 </Box>
                 <TextInput
-                    label={"Name"}
-                    name="name"
+                    label={"Titel"}
+                    name="title"
                     value={place.name}
                     onChange={name => setPlace({ ...place, name })}
                     onBlur={() => { }}
@@ -150,13 +150,21 @@ const Add = ({ onSubmit, addingLocation, initialPlace = defaultPlace, types, set
                         value={submitter.name}
                         onChange={name => setSubmitter({ ...submitter, name })}
                         label="Dein Name"
+                        name="name"
+                        onBlur={()=>{}}
+                        onFocus={()=>{}}
                     />
                     <TextInput
                         value={submitter.mail}
                         onChange={mail => setSubmitter({ ...submitter, mail })}
                         label="Deine E-Mail"
+                        name="mail"
+                        onBlur={()=>{}}
+                        onFocus={()=>{}}
                     />
                     <TextArea
+                        onFocus={() => { }}
+                        onBlur={()=>{}}
                         name="content"
                         value={submitter.content}
                         onChange={content => setSubmitter({ ...submitter, content })}
