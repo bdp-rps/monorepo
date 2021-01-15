@@ -23,7 +23,7 @@ export default () => (
       grow={1}
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Box space={4} direction="row" wrap="wrap">
-        <Box
+        {/* <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
           paddingBottom={4}>
           <NextLink href="https://liedgut.bdp-rps.app">
@@ -37,7 +37,7 @@ export default () => (
               </Tile>
             </a>
           </NextLink>
-        </Box>
+        </Box> */}
         <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
           paddingBottom={4}>
