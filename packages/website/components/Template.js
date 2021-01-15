@@ -19,7 +19,7 @@ const nav = {
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
-  '/kontakt': 'Kontakt',
+  '/landesverband/landesleitung': 'Kontakt',
 }
 
 const subNavs = {
@@ -126,7 +126,7 @@ export default function Template({ children }) {
               <Spacer size={0.5} />
               <Link href="/impressum">Impressum</Link>
               <Link href="/datenschutz">Datenschutz</Link>
-              <Link href="/kontakt">Kontakt</Link>
+              <Link href="/landesverband/landesleitung">Kontakt</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text intent="category">Andere Seiten</Text>
