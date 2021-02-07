@@ -30,16 +30,21 @@ const Map = dynamic(() => import('../components/Map'), { ssr: false })
 
 function Placefinder({ children }) {
   const [places, setPlaces] = useState([])
+  const [filteredPlaces, setFilteredPlaces] = useState()
   const [types, setType] = useState(typeData)
   const [addingLocation, setAddingLocation] = useState(false)
   const [locationToAdd, setLocationToAdd] = useState('')
- 
+
   useEffect(() => {
-    const places = Object.entries(placeData)
-    console.log(places)
-    setPlaces(()=>{
-      return places
+    const places = []
+    Object.entries(placeData).map((value) => {
+      places.push({
+        ...value[1]
+      }
+      )
     })
+    setPlaces(() => places)
+    setFilteredPlaces(()=> places)
   }, [])
 
   return (
@@ -49,15 +54,16 @@ function Placefinder({ children }) {
         direction="row">
         <Box grow={1}>
           <SideBar
-            setPlaces={setPlaces}
+            setPlaces={setFilteredPlaces}
             types={types}
             setAddingLocation={setAddingLocation}
             locationToAdd={locationToAdd}
-            addingLocation={addingLocation} />
+            addingLocation={addingLocation}
+            places={places} />
         </Box>
         <Box grow={10}>
           <Map
-            places={places}
+            places={filteredPlaces}
             types={types}
             addingLocation={addingLocation}
             locationToAdd={locationToAdd}

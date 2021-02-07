@@ -10,7 +10,7 @@ import placeList from '../src/places';
 
 const Map = ({ types, addingLocation, setLocationToAdd, locationToAdd, places }) => {
     useEffect(() => {
-        console.log(places)
+        // console.log(places)
     }, [])
     return (
         <Box >
@@ -24,12 +24,15 @@ const Map = ({ types, addingLocation, setLocationToAdd, locationToAdd, places })
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png">
                     </TileLayer>
-                    {places.map(([key, place]) => {
-                            return (<PlaceMarker location={place.location} key={key} type={types[place.type]} />)
+                    {places.map((place) => {
+                        return (<PlaceMarker
+                            location={place.location}
+                            key={place.title}
+                            type={types[place.type]} />)
                     })}
                     {addingLocation ?
                         <AddMarker
-                            setLocationToAdd={setLocationToAdd} 
+                            setLocationToAdd={setLocationToAdd}
                             locationToAdd={locationToAdd} /> : null}
 
                 </MapContainer>
