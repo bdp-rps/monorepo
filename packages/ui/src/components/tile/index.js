@@ -5,12 +5,15 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-export default function Tile({ image, title, highlight, children }) {
+
+ 
+export default function Tile({ image, title, highlight,imageHeight=120, imagePosition='center',children }) {
   const { theme } = useFela()
 
   const styleProps = {
     image,
     title,
+    imageHeight
   }
 
   return (
@@ -27,10 +30,12 @@ export default function Tile({ image, title, highlight, children }) {
         justifyContent="flex-end"
         alignItems="flex-start"
         width="100%"
-        height={image ? 120 : 'auto'}
+        height={image ? imageHeight : 'auto'}
         extend={{
           backgroundImage: image ? 'url("' + image + '")' : undefined,
           backgroundSize: 'cover',
+          backgroundPosition: imagePosition
+          
         }}>
         {title ? (
           <Box

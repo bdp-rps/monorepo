@@ -38,7 +38,8 @@ export default () => (
         <Box grow={10}>
           <Tile
             title="Wölflinge (6 - 10 Jahre)"
-            image="/images/bg.jpg"
+            image="/images/wasserbomben.jpg"
+            imageHeight={300}
             highlight>
             Die Jüngsten nennen sich Wölflinge und bilden Meuten mit zehn bis 30
             Kindern. Die Spielidee
@@ -60,7 +61,8 @@ export default () => (
         <Box grow={10}>
           <Tile
             title="Pfadfinder (11 - 15 Jahre)"
-            image="/images/bg.jpg"
+            image="/images/fahrt_landschaft_2.jpg"
+            imageHeight={300}
             highlight>
             Ungefähr Sechs bis acht Pfadfinderinnen und Pfadfinder bilden eine
             Sippe. Geländespiele, <br />
@@ -82,7 +84,8 @@ export default () => (
         <Box grow={10}>
           <Tile
             title="Ranger/Rover (16 - 25 Jahre)"
-            image="/images/bg.jpg"
+            image="/images/fahrt_landschaft_3.jpg"
+            imageHeight={300}
             highlight>
             Ranger und Rover sind die jungen Erwachsenen in unserem Bund. Die
             Meisten von ihnen haben <br />
@@ -101,7 +104,8 @@ export default () => (
         <Box grow={10}>
           <Tile
             title="Erwachsene (ab 25 Jahren)"
-            image="/images/bg.jpg"
+            image="/images/bula_2.jpg"
+            imageHeight={300}
             highlight>
             Erwachsene Pfadfinderinnen und Pfadfinder wirken beratend, fördernd
             und als Fachleute für <br />
