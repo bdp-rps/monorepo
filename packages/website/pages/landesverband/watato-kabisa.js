@@ -33,14 +33,9 @@ export default () => {
             Wir arbeiten komplett ehrenamtlich und sorgen so dafür, 
             dass hundert Prozent der Spenden auch nach Kenia gehen.
             <br />
-            Das Konzept eines Fördervereins hat vor allem den Vorteil,
-            feste Budgets in festen Zeiträumen sinnvoll einplanen
-            und durch eine derartige Gewährleistung CADAMIC
-            die nötige Sicherheit für weitere Projekte geben zu können. Unsere Mitglieder dürfen gerne mitarbeiten, 
-            genauso wichtig sind jedoch auch einfache zahlende Mitglieder, 
-            die mit ihrem frei gewählten Jahresbeitrag die Menschen in Kenia nach ihren Möglichkeiten nachhaltig unterstützen. 
-            Werde auch DU Mitglied von Watoto Kabisa und trage deinen Teil dazu bei,
-            die Welt ein kleines bisschen besser zu hinterlassen als du sie vorgefunden hast!
+            Unsere Partnerorganisation WONESU investiert das Geld vor Ort in verschiedene Projekte,
+            die mehreren tausend Kindern eine stabile, 
+            gesunde Lebens- und Lernumgebung verschaffen.
             <br />
             
             <Link href="https://www.instagram.com/watotokabisa/">Hier</Link> geht es zum Watoto Kabisa Instagram-Kanal.
