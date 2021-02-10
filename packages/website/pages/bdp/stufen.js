@@ -34,12 +34,11 @@ export default () => (
       paddingBottom={10}
       alignSelf="stretch"
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-      <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-        <Box grow={10}>
+      <Box paddingTop={2} direction={'column'} space={4}>
           <Tile
             title="Wölflinge (6 - 10 Jahre)"
             image="/images/wasserbomben.jpg"
-            imageHeight={300}
+            imageHeight={400}
             highlight>
             Die Jüngsten nennen sich Wölflinge und bilden Meuten mit zehn bis 30
             Kindern. Die Spielidee
@@ -55,14 +54,10 @@ export default () => (
             <br />
             und gestalten diese aktiv mit
           </Tile>
-        </Box>
-      </Box>
-      <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-        <Box grow={10}>
           <Tile
             title="Pfadfinder (11 - 15 Jahre)"
             image="/images/fahrt_landschaft_2.jpg"
-            imageHeight={300}
+            imageHeight={400}
             highlight>
             Ungefähr Sechs bis acht Pfadfinderinnen und Pfadfinder bilden eine
             Sippe. Geländespiele, <br />
@@ -78,14 +73,10 @@ export default () => (
             Verantwortung zu übernehmen. Sie gestalten ihre Gruppe und ihre
             Aktivitäten zunehmend selbst.
           </Tile>
-        </Box>
-      </Box>
-      <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-        <Box grow={10}>
           <Tile
             title="Ranger/Rover (16 - 25 Jahre)"
             image="/images/fahrt_landschaft_3.jpg"
-            imageHeight={300}
+            imageHeight={400}
             highlight>
             Ranger und Rover sind die jungen Erwachsenen in unserem Bund. Die
             Meisten von ihnen haben <br />
@@ -98,14 +89,10 @@ export default () => (
             Etwa sieben Ranger/Rover bilden eine Runde. Sie planen die
             Aktivitäten ihrer Runde selbst.
           </Tile>
-        </Box>
-      </Box>
-      <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-        <Box grow={10}>
           <Tile
             title="Erwachsene (ab 25 Jahren)"
             image="/images/bula_2.jpg"
-            imageHeight={300}
+            imageHeight={400}
             highlight>
             Erwachsene Pfadfinderinnen und Pfadfinder wirken beratend, fördernd
             und als Fachleute für <br />
@@ -117,7 +104,6 @@ export default () => (
             <br />
             angegliedert sind.
           </Tile>
-        </Box>
       </Box>
     </Layout>
   </Template>

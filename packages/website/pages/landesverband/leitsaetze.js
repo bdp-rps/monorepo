@@ -49,7 +49,7 @@ export default () => {
         <Box paddingTop={2} direction={'column'} space={4}>
           <Tile
             title="1. einen Beitrag zur Persönlichkeitsbildung junger Menschen leisten"
-            image="/images/lilie_fahne.jpg"
+            image="/images/bula_2.jpg"
             imageHeight={400}
             highlight>
             Unser Ziel ist es, junge Menschen in der Entwicklung zu
