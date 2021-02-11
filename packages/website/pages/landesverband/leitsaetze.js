@@ -21,11 +21,9 @@ export default () => {
 
   return (
     <Template>
-      <Layout paddingTop={10} paddingBottom={10}>
+      <Layout paddingTop={6} paddingBottom={6}>
         <Box>
           <Text>
-            <Text intent="category">Willkommen bei den Pfadfindern.</Text>
-            <br />
             Wie sich Seeleute an den Sternen orientierten, so braucht auch eine
             Gemeinschaft feste Richtwerte, die von dauerhafter Gültigkeit sind.
             Wir, die Stämme im Landesverband Rheinland-Pfalz / Saar im Bund der
@@ -33,7 +31,6 @@ export default () => {
             gegeben, um die Freundschaft und Verbundenheit zwischen unseren
             Stämme zu fördern. Sie halten fest, was das Wesen unseres
             Landesverbandes ausmacht. Sie sind Ziel und Anspruch zugleich.
-            <br />
           </Text>
         </Box>
       </Layout>

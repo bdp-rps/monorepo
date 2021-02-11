@@ -16,7 +16,7 @@ import Template from '../../components/Template'
 
 export default () => (
   <Template>
-    <Layout paddingTop={10} paddingBottom={10}>
+    <Layout paddingTop={6} paddingBottom={6}>
       <Box>
         <Text>
           <Text intent="category">Die Stufen Gruppeneinteilung im BdP</Text>
