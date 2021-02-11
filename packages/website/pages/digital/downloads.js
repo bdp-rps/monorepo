@@ -16,8 +16,8 @@ import Template from '../../components/Template'
 
 export default () => (
   <Template>
-    <Layout paddingTop={10} paddingBottom={10}>
-      Downloads
+    <Layout paddingTop={10} paddingBottom={15}>
+      <Text>Hier stehen in Kürze nützliche Dokumente bereit.</Text>
     </Layout>
   </Template>
 )

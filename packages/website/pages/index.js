@@ -8,7 +8,7 @@ import {
   Tile,
   Link,
   Button,
-  ScrollView
+  ScrollView,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
@@ -84,22 +84,68 @@ export default () => {
             paddingTop={5}
             space={[10, , , 10]}
             direction={['column', , , 'row']}>
-            <Box grow={1}>
+            <Box grow={1} space={2}>
               <TextBox>Juni</TextBox>
-              <Text>26-27. LAT</Text>
+              <Box>
+                <Text color={theme.tokens.foreground}>
+                  <span
+                    style={{
+                      minWidth: 60,
+                      color: theme.tokens.primary,
+                      display: 'inline-block',
+                    }}>
+                    26-27.
+                  </span>
+                  LAT
+                </Text>
+              </Box>
             </Box>
-            <Box grow={1}>
+            <Box grow={1} space={2}>
               <TextBox>Juli</TextBox>
-              <Text>10.07. RR Grillen</Text>
-              <Text>16-19.07 lawöla </Text>
+              <Box>
+                <Text color={theme.tokens.foreground}>
+                  <span
+                    style={{
+                      minWidth: 60,
+                      color: theme.tokens.primary,
+                      display: 'inline-block',
+                    }}>
+                    10.
+                  </span>
+                  RR Grillen
+                </Text>
+                <Text color={theme.tokens.foreground}>
+                  <span
+                    style={{
+                      minWidth: 60,
+                      color: theme.tokens.primary,
+                      display: 'inline-block',
+                    }}>
+                    16-19.
+                  </span>
+                  LaWöLa
+                </Text>
+              </Box>
             </Box>
-            <Box grow={1}>
+            <Box grow={1} space={2}>
               <TextBox>September</TextBox>
-              <Text>11 RR Rave</Text>
+              <Box>
+                <Text color={theme.tokens.foreground}>
+                  <span
+                    style={{
+                      minWidth: 60,
+                      color: theme.tokens.primary,
+                      display: 'inline-block',
+                    }}>
+                    11.
+                  </span>
+                  RR Rave
+                </Text>
+              </Box>
             </Box>
           </Box>
         </ScrollView>
       </Layout>
-    </Template >
+    </Template>
   )
 }
