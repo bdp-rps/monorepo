@@ -69,7 +69,7 @@ export default () => {
                 Freunden miteinander leben
               </>
             }
-            image="/images/gemeinschaft_freunde.jpg"
+            image="/images/gemnschaft_freunde.jpg"
             highlight
             imageHeight={400}>
             Wir sind mehr als ein geographischer Zusammenschluss von Stämmen,
@@ -109,7 +109,7 @@ export default () => {
           </Tile>
           <Tile
             title="4. zusammenarbeiten und uns gegenseitig unterstützen"
-            image="/images/fahrt_strand.jpg"
+            image="/images/fahrt_strnd.jpg"
             highlight
             imageHeight={400}>
             Als Gemeinschaft von Stämmen gestalten wir das Leben unseres
@@ -145,7 +145,7 @@ export default () => {
                 <br /> & bewusst weitergeben
               </>
             }
-            image="/images/fahrt_kothe.jpg"
+            image="/images/fahrt_kote.jpg"
             highlight
             imageHeight={400}>
             Unsere Gemeinschaft richtet sich nach den Werten und Idealen des
@@ -165,7 +165,7 @@ export default () => {
           </Tile>
           <Tile
             title="7. einen Stil pflegen, der Ausdruck unserer gemeinsamen Kultur & Tradition ist"
-            image="/images/schwarzzelte_1.jpg"
+            image="/images/schwrzzelte_1.jpg"
             highlight
             imageHeight={400}>
             Unser Stil soll nach Innen und Außen verdeutlichen, dass wir eine
@@ -227,7 +227,7 @@ export default () => {
           </Tile>
           <Tile
             title="9. dass unsere Gruppen mit Freude & Stil auf Fahrt gehen"
-            image="/images/lagerfeuer_fahrt_1.jpg"
+            image="/images/lagerfeuer_fhrt_1.jpg"
             highlight
             imageHeight={400}>
             Die Fahrt ist nicht nur Programminhalt, sondern Ausdruck unseres
@@ -291,7 +291,7 @@ export default () => {
                 kompetent für ihre Aufgaben ausbilden{' '}
               </>
             }
-            image="/images/mond.jpg"
+            image="/images/mnd.jpg"
             highlight
             imageHeight={400}>
             Wir legen großen Wert auf die Qualifizierung unserer
@@ -321,7 +321,7 @@ export default () => {
           </Tile>
           <Tile
             title="12. nach außen als Gemeinschaft positiv wahrgenommen werden"
-            image="/images/fahrt_landschaft_1.jpg"
+            image="/images/fahrt_landschft_1.jpg"
             highlight
             imageHeight={400}>
             Wir setzen uns damit auseinander, wie wir in der Öffentlichkeit
