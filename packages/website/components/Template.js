@@ -40,7 +40,7 @@ const subNavs = {
     '/staemme': 'Stämme',
     '/leitsaetze': 'Leitsätze',
     '/club-29': 'Club 29',
-    // '/watato-kabisa': 'Watato Kabisa',
+    '/watato-kabisa': 'Watato Kabisa',
     // '/geschichte': 'Geschichte',
   },
 }

@@ -1,4 +1,6 @@
 import { useRouter } from 'next/router'
+import { useFela } from 'react-fela'
+
 
 import {
   Card,
@@ -15,13 +17,17 @@ import {
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-export default () => (
-  <Template>
-    <Layout paddingTop={10} paddingBottom={10}>
-      <Box>
-        <Text>
-          <Text intent="category">Willkommen bei den Pfadfindern.</Text>
-          <br />
+export default () => {
+  const { theme } = useFela()
+
+
+  return (
+    <Template>
+      <Layout paddingTop={10} paddingBottom={10}>
+        <Box>
+          <Text>
+            <Text intent="category">Willkommen bei den Pfadfindern.</Text>
+            <br />
           Wie sich Seeleute an den Sternen orientierten, so braucht auch eine
           Gemeinschaft feste Richtwerte, die von dauerhafter Gültigkeit sind.
           Wir, die Stämme im Landesverband Rheinland-Pfalz / Saar im Bund der
@@ -30,21 +36,21 @@ export default () => (
           zu fördern. Sie halten fest, was das Wesen unseres Landesverbandes
           ausmacht. Sie sind Ziel und Anspruch zugleich.
           <br />
-        </Text>
-      </Box>
-    </Layout>
-    <Layout
-      grow={1}
-      paddingTop={5}
-      paddingBottom={10}
-      alignSelf="stretch"
-      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-      <Text intent="subtitle">Wir wollen...</Text>
-      <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-        <Box grow={10}>
+          </Text>
+        </Box>
+      </Layout>
+      <Layout
+        grow={1}
+        paddingTop={5}
+        paddingBottom={10}
+        alignSelf="stretch"
+        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+        <Text intent="subtitle">Wir wollen...</Text>
+        <Box paddingTop={2} direction={'column'} space={4}>
           <Tile
             title="1. einen Beitrag zur Persönlichkeitsbildung junger Menschen leisten"
-            image="/images/bg.jpg"
+            image="/images/bula_2.jpg"
+            imageHeight={400}
             highlight>
             Unser Ziel ist es, junge Menschen in der Entwicklung zu
             eigenverantwortlichen, kritischen und engagierten Persönlichkeiten
@@ -63,8 +69,9 @@ export default () => (
           </Tile>
           <Tile
             title={<>2. als eine echte Gemeinschaft von <br /> Freundinnen und Freunden miteinander leben</>}
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/gemeinschaft_freunde.jpg"
+            highlight
+            imageHeight={400}>
             Wir sind mehr als ein geographischer Zusammenschluss von Stämmen, weil wir uns als Weggefährten verstehen und füreinander einstehen.
             <br />
             Wir begegnen uns als Freundinnen und Freunde, denn Freundschaft ist das Band, das unsere Gemeinschaft zusammenhält.
@@ -75,8 +82,10 @@ export default () => (
           </Tile>
           <Tile
             title={<>3. Verantwortung für unsere Gemeinschaft übernehmen <br /> & sie gemeinsam aktiv gestalten</>}
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/bula_1.jpg"
+            imagePosition="bottom"
+            highlight
+            imageHeight={400}>
             Unser Landesverband wird von jungen Menschen gebildet, die Lust haben, sich ihre eigene Gemeinschaft zu schaffen.
             <br />
             Diese gestalten und bereichern sie durch ihren Einsatz, ihre Persönlichkeit und Einzigartigkeit.
@@ -87,8 +96,9 @@ export default () => (
           </Tile>
           <Tile
             title='4. zusammenarbeiten und uns gegenseitig unterstützen'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/fahrt_strand.jpg"
+            highlight
+            imageHeight={400}>
             Als Gemeinschaft von Stämmen gestalten wir das Leben unseres Landesverbandes.
             <br />
             Die Aktionen unseres Landesverbandes werden von uns gemeinsam vorbereitet und durchgeführt.
@@ -100,8 +110,9 @@ export default () => (
           </Tile>
           <Tile
             title='5. unsere Vielfalt als Chance sehen und voneinander lernen'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/vielfalt.jpg"
+            highlight
+            imageHeight={400}>
             Jeder Stamm in unserem Landesverband ist einzigartig.
             <br />
             Wir wollen in unserer Verschiedenheit aber nicht das Trennende betonen, sondern Brücken von Stamm zu Stamm schlagen.
@@ -112,8 +123,9 @@ export default () => (
           </Tile>
           <Tile
             title={<>6. die Werte der Pfadfinderbewegung und der Jugendbewegung leben <br /> & bewusst weitergeben</>}
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/fahrt_kothe.jpg"
+            highlight
+            imageHeight={400}>
             Unsere Gemeinschaft richtet sich nach den Werten und Idealen des internationalen Pfadfindertums.
             <br />
             Diese finden sich in unseren Pfadfinderregeln wieder, die den ideellen Rahmen für unsere Arbeit bilden.
@@ -126,8 +138,9 @@ export default () => (
           </Tile>
           <Tile
             title='7. einen Stil pflegen, der Ausdruck unserer gemeinsamen Kultur & Tradition ist'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/schwarzzelte_1.jpg"
+            highlight
+            imageHeight={400}>
             Unser Stil soll nach Innen und Außen verdeutlichen, dass wir eine Gemeinschaft sind.
             <br />
             Das gilt zuerst für unseren Umgang untereinander, der von gegenseitiger Rücksichtnahme und Wertschätzung geprägt sein soll.
@@ -148,8 +161,9 @@ export default () => (
           </Tile>
           <Tile
             title='8. ein attraktives & abenteuerliches Programm für alle Altersstufen'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/popcorn.jpg"
+            highlight
+            imageHeight={400}>
             Um unserem pädagogischen Anspruch gerecht zu werden, muss das Programm für die Jungen und Mädchen in den anspruchsvoll,
             <br />
             abenteuerlich und abwechslungsreich sein. Das Programm in den Meuten,
@@ -170,8 +184,9 @@ export default () => (
           </Tile>
           <Tile
             title='9. dass unsere Gruppen mit Freude & Stil auf Fahrt gehen'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/lagerfeuer_fahrt_1.jpg"
+            highlight
+            imageHeight={400}>
             Die Fahrt ist nicht nur Programminhalt, sondern Ausdruck unseres pfadfinderischen Selbstverständnisses.
             <br />
             Es ist die wichtigste Aufgabe der Älteren, den Jüngeren Schritt für Schritt die Begeisterung am Fahren zu vermitteln.
@@ -188,8 +203,9 @@ export default () => (
           </Tile>
           <Tile
             title='10. eine lebendige & verbindende Singekultur pflegen'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/gitarren.jpg"
+            highlight
+            imageHeight={400}>
             Unsere Lieder und unser Singen spiegeln das Wesen unserer Gemeinschaft.
             <br />
             Kein Treffen in unserem Landesverband soll ohne Singen vergehen.
@@ -212,8 +228,9 @@ export default () => (
           </Tile>
           <Tile
             title={<> 11. unsere Führungskräfte im Stamm <br /> und auf Kursen kompetent für ihre Aufgaben ausbilden </>}
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/mond.jpg"
+            highlight
+            imageHeight={400}>
             Wir legen großen Wert auf die Qualifizierung unserer Gruppenführungen. Die Grundlage dafür wird in den Stämmen gelegt.
             <br />
             Alle unsere Mitglieder sollen hier die auf Fahrt und im Lager benötigten Pfadfindertechniken lernen.
@@ -234,16 +251,18 @@ export default () => (
           </Tile>
           <Tile
             title='12. nach außen als Gemeinschaft positiv wahrgenommen werden'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/fahrt_landschaft_1.jpg"
+            highlight
+            imageHeight={400}>
             Wir setzen uns damit auseinander, wie wir in der Öffentlichkeit wirken und bemühen uns um ein authentisches, positives Außenbild.
             <br />
             Wir bemühen uns darum, uns so zu verhalten, dass wir das Ansehen der Pfadfinderbewegung verbessern.
           </Tile>
           <Tile
             title='13. so viel Spaß wie möglich mit soviel Ernsthaftigkeit wie nötig haben'
-            image="/images/bg.jpg"
-            highlight>
+            image="/images/landeszentrum_theke_1.jpg"
+            highlight
+            imageHeight={400}>
             Pfadfinden im Landesverband RPS ist ein großes Spiel, das allen Beteiligten vor allem Spaß machen soll. 
             <br />
             Das betrifft nicht nur das Programm in unseren Stämmen und im Landesverband, sondern auch die nötigen Vorbereitungstreffen.
@@ -255,8 +274,7 @@ export default () => (
             Wo immer möglich, beteiligen sich alle Stämme an der Vorbereitung von Landesaktionen und Ausbildungskursen.
           </Tile>
         </Box>
-
-      </Box>
-    </Layout>
-  </Template>
-)
+      </Layout>
+    </Template>
+  )
+}
