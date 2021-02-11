@@ -8,6 +8,7 @@ import {
   Tile,
   Link,
   Button,
+  ScrollView
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
@@ -78,27 +79,27 @@ export default () => {
       </Layout>
       <Layout paddingTop={10} paddingBottom={12}>
         <Text intent="subtitle">Das steht an.</Text>
-
-        <Box
-          paddingTop={5}
-          space={[10, , , 0]}
-          direction={['column', , , 'row']}>
-          <Box grow={1}>
-            <TextBox>April</TextBox>
-            <Text>10-12. LV</Text>
-            <Text>10-12. SST</Text>
+        <ScrollView>
+          <Box
+            paddingTop={5}
+            space={[10, , , 10]}
+            direction={['column', , , 'row']}>
+            <Box grow={1}>
+              <TextBox>Juni</TextBox>
+              <Text>26-27. LAT</Text>
+            </Box>
+            <Box grow={1}>
+              <TextBox>Juli</TextBox>
+              <Text>10.07. RR Grillen</Text>
+              <Text>16-19.07 lawöla </Text>
+            </Box>
+            <Box grow={1}>
+              <TextBox>September</TextBox>
+              <Text>11 RR Rave</Text>
+            </Box>
           </Box>
-          <Box grow={1}>
-            <TextBox>Mai</TextBox>
-            <Text>10-12. LaWöLa</Text>
-          </Box>
-          <Box grow={1}>
-            <TextBox>Juni</TextBox>
-            <Text>10-12. Landesfahrt</Text>
-            <Text>10-12. SST</Text>
-          </Box>
-        </Box>
+        </ScrollView>
       </Layout>
-    </Template>
+    </Template >
   )
 }
