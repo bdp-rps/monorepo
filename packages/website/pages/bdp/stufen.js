@@ -56,7 +56,7 @@ export default () => (
         </Tile>
         <Tile
           title="Pfadfinder (11 - 15 Jahre)"
-          image="/images/fahrt_landschaft_2.jpg"
+          image="/images/fahrt_landschft_2.jpg"
           imageHeight={400}
           highlight>
           Ungefähr Sechs bis acht Pfadfinderinnen und Pfadfinder bilden eine
@@ -75,7 +75,7 @@ export default () => (
         </Tile>
         <Tile
           title="Ranger/Rover (16 - 25 Jahre)"
-          image="/images/fahrt_landschaft_3.jpg"
+          image="/images/fahrt_landschft_3.jpg"
           imageHeight={400}
           highlight>
           Ranger und Rover sind die jungen Erwachsenen in unserem Bund. Die
