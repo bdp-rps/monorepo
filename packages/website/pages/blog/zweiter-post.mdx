@@ -16,8 +16,8 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
 
 <Box space={5}>
   <Text intent="subtitle">Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren:</Text>
-  <Box space={5} direction="row">
-    <Box width={500}>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
       <Tile
         title="Mefan"
         image="/posts/zweiter-post/mefan_vorstand.jpg"
@@ -37,7 +37,7 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Aufgaben im Vorstand:</strong> Bürokratisches, Landesrundbrief, Laudator{' '}
       </Tile>
     </Box>
-    <Box width={500}>
+    <Box maxWidth={500}>
       <Tile
         title="Anne"
         image="/posts/zweiter-post/anne_vorstand.jpg"
@@ -59,11 +59,8 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
       </Tile>
     </Box>
   </Box>
-
-
-
-  <Box space={5} direction="row">
-    <Box width={500}>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
     <Tile
         title="Roxy"
         image="/posts/zweiter-post/roxy_vorstand.jpg"
@@ -83,7 +80,7 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Aufgaben im Vorstand:</strong> Orga Landesleitungs-/Vorstandstreffen, <br /> Landespfingstlager, Bindeglied gelbe Stufe{' '}
       </Tile>
     </Box>
-    <Box width={500}>
+    <Box maxWidth={500}>
       <Tile
         title="Michelle"
         image="/posts/zweiter-post/michelle_vorstand.jpg"
@@ -104,10 +101,10 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
       </Tile>
     </Box>
   </Box>
-  <Box space={5} direction="row">
-    <Box width={500}>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
       <Tile
-            title="Lukas"
+        title="Lukas"
         image="/posts/zweiter-post/lukas_vorstand.jpg"
         imageHeight={400}
         highlight>
@@ -125,7 +122,7 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Aufgaben im Vorstand:</strong> Orga SST/LV Kontakt LB <br /> Pfadi Stammesreporter, Präsenz{' '}
       </Tile>
     </Box>
-    <Box width={500}>
+    <Box maxWidth={500}>
       <Tile
         title="Zapussel"
         image="/posts/zweiter-post/zapussel_vorstand.jpg"
@@ -146,8 +143,8 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
       </Tile>
     </Box>
   </Box>
-  <Box space={5} direction="row">
-    <Box width={500}>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
       <Tile
         title="Dominik"
         image="/posts/zweiter-post/dominik_vorstand.jpg"
