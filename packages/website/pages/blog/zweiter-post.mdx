@@ -1,0 +1,168 @@
+import BlogLayout from '../../components/BlogLayout'
+import { Box, Tile,Text } from '@bdp-rps/ui'
+export const meta = {
+  title: 'Unser neuer Vorstand!',
+  teaser: 1,
+  description: 'Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren',
+  author: {
+    name: 'Timon Flick',
+    nickname: '',
+    position: 'LB Medien',
+  },
+  date: { year: 2021, month: 2, day: 22 },
+}
+
+export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
+
+<Box space={5}>
+  <Text intent="subtitle">Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren:</Text>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
+      <Tile
+        title="Mefan"
+        image="/posts/zweiter-post/mefan_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong> Stefan Schmidt <br />
+        <strong>Alter:</strong> 28 <br />
+        <strong>Stamm:</strong> Sturmvogel <br />
+        <strong>Wohnort/Heimat:</strong> Wiesbaden/Birkenfeld <br />
+        <strong>Pfadfinder*in seit:</strong> 1999 <br />
+        <strong>bisherige Aufgaben:</strong> Landesvorsitzender, Kursteamer<br />
+        <strong>bisherige Herzensprojekte:</strong> Kfs, Stammesheim Hattgenstein{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> Slowakei <br />
+        <strong>Beruf:</strong> Lehrer GYM Taunusstein, Deutsch und Geschichte <br />
+        <strong>Hobbys:</strong> Musik, Freunde treffen Zocken <br />
+        <strong>Aufgaben im Vorstand:</strong> Bürokratisches, Landesrundbrief, Laudator{' '}
+      </Tile>
+    </Box>
+    <Box maxWidth={500}>
+      <Tile
+        title="Anne"
+        image="/posts/zweiter-post/anne_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong> Anne Wendel <br />
+        <strong>Alter:</strong> 27 <br />
+        <strong>Stamm:</strong> Franz von Sickingen <br />
+        <strong>Wohnort/Heimat:</strong> Kernzenheim <br />
+        <strong>Pfadfinder*in seit:</strong> 2000 <br />
+        <strong>bisherige Aufgaben:</strong> Stellv. Vorsitzende Kursteamerin <br />
+        <strong>bisherige Herzensprojekte:</strong> Segeln 19 Bienenprojekt{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> Polen <br />
+        <strong>Beruf:</strong> Sozialpädagogische Famielienhilfe <br />
+        <strong>Hobbys:</strong> Freunde treffen, Backen, Kochen <br />
+        <strong>Aufgaben im Vorstand:</strong> Orga SST/LV,
+        Landespfingstlager{' '}
+      </Tile>
+    </Box>
+  </Box>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
+    <Tile
+        title="Roxy"
+        image="/posts/zweiter-post/roxy_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong>Roxanne Marie Schäfer<br />
+        <strong>Alter:</strong> 28 <br />
+        <strong>Stamm:</strong> Albert Schweizer <br />
+        <strong>Wohnort/Heimat:</strong> Mainz/Hüttersdorf <br />
+        <strong>Pfadfinder*in seit:</strong> 2000 <br />
+        <strong>bisherige Aufgaben:</strong>  LB Wölflinge, Kursteamerin <br />
+        <strong>bisherige Herzensprojekte:</strong>Bienen LZP, LV Segeln{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> Meckl. Seenplatte <br />
+        <strong>Beruf:</strong>  Lehrerin BBS, Spanisch, Deutsch <br />
+        <strong>Hobbys:</strong>  Reisen, Nähen, Zeit mit lieben Menschen verbringen <br />
+        <strong>Aufgaben im Vorstand:</strong> Orga Landesleitungs-/Vorstandstreffen, <br /> Landespfingstlager, Bindeglied gelbe Stufe{' '}
+      </Tile>
+    </Box>
+    <Box maxWidth={500}>
+      <Tile
+        title="Michelle"
+        image="/posts/zweiter-post/michelle_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong> Michelle Büttner <br />
+        <strong>Alter:</strong> 28 <br />
+        <strong>Stamm:</strong> Goten <br />
+        <strong>Wohnort/Heimat:</strong> Mainz/Kaiserslautern <br />
+        <strong>Pfadfinder*in seit:</strong> 2000 <br />
+        <strong>bisherige Aufgaben:</strong> LB Ausbildung, Kursteamerin <br />
+        <strong>bisherige Herzensprojekte:</strong> Teamerin Gilwell{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> Kenia <br />
+        <strong>Beruf:</strong> Referendarin GYM, Geschichte und Deutsch <br />
+        <strong>Hobbys:</strong> Singen, Yoga, Kaffeeklatsch <br />
+        <strong>Aufgaben im Vorstand:</strong> Zusammenarbeit Bund, <br /> Bundeslager 2022,  Koordination Stammespläne{' '}
+      </Tile>
+    </Box>
+  </Box>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
+      <Tile
+        title="Lukas"
+        image="/posts/zweiter-post/lukas_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong>Lukas Ebel <br />
+        <strong>Alter:</strong> 29 <br />
+        <strong>Stamm:</strong> Franz von Sickingen <br />
+        <strong>Wohnort/Heimat:</strong> Kernzenheim <br />
+        <strong>Pfadfinder*in seit:</strong> 22 Jahren <br />
+        <strong>bisherige Aufgaben:</strong>  LB Pfadi/Kursteamer <br />
+        <strong>bisherige Herzensprojekte:</strong>Wiederaufbau Stamm <br /> und Ausbau der Infrastruktur{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> Norwegen <br />
+        <strong>Beruf:</strong>  Ergotherapeut <br />
+        <strong>Hobbys:</strong>  Bouldern, Klettern, Zeit mit Freunden und Familie <br />
+        <strong>Aufgaben im Vorstand:</strong> Orga SST/LV Kontakt LB <br /> Pfadi Stammesreporter, Präsenz{' '}
+      </Tile>
+    </Box>
+    <Box maxWidth={500}>
+      <Tile
+        title="Zapussel"
+        image="/posts/zweiter-post/zapussel_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong> Victoria Schilde <br />
+        <strong>Alter:</strong> 28 <br />
+        <strong>Stamm:</strong> Roter Löwe, Düsseldorf <br />
+        <strong>Wohnort/Heimat:</strong> Trier/Düsseldorf <br />
+        <strong>Pfadfinder*in seit:</strong> 1997 <br />
+        <strong>bisherige Aufgaben:</strong> LB Pfadi, Kursteamerin <br />
+        <strong>bisherige Herzensprojekte:</strong> Osterkurse{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> 1. Großfahrt Pfalz <br />
+        <strong>Beruf:</strong> Förderschullehrerin (Hören) <br />
+        <strong>Hobbys:</strong> Freunde treffen, Reisen <br />
+        <strong>Aufgaben im Vorstand:</strong> Orga Landesleitungs-/Vorstandstreffen, Koordination Stammespläne, Bindeglied Pfadistufe{' '}
+      </Tile>
+    </Box>
+  </Box>
+  <Box space={5} direction={['column',,'row']}>
+    <Box maxWidth={500}>
+      <Tile
+        title="Dominik"
+        image="/posts/zweiter-post/dominik_vorstand.jpg"
+        imageHeight={400}
+        highlight>
+        <strong>Name:</strong>Dominik <br />
+        <strong>Alter:</strong> 33 <br />
+        <strong>Stamm:</strong> Kurpfalz <br />
+        <strong>Wohnort/Heimat:</strong> Köln/Ramstein <br />
+        <strong>Pfadfinder*in seit:</strong> über 20 Jahren <br />
+        <strong>bisherige Aufgaben:</strong> Landesschatzmeister <br />
+        <strong>bisherige Herzensprojekte:</strong>Mehr Zuschuss für den LV{' '}
+        <br />
+        <strong>schönstes Fahrtenziel:</strong> Irland <br />
+        <strong>Beruf:</strong>  Bänker <br />
+        <strong>Hobbys:</strong>  Pfadfinder, Kochen <br />
+        <strong>Aufgaben im Vorstand:</strong> Geld ausgeben{' '}
+      </Tile>
+    </Box>
+  </Box>
+</Box>
