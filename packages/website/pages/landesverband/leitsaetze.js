@@ -21,7 +21,7 @@ export default () => {
 
   return (
     <Template>
-      <Layout paddingTop={6} paddingBottom={6}>
+      <Layout paddingTop={5} paddingBottom={10}>
         <Box>
           <Text>
             Wie sich Seeleute an den Sternen orientierten, so braucht auch eine

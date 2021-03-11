@@ -41,6 +41,7 @@ const subNavs = {
     '/leitsaetze': 'Leitsätze',
     '/club-29': 'Club 29',
     '/watato-kabisa': 'Watato Kabisa',
+    '/intakt': 'Intakt',
     // '/geschichte': 'Geschichte',
   },
 }
