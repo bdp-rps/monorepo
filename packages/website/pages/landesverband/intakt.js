@@ -27,7 +27,7 @@ export default () => (
                     Wir sind INTAKTOPUS, das neu gegründete Intakt-Team des LV RPS.
                     Wir haben uns zusammengefunden um das Interesse des Bundesarbeits- kreis INTAKT verstärkt in unseren LV zu tragen.
                     Dazu gehören der Schutz vor physischer, psychischer oder spe- ziell sexualisierter Gewalt an Kindern und Jugendlichen im Bund.
-                    Unser Ziel ist es die Präventionsarbeit im LV zu verstärken und auf Kursen wie auch in euren Stämmen präsen- ter zu machen.
+                    Unser Ziel ist es die Präventionsarbeit im LV zu verstärken und auf Kursen wie auch in euren Stämmen präsenter zu machen.
                     Auch wollen wir dafür sorgen dass ihr immer wisst wen ihr bei Problemen ansprechen könnt.
           </Text>
             </Box>
