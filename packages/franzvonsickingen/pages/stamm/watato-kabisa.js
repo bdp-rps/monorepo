@@ -38,7 +38,7 @@ export default () => {
               gesunde Lebens- und Lernumgebung verschaffen.
               <br />
               <Link href="https://www.instagram.com/watotokabisa/">
-                Hier
+                hier
               </Link>{' '}
               geht es zum Watoto Kabisa Instagram-Kanal.
             </Text>

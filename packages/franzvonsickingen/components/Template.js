@@ -30,7 +30,6 @@ const subNavs = {
     '/geschichte': 'Geschichte',
   },
   '/stamm': {
-    '/stamm': 'Stamm',
     '/stammesleitung': 'Stammesleitung',
     '/woelflinge': 'Wölflinge',
     '/pfadfinder': 'Pfadfinder',
@@ -38,7 +37,7 @@ const subNavs = {
     '/leitsaetze': 'Leitsätze',
     '/watato-kabisa': 'Watato Kabisa',
     '/foerderverein': 'Förderverein',
-    '/anfahrt': 'Anfahrt'
+    // '/anfahrt': 'Anfahrt'
   },
 }
 
@@ -128,6 +127,7 @@ export default function Template({ children }) {
             <Box space={2} grow={1}>
               <Text intent="category">Andere Seiten</Text>
               <Spacer size={0.5} />
+              <Link href="https://bdp-rps.de">Landesseite</Link>
               <Link href="https://www.pfadfinden.de">Bundesseite</Link>
               <Link href="http://www.ljr-rlp.de">
                 Landesjugendring Rheinland-Pfalz

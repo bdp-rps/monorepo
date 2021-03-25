@@ -14,13 +14,12 @@ import {
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-import landesleitung from '../../data/landesleitung.json'
+import stammesleitung from '../../data/stammesleitung.json'
 
-const parts = landesleitung.reduce((parts, member) => {
+const parts = stammesleitung.reduce((parts, member) => {
   if (!parts[member.part]) {
     parts[member.part] = []
   }
-
   parts[member.part].push(member)
   return parts
 }, {})
