@@ -44,12 +44,11 @@ export default () => {
     <Template>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
-          <Text intent="category">Willkommen bei den Pfadfindern.</Text>
+          <Text intent="category">Willkommen beim Pfadfinderstamm Franz von Sickingen.</Text>
           <Text>
-            Der Bund der Pfadfinderinnen und Pfadfinder ist der größte
-            interkonfessionelle Pfadfinderbund in Deutschland.
+            Der Pfadfinderstamm Franz von Sickingen gehört zum interkonfessionellen Bund der Pfadfinderinnen und Pfadfinder.
             <br />
-            In Rheinland-Pfalz und im Saarland sind wir mit 20 Gruppen präsent.
+            Der Stamm besteht seit 1965 und hat zurzeit etwa 100 Mitglieder.
           </Text>
         </Box>
       </Layout>

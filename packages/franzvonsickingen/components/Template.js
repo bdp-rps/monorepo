@@ -17,9 +17,8 @@ const nav = {
   '/': 'Startseite',
   '/blog': 'Blog',
   '/bdp': 'BdP',
-  '/landesverband': 'Landesverband',
-  '/digital': 'Digital',
-  '/landesverband/landesleitung': 'Kontakt',
+  '/stamm': 'Stamm',
+  '/stamm/stammesleitung': 'Kontakt',
 }
 
 const subNavs = {
@@ -30,19 +29,13 @@ const subNavs = {
     '/ausbildung': 'Ausbildung',
     '/geschichte': 'Geschichte',
   },
-  '/digital': {
-    '/downloads': 'Downloads',
-    'https://cloud.bdp-rps.de': 'Cloud',
-    '/apps': 'Apps',
-  },
-  '/landesverband': {
-    '/landesleitung': 'Landesleitung',
-    '/staemme': 'Stämme',
+  '/stamm': {
+    '/stamm': 'Stamm',
+    '/stufen': 'Stufen',
     '/leitsaetze': 'Leitsätze',
-    '/club-29': 'Club 29',
-    '/watato-kabisa': 'Watato Kabisa',
-    '/intakt': 'Intakt',
-    // '/geschichte': 'Geschichte',
+     '/watato-kabisa': 'Watato Kabisa',
+    '/foerderverein': 'Förderverein',
+    '/anfahrt':'Anfahrt'
   },
 }
 
@@ -78,7 +71,7 @@ export default function Template({ children }) {
               alignSelf: 'flex-start',
             }}>
             <Text intent="title" height={1} color={theme.colors.blue}>
-              BdP LV RPS
+              Franz von Sickingen 
             </Text>
           </Box>
         </Layout>
