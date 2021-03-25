@@ -18,7 +18,7 @@
     "@mdx-js/react": "^1.5.8",
     "@next/bundle-analyzer": "9.3.4",
     "@next/mdx": "^9.3.5",
-    "next": "^9.5.3",
+    "next": "10.0.5",
     "node-fetch": "^2.6.0",
     "onegraph-auth": "^2.2.1",
     "react": "^16.13.1",

@@ -10,9 +10,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 const config = {
-  experimental: {
-    granularChunks: true,
-  },
   target: 'serverless',
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   webpack(config) {
