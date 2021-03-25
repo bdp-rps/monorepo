@@ -31,11 +31,14 @@ const subNavs = {
   },
   '/stamm': {
     '/stamm': 'Stamm',
-    '/stufen': 'Stufen',
+    '/stammesleitung': 'Stammesleitung',
+    '/woelflinge': 'Wölflinge',
+    '/pfadfinder': 'Pfadfinder',
+    '/rangerrover': 'Ranger/Rover',
     '/leitsaetze': 'Leitsätze',
-     '/watato-kabisa': 'Watato Kabisa',
+    '/watato-kabisa': 'Watato Kabisa',
     '/foerderverein': 'Förderverein',
-    '/anfahrt':'Anfahrt'
+    '/anfahrt': 'Anfahrt'
   },
 }
 
@@ -71,7 +74,7 @@ export default function Template({ children }) {
               alignSelf: 'flex-start',
             }}>
             <Text intent="title" height={1} color={theme.colors.blue}>
-              Franz von Sickingen 
+              Franz von Sickingen
             </Text>
           </Box>
         </Layout>
