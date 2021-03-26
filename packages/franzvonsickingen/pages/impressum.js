@@ -43,52 +43,35 @@ export default () => {
             <br />
             <b>Landesverband Rheinland-Pfalz/Saar</b>
             <br />
-            <br />
-            <b>Stefan Schmidt</b>
-            <br />
-            Dreiweidenstraße 3<br />
-            65195 Wiesbaden
-            <br />
-            <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
+            <b>Stamm Franz von Sickingen</b>
             <br />
             <br />
-            Jugendverband
+            <b>Daniel Christmann</b>
+            <br />
+            Kurfürstenstraße 21<br />
+            67549 Worms
+            <br />
+            <Link href="mailto:christmanndaniel1@gmail.com">christmanndaniel1@gmail.com</Link>
+            <br />
+            <br />
           </Text>
           <Text>
             <b>Gesetzliche Vertreter:</b>
             <br />
-            Stefan Schmidt
+            Daniel Christmann
             <br />
-            Roxanne Schaefer
+            Horst Stauffer-Bescher
             <br />
-            Anne Wendel
-            <br />
-            Victoria Schilde
-            <br />
-            Lukas Ebel
-            <br />
-            Dominik Meisinger
+            Miriam Ebel
             <br />
             <br />
-            Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
-            befugt.
-            <br />
-            <br />
-            Der BdP Rheinland-Pfalz/Saar ist ein nichtrechtsfähiger Verein mit
-            Sitz in Wiesbaden. Er ist eine selbständige Untergliederung des
-            Bundes der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
-            Immenhausen.
           </Text>
           <Text>
             <b>
               Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
             </b>
             <br />
-            Robin Weser
-            <br />
-            <Link href="mailto:robin@bdp-rps.de">robin@bdp-rps.de</Link>
-            <br />
-            <Link href="https://weser.io">https://weser.io</Link>
+            Jenny Christmann
           </Text>
           <Text>
             <b>Haftungshinweis:</b>

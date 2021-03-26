@@ -18,7 +18,7 @@ const nav = {
   '/blog': 'Blog',
   '/bdp': 'BdP',
   '/stamm': 'Stamm',
-  '/stamm/stammesleitung': 'Kontakt',
+  '/kontakt': 'Kontakt',
 }
 
 const subNavs = {
@@ -31,6 +31,7 @@ const subNavs = {
   },
   '/stamm': {
     '/stammesleitung': 'Stammesleitung',
+    '/geschichte': 'Geschichte',
     '/woelflinge': 'Wölflinge',
     '/pfadfinder': 'Pfadfinder',
     '/rangerrover': 'Ranger/Rover',
@@ -145,8 +146,8 @@ export default function Template({ children }) {
             <Box space={2} grow={1}>
               <Text intent="category">Soziales</Text>
               <Spacer size={0.5} />
-              <Link href="https://www.facebook.com/bdprps">Facebook</Link>
-              <Link href="https://instagram.com/bdp_lv_rps/">Instagram</Link>
+              <Link href="https://www.facebook.com/bdpfvs">Facebook</Link>
+              <Link href="https://www.instagram.com/fraenze_pfadfinder_eisenberg/">Instagram</Link>
             </Box>
           </Box>
           <Text>
