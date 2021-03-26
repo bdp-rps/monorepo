@@ -16,7 +16,7 @@ import Template from '../../components/Template'
 
 export default () => {
     const router = useRouter()
-    const count = 'Aktuell gibt es in unserem Stamm ' + sippen.length + ' Sippen:'
+    const count = <Text>{'Aktuell gibt es in unserem Stamm ' + sippen.length + ' Sippen:'}</Text>
     return (
         <Template>
             <Layout paddingTop={10} paddingBottom={15}>
