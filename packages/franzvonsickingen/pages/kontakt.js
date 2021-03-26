@@ -36,7 +36,11 @@ export default () => {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
-        Kontakt
+        <Text>
+        Daniel Christmann
+        <br />
+        <Link href="mailto:christmanndaniel1@gmail.com">christmanndaniel1@gmail.com</Link>
+        </Text>
       </Layout>
     </Template>
   )
