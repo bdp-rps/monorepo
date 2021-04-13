@@ -1,0 +1,21 @@
+{
+  "name": "endlichwieder",
+  "version": "0.0.25",
+  "description": "endlichwieder.pfadfinden.de",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:images": "node scripts/build-images.js",
+    "start": "next start",
+    "export": "next export",
+    "prepare": "echo 1"
+  },
+  "dependencies": {
+    "@bdp-rps/ui": "^0.0.25",
+    "@next/bundle-analyzer": "9.3.4",
+    "next": "10.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

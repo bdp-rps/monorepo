@@ -1,0 +1,49 @@
+[
+  {
+    "group": "von Helfenstein",
+    "lv": "RPS",
+    "location": "56077 Koblenz",
+    "foundedAt": 1956,
+    "members": 150,
+    "contact": {
+      "mail": "info@stammvonhelfenstein.de",
+      "name": "Torben Pötter",
+      "phone": "015233579865"
+    }
+  },
+  {
+    "group": "Rotmilan",
+    "lv": "NDS",
+    "location": "27305 Bruchhausen-Vilsen",
+    "foundedAt": 1985,
+    "members": 50,
+    "contact": {
+      "mail": "info@stammrotmilan.de",
+      "website": "http://stammrotmilan.de",
+      "phone": "01623784665"
+    }
+  },
+  {
+    "group": "Seeadler",
+    "lv": "BY",
+    "location": "96052 Bamberg",
+    "foundedAt": 1980,
+    "members": 70,
+    "contact": {
+      "mail": "horstseeadlerbamberg@gmail.com",
+      "website": "http://seeadler.net",
+      "instagram": "horstseeadlerbamberg",
+      "facebook": "horstseeadlerbbg"
+    }
+  },
+  {
+    "group": "Jupiter",
+    "lv": "NRW",
+    "location": "53125 Bonn-Röttgen",
+    "foundedAt": 1988,
+    "members": 65,
+    "contact": {
+      "mail": "information@pfadfinder-bonn.de"
+    }
+  }
+]
