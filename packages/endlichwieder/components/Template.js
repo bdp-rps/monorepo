@@ -22,8 +22,7 @@ export default function Template({ children }) {
       <Layout>
         <Box
           paddingTop={3}
-          paddingLeft={3}
-          paddingBottom={2}
+          paddingBottom={4}
           paddingRight={3}
           extend={{
             alignSelf: 'flex-start',
