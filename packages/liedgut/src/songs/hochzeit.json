@@ -1,0 +1,51 @@
+{
+  "notation": "",
+  "content": "{a}Dieses kleine Winzorchester, gönnt euch Ruhe etwas später.\n{d}Also Geiger, {E}fröhlich soll es {a}sein {d}Hej, {E}hej!\n{a}Leute, macht nun Platz zum Tanzen, Musikanten quält die Tasten,\n{d}spielt für eure {E}Gäste, haut mal {a}rein! {G}\n{C}Draußen, da {G}dunkelt's lange {C}schon, {E}oh, {a}nach Hause {G}will noch keiner {C}gehen, {G}ach!\n{C}Ein leeres {G}Weinfass ist der {C}Lohn, {E}oh, {d}irgendeiner {a}wird nach {E}neuem {e}sehn.\nUnd {E}jetzt kommt's:\n\n{a}Hochzeit, Hochzeit, im {G}Leben nur ein{C}mal, {d}manche machen's {a}öfter, doch {E}ist das nicht normal, und nochmal: {a}Hochzeit, Hochzeit: im {G}Leben nur ein{C}mal, {d}manche machen's {a}öfter doch {E}ist das nicht {a}normal.\n\nAlso, Kinder noch mehr lustig, Saiten, Finger, sind schon blutig,\nKavaliere zieh'n die Sakkos aus. Hej, hej.\nNicht für Groschen, nur für Freunde tanz der Bräutigam ne Runde -\nschaut die Braut auf Zehenspitzen zu.\nLass doch den eis'gen Winter weh'n, oj, schaukeln ein trübes Lampenlicht, ach!\nSchenk ein noch heute wird geschehen, oj, Lieder dreh'n sich mir im Kopf danach.\n\nHeda, Mama, darf man das denn, tanzen will nun mal gelernt sein,\ndoch ich bitte dich, tu dir nicht weh! Hej, hej!\nAusgelassen spielen Kinder, diese Welt, sie zeigt mir wieder:\nSolange ich noch lache, lebe ich!\nLass doch den eis'gen Winter weh'n, oj, schaukeln ein trübes Lampenlicht, ach!\nSchenk ein noch heute wird geschehen, oj, Lieder dreh'n sich mir im Kopf danach.",
+  "title": "Hochzeit",
+  "words": [
+    {
+      "name": "Erik Schellhorn",
+      "nickname": "fotler",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": ""
+    },
+    {
+      "name": "Igor Plachonin",
+      "nickname": "igor",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": ""
+    },
+    {
+      "name": "Alexander Rosenbaum",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alexander Rosenbaum",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1619203074590,
+      "name": "Mefan",
+      "mail": "mefan@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
