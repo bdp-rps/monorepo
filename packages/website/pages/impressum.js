@@ -44,7 +44,7 @@ export default () => {
             <b>Landesverband Rheinland-Pfalz/Saar</b>
             <br />
             <br />
-            <b>Stefan Schmidt</b>
+            <b>Thomas Schnubbi</b>
             <br />
             Dreiweidenstraße 3<br />
             65195 Wiesbaden
