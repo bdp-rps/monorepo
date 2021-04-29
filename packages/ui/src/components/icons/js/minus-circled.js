@@ -1,0 +1,12 @@
+import * as React from 'react'
+import Icon from '../Icon'
+
+function IconMinusCircled(props) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1000" {...props}>
+      <path d="M420 80c116 0 215 41 297 123s123 181 123 297-41 215-123 297-181 123-297 123-215-41-297-123S0 616 0 500s41-215 123-297S304 80 420 80m252 368H168v102h504V448" />
+    </svg>
+  )
+}
+
+export default (props) => <Icon icon={IconMinusCircled} {...props} />

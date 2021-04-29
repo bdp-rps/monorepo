@@ -1,0 +1,12 @@
+import * as React from 'react'
+import Icon from '../Icon'
+
+function IconUpOpenBig(props) {
+  return (
+    <svg viewBox="0 0 864 1000" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M804 720L432 362 62 720c-17.333 14.667-34 14.667-50 0-16-16-16-32.667 0-50l396-390c17.333-17.333 33.333-17.333 48 0l396 390c16 17.333 16 34 0 50-17.333 14.667-33.333 14.667-48 0" />
+    </svg>
+  )
+}
+
+export default (props) => <Icon icon={IconUpOpenBig} {...props} />

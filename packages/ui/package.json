@@ -29,6 +29,7 @@
     "build": "yarn clean && yarn build:package",
     "build:styleguide": "styleguidist build",
     "build:package": "yarn build:es && yarn build:lib",
+    "build:icons": "rimraf src/components/icons/js && svgr -d src/components/icons/js src/components/icons/svg --config-file ./svgr.config.js && babel-node scripts/buildIcons.js",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
     "watch": "npm run watch:lib & npm run watch:es",
@@ -36,7 +37,7 @@
     "watch:es": "babel src -d es -w",
     "test": "cross-env BABEL_ENV=commonjs echo 1",
     "coverage": "yarn test --coverage",
-    "styleguide": "styleguidist server"
+    "dev": "styleguidist server"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",
@@ -55,13 +56,14 @@
     "react-fela": "^11.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.0",
+    "@babel/cli": "^7.13.16",
     "@babel/core": "^7.2.2",
+    "@babel/node": "^7.13.13",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",
     "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "@svgr/cli": "^4.3.2",
+    "@svgr/cli": "^5.5.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.1.0",

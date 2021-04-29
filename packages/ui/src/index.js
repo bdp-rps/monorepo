@@ -3,6 +3,8 @@ import StyleTags from './styling/StyleTags'
 import getStyleRenderer from './styling/getStyleRenderer'
 import useTheme from './styling/useTheme'
 
+export * from './components/icons'
+
 import Box from './components/box'
 import Button from './components/button'
 import Card from './components/card'
