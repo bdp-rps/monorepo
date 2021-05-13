@@ -16,7 +16,7 @@ const nav = {
 
 const subNavs = {}
 
-export default function Template({ children }) {
+export default function Template({ children, navImg, title, subTitle }) {
   const router = useRouter()
   const theme = useTheme()
 
@@ -30,7 +30,7 @@ export default function Template({ children }) {
         paddingBottom={[1, , , 2]}
         height={['20vh', , , '70vh']}
         extend={{
-          backgroundImage: 'url("/images/bg.jpg")',
+          backgroundImage: navImg,
           backgroundSize: 'cover',
           backgroundPosition: '70% 50%',
           width: '100%',
@@ -81,14 +81,14 @@ export default function Template({ children }) {
                 height={1}
                 extend={{ alignSelf: 'center' }}
                 color={'white'}>
-                Karibu
+                {title}
               </Text>
               <Text
                 intent="subtitle"
                 height={1}
                 extend={{ alignSelf: 'center' }}
                 color={'white'}>
-                auf der Webseite von Watoto Kabisa
+                {subTitle}
               </Text>
             </Box>
           </Layout>
