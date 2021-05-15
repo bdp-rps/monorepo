@@ -19,10 +19,7 @@ export default () => {
   const theme = useTheme()
 
   return (
-    <Template
-      navImg='url("/images/spendenBg.jpg")'
-      title="Spenden"
-      subTitle="ein förderverein lebt von seinen spenden">
+    <Template navImg='url("/images/spendenBg.jpg")' title="Spenden">
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text intent="heading" color={theme.tokens.primary}>

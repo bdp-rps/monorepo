@@ -10,8 +10,9 @@ import {
   Button,
   ScrollView,
 } from '@bdp-rps/ui'
-import NextLink from 'next/link'
 import Image from 'next/image'
+import NextLink from 'next/link'
+
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 
@@ -20,28 +21,11 @@ export default () => {
 
   return (
     <Template
-      navImg='url("/images/bg.jpg")'
-      title="Karibu"
-      subTitle="auf der Webseite von Watoto Kabisa">
+      navImg='url("/images/geschenkkartenBg.jpg")'
+      title="Geschenkkarten!">
       <Layout paddingTop={5} paddingBottom={5}>
-        <Box
-          extend={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-          }}>
-          <Box>
-            <Image
-              height={300}
-              width={250}
-              objectPosition="fit"
-              src="/../public/images/image_0.jpg"
-              alt="bild"
-            />
-          </Box>
-          <Box
-            extend={{
-              width: '100%',
-            }}>
+        <Box flexDirection="row" extend={{}}>
+          <Box space={2}>
             <Text intent="heading" color={theme.tokens.primary}>
               Wer sind wir?
             </Text>
@@ -49,6 +33,17 @@ export default () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               et ex et urna ullamcorper consequat nec sed nisi. Aliquam auctor
               sem dignissim leo imperdiet, in interdum ante fermentum. Mauris et
+              metus ut lacus congue iaculis a a lacus. Curabitur fringilla
+              malesuada pretium. Quisque eget facilisis odio. Praesent tellus
+              quam, vestibulum ac sem non, faucibus convallis erat. Sed vel
+              lorem tincidunt, sodales tortor auctor, accumsan diam. Aliquam
+              placerat aliquet purus, quis volutpat enim tincidunt vel. Nunc nec
+              maximus libero. Nulla eget odio volutpat, dictum quam at, placerat
+              sapien. Duis suscipit eu nisl pretium scelerisque. Phasellus
+              aliquam, mi quis suscipit sodales, mi nisl rutrum lectus. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Integer et ex
+              et urna ullamcorper consequat nec sed nisi. Aliquam auctor sem
+              dignissim leo imperdiet, in interdum ante fermentum. Mauris et
               metus ut lacus congue iaculis a a lacus. Curabitur fringilla
               malesuada pretium. Quisque eget facilisis odio. Praesent tellus
               quam, vestibulum ac sem non, faucibus convallis erat. Sed vel

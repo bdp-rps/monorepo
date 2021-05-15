@@ -19,7 +19,7 @@ export default () => {
   const theme = useTheme()
 
   return (
-    <Template navImg='url("/images/mitgliedBg.jpg")' title="Mitglied werden!">
+    <Template navImg='url("/images/projekteBg.jpg")' title="Projekte!">
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text intent="heading" color={theme.tokens.primary}>

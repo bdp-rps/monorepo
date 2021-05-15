@@ -11,7 +11,7 @@ const nav = {
   '/': 'Startseite',
   '/spenden': 'Spenden',
   '/mitglied': 'Mitglied werden',
-  '/geschenkkarte': 'Geschenkkarte',
+  '/geschenkkarten': 'Geschenkkarten',
 }
 
 const subNavs = {}
