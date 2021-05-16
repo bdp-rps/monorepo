@@ -2,7 +2,6 @@
   "albatros": [
     "stammesheim1.jpg",
     "stammesheim3.jpg",
-    "stammesheim3.wp2",
     "stammesheim4.jpg"
   ],
   "bergwolf": [
@@ -66,8 +65,6 @@
   "seeadler": [
     "image0.jpg",
     "image1.jpg",
-    "image2.jpg",
-    "image3.jpg",
     "image4.jpg",
     "image5.jpg",
     "image6.jpg",
@@ -84,57 +81,22 @@
     "heim.jpg"
   ],
   "von-helfenstein": [
-    "IMGL7971.jpg",
-    "IMGL7972.jpg",
-    "IMGL7973.jpg",
-    "IMGL7974.jpg",
-    "IMGL7975.jpg",
-    "IMGL7976.jpg",
-    "IMGL7977.jpg",
-    "IMGL7978.jpg",
-    "IMGL7979.jpg",
     "IMGL7980.jpg",
     "IMGL7981.jpg",
-    "IMGL7982.jpg",
     "IMGL7983.jpg",
     "IMGL7984.jpg",
-    "IMGL7986.jpg",
-    "IMGL7987.jpg",
-    "IMGL7988.jpg",
-    "IMGL7989.jpg",
-    "IMGL7990.jpg",
     "IMGL7991.jpg",
-    "IMGL7992.jpg",
-    "IMGL7993.jpg",
     "IMGL7994.jpg",
-    "IMGL7995.jpg",
-    "IMGL7996.jpg",
-    "IMGL7997.jpg",
     "IMGL7998.jpg",
-    "IMGL7999.jpg",
-    "IMGL8000.jpg",
-    "IMGL8001.jpg",
-    "IMGL8002.jpg",
     "IMGL8003.jpg",
     "IMGL8004.jpg",
     "IMGL8006.jpg",
-    "IMGL8007.jpg",
-    "IMGL8008.jpg",
-    "IMGL8009.jpg",
-    "IMGL8010.jpg",
-    "IMGL8012.jpg",
-    "IMGL8013.jpg",
-    "IMGL8014.jpg",
-    "IMGL8015.jpg",
-    "IMGL8016.jpg",
-    "IMGL8017.jpg",
-    "IMGL8018.jpg",
-    "IMGL8019.jpg",
-    "IMGL8020.jpg",
-    "IMGL8021.jpg",
-    "IMGL8022-2.jpg",
-    "IMGL8022.jpg",
-    "IMGL8023.jpg"
+    "IMGL8022.jpg"
   ],
-  "voortrekker": []
+  "voortrekker": [
+    "192AEA89-C54F-403B-A9D0-A0A49BF81050.jpg",
+    "9DD53AEC-F694-4A39-B469-3BA6FA955426.jpg",
+    "9EF68D5C-3610-4B6F-84B2-DDAE4B69F324.jpg",
+    "C384F681-1BBF-4F50-A80D-1D2EC2C2CC87.jpg"
+  ]
 }

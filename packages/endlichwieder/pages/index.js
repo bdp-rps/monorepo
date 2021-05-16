@@ -28,8 +28,12 @@ export default () => {
             für ihre emotionale Entwicklung und ihre nonformelle Bildung
             brauchen Kinder, Jugendliche und junge Erwachsene
           </Text>
-
-          <Box as="ul" paddingLeft={10} extend={{ listStyleType: 'none' }}>
+          <Box
+            as="ul"
+            paddingLeft={10}
+            extend={{
+              listStyleType: 'none',
+            }}>
             <li>
               <Text weight="bold" extend={{ fontStyle: 'italic' }}>
                 … Gemeinschaft und Freundschaft,
@@ -42,35 +46,28 @@ export default () => {
             </li>
             <li>
               <Text weight="bold" extend={{ fontStyle: 'italic' }}>
-                … Möglichkeiten der Mitgestaltung und der Selbstbestimmung,
-              </Text>
-            </li>
-            <li>
-              <Text weight="bold" extend={{ fontStyle: 'italic' }}>
                 … Raum für Selbsterfahrung und Ausprobieren sozialer
                 Verhaltensweisen,
               </Text>
             </li>
             <li>
               <Text weight="bold" extend={{ fontStyle: 'italic' }}>
-                … Aushandeln von Werten und das Vertrauen Verantwortung
-                übernehmen zu können,
+                … Aushandeln von Werten Verantwortunsgserfahrungen,
               </Text>
             </li>
             <li>
               <Text weight="bold" extend={{ fontStyle: 'italic' }}>
-                … Möglichkeiten der Mitgestaltung und der Selbstbestimmung,
+                … Möglichkeiten der Mitgestaltung und Selbstbestimmung,
               </Text>
             </li>
             <li>
               <Text weight="bold" extend={{ fontStyle: 'italic' }}>
-                … besondere Naturerlebnisse,
+                … besondere Naturerlebnisse und aktiver Klimaschutz
               </Text>
             </li>
           </Box>
-
           <Text>
-            Mit über 65 Millionen Mitgliedern weltweit und 260.000
+            Mit über <b>65</b> Millionen Mitgliedern weltweit und <b>260.000</b>{' '}
             Pfadfinder*innen in Deutschland sind Pfadfinder die größte
             Jugendbewegung der Welt. Seit der Gründung 1907 hat Pfadfinden auch
             in Deutschland bereits Millionen Menschen geprägt und positiven
@@ -81,25 +78,19 @@ export default () => {
             Bund der Pfadfinderinnen und Pfadfinder e.V. mit{' '}
             <b>über 300 Stämmen</b> in fast ganz Deutschland*{' '}
             <b>rund 30.000 Kinder, Jugendliche und junge Erwachsene</b>{' '}
-            erreichen, warten ungeduldig darauf
-            <br />
-            <br />
-            endlich wieder gemeinsam Abenteuer zu erleben
-            <br />
-            endlich wieder Freundschaften zu pflegen
-            <br />
-            endlich wieder unsere Gemeinschaft zu erfahren
-            <br />
-            endlich wieder Natur zu erleben und Klima zu schützen
-            <br />
-            endlich wieder Verantwortung zu lernen und zu übernehmen
-            <br />
-            endlich wieder aktiv unser Zusammenleben mit zu gestalten
-            <br />
-            endlich wieder Grundwerte einer friedlichen und gerechten
-            Gesellschaft zu vermitteln.
+            erreichen, wollen <b>endlich wieder raus</b>!
           </Text>
           <Text intent="note">*außer Mecklenburg-Vorpommern</Text>
+          <br />
+          <Text>
+            Erfahre hier bald mehr über die Kampagne <i>Endlich wieder Raus</i>{' '}
+            oder unter <Link href="https://meinbdp.de">meinbdp.de</Link> und
+            unseren{' '}
+            <Link href="https://www.pfadfinden.de/bund/publikationen/">
+              Publikationen
+            </Link>{' '}
+            wie PFADE und der Bundesmail.
+          </Text>
         </Box>
         <Box height={0}>
           <Box
@@ -122,6 +113,15 @@ export default () => {
         extend={{
           backgroundColor: theme.colors.grey8,
         }}>
+        <Text intent="category">
+          Normalerweile werden die Stammesheime wöchentlich von zahlreichen
+          Pfadfinder*innen genutzt.
+          <br />
+          Aktuell bleiben ihre Türen jedoch leider verschlossen...
+        </Text>
+
+        <br />
+        <br />
         <Box
           extend={{
             display: 'grid',
