@@ -23,7 +23,7 @@ export default () => (
         <Box space={6}>
           <Box space={2}>
             <Text intent="category">
-              Die Versprechen Aufnahmefeier und Versprechensregeln
+              Die Versprechen, Aufnahmefeier und Versprechensregeln
             </Text>
             <Text>
               Jeder Pfadfinder legt bei der Aufnahme bei einer Versprechensfeier
