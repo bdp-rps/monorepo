@@ -5,10 +5,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn build:images && next build",
-    "build:images": "node scripts/build-images.js",
+    "build": "yarn images:build && next build",
+    "images:build": "node scripts/build-images.js",
+    "images:optimize": "sh scripts/optimize-images.sh",
+    "images:rotate": "sh scripts/rotate-images.sh",
     "start": "next start",
-    "export": "next export",
+    "export": "rimraf out && next export",
     "prepare": "echo 1"
   },
   "dependencies": {
@@ -17,5 +19,8 @@
     "next": "10.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@squoosh/cli": "^0.6.4"
   }
 }

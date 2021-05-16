@@ -45,5 +45,113 @@
     "contact": {
       "mail": "information@pfadfinder-bonn.de"
     }
+  },
+  {
+    "group": "Luchs",
+    "lv": "RPS",
+    "location": "76857 Gossersweiler-Stein",
+    "foundedAt": 2010,
+    "members": 50,
+    "contact": {
+      "website": "https://stamm-luchs.de",
+      "mail": "stammesleitung@stamm-luchs.de",
+      "instagram": "stammluchs",
+      "facebook": "stammluchs"
+    }
+  },
+  {
+    "group": "Graf Gebhard",
+    "lv": "BY",
+    "location": "92237 Sulzbach-Rosenberg",
+    "foundedAt": 1923,
+    "members": 60,
+    "contact": {
+      "website": "https://graf-gebhard.de",
+      "mail": "stafue@graf-gebhard.de"
+    }
+  },
+  {
+    "group": "Albatros",
+    "lv": "BY",
+    "location": "81479 München",
+    "foundedAt": 1967,
+    "members": 122,
+    "contact": {
+      "mail": "kontakt@albatrossolln.de"
+    }
+  },
+  {
+    "group": "Burgund",
+    "lv": "BY",
+    "location": "85077 Manching",
+    "foundedAt": 1976,
+    "members": 50,
+    "contact": {
+      "website": "https://stamm-burgund.de",
+      "mail": "postkasten@stamm-burgund.de"
+    }
+  },
+  {
+    "group": "Pegasus",
+    "lv": "BY",
+    "location": "81669 München",
+    "foundedAt": 1981,
+    "members": 120,
+    "contact": {
+      "website": "http://bdp-pegasus.de"
+    }
+  },
+  {
+    "group": "Sir Francis Drake",
+    "lv": "BY",
+    "location": "82362 Weilheim",
+    "foundedAt": null,
+    "members": 45,
+    "contact": {
+      "website": "stamm@pfadfinder-weilheim.de"
+    }
+  },
+  {
+    "group": "Schwarzer Mustang",
+    "lv": "BY",
+    "location": "83224 Grassau",
+    "foundedAt": 1969,
+    "members": 80,
+    "contact": {
+      "website": "https://stamm-sma.de",
+      "mail": "info@stamm-sma.de"
+    }
+  },
+  {
+    "group": "Staufen",
+    "lv": "BY",
+    "location": "85435 Erding",
+    "foundedAt": 1961,
+    "members": 65,
+    "contact": {
+      "website": "https://freundeskreisstammstaufen.de",
+      "mail": "pfadis@freundeskreisstammstaufen.de"
+    }
+  },
+  {
+    "group": "Bergwolf",
+    "lv": "BW",
+    "location": "70619 Stuttgart Sillenbuch",
+    "foundedAt": 1951,
+    "members": 45,
+    "contact": {
+      "mail": "stefanboehler@hotmail.com"
+    }
+  },
+  {
+    "group": "Sankt Jörg",
+    "lv": "BW",
+    "location": "76133 Karlsruhe",
+    "foundedAt": 1949,
+    "members": 63,
+    "contact": {
+      "mail": "philippschuster@posteo.de",
+      "website": "https://st-joerg.de"
+    }
   }
 ]

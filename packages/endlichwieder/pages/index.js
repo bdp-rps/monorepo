@@ -12,8 +12,8 @@ export default () => {
 
   return (
     <Template>
-      <Layout paddingTop={5} paddingBottom={10}>
-        <Box space={2}>
+      <Layout paddingTop={10} paddingBottom={15}>
+        <Box space={2} maxWidth={1000}>
           <Text intent="title">Endlich wieder Pfadfinden</Text>
           <Spacer size={2} />
           <Text>
@@ -28,6 +28,7 @@ export default () => {
             für ihre emotionale Entwicklung und ihre nonformelle Bildung
             brauchen Kinder, Jugendliche und junge Erwachsene
           </Text>
+
           <Box as="ul" paddingLeft={10} extend={{ listStyleType: 'none' }}>
             <li>
               <Text weight="bold" extend={{ fontStyle: 'italic' }}>
@@ -100,17 +101,35 @@ export default () => {
           </Text>
           <Text intent="note">*außer Mecklenburg-Vorpommern</Text>
         </Box>
+        <Box height={0}>
+          <Box
+            as="img"
+            src="/element1.png"
+            width={300}
+            extend={{
+              position: 'relative',
+              transform: 'translateY(-45px)',
+              [theme.breakpoints.large]: {
+                transform: 'translateY(-55px)',
+              },
+            }}
+          />
+        </Box>
       </Layout>
       <Layout
-        paddingTop={[0, , , 10]}
+        paddingTop={[10, , , 15]}
         paddingBottom={[10, , , 15]}
-        extend={{ backgroundColor: theme.colors.grey8 }}>
+        extend={{
+          backgroundColor: theme.colors.grey8,
+        }}>
         <Box
           extend={{
             display: 'grid',
             gridGap: 12,
-            [theme.breakpoints.large]: {
+            [theme.breakpoints.medium]: {
               gridTemplateColumns: '1fr 1fr',
+            },
+            [theme.breakpoints.large]: {
               gridGap: 24,
             },
           }}>

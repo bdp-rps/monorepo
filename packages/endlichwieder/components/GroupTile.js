@@ -13,9 +13,18 @@ import {
   IconGlobe,
   useTheme,
 } from '@bdp-rps/ui'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 import images from '../data/images.json'
+
+function getIdFromGroup(group) {
+  return group
+    .replace(/ /gi, '-')
+    .replace(/ö/gi, 'oe')
+    .replace(/ä/gi, 'ae')
+    .replace(/ü/gi, 'ue')
+    .toLowerCase()
+}
 
 export default function Tile({
   group,
@@ -27,7 +36,9 @@ export default function Tile({
 }) {
   const theme = useTheme()
   const [imageIndex, setImageIndex] = useState(0)
-  const availableImages = images[group]
+
+  const id = getIdFromGroup(group)
+  const availableImages = images[id]
 
   const { mail, website, phone, name, instagram, facebook } = contact
 
@@ -37,17 +48,39 @@ export default function Tile({
       extend={{
         backgroundColor: 'white',
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',
+
+        '& img': {
+          transition: 'filter 300ms ease-in-out',
+          filter: 'saturate(0.5) grayscale(0.2)',
+        },
+        ':hover': {
+          '& img': {
+            filter: 'unset',
+          },
+        },
       }}>
       <Box>
         <Box
           paddingLeft={4}
           paddingRight={4}
-          height={300}
-          width="calc(100% - 16px)"
+          height={0}
+          width="100%"
           direction="row"
           justifyContent="space-between"
           alignItems="center"
-          extend={{ position: 'absolute' }}>
+          extend={{
+            transform: 'translateY(150px)',
+            zIndex: 1,
+            [theme.breakpoints.small]: {
+              transform: 'translateY(180px)',
+            },
+            [theme.breakpoints.medium]: {
+              transform: 'translateY(150px)',
+            },
+            [theme.breakpoints.large]: {
+              transform: 'translateY(180px)',
+            },
+          }}>
           <Box>
             {imageIndex > 0 && (
               <Box
@@ -61,7 +94,7 @@ export default function Tile({
                   border: 0,
                   cursor: 'pointer',
                   borderRadius: '50%',
-                  backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.6)',
                 }}
                 onClick={() => setImageIndex(imageIndex - 1)}>
                 <IconLeftOpenBig size={26} />
@@ -81,7 +114,7 @@ export default function Tile({
                   border: 0,
                   cursor: 'pointer',
                   borderRadius: '50%',
-                  backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.6)',
                 }}
                 onClick={() => setImageIndex(imageIndex + 1)}>
                 <IconRightOpenBig size={26} />
@@ -92,9 +125,13 @@ export default function Tile({
         <Box
           as="img"
           width="100%"
-          height={300}
-          src={'/groups/' + group + '/' + availableImages[imageIndex]}
-          extend={{ objectFit: 'cover' }}
+          height={[300, 360, 300, 360]}
+          src={
+            '/groups/' + getIdFromGroup(id) + '/' + availableImages[imageIndex]
+          }
+          extend={{
+            objectFit: 'cover',
+          }}
         />
       </Box>
       <Box padding={4}>
@@ -110,7 +147,9 @@ export default function Tile({
         direction="row"
         space={5}
         wrap="wrap"
-        extend={{ backgroundColor: 'rgba(255, 203, 4, 0.8)' }}>
+        extend={{
+          backgroundColor: 'rgba(255, 203, 4, 0.8)',
+        }}>
         {mail && (
           <Link href={'mailto:' + mail}>
             <IconMail size={26} />

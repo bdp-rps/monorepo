@@ -5,7 +5,7 @@ export default function Layout({ children, extend, ...props }) {
     <Box {...props} alignItems="center" extend={extend}>
       <Box
         padding={[2.5, , , 0]}
-        maxWidth={1000}
+        maxWidth={1200}
         width="100%"
         alignSelf="center">
         {children}

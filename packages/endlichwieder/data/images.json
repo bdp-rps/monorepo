@@ -1,27 +1,89 @@
 {
-  "Jupiter": [
+  "albatros": [
+    "stammesheim1.jpg",
+    "stammesheim3.jpg",
+    "stammesheim3.wp2",
+    "stammesheim4.jpg"
+  ],
+  "bergwolf": [
+    "IMG_4863.jpg",
+    "IMG_4864.jpg",
+    "IMG_4870.jpg",
+    "IMG_4873.jpg",
+    "IMG_4878.jpg",
+    "IMG_4879.jpg"
+  ],
+  "burgund": [
+    "IMG-20180117-WA0000.jpg",
+    "IMG-20180117-WA0001.jpg"
+  ],
+  "graf-gebhard": [
+    "image0 - Kopie (2).jpg",
+    "image2.jpg",
+    "image3.jpg"
+  ],
+  "jupiter": [
     "_1020141edited.jpg",
     "_1020148edited.jpg",
     "_1020155edited.jpg",
     "_1020162edited.jpg",
     "_1020163edited.jpg"
   ],
-  "Rotmilan": [
+  "luchs": [
+    "photo5460781124654575902.jpg",
+    "photo5460781124654575903.jpg",
+    "photo5460781124654575905.jpg",
+    "photo5460781124654575906.jpg",
+    "photo5460781124654575907.jpg",
+    "photo5460781124654575908.jpg",
+    "photo5460781124654575909.jpg",
+    "photo5460781124654575910.jpg",
+    "photo5460781124654575912.jpg",
+    "photo5460781124654575914.jpg",
+    "photo5460781124654575915.jpg",
+    "photo5460781124654575916.jpg",
+    "photo5460781124654575918.jpg",
+    "photo5460781124654575924.jpg"
+  ],
+  "pegasus": [
+    "95bf885569.jpg"
+  ],
+  "rotmilan": [
     "Rotmilan-Buchhausen-Vilsen.jpg"
   ],
-  "Seeadler": [
-    "image0.jpeg",
-    "image1.jpeg",
-    "image2.jpeg",
-    "image3.jpeg",
-    "image4.jpeg",
-    "image5.jpeg",
-    "image6.jpeg",
-    "image7.jpeg",
-    "image8.jpeg",
-    "image9.jpeg"
+  "sankt-joerg": [
+    "DSCF3978.jpg",
+    "DSCF3979.jpg",
+    "DSCF3982.jpg",
+    "DSCF3984.jpg",
+    "DSCF3996.jpg",
+    "DSCF4012.jpg"
   ],
-  "von Helfenstein": [
+  "schwarzer-mustang": [
+    "DSC04766.jpg",
+    "DSC04770.jpg"
+  ],
+  "seeadler": [
+    "image0.jpg",
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg",
+    "image4.jpg",
+    "image5.jpg",
+    "image6.jpg",
+    "image7.jpg",
+    "image8.jpg",
+    "image9.jpg"
+  ],
+  "sir-francis-drake": [
+    "TRS_1209.jpg",
+    "TRS_8498.jpg"
+  ],
+  "staufen": [
+    "IMG-20171220-WA0000.jpg",
+    "heim.jpg"
+  ],
+  "von-helfenstein": [
     "IMGL7971.jpg",
     "IMGL7972.jpg",
     "IMGL7973.jpg",
@@ -36,7 +98,6 @@
     "IMGL7982.jpg",
     "IMGL7983.jpg",
     "IMGL7984.jpg",
-    "IMGL7985.jpg",
     "IMGL7986.jpg",
     "IMGL7987.jpg",
     "IMGL7988.jpg",
@@ -74,5 +135,6 @@
     "IMGL8022-2.jpg",
     "IMGL8022.jpg",
     "IMGL8023.jpg"
-  ]
+  ],
+  "voortrekker": []
 }

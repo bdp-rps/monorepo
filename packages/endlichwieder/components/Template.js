@@ -24,10 +24,12 @@ export default function Template({ children }) {
           paddingTop={3}
           paddingBottom={4}
           paddingRight={3}
-          extend={{
-            alignSelf: 'flex-start',
-          }}>
-          <Box as="img" src="/logo.png" maxWidth={250} width="100%" />
+          direction="row"
+          justifyContent="flex-start"
+          alignItems="center"
+          space={5}>
+          <Box as="img" src="/ewr.png" maxWidth={80} width="100%" />
+          <Box as="img" src="/logo.png" maxWidth={[220, 250]} width="100%" />
         </Box>
       </Layout>
 

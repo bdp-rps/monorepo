@@ -3027,6 +3027,13 @@
   dependencies:
     any-observable "^0.3.0"
 
+"@squoosh/cli@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@squoosh/cli/-/cli-0.6.4.tgz#56c09956957f36447e37ffb8cc477f03aa95a33d"
+  integrity sha512-UxT2f+7s2OJXQaNRy6nwATFoTClfcyVT8VqN+hzVrWCkYV5GnYRkpVpXJTPcRBPnXe+GcrvDAH9ziJVGtRTC2A==
+  dependencies:
+    web-streams-polyfill "^3.0.0"
+
 "@svgr/babel-plugin-add-jsx-attribute@^5.4.0":
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-5.4.0.tgz#81ef61947bb268eb9d50523446f9c638fb355906"
@@ -17157,6 +17164,11 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
+
+web-streams-polyfill@^3.0.0:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/web-streams-polyfill/-/web-streams-polyfill-3.0.3.tgz#f49e487eedeca47a207c1aee41ee5578f884b42f"
+  integrity sha512-d2H/t0eqRNM4w2WvmTdoeIvzAUSpK7JmATB8Nr2lb7nQ9BTIJVjbQ/TRFVEh2gUH1HwclPdoPtfMoFfetXaZnA==
 
 web-vitals@0.2.4:
   version "0.2.4"
