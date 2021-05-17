@@ -25,40 +25,37 @@ export default () => {
       subTitle="auf der Webseite von Watoto Kabisa">
       <Layout paddingTop={5} paddingBottom={5}>
         <Box
+          space={4}
           extend={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
+            width: '100%',
           }}>
-          <Box>
-            <Image
-              height={300}
-              width={250}
-              objectPosition="fit"
-              src="/../public/images/image_0.jpg"
-              alt="bild"
-            />
-          </Box>
-          <Box
-            extend={{
-              width: '100%',
-            }}>
-            <Text intent="heading" color={theme.tokens.primary}>
-              Wer sind wir?
-            </Text>
-            <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              et ex et urna ullamcorper consequat nec sed nisi. Aliquam auctor
-              sem dignissim leo imperdiet, in interdum ante fermentum. Mauris et
-              metus ut lacus congue iaculis a a lacus. Curabitur fringilla
-              malesuada pretium. Quisque eget facilisis odio. Praesent tellus
-              quam, vestibulum ac sem non, faucibus convallis erat. Sed vel
-              lorem tincidunt, sodales tortor auctor, accumsan diam. Aliquam
-              placerat aliquet purus, quis volutpat enim tincidunt vel. Nunc nec
-              maximus libero. Nulla eget odio volutpat, dictum quam at, placerat
-              sapien. Duis suscipit eu nisl pretium scelerisque. Phasellus
-              aliquam, mi quis suscipit sodales, mi nisl rutrum lectus.
-            </Text>
-          </Box>
+          <Text intent="heading" color={theme.tokens.primary}>
+            Wer sind wir?
+          </Text>
+          <Text>
+            Wir sind der Förderverein Watoto Kabisa! 2010 begannen die
+            Pfadfinder des Landesverbands Rheinland-Pfalz/Saar im BdP, gezielt
+            Projekte in Kenia zu unterstützen oder sogar zu initiieren. Dabei
+            konnten große Erfolge erzielt und in zwei Jahren über 50.000 Euro
+            bereitgestellt werden. Diese gute Arbeit setzen wir als Förderverein
+            auch langfristig fort.
+            <br />
+            <br />
+            Wir arbeiten komplett ehrenamtlich und sorgen so dafür, dass hundert
+            Prozent der Spenden auch nach Kenia gehen.
+            <br />
+            <br />
+            Das Konzept eines Fördervereins hat vor allem den Vorteil, feste
+            Budgets in festen Zeiträumen sinnvoll einplanen und durch eine
+            derartige Gewährleistung CADAMIC die nötige Sicherheit für weitere
+            Projekte geben zu können. Unsere Mitglieder dürfen gerne
+            mitarbeiten, genauso wichtig sind jedoch auch einfache zahlende
+            Mitglieder, die mit ihrem frei gewählten Jahresbeitrag die Menschen
+            in Kenia nach ihren Möglichkeiten nachhaltig unterstützen. Werde
+            auch DU Mitglied von Watoto Kabisa und trage deinen Teil dazu bei,
+            die Welt ein kleines bisschen besser zu hinterlassen als du sie
+            vorgefunden hast!
+          </Text>
         </Box>
       </Layout>
     </Template>

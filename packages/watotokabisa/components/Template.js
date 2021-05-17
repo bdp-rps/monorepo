@@ -118,13 +118,13 @@ export default function Template({ children, navImg, title, subTitle }) {
         <Box space={10}>
           <Box direction={['column', , , 'row']} space={[14, , , 0]}>
             <Box space={2} grow={1}>
-              <Text intent="category">Rechtliches</Text>
+              <Text intent="heading">Rechtliches</Text>
               <Spacer size={0.5} />
               <Link href="/impressum">Impressum</Link>
               <Link href="/datenschutz">Datenschutz</Link>
             </Box>
             <Box space={2} grow={1}>
-              <Text intent="category">Andere Seiten</Text>
+              <Text intent="heading">Andere Seiten</Text>
               <Spacer size={0.5} />
               <Link href="https://www.pfadfinden.de">Bundesseite</Link>
               <Link href="http://www.ljr-rlp.de">
@@ -138,14 +138,23 @@ export default function Template({ children, navImg, title, subTitle }) {
               </Link>
             </Box>
             <Box space={2} grow={1}>
-              <Text intent="category">Soziales</Text>
+              <Text intent="heading">Soziales</Text>
               <Spacer size={0.5} />
               <Link href="https://instagram.com/bdp_lv_rps/">Instagram</Link>
             </Box>
+            <Box space={2} grow={1}>
+              <Text intent="heading">Spendenkonto</Text>
+              <Spacer size={0.5} />
+              <Text>Spendenkonto: Förderverein Watoto Kabisa</Text>
+              <Text>IBAN: DE93 5405 0110 0000 5389 91</Text>
+              <Text>BIC: MALADE51KLS</Text>
+              <Text>Stadtsparkasse Kaiserslautern</Text>
+              <Text>Verwendungszweck: Geschenkkarten Kenia</Text>
+              <Text>Spendenquittungen ab 50 Euro</Text>
+            </Box>
           </Box>
           <Text>
-            Copyright &copy; {new Date().getFullYear()} BdP Landesverband
-            Rheinland-Pfalz/Saarland
+            Copyright &copy; {new Date().getFullYear()} Watoto Kabisa e.V.
           </Text>
         </Box>
         <Box paddingTop={5}>

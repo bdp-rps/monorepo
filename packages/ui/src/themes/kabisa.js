@@ -2,7 +2,7 @@ const colors = {
   yellow: 'rgb(249, 132, 74)',
   yellowLight: 'rgb(245, 193, 0)',
   blue: 'rgb(87, 117, 144)',
-  blueLight: 'rgb(39, 82, 163)',
+
   brown: 'rgb(107, 92, 72)',
   red: 'rgb(211, 0, 20)',
   redLight: 'rgb(221, 10, 30)',
@@ -17,6 +17,7 @@ const colors = {
   zompBg: 'rgba(67, 170, 139,0.4)',
   cadetBlue: 'rgb(77, 144, 142)',
   queenBlue: 'rgb(87, 117, 144)',
+  queenBlueLight: 'rgb(127, 172, 212)',
   cgBlue: 'rgb(39, 125, 161)',
 
   black: 'rgb(10, 10, 10)',
@@ -40,7 +41,7 @@ export default {
   colors,
   tokens: {
     primary: colors.queenBlue,
-    primaryLight: colors.blueLight,
+    primaryLight: colors.queenBlueLight,
     secondary: colors.yellowOrange,
     secondaryLight: colors.yellowOrange,
     destructive: colors.redSalsa,
