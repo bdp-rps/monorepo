@@ -1,5 +1,6 @@
 import { Box, Text, useTheme, Spacer, Link } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -12,6 +13,13 @@ export default () => {
 
   return (
     <Template>
+      <Head>
+        <title>Endlich wieder Pfadfinden</title>
+        <meta
+          type="description"
+          content="Endlich wieder Raus ist eine Kampagne des Bund der Pfadfinderinnen und Pfadfinder."
+        />
+      </Head>
       <Layout paddingTop={10} paddingBottom={15}>
         <Box space={2} maxWidth={1000}>
           <Text intent="title">Endlich wieder Pfadfinden</Text>
@@ -74,18 +82,20 @@ export default () => {
             Einfluss auf ihre Entwicklung genommen.
             <br />
             <br />
-            Wir, die mit über <b>300 Stämmen in fast ganz Deutschland*</b> im
-            Bund der Pfadfinderinnen und Pfadfinder e.V. mit{' '}
-            <b>über 300 Stämmen</b> in fast ganz Deutschland*{' '}
-            <b>rund 30.000 Kinder, Jugendliche und junge Erwachsene</b>{' '}
-            erreichen, wollen <b>endlich wieder raus</b>!
+            Wir junge Menschen im Bund der Pfadfinderinnen und Pfadfinder e.V.,
+            die mit über <b>300 Stämmen in fast ganz Deutschland*</b> rund{' '}
+            <b>30.000</b> Kinder, Jugendliche und junge Erwachsene erreichen,
+            wollen <b>endlich wieder raus</b>!"
           </Text>
           <Text intent="note">*außer Mecklenburg-Vorpommern</Text>
           <br />
           <Text>
             Erfahre hier bald mehr über die Kampagne <i>Endlich wieder Raus</i>{' '}
-            oder unter <Link href="https://meinbdp.de">meinbdp.de</Link> und
-            unseren{' '}
+            oder unter{' '}
+            <Link href="https://meinbdp.de/display/raus/Endlich+wieder+raus+Startseite">
+              meinbdp.de
+            </Link>{' '}
+            und unseren{' '}
             <Link href="https://www.pfadfinden.de/bund/publikationen/">
               Publikationen
             </Link>{' '}
@@ -114,7 +124,7 @@ export default () => {
           backgroundColor: theme.colors.grey8,
         }}>
         <Text intent="category">
-          Normalerweile werden die Stammesheime wöchentlich von zahlreichen
+          Normalerweise werden die Stammesheime wöchentlich von zahlreichen
           Pfadfinder*innen genutzt.
           <br />
           Aktuell bleiben ihre Türen jedoch leider verschlossen...
