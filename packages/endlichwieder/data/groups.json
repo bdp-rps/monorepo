@@ -8,7 +8,10 @@
     "contact": {
       "mail": "info@stammvonhelfenstein.de",
       "name": "Torben Pötter",
-      "phone": "015233579865"
+      "phone": "015233579865",
+      "website": "http://stammvonhelfenstein.de",
+      "facebook": "stammvonhelfenstein",
+      "instagram": "svh_squad"
     }
   },
   {
@@ -43,6 +46,7 @@
     "foundedAt": 1988,
     "members": 65,
     "contact": {
+      "website": "http://pfadfinder-bonn.de",
       "mail": "information@pfadfinder-bonn.de"
     }
   },
@@ -53,7 +57,7 @@
     "foundedAt": 2010,
     "members": 50,
     "contact": {
-      "website": "https://stamm-luchs.de",
+      "website": "http://stamm-luchs.de",
       "mail": "stammesleitung@stamm-luchs.de",
       "instagram": "stammluchs",
       "facebook": "stammluchs"
@@ -66,7 +70,7 @@
     "foundedAt": 1923,
     "members": 60,
     "contact": {
-      "website": "https://graf-gebhard.de",
+      "website": "http://graf-gebhard.de",
       "mail": "stafue@graf-gebhard.de"
     }
   },
@@ -77,6 +81,7 @@
     "foundedAt": 1967,
     "members": 122,
     "contact": {
+      "website": "https://albatrossolln.de",
       "mail": "kontakt@albatrossolln.de"
     }
   },
@@ -87,7 +92,7 @@
     "foundedAt": 1976,
     "members": 50,
     "contact": {
-      "website": "https://stamm-burgund.de",
+      "website": "http://stamm-burgund.de",
       "mail": "postkasten@stamm-burgund.de"
     }
   },
@@ -108,7 +113,8 @@
     "foundedAt": null,
     "members": 45,
     "contact": {
-      "website": "stamm@pfadfinder-weilheim.de"
+      "website": "http://pfadfinder-weilheim.de",
+      "email": "stamm@pfadfinder-weilheim.de"
     }
   },
   {
@@ -118,7 +124,7 @@
     "foundedAt": 1969,
     "members": 80,
     "contact": {
-      "website": "https://stamm-sma.de",
+      "website": "http://stamm-sma.de",
       "mail": "info@stamm-sma.de"
     }
   },
@@ -129,7 +135,7 @@
     "foundedAt": 1961,
     "members": 65,
     "contact": {
-      "website": "https://freundeskreisstammstaufen.de",
+      "website": "http://freundeskreisstammstaufen.de",
       "mail": "pfadis@freundeskreisstammstaufen.de"
     }
   },
@@ -151,7 +157,29 @@
     "members": 63,
     "contact": {
       "mail": "philippschuster@posteo.de",
-      "website": "https://st-joerg.de"
+      "website": "http://st-joerg.de"
+    }
+  },
+  {
+    "group": "Totila",
+    "lv": "NRW",
+    "location": "48155 Münster",
+    "foundedAt": 1948,
+    "members": 40,
+    "contact": {
+      "mail": "info@pfadfinder-ms.de",
+      "website": "https://pfadfinder-ms.de"
+    }
+  },
+  {
+    "group": "Franz von Sickingen",
+    "lv": "RPS",
+    "location": "67304 Eisenberg - Steinborn (Pfalz)",
+    "foundedAt": 1965,
+    "members": 110,
+    "contact": {
+      "mail": "anmeldung.fvs@gmail.com",
+      "website": "https://pfadfinder-eisenberg.de"
     }
   }
 ]
