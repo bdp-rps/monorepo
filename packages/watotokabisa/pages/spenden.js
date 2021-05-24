@@ -16,7 +16,7 @@ import BankAccount from '../components/BankAccount'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 
-export default () => {
+export default function Spenden() {
   const theme = useTheme()
 
   return (

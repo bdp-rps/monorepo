@@ -10,6 +10,7 @@ import {
   Button,
   ScrollView,
 } from '@bdp-rps/ui'
+import HoverImage from '../components/HoverImage'
 import Image from 'next/image'
 import NextLink from 'next/link'
 
@@ -24,35 +25,155 @@ export default () => {
       navImg='url("/images/geschenkkartenBg.jpg")'
       title="Geschenkkarten!">
       <Layout paddingTop={5} paddingBottom={5}>
-        <Box flexDirection="row" extend={{}}>
-          <Box space={2}>
-            <Text intent="heading" color={theme.tokens.primary}>
-              Wer sind wir?
-            </Text>
-            <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              et ex et urna ullamcorper consequat nec sed nisi. Aliquam auctor
-              sem dignissim leo imperdiet, in interdum ante fermentum. Mauris et
-              metus ut lacus congue iaculis a a lacus. Curabitur fringilla
-              malesuada pretium. Quisque eget facilisis odio. Praesent tellus
-              quam, vestibulum ac sem non, faucibus convallis erat. Sed vel
-              lorem tincidunt, sodales tortor auctor, accumsan diam. Aliquam
-              placerat aliquet purus, quis volutpat enim tincidunt vel. Nunc nec
-              maximus libero. Nulla eget odio volutpat, dictum quam at, placerat
-              sapien. Duis suscipit eu nisl pretium scelerisque. Phasellus
-              aliquam, mi quis suscipit sodales, mi nisl rutrum lectus. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Integer et ex
-              et urna ullamcorper consequat nec sed nisi. Aliquam auctor sem
-              dignissim leo imperdiet, in interdum ante fermentum. Mauris et
-              metus ut lacus congue iaculis a a lacus. Curabitur fringilla
-              malesuada pretium. Quisque eget facilisis odio. Praesent tellus
-              quam, vestibulum ac sem non, faucibus convallis erat. Sed vel
-              lorem tincidunt, sodales tortor auctor, accumsan diam. Aliquam
-              placerat aliquet purus, quis volutpat enim tincidunt vel. Nunc nec
-              maximus libero. Nulla eget odio volutpat, dictum quam at, placerat
-              sapien. Duis suscipit eu nisl pretium scelerisque. Phasellus
-              aliquam, mi quis suscipit sodales, mi nisl rutrum lectus.
-            </Text>
+        <Box space={4}>
+          <Box extend={{ flexDirection: 'row' }} space={4}>
+            <HoverImage
+              width={500}
+              height={500}
+              imageURL="/images/schulspeisung.jpg">
+              <Box
+                space={2}
+                extend={{
+                  flex: 1,
+                  backgroundColor: theme.colors.zompBg,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}>
+                <Text intent="subtitle" color="white">
+                  Schulspeisung
+                </Text>
+                <Text intent="subtitle" color="white">
+                  10€
+                </Text>
+              </Box>
+            </HoverImage>
+            <Box
+              extend={{
+                backgroundColor: theme.tokens.primary,
+                alignItems: 'center',
+              }}
+              width={500}
+              height={500}>
+              <Text
+                intent="subtitle"
+                color="white"
+                extend={{ paddingTop: '120' }}>
+                Du möchtest einmalig spenden?
+              </Text>
+              <Text
+                color="white"
+                extend={{
+                  paddingTop: '30',
+                  paddingLeft: '30',
+                  paddingRight: '30',
+                }}>
+                Und mitentscheiden, was mit deinem Geld passiert? Über
+                karten(at)watoto-kabisa.de kannst du Karten erwerben, deren
+                Erlös komplett in Kenia landet. Diese Karten eignen sich
+                übrigens auch super als Weihnachtsgeschenke, die lange Freude
+                machen und wirklich sinnvoll sind.
+              </Text>
+            </Box>
+          </Box>
+          <Box extend={{ flexDirection: 'row' }} space={4}>
+            <Box
+              extend={{
+                backgroundColor: theme.tokens.primary,
+                alignItems: 'center',
+              }}
+              width={500}
+              height={500}>
+              <Text
+                intent="subtitle"
+                color="white"
+                extend={{ paddingTop: '120' }}>
+                Wie funktioniert das?
+              </Text>
+              <Text
+                color="white"
+                extend={{
+                  paddingTop: '30',
+                  paddingLeft: '30',
+                  paddingRight: '30',
+                }}>
+                Du suchst dir aus verschiedenen Möglichkeiten unterschiedlicher
+                Preisklassen genau das aus, was du in Kenia verschenken willst.
+                Als Dankeschön, und natürlich auch zum Weiterschenken geeignet,
+                bekommst du eine hübsche Klapp-Postkarte, auf der erläutert
+                wird, wozu deine Spende in Kenia gut ist.
+              </Text>
+            </Box>
+            <HoverImage width={500} height={500} imageURL="/images/ziege.jpg">
+              <Box
+                space={2}
+                extend={{
+                  flex: 1,
+                  backgroundColor: theme.colors.zompBg,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}>
+                <Text intent="subtitle" color="white">
+                  Ziege
+                </Text>
+                <Text intent="subtitle" color="white">
+                  30€
+                </Text>
+              </Box>
+            </HoverImage>
+          </Box>
+
+          <Box extend={{ flexDirection: 'row' }} space={4}>
+            <HoverImage
+              width={500}
+              height={500}
+              imageURL="/images/gemuesegarten.jpg">
+              <Box
+                space={2}
+                extend={{
+                  flex: 1,
+                  backgroundColor: theme.colors.zompBg,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}>
+                <Text intent="subtitle" color="white">
+                  Gemüsegarten
+                </Text>
+                <Text intent="subtitle" color="white">
+                  20€
+                </Text>
+              </Box>
+            </HoverImage>
+            <Box
+              extend={{
+                backgroundColor: theme.tokens.primary,
+                alignItems: 'center',
+              }}
+              width={500}
+              height={500}>
+              <Text
+                intent="subtitle"
+                color="white"
+                extend={{ paddingTop: '120' }}>
+                Was bieten wir an?{' '}
+              </Text>
+              <Text
+                color="white"
+                extend={{
+                  paddingTop: '30',
+                  paddingLeft: '30',
+                  paddingRight: '30',
+                }}>
+                Schulspeisung 10€: Genauere Beschreibung der Schulspeisung. In
+                1-2 Sätzen.
+                <br />
+                <br />
+                Eine Ziege 30€: Genauere Beschreibung des Ziege. In 1-2 Sätzen.
+                <br />
+                <br />
+                Gemüsegartens 20€: Genauere Beschreibung der Gemüsegartens. In
+                1-2 Sätzen.
+              </Text>
+            </Box>
           </Box>
         </Box>
       </Layout>

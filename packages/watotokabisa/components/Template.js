@@ -4,6 +4,7 @@ import { Box, Text, useTheme, Spacer, Tile, Link } from '@bdp-rps/ui'
 import NavBarItem from './NavBarItem'
 import NavBar from './NavBar'
 import Logo from './Logo'
+import BankAccount from './BankAccount'
 
 import Layout from './Layout'
 
@@ -145,12 +146,7 @@ export default function Template({ children, navImg, title, subTitle }) {
             <Box space={2} grow={1}>
               <Text intent="heading">Spendenkonto</Text>
               <Spacer size={0.5} />
-              <Text>Spendenkonto: Förderverein Watoto Kabisa</Text>
-              <Text>IBAN: DE93 5405 0110 0000 5389 91</Text>
-              <Text>BIC: MALADE51KLS</Text>
-              <Text>Stadtsparkasse Kaiserslautern</Text>
-              <Text>Verwendungszweck: Geschenkkarten Kenia</Text>
-              <Text>Spendenquittungen ab 50 Euro</Text>
+              <BankAccount />
             </Box>
           </Box>
           <Text>
