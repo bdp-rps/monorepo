@@ -1,0 +1,32 @@
+{
+  "name": "watoto-kabisa.de",
+  "version": "0.0.25",
+  "description": "Official watoto-kabisa website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "yarn build:blog-manifest && next build",
+    "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "vercel --prod",
+    "prepare": "echo 1"
+  },
+  "dependencies": {
+    "@bdp-rps/ui": "^0.0.25",
+    "@mdx-js/loader": "^1.5.8",
+    "@mdx-js/react": "^1.5.8",
+    "@next/bundle-analyzer": "9.3.4",
+    "@next/mdx": "^9.3.5",
+    "next": "^10.2.0",
+    "node-fetch": "^2.6.0",
+    "onegraph-auth": "^2.2.1",
+    "react": "^16.13.1",
+    "react-abc": "^0.4.0",
+    "react-dom": "^16.13.1",
+    "rehype-slug": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.8.7"
+  }
+}
