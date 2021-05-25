@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn build:blog-manifest && next build",
-    "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
+    "build": "next build",
     "start": "next start",
     "export": "next export",
     "deploy": "vercel --prod",
