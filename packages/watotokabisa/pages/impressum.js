@@ -83,6 +83,7 @@ export default () => {
             <b>
               Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
             </b>
+          </Text>
         </Box>
       </Layout>
     </Template>
