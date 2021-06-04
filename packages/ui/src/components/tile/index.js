@@ -12,6 +12,8 @@ export default function Tile({
   imageHeight = 120,
   imagePosition = 'center',
   children,
+  extend,
+  titleBackground,
 }) {
   const { theme } = useFela()
 
@@ -29,6 +31,7 @@ export default function Tile({
       extend={{
         backgroundColor: 'white',
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',
+        ...extend,
       }}>
       <Box
         grow={image ? 1 : 0}
@@ -47,7 +50,9 @@ export default function Tile({
             paddingBottom={0.5}
             paddingLeft={2}
             paddingRight={2}
-            extend={{ backgroundColor: theme.tokens.secondary }}>
+            extend={{
+              backgroundColor: titleBackground || theme.tokens.secondary,
+            }}>
             <Text
               intent={highlight ? 'subtitle' : 'category'}
               color={theme.tokens.primary}>

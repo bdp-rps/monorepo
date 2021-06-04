@@ -14,6 +14,10 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
+import PostTile from '../components/PostTile'
+
+import manifest from '../public/blog-manifest.json'
+const [firstPost, ...otherPosts] = manifest
 
 export default () => {
   const theme = useTheme()
@@ -36,26 +40,38 @@ export default () => {
             Wir sind der Förderverein Watoto Kabisa! 2010 begannen die
             Pfadfinder des Landesverbands Rheinland-Pfalz/Saar im BdP, gezielt
             Projekte in Kenia zu unterstützen oder sogar zu initiieren. Dabei
-            konnten große Erfolge erzielt und in zwei Jahren über 50.000 Euro
-            bereitgestellt werden. Diese gute Arbeit setzen wir als Förderverein
-            auch langfristig fort.
+            konnten bis heute große Erfolge erzielt werden. Diese gute Arbeit
+            setzen wir als Förderverein in Kooperation mit unserer kenianischen
+            Partnerorganisation WONESU auch langfristig fort.
             <br />
             <br />
             Wir arbeiten komplett ehrenamtlich und sorgen so dafür, dass hundert
             Prozent der Spenden auch nach Kenia gehen.
-            <br />
-            <br />
-            Das Konzept eines Fördervereins hat vor allem den Vorteil, feste
-            Budgets in festen Zeiträumen sinnvoll einplanen und durch eine
-            derartige Gewährleistung CADAMIC die nötige Sicherheit für weitere
-            Projekte geben zu können. Unsere Mitglieder dürfen gerne
-            mitarbeiten, genauso wichtig sind jedoch auch einfache zahlende
-            Mitglieder, die mit ihrem frei gewählten Jahresbeitrag die Menschen
-            in Kenia nach ihren Möglichkeiten nachhaltig unterstützen. Werde
-            auch DU Mitglied von Watoto Kabisa und trage deinen Teil dazu bei,
-            die Welt ein kleines bisschen besser zu hinterlassen als du sie
-            vorgefunden hast!
           </Text>
+        </Box>
+      </Layout>
+      <Layout grow={1} paddingTop={5} paddingBottom={10} alignSelf="stretch">
+        <Text intent="subtitle" color={theme.tokens.primary}>
+          Unsere Fahrentchronik
+        </Text>
+        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
+          <Box grow={5}>
+            <PostTile highlight {...firstPost} />
+          </Box>
+          <Box grow={1} space={4}>
+            {otherPosts.splice(0, 2).map(post => (
+              <PostTile key={post.id} {...post} />
+            ))}
+          </Box>
+        </Box>
+        <Box
+          marginTop={9}
+          alignSelf="flex-start"
+          alignItems="flex-start"
+          extend={{ ...theme.border }}>
+          <Button href="/blog" size="large">
+            Weitere Beiträge
+          </Button>
         </Box>
       </Layout>
     </Template>
