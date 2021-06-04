@@ -48,6 +48,7 @@ export default () => {
             </HoverImage>
             <Box
               extend={{
+                ...theme.border,
                 backgroundColor: theme.tokens.primary,
                 alignItems: 'center',
               }}
@@ -77,6 +78,7 @@ export default () => {
           <Box extend={{ flexDirection: 'row' }} space={4}>
             <Box
               extend={{
+                ...theme.border,
                 backgroundColor: theme.tokens.primary,
                 alignItems: 'center',
               }}
@@ -144,6 +146,7 @@ export default () => {
             </HoverImage>
             <Box
               extend={{
+                ...theme.border,
                 backgroundColor: theme.tokens.primary,
                 alignItems: 'center',
               }}
