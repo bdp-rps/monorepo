@@ -40,7 +40,7 @@ const fonts = {
 export default {
   colors,
   tokens: {
-    primary: colors.queenBlue,
+    primary: colors.cgBlue,
     primaryLight: colors.queenBlueLight,
     secondary: colors.yellowOrange,
     secondaryLight: colors.yellowOrange,
@@ -58,6 +58,10 @@ export default {
   baselineGrid: 4,
   elementGrid: 8,
   direction: 'ltr',
+  border: {
+    border: '2px solid #333333',
+    borderRadius: ' 2% 6% 5% 4% / 1% 1% 2% 4%',
+  },
   breakpoints: {
     small: '@media (min-width: 480px)',
     medium: '@media (min-width: 800px)',
@@ -96,8 +100,8 @@ export default {
     },
     category: {
       element: 'h3',
-      fontFamily: fonts.content,
-      fontSize: 18.0,
+      fontFamily: fonts.heading,
+      fontSize: 22.0,
       lineHeight: 22.0,
       fontWeight: 700,
       color: colors.grey1,
@@ -114,7 +118,7 @@ export default {
     subtitle: {
       element: 'h2',
       fontFamily: fonts.heading,
-      fontSize: 48.0,
+      fontSize: 40.0,
       lineHeight: 40.0,
       fontWeight: 700,
       color: colors.grey1,

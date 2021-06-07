@@ -7,7 +7,6 @@ import {
   Spacer,
   Tile,
   Link,
-  Button,
   ScrollView,
 } from '@bdp-rps/ui'
 import HoverImage from '../components/HoverImage'
@@ -153,7 +152,7 @@ export default () => {
               <Text
                 intent="subtitle"
                 color="white"
-                extend={{ paddingTop: '120' }}>
+                extend={{ paddingTop: '20' }}>
                 Was bieten wir an?{' '}
               </Text>
               <Text
@@ -163,15 +162,24 @@ export default () => {
                   paddingLeft: '30',
                   paddingRight: '30',
                 }}>
-                Schulspeisung 10€: Genauere Beschreibung der Schulspeisung. In
-                1-2 Sätzen.
+                Schulspeisung 10€: Die Schulspeisungen sorgen täglich für
+                insgesamt fast 4000 satte Schülerinnen und Schüler. So lernt es
+                sich besser und die Hoffnung auf eine erfolgreiche Zukunft
+                steigt auch. Schon mit 10 Euro kann eine ganze Grundschule ein
+                paar Tage lang versorgt werden.
                 <br />
                 <br />
-                Eine Ziege 30€: Genauere Beschreibung des Ziege. In 1-2 Sätzen.
+                Eine Ziege 30€: Ziegen sind praktisch und nachhaltig: Sie sind
+                sehr robust und liefern nahrhafte Milch, Dünger für die Felder,
+                Fleisch und können bei akutem Geldbedarf verkauft werden.
                 <br />
                 <br />
-                Gemüsegartens 20€: Genauere Beschreibung der Gemüsegartens. In
-                1-2 Sätzen.
+                Gemüsegartens 20€: Ein Selbstversorgergarten bringt
+                Unabhängigkeit und Gesundheit. Viele der Projektbauern und
+                -bäuerinnen sorgen mit dem Anbau von verschiedenen Ost- und
+                Gemüsesorten für eine ausgewogene Ernährung ihrer Familien und
+                schaffen sich durch den Verkauf ihrer Erträge gleichzeitig eine
+                stabile Einnahmequelle.
               </Text>
             </Box>
           </Box>
