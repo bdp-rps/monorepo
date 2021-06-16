@@ -39,50 +39,32 @@ export default () => {
         <Box space={8} paddingBottom={10}>
           <Text intent="subtitle">Impressum</Text>
           <Text>
-            <b>Bund der Pfadfinderinnen und Pfadfinder (BdP)</b>
-            <br />
-            <b>Landesverband Rheinland-Pfalz/Saar</b>
+            <b>Watoto Kabisa e.V.</b>
             <br />
             <br />
-            <b>Stefan Schmidt</b>
             <br />
-            Dreiweidenstraße 3<br />
-            65195 Wiesbaden
+            <b>Wiebke Spieß</b>
             <br />
-            <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
+            Deine Adresse Wiebke :)
             <br />
-            <br />
-            Jugendverband
+            <Link href="mailto:?">Deine Mailadresse</Link>
           </Text>
           <Text>
             <b>Gesetzliche Vertreter:</b>
             <br />
-            Stefan Schmidt
-            <br />
-            Roxanne Schaefer
-            <br />
-            Anne Wendel
-            <br />
-            Victoria Schilde
-            <br />
-            Lukas Ebel
-            <br />
-            Dominik Meisinger
+            Liste mit Namen aus dem Vorstand
             <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
             befugt.
             <br />
             <br />
-            Der BdP Rheinland-Pfalz/Saar ist ein nichtrechtsfähiger Verein mit
-            Sitz in Wiesbaden. Er ist eine selbständige Untergliederung des
-            Bundes der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
-            Immenhausen.
           </Text>
           <Text>
             <b>
               Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
             </b>
+            Hier kann auch ich rein :)
           </Text>
         </Box>
       </Layout>

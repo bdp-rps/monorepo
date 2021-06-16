@@ -49,7 +49,7 @@ export default function Template({ children, navImg, title, subTitle }) {
       <Box
         height={['50vh', , '70vh']}
         extend={{
-          backgroundImage: navImg,
+          backgroundImage: navImg ? navImg : 'url("/images/bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: '70% 50%',
           width: '100%',
@@ -83,7 +83,15 @@ export default function Template({ children, navImg, title, subTitle }) {
           </Box>
           <Layout>
             <Box>
-              <Text intent="title" height={1} align="center" color={'white'}>
+              <Text
+                intent="title"
+                height={1}
+                align="center"
+                color={'white'}
+                extend={{
+                  fontSize: 60.0,
+                  [theme.breakpoints.medium]: { fontSize: 84.0 },
+                }}>
                 {title}
               </Text>
               <Text intent="subtitle" height={1} color={'white'} align="center">

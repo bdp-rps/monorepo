@@ -17,7 +17,7 @@ export default function Menu({ menuVisible, hideMenu, children, ...props }) {
         width: '70%',
         top: 0,
         left: 0,
-        bottom: 0,
+        bottom: 0, 
         right: 0,
       }}>
       <Link onClick={hideMenu}>
