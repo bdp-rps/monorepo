@@ -24,11 +24,11 @@ export default () => {
       navImg='url("/images/geschenkkartenBg.jpg")'
       title="Geschenkkarten!">
       <Layout paddingTop={5} paddingBottom={5}>
-        <Box space={4}>
-          <Box extend={{ flexDirection: 'row' }} space={4}>
+        <Box space={4} alignItems="center">
+          <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>
             <HoverImage
-              width={500}
-              height={500}
+              width={['100%', , 500]}
+              height={[300, , 500]}
               imageURL="/images/schulspeisung.jpg">
               <Box
                 space={2}
@@ -52,12 +52,13 @@ export default () => {
                 backgroundColor: theme.tokens.primary,
                 alignItems: 'center',
               }}
-              width={500}
-              height={500}>
+              width={['100%', , 500]}
+              height={['100%', , 500]}>
               <Text
                 intent="subtitle"
                 color="white"
-                extend={{ paddingTop: '120' }}>
+                align={['center', , '']}
+                extend={{ paddingTop: ['20', , '120'] }}>
                 Du möchtest einmalig spenden?
               </Text>
               <Text
@@ -66,6 +67,7 @@ export default () => {
                   paddingTop: '30',
                   paddingLeft: '30',
                   paddingRight: '30',
+                  paddingBottom: '30',
                 }}>
                 Und mitentscheiden, was mit deinem Geld passiert? Über
                 karten(at)watoto-kabisa.de kannst du Karten erwerben, deren
@@ -75,19 +77,20 @@ export default () => {
               </Text>
             </Box>
           </Box>
-          <Box extend={{ flexDirection: 'row' }} space={4}>
+          <Box extend={{ flexDirection: ['column', , , 'row'] }} space={4}>
             <Box
               extend={{
                 ...theme.border,
                 backgroundColor: theme.tokens.primary,
                 alignItems: 'center',
               }}
-              width={500}
-              height={500}>
+              width={['100%', , 500]}
+              height={['100%', , 500]}>
               <Text
                 intent="subtitle"
                 color="white"
-                extend={{ paddingTop: '120' }}>
+                align={['center', , '']}
+                extend={{ paddingTop: ['20', , '120'] }}>
                 Wie funktioniert das?
               </Text>
               <Text
@@ -96,6 +99,7 @@ export default () => {
                   paddingTop: '30',
                   paddingLeft: '30',
                   paddingRight: '30',
+                  paddingBottom: '30',
                 }}>
                 Du suchst dir aus verschiedenen Möglichkeiten unterschiedlicher
                 Preisklassen genau das aus, was du in Kenia verschenken willst.
@@ -104,7 +108,10 @@ export default () => {
                 wird, wozu deine Spende in Kenia gut ist.
               </Text>
             </Box>
-            <HoverImage width={500} height={500} imageURL="/images/ziege.jpg">
+            <HoverImage
+              width={['100%', , 500]}
+              height={[300, , 500]}
+              imageURL="/images/ziege.jpg">
               <Box
                 space={2}
                 extend={{
@@ -123,10 +130,10 @@ export default () => {
             </HoverImage>
           </Box>
 
-          <Box extend={{ flexDirection: 'row' }} space={4}>
+          <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>
             <HoverImage
-              width={500}
-              height={500}
+              width={['100%', , 500]}
+              height={[300, , 500]}
               imageURL="/images/gemuesegarten.jpg">
               <Box
                 space={2}
@@ -150,8 +157,8 @@ export default () => {
                 backgroundColor: theme.tokens.primary,
                 alignItems: 'center',
               }}
-              width={500}
-              height={500}>
+              width={['100%', , 500]}
+              height={['100%', , 500]}>
               <Text
                 intent="subtitle"
                 color="white"
@@ -164,6 +171,7 @@ export default () => {
                   paddingTop: '30',
                   paddingLeft: '30',
                   paddingRight: '30',
+                  paddingBottom: '30',
                 }}>
                 Schulspeisung 10€: Die Schulspeisungen sorgen täglich für
                 insgesamt fast 4000 satte Schülerinnen und Schüler. So lernt es

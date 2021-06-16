@@ -31,21 +31,12 @@ export default () => {
               durch:
               <br />
               Verantwortlicher: <br />
-              Bund der Pfadfinderinnen und Pfadfinder e.V. (BdP)
+              Watoto Kabisa e.V.
               <br />
               vertr. d. d. Vorstand
               <br />
-              Kesselhaken 23, 34376 Immenhausen
-              <br />
-              Telefon: +49 5673-99584-0
-              <br />
-              Telefax: +49 5673-99584-44
-              <br />
-              E-Mail: info@pfadfinden.de
+              Adresse, Mail und ähnliches
               <br /> <br />
-              Die Datenschutzbeauftragte des BdP e.V. ist unter der o.g.
-              Anschrift, zu Hd. Silvia Houda, beziehungsweise unter
-              datenschutz@pfadfinden.de erreichbar.
             </Text>
           </Box>
           <Box space={6}>
@@ -57,7 +48,7 @@ export default () => {
               <b>a) Beim Besuch der Website</b>
               <br />
               <br />
-              Beim Aufrufen unserer Website http://bdp-rps.de werden durch den
+              Beim Aufrufen unserer Website "Name der Website" werden durch den
               auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch
               Informationen an den Server unserer Website gesendet. Diese
               Informationen werden temporär in einem sog. Logfile gespeichert.
@@ -262,10 +253,7 @@ export default () => {
               ohne Angabe einer besonderen Situation von uns umgesetzt wird.
               Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch
               machen, genügt eine E-Mail an{' '}
-              <Link href="mailto:datenschutz@pfadfinden.de">
-                datenschutz@pfadfinden.de
-              </Link>
-              .
+              <Link href=" ">Mail von watotokabisa</Link>.
             </Text>
           </Box>
           <Box space={6}>
@@ -298,18 +286,8 @@ export default () => {
             </Text>
             <Text>
               Diese Datenschutzerklärung ist aktuell gültig und hat den Stand
-              Mai 2018.
+              April 2021.
               <br />
-              <br />
-              Durch die Weiterentwicklung unserer Website und Angebote darüber
-              oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher
-              Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu
-              ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit
-              auf der Website unter{' '}
-              <Link href="https://www.pfadfinden.de/datenschutzerklaerung/">
-                https://www.pfadfinden.de/datenschutzerklaerung/
-              </Link>{' '}
-              von Ihnen abgerufen und ausgedruckt werden.
             </Text>
           </Box>
         </Box>

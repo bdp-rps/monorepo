@@ -1,10 +1,11 @@
 import { useRouter } from 'next/router'
-
-import { Box, Text, useTheme, Spacer, Tile, Link } from '@bdp-rps/ui'
+import React, { useState } from 'react'
+import { Box, Text, useTheme, Spacer, Tile, IconMenu, Link } from '@bdp-rps/ui'
 import NavBarItem from './NavBarItem'
 import NavBar from './NavBar'
 import Logo from './Logo'
 import BankAccount from './BankAccount'
+import Menu from './Menu'
 
 import Layout from './Layout'
 
@@ -20,75 +21,80 @@ const subNavs = {}
 export default function Template({ children, navImg, title, subTitle }) {
   const router = useRouter()
   const theme = useTheme()
+  const [menuVisible, setMenuVisible] = useState(false)
 
+  const hideMenu = () => {
+    setMenuVisible(false)
+  }
+  const navBarItems = Object.keys(nav).map(path => (
+    <NavBarItem
+      href={path}
+      active={
+        path === '/'
+          ? router.pathname === '/'
+          : router.pathname.indexOf(path) !== -1
+      }>
+      {nav[path]}
+    </NavBarItem>
+  ))
   const isSubPage = Object.keys(subNavs).find(
     path => router.pathname.indexOf(path) !== -1
   )
 
   return (
     <Box grow={1} extend={{ backgroundColor: theme.tokens.background }}>
+      <Menu menuVisible={menuVisible} hideMenu={hideMenu}>
+        {navBarItems}
+      </Menu>
       <Box
-        paddingBottom={[1, , , 2]}
-        height={['20vh', , , '70vh']}
+        height={['50vh', , '70vh']}
         extend={{
-          backgroundImage: navImg,
+          backgroundImage: navImg ? navImg : 'url("/images/bg.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: '70% 50%',
           width: '100%',
         }}>
         <Box
-          height={['20vh', , , '70vh']}
+          height={['50vh', , '70vh']}
           extend={{
             width: '100%',
             backgroundColor: 'rgba(0,0,0,0.2)',
           }}>
+          <Box padding={2} display={['flex', , 'none']}>
+            <Link onClick={() => setMenuVisible(true)}>
+              <IconMenu color="white" size={40} />
+            </Link>
+          </Box>
           <Box
             paddingLeft={15}
             paddingRight={10}
             paddingTop={5}
             extend={{
-              display: 'flex',
+              display: ['none', , 'flex'],
               flexDirection: 'row',
               justifyContent: 'space-between',
             }}>
             <Logo />
             <NavBar>
               <Layout>
-                <Box direction={['column', , 'row']}>
-                  {Object.keys(nav).map(path => (
-                    <NavBarItem
-                      href={path}
-                      active={
-                        path === '/'
-                          ? router.pathname === '/'
-                          : router.pathname.indexOf(path) !== -1
-                      }>
-                      {nav[path]}
-                    </NavBarItem>
-                  ))}
-                </Box>
+                <Box direction="row">{navBarItems}</Box>
               </Layout>
             </NavBar>
           </Box>
           <Layout>
-            <Box
-              extend={{
-                alignSelf: 'center',
-                aligItems: 'center',
-                justifyContent: 'center',
-              }}>
+            <Box>
               <Text
                 intent="title"
                 height={1}
-                extend={{ alignSelf: 'center' }}
-                color={'white'}>
+                align="center"
+                color={'white'}
+                extend={{
+                  fontSize: 60.0,
+                  [theme.breakpoints.medium]: { fontSize: 84.0 },
+                }}>
                 {title}
               </Text>
-              <Text
-                intent="subtitle"
-                height={1}
-                extend={{ alignSelf: 'center' }}
-                color={'white'}>
+              <Text intent="subtitle" height={1} color={'white'} align="center">
                 {subTitle}
               </Text>
             </Box>

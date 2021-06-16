@@ -31,11 +31,13 @@ export default function Spenden() {
             Wie du uns unterstürtzen kannst!
           </Text>
           <Text>
-            Neben dem Kauf von Geschenkkarten oder einer Mitgliedschaft hast du
-            natürlich auch die Möglichkeit, einmalig und zweckungebunden zu
-            spenden. Es gibt so viele sinnvolle Einsatzmöglichkeiten für
-            Spendengelder, dass wir sicher auch für DEINE Spende eine gute Idee
-            haben, wie sie in Kenia helfen kann.
+            Neben dem Kauf von{' '}
+            <Link href="/geschenkkarten">Geschenkkarten</Link> oder einer{' '}
+            <Link href="/geschenkkarten">Mitgliedschaft</Link> hast du natürlich
+            auch die Möglichkeit, einmalig und zweckungebunden zu spenden. Es
+            gibt so viele sinnvolle Einsatzmöglichkeiten für Spendengelder, dass
+            wir sicher auch für DEINE Spende eine gute Idee haben, wie sie in
+            Kenia helfen kann.
             <br />
             <br />
             Wenn du uns unsterstützen willst, dir allerdings nicht sicher bist,
