@@ -17,7 +17,32 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text>Hier stehen in Kürze nützliche Dokumente bereit.</Text>
+      <Text>
+        <Text substyle="emphasis">Zuschussanträge</Text>
+        <Link
+          href="/files/Aenderungen_Soziale_Bildung_Corona_und_01_07_.pdf"
+          download>
+          - Änderung der Förderrichtlinien für Soziale Bildungsmaßnahmen während
+          der Corona-Pandemie
+        </Link>
+        <br />
+        <Link
+          href="/files/Beiblatt-SB_einkommensschw TN ab 01_07_2021.pdf"
+          download>
+          - Beiblatt zum Antrag
+        </Link>
+        <br />
+        <Link href="/files/Merkblatt_EKS_ab_01_07_.pdf" download>
+          - Merkblatt zur Förderung junger Menschen aus einkommensschwachen
+          Familien bei Maßnahmen der Sozialen Bildung
+        </Link>
+        <br />
+        <Link
+          href="/files/ZuschussAntrag 2021 Massnahmen Formular_neu.pdf"
+          download>
+          - Zuschuss Antrag 2021 Massnahmen Formular
+        </Link>
+      </Text>
     </Layout>
   </Template>
 )
