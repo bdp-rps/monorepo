@@ -1,0 +1,2 @@
+- [Liste der Stämme](https://docs.google.com/spreadsheets/d/1srGhzt6YmExK5XnmWdtqZ-10ZVMnNcjGsNFUiV-Ejos/edit#gid=0)
+- [Bilder Stammesheime](https://bdpbund-my.sharepoint.com/:f:/g/personal/arno_schaefer_pfadfinden_de/EsD4VKG01hxBtKFOnirubKEBFWwRwaCE5GhHCdqmwWIk-A)

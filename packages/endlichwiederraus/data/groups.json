@@ -1,0 +1,185 @@
+[
+  {
+    "group": "von Helfenstein",
+    "lv": "RPS",
+    "location": "56077 Koblenz",
+    "foundedAt": 1956,
+    "members": 150,
+    "contact": {
+      "mail": "info@stammvonhelfenstein.de",
+      "name": "Torben Pötter",
+      "phone": "015233579865",
+      "website": "http://stammvonhelfenstein.de",
+      "facebook": "stammvonhelfenstein",
+      "instagram": "svh_squad"
+    }
+  },
+  {
+    "group": "Rotmilan",
+    "lv": "NDS",
+    "location": "27305 Bruchhausen-Vilsen",
+    "foundedAt": 1985,
+    "members": 50,
+    "contact": {
+      "mail": "info@stammrotmilan.de",
+      "website": "http://stammrotmilan.de",
+      "phone": "01623784665"
+    }
+  },
+  {
+    "group": "Seeadler",
+    "lv": "BY",
+    "location": "96052 Bamberg",
+    "foundedAt": 1980,
+    "members": 70,
+    "contact": {
+      "mail": "horstseeadlerbamberg@gmail.com",
+      "website": "http://seeadler.net",
+      "instagram": "horstseeadlerbamberg",
+      "facebook": "horstseeadlerbbg"
+    }
+  },
+  {
+    "group": "Jupiter",
+    "lv": "NRW",
+    "location": "53125 Bonn-Röttgen",
+    "foundedAt": 1988,
+    "members": 65,
+    "contact": {
+      "website": "http://pfadfinder-bonn.de",
+      "mail": "information@pfadfinder-bonn.de"
+    }
+  },
+  {
+    "group": "Luchs",
+    "lv": "RPS",
+    "location": "76857 Gossersweiler-Stein",
+    "foundedAt": 2010,
+    "members": 50,
+    "contact": {
+      "website": "http://stamm-luchs.de",
+      "mail": "stammesleitung@stamm-luchs.de",
+      "instagram": "stammluchs",
+      "facebook": "stammluchs"
+    }
+  },
+  {
+    "group": "Graf Gebhard",
+    "lv": "BY",
+    "location": "92237 Sulzbach-Rosenberg",
+    "foundedAt": 1923,
+    "members": 60,
+    "contact": {
+      "website": "http://graf-gebhard.de",
+      "mail": "stafue@graf-gebhard.de"
+    }
+  },
+  {
+    "group": "Albatros",
+    "lv": "BY",
+    "location": "81479 München",
+    "foundedAt": 1967,
+    "members": 122,
+    "contact": {
+      "website": "https://albatrossolln.de",
+      "mail": "kontakt@albatrossolln.de"
+    }
+  },
+  {
+    "group": "Burgund",
+    "lv": "BY",
+    "location": "85077 Manching",
+    "foundedAt": 1976,
+    "members": 50,
+    "contact": {
+      "website": "http://stamm-burgund.de",
+      "mail": "postkasten@stamm-burgund.de"
+    }
+  },
+  {
+    "group": "Pegasus",
+    "lv": "BY",
+    "location": "81669 München",
+    "foundedAt": 1981,
+    "members": 120,
+    "contact": {
+      "website": "http://bdp-pegasus.de"
+    }
+  },
+  {
+    "group": "Sir Francis Drake",
+    "lv": "BY",
+    "location": "82362 Weilheim",
+    "foundedAt": null,
+    "members": 45,
+    "contact": {
+      "website": "http://pfadfinder-weilheim.de",
+      "email": "stamm@pfadfinder-weilheim.de"
+    }
+  },
+  {
+    "group": "Schwarzer Mustang",
+    "lv": "BY",
+    "location": "83224 Grassau",
+    "foundedAt": 1969,
+    "members": 80,
+    "contact": {
+      "website": "http://stamm-sma.de",
+      "mail": "info@stamm-sma.de"
+    }
+  },
+  {
+    "group": "Staufen",
+    "lv": "BY",
+    "location": "85435 Erding",
+    "foundedAt": 1961,
+    "members": 65,
+    "contact": {
+      "website": "http://freundeskreisstammstaufen.de",
+      "mail": "pfadis@freundeskreisstammstaufen.de"
+    }
+  },
+  {
+    "group": "Bergwolf",
+    "lv": "BW",
+    "location": "70619 Stuttgart Sillenbuch",
+    "foundedAt": 1951,
+    "members": 45,
+    "contact": {
+      "mail": "stefanboehler@hotmail.com"
+    }
+  },
+  {
+    "group": "Sankt Jörg",
+    "lv": "BW",
+    "location": "76133 Karlsruhe",
+    "foundedAt": 1949,
+    "members": 63,
+    "contact": {
+      "mail": "philippschuster@posteo.de",
+      "website": "http://st-joerg.de"
+    }
+  },
+  {
+    "group": "Totila",
+    "lv": "NRW",
+    "location": "48155 Münster",
+    "foundedAt": 1948,
+    "members": 40,
+    "contact": {
+      "mail": "info@pfadfinder-ms.de",
+      "website": "https://pfadfinder-ms.de"
+    }
+  },
+  {
+    "group": "Franz von Sickingen",
+    "lv": "RPS",
+    "location": "67304 Eisenberg - Steinborn (Pfalz)",
+    "foundedAt": 1965,
+    "members": 110,
+    "contact": {
+      "mail": "anmeldung.fvs@gmail.com",
+      "website": "https://pfadfinder-eisenberg.de"
+    }
+  }
+]
