@@ -86,6 +86,41 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
       },
     },
     {
+      condition: intent === 'secondary',
+      style: {
+        color: 'foreground.primary',
+        borderColor: 'transparent',
+        backgroundColor: 'transparent',
+        textDecoration: 'underline',
+        textDecorationColor: theme.tokens.primary,
+        textDecorationThickness: 2,
+        textUnderlineOffset: 4,
+        ':focus': {
+          boxShadow: '0 0 0 1px white, 0px 0px 0 3px ' + theme.colors.grey600,
+          ':not(:focus-visible)': {
+            boxShadow: 'none',
+          },
+        },
+        extend: [
+          {
+            condition: loading,
+            style: {
+              textDecoration: 'none',
+            },
+          },
+          {
+            condition: !disabled && !loading,
+            style: {
+              '@media (hover:hover)': {
+                ':hover': {},
+              },
+              ':active': {},
+            },
+          },
+        ],
+      },
+    },
+    {
       condition: !disabled && variant === 'secondary',
       style: {
         borderColor: theme.tokens[colorMap[intent]],
