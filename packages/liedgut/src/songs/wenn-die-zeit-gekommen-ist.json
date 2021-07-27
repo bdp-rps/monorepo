@@ -1,0 +1,37 @@
+{
+  "notation": "T:Wenn die Zeit gekommen ist\nM:2/4\nL:1/8\nQ:1/4=100\nK:Em\nB,4|D4|E3/2E1/2EE|E2FG|F3/2D1/2DD|D2B,D|\nE3/2E1/2EE|E2FG|A4-|A2GA|B3/2B1/2B2-|B2AG|\nB3/2B1/2B2-|B2AG|A3/2A1/2AA|AGFG|E4-\n|:E3/2G1/2GF|E4-|E3/2G1/2GF|E4-|E3/2E1/2EE|D2D2|\nD3/2D1/2FD|E4-|E3/2B1/2BA|B4-|B3/2B1/2BA|\nB4-|B3/2B1/2BB|A2A2|A3/2G1/2FG|E4:|]\n",
+  "content": "{e}Wenn {D}die Z{e}eit gekommen ist für ein sch{D}önes kleines Fest,\nWenn die Z{e}eit gekommen ist für ein L{D}ied,\nJa dann s{G}ingen wir, ja dann sp{e}ielen wir,\nJa dann f{A}eiern wir die ganze N{e}acht.\n\n/: T{e}schi-rim-tim-tim, tschi-rim-tim-tim,\ntschi-rim-tim-t{D}im-tim-tim, tschi-rim-tim-t{e}im. :/\n\nWenn die Zeit gekommen ist für ein herrliches Getränk,\nWenn die Zeit gekommen ist für den Tschai,\nJa dann feuern wir, ja dann kochen wir, ja dann trinken wir die ganze Nacht.\n\nWenn die Zeit gekommen ist an die Arbeit dann zu geh'n,\nWenn die Zeit gekommen ist für die Tat,\nJa dann bauen wir, ja dann werken wir, ja dann schaffen wir den ganzen Tag.\n",
+  "title": "Wenn die Zeit gekommen ist",
+  "words": [
+    {
+      "name": "Eric Martin",
+      "nickname": "Mac",
+      "group": "Horte Nordlandfahrer",
+      "organisation": "DWJ",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Eric Martin",
+      "nickname": "Mac",
+      "group": "Horte Nordlandfahrer",
+      "organisation": "DWJ",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "info": "",
+  "changes": [
+    {
+      "date": 1627412911612,
+      "name": "ko",
+      "mail": "ko@iland.de",
+      "type": "create",
+      "content": "Moin, ich probier das hier mal aus.\nIch hab leider noch nicht rausgefunden wie ich bei den Noten Akkorde hinzufügen kann. Ich glaub sonst passt alles. Liebe Grüße und Gut Pfad, Ko"
+    }
+  ]
+}
