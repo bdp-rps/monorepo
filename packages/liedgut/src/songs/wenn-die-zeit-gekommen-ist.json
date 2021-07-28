@@ -1,5 +1,5 @@
 {
-  "notation": "T:Wenn die Zeit gekommen ist\nM:2/4\nL:1/8\nQ:1/4=100\nK:Em\nB,4|D4|E3/2E1/2EE|E2FG|F3/2D1/2DD|D2B,D|\nE3/2E1/2EE|E2FG|A4-|A2GA|B3/2B1/2B2-|B2AG|\nB3/2B1/2B2-|B2AG|A3/2A1/2AA|AGFG|E4-\n|:E3/2G1/2GF|E4-|E3/2G1/2GF|E4-|E3/2E1/2EE|D2D2|\nD3/2D1/2FD|E4-|E3/2B1/2BA|B4-|B3/2B1/2BA|\nB4-|B3/2B1/2BB|A2A2|A3/2G1/2FG|E4:|]\n",
+  "notation": "L:1/8\nK:Em\n\"e\"B,4|\"D\"D4|\"e\"E3/2E/EE|E2FG|\"D\"F3/2D/DD|D2B,D|\n\"e\"E3/2E/EE|E2FG|\"D\"A4-|A2GA|\"G\"B3/2B/B2-|B2AG|\n\"e\"B3/2B/B2-|B2AG|\"A\"A3/2A/AA|AGFG|\"e\"E4-\n|:\"e\"E3/2G/GF|E4-|E3/2G/GF|E4-|E3/2E/EE|\"D\"D2D2|\nD3/2D/FD|\"e\"E4-|E3/2B/BA|B4-|B3/2B/BA|\nB4-|B3/2B/BB|\"D\"A2A2|A3/2G/FG|\"e\"E4:|]\n",
   "content": "{e}Wenn {D}die Z{e}eit gekommen ist für ein sch{D}önes kleines Fest,\nWenn die Z{e}eit gekommen ist für ein L{D}ied,\nJa dann s{G}ingen wir, ja dann sp{e}ielen wir,\nJa dann f{A}eiern wir die ganze N{e}acht.\n\n/: T{e}schi-rim-tim-tim, tschi-rim-tim-tim,\ntschi-rim-tim-t{D}im-tim-tim, tschi-rim-tim-t{e}im. :/\n\nWenn die Zeit gekommen ist für ein herrliches Getränk,\nWenn die Zeit gekommen ist für den Tschai,\nJa dann feuern wir, ja dann kochen wir, ja dann trinken wir die ganze Nacht.\n\nWenn die Zeit gekommen ist an die Arbeit dann zu geh'n,\nWenn die Zeit gekommen ist für die Tat,\nJa dann bauen wir, ja dann werken wir, ja dann schaffen wir den ganzen Tag.\n",
   "title": "Wenn die Zeit gekommen ist",
   "words": [
@@ -32,6 +32,13 @@
       "mail": "ko@iland.de",
       "type": "create",
       "content": "Moin, ich probier das hier mal aus.\nIch hab leider noch nicht rausgefunden wie ich bei den Noten Akkorde hinzufügen kann. Ich glaub sonst passt alles. Liebe Grüße und Gut Pfad, Ko"
+    },
+    {
+      "date": 1627478086922,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ]
 }
