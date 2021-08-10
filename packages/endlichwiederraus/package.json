@@ -5,10 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn images:build && next build",
-    "images:build": "node scripts/build-images.js",
-    "images:optimize": "sh scripts/optimize-images.sh",
-    "images:rotate": "sh scripts/rotate-images.sh",
+    "build": "next build",
     "start": "next start",
     "export": "rimraf out && next export",
     "prepare": "echo 1"
