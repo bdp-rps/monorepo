@@ -76,13 +76,12 @@ export default () => {
           <Text>
             <Box
               as="img"
-              width={300}
+              width={[220, , 300]}
               src="elemente/türkis/element_3.png"
-              marginRight={[-20, , -13]}
+              marginRight={[-14, , -13]}
+              marginLeft={-25}
               extend={{
                 display: 'inline',
-                marginLeft: -100,
-
                 marginTop: -20,
                 opacity: 1,
                 float: 'left',

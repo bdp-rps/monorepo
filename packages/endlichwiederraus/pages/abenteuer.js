@@ -79,26 +79,27 @@ export default () => {
             width={350}
             src="elemente/blau/element_1.png"
             alignSelf="center"
-            marginTop={[30, , 5]}
+            marginTop={[50, , 5]}
+            marginLeft={[0, , '10%']}
             extend={{
               position: 'absolute',
               marginTop: 20,
-              marginLeft: '10%',
               opacity: 0.3,
               zIndex: 0,
             }}
           />
         </Layout>
       </Box>
-      <br />
-      <br />
-      <br />
-      <br />
+
+      <Box as="br" display={['none', , 'flex']} />
+      <Box as="br" display={['none', , 'flex']} />
+      <Box as="br" display={['none', , 'flex']} />
+      <Box as="br" display={['none', , 'flex']} />
       <Layout paddingTop={15} paddingBottom={25}>
         <Text extend={{ zIndex: 1 }}>
           <Box
             as="img"
-            width={300}
+            width={[240, , 300]}
             src="elemente/orange/element_4.png"
             extend={{
               display: 'inline',

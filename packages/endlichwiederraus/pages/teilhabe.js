@@ -73,14 +73,13 @@ export default () => {
             extend={{ zIndex: 1 }}>
             <Box
               as="img"
-              width={300}
+              width={[280, , 300]}
               src="elemente/gelb/element_3.png"
+              marginLeft={[-30, , -25]}
+              marginRight={[-19, , -16]}
+              marginTop={[-10, , -27]}
               extend={{
                 display: 'inline',
-                marginLeft: -100,
-                marginRight: -65,
-                marginTop: -110,
-                opacity: 1,
                 float: 'left',
               }}
             />
@@ -104,10 +103,9 @@ export default () => {
           as="img"
           src="/elemente/gelb/element_4.png"
           alignSelf="flex-end"
-          width={300}
+          width={[270, , 300]}
           extend={{
             position: 'absolute',
-
             marginTop: -260,
             zIndex: 0,
           }}

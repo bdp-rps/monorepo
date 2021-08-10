@@ -91,24 +91,24 @@ export default () => {
       </Box>
 
       <br />
-      <br />
+      <Box as="br" display={['none', , 'flex']} />
       <Layout paddingTop={15} paddingBottom={15}>
         <Box
           as="img"
           width={[300, , 400]}
           src="elemente/blau/element_7.png"
           alignSelf="center"
-          marginTop={[-55, , -61]}
+          marginTop={[-52, , -61]}
+          marginLeft={['5%', , '10%']}
           extend={{
             position: 'absolute',
-            marginLeft: '10%',
             zIndex: 0,
           }}
         />
         <Text>
           <Box
             as="img"
-            width={280}
+            width={[240, , 280]}
             src="elemente/türkis/element_4.png"
             extend={{
               display: 'inline',

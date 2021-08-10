@@ -34,11 +34,12 @@ export default () => {
           <Box
             as="img"
             width={450}
+            maxWidth="100%"
             src="elemente/rosa/element_6.png"
+            marginLeft={-10}
             extend={{
               position: 'absolute',
               marginTop: -70,
-              marginLeft: -40,
               zIndex: -1,
             }}
           />
@@ -89,12 +90,12 @@ export default () => {
             as="img"
             width={300}
             src="elemente/rosa/element_3.png"
+            marginTop={[-20, , -40]}
+            marginRight={[-25, , -20]}
             extend={{
               display: 'inline',
+              marginLeft: -80,
 
-              marginLeft: -50,
-              marginRight: -80,
-              marginTop: -150,
               opacity: 1,
               float: 'left',
             }}

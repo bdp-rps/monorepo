@@ -60,7 +60,7 @@ export default function Template({ children }) {
             <NextLink href={path}>
               <Box
                 as="a"
-                padding={3}
+                padding={['4px 12px', , 3]}
                 extend={{
                   cursor: 'pointer',
                   '& span': {

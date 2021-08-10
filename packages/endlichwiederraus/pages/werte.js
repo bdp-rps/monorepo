@@ -92,12 +92,14 @@ export default () => {
         <Box
           as="img"
           width={600}
+          maxWidth="100%"
           src="elemente/blau/element_6.png"
           alignSelf="center"
+          marginLeft={[0, , '5%']}
+          marginTop={[-48, , -58]}
           extend={{
             position: 'absolute',
-            marginLeft: '5%',
-            marginTop: -230,
+
             opacity: 0.4,
             zIndex: 0,
           }}
@@ -115,13 +117,13 @@ export default () => {
           unseres Umgangs miteinander.
           <Box
             as="img"
-            width={400}
+            width={[300, , 400]}
             src="elemente/rosa/element_7.png"
             alignSelf="center"
+            marginTop={[-15, , -20]}
+            marginBottom={[-15, , -20]}
             extend={{
               marginLeft: '5%',
-              marginTop: -80,
-              marginBottom: -80,
               zIndex: 0,
             }}
           />

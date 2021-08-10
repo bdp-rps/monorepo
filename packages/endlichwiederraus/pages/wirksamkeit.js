@@ -65,11 +65,11 @@ export default () => {
           <Text intent="alternative" color={theme.colors.blue}>
             <Box
               as="img"
-              width={300}
+              width={[220, , 300]}
               src="elemente/blau/element_8.png"
+              marginLeft={[-22, , -30]}
               extend={{
                 display: 'inline',
-                marginLeft: -100,
                 marginRight: -30,
                 marginTop: -20,
                 opacity: 1,
