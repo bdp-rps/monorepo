@@ -81,6 +81,8 @@ export default function getStyleRenderer() {
     fontStyle: 'italic',
   })
 
+  renderer.renderFont('Immenhausen', ['/fonts/Immenhausen-Regular.ttf'])
+  renderer.renderFont('Quisas', ['/fonts/Quisas.otf'])
 
   renderer.renderFont('AmaticSC', ['/fonts/AmaticSC-Regular.ttf'], {
     fontWeight: 400,
@@ -92,17 +94,14 @@ export default function getStyleRenderer() {
   renderer.renderFont('Assistant', ['/fonts/Assistant-Bold.ttf'], {
     fontWeight: 700,
   })
-  
+
   renderer.renderFont('Assistant', ['/fonts/Assistant-Light.ttf'], {
     fontWeight: 200,
   })
- 
+
   renderer.renderFont('Assistant', ['/fonts/Assistant-Regular.ttf'], {
     fontWeight: 400,
   })
- 
-
-  renderer.renderFont('Immenhausen', ['/fonts/Immenhausen-Regular.ttf'])
 
   return renderer
 }

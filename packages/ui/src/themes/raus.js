@@ -5,6 +5,7 @@ const colors = {
   blueLight: 'rgb(39, 82, 163)',
   brown: 'rgb(107, 92, 72)',
   turquoise: 'rgb(149, 210, 210)',
+  orange: 'rgb(234, 89, 6)',
   rose: 'rgb(244, 212, 216)',
   red: 'rgb(234, 89, 6)',
   redLight: 'rgb(221, 10, 30)',
@@ -21,8 +22,9 @@ const colors = {
 }
 
 const fonts = {
-  content: ' Helvetica Neue, Helvetica, Arial, sans-serif',
-  heading: 'Quisas, Helvetica Neue, Helvetica, Arial, sans-serif',
+  content: 'Helvetica, Arial, sans-serif',
+  heading: 'Quisas, sans-serif',
+  alternative: 'Aleo, sans-serif',
 }
 
 export default {
@@ -77,34 +79,35 @@ export default {
     },
     body: {
       element: 'p',
-      fontFamily: 'Arial, sans-serif',
-      fontSize: 16.0,
-      lineHeight: 24.0,
+      fontFamily: fonts.content,
+      fontSize: 20.0,
+      lineHeight: 32.0,
       color: colors.grey1,
     },
-    category: {
-      element: 'h3',
-      fontFamily: fonts.content,
-      fontSize: 18.0,
-      lineHeight: 22.0,
-      fontWeight: 700,
-      color: colors.blue,
+
+    alternative: {
+      element: 'p',
+      fontFamily: fonts.alternative,
+      fontSize: 25.0,
+      lineHeight: 38.0,
+      fontWeight: 400,
+      color: colors.grey1,
     },
     subtitle: {
       element: 'h2',
       fontFamily: fonts.heading,
-      fontSize: 60.0,
-      lineHeight: 40.0,
+      fontSize: 60,
+      lineHeight: 60,
       fontWeight: 400,
       color: colors.grey1,
     },
     title: {
       element: 'h1',
       fontFamily: fonts.heading,
-      fontWeight: 900,
-      fontSize: 90.0,
-      lineHeight: 80.0,
-      color: colors.grey1,
+      fontSize: 80,
+      lineHeight: 40,
+      fontWeight: 400,
+      color: colors.blue,
     },
   },
 }

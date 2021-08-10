@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-
+import NextLink from 'next/link'
 import {
   Box,
   NavBar,
@@ -23,112 +23,80 @@ const nav = {
   '/teilhabe': 'Teilhabe',
 }
 
-const subNavs = {
-  '/bdp': {
-    '/pfadfinden': 'Pfadfinden?',
-    '/stufen': 'Stufen',
-    '/versprechen': 'Versprechen',
-    '/ausbildung': 'Ausbildung',
-    '/geschichte': 'Geschichte',
-  },
-  '/digital': {
-    '/downloads': 'Downloads',
-    'https://cloud.bdp-rps.de': 'Cloud',
-    '/apps': 'Apps',
-  },
-  '/landesverband': {
-    '/landesleitung': 'Landesleitung',
-    '/staemme': 'Stämme',
-    '/leitsaetze': 'Leitsätze',
-    '/club-29': 'Club 29',
-    '/watato-kabisa': 'Watato Kabisa',
-    '/intakt': 'Intakt',
-    // '/geschichte': 'Geschichte',
-  },
+const colors = {
+  '/': 'blueLight',
+  '/abenteuer': 'orange',
+  '/freundschaft': 'rose',
+  '/wirksamkeit': 'yellowLight',
+  '/natur': 'turquoise',
+  '/werte': 'blueLight',
+  '/teilhabe': 'orange',
 }
 
 export default function Template({ children }) {
   const router = useRouter()
   const theme = useTheme()
 
-  const isSubPage = Object.keys(subNavs).find(
-    path => router.pathname.indexOf(path) !== -1
-  )
-
   return (
     <Box grow={1}>
       <Box
-        paddingBottom={[1, , , 2]}
-        minHeight={[200, , , 230]}
-        height={['12vh', , , '20vh']}
-        direction="row"
-        extend={{
-          backgroundImage: 'url("/images/bg.jpg")',
-          backgroundSize: 'cover',
-          backgroundPosition: '70% 50%',
-          width: '100%',
-          justifyContent: 'space-between',
-        }}>
-        <Layout alignSelf="flex-start">
-          <Box
-            paddingTop={3}
-            paddingLeft={3}
-            paddingBottom={2}
-            paddingRight={3}
-            extend={{
-              backgroundColor: theme.colors.yellow,
-              alignSelf: 'flex-start',
-            }}>
-            <Box as="img" src="/ewr.png" maxWidth={180} width="100%" />
-          </Box>
-        </Layout>
-        <Layout alignSelf="flex-start">
-          <Box>
-            <Box
-              marginRight={5}
-              as="img"
-              src="elemente/rosa/element_8.png"
-              maxWidth={[270, 300]}
-              width="100%"
-            />
-          </Box>
-        </Layout>
+        direction={['column', , 'row']}
+        alignItems={['flex-start', , 'center']}
+        space={[2, , 10]}
+        paddingBottom={[0, , 4]}>
+        <Box
+          paddingTop={3}
+          paddingLeft={3}
+          paddingBottom={2}
+          paddingRight={3}
+          height={[90 + 24, , 136 + 24]}
+          extend={{
+            backgroundColor: theme.colors.yellow,
+          }}>
+          <Box as="img" width={[120, , 180]} height="auto" src="/ewr.png" />
+        </Box>
+        <Box direction="row" wrap="wrap">
+          {Object.keys(nav).map(path => (
+            <NextLink href={path}>
+              <Box
+                as="a"
+                padding={3}
+                extend={{
+                  cursor: 'pointer',
+                  '& span': {
+                    borderBottomWidth: 4,
+                    borderBottomColor:
+                      router.pathname === path
+                        ? theme.colors[colors[path]]
+                        : 'transparent',
+                    borderBottomStyle: 'solid',
+                  },
+                  ':hover': {
+                    '& span': {
+                      borderBottomColor: theme.colors[colors[path]],
+                    },
+                  },
+                }}>
+                <Text
+                  as="span"
+                  extend={{
+                    marginTop: 2,
+                    paddingBottom: 0,
+                    paddingTop: 2,
+                  }}>
+                  {nav[path]}
+                </Text>
+              </Box>
+            </NextLink>
+          ))}
+        </Box>
       </Box>
-      <NavBar>
-        <Layout>
-          <Box direction={['column', , 'row']}>
-            {Object.keys(nav).map(path => (
-              <NavBarItem
-                href={path}
-                active={
-                  path === '/'
-                    ? router.pathname === '/'
-                    : router.pathname.indexOf(path) !== -1
-                }>
-                {nav[path]}
-              </NavBarItem>
-            ))}
-          </Box>
-        </Layout>
-      </NavBar>
-      {isSubPage ? (
-        <NavBar intent="secondary">
-          <Layout>
-            <Box direction={['column', , 'row']} paddingLeft={5}>
-              {Object.keys(subNavs[isSubPage]).map(path => (
-                <NavBarItem
-                  href={path.indexOf('http') === -1 ? isSubPage + path : path}
-                  active={router.pathname.indexOf(path) !== -1}>
-                  {subNavs[isSubPage][path]}
-                </NavBarItem>
-              ))}
-            </Box>
-          </Layout>
-        </NavBar>
-      ) : null}
 
       <Box grow={1}>{children}</Box>
-      <Layout paddingTop={10} paddingBottom={10}>
+      <Layout
+        paddingTop={15}
+        paddingBottom={10}
+        extend={{ backgroundColor: theme.colors.grey8 }}>
         <Box space={10}>
           <Box direction={['column', , , 'row']} space={[14, , , 0]}>
             <Box space={2} grow={1}>
@@ -142,6 +110,9 @@ export default function Template({ children }) {
             Copyright &copy; {new Date().getFullYear()} Bund der Pfadfinderinnen
             und Pfadfinder (BdP)
           </Text>
+          <Box>
+            <img src="logo.png" width={300} height="auto" />
+          </Box>
         </Box>
       </Layout>
     </Box>
