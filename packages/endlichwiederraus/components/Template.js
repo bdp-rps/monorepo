@@ -31,6 +31,7 @@ const colors = {
   '/natur': 'turquoise',
   '/werte': 'blueLight',
   '/teilhabe': 'orange',
+  'https://meinbdp.de/pages/viewpage.action?pageId=11272333': 'yellowLight',
 }
 
 export default function Template({ children }) {
@@ -89,6 +90,34 @@ export default function Template({ children }) {
               </Box>
             </NextLink>
           ))}
+          <Box
+            as="a"
+            href="https://meinbdp.de/pages/viewpage.action?pageId=11272333"
+            padding={['4px 12px', , 3]}
+            extend={{
+              cursor: 'pointer',
+              textDecoration: 'none',
+              '& span': {
+                borderBottomWidth: 4,
+                borderBottomColor: 'transparent',
+                borderBottomStyle: 'solid',
+              },
+              ':hover': {
+                '& span': {
+                  borderBottomColor: theme.colors.yellow,
+                },
+              },
+            }}>
+            <Text
+              as="span"
+              extend={{
+                marginTop: 2,
+                paddingBottom: 0,
+                paddingTop: 2,
+              }}>
+              Stamm gründen
+            </Text>
+          </Box>
         </Box>
       </Box>
 
