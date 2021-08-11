@@ -198,9 +198,9 @@ export default () => {
             }}
           />
           <Text intent="alternative" align="center" color={theme.colors.blue}>
-            Wir, die rund 30.000 Kinder, Jugendlichen und junge Erwachsene im
-            Bund der Pfadfinderinnen und Pfadfinder e.V. mit unseren knapp 260
-            Stämmen in fast ganz Deutschland, wollen Endlich wieder raus!
+            Wir, die Kinder, Jugendlichen und junge Erwachsene im Bund der
+            Pfadfinderinnen und Pfadfinder e.V. mit unseren knapp 260 Stämmen in
+            fast ganz Deutschland, wollen Endlich wieder raus!
           </Text>
         </Layout>
       </Box>
