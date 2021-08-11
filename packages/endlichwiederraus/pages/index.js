@@ -16,6 +16,36 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 
+const ctas = [
+  {
+    title: 'Abenteuer und prägende Erlebnisse',
+    path: '/abenteuer',
+    color: 'orange',
+  },
+  {
+    title: 'Gemeinschaft und Freundschaft',
+    path: '/freundschaft',
+    color: 'rose',
+  },
+  {
+    title: 'Wirksamkeit und persönliche Entwicklung',
+    path: '/wirksamkeit',
+    color: 'yellowLight',
+  },
+  {
+    title: 'Naturerfahrung und Klimaschutz',
+    path: '/natur',
+    color: 'turquoise',
+  },
+
+  { title: 'Werte und Verantwortung', path: '/werte', color: 'blueLight' },
+  {
+    title: 'Teilhabe und Mitgestaltung',
+    path: '/teilhabe',
+    color: 'orange',
+  },
+]
+
 export default () => {
   const theme = useTheme()
 
@@ -72,7 +102,59 @@ export default () => {
               Pfadfinden fehlt!
             </Text>
           </Box>
-          <br />
+          <Box paddingTop={22} paddingBottom={24} alignItems="center">
+            <Text
+              align="center"
+              intent="alternative"
+              extend={{ maxWidth: 800 }}>
+              Für ihre mentale Gesundheit und Persönlichkeitsentwicklung
+              brauchen Kinder und Jugendliche:
+            </Text>
+            <Box
+              paddingTop={5}
+              extend={{
+                display: 'grid',
+                gridGap: 20,
+                gridTemplateColumns: '1fr',
+                [theme.breakpoints.small]: {
+                  gridTemplateColumns: '1fr 1fr',
+                },
+                [theme.breakpoints.large]: {
+                  gridTemplateColumns: '1fr 1fr 1fr',
+                },
+              }}>
+              {ctas.map(({ title, color, path }) => (
+                <NextLink href={path}>
+                  <Box
+                    as="a"
+                    paddingTop={8}
+                    paddingBottom={8}
+                    paddingLeft={10}
+                    paddingRight={10}
+                    alignItems="center"
+                    justifyContent="center"
+                    extend={{
+                      cursor: 'pointer',
+                      borderWidth: '4px 0 0 0',
+                      borderStyle: 'solid',
+                      borderColor: theme.colors[color],
+                      backgroundColor: theme.colors[color]
+                        .replace('rgb', 'rgba')
+                        .replace(')', ', 0.3)'),
+                      ':hover': {
+                        backgroundColor: theme.colors[color]
+                          .replace('rgb', 'rgba')
+                          .replace(')', ', 0.5)'),
+                      },
+                    }}>
+                    <Text align="center" extend={{ fontFamily: 'Aleo' }}>
+                      {title}
+                    </Text>
+                  </Box>
+                </NextLink>
+              ))}
+            </Box>
+          </Box>
           <Text>
             <Box
               as="img"
@@ -87,15 +169,14 @@ export default () => {
                 float: 'left',
               }}
             />
-            Für ihre mentale Gesundheit und Persönlichkeitsentwicklung brauchen
-            Kinder und Jugendliche Pfadfinden im Bund der Pfadfinderinnen und
-            Pfadfinder ist ein bewährtes ganzheitliches Programm für Kinder und
-            Jugendliche. Es leistet seit Jahrzehnten einen wertvollen Beitrag
-            zur Persönlichkeitsentwicklung von Millionen junger Menschen
-            weltweit. Pfadfinden fördert die emotionalen, sozialen,
-            intellektuellen und physischen Fähigkeiten. Es stärkt Kreativität,
-            Teamfähigkeit und mentale Gesundheit. Es ist genau das richtige
-            Programm, das unzählige Kinder und Jugendliche genau jetzt brauchen.
+            Pfadfinden im Bund der Pfadfinderinnen und Pfadfinder ist ein
+            bewährtes ganzheitliches Programm für Kinder und Jugendliche. Es
+            leistet seit Jahrzehnten einen wertvollen Beitrag zur
+            Persönlichkeitsentwicklung von Millionen junger Menschen weltweit.
+            Pfadfinden fördert die emotionalen, sozialen, intellektuellen und
+            physischen Fähigkeiten. Es stärkt Kreativität, Teamfähigkeit und
+            mentale Gesundheit. Es ist genau das richtige Programm, das
+            unzählige Kinder und Jugendliche genau jetzt brauchen.
             <br />
             <br />
           </Text>
@@ -125,9 +206,11 @@ export default () => {
       </Box>
       <Layout>
         <Box space={3} alignItems="center" paddingTop={10} paddingBottom={15}>
-          <Text>Mach mit und erlebe jetzt das Abenteuer Pfadfinden!</Text>
+          <Text align="center">
+            Mach mit und erlebe jetzt das Abenteuer Pfadfinden!
+          </Text>
           <Box alignSelf={['stretch', 'center']}>
-            <Button href="https://meinbdp.de/pages/viewpage.action?pageId=11272333">
+            <Button href="https://www.pfadfinden.de/mitmachen/">
               Suche Jetzt einen Stamm in deiner Nähe!
             </Button>
           </Box>
