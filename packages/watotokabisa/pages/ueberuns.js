@@ -55,7 +55,7 @@ export default () => {
             und dort denjenigen zur Hilfe kommen, die unsere Hilfe dringend
             brauchen.
           </Text>
-          <Box direction={['column', 'row']} space={2}>
+          <Box direction={['column', , , 'row']} space={2}>
             <HoverImage
               width={['100%', , 500]}
               height={[300, , 500]}
