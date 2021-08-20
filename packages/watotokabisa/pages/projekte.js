@@ -7,9 +7,10 @@ import {
   Spacer,
   Tile,
   Link,
-  Button,
   ScrollView,
 } from '@bdp-rps/ui'
+import HoverImage from '../components/HoverImage'
+import Image from 'next/image'
 import NextLink from 'next/link'
 
 import Layout from '../components/Layout'
@@ -19,25 +20,141 @@ export default () => {
   const theme = useTheme()
 
   return (
-    <Template navImg='url("/images/projekteBg.jpg")' title="Projekte!">
+    <Template navImg='url("/images/projekte.jpg")' title="Unsere Projekte!">
       <Layout paddingTop={5} paddingBottom={5}>
-        <Box space={2}>
-          <Text intent="heading" color={theme.tokens.primary}>
-            Wer sind wir?
-          </Text>
-          <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et
-            ex et urna ullamcorper consequat nec sed nisi. Aliquam auctor sem
-            dignissim leo imperdiet, in interdum ante fermentum. Mauris et metus
-            ut lacus congue iaculis a a lacus. Curabitur fringilla malesuada
-            pretium. Quisque eget facilisis odio. Praesent tellus quam,
-            vestibulum ac sem non, faucibus convallis erat. Sed vel lorem
-            tincidunt, sodales tortor auctor, accumsan diam. Aliquam placerat
-            aliquet purus, quis volutpat enim tincidunt vel. Nunc nec maximus
-            libero. Nulla eget odio volutpat, dictum quam at, placerat sapien.
-            Duis suscipit eu nisl pretium scelerisque. Phasellus aliquam, mi
-            quis suscipit sodales, mi nisl rutrum lectus.
-          </Text>
+        <Box space={4} alignItems="center">
+          <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>
+            <HoverImage
+              width={['100%', , 500]}
+              height={[300, , 500]}
+              imageURL="/images/schulspeisungen.jpg"></HoverImage>
+            <Box
+              extend={{
+                ...theme.border,
+                backgroundColor: theme.tokens.primary,
+                alignItems: 'center',
+              }}
+              width={['100%', , 500]}
+              height={['100%', , 500]}>
+              <Text
+                intent="subtitle"
+                color="white"
+                align={['center', , '']}
+                extend={{ paddingTop: ['10', , '40'] }}>
+                Schulspeisungen
+              </Text>
+              <Text
+                color="white"
+                extend={{
+                  paddingTop: '30',
+                  paddingLeft: '30',
+                  paddingRight: '30',
+                  paddingBottom: '30',
+                }}>
+                Hunger ist nicht gerade der ideale Lernbegleiter. Deshalb
+                erhalten über 3500 Kinder von WONESU täglich eine warme Portion
+                Porridge. Sehr simpel, aber wahnsinnig effektiv: Seitdem das
+                Projekt gestartet ist, haben sich die Schüler*Innenzahlen an
+                einigen der teilnehmenden Grundschulen verdoppelt, die Kinder
+                nehmen regelmäßiger und konzentrierter am Unterricht teil und
+                bringen dementsprechend bessere Leistungen. Insgesamt also ein
+                kleiner Lichtblick in Sachen Zukunftsaussichten. Als wegen der
+                Corona-Pandemie zwischen März und Oktober 2020 alle Schulen
+                geschlossen wurden, hat WONESU das Projekt kurzerhand umgestellt
+                und mit den Fördergeldern Versorgungspakete für 200 besonders
+                betroffene Familien geschnürt.
+              </Text>
+            </Box>
+          </Box>
+          <Box extend={{ flexDirection: ['column', , , 'row'] }} space={4}>
+            <Box
+              extend={{
+                ...theme.border,
+                backgroundColor: theme.tokens.primary,
+                alignItems: 'center',
+              }}
+              width={['100%', , 500]}
+              height={['100%', , 500]}>
+              <Text
+                intent="subtitle"
+                color="white"
+                align={['center', , '']}
+                extend={{ paddingTop: ['10', , '5'] }}>
+                Landwirtschafstprojekt
+              </Text>
+              <Text
+                color="white"
+                extend={{
+                  paddingTop: '30',
+                  paddingLeft: '30',
+                  paddingRight: '30',
+                  paddingBottom: '30',
+                }}>
+                Was mit der Unterstützung einzelner Familien durch Ziegenzucht
+                begann, hat mittlerweile in der Region Kisumu West zu einem
+                echten Wandel beigetragen: In insgesamt sechs
+                Solidargemeinschaften arbeiten jeweils rund zehn Familien
+                zusammen. Gemeinsam werden Gemüse und Obst angebaut, Ziegen,
+                Hühner, Hasen und teilweise sogar Milchkühe gehalten, kurz:
+                Zusammen schaffen sich die Familien eine stabile
+                Lebensgrundlage. Wie wertvoll das Projekt ist zeigt sich
+                besonders jetzt während der Corona-Pandemie. Im letzten Jahr
+                haben sich einige der Gruppen sogar durch ein internes
+                Banksystem eine Art Krankenversicherung geschaffen - für eine
+                Einzelfamilie kaum zu realisieren. Unterstützt werden sie von
+                unserer kenianischen Partnerorganisation WONESU vor Ort
+                mittlerweile vor allem durch Fortbildungen. 2021 stehen große
+                Veränderungen an: Fünf der sechs Projektgruppen werden
+                unabhängig, für sie gilt das Projekt als erfolgreich
+                abgeschlossen. Neue Gruppen stehen schon in den Startlöchern!
+              </Text>
+            </Box>
+            <HoverImage
+              width={['100%', , 500]}
+              height={[300, , 500]}
+              imageURL="/images/landwirtschaftsprojekt.jpg"></HoverImage>
+          </Box>
+
+          <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>
+            <HoverImage
+              width={['100%', , 500]}
+              height={[300, , 500]}
+              imageURL="/images/hopepads.jpg"></HoverImage>
+            <Box
+              extend={{
+                ...theme.border,
+                backgroundColor: theme.tokens.primary,
+                alignItems: 'center',
+              }}
+              width={['100%', , 500]}
+              height={['100%', , 500]}>
+              <Text
+                intent="subtitle"
+                color="white"
+                extend={{ paddingTop: '20' }}>
+                Hope Pads
+              </Text>
+              <Text
+                color="white"
+                extend={{
+                  paddingTop: '30',
+                  paddingLeft: '30',
+                  paddingRight: '30',
+                  paddingBottom: '30',
+                }}>
+                Worum geht's hier? Mit dem Projekt HOPE PADs erhalten über 1500
+                Schülerinnen der Projektschulen wiederverwendbare Binden. Das
+                Ziel: Die Mädchen sollen auch während ihrer Menstruation die
+                Schule besuchen können und sich nicht für das nötige Kleingeld
+                prostituieren müssen, um die Hygieneartikel zu kaufen. Was hier
+                schier unglaublich klingt, ist für viele der jungen Frauen
+                leider Alltag. Und so bewegt dieses simple Stück Stoff eine
+                ganze Menge. Die Nachfrage steigt, sodass WONESU überlegt, die
+                selbst hergestellten Binden sogar in den Vierteln rund um die
+                Schulen zu verkaufen.
+              </Text>
+            </Box>
+          </Box>
         </Box>
       </Layout>
     </Template>

@@ -45,14 +45,23 @@ export default () => {
             <br />
             <b>Wiebke Spieß</b>
             <br />
-            Deine Adresse Wiebke :)
+            Arenberger Straße 137a
             <br />
-            <Link href="mailto:?">Deine Mailadresse</Link>
+            56077 Koblenz
+            <Link href="mailto:vorstand@watoto-kabisa.de">
+              vorstand@watoto-kabisa.de
+            </Link>
           </Text>
           <Text>
             <b>Gesetzliche Vertreter:</b>
             <br />
-            Liste mit Namen aus dem Vorstand
+            Wiebke Spieß
+            <br />
+            Robin Weser
+            <br />
+            Anahita Emminghaus
+            <br />
+            Timon Flick
             <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
@@ -63,8 +72,8 @@ export default () => {
           <Text>
             <b>
               Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
-            </b>
-            Hier kann auch ich rein :)
+            </b>{' '}
+            Timon Flick
           </Text>
         </Box>
       </Layout>

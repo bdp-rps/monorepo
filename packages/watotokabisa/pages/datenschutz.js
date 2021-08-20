@@ -35,8 +35,13 @@ export default () => {
               <br />
               vertr. d. d. Vorstand
               <br />
-              Adresse, Mail und ähnliches
-              <br /> <br />
+              Arenberger Straße 137a
+              <br />
+              56077 Koblenz
+              <br />
+              <Link href="mailto:vorstand@watoto-kabisa.de">
+                vorstand@watoto-kabisa.de
+              </Link>
             </Text>
           </Box>
           <Box space={6}>
@@ -253,7 +258,10 @@ export default () => {
               ohne Angabe einer besonderen Situation von uns umgesetzt wird.
               Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch
               machen, genügt eine E-Mail an{' '}
-              <Link href=" ">Mail von watotokabisa</Link>.
+              <Link href="mailto:vorstand@watoto-kabisa.de">
+                vorstand@watoto-kabisa.de
+              </Link>
+              .
             </Text>
           </Box>
           <Box space={6}>
