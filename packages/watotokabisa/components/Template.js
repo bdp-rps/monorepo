@@ -11,6 +11,8 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
+  '/projekte': 'Projekte',
+  '/ueberuns': 'Über uns',
   '/spenden': 'Spenden',
   '/mitglied': 'Mitglied werden',
   '/geschenkkarten': 'Geschenkkarten',
