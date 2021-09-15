@@ -52,7 +52,7 @@ export default () => {
       </Layout>
       <Layout grow={1} paddingTop={5} paddingBottom={10} alignSelf="stretch">
         <Text intent="subtitle" color={theme.tokens.primary}>
-          Unsere Fahrentchronik
+          Unsere Fahrtenchronik
         </Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
