@@ -9,6 +9,7 @@ import {
   Link,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -27,6 +28,13 @@ const TextBox = ({ children }) => {
       paddingRight={2}
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
+      <Head>
+        <title>Blog - Watoto Kabisa</title>
+        <meta
+          type="description"
+          content="Hier findet ihr Berichte aus Kenia."
+        />
+      </Head>
       <Text intent="category" color={theme.tokens.primary}>
         {children}
       </Text>

@@ -9,6 +9,7 @@ import {
   Link,
   ScrollView,
 } from '@bdp-rps/ui'
+import Head from 'next/head'
 import HoverImage from '../components/HoverImage'
 import Image from 'next/image'
 import NextLink from 'next/link'
@@ -21,6 +22,13 @@ export default () => {
 
   return (
     <Template navImg='url("/images/projekte.jpg")' title="Unsere Projekte!">
+      <Head>
+        <title>Projekte - Watoto Kabisa</title>
+        <meta
+          type="description"
+          content="Hier findet ihr Infos zu unsereren Projekten in Kenia."
+        />
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={4} alignItems="center">
           <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>

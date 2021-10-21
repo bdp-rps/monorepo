@@ -12,6 +12,7 @@ import {
 import HoverImage from '../components/HoverImage'
 import Image from 'next/image'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -23,6 +24,15 @@ export default () => {
     <Template
       navImg='url("/images/geschenkkartenBg.jpg")'
       title="Geschenkkarten!">
+      <Head>
+        <title>Geschenkkarten - Watoto Kabisa</title>
+        <Head>
+          <meta
+            type="description"
+            content="Hier findet ihr Infos zu unserer Geschenkkarten Aktion."
+          />
+        </Head>
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={4} alignItems="center">
           <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>

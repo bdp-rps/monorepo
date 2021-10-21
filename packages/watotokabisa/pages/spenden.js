@@ -11,6 +11,7 @@ import {
   ScrollView,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import BankAccount from '../components/BankAccount'
 import Layout from '../components/Layout'
@@ -21,6 +22,13 @@ export default function Spenden() {
 
   return (
     <Template navImg='url("/images/spendenBg.jpg")' title="Spenden!">
+      <Head>
+        <title>Spenden - Watoto Kabisa</title>
+        <meta
+          type="description"
+          content="Hier erfahrt ihr wie ihr den Verein Watoto Kabisa finanziell unterstützen könnt."
+        />
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box
           space={4}

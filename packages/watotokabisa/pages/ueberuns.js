@@ -11,6 +11,7 @@ import {
   ScrollView,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import HoverImage from '../components/HoverImage'
 import Layout from '../components/Layout'
@@ -21,6 +22,10 @@ export default () => {
 
   return (
     <Template navImg='url("/images/lvrps.jpg")' title="Über uns">
+      <Head>
+        <title>Über Uns - Watoto Kabisa</title>
+        <meta type="description" content="Hier findet ihr Infos über uns." />
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text intent="heading" color={theme.tokens.primary}>

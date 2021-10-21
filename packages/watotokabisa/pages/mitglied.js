@@ -12,6 +12,7 @@ import {
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
+import Head from 'next/head'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 
@@ -20,6 +21,13 @@ export default () => {
 
   return (
     <Template navImg='url("/images/mitgliedBg.jpg")' title="Mitglied werden!">
+      <Head>
+        <title>Mitglied werden - Watoto Kabisa</title>
+        <meta
+          type="description"
+          content="Alle Infos wie ihr Mitglied bei Watoto Kabisa werden könnt."
+        />
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text intent="heading" color={theme.tokens.primary}>
