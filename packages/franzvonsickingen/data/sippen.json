@@ -5,6 +5,7 @@
     "leader": ["Lennart Laser", "Felix Scharlowski"],
     "meeting": "Freitags, 16:45 Uhr – 18:15 Uhr",
     "year": "2005 – 2006",
+    "image": "dummy_anton",
     "campaigns": [
       "Bundeslager “Estonteco” (2017)",
       "Sommerfahrt Vogesen (2018)",
@@ -14,6 +15,7 @@
   },
   {
     "name": "Euphoria",
+    "image": "dummy_anton",
     "date": "2019",
     "leader": ["Joshua Chrylser", "Luisa Lück"],
     "meeting": "Freitags, 18:45 Uhr - 18:45 Uhr",
@@ -25,6 +27,7 @@
   },
   {
     "name": "Selukreh",
+    "image": "dummy_anton",
     "date": "2020",
     "leader": ["Franka Schreiber", "Lena Keck"],
     "meeting": "Freitags, 16.45 Uhr – 18.15 Uhr",
