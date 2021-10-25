@@ -37,11 +37,14 @@ export default () => (
             <Text intent="subtitle">{part}</Text>
 
             <Box direction="row" wrap="wrap" space={4}>
-              {parts[part].map(({ name, group, contact, position }) => (
+              {parts[part].map(({ name, group, contact, position, image }) => (
                 <Box
                   marginBottom={4}
                   basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
-                  <Tile title={name}>
+                  <Tile
+                    title={name}
+                    image={`/images/${image}.jpg`}
+                    imageHeight={500}>
                     <Box>
                       <Text>{position}</Text>
                     </Box>

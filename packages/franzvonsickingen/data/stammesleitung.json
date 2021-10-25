@@ -2,64 +2,74 @@
   {
     "part": "Stammesführung",
     "name": "Daniel Christmann",
-    "position": "Stammesführung"
+    "position": "Stammesführung",
+    "image": "Daniel Christmann (Stammesführung)"
   },
   {
     "part": "Stammesführung",
     "name": "Horst Stauffer-Bescher",
-    "position": "Stellv. Stammesführung"
+    "position": "Stellv. Stammesführung",
+    "image": "Horst Stauffer-Bescher (Stellvertretende Stammesführung)"
   },
   {
     "part": "Stammesführung",
     "name": "Miriam Ebel",
-    "position": "Stellv. Stammesführung"
+    "position": "Stellv. Stammesführung",
+    "image": "Miriam Ebel (Stellvertretende Stammesführung)"
   },
   {
     "part": "Stammesführung",
     "name": "Lukas Ebel",
-    "position": "Schatzmeister*in"
+    "position": "Schatzmeister*in",
+    "image": "Lukas Ebel (Schatzmeister)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Maren Ebel",
-    "position": "Wölflingsbeauftragte*r"
+    "position": "Wölflingsbeauftragte*r",
+    "image": "Maren Ebel (Wölflingsbeauftragte)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Marius Müller",
-    "position": "Wölflingsbeauftragte*r"
+    "position": "Wölflingsbeauftragte*r",
+    "image": "Mariaus Müller (Wölflingsbeauftragter)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Lennart Laser",
-    "position": "Pfadfinderbeauftragte*r"
+    "position": "Pfadfinderbeauftragte*r",
+    "image": "Lennart Laser (Pfadfinderbeauftragter)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Joshua Chrysler",
-    "position": "Pfadfinderbeauftragte*r"
+    "position": "Pfadfinderbeauftragte*r",
+    "image": "Joshua Chrysler (Pfadfinderbeauftragter)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Charlotte Mickert",
-    "position": "Ranger-/Roverbeauftragte*r"
+    "position": "Ranger-/Roverbeauftragte*r",
+    "image": "Charlotte Mickert (Ranger-Roverbeauftragte)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Vanessa Boger",
-    "position": "Ranger-/Roverbeauftragte*r"
-
+    "position": "Ranger-/Roverbeauftragte*r",
+    "image": "Vanessa Boger (Ranger-Roverbeauftragte)"
   },
   {
     "part": "Stammesbeauftragte",
     "name": "Xenia Wolf",
-    "position": "Ranger-/Roverbeauftragte*r"
+    "position": "Ranger-/Roverbeauftragte*r",
+    "image": "Xenia Wolf (RR-Beauftragte)"
   },
 
   {
     "part": "Stammesbeauftragte",
     "name": "Jenny Christmann",
-    "position": "Öffentlichkeitsbeauftragte*r"
-
+    "position": "Öffentlichkeitsbeauftragte*r",
+    "image": "Jenny Christmann (Öffentlichkeitsbeauftragte)"
   }
 ]
