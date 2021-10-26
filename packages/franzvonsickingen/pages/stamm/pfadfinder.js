@@ -48,10 +48,7 @@ export default () => {
               {sippen.map(sippe => {
                 return (
                   <Box maxWidth={500}>
-                    <Tile
-                      title={sippe.name}
-                      image={`/images/${sippe.image}.jpg`}
-                      imageHeight={500}>
+                    <Tile title={sippe.name}>
                       <Text>Seit: {sippe.date}</Text>
                       <Text>
                         Sippenführer*innen:{' '}
