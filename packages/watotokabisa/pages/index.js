@@ -11,6 +11,7 @@ import {
   ScrollView,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -27,6 +28,13 @@ export default () => {
       navImg='url("/images/bg.jpg")'
       title="Karibu"
       subTitle="auf der Webseite von Watoto Kabisa">
+      <Head>
+        <title>Startseite - Watoto Kabisa</title>
+        <meta
+          type="description"
+          content="Watoto Kabisa ist ein Förderverein der es sich zur Aufgabe gemacht hat Kinder in Kenia zu unterstützen."
+        />
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box
           space={4}

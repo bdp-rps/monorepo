@@ -8,6 +8,7 @@ import {
   Tile,
   Link,
 } from '@bdp-rps/ui'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -17,6 +18,14 @@ export default () => {
 
   return (
     <Template>
+      <Head>
+        <title>Datenschutz - Watoto Kabisa </title>
+        <meta
+          type="description"
+          content="Hier findet ihr die Datenschutzrichtlinie von Watoto Kabisa"
+        />
+      </Head>
+      s
       <Layout paddingTop={10} paddingBottom={15}>
         <Text intent="subtitle">Datenschutzerklärung</Text>
         <Spacer size={4} />
