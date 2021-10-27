@@ -135,7 +135,9 @@ export default function Template({ children, navImg, title, subTitle }) {
             <Box space={2} grow={1}>
               <Text intent="heading">Andere Seiten</Text>
               <Spacer size={0.5} />
-              <Link href="https://www.pfadfinden.de">Bundesseite</Link>
+              <Link href="https://www.bdp-rps.de/">
+                BdP Landesverband Rheinland-Pfalz Saar
+              </Link>
               <Link href="http://www.ljr-rlp.de">
                 Landesjugendring Rheinland-Pfalz
               </Link>
@@ -149,7 +151,7 @@ export default function Template({ children, navImg, title, subTitle }) {
             <Box space={2} grow={1}>
               <Text intent="heading">Soziales</Text>
               <Spacer size={0.5} />
-              <Link href="https://instagram.com/bdp_lv_rps/">Instagram</Link>
+              <Link href="https://instagram.com/watotokabisa/">Instagram</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text intent="heading">Spendenkonto</Text>
