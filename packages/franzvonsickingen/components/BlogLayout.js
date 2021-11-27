@@ -23,7 +23,7 @@ const Title = ({ children }) => {
       <Text
         intent="title"
         color={theme.tokens.primary}
-        extend={{ lineHeight: 1 }}>
+        extend={{ lineHeight: 1, wordBreak: 'break-all' }}>
         {children}
       </Text>
     </Box>

@@ -46,8 +46,9 @@ export default () => {
             <br />
             <b>Stefan Schmidt</b>
             <br />
-            Dreiweidenstraße 3<br />
-            65195 Wiesbaden
+            Obere Zahlbacher Straße 14
+            <br />
+            55131 mainz
             <br />
             <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
             <br />
