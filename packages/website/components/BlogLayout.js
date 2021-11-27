@@ -23,7 +23,7 @@ const Title = ({ children }) => {
       <Text
         intent="title"
         color={theme.tokens.primary}
-        extend={{ lineHeight: 1 }}>
+        extend={{ lineHeight: 1, wordBreak: 'break-all' }}>
         {children}
       </Text>
     </Box>
@@ -41,7 +41,6 @@ export default ({ children, meta }) => {
           <Link>← Zurück zur Übersicht</Link>
         </NextLink>
         <Spacer size={5} />
-
         <Title>{meta.title}</Title>
         <Spacer size={1} />
         <Text intent="note">
