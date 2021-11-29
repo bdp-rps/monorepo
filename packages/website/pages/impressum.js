@@ -76,7 +76,7 @@ export default () => {
             <br />
             <br />
             Der BdP Rheinland-Pfalz/Saar ist ein nichtrechtsfähiger Verein mit
-            Sitz in Wiesbaden. Er ist eine selbständige Untergliederung des
+            Sitz in Mainz. Er ist eine selbständige Untergliederung des
             Bundes der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
             Immenhausen.
           </Text>
