@@ -48,7 +48,7 @@ export default () => {
             <br />
             Obere Zahlbacher Straße 14
             <br />
-            55131 mainz
+            55131 Mainz
             <br />
             <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
             <br />
