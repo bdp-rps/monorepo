@@ -48,7 +48,7 @@ export default () => {
             <br />
             Obere Zahlbacher Straße 14
             <br />
-            55131 mainz
+            55131 Mainz
             <br />
             <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
             <br />
@@ -76,7 +76,7 @@ export default () => {
             <br />
             <br />
             Der BdP Rheinland-Pfalz/Saar ist ein nichtrechtsfähiger Verein mit
-            Sitz in Wiesbaden. Er ist eine selbständige Untergliederung des
+            Sitz in Mainz. Er ist eine selbständige Untergliederung des
             Bundes der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
             Immenhausen.
           </Text>
