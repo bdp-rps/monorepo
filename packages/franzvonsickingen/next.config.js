@@ -10,7 +10,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 const config = {
-  target: 'serverless',
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
 }
 
