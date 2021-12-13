@@ -24,7 +24,7 @@ export default () => {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={15}>
-        <Text intent="subtitle">Pfadfinder</Text>
+        <Text variant="subtitle">Pfadfinder</Text>
         <Spacer size={4} />
         <Box space={6}>
           <Box space={1}>
@@ -42,7 +42,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={4}>
-            <Text intent="category">Unsere Sippen auf einen Blick</Text>
+            <Text variant="category">Unsere Sippen auf einen Blick</Text>
             {count}
             <Box space={4} justifyContent="center">
               {sippen.map(sippe => {

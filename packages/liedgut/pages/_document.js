@@ -1,11 +1,11 @@
 import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
-import { getStyleRenderer, StyleTags } from '@bdp-rps/ui'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
+import { createStyleRenderer } from '@bdp-rps/ui'
+import { renderToNodeList } from 'react-fela'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const renderer = getStyleRenderer()
-
+    const renderer = createStyleRenderer()
     const originalRenderPage = ctx.renderPage
 
     ctx.renderPage = () =>
@@ -14,24 +14,23 @@ export default class MyDocument extends Document {
       })
 
     const initialProps = await Document.getInitialProps(ctx)
+    const styles = renderToNodeList(renderer)
+
     return {
       ...initialProps,
-      renderer,
+      styles: [...initialProps.styles, ...styles],
     }
   }
 
   render() {
-    const { renderer, isProduction } = this.props
-
     return (
-      <html>
+      <Html lang="de">
         <Head>
           <meta httpEquiv="content-type" content="text/html; charset=utf-8" />
           <meta
             name="viewport"
             content="width=device-width,height=device-height,initial-scale=1, viewport-fit=cover"
           />
-          <StyleTags renderer={renderer} />
           <link rel="stylesheet" href="/abc_controls.css" />
         </Head>
         <body>
@@ -42,7 +41,7 @@ export default class MyDocument extends Document {
             <img src="https://sa.bdp-rps.app/noscript.gif" alt="" />
           </noscript>
         </body>
-      </html>
+      </Html>
     )
   }
 }

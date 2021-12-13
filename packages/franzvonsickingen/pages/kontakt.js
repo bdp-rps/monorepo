@@ -23,7 +23,7 @@ const TextBox = ({ children }) => {
       paddingRight={2}
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
-      <Text intent="category" color={theme.tokens.primary}>
+      <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
     </Box>
@@ -37,9 +37,11 @@ export default () => {
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
         <Text>
-        Daniel Christmann
-        <br />
-        <Link href="mailto:christmanndaniel1@gmail.com">christmanndaniel1@gmail.com</Link>
+          Daniel Christmann
+          <br />
+          <Link href="mailto:christmanndaniel1@gmail.com">
+            christmanndaniel1@gmail.com
+          </Link>
         </Text>
       </Layout>
     </Template>

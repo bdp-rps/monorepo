@@ -1,5 +1,13 @@
 import React, { useState } from 'react'
-import { Box, Link, TextInput, Text, Button, useTheme } from '@bdp-rps/ui'
+import {
+  Box,
+  Link,
+  TextInput,
+  Text,
+  Button,
+  useTheme,
+  useField,
+} from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
 import ListItem from '../components/ListItem'
@@ -28,19 +36,18 @@ const songData = songList.reduce((songData, name) => {
 }, {})
 
 const SongList = () => {
-  const [search, setSearch] = useState('')
+  const search = useField({ name: 'search ' })
   const theme = useTheme()
 
-  const normalizedSearch = search.toLowerCase().trim()
+  const normalizedSearch = search.value.toLowerCase().trim()
 
   return (
     <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={2}>
       <TextInput
-        value={search}
-        onChange={setSearch}
         placeholder={
           'Suche nach Titel oder Liedtext z.B. "Am Ural" oder "schöne Stadt am Karmar"'
         }
+        {...search.props}
       />
 
       <Box>
@@ -130,9 +137,11 @@ export default function Page() {
   return (
     <>
       <Header />
-      <Layout>
-        <SongList />
-      </Layout>
+      <Box grow={1}>
+        <Layout>
+          <SongList />
+        </Layout>
+      </Box>
       <Footer />
     </>
   )

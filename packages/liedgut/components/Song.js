@@ -78,10 +78,10 @@ export default function Song({
 
   return (
     <Box>
-      <Text intent="category">{title}</Text>
+      <Text variant="category">{title}</Text>
       {!alternativeTitle ? null : (
         <Box>
-          <Text intent="note">
+          <Text variant="note">
             Alternativ: {alternativeTitle.replace('\n', ', ')}
           </Text>
         </Box>
@@ -129,39 +129,43 @@ export default function Song({
         <hr />
         <Box>
           <Text
-            intent="note"
+            variant="note"
             extend={{
               fontStyle: 'italic',
               color: theme.foreground,
-            }}
-            dangerouslySetInnerHTML={{
-              __html: info.replace(/(?:\r\n|\r|\n)/g, '<br>'),
-            }}
-          />
+            }}>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: info.replace(/(?:\r\n|\r|\n)/g, '<br>'),
+              }}
+            />
+          </Text>
         </Box>
         <Box>
           {JSON.stringify(words) === JSON.stringify(tune) ? (
-            <Text intent="note">
+            <Text variant="note">
               Worte & Weise: {renderAuthors(words).join('; ')}
             </Text>
           ) : (
             <Box>
-              <Text intent="note">
+              <Text variant="note">
                 Worte: {renderAuthors(words).join('; ')}
               </Text>
-              <Text intent="note">Weise: {renderAuthors(tune).join('; ')}</Text>
+              <Text variant="note">
+                Weise: {renderAuthors(tune).join('; ')}
+              </Text>
             </Box>
           )}
 
           {translation && translation.length > 0 ? (
-            <Text intent="note">
+            <Text variant="note">
               Übesetzung: {renderAuthors(translation).join('; ')}
             </Text>
           ) : null}
         </Box>
         <Box>
-          <Text intent="note">Tempo: {tempo}</Text>
-          <Text intent="note">Takt: {beat}</Text>
+          <Text variant="note">Tempo: {tempo}</Text>
+          <Text variant="note">Takt: {beat}</Text>
         </Box>
 
         <Box alignItems="flex-start">

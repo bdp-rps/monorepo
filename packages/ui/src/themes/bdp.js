@@ -16,6 +16,8 @@ const colors = {
 }
 
 export default {
+  maxReadWidth: 800,
+  maxContentWidth: 1000,
   fonts,
   colors: {
     ...colors,
