@@ -18,11 +18,11 @@ export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
       <Box>
-        <Text intent="subtitle">Die Versprechen</Text>
+        <Text variant="subtitle">Die Versprechen</Text>
         <Spacer size={4} />
         <Box space={6}>
           <Box space={2}>
-            <Text intent="category">
+            <Text variant="category">
               Die Versprechen, Aufnahmefeier und Versprechensregeln
             </Text>
             <Text>
@@ -34,7 +34,7 @@ export default () => (
             </Text>
           </Box>
           <Box space={2}>
-            <Text intent="category">
+            <Text variant="category">
               Das Originalversprechen von Robert Baden-Powell
             </Text>
             <Text>
@@ -44,7 +44,7 @@ export default () => (
             </Text>
           </Box>
           <Box space={2}>
-            <Text intent="category">
+            <Text variant="category">
               Im BdP ist das Versprechen und die Regeln wie folgt ausformuliert
             </Text>
             <Text>
@@ -69,7 +69,7 @@ export default () => (
             </Text>
           </Box>
           <Box space={2}>
-            <Text intent="category">
+            <Text variant="category">
               Für Wölflinge gilt folgendes Versprechen
             </Text>
             <Text>

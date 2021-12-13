@@ -17,8 +17,10 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
+      <Text as="p" substyle="emphasis">
+        Zuschussanträge
+      </Text>
       <Text>
-        <Text substyle="emphasis">Zuschussanträge</Text>
         <Link
           href="/files/Aenderungen_Soziale_Bildung_Corona_und_01_07_.pdf"
           download>

@@ -17,12 +17,12 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text intent="subtitle">Für Ehemalige</Text>
+      <Text variant="subtitle">Für Ehemalige</Text>
       <Spacer size={4} />
 
       <Box space={6}>
         <Box space={2}>
-          <Text intent="category">Club 29</Text>
+          <Text variant="category">Club 29</Text>
 
           <Text>
             Pfadfinden hält zwar jung, aber dennoch kommt irgendwann die Zeit
