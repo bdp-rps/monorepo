@@ -185,12 +185,10 @@ function OrderForm() {
             type="number"
             {...amountGoat.props}
           />
-          {porto.value && (
-            <Checkbox
-              label="Ich möchte zusätzlich das Porto von 1,55 € bezahlen"
-              {...porto.props}
-            />
-          )}
+          <Checkbox
+            label="Ich möchte zusätzlich das Porto von 1,55 € bezahlen"
+            {...porto.props}
+          />
           {totalAmount > 0 && (
             <Box bg="background.info" padding={4}>
               <Text>
