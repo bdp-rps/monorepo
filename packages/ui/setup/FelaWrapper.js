@@ -3,8 +3,6 @@ import { StyleProvider, ThemeProvider, ConfigProvider } from 'ambrose'
 
 import createStyleRenderer from '../src/styling/createStyleRenderer'
 
-import config from '../ambrose.config'
-
 const renderer = createStyleRenderer()
 
 export default function FelaWrapper({ children }) {
