@@ -22,9 +22,9 @@
     "Edge >= 15"
   ],
   "scripts": {
+    "setup": "yarn build",
     "clean": "rimraf lib es coverage",
-    "prepare": "yarn build:package",
-    "build": "yarn clean && yarn build:package",
+    "build": "yarn clean && yarn build:icons && yarn build:package",
     "build:styleguide": "styleguidist build",
     "build:package": "yarn build:es && yarn build:lib",
     "build:icons": "rimraf src/components/icons/js && svgr -d src/components/icons/js src/components/icons/svg --config-file ./svgr.config.js && babel-node scripts/buildIcons.js",
@@ -76,6 +76,5 @@
     "react-styleguidist": "^11.1.0",
     "rimraf": "^3.0.0",
     "webpack": "^4.44.2"
-  },
-  "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
+  }
 }

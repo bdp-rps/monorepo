@@ -5,7 +5,6 @@ import Template from '../components/Template'
 import PostTile from '../components/PostTile'
 
 import manifest from '../public/blog-manifest.json'
-
 import image from '../public/images/verkehr.jpg'
 
 export default () => {
