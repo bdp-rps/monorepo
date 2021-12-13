@@ -5,4 +5,4 @@ import '../src/utils/init'
 
 import Ohrwurm from '../src/templates/Ohrwurm'
 
-render(<Ohrwurm />, `${__dirname}/../public/dist/ohrwurm.pdf`)
+render(<Ohrwurm />, `${__dirname}/../public/dist/Ohrwurm.pdf`)
