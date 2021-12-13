@@ -17,7 +17,7 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text intent="subtitle">Ausbildung im Landesverband</Text>
+      <Text variant="subtitle">Ausbildung im Landesverband</Text>
       <Spacer size={4} />
       <Box space={6}>
         <Box space={2}>

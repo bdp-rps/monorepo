@@ -46,7 +46,7 @@ export default function Page() {
         <Box minHeight="95vh" paddingTop={5} paddingBottom={30}>
           {step !== 0 ? null : (
             <>
-              <Text intent="category">Liedauswahl</Text>
+              <Text variant="category">Liedauswahl</Text>
               <Spacer size={1} />
               <Text>Wähle Lieder für dein Liederbuch aus.</Text>
               <Spacer size={4} />
@@ -83,7 +83,7 @@ export default function Page() {
                     position: 'fixed',
                     bottom: 8,
                   }}>
-                  <Text intent="label" color="white">
+                  <Text variant="label" color="white">
                     <strong>{selected.length}</strong> ausgewählt.
                   </Text>
                   <Button onClick={() => setStep(1)}>Weiter</Button>

@@ -14,7 +14,7 @@ export default function Loading({ size, className, color }) {
   const height = pxSize
   const width = pxSize * 3 + r * 2
 
-  const animateValues = radius + ';' + lowRadius + ';' + radius + ';' + radius
+  const animateValues = [radius, lowRadius, radius, radius].join(';')
 
   return (
     <svg

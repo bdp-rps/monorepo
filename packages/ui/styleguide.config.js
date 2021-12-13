@@ -18,9 +18,6 @@ module.exports = {
     Button: path.resolve(__dirname, 'src/components/button/index.js'),
     TabNavItem: path.resolve(__dirname, 'src/components/tabNavItem/index.js'),
     NavBarItem: path.resolve(__dirname, 'src/components/navBarItem/index.js'),
-    Row: path.resolve(__dirname, 'src/components/row/index.js'),
-    Col: path.resolve(__dirname, 'src/components/col/index.js'),
-    DebugGrid: path.resolve(__dirname, 'src/components/grid/DebugGrid.js'),
   },
   template: {
     head: {

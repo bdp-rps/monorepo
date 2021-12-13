@@ -30,7 +30,7 @@ const TextBox = ({ children }) => {
       paddingRight={2}
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
-      <Text intent="category" color={theme.tokens.primary}>
+      <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
     </Box>
@@ -44,9 +44,12 @@ export default () => {
     <Template>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
-          <Text intent="category">Willkommen beim Pfadfinderstamm Franz von Sickingen.</Text>
+          <Text variant="category">
+            Willkommen beim Pfadfinderstamm Franz von Sickingen.
+          </Text>
           <Text>
-            Der Pfadfinderstamm Franz von Sickingen gehört zum interkonfessionellen Bund der Pfadfinderinnen und Pfadfinder.
+            Der Pfadfinderstamm Franz von Sickingen gehört zum
+            interkonfessionellen Bund der Pfadfinderinnen und Pfadfinder.
             <br />
             Der Stamm besteht seit 1965 und hat zurzeit etwa 100 Mitglieder.
           </Text>
@@ -58,7 +61,7 @@ export default () => {
         paddingBottom={10}
         alignSelf="stretch"
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-        <Text intent="subtitle">Das läuft bei uns.</Text>
+        <Text variant="subtitle">Das läuft bei uns.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
             <PostTile highlight {...firstPost} />
@@ -77,7 +80,7 @@ export default () => {
         </Box>
       </Layout>
       <Layout paddingTop={10} paddingBottom={12}>
-        <Text intent="subtitle">Das steht an.</Text>
+        <Text variant="subtitle">Das steht an.</Text>
         <ScrollView>
           <Box
             paddingTop={5}

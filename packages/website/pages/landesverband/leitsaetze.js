@@ -40,7 +40,7 @@ export default () => {
         paddingBottom={15}
         alignSelf="stretch"
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-        <Text intent="subtitle">Wir wollen...</Text>
+        <Text variant="subtitle">Wir wollen...</Text>
         <Box paddingTop={2} direction={'column'} space={4}>
           <Tile
             title="1. einen Beitrag zur Persönlichkeitsbildung junger Menschen leisten"

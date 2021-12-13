@@ -1,3 +1,3 @@
-import { Spacer } from 'kilvin'
+import { Spacer } from 'ambrose'
 
 export default Spacer

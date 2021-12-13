@@ -35,7 +35,7 @@ export default () => (
       <Box space={8}>
         {Object.keys(parts).map(part => (
           <Box>
-            <Text intent="subtitle">{part}</Text>
+            <Text variant="subtitle">{part}</Text>
 
             <Box direction="row" wrap="wrap" space={4}>
               {parts[part].map(({ name, group, contact, position }) => (

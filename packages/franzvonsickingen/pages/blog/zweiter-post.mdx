@@ -1,9 +1,10 @@
 import BlogLayout from '../../components/BlogLayout'
-import { Box, Tile,Text } from '@bdp-rps/ui'
+import { Box, Tile, Text } from '@bdp-rps/ui'
 export const meta = {
   title: 'Unser neuer Vorstand!',
   teaser: 1,
-  description: 'Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren',
+  description:
+    'Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren',
   author: {
     name: 'Timon Flick',
     nickname: '',
@@ -15,8 +16,10 @@ export const meta = {
 export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
 
 <Box space={5}>
-  <Text intent="subtitle">Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren:</Text>
-  <Box space={5} direction={['column',,'row']}>
+  <Text variant="subtitle">
+    Wie versprochen wollen wir euch heute unseren neuen Vorstand präsentieren:
+  </Text>
+  <Box space={5} direction={['column', , 'row']}>
     <Box maxWidth={500}>
       <Tile
         title="Mefan"
@@ -28,7 +31,8 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Stamm:</strong> Sturmvogel <br />
         <strong>Wohnort/Heimat:</strong> Wiesbaden/Birkenfeld <br />
         <strong>Pfadfinder*in seit:</strong> 1999 <br />
-        <strong>bisherige Aufgaben:</strong> Landesvorsitzender, Kursteamer<br />
+        <strong>bisherige Aufgaben:</strong> Landesvorsitzender, Kursteamer
+        <br />
         <strong>bisherige Herzensprojekte:</strong> Kfs, Stammesheim Hattgenstein{' '}
         <br />
         <strong>schönstes Fahrtenziel:</strong> Slowakei <br />
@@ -59,25 +63,27 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
       </Tile>
     </Box>
   </Box>
-  <Box space={5} direction={['column',,'row']}>
+  <Box space={5} direction={['column', , 'row']}>
     <Box maxWidth={500}>
-    <Tile
+      <Tile
         title="Roxy"
         image="/posts/zweiter-post/roxy_vorstand.jpg"
         imageHeight={400}
         highlight>
-        <strong>Name:</strong>Roxanne Marie Schäfer<br />
+        <strong>Name:</strong>Roxanne Marie Schäfer
+        <br />
         <strong>Alter:</strong> 28 <br />
         <strong>Stamm:</strong> Albert Schweizer <br />
         <strong>Wohnort/Heimat:</strong> Mainz/Hüttersdorf <br />
         <strong>Pfadfinder*in seit:</strong> 2000 <br />
-        <strong>bisherige Aufgaben:</strong>  LB Wölflinge, Kursteamerin <br />
-        <strong>bisherige Herzensprojekte:</strong>Bienen LZP, LV Segeln{' '}
-        <br />
+        <strong>bisherige Aufgaben:</strong> LB Wölflinge, Kursteamerin <br />
+        <strong>bisherige Herzensprojekte:</strong>Bienen LZP, LV Segeln <br />
         <strong>schönstes Fahrtenziel:</strong> Meckl. Seenplatte <br />
-        <strong>Beruf:</strong>  Lehrerin BBS, Spanisch, Deutsch <br />
-        <strong>Hobbys:</strong>  Reisen, Nähen, Zeit mit lieben Menschen verbringen <br />
-        <strong>Aufgaben im Vorstand:</strong> Orga Landesleitungs-/Vorstandstreffen, <br /> Landespfingstlager, Bindeglied gelbe Stufe{' '}
+        <strong>Beruf:</strong> Lehrerin BBS, Spanisch, Deutsch <br />
+        <strong>Hobbys:</strong> Reisen, Nähen, Zeit mit lieben Menschen
+        verbringen <br />
+        <strong>Aufgaben im Vorstand:</strong> Orga Landesleitungs-/Vorstandstreffen,{' '}
+        <br /> Landespfingstlager, Bindeglied gelbe Stufe{' '}
       </Tile>
     </Box>
     <Box maxWidth={500}>
@@ -92,16 +98,16 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Wohnort/Heimat:</strong> Mainz/Kaiserslautern <br />
         <strong>Pfadfinder*in seit:</strong> 2000 <br />
         <strong>bisherige Aufgaben:</strong> LB Ausbildung, Kursteamerin <br />
-        <strong>bisherige Herzensprojekte:</strong> Teamerin Gilwell{' '}
-        <br />
+        <strong>bisherige Herzensprojekte:</strong> Teamerin Gilwell <br />
         <strong>schönstes Fahrtenziel:</strong> Kenia <br />
         <strong>Beruf:</strong> Referendarin GYM, Geschichte und Deutsch <br />
         <strong>Hobbys:</strong> Singen, Yoga, Kaffeeklatsch <br />
-        <strong>Aufgaben im Vorstand:</strong> Zusammenarbeit Bund, <br /> Bundeslager 2022,  Koordination Stammespläne{' '}
+        <strong>Aufgaben im Vorstand:</strong> Zusammenarbeit Bund, <br />{' '}
+        Bundeslager 2022, Koordination Stammespläne{' '}
       </Tile>
     </Box>
   </Box>
-  <Box space={5} direction={['column',,'row']}>
+  <Box space={5} direction={['column', , 'row']}>
     <Box maxWidth={500}>
       <Tile
         title="Lukas"
@@ -113,13 +119,15 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Stamm:</strong> Franz von Sickingen <br />
         <strong>Wohnort/Heimat:</strong> Kernzenheim <br />
         <strong>Pfadfinder*in seit:</strong> 22 Jahren <br />
-        <strong>bisherige Aufgaben:</strong>  LB Pfadi/Kursteamer <br />
-        <strong>bisherige Herzensprojekte:</strong>Wiederaufbau Stamm <br /> und Ausbau der Infrastruktur{' '}
-        <br />
+        <strong>bisherige Aufgaben:</strong> LB Pfadi/Kursteamer <br />
+        <strong>bisherige Herzensprojekte:</strong>Wiederaufbau Stamm <br /> und
+        Ausbau der Infrastruktur <br />
         <strong>schönstes Fahrtenziel:</strong> Norwegen <br />
-        <strong>Beruf:</strong>  Ergotherapeut <br />
-        <strong>Hobbys:</strong>  Bouldern, Klettern, Zeit mit Freunden und Familie <br />
-        <strong>Aufgaben im Vorstand:</strong> Orga SST/LV Kontakt LB <br /> Pfadi Stammesreporter, Präsenz{' '}
+        <strong>Beruf:</strong> Ergotherapeut <br />
+        <strong>Hobbys:</strong> Bouldern, Klettern, Zeit mit Freunden und Familie{' '}
+        <br />
+        <strong>Aufgaben im Vorstand:</strong> Orga SST/LV Kontakt LB <br />{' '}
+        Pfadi Stammesreporter, Präsenz{' '}
       </Tile>
     </Box>
     <Box maxWidth={500}>
@@ -134,16 +142,17 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>Wohnort/Heimat:</strong> Trier/Düsseldorf <br />
         <strong>Pfadfinder*in seit:</strong> 1997 <br />
         <strong>bisherige Aufgaben:</strong> LB Pfadi, Kursteamerin <br />
-        <strong>bisherige Herzensprojekte:</strong> Osterkurse{' '}
-        <br />
+        <strong>bisherige Herzensprojekte:</strong> Osterkurse <br />
         <strong>schönstes Fahrtenziel:</strong> 1. Großfahrt Pfalz <br />
         <strong>Beruf:</strong> Förderschullehrerin (Hören) <br />
         <strong>Hobbys:</strong> Freunde treffen, Reisen <br />
-        <strong>Aufgaben im Vorstand:</strong> Orga Landesleitungs-/Vorstandstreffen, Koordination Stammespläne, Bindeglied Pfadistufe{' '}
+        <strong>Aufgaben im Vorstand:</strong> Orga
+        Landesleitungs-/Vorstandstreffen, Koordination Stammespläne, Bindeglied
+        Pfadistufe{' '}
       </Tile>
     </Box>
   </Box>
-  <Box space={5} direction={['column',,'row']}>
+  <Box space={5} direction={['column', , 'row']}>
     <Box maxWidth={500}>
       <Tile
         title="Dominik"
@@ -159,8 +168,8 @@ export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
         <strong>bisherige Herzensprojekte:</strong>Mehr Zuschuss für den LV{' '}
         <br />
         <strong>schönstes Fahrtenziel:</strong> Irland <br />
-        <strong>Beruf:</strong>  Bänker <br />
-        <strong>Hobbys:</strong>  Pfadfinder, Kochen <br />
+        <strong>Beruf:</strong> Bänker <br />
+        <strong>Hobbys:</strong> Pfadfinder, Kochen <br />
         <strong>Aufgaben im Vorstand:</strong> Geld ausgeben{' '}
       </Tile>
     </Box>

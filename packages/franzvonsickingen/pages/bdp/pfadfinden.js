@@ -17,12 +17,12 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text intent="subtitle">Pfadfinden?</Text>
+      <Text variant="subtitle">Pfadfinden?</Text>
       <Spacer size={4} />
 
       <Box space={6}>
         <Box space={2}>
-          <Text intent="category">Werte entwickeln – nach Werten leben.</Text>
+          <Text variant="category">Werte entwickeln – nach Werten leben.</Text>
 
           <Text>
             Pfadfinden hilft jungen Menschen, sich in der heutigen Welt zu
@@ -34,7 +34,7 @@ export default () => (
           </Text>
         </Box>
         <Box space={2}>
-          <Text intent="category">Pädagogischer Ansatz </Text>
+          <Text variant="category">Pädagogischer Ansatz </Text>
 
           <Text>
             Pfadfinden fordert den ganzen Menschen. Sportliche, handwerkliche
@@ -48,7 +48,7 @@ export default () => (
           </Text>
         </Box>
         <Box space={2}>
-          <Text intent="category">
+          <Text variant="category">
             Aktiv mitgestalten – die Gruppe, die Welt, die Zukunft.
           </Text>
 
@@ -60,7 +60,7 @@ export default () => (
           </Text>
         </Box>
         <Box space={2}>
-          <Text intent="category">Partnerschaftliche Gruppenführung</Text>
+          <Text variant="category">Partnerschaftliche Gruppenführung</Text>
 
           <Text>
             Verantwortlich für die Organisation der Gruppenarbeit sind die

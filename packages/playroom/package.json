@@ -3,23 +3,19 @@
   "version": "0.0.25",
   "private": true,
   "scripts": {
-    "clean": "rimraf public",
+    "setup": "echo 1",
     "start": "playroom start",
-    "vercel-build": "yarn build",
-    "dev": "vercel dev",
-    "build": "yarn run clean && playroom build",
-    "deploy": "vercel --prod",
-    "test": "cross-env BABEL_ENV=commonjs echo 1",
-    "coverage": "yarn test --coverage",
-    "prepare": "echo 1"
+    "build": "playroom build && cp -a public/fonts ./out",
+    "test": "echo 1",
+    "coverage": "yarn test --coverage"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",
   "license": "MIT",
   "dependencies": {
     "@bdp-rps/ui": "^0.0.25",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
@@ -33,6 +29,5 @@
     "babel-loader": "^8.1.0",
     "playroom": "^0.21.7",
     "rimraf": "^3.0.0"
-  },
-  "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
+  }
 }

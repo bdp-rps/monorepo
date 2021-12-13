@@ -17,6 +17,7 @@ import {
   Link,
   Text,
   useTheme,
+  useField,
 } from '@bdp-rps/ui'
 
 import Song from '../components/Song'
@@ -144,7 +145,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
       direction={['column', , , 'row']}
       grow={1}
       alignSelf="stretch"
-      maxHeight="calc(100% - 50px)">
+      height="calc(100vh - 50px)">
       <Box grow={[1, , , 0]} basis="40%">
         <TabNav onChange={setTab}>
           <TabNavItem active={tab === 'details'} id="details">
@@ -170,18 +171,18 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             <TextInput
               label="Titel"
               value={song.title}
-              onChange={title => setSong({ ...song, title })}
+              onChange={e => setSong({ ...song, title: e.target.value })}
             />
             <TextInput
               type="number"
               label="Tempo"
               value={song.tempo}
-              onChange={tempo => setSong({ ...song, tempo })}
+              onChange={e => setSong({ ...song, tempo: e.target.value })}
             />
             <SelectInput
               label="Takt"
               value={song.beat}
-              onChange={beat => setSong({ ...song, beat })}>
+              onChange={e => setSong({ ...song, beat: e.target.value })}>
               <option value="1/4">1/4</option>
               <option value="2/4">2/4</option>
               <option value="3/4">3/4</option>
@@ -194,20 +195,20 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               label="Alternativer Titel"
               description="Für die Suche und Inhaltsverzeichnisse; ein Titel pro Zeile."
               value={song.alternativeTitle}
-              onChange={alternativeTitle =>
-                setSong({ ...song, alternativeTitle })
+              onChange={e =>
+                setSong({ ...song, alternativeTitle: e.target.value })
               }
             />
             <TextArea
               label="Zusatz-Information"
               description="z.B. Worterklärung, Ergänzungen oder Widmungen"
               value={song.info}
-              onChange={info => setSong({ ...song, info })}
+              onChange={e => setSong({ ...song, info: e.target.value })}
             />
 
             <Box space={10} paddingTop={5}>
               <Box space={1}>
-                <Text intent="label">Worte</Text>
+                <Text variant="label">Worte</Text>
 
                 <Box>
                   {song.words.map(author => (
@@ -248,7 +249,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               </Box>
 
               <Box space={1}>
-                <Text intent="label">Weise</Text>
+                <Text variant="label">Weise</Text>
 
                 <Box>
                   {song.tune.map(author => (
@@ -292,39 +293,43 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               visible={authorVisible}
               onClose={() => setAuthorVisible(false)}>
               <Box space={4} padding={2} minWidth={350}>
-                <Text intent="category">Autor hinzufügen</Text>
+                <Text variant="category">Autor hinzufügen</Text>
                 <TextInput
                   value={author.name}
-                  onChange={name => setAuthor({ ...author, name })}
+                  onChange={e => setAuthor({ ...author, name: e.target.value })}
                   label="Name"
                 />
                 <TextInput
                   value={author.nickname}
-                  onChange={nickname => setAuthor({ ...author, nickname })}
+                  onChange={e =>
+                    setAuthor({ ...author, nickname: e.target.value })
+                  }
                   label="Fahrtenname"
                 />
                 <TextInput
                   value={author.group}
-                  onChange={group => setAuthor({ ...author, group })}
+                  onChange={e =>
+                    setAuthor({ ...author, group: e.target.value })
+                  }
                   label="Gruppe"
                 />
                 <TextInput
                   value={author.organisation}
-                  onChange={organisation =>
-                    setAuthor({ ...author, organisation })
+                  onChange={e =>
+                    setAuthor({ ...author, organisation: e.target.value })
                   }
                   label="Organisation"
                 />
                 <TextInput
                   value={author.year}
-                  onChange={year => setAuthor({ ...author, year })}
+                  onChange={e => setAuthor({ ...author, year: e.target.value })}
                   label="Jahr"
                 />
                 <Checkbox
                   name="words-and-tune"
                   label="Weise & Worte"
                   value={wordsAndTune}
-                  onChange={setWordsAndTune}
+                  onChange={e => setWordsAndTune(e.target.checked)}
                 />
                 <Box paddingTop={2} space={2}>
                   <Button
@@ -369,10 +374,10 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               extend={{ minHeight: 400, flexGrow: 1 }}
               description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
               value={song.content}
-              onChange={content =>
+              onChange={e =>
                 setSong({
                   ...song,
-                  content,
+                  content: e.target.value,
                 })
               }
             />
@@ -408,10 +413,10 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 </>
               }
               value={song.notation}
-              onChange={notation =>
+              onChange={e =>
                 setSong({
                   ...song,
-                  notation,
+                  notation: e.target.value,
                 })
               }
             />
@@ -455,7 +460,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         visible={reuseCacheVisible}
         onClose={() => setReuseCacheVisible(false)}>
         <Box space={4} padding={2} minWidth={350}>
-          <Text intent="category">Letzte Sitzung wiederherstellen</Text>
+          <Text variant="category">Letzte Sitzung wiederherstellen</Text>
           <Text>
             Willst du wirklich die letzte Sitzung wiederherstellen?
             <br />
@@ -491,7 +496,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           }
         }}>
         <Box space={4} padding={2} minWidth={350}>
-          <Text intent="category">Deine Daten</Text>
+          <Text variant="category">Deine Daten</Text>
           <TextInput
             value={submitter.name}
             onChange={name => setSubmitter({ ...submitter, name })}

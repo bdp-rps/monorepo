@@ -5,7 +5,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ isValid, disabled, theme }) => ({
+const style = ({ valid, disabled, theme }) => ({
   flexGrow: 1,
   appearance: 'none',
   borderRadius: 0,
@@ -29,7 +29,7 @@ const style = ({ isValid, disabled, theme }) => ({
   },
   extend: [
     {
-      condition: !isValid,
+      condition: !valid,
       style: {
         borderColor: theme.tokens.destructive,
       },
@@ -42,7 +42,7 @@ const TextArea = forwardRef(
     {
       name,
       value,
-      isValid = true,
+      valid = true,
       disabled,
       required,
       onChange,
@@ -52,26 +52,29 @@ const TextArea = forwardRef(
       type = 'text',
       label,
       errorMessage,
-      errorMessageVisible,
       description,
       extend,
     },
     ref
   ) => {
     const styleProps = {
-      isValid,
+      valid,
       disabled,
     }
 
     const { css, theme } = useFela(styleProps)
 
     return (
-      <Box extend={extend}>
-        <label
+      <Box extend={extend} space={1}>
+        <Text
+          as="label"
           htmlFor={name}
-          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
-          <Text intent="label">{label}</Text>
-        </label>
+          variant="label"
+          extend={{
+            cursor: disabled ? 'not-allowed' : 'pointer',
+          }}>
+          {label}
+        </Text>
         <textarea
           ref={ref}
           id={name}
@@ -80,17 +83,17 @@ const TextArea = forwardRef(
           disabled={disabled}
           required={required}
           placeholder={placeholder}
-          onChange={e => onChange(e.target.value, e)}
+          onChange={onChange}
           onBlur={onBlur}
           onFocus={onFocus}
           className={css(style)}
         />
-        {errorMessage && errorMessageVisible ? (
-          <Text intent="note" extend={{ color: theme.tokens.destructive }}>
+        {errorMessage && !valid && (
+          <Text variant="note" color="foreground.destructive">
             {errorMessage}
           </Text>
-        ) : null}
-        {description ? <Text intent="note">{description}</Text> : null}
+        )}
+        {description && <Text variant="note">{description}</Text>}
       </Box>
     )
   }
@@ -100,7 +103,7 @@ TextArea.displayName = 'TextArea'
 export default TextArea
 
 TextArea.defaultProps = {
-  isValid: true,
+  valid: true,
   disabled: false,
   required: false,
 }
@@ -117,14 +120,14 @@ TextArea.propTypes = {
   /** The controlled value. */
   value: PropTypes.string,
   /** Sets the validation state. */
-  isValid: PropTypes.bool,
+  valid: PropTypes.bool,
   /** Sets disabled. */
   disabled: PropTypes.bool,
   /** Sets required. */
   required: PropTypes.bool,
   /** The label text. */
   label: PropTypes.string,
-  /** An error message text that is displayed once isValid is false. */
+  /** An error message text that is displayed once valid is false. */
   errorMessage: PropTypes.string,
   /** Additional description information display beneath the input. */
   description: PropTypes.string,

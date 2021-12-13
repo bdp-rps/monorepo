@@ -1,14 +1,15 @@
 module.exports = {
   components: './src/components',
-  outputPath: './public',
+  outputPath: './out',
 
   // Optional:
   title: 'BdP LV RPS Design System',
   frameComponent: './src/FelaWrapper.js',
+  themes: './src/themes',
   widths: [320, 1024],
   port: 9000,
   openBrowser: true,
-  exampleCode: `<Box height="100vh" extend={{ backgroundColor: "rgb(230, 230, 230)" }}>
+  exampleCode: `<Box height="100vh" bg="background.primary">
   <Box padding={4} space={4}>
     <TextInput label="Vorname" value="Peter" />
     <TextInput

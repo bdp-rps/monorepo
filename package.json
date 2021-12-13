@@ -4,22 +4,51 @@
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "license": "MIT",
   "scripts": {
-    "cleanup": "lerna run clean && lerna clean --yes",
-    "build": "lerna run build",
-    "prepare": "lerna run prepare",
+    "postinstall": "yarn turbo run setup",
+    "build": "yarn turbo run build",
     "format": "prettier --write \"**/*.js\"",
-    "coverage": "lerna run coverage",
-    "release": "yarn build && lerna publish --force-publish",
-    "test": "lerna run test",
-    "check": "yarn run test",
-    "postinstall": "yarn prepare"
+    "test": "yarn turbo run test",
+    "check": "yarn format && yarn test && yarn lint",
+    "lint": "eslint packages apps --quiet",
+    "dev": "yarn turbo run dev --parallel --no-cache"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "turbo": "^1.0.6"
   },
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {
-    "lerna": "^3.6.0",
-    "prettier": "^1.15.3",
-    "rimraf": "^2.6.2"
+  "turbo": {
+    "pipeline": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": [
+          ".next/**",
+          "lib/**",
+          "es/**",
+          "out/**"
+        ]
+      },
+      "test": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": []
+      },
+      "setup": {
+        "outputs": [
+          "lib/**",
+          "es/**",
+          "out/**"
+        ]
+      },
+      "dev": {
+        "cache": false
+      }
+    }
   }
 }

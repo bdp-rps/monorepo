@@ -44,38 +44,40 @@ export default function Page() {
   return (
     <>
       <Header />
-      <Layout>
-        <Box minHeight="95vh" space={2} paddingTop={6} paddingBottom={25}>
-          <Song {...songData} />
-          <Box
-            paddingTop={4}
-            space={2}
-            alignSelf={[, 'flex-start']}
-            alignItems="flex-start"
-            direction={['column', 'row']}>
-            {!isMounted ? null : (
-              <Box
-                as={PDFDownloadLink}
-                grow={1}
-                alignSelf="stretch"
-                extend={{ textDecoration: 'none' }}
-                document={
-                  <Document>
-                    <PDFSong {...songData} />
-                  </Document>
-                }
-                fileName={songId + '.pdf'}>
-                {({ blob, url, loading, error }) => (
-                  <Button loading={loading}>Als PDF herunterladen</Button>
-                )}
-              </Box>
-            )}
-            <NextLink href={'/bearbeiten/' + songId}>
-              <Button variant="secondary">Änderungsvorschlag</Button>
-            </NextLink>
+      <Box grow={1}>
+        <Layout>
+          <Box minHeight="95vh" space={2} paddingTop={6} paddingBottom={25}>
+            <Song {...songData} />
+            <Box
+              paddingTop={4}
+              space={2}
+              alignSelf={[, 'flex-start']}
+              alignItems="flex-start"
+              direction={['column', 'row']}>
+              {!isMounted ? null : (
+                <Box
+                  as={PDFDownloadLink}
+                  grow={1}
+                  alignSelf="stretch"
+                  extend={{ textDecoration: 'none' }}
+                  document={
+                    <Document>
+                      <PDFSong {...songData} />
+                    </Document>
+                  }
+                  fileName={songId + '.pdf'}>
+                  {({ blob, url, loading, error }) => (
+                    <Button loading={loading}>Als PDF herunterladen</Button>
+                  )}
+                </Box>
+              )}
+              <NextLink href={'/bearbeiten/' + songId}>
+                <Button variant="secondary">Änderungsvorschlag</Button>
+              </NextLink>
+            </Box>
           </Box>
-        </Box>
-      </Layout>
+        </Layout>
+      </Box>
       <Footer />
     </>
   )
