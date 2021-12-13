@@ -3550,10 +3550,10 @@ ajv@^6.1.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ambrose@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/ambrose/-/ambrose-0.0.4.tgz#14dac7963910587eb616810549ca1693d37483f5"
-  integrity sha512-m/ZTEOjEUWFn4OIQn8LOCtHBX4dqEbLQq80p8qDTObXf49sEbqRsurunoa34+fa96+rrqVe1Gq5OBQr0jvsmYA==
+ambrose@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/ambrose/-/ambrose-0.0.5.tgz#5058eb76d425c8773345418f695ed181fe880872"
+  integrity sha512-f6WyTsbfeuvRw6RQgq/91NkrWGn9qnqb5rIel8OIXWTpPsG0r8N3TCoSX+wVVj/yvs0JGe2VdF6cAqO5pXW0Ww==
   dependencies:
     prop-types "^15.7.2"
     small-date "^1.0.2"

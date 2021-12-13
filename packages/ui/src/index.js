@@ -29,6 +29,8 @@ import TextInput from './components/textInput'
 import Tile from './components/tile'
 import Toggle from './components/toggle'
 
+import useScrollBlockingOverlay from './hooks/useScrollBlockingOverlay'
+
 export {
   Provider,
   createStyleRenderer,
@@ -56,4 +58,5 @@ export {
   TextInput,
   Tile,
   Toggle,
+  useScrollBlockingOverlay,
 }
