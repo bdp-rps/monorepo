@@ -65,6 +65,9 @@ function OrderForm() {
   const withdrawMoney = useBoolField({
     name: 'withdrawMoney',
   })
+  const porto = useBoolField({
+    name: 'porto',
+  })
   const owner = useField({
     name: 'owner',
   })
@@ -87,6 +90,7 @@ function OrderForm() {
     amountGoat,
     amountGarden,
     withdrawMoney,
+    porto,
     withdrawMoney.value === true ? acceptTerms : false,
     withdrawMoney.value === true ? owner : false,
     withdrawMoney.value === true ? iban : false,
@@ -97,7 +101,8 @@ function OrderForm() {
   const totalAmount =
     (parseInt(amountMeal.value) || 0) * 10 +
     (parseInt(amountGarden.value) || 0) * 20 +
-    (parseInt(amountGoat.value) || 0) * 30
+    (parseInt(amountGoat.value) || 0) * 30 +
+    (porto.value === true ? 1.55 : 0)
 
   return (
     <>
@@ -180,6 +185,12 @@ function OrderForm() {
             type="number"
             {...amountGoat.props}
           />
+          {porto.value && (
+            <Checkbox
+              label="Ich möchte zusätzlich das Porto von 1,55 € bezahlen"
+              {...porto.props}
+            />
+          )}
           {totalAmount > 0 && (
             <Box bg="background.info" padding={4}>
               <Text>
