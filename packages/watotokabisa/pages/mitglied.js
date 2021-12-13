@@ -63,6 +63,7 @@ function RegisterForm() {
   })
   const email = useField({
     name: 'email',
+    required: true,
   })
   const owner = useField({
     name: 'owner',
