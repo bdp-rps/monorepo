@@ -113,7 +113,7 @@ function OrderForm() {
           as="form"
           noValidate
           space={4}
-          onSubmit={e => {
+          onSubmit={(e) => {
             e.preventDefault()
 
             submit(async (isValid, data) => {
@@ -153,7 +153,7 @@ function OrderForm() {
             placeholder="Musterstraße 13"
             {...street.props}
           />
-          <Box direction="row" space={4}>
+          <Box direction={['column', , 'row']} space={4}>
             <TextInput label="PLZ" placeholder="76131" {...postcode.props} />
             <Box grow={1}>
               <TextInput
