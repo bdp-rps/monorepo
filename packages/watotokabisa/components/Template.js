@@ -79,6 +79,7 @@ export default function Template({
             as={Image}
             src={image || defaultImage}
             placeholder={typeof image !== 'string' && 'blur'}
+            priority
             layout="fill"
             objectFit="cover"
           />
