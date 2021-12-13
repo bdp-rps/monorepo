@@ -51,7 +51,7 @@ export default function Modal({ children, visible, title, onClose }) {
               padding={2}
               width="100%"
               extend={{ backgroundColor: theme.tokens.secondary }}>
-              <Text intent="subtitle" color={theme.tokens.primary} height={1}>
+              <Text variant="subtitle" color={theme.tokens.primary} height={1}>
                 {title}
               </Text>
             </Box>

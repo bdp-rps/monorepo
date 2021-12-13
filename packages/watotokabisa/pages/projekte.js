@@ -7,21 +7,27 @@ import {
   Spacer,
   Tile,
   Link,
-  ScrollView,
+  Grid,
+  El,
 } from '@bdp-rps/ui'
 import Head from 'next/head'
-import HoverImage from '../components/HoverImage'
 import Image from 'next/image'
-import NextLink from 'next/link'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
+import ImageCard from '../components/ImageCard'
+import TextCard from '../components/TextCard'
 
-export default () => {
+import image from '../public/images/projekte.jpg'
+import schulspeisung from '../public/images/schulspeisungen.jpg'
+import landwirtschaft from '../public/images/landwirtschaftsprojekt.jpg'
+import hopepads from '../public/images/hopepads.jpg'
+
+export default function Page() {
   const theme = useTheme()
 
   return (
-    <Template navImg='url("/images/projekte.jpg")' title="Unsere Projekte!">
+    <Template image={image} title="Unsere Projekte!">
       <Head>
         <title>Projekte - Watoto Kabisa</title>
         <meta
@@ -29,36 +35,15 @@ export default () => {
           content="Hier findet ihr Infos zu unsereren Projekten in Kenia."
         />
       </Head>
-      <Layout paddingTop={5} paddingBottom={5}>
-        <Box space={4} alignItems="center">
-          <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>
-            <HoverImage
-              width={['100%', , 500]}
-              height={[300, , 500]}
-              imageURL="/images/schulspeisungen.jpg"></HoverImage>
-            <Box
-              extend={{
-                ...theme.border,
-                backgroundColor: theme.tokens.primary,
-                alignItems: 'center',
-              }}
-              width={['100%', , 500]}
-              height={['100%', , 500]}>
-              <Text
-                intent="subtitle"
-                color="white"
-                align={['center', , '']}
-                extend={{ paddingTop: ['10', , '40'] }}>
+      <Box bg="background.primary">
+        <Layout space={15} paddingVertical={20}>
+          <Grid gap={8} columns={['1fr', , '1fr 1fr']}>
+            <ImageCard minHeight={400} image={schulspeisung} />
+            <TextCard>
+              <Text color="white" variant="subtitle">
                 Schulspeisungen
               </Text>
-              <Text
-                color="white"
-                extend={{
-                  paddingTop: '30',
-                  paddingLeft: '30',
-                  paddingRight: '30',
-                  paddingBottom: '30',
-                }}>
+              <Text color="white">
                 Hunger ist nicht gerade der ideale Lernbegleiter. Deshalb
                 erhalten über 3500 Kinder von WONESU täglich eine warme Portion
                 Porridge. Sehr simpel, aber wahnsinnig effektiv: Seitdem das
@@ -72,32 +57,12 @@ export default () => {
                 und mit den Fördergeldern Versorgungspakete für 200 besonders
                 betroffene Familien geschnürt.
               </Text>
-            </Box>
-          </Box>
-          <Box extend={{ flexDirection: ['column', , , 'row'] }} space={4}>
-            <Box
-              extend={{
-                ...theme.border,
-                backgroundColor: theme.tokens.primary,
-                alignItems: 'center',
-              }}
-              width={['100%', , 500]}
-              height={['100%', , 500]}>
-              <Text
-                intent="subtitle"
-                color="white"
-                align={['center', , '']}
-                extend={{ paddingTop: ['10', , '5'] }}>
+            </TextCard>
+            <TextCard>
+              <Text color="white" variant="subtitle">
                 Landwirtschafstprojekt
               </Text>
-              <Text
-                color="white"
-                extend={{
-                  paddingTop: '30',
-                  paddingLeft: '30',
-                  paddingRight: '30',
-                  paddingBottom: '30',
-                }}>
+              <Text color="white">
                 Was mit der Unterstützung einzelner Familien durch Ziegenzucht
                 begann, hat mittlerweile in der Region Kisumu West zu einem
                 echten Wandel beigetragen: In insgesamt sechs
@@ -116,40 +81,14 @@ export default () => {
                 unabhängig, für sie gilt das Projekt als erfolgreich
                 abgeschlossen. Neue Gruppen stehen schon in den Startlöchern!
               </Text>
-            </Box>
-            <HoverImage
-              width={['100%', , 500]}
-              height={[300, , 500]}
-              imageURL="/images/landwirtschaftsprojekt.jpg"></HoverImage>
-          </Box>
-
-          <Box extend={{ flexDirection: ['column', , 'row'] }} space={4}>
-            <HoverImage
-              width={['100%', , 500]}
-              height={[300, , 500]}
-              imageURL="/images/hopepads.jpg"></HoverImage>
-            <Box
-              extend={{
-                ...theme.border,
-                backgroundColor: theme.tokens.primary,
-                alignItems: 'center',
-              }}
-              width={['100%', , 500]}
-              height={['100%', , 500]}>
-              <Text
-                intent="subtitle"
-                color="white"
-                extend={{ paddingTop: '20' }}>
+            </TextCard>
+            <ImageCard minHeight={400} image={landwirtschaft} />
+            <ImageCard minHeight={400} image={hopepads} />
+            <TextCard>
+              <Text color="white" variant="subtitle">
                 Hope Pads
               </Text>
-              <Text
-                color="white"
-                extend={{
-                  paddingTop: '30',
-                  paddingLeft: '30',
-                  paddingRight: '30',
-                  paddingBottom: '30',
-                }}>
+              <Text color="white">
                 Worum geht's hier? Mit dem Projekt HOPE PADs erhalten über 1500
                 Schülerinnen der Projektschulen wiederverwendbare Binden. Das
                 Ziel: Die Mädchen sollen auch während ihrer Menstruation die
@@ -161,10 +100,10 @@ export default () => {
                 selbst hergestellten Binden sogar in den Vierteln rund um die
                 Schulen zu verkaufen.
               </Text>
-            </Box>
-          </Box>
-        </Box>
-      </Layout>
+            </TextCard>
+          </Grid>
+        </Layout>
+      </Box>
     </Template>
   )
 }

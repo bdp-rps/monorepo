@@ -1,15 +1,16 @@
-import { Box } from '@bdp-rps/ui'
+import { Box, useTheme } from '@bdp-rps/ui'
 
-export default function Layout({ children, extend, ...props }) {
+export default function Layout({ children, ...props }) {
+  const theme = useTheme()
+
   return (
-    <Box {...props} alignItems="center" extend={extend}>
-      <Box
-        padding={[2.5, , , 0]}
-        maxWidth={1000}
-        width="100%"
-        alignSelf="center">
-        {children}
-      </Box>
+    <Box
+      paddingHorizontal={[4, , , 0]}
+      {...props}
+      maxWidth={theme.maxContentWidth}
+      width="100%"
+      alignSelf="center">
+      {children}
     </Box>
   )
 }

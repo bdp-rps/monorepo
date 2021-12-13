@@ -28,7 +28,7 @@ const TextBox = ({ children }) => {
         <title>Kontakt - Watoto Kabisa</title>
         <meta type="description" content="Die Watoto Kabisa Kontaktdaten" />
       </Head>
-      <Text intent="category" color={theme.tokens.primary}>
+      <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
     </Box>

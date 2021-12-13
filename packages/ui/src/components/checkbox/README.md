@@ -18,7 +18,7 @@ A basic Checkbox form input that is best used as a controlled input field with `
     label="Error"
     description="This is checked by default"
     errorMessage="Something went wrong."
-    isValid={false}
+    valid={false}
     value={true}
   />
 </Box>
@@ -33,7 +33,7 @@ A basic Checkbox form input that is best used as a controlled input field with `
   <Checkbox
     label="Error + Checked"
     errorMessage="Something went wrong."
-    isValid={false}
+    valid={false}
     disabled={true}
     value={true}
   />
@@ -49,7 +49,7 @@ const [value, setValue] = React.useState(false)
   label="Default"
   value={value}
   onChange={setValue}
-  isValid={!value}
+  valid={!value}
   errorMessage="Check me please"
 />
 ```

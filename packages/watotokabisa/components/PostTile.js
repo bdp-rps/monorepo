@@ -19,18 +19,17 @@ export default function PostTile({
         <Tile
           title={title}
           image={'/posts/' + id + '/' + teaser + '.jpg'}
-          highlight={highlight}
-          titleBackground="white"
+          titleBackground="rgba(255, 255, 255, 0.8)"
           extend={{
-            ...theme.border,
+            border: '2px solid black',
+            borderRadius: theme.tokens.borderRadius,
             background: theme.tokens.primary,
             padding: 0,
-            overflow: 'clip',
           }}>
           <Box padding={2.5}>
             <Text color="white">{description}</Text>
             <Box paddingTop={2}>
-              <Text intent="note" color="white">
+              <Text variant="note" color="white">
                 {date.day}. {months[date.month - 1]}, {date.year}, von{' '}
                 {author.name}
               </Text>
