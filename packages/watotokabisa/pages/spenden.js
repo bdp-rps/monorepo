@@ -57,7 +57,7 @@ export default function Spenden() {
                 <br />
                 Das Konzept eines Fördervereins hat vor allem den Vorteil, feste
                 Budgets in festen Zeiträumen sinnvoll einplanen und durch eine
-                derartige Gewährleistung CADAMIC die nötige Sicherheit für
+                derartige Gewährleistung WONESU die nötige Sicherheit für
                 weitere Projekte geben zu können. Unsere Mitglieder dürfen gerne
                 mitarbeiten, genauso wichtig sind jedoch auch einfache zahlende
                 Mitglieder, die mit ihrem frei gewählten Jahresbeitrag die

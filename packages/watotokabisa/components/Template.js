@@ -47,7 +47,7 @@ export default function Template({
     setMenuVisible(false)
   }
 
-  const navBarItems = Object.keys(nav).map(path => (
+  const navBarItems = Object.keys(nav).map((path) => (
     <NavBarItem
       href={path}
       active={
@@ -78,7 +78,6 @@ export default function Template({
           <El
             as={Image}
             src={image || defaultImage}
-            placeholder={typeof image !== 'string' && 'blur'}
             priority
             layout="fill"
             objectFit="cover"
@@ -91,7 +90,7 @@ export default function Template({
           display={['flex', , , 'none']}>
           <Logo />
           <IconButton
-            icon={props => <IconMenu fill="white" {...props} />}
+            icon={(props) => <IconMenu fill="white" {...props} />}
             iconSize={40}
             onClick={() => setMenuVisible(true)}
           />
