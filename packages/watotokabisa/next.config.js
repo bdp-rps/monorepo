@@ -11,22 +11,11 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const config = {
   experimental: {
-    granularChunks: true,
+    scrollRestoration: true,
   },
-  target: 'serverless',
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  webpack(config) {
-    for (const rule of config.module.rules) {
-      if (!rule.oneOf) {
-        continue
-      }
-
-      // removing the global css restriction
-      // do not touch this
-      delete rule.oneOf[5].issuer
-    }
-
-    return config
+  images: {
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
   },
 }
 

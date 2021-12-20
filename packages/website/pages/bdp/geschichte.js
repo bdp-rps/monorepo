@@ -17,11 +17,11 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text intent="subtitle">Pfadfindergeschichte</Text>
+      <Text variant="subtitle">Pfadfindergeschichte</Text>
       <Spacer size={4} />
       <Box space={6}>
         <Box space={2}>
-          <Text intent="category">
+          <Text variant="category">
             Eine weltweite Bewegung und ihr Ursprung
           </Text>
           <Text>
@@ -66,7 +66,7 @@ export default () => (
           </Text>
         </Box>
         <Box space={2}>
-          <Text intent="category">Jugendbewegte Ursprünge in Deutschland</Text>
+          <Text variant="category">Jugendbewegte Ursprünge in Deutschland</Text>
           <Text>
             Die Jugendbewegung ist die zweite Wurzel des deutschen
             Pfadfindertums. Jugendbewegung, das waren unterschiedliche

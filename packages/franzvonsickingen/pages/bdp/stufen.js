@@ -19,7 +19,7 @@ export default () => (
     <Layout paddingTop={6} paddingBottom={6}>
       <Box>
         <Text>
-          <Text intent="category">Die Stufen Gruppeneinteilung im BdP</Text>
+          <Text variant="category">Die Stufen Gruppeneinteilung im BdP</Text>
           <br />
           Im Bund der Pfadfinderinnen und Pfadfinder gibt es für Kinder,
           Jugendliche und junge Erwachsene jeweils eine eigene Stufe mit eigenem

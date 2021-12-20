@@ -23,7 +23,7 @@ const TextBox = ({ children }) => {
       paddingRight={2}
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
-      <Text intent="category" color={theme.tokens.primary}>
+      <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
     </Box>
@@ -37,7 +37,7 @@ export default () => {
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={8} paddingBottom={10}>
-          <Text intent="subtitle">Impressum</Text>
+          <Text variant="subtitle">Impressum</Text>
           <Text>
             <b>Bund der Pfadfinderinnen und Pfadfinder (BdP)</b>
             <br />
@@ -46,8 +46,9 @@ export default () => {
             <br />
             <b>Stefan Schmidt</b>
             <br />
-            Dreiweidenstraße 3<br />
-            65195 Wiesbaden
+            Obere Zahlbacher Straße 14
+            <br />
+            55131 Mainz
             <br />
             <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
             <br />
@@ -75,8 +76,8 @@ export default () => {
             <br />
             <br />
             Der BdP Rheinland-Pfalz/Saar ist ein nichtrechtsfähiger Verein mit
-            Sitz in Wiesbaden. Er ist eine selbständige Untergliederung des
-            Bundes der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
+            Sitz in Mainz. Er ist eine selbständige Untergliederung des Bundes
+            der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
             Immenhausen.
           </Text>
           <Text>

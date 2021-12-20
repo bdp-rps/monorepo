@@ -1,0 +1,37 @@
+{
+  "notation": "",
+  "content": "{}A{F}de {C7}zur {F}guten Nacht, \n{C7}jetzt {F}wird {C7}der {F}Schluss gemacht,\ndass ich muss {C7}schei{F}den.\n\n/: Im Sommer, da {B}wächst der Klee,\nim {C7}Winter, da {F}schneit's den Schnee,\nda komm ich {C7}wie{F}der. :/\n\nEs trauern Berg und Tal,\nwo ich viel tausendmal,\nbin drüber gangen.\nDas hat deine Schönheit gemacht,\ndie hat mich zum Lieben gebracht\nmit großem Verlangen.\n\nDas Brünnlein rinnt und rauscht,\nwohl dort am Holderstrauch,\nwo wir gesessen.\nWie manchen Glockenschlag,\nda Herz bei Herzen lag,\ndas hast du vergessen.\n\nAch wär' ich ein großer Herr,\nzög' niemandem hinterher,\nein Taler zu erben.\nIch stünd da am Heckenzaun,\nnur um nach dir auszuschaun\nund um dich zu werben.",
+  "title": "Ade zur guten Nacht",
+  "words": [
+    {
+      "name": "deutsches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "um 1850"
+    }
+  ],
+  "tune": [
+    {
+      "name": "deutsches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "um 1850"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "Das Abschiedslied 'Ade zur guten Nacht' wurde erstmals 1848 in Sachsen aufgezeichnet und fand dann in verschiedenen Versionen Verbreitung auf Fliegenden Blättern. Obwohl die erste Strophe ein Abendlied vermuten lässt, geht es im Lied um den (vorübergehenden) Abschied von der Liebsten. Diese Bedeutung geriet jedoch im 20. Jahrhundert in Vergessenheit, weshalb es heutzutage als Abendlied gesungen wird.",
+  "changes": [
+    {
+      "date": 1635686766420,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

@@ -17,7 +17,7 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text intent="subtitle">Der BdP - unser Bund!</Text>
+      <Text variant="subtitle">Der BdP - unser Bund!</Text>
       <Spacer size={2} />
       <Text>
         Der BdP ist Teil der Weltpfadfinderinnen- und -pfadfinderbewegung und

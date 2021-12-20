@@ -18,11 +18,11 @@ export default () => {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={15}>
-        <Text intent="subtitle">Datenschutzerklärung</Text>
+        <Text variant="subtitle">Datenschutzerklärung</Text>
         <Spacer size={4} />
         <Box space={10}>
           <Box space={6}>
-            <Text intent="category">
+            <Text variant="category">
               1. Name und Kontaktdaten des für die Verarbeitung Verantwortlichen
               sowie des betrieblichen Datenschutzbeauftragten
             </Text>
@@ -49,7 +49,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">
+            <Text variant="category">
               2. Erhebung und Speicherung personenbezogener Daten sowie Art und
               Zweck von deren Verwendung
             </Text>
@@ -105,7 +105,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">3. Weitergabe von Daten</Text>
+            <Text variant="category">3. Weitergabe von Daten</Text>
             <Text>
               Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen
               als den im Folgenden aufgeführten Zwecken findet nicht statt.
@@ -137,7 +137,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">4. Cookies</Text>
+            <Text variant="category">4. Cookies</Text>
             <Text>
               Wir setzen auf unserer Seite Cookies ein. Hierbei handelt es sich
               um kleine Dateien, die Ihr Browser automatisch erstellt und die
@@ -186,7 +186,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">5. Betroffenenrechte</Text>
+            <Text variant="category">5. Betroffenenrechte</Text>
             <Text>
               Sie haben das Recht:
               <ul>
@@ -250,7 +250,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">6. Widerspruchsrecht</Text>
+            <Text variant="category">6. Widerspruchsrecht</Text>
             <Text>
               Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten
               Interessen gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet
@@ -269,7 +269,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">7. Datensicherheit</Text>
+            <Text variant="category">7. Datensicherheit</Text>
             <Text>
               Wir verwenden innerhalb des Website-Besuchs das verbreitete
               SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils
@@ -293,7 +293,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text intent="category">
+            <Text variant="category">
               8. Aktualität und Änderung dieser Datenschutzerklärung
             </Text>
             <Text>

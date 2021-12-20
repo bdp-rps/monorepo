@@ -1,4 +1,4 @@
-/* barree test C
+/* barree C
   ctx.beginPath();
   ctx.fillStyle = "black"
 ctx.arc(offset, topPad,circleSize, 0, 2 * Math.PI, false);
@@ -90,7 +90,7 @@ export default function Chord({ name, chord, config }) {
       ctx.font = '16px Arial'
       ctx.fillStyle = 'rgb(120, 120, 120)'
 
-      Object.keys(options.strings).forEach(str =>
+      Object.keys(options.strings).forEach((str) =>
         ctx.fillText(
           str,
           2,
@@ -123,7 +123,7 @@ export default function Chord({ name, chord, config }) {
     ctx.beginPath()
     ctx.strokeStyle = 'black'
 
-    Object.keys(options.strings).forEach(str => {
+    Object.keys(options.strings).forEach((str) => {
       ctx.rect(
         options.leftPad,
         options.topPad,
@@ -218,8 +218,8 @@ export default function Chord({ name, chord, config }) {
     }
 
     Object.keys(chord)
-      .filter(k => k !== 'barre')
-      .forEach(list => {
+      .filter((k) => k !== 'barre')
+      .forEach((list) => {
         const { fret, finger = null, optional } = chord[list]
 
         let stringIndex = options.strings[list] - 1

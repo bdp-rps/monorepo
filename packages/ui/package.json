@@ -22,11 +22,9 @@
     "Edge >= 15"
   ],
   "scripts": {
+    "setup": "yarn build",
     "clean": "rimraf lib es coverage",
-    "vercel-build": "yarn build:styleguide",
-    "deploy": "vercel --prod",
-    "prepare": "yarn build:package",
-    "build": "yarn clean && yarn build:package",
+    "build": "yarn clean && yarn build:icons && yarn build:package",
     "build:styleguide": "styleguidist build",
     "build:package": "yarn build:es && yarn build:lib",
     "build:icons": "rimraf src/components/icons/js && svgr -d src/components/icons/js src/components/icons/svg --config-file ./svgr.config.js && babel-node scripts/buildIcons.js",
@@ -43,17 +41,23 @@
   "author": "BdP LV RPS <medien@bdp-rps.de>",
   "license": "MIT",
   "dependencies": {
-    "fela": "^11.2.0",
-    "fela-plugin-named-keys": "^11.2.0",
-    "fela-plugin-responsive-value": "^11.2.0",
-    "fela-plugin-rtl": "^11.2.0",
-    "fela-preset-web": "^11.2.0",
-    "fela-sort-media-query-mobile-first": "^11.2.0",
-    "kilvin": "^2.0.9",
+    "ambrose": "^0.0.5",
+    "fela": "^11.7.0",
+    "fela-enforce-longhands": "^11.7.0",
+    "fela-monolithic": "^11.7.0",
+    "fela-plugin-custom-property": "^11.7.0",
+    "fela-plugin-hover-media": "^11.7.0",
+    "fela-plugin-multiple-selectors": "^11.7.0",
+    "fela-plugin-named-keys": "^11.7.0",
+    "fela-plugin-responsive-value": "^11.7.0",
+    "fela-plugin-theme-value": "^11.7.0",
+    "fela-preset-web": "^11.7.0",
+    "fela-sort-media-query-mobile-first": "^11.7.0",
+    "kilvin": "^3.1.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-fela": "^11.2.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-fela": "^11.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
@@ -72,6 +76,5 @@
     "react-styleguidist": "^11.1.0",
     "rimraf": "^3.0.0",
     "webpack": "^4.44.2"
-  },
-  "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
+  }
 }

@@ -1,3 +1,3 @@
-import { Box } from 'kilvin'
+import { Box } from 'ambrose'
 
 export default Box

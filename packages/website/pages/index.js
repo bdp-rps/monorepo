@@ -30,7 +30,7 @@ const TextBox = ({ children }) => {
       paddingRight={2}
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
-      <Text intent="category" color={theme.tokens.primary}>
+      <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
     </Box>
@@ -44,7 +44,7 @@ export default () => {
     <Template>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
-          <Text intent="category">Willkommen bei den Pfadfindern.</Text>
+          <Text variant="category">Willkommen bei den Pfadfindern.</Text>
           <Text>
             Der Bund der Pfadfinderinnen und Pfadfinder ist der größte
             interkonfessionelle Pfadfinderbund in Deutschland.
@@ -59,7 +59,7 @@ export default () => {
         paddingBottom={10}
         alignSelf="stretch"
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-        <Text intent="subtitle">Das läuft bei uns.</Text>
+        <Text variant="subtitle">Das läuft bei uns.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
             <PostTile highlight {...firstPost} />
@@ -78,7 +78,7 @@ export default () => {
         </Box>
       </Layout>
       <Layout paddingTop={10} paddingBottom={12}>
-        <Text intent="subtitle">Das steht an.</Text>
+        <Text variant="subtitle">Das steht an.</Text>
         <ScrollView>
           <Box
             paddingTop={5}

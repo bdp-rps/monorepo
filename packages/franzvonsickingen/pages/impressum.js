@@ -23,7 +23,7 @@ const TextBox = ({ children }) => {
       paddingRight={2}
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
-      <Text intent="category" color={theme.tokens.primary}>
+      <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
     </Box>
@@ -37,7 +37,7 @@ export default () => {
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={8} paddingBottom={10}>
-          <Text intent="subtitle">Impressum</Text>
+          <Text variant="subtitle">Impressum</Text>
           <Text>
             <b>Bund der Pfadfinderinnen und Pfadfinder (BdP)</b>
             <br />
@@ -48,10 +48,13 @@ export default () => {
             <br />
             <b>Daniel Christmann</b>
             <br />
-            Kurfürstenstraße 21<br />
+            Kurfürstenstraße 21
+            <br />
             67549 Worms
             <br />
-            <Link href="mailto:christmanndaniel1@gmail.com">christmanndaniel1@gmail.com</Link>
+            <Link href="mailto:christmanndaniel1@gmail.com">
+              christmanndaniel1@gmail.com
+            </Link>
             <br />
             <br />
           </Text>

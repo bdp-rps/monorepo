@@ -5,7 +5,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ theme, isValid }) => ({
+const style = ({ theme, valid }) => ({
   appearance: 'none',
   boxSizing: 'border-box',
   borderRadius: '50%',
@@ -52,7 +52,7 @@ const style = ({ theme, isValid }) => ({
 
   extend: [
     {
-      condition: !isValid,
+      condition: !valid,
       style: {
         borderColor: theme.tokens.destructive,
         ':focus': {
@@ -64,7 +64,7 @@ const style = ({ theme, isValid }) => ({
 })
 
 export default function Radio({
-  isValid,
+  valid,
   disabled,
   required,
   value,
@@ -79,7 +79,7 @@ export default function Radio({
   ...props
 }) {
   const styleProps = {
-    isValid,
+    valid,
     disabled,
   }
 
@@ -104,21 +104,21 @@ export default function Radio({
         <label
           htmlFor={name + id}
           className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
-          <Text intent="label">{label}</Text>
+          <Text variant="label">{label}</Text>
         </label>
       </Box>
-      {errorMessage ? (
-        <Text intent="note" extend={{ color: theme.tokens.destructive }}>
+      {errorMessage && !valid ? (
+        <Text variant="note" color="foreground.destructive">
           {errorMessage}
         </Text>
       ) : null}
-      {description ? <Text intent="note">{description}</Text> : null}
+      {description ? <Text variant="note">{description}</Text> : null}
     </Box>
   )
 }
 
 Radio.defaultProps = {
-  isValid: true,
+  valid: true,
   value: false,
   disabled: false,
   required: false,
@@ -134,14 +134,14 @@ Radio.propTypes = {
   /** A unique id for that radio button. */
   id: PropTypes.bool,
   /** Sets the validation state. */
-  isValid: PropTypes.bool,
+  valid: PropTypes.bool,
   /** Sets disabled. */
   disabled: PropTypes.bool,
   /** Sets required. */
   required: PropTypes.bool,
   /** The label text. */
   label: PropTypes.string,
-  /** An error message text that is displayed once isValid is false. */
+  /** An error message text that is displayed once valid is false. */
   errorMessage: PropTypes.string,
   /** Additional description information display beneath the input. */
   description: PropTypes.string,

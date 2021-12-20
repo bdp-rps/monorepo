@@ -1,3 +1,3 @@
-import { ScrollView } from 'kilvin'
+import { ScrollView } from 'ambrose'
 
 export default ScrollView

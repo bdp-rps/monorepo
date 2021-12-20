@@ -20,11 +20,11 @@ export default () => {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={15}>
-        <Text intent="subtitle">Watoto Kabisa</Text>
+        <Text variant="subtitle">Watoto Kabisa</Text>
         <Spacer size={4} />
         <Box space={6}>
           <Box space={2}>
-            <Text intent="category">Keniaprojekt</Text>
+            <Text variant="category">Keniaprojekt</Text>
 
             <Text>
               Wir sind der Förderverein Watoto Kabisa! 2010 begannen die

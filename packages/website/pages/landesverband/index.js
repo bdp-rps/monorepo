@@ -17,7 +17,7 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={15}>
-      <Text intent="subtitle">Der Landesverband</Text>
+      <Text variant="subtitle">Der Landesverband</Text>
       <Spacer size={2} />
       <Text>
         Unser Landesverband besteht aus derzeit rund 20 Stämmen und

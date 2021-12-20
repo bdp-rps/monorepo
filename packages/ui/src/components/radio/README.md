@@ -28,7 +28,7 @@ A basic Radio form input that is best used as a controlled input field with `Rea
     disabled={true}
     errorMessage="Something went wrong."
     description="Some description"
-    isValid={false}
+    valid={false}
   />
 </Box>
 ```
@@ -46,7 +46,7 @@ A basic Radio form input that is best used as a controlled input field with `Rea
     value="rr"
     errorMessage="Something went wrong."
     disabled={true}
-    isValid={false}
+    valid={false}
   />
 </Box>
 ```

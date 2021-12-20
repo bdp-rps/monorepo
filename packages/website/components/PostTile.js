@@ -21,7 +21,7 @@ export default function PostTile({
           highlight={highlight}>
           {description}
           <Box paddingTop={2}>
-            <Text intent="note">
+            <Text variant="note">
               {date.day}. {months[date.month - 1]}, {date.year}, von{' '}
               {author.name}
             </Text>

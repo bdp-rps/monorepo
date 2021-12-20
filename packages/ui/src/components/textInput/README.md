@@ -16,7 +16,7 @@ A general purpose text input field that is used with controlled state manangemen
     name="firstname-invalid"
     label="Label"
     description="Your firstname please"
-    isValid={false}
+    valid={false}
     errorMessage="You have to enter a name."
     placeholder="e.g., Max"
   />
@@ -48,7 +48,7 @@ const [value, setValue] = React.useState('')
     value={value}
     onChange={setValue}
     label="Label"
-    isValid={value.length >= 3}
+    valid={value.length >= 3}
     errorMessage="Please enter at least 3 chars."
     description="Your firstname please"
     placeholder="e.g., Max"

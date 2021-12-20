@@ -48,10 +48,6 @@ export default function TabNavItem({ disabled, id, active, children }) {
         }
       }}>
       <Text
-        disabled={disabled}
-        extend={{
-          fontFamily: theme.fonts.content,
-        }}
         color={
           disabled
             ? theme.tokens.inputDisabledForeground

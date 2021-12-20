@@ -4,7 +4,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ isValid, disabled, theme }) => ({
+const style = ({ valid, disabled, theme }) => ({
   display: 'flex',
   borderRadius: 0,
   appearance: 'none',
@@ -29,7 +29,7 @@ const style = ({ isValid, disabled, theme }) => ({
   },
   extend: [
     {
-      condition: !isValid,
+      condition: !valid,
       style: {
         borderColor: theme.tokens.destructive,
       },
@@ -40,32 +40,36 @@ const style = ({ isValid, disabled, theme }) => ({
 export default function SelectInput({
   name,
   value,
-  isValid = true,
+  valid = true,
   disabled,
   required,
   onChange,
   onBlur,
   onFocus,
   placeholder,
-  type = 'text',
   label,
   errorMessage,
-  errorMessageVisible,
   description,
   children,
 }) {
   const styleProps = {
-    isValid,
+    valid,
     disabled,
   }
 
   const { css, theme } = useFela(styleProps)
 
   return (
-    <Box>
-      <label htmlFor={name}>
-        <Text intent="label">{label}</Text>
-      </label>
+    <Box space={1}>
+      <Text
+        as="label"
+        htmlFor={name}
+        variant="label"
+        extend={{
+          cursor: disabled ? 'not-allowed' : 'pointer',
+        }}>
+        {label}
+      </Text>
       <select
         id={name}
         name={name}
@@ -73,7 +77,7 @@ export default function SelectInput({
         disabled={disabled}
         required={required}
         placeholder={placeholder}
-        onChange={e => onChange(e.target.value, e)}
+        onChange={onChange}
         onBlur={onBlur}
         onFocus={onFocus}
         className={css(style)}>
@@ -81,12 +85,12 @@ export default function SelectInput({
         {children}
       </select>
 
-      {errorMessage && errorMessageVisible ? (
-        <Text intent="note" extend={{ color: theme.tokens.destructive }}>
+      {errorMessage && !valid && (
+        <Text variant="note" color="foreground.destructive">
           {errorMessage}
         </Text>
-      ) : null}
-      {description ? <Text intent="note">{description}</Text> : null}
+      )}
+      {description && <Text variant="note">{description}</Text>}
     </Box>
   )
 }

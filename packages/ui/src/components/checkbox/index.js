@@ -5,7 +5,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ theme, isValid }) => ({
+const style = ({ theme, valid }) => ({
   appearance: 'none',
   boxSizing: 'border-box',
   borderRadius: 0,
@@ -20,6 +20,7 @@ const style = ({ theme, isValid }) => ({
   alignItems: 'center',
   borderWidth: 2,
   borderStyle: 'solid',
+  backgroundColor: 'white',
   borderColor: theme.tokens.inputBorder,
   position: 'relative',
   cursor: 'pointer',
@@ -57,7 +58,7 @@ const style = ({ theme, isValid }) => ({
 
   extend: [
     {
-      condition: !isValid,
+      condition: !valid,
       style: {
         borderColor: theme.tokens.destructive,
         ':focus': {
@@ -69,7 +70,7 @@ const style = ({ theme, isValid }) => ({
 })
 
 export default function Checkbox({
-  isValid,
+  valid,
   disabled,
   required,
   value,
@@ -83,15 +84,15 @@ export default function Checkbox({
   ...props
 }) {
   const styleProps = {
-    isValid,
+    valid,
     disabled,
   }
 
   const { css, theme } = useFela(styleProps)
 
   return (
-    <Box>
-      <Box direction="row" space={1.5} alignItems="center">
+    <Box space={1}>
+      <Box direction="row" space={1.5}>
         <input
           type="checkbox"
           id={name}
@@ -99,29 +100,36 @@ export default function Checkbox({
           checked={value}
           disabled={disabled}
           required={required}
-          onChange={e => onChange(!value, e)}
+          onChange={onChange}
           onBlur={onBlur}
           onFocus={onFocus}
           className={css(style)}
         />
-        <label
+
+        <Text
+          as="label"
           htmlFor={name}
-          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
-          <Text intent="label">{label}</Text>
-        </label>
+          variant="label"
+          extend={{
+            marginTop: 2,
+            cursor: disabled ? 'not-allowed' : 'pointer',
+            lineHeight: 1.4,
+          }}>
+          {label}
+        </Text>
       </Box>
-      {errorMessage && !isValid ? (
-        <Text intent="note" extend={{ color: theme.tokens.destructive }}>
+      {errorMessage && !valid ? (
+        <Text variant="note" color="foreground.destructive">
           {errorMessage}
         </Text>
       ) : null}
-      {description ? <Text intent="note">{description}</Text> : null}
+      {description ? <Text variant="note">{description}</Text> : null}
     </Box>
   )
 }
 
 Checkbox.defaultProps = {
-  isValid: true,
+  valid: true,
   value: false,
   disabled: false,
   required: false,
@@ -135,14 +143,14 @@ Checkbox.propTypes = {
   /** The controlled value. */
   value: PropTypes.bool,
   /** Sets the validation state. */
-  isValid: PropTypes.bool,
+  valid: PropTypes.bool,
   /** Sets disabled. */
   disabled: PropTypes.bool,
   /** Sets required. */
   required: PropTypes.bool,
   /** The label text. */
   label: PropTypes.string,
-  /** An error message text that is displayed once isValid is false. */
+  /** An error message text that is displayed once valid is false. */
   errorMessage: PropTypes.string,
   /** Additional description information display beneath the input. */
   description: PropTypes.string,

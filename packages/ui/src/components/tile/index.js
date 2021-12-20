@@ -46,15 +46,15 @@ export default function Tile({
         }}>
         {title ? (
           <Box
-            paddingTop={0.5}
-            paddingBottom={0.5}
+            paddingTop={1.5}
+            paddingBottom={1.5}
             paddingLeft={2}
             paddingRight={2}
             extend={{
               backgroundColor: titleBackground || theme.tokens.secondary,
             }}>
             <Text
-              intent={highlight ? 'subtitle' : 'category'}
+              variant={highlight ? 'subtitle' : 'category'}
               color={theme.tokens.primary}>
               {title}
             </Text>

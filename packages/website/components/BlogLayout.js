@@ -21,9 +21,9 @@ const Title = ({ children }) => {
       alignSelf="flex-start"
       extend={{ backgroundColor: theme.tokens.secondary }}>
       <Text
-        intent="title"
+        variant="title"
         color={theme.tokens.primary}
-        extend={{ lineHeight: 1 }}>
+        extend={{ lineHeight: 1, wordBreak: 'break-all' }}>
         {children}
       </Text>
     </Box>
@@ -41,10 +41,9 @@ export default ({ children, meta }) => {
           <Link>← Zurück zur Übersicht</Link>
         </NextLink>
         <Spacer size={5} />
-
         <Title>{meta.title}</Title>
         <Spacer size={1} />
-        <Text intent="note">
+        <Text variant="note">
           von {meta.author.name} ({meta.author.position}), veröffentlicht am{' '}
           {meta.date.day} {months[meta.date.month - 1]}, {meta.date.year}
         </Text>
@@ -56,11 +55,11 @@ export default ({ children, meta }) => {
                 {children}
               </Text>
             ),
-            h1: ({ children }) => <Text intent="subtitle">{children}</Text>,
-            h2: ({ children }) => <Text intent="subtitle">{children}</Text>,
-            h3: ({ children }) => <Text intent="category">{children}</Text>,
+            h1: ({ children }) => <Text variant="subtitle">{children}</Text>,
+            h2: ({ children }) => <Text variant="subtitle">{children}</Text>,
+            h3: ({ children }) => <Text variant="category">{children}</Text>,
             h4: ({ children }) => <Text>{children}</Text>,
-            h5: ({ children }) => <Text intent="note">{children}</Text>,
+            h5: ({ children }) => <Text variant="note">{children}</Text>,
             a: ({ href, children }) => <Link href={href}>{children}</Link>,
             img: ({ src, title, alt, extend, ...props }) => (
               <Box
