@@ -96,7 +96,7 @@ export default () => {
         <Box
           as="img"
           width={[300, , 400]}
-          src="elemente/blau/element_7.png"
+          src="/elemente/blau/element_7.png"
           alignSelf="center"
           marginTop={[-52, , -61]}
           marginLeft={['5%', , '10%']}
@@ -109,7 +109,7 @@ export default () => {
           <Box
             as="img"
             width={[240, , 280]}
-            src="elemente/türkis/element_4.png"
+            src="/elemente/türkis/element_4.png"
             extend={{
               display: 'inline',
               marginLeft: -100,

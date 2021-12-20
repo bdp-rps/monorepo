@@ -35,7 +35,7 @@ export default () => {
           <Box
             as="img"
             width={250}
-            src="elemente/rosa/element_4.png"
+            src="/elemente/rosa/element_4.png"
             extend={{
               position: 'absolute',
               marginTop: -20,
@@ -67,7 +67,7 @@ export default () => {
           <Box
             as="img"
             width={300}
-            src="elemente/blau/element_5.png"
+            src="/elemente/blau/element_5.png"
             extend={{
               position: 'absolute',
               marginTop: -180,
@@ -93,7 +93,7 @@ export default () => {
           as="img"
           width={600}
           maxWidth="100%"
-          src="elemente/blau/element_6.png"
+          src="/elemente/blau/element_6.png"
           alignSelf="center"
           marginLeft={[0, , '5%']}
           marginTop={[-48, , -58]}
@@ -118,7 +118,7 @@ export default () => {
           <Box
             as="img"
             width={[300, , 400]}
-            src="elemente/rosa/element_7.png"
+            src="/elemente/rosa/element_7.png"
             alignSelf="center"
             marginTop={[-15, , -20]}
             marginBottom={[-15, , -20]}

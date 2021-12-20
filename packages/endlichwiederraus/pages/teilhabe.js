@@ -74,7 +74,7 @@ export default () => {
             <Box
               as="img"
               width={[280, , 300]}
-              src="elemente/gelb/element_3.png"
+              src="/elemente/gelb/element_3.png"
               marginLeft={[-30, , -25]}
               marginRight={[-19, , -16]}
               marginTop={[-10, , -27]}
@@ -113,7 +113,7 @@ export default () => {
         <Box
           as="img"
           width={400}
-          src="elemente/orange/element_2.png"
+          src="/elemente/orange/element_2.png"
           extend={{
             position: 'absolute',
             marginTop: -120,

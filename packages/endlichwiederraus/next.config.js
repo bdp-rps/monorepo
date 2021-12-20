@@ -4,6 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const config = {
   target: 'serverless',
+  trailingSlash: true,
 }
 
 module.exports = withBundleAnalyzer(config)

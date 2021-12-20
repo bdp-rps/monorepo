@@ -36,7 +36,7 @@ export default () => {
           <Box
             as="img"
             width={300}
-            src="elemente/orange/element_7.png"
+            src="/elemente/orange/element_7.png"
             marginTop={[-4, , -13]}
             extend={{
               position: 'absolute',
@@ -77,7 +77,7 @@ export default () => {
           <Box
             as="img"
             width={350}
-            src="elemente/blau/element_1.png"
+            src="/elemente/blau/element_1.png"
             alignSelf="center"
             marginTop={[50, , 5]}
             marginLeft={[0, , '10%']}
@@ -100,7 +100,7 @@ export default () => {
           <Box
             as="img"
             width={[240, , 300]}
-            src="elemente/orange/element_4.png"
+            src="/elemente/orange/element_4.png"
             extend={{
               display: 'inline',
               marginLeft: -100,
@@ -121,7 +121,7 @@ export default () => {
           <Box
             as="img"
             width={400}
-            src="elemente/gelb/element_2.png"
+            src="/elemente/gelb/element_2.png"
             alignSelf="center"
             extend={{
               position: 'absolute',

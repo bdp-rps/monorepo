@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import {
   Box,
   NavBar,
@@ -49,6 +50,12 @@ const ctas = [
 export default () => {
   const theme = useTheme()
 
+  useEffect(() => {
+    if (typeof iFrameResize !== 'undefined') {
+      iFrameResize()
+    }
+  }, [])
+
   return (
     <Template>
       <Head>
@@ -68,7 +75,7 @@ export default () => {
           <Box
             as="img"
             width={300}
-            src="elemente/rosa/element_5.png"
+            src="/elemente/rosa/element_5.png"
             extend={{
               position: 'absolute',
 
@@ -83,7 +90,7 @@ export default () => {
             as="img"
             width={300}
             alignSelf="flex-end"
-            src="elemente/türkis/element_1.png"
+            src="/elemente/türkis/element_1.png"
             extend={{
               position: 'absolute',
               transform: 'translateY(70px)',
@@ -102,7 +109,10 @@ export default () => {
               Pfadfinden fehlt!
             </Text>
           </Box>
-          <Box paddingTop={22} paddingBottom={24} alignItems="center">
+          <Box
+            paddingTop={[12, , 22]}
+            paddingBottom={[14, , 24]}
+            alignItems="center">
             <Text
               align="center"
               intent="alternative"
@@ -159,7 +169,7 @@ export default () => {
             <Box
               as="img"
               width={[220, , 300]}
-              src="elemente/türkis/element_3.png"
+              src="/elemente/türkis/element_3.png"
               marginRight={[-14, , -13]}
               marginLeft={-25}
               extend={{
@@ -190,7 +200,7 @@ export default () => {
           <Box
             as="img"
             alignSelf="center"
-            src="elemente/blau/element_7.png"
+            src="/elemente/blau/element_7.png"
             width={300}
             marginTop={[-46, , -42]}
             extend={{
@@ -232,9 +242,8 @@ export default () => {
             <iframe
               style={{ border: 0, width: '100%', height: '100%' }}
               scrolling="no"
-              src="https://embedsocial.com/facebook_album/pro_hashtag/4b34d8b045ea4fe0b086dc55e0681e9c8b01ba3f"></iframe>
+              src="https://embedsocial.com/facebook_album/pro_hashtag/a8b96eb1c77e0d395dadd09cea3cc8a365b238a0"></iframe>
           </div>
-          <script>{`iFrameResize()`}</script>
         </Box>
       </Layout>
     </Template>

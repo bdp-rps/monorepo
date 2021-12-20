@@ -92,7 +92,7 @@ export default function Template({ children }) {
           ))}
           <Box
             as="a"
-            href="https://meinbdp.de/pages/viewpage.action?pageId=11272333"
+            href="https://www.pfadfinden.de/mitmachen/"
             padding={['4px 12px', , 3]}
             extend={{
               cursor: 'pointer',
@@ -115,7 +115,7 @@ export default function Template({ children }) {
                 paddingBottom: 0,
                 paddingTop: 2,
               }}>
-              Stamm gründen
+              Mitmachen
             </Text>
           </Box>
         </Box>
@@ -126,13 +126,32 @@ export default function Template({ children }) {
         paddingTop={15}
         paddingBottom={10}
         extend={{ backgroundColor: theme.colors.grey8 }}>
-        <Box space={10}>
+        <Text>
+          Mehr über die Arbeit des BdP erfahrt ihr auf unserer{' '}
+          <Box
+            as="a"
+            href="https://pfadfinden.de"
+            extend={{ display: 'inline', color: theme.colors.blue }}>
+            Homepage
+          </Box>
+        </Text>
+        <Box space={10} paddingTop={5}>
           <Box direction={['column', , , 'row']} space={[14, , , 0]}>
             <Box space={2} grow={1}>
-              <Link href="https://www.pfadfinden.de/impressum/">Impressum</Link>
-              <Link href="https://www.pfadfinden.de/datenschutzerklaerung/">
-                Datenschutz
-              </Link>
+              <Text>
+                <Box
+                  as="a"
+                  href="https://www.pfadfinden.de/impressum/"
+                  extend={{ color: theme.colors.blue }}>
+                  Impressum
+                </Box>
+                <Box
+                  as="a"
+                  href="https://www.pfadfinden.de/datenschutzerklaerung/"
+                  extend={{ color: theme.colors.blue }}>
+                  Datenschutz
+                </Box>
+              </Text>
             </Box>
           </Box>
           <Text>
@@ -140,7 +159,7 @@ export default function Template({ children }) {
             und Pfadfinder (BdP)
           </Text>
           <Box>
-            <img src="logo.png" width={300} height="auto" />
+            <img src="/logo.png" width={300} height="auto" />
           </Box>
         </Box>
       </Layout>

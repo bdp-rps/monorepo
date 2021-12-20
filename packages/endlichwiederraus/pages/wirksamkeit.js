@@ -34,7 +34,7 @@ export default () => {
           <Box
             as="img"
             width={250}
-            src="elemente/blau/element_4.png"
+            src="/elemente/blau/element_4.png"
             alignSelf="flex-end"
             extend={{
               position: 'absolute',
@@ -66,7 +66,7 @@ export default () => {
             <Box
               as="img"
               width={[220, , 300]}
-              src="elemente/blau/element_8.png"
+              src="/elemente/blau/element_8.png"
               marginLeft={[-22, , -30]}
               extend={{
                 display: 'inline',
@@ -95,7 +95,7 @@ export default () => {
         <Box
           as="img"
           width={400}
-          src="elemente/blau/element_2.png"
+          src="/elemente/blau/element_2.png"
           alignSelf="flex-end"
           extend={{
             position: 'absolute',
@@ -118,7 +118,7 @@ export default () => {
         <Box
           as="img"
           width={200}
-          src="elemente/blau/element_5.png"
+          src="/elemente/blau/element_5.png"
           extend={{
             zIndex: 0,
           }}
