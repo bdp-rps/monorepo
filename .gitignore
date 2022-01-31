@@ -38,3 +38,5 @@ dist
 .next
 .vercel
 out
+.vscode
+.turbo
