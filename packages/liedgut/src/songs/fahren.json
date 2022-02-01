@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Der {G}Geist ist müd, die {e}Hoffnung leer, die {A7}Welt ist mir zu{D}wider!\nHalb {D7}Strolch, halb Revo{G}lutionär, so {A7}tönen rings die {D}Lied{D7}er.\n{G}Trüb hängen Wolken in den Tag, {C}fahren, ja {G}fahren!\nWann bricht ein Licht in unsre Plag, {C}Fa{D}hr{G}en!\n\nSchreit jeder mir die Ohren voll vom Paradies auf Erden;\nweiß nicht, wen ich bedauern soll, weiß nur, es wird nicht werden.\n\nEin Rädchen bin ich in der Welt, muß mich mitunter drehen\nund doch ihr Herrn, wem‘s nicht gefällt, mag mich von hinten sehen!\n\nSo fahr‘ ich, weil ich Leben will, das freie, wunderbare.\nWer Tod mir wünscht, der leg mich still. Ich lebe, weil ich fahre!\nTrüb hängen Wolken in den Tag, fahren, ja fahren. Licht bricht durchs Dunkel wie ein Schlag! Fahren!",
+  "content": "Der {G}Geist ist müd, die {e}Hoffnung leer, die {A7}Welt ist mir zu{D}wider!\nHalb {D7}Strolch, halb Revo{G}lutionär, so {A7}tönen rings die {D}Lied{D7}er.\n{G}Trüb hängen Wolken in den Tag, {C}fahren, ja {G}fahren!\nWann bricht ein Licht in unsre Plag, {C}Fa{D}hr{G}en!\n\nSchreit jeder mir die Ohren voll vom Paradies auf Erden;\nweiß nicht, wen ich bedauern soll, weiß nur, es wird nicht werden.\n\nEin Rädchen bin ich in der Welt, muß mich mitunter drehen\nund doch ihr Herrn, wem‘s nicht gefällt, mag mich von hinten sehen!\n\nSo fahr‘ ich, weil ich Leben will, das freie, wunderbare.\nWer Tod mir wünscht, der leg mich still. Ich lebe, weil ich fahre!\nTrüb hängen Wolken in den Tag, fahren, ja fahren!\nLicht bricht durchs Dunkel wie ein Schlag! Fahren!",
   "title": "Fahren",
   "words": [
     {
@@ -31,6 +31,13 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1643738486127,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Formattierung"
     }
   ],
   "alternativeTitle": ""
