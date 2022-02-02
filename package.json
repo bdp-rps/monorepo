@@ -28,6 +28,7 @@
         ],
         "outputs": [
           ".next/**",
+          "dist/**",
           "lib/**",
           "es/**",
           "out/**"
@@ -41,6 +42,7 @@
       },
       "setup": {
         "outputs": [
+          "dist/**",
           "lib/**",
           "es/**",
           "out/**"
