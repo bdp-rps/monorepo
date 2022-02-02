@@ -1,6 +1,8 @@
 import React from 'react'
 import { useFela } from 'react-fela'
 
+import { Click } from 'ambrose'
+
 import Box from '../box'
 import Text from '../text'
 
@@ -9,7 +11,7 @@ export default function NavBarItem({ href, active, onClick, children }) {
 
   return (
     <Box
-      as={href ? 'a' : 'div'}
+      as={Click}
       href={href}
       onClick={onClick}
       paddingTop={[3, , 2, 4]}
