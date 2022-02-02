@@ -30,7 +30,7 @@ export default () => {
       </Head>
       <Layout>
         <Box space={5} paddingTop={10} paddingBottom={10}>
-          <Text intent="title" color={theme.colors.black}>
+          <Text variant="title" color={theme.colors.black}>
             Naturerfahrungen und Klimaschutz
           </Text>
           <Box
@@ -63,7 +63,7 @@ export default () => {
         extend={{ backgroundColor: theme.colors.turquoise }}>
         <Layout>
           <Text
-            intent="alternative"
+            variant="alternative"
             align="center"
             color={theme.colors.grey1}
             extend={{ zIndex: 1 }}>

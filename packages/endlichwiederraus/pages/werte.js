@@ -30,7 +30,7 @@ export default () => {
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={5}>
-          <Text intent="title">Werte und Verantwortung</Text>
+          <Text variant="title">Werte und Verantwortung</Text>
           <br />
           <Box
             as="img"
@@ -74,7 +74,7 @@ export default () => {
               zIndex: 0,
             }}
           />
-          <Text intent="alternative" align="center" color={theme.colors.grey1}>
+          <Text variant="alternative" align="center" color={theme.colors.grey1}>
             Außerschulische Jugendgruppen mussten während der Pandemie ihre
             Arbeit weitgehend einstellen. Viele Gruppenleitungen im BdP haben
             aber durch digitale Angebote für ihre Mitglieder den Lockdown

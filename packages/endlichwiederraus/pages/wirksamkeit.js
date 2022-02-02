@@ -30,7 +30,7 @@ export default () => {
       </Head>
       <Layout>
         <Box space={5} paddingTop={10} paddingBottom={10}>
-          <Text intent="title">Wirksamkeit und persönliche Entwicklung</Text>
+          <Text variant="title">Wirksamkeit und persönliche Entwicklung</Text>
           <Box
             as="img"
             width={250}
@@ -62,7 +62,7 @@ export default () => {
           paddingTop={15}
           paddingBottom={15}
           extend={{ backgroundColor: theme.colors.yellow }}>
-          <Text intent="alternative" color={theme.colors.blue}>
+          <Text variant="alternative" color={theme.colors.blue}>
             <Box
               as="img"
               width={[220, , 300]}

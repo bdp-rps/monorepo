@@ -4,6 +4,7 @@ import NextLink from 'next/link'
 import core from '../themes/core'
 import bdp from '../themes/bdp'
 import kabisa from '../themes/kabisa'
+import raus from '../themes/raus'
 
 export default {
   forms: {
@@ -15,11 +16,12 @@ export default {
     variants: {
       bdp,
       kabisa,
+      raus,
     },
   },
   linkComponent: ({ children, href, ...linkProps }) => {
     if (!href) {
-      return <p {...linkProps}>{children}</p>
+      return <span {...linkProps}>{children}</span>
     }
 
     if (typeof href === 'object' || href.startsWith('/')) {

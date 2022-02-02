@@ -30,7 +30,7 @@ export default () => {
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={5}>
-          <Text intent="title" color={theme.colors.grey1}>
+          <Text variant="title" color={theme.colors.grey1}>
             Teilhabe und Mitgestaltung
           </Text>
           <br />
@@ -68,7 +68,7 @@ export default () => {
         extend={{ backgroundColor: theme.colors.blueLight }}>
         <Layout>
           <Text
-            intent="alternative"
+            variant="alternative"
             color={theme.colors.white}
             extend={{ zIndex: 1 }}>
             <Box

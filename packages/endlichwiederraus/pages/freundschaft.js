@@ -30,7 +30,7 @@ export default () => {
       </Head>
       <Layout>
         <Box space={5} paddingTop={10} paddingBottom={10}>
-          <Text intent="title">Gemeinschaft und Freundschaft</Text>
+          <Text variant="title">Gemeinschaft und Freundschaft</Text>
           <Box
             as="img"
             width={450}
@@ -73,7 +73,7 @@ export default () => {
               zIndex: 0,
             }}
           />
-          <Text intent="alternative" align="center" color="white">
+          <Text variant="alternative" align="center" color="white">
             Durch lange Phasen des Distanzunterrichts und anhaltende
             Kontaktbeschränkungen konnten Kindern und Jugendlichen während der
             Pandemie viel zu wenige positive Gemeinschaftserfahrungen machen.

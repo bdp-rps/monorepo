@@ -135,8 +135,8 @@ export default function Tile({
         />
       </Box>
       <Box padding={4}>
-        <Text intent="subtitle">Stamm {group}</Text>
-        <Text intent="category">{location}</Text>
+        <Text variant="subtitle">Stamm {group}</Text>
+        <Text variant="category">{location}</Text>
         <Spacer size={1} />
         <Text>
           LV {lv} • {foundedAt} gegründet • {members} Mitglieder

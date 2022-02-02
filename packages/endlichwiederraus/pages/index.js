@@ -13,6 +13,7 @@ import {
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 import Head from 'next/head'
+import YouTube from 'react-youtube'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -67,7 +68,7 @@ export default () => {
       </Head>
       <Layout>
         <Box space={5} paddingTop={10} paddingBottom={10}>
-          <Text intent="title">
+          <Text variant="title">
             Endlich wieder raus,
             <br />
             endlich wieder Pfadfinden!
@@ -115,7 +116,7 @@ export default () => {
             alignItems="center">
             <Text
               align="center"
-              intent="alternative"
+              variant="alternative"
               extend={{ maxWidth: 800 }}>
               Für ihre mentale Gesundheit und Persönlichkeitsentwicklung
               brauchen Kinder und Jugendliche:
@@ -147,14 +148,10 @@ export default () => {
                       cursor: 'pointer',
                       borderWidth: '4px 0 0 0',
                       borderStyle: 'solid',
-                      borderColor: theme.colors[color],
-                      backgroundColor: theme.colors[color]
-                        .replace('rgb', 'rgba')
-                        .replace(')', ', 0.3)'),
+                      borderColor: color,
+                      backgroundColor: color + 'Transparent',
                       ':hover': {
-                        backgroundColor: theme.colors[color]
-                          .replace('rgb', 'rgba')
-                          .replace(')', ', 0.5)'),
+                        backgroundColor: color + 'SemiTransparent',
                       },
                     }}>
                     <Text align="center" extend={{ fontFamily: 'Aleo' }}>
@@ -165,6 +162,7 @@ export default () => {
               ))}
             </Box>
           </Box>
+
           <Text>
             <Box
               as="img"
@@ -207,13 +205,14 @@ export default () => {
               position: 'absolute',
             }}
           />
-          <Text intent="alternative" align="center" color={theme.colors.blue}>
+          <Text variant="alternative" align="center" color={theme.colors.blue}>
             Wir, die Kinder, Jugendlichen und junge Erwachsene im Bund der
             Pfadfinderinnen und Pfadfinder e.V. mit unseren knapp 260 Stämmen in
             fast ganz Deutschland, wollen Endlich wieder raus!
           </Text>
         </Layout>
       </Box>
+
       <Layout>
         <Box space={3} alignItems="center" paddingTop={10} paddingBottom={15}>
           <Text align="center">
@@ -225,6 +224,23 @@ export default () => {
             </Button>
           </Box>
         </Box>
+        <Box paddingBottom={20} space={8}>
+          <Text variant="subtitle" align="center" color={theme.colors.blue}>
+            Das sagen Eltern über die Zeit Ihrer Kinder bei den Pfadfindern
+          </Text>
+          <Box alignSelf="center">
+            <Box
+              as={YouTube}
+              maxWidth="100%"
+              opts={{
+                playerVars: {
+                  listType: 'playlist',
+                  list: 'PL5LgYDaNh4s7LWC-y57zyaCLQ5zrFfg8E',
+                },
+              }}
+            />
+          </Box>
+        </Box>
         <Box
           as="hr"
           extend={{
@@ -234,7 +250,7 @@ export default () => {
           }}
         />
         <Box paddingTop={10} paddingBottom={20} space={5}>
-          <Text intent="subtitle" align="center" color={theme.colors.blue}>
+          <Text variant="subtitle" align="center" color={theme.colors.blue}>
             # Endlich Wieder Raus
           </Text>
           <script src="https://embedsocial.com/js/iframe.js"></script>
