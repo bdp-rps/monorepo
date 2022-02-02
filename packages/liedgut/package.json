@@ -31,7 +31,7 @@
     "export": "next export",
     "deploy": "vercel --prod",
     "prepare": "yarn build:package",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 1",
     "build": "yarn run clean && yarn songlist && yarn normalize && yarn build:package",
     "build:page": "yarn build && next build",
     "build:package": "yarn build:es && yarn build:lib",
