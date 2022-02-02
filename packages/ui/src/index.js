@@ -31,6 +31,8 @@ import Toggle from './components/toggle'
 
 import useScrollBlockingOverlay from './hooks/useScrollBlockingOverlay'
 
+export * from 'ambrose'
+
 export {
   Provider,
   createStyleRenderer,

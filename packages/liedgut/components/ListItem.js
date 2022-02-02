@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@bdp-rps/ui'
+import { Box, Click } from '@bdp-rps/ui'
 
 const style = ({ theme }) => ({
   textDecoration: 'none',
@@ -26,7 +26,7 @@ export default function ListItem({
 }) {
   if (href) {
     return (
-      <Box as="a" {...props} href={href} extend={[style, extend]}>
+      <Box as={Click} {...props} href={href} extend={[style, extend]}>
         {children}
       </Box>
     )

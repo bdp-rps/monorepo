@@ -5,22 +5,20 @@ import { useRouter } from 'next/router'
 import { useFela } from 'react-fela'
 import NextLink from 'next/link'
 
-import Layout from '../components/Layout'
-import Song from '../components/Song'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Layout from '../../components/Layout'
+import Song from '../../components/Song'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
-import PDFSong from '../src/templates/Song'
-import renderAuthors from '../src/utils/renderAuthors'
+import PDFSong from '../../src/templates/Song'
+import renderAuthors from '../../src/utils/renderAuthors'
 
-export default function Page() {
+export default function Page({ id, songData }) {
   const theme = useTheme()
   const router = useRouter()
   const [isMounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
-
     Font.register({
       family: 'Bell Gothic',
       src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic.ttf',
@@ -31,11 +29,9 @@ export default function Page() {
       src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic_Bold.ttf',
       fontWeight: 'bold',
     })
+
+    setMounted(true)
   }, [])
-
-  const { songId } = router.query
-
-  const songData = require('../src/songs/' + songId + '.json')
 
   if (!songData) {
     return <div>Something went wrong.</div>
@@ -65,13 +61,13 @@ export default function Page() {
                       <PDFSong {...songData} />
                     </Document>
                   }
-                  fileName={songId + '.pdf'}>
+                  fileName={id + '.pdf'}>
                   {({ blob, url, loading, error }) => (
                     <Button loading={loading}>Als PDF herunterladen</Button>
                   )}
                 </Box>
               )}
-              <NextLink href={'/bearbeiten/' + songId}>
+              <NextLink href={'/bearbeiten/' + id}>
                 <Button variant="secondary">Änderungsvorschlag</Button>
               </NextLink>
             </Box>
@@ -83,4 +79,26 @@ export default function Page() {
   )
 }
 
-Page.getInitialProps = () => ({})
+export async function getStaticPaths() {
+  const songList = require('../../src/songs/index.json')
+
+  return {
+    fallback: true,
+    paths: songList.map((id) => ({
+      params: {
+        id,
+      },
+    })),
+  }
+}
+
+export async function getStaticProps({ params }) {
+  const songData = require('../../src/songs/' + params.id + '.json')
+
+  return {
+    props: {
+      songData,
+      id: params.id,
+    },
+  }
+}

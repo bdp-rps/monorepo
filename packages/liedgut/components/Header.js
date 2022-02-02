@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import NextLink from 'next/link'
 import { useRouter } from 'next/router'
-import { Box, Button, Text, NavBar, NavBarItem } from '@bdp-rps/ui'
+import { Box, Click, Button, Text, NavBar, NavBarItem } from '@bdp-rps/ui'
 
 import Layout from './Layout'
 

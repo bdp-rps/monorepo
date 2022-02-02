@@ -51,7 +51,7 @@ const SongList = () => {
       />
 
       <Box>
-        {songList.map(name => {
+        {songList.map((name) => {
           const {
             title,
             normalizedTitle,
@@ -63,9 +63,8 @@ const SongList = () => {
           const titleIndex = normalizedTitle.indexOf(normalizedSearch)
           const matchesTitle = titleIndex !== -1
 
-          const alternativeTitleIndex = normalizedAlternativeTitle.indexOf(
-            normalizedSearch
-          )
+          const alternativeTitleIndex =
+            normalizedAlternativeTitle.indexOf(normalizedSearch)
           const matchesAlternativeTitle = alternativeTitleIndex !== -1
 
           const contentIndex = normalizedContent.indexOf(normalizedSearch)

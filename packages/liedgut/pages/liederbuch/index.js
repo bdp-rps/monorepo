@@ -51,14 +51,14 @@ export default function Page() {
               <Text>Wähle Lieder für dein Liederbuch aus.</Text>
               <Spacer size={4} />
               <Box space={4}>
-                {Object.keys(songData).map(name => (
+                {Object.keys(songData).map((name) => (
                   <Checkbox
                     label={songData[name].title}
                     name={name}
                     value={selected.indexOf(name) !== -1}
-                    onChange={change => {
+                    onChange={(change) => {
                       if (selected.indexOf(name) !== -1) {
-                        setSelected(selected.filter(s => s !== name))
+                        setSelected(selected.filter((s) => s !== name))
                       } else {
                         setSelected([...selected, name])
                       }
@@ -99,7 +99,7 @@ export default function Page() {
                     .sort((a, b) =>
                       songData[a].sort > songData[b].sort ? 1 : -1
                     )
-                    .map(key => (
+                    .map((key) => (
                       <Song key={key} {...songData[key]} />
                     ))}
                 </Document>
