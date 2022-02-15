@@ -34,6 +34,7 @@ export default function Page({
         <Layout>
           <Box minHeight="95vh" paddingTop={6} paddingBottom={25} space={2}>
             <Text variant="category">{title}</Text>
+            <Text>{summary}</Text>
           </Box>
         </Layout>
       </Box>
