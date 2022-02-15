@@ -1,0 +1,20 @@
+{
+  "title": "Action Painting",
+  "summary": "",
+  "description": "Ein großes weißes tuch am besten draußen an den Ecken mit steinen befestigen. Dann alte kleider anziehen, farbe auf die hand machen und draufschleudern. Wenn alles getrocknet ist, kann man das tuch in mehrere stücke schneiden und einrahmen.",
+  "age": {
+    "min": 0,
+    "max": 99
+  },
+  "size": {
+    "min": 4,
+    "max": 10
+  },
+  "material": ["Weiße Tücher", "Acrylfarben"],
+  "notes": "",
+  "type": "foo",
+  "location": "Draußen",
+  "duration": 90,
+  "preperation": 20,
+  "author": "Julia"
+}

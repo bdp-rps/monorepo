@@ -1,0 +1,20 @@
+{
+  "title": "Warme Dusche",
+  "summary": "Jeder hört gern Komplimente - Was findet jeder toll am anderen?",
+  "description": "Gegenseitige Wertschätzung wird oft zu selten ausgedrückt, so auch in den Sippen. Um die Gemeinschaft zwischen den Sipplingen und das Verhältnis zwischen Sipplingen und Sippenführer zu verbessern/aufzufrischen, ist die Methode der warmen Dusche gut geeignet. Die ganze Gruppe geht an einen ruhigen Ort, bei dem sie nicht gestört werden. Geeignet ist der Gruppenraum, aber auch eine schöne Stelle im Wald. Hier stellt sich die Gruppe in einen Kreis und nacheinander gehen die Sipplinge in die Kreismitte; jetzt haben die anderen einige Zeit, um sich etwas Positives über den in der Mitte Stehenden zu überlegen. Anschließend erzählen sie das Überlegte, allerdings ausschließlich Positives! Das können sowohl private Sachen sein, als auch Sachen bei den Pfadfi ndern sein. Auch der Sippenführer sollte zu jedem etwas Schönes sagen, dass sie bestätigt. Alle, die nicht dran sind mit reden sind ruhig und es werden keine Aussagen kommentiert. Eine besonders sinnliche Stimmung ensteht bei der warmen Dusche, wenn sie zwischen einer Nachtwanderung(mit Fackeln) im Wald stattfindet.",
+  "age": {
+    "min": 0,
+    "max": 99
+  },
+  "size": {
+    "min": 2,
+    "max": 15
+  },
+  "material": ["Fackeln (bei Nacht)"],
+  "notes": "",
+  "type": "foo",
+  "location": "Überall",
+  "duration": "5min / Teilnehmer",
+  "preperation": 0,
+  "author": "Nils Rossel"
+}
