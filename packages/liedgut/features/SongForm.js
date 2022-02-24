@@ -171,18 +171,18 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             <TextInput
               label="Titel"
               value={song.title}
-              onChange={e => setSong({ ...song, title: e.target.value })}
+              onChange={(e) => setSong({ ...song, title: e.target.value })}
             />
             <TextInput
               type="number"
               label="Tempo"
               value={song.tempo}
-              onChange={e => setSong({ ...song, tempo: e.target.value })}
+              onChange={(e) => setSong({ ...song, tempo: e.target.value })}
             />
             <SelectInput
               label="Takt"
               value={song.beat}
-              onChange={e => setSong({ ...song, beat: e.target.value })}>
+              onChange={(e) => setSong({ ...song, beat: e.target.value })}>
               <option value="1/4">1/4</option>
               <option value="2/4">2/4</option>
               <option value="3/4">3/4</option>
@@ -195,7 +195,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               label="Alternativer Titel"
               description="Für die Suche und Inhaltsverzeichnisse; ein Titel pro Zeile."
               value={song.alternativeTitle}
-              onChange={e =>
+              onChange={(e) =>
                 setSong({ ...song, alternativeTitle: e.target.value })
               }
             />
@@ -203,7 +203,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               label="Zusatz-Information"
               description="z.B. Worterklärung, Ergänzungen oder Widmungen"
               value={song.info}
-              onChange={e => setSong({ ...song, info: e.target.value })}
+              onChange={(e) => setSong({ ...song, info: e.target.value })}
             />
 
             <Box space={10} paddingTop={5}>
@@ -211,7 +211,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 <Text variant="label">Worte</Text>
 
                 <Box>
-                  {song.words.map(author => (
+                  {song.words.map((author) => (
                     <ListItem>
                       <Box direction="row" space={2} alignItems="center">
                         <Box grow={1}>
@@ -226,7 +226,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                             onClick={() =>
                               setSong({
                                 ...song,
-                                words: song.words.filter(a => author !== a),
+                                words: song.words.filter((a) => author !== a),
                               })
                             }>
                             Löschen
@@ -252,7 +252,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 <Text variant="label">Weise</Text>
 
                 <Box>
-                  {song.tune.map(author => (
+                  {song.tune.map((author) => (
                     <ListItem>
                       <Box direction="row" space={2} alignItems="center">
                         <Box grow={1}>
@@ -267,7 +267,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                             onClick={() =>
                               setSong({
                                 ...song,
-                                tune: song.tune.filter(a => author !== a),
+                                tune: song.tune.filter((a) => author !== a),
                               })
                             }>
                             Löschen
@@ -296,40 +296,44 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 <Text variant="category">Autor hinzufügen</Text>
                 <TextInput
                   value={author.name}
-                  onChange={e => setAuthor({ ...author, name: e.target.value })}
+                  onChange={(e) =>
+                    setAuthor({ ...author, name: e.target.value })
+                  }
                   label="Name"
                 />
                 <TextInput
                   value={author.nickname}
-                  onChange={e =>
+                  onChange={(e) =>
                     setAuthor({ ...author, nickname: e.target.value })
                   }
                   label="Fahrtenname"
                 />
                 <TextInput
                   value={author.group}
-                  onChange={e =>
+                  onChange={(e) =>
                     setAuthor({ ...author, group: e.target.value })
                   }
                   label="Gruppe"
                 />
                 <TextInput
                   value={author.organisation}
-                  onChange={e =>
+                  onChange={(e) =>
                     setAuthor({ ...author, organisation: e.target.value })
                   }
                   label="Organisation"
                 />
                 <TextInput
                   value={author.year}
-                  onChange={e => setAuthor({ ...author, year: e.target.value })}
+                  onChange={(e) =>
+                    setAuthor({ ...author, year: e.target.value })
+                  }
                   label="Jahr"
                 />
                 <Checkbox
                   name="words-and-tune"
                   label="Weise & Worte"
                   value={wordsAndTune}
-                  onChange={e => setWordsAndTune(e.target.checked)}
+                  onChange={(e) => setWordsAndTune(e.target.checked)}
                 />
                 <Box paddingTop={2} space={2}>
                   <Button
@@ -374,7 +378,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               extend={{ minHeight: 400, flexGrow: 1 }}
               description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
               value={song.content}
-              onChange={e =>
+              onChange={(e) =>
                 setSong({
                   ...song,
                   content: e.target.value,
@@ -413,7 +417,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 </>
               }
               value={song.notation}
-              onChange={e =>
+              onChange={(e) =>
                 setSong({
                   ...song,
                   notation: e.target.value,
@@ -499,17 +503,23 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           <Text variant="category">Deine Daten</Text>
           <TextInput
             value={submitter.name}
-            onChange={name => setSubmitter({ ...submitter, name })}
+            onChange={(e) =>
+              setSubmitter({ ...submitter, name: e.target.value })
+            }
             label="Dein Name"
           />
           <TextInput
             value={submitter.mail}
-            onChange={mail => setSubmitter({ ...submitter, mail })}
+            onChange={(e) =>
+              setSubmitter({ ...submitter, mail: e.target.value })
+            }
             label="Deine E-Mail"
           />
           <TextArea
             value={submitter.content}
-            onChange={content => setSubmitter({ ...submitter, content })}
+            onChange={(e) =>
+              setSubmitter({ ...submitter, content: e.target.value })
+            }
             label="Beschreibung (bei Änderung)"
           />
           <Box paddingTop={2} space={2}>
