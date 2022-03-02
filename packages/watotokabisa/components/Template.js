@@ -81,6 +81,7 @@ export default function Template({
             priority
             layout="fill"
             objectFit="cover"
+            placeholder="blur"
           />
         </Box>
         <Box
