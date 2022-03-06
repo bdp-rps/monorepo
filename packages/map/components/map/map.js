@@ -1,14 +1,24 @@
-import React, { useMemo } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+import getPlaces from '../../api/getPlaces'
 
 import dynamic from 'next/dynamic'
 
 import { Box } from '@bdp-rps/ui'
 
 import Menu from './menu'
+import PlaceMarker from './placeMarker'
 
 const Map = ({ position, setPosition, placeMarkerVisible }) => {
+  const [places, setPlaces] = useState([])
+
+  useEffect(async () => {
+    const data = await getPlaces()
+    console.log(data.data)
+    setPlaces(data.data)
+  }, [])
+
   const DraggableMarker = useMemo(
     () =>
       dynamic(
@@ -17,13 +27,19 @@ const Map = ({ position, setPosition, placeMarkerVisible }) => {
       ),
     []
   )
+
+  const onMove = (event) => {
+    console.log(event.target.getCenter())
+  }
+
   return (
     <MapContainer
       style={{ height: '100vh', width: '100%' }}
-      center={[51.42618636026203, 9.478454589843752]}
+      center={position}
       zoom={13}
       zoomControl={false}
-      scrollWheelZoom={true}>
+      scrollWheelZoom={true}
+      onMoveEnd={() => console.log('Hallo')}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -31,7 +47,11 @@ const Map = ({ position, setPosition, placeMarkerVisible }) => {
       {placeMarkerVisible && (
         <DraggableMarker position={position} setPosition={setPosition} />
       )}
+      {places.map((place) => (
+        <PlaceMarker {...place.attributes} />
+      ))}
     </MapContainer>
   )
 }
+
 export default Map

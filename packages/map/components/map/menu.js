@@ -1,5 +1,13 @@
 import React, { useState } from 'react'
-import { Box, Text, Button, TextInput, SelectInput, Spacer } from '@bdp-rps/ui'
+import {
+  Box,
+  Text,
+  Button,
+  TextInput,
+  TextArea,
+  SelectInput,
+  Spacer,
+} from '@bdp-rps/ui'
 
 const defaultPlace = {
   name: '',
@@ -12,6 +20,7 @@ const defaultPlace = {
   postcode: '',
   mail: '',
   phone: '',
+  description: '',
 }
 
 const Menu = ({
@@ -36,7 +45,13 @@ const Menu = ({
           padding={5}
           top={0}
           left={0}
-          extend={{ position: 'absolute', top: 0, left: 0, zIndex: 10000 }}>
+          extend={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            zIndex: 10000,
+            overflow: 'scroll',
+          }}>
           <Box>
             <Button onClick={() => setIsVisible(false)}>Close</Button>
           </Box>
@@ -50,7 +65,7 @@ const Menu = ({
             <SelectInput
               label="Größe"
               value={place.size}
-              onChange={(e) => setPlace({ ...place, beat: e.target.value })}>
+              onChange={(e) => setPlace({ ...place, size: e.target.value })}>
               <option value="klein">Klein</option>
               <option value="mittel">Mittel</option>
               <option value="groß">Groß</option>
@@ -58,7 +73,7 @@ const Menu = ({
             <SelectInput
               label="Platztyp"
               value={place.type}
-              onChange={(e) => setPlace({ ...place, beat: e.target.value })}>
+              onChange={(e) => setPlace({ ...place, type: e.target.value })}>
               <option value="heim">Heim</option>
               <option value="Lagerplatz">Mittel</option>
               <option value="Stammesheim">Stammesheim</option>
@@ -89,8 +104,15 @@ const Menu = ({
               value={place.phone}
               onChange={(e) => setPlace({ ...place, phone: e.target.value })}
             />
+            <TextArea
+              value={place.description}
+              onChange={(e) =>
+                setPlace({ ...place, description: e.target.value })
+              }
+              label="Beschreibung"
+            />
             <Text>Latitude: {position.lat}</Text>
-            <Text>Longitude: {position.lat}</Text>
+            <Text>Longitude: {position.lng}</Text>
             {!placeMarkerVisible ? (
               <Button type="button" onClick={() => setPlaceMarkerVisible(true)}>
                 Marker setzen

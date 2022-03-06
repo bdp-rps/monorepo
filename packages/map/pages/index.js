@@ -5,6 +5,7 @@ import { Text, Box } from '@bdp-rps/ui'
 import Header from '../components/Header'
 import Menu from '../components/map/menu'
 
+
 export default function page() {
   const [position, setPosition] = useState([
     51.42618636026203, 9.478454589843752,
@@ -20,13 +21,17 @@ export default function page() {
     []
   )
   return (
-    <Box extend={{ position: 'relative' }} width="100vw" height="100%">
+    <Box extend={{ position: 'relative', overflow: 'hidden' }} height="100%">
       <Map
         position={position}
         setPosition={setPosition}
         placeMarkerVisible={placeMarkerVisible}
       />
-      <Menu position={position} setPlaceMarkerVisible={setPlaceMarkerVisible} />
+      <Menu
+        position={position}
+        placeMarkerVisible={placeMarkerVisible}
+        setPlaceMarkerVisible={setPlaceMarkerVisible}
+      />
     </Box>
   )
 }
