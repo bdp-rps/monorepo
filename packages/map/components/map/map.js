@@ -15,22 +15,13 @@ const Map = ({ position, setPosition, placeMarkerVisible }) => {
 
   useEffect(async () => {
     const data = await getPlaces()
-    console.log(data.data)
     setPlaces(data.data)
   }, [])
 
   const DraggableMarker = useMemo(
-    () =>
-      dynamic(
-        () => import('./draggableMarker'),
-        { ssr: false } // This line is important. It's what prevents server-side render
-      ),
+    () => dynamic(() => import('./draggableMarker'), { ssr: false }),
     []
   )
-
-  const onMove = (event) => {
-    console.log(event.target.getCenter())
-  }
 
   return (
     <MapContainer
@@ -38,8 +29,7 @@ const Map = ({ position, setPosition, placeMarkerVisible }) => {
       center={position}
       zoom={13}
       zoomControl={false}
-      scrollWheelZoom={true}
-      onMoveEnd={() => console.log('Hallo')}>
+      scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

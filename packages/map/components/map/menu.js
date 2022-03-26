@@ -55,7 +55,7 @@ const Menu = ({
           <Box>
             <Button onClick={() => setIsVisible(false)}>Close</Button>
           </Box>
-          <Text color="white"> Platzfinder </Text>
+          <Text color="white">Platzfinder</Text>
           <Box as="form" space={2}>
             <TextInput
               label="Name"
@@ -124,7 +124,7 @@ const Menu = ({
                 Marker entfernen
               </Button>
             )}
-            <Button>Hinzufügen</Button>
+            <Button type="submit">Hinzufügen</Button>
           </Box>
           <Spacer size={5} />
         </Box>
