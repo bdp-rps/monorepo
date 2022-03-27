@@ -2,19 +2,15 @@ import React, { useState, useMemo } from 'react'
 import dynamic from 'next/dynamic'
 
 import { Text, Box } from '@bdp-rps/ui'
-import Header from '../components/Header'
-import Menu from '../components/map/menu'
+
+import Menu from '../components/menu/menu'
 
 export default function page() {
   const [position, setPosition] = useState(null)
   const [placeMarkerVisible, setPlaceMarkerVisible] = useState(false)
 
   const Map = useMemo(
-    () =>
-      dynamic(
-        () => import('../components/map/map'), // replace '@components/map' with your component's location
-        { ssr: false } // This line is important. It's what prevents server-side render
-      ),
+    () => dynamic(() => import('../components/map/map'), { ssr: false }),
     []
   )
   return (

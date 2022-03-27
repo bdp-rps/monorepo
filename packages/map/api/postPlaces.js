@@ -3,14 +3,7 @@ const STRAPI_MAP =
 const STRAPI_URL = 'https://docs.bdp-rps.de'
 
 export default async function postPlaces(req) {
-  console.log(
-    JSON.stringify({
-      data: {
-        ...req,
-      },
-    })
-  )
-  const data = await fetch(STRAPI_URL + '/api/places', {
+  return await fetch(STRAPI_URL + '/api/places', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -21,5 +14,4 @@ export default async function postPlaces(req) {
       },
     }),
   })
-  console.log(data)
 }

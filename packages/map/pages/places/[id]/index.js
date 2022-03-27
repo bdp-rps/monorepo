@@ -5,11 +5,9 @@ import Layout from '../../../components/Layout'
 import getPlaces from '../../../api/getPlaces'
 
 import Place from '../../../components/place'
-
 import getPlace from '../../../api/getPlace'
 
 export default function Page({ place }) {
-  console.log(place)
   return (
     <Box grow={1}>
       <Layout>

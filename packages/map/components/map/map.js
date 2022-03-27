@@ -7,7 +7,6 @@ import dynamic from 'next/dynamic'
 
 import { Box } from '@bdp-rps/ui'
 
-import Menu from './menu'
 import PlaceMarker from './placeMarker'
 
 const Map = ({ position, setPosition, placeMarkerVisible }) => {
