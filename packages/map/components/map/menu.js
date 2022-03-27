@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   Box,
   Text,
@@ -7,7 +7,11 @@ import {
   TextArea,
   SelectInput,
   Spacer,
+  useField,
+  useForm,
 } from '@bdp-rps/ui'
+
+import postPlaces from '../../api/postPlaces'
 
 const defaultPlace = {
   name: '',
@@ -33,6 +37,91 @@ const Menu = ({
   const [isVisible, setIsVisible] = useState(visible)
   const [place, setPlace] = useState(initialPlace)
 
+  useEffect(() => {
+    if (position) {
+      latField.update({
+        value: position.lat,
+        isValid: true,
+        isTouched: true,
+        errorMessage: '',
+      })
+      lngField.update({
+        value: position.lng,
+        isTouched: true,
+        isValid: true,
+        errorMessage: '',
+      })
+    }
+  }, [position])
+
+  const nameField = useField({
+    name: 'name',
+    required: true,
+  })
+  const typeField = useField({
+    name: 'type',
+    required: true,
+  })
+  const sizeField = useField({
+    name: 'size',
+    required: true,
+  })
+  const latField = useField({
+    name: 'lat',
+    disabled: true,
+
+    validation: {
+      'Benutze den Marker um eine Position zu setzen': (val) => val !== '',
+    },
+  })
+
+  const lngField = useField({
+    name: 'lng',
+    disabled: true,
+
+    validation: {
+      'Benutze den Marker um eine Position zu setzen': (val) => val !== '',
+    },
+  })
+  const placeField = useField({
+    name: 'place',
+    required: true,
+  })
+  const streetField = useField({
+    name: 'street',
+    required: true,
+  })
+  const postcodeField = useField({
+    name: 'postcode',
+    required: true,
+  })
+  const mailField = useField({
+    name: 'mail',
+    required: true,
+  })
+  const phoneField = useField({
+    name: 'phone',
+    required: true,
+  })
+  const descriptionField = useField({
+    name: 'description',
+    required: true,
+  })
+
+  const { submit, reset } = useForm(
+    nameField,
+    sizeField,
+    latField,
+    lngField,
+    placeField,
+    streetField,
+    postcodeField,
+    mailField,
+    phoneField,
+    descriptionField,
+    typeField
+  )
+
   return (
     <>
       {isVisible ? (
@@ -56,63 +145,55 @@ const Menu = ({
             <Button onClick={() => setIsVisible(false)}>Close</Button>
           </Box>
           <Text color="white">Platzfinder</Text>
-          <Box as="form" space={2}>
-            <TextInput
-              label="Name"
-              value={place.name}
-              onChange={(e) => setPlace({ ...place, name: e.target.value })}
-            />
-            <SelectInput
-              label="Größe"
-              value={place.size}
-              onChange={(e) => setPlace({ ...place, size: e.target.value })}>
-              <option value="klein">Klein</option>
-              <option value="mittel">Mittel</option>
-              <option value="groß">Groß</option>
+          <Box
+            as="form"
+            space={2}
+            onSubmit={(e) => {
+              e.preventDefault()
+
+              console.log('Trying to send place')
+              submit(async (isValid, data) => {
+                console.log('isValid', isValid)
+                if (isValid) {
+                  const response = await postPlaces(data)
+                  console.log('response', response)
+                  if (response?.status === 200) {
+                    console.log('geklappt :) ')
+                  }
+                }
+              })
+            }}>
+            <TextInput label="Name" {...nameField.props} />
+            <SelectInput label="Größe" {...sizeField.props}>
+              <option value="" />
+              <option value="small">Klein</option>
+              <option value="medium">Mittel</option>
+              <option value="large">Groß</option>
             </SelectInput>
-            <SelectInput
-              label="Platztyp"
-              value={place.type}
-              onChange={(e) => setPlace({ ...place, type: e.target.value })}>
+            <SelectInput label="Platztyp" {...typeField.props}>
+              <option value="" />
               <option value="heim">Heim</option>
-              <option value="Lagerplatz">Mittel</option>
-              <option value="Stammesheim">Stammesheim</option>
-              <option value="Stammeslagerplatz">Stammeslagerplatz</option>
+              <option value="lager">Lagerplatz</option>
+              <option value="stammesheim">Stammesheim</option>
+              <option value="stammeslager">Stammeslagerplatz</option>
             </SelectInput>
+            <TextInput label="Ort" {...placeField.props} />
+            <TextInput label="Straße" {...streetField.props} />
+            <TextInput label="Postleitzahl" {...postcodeField.props} />
+            <TextInput label="Email" {...mailField.props} />
+            <TextInput label="Telefonnummer" {...phoneField.props} />
+            <TextArea {...descriptionField.props} label="Beschreibung" />
             <TextInput
-              label="Ort"
-              value={place.place}
-              onChange={(e) => setPlace({ ...place, place: e.target.value })}
+              placeholder="Klicke auf 'Marker setzen'"
+              label="Breitengrad"
+              {...latField.props}
             />
+
             <TextInput
-              label="Straße"
-              value={place.street}
-              onChange={(e) => setPlace({ ...place, street: e.target.value })}
+              label="Längengrad"
+              placeholder="Klicke auf 'Marker setzen'"
+              {...lngField.props}
             />
-            <TextInput
-              label="Postleitzahl"
-              value={place.postcode}
-              onChange={(e) => setPlace({ ...place, postcode: e.target.value })}
-            />
-            <TextInput
-              label="Email"
-              value={place.mail}
-              onChange={(e) => setPlace({ ...place, mail: e.target.value })}
-            />
-            <TextInput
-              label="Telefonnummer"
-              value={place.phone}
-              onChange={(e) => setPlace({ ...place, phone: e.target.value })}
-            />
-            <TextArea
-              value={place.description}
-              onChange={(e) =>
-                setPlace({ ...place, description: e.target.value })
-              }
-              label="Beschreibung"
-            />
-            <Text>Latitude: {position.lat}</Text>
-            <Text>Longitude: {position.lng}</Text>
             {!placeMarkerVisible ? (
               <Button type="button" onClick={() => setPlaceMarkerVisible(true)}>
                 Marker setzen

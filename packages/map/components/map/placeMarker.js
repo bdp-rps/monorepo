@@ -46,7 +46,9 @@ const PlaceMarker = ({
 }) => {
   const markerRef = useRef(null)
   const [moreVisible, setMoreVisible] = useState(false)
-
+  if (!lat || !lng) {
+    return null
+  }
   return (
     <Marker icon={placeIcon(type)} position={[lat, lng]} ref={markerRef}>
       <Popup minWidth={90}>

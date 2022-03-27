@@ -5,11 +5,8 @@ import { Text, Box } from '@bdp-rps/ui'
 import Header from '../components/Header'
 import Menu from '../components/map/menu'
 
-
 export default function page() {
-  const [position, setPosition] = useState([
-    51.42618636026203, 9.478454589843752,
-  ])
+  const [position, setPosition] = useState(null)
   const [placeMarkerVisible, setPlaceMarkerVisible] = useState(false)
 
   const Map = useMemo(
@@ -23,7 +20,11 @@ export default function page() {
   return (
     <Box extend={{ position: 'relative', overflow: 'hidden' }} height="100%">
       <Map
-        position={position}
+        position={
+          position !== null
+            ? position
+            : { lat: 51.42618636026203, lng: 9.478454589843752 }
+        }
         setPosition={setPosition}
         placeMarkerVisible={placeMarkerVisible}
       />
