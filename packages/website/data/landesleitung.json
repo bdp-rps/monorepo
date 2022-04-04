@@ -29,13 +29,6 @@
   },
   {
     "part": "Vorstand",
-    "name": "Anne Wendel",
-    "position": "Stellv. Landesvorsitzende",
-    "contact": "anne@bdp-rps.de",
-    "group": "Franz von Sickingen"
-  },
-  {
-    "part": "Vorstand",
     "name": "Victoria Schilde (zappussel)",
     "position": "Stellv. Landesvorsitzende",
     "contact": "zappussel@bdp-rps.de",
@@ -43,22 +36,22 @@
   },
   {
     "part": "Vorstand",
-    "name": "Dominik Meisinger",
-    "position": "Landesschatzmeister",
-    "contact": "dominik@bdp-rps.de",
-    "group": "Kurzpfalz"
+    "name": "Robin Weser",
+    "position": "Stellv. Landesvorsitzende",
+    "contact": "robin@bdp-rps.de",
+    "group": "Luchs"
   },
   {
     "part": "Mitgliederverwaltung",
-    "name": "Rouven Wachhaus",
-    "contact": "rouven@bdp-rps.de",
-    "group": "Idar-Oberstein"
+    "name": "Maren Raskob",
+    "contact": "maren@bdp-rps.de",
+    "group": "von Helfenstein"
   },
   {
     "part": "Landesbeauftragte Wölflings-Stufe",
-    "name": "Victoria Ehl",
-    "contact": "victoria@bdp-rps.de",
-    "group": "Falke"
+    "name": "Julius Schneider",
+    "contact": "julius@bdp-rps.de",
+    "group": "Raugrafen"
   },
   {
     "part": "Landesbeauftragte Wölflings-Stufe",
@@ -73,12 +66,6 @@
     "group": "Pilgrim Falkoni"
   },
   {
-    "part": "Landesbeauftragte Pfadfinder-Stufe",
-    "name": "Marisa Keul",
-    "contact": "marisa@bdp-rps.de",
-    "group": "von Helfenstein"
-  },
-  {
     "part": "Landesbeauftragte R/R-Stufe",
     "name": "Sandro Mähringer-Kunz",
     "contact": "sandro@bdp-rps.de",
@@ -91,9 +78,15 @@
     "group": "von Helfenstein"
   },
   {
-    "part": "Landesbeauftragte Ausbildung",
+    "part": "Landesbeauftragte Stämme",
     "name": "Wiebke Spieß",
     "contact": "wiebke@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Ausbildung",
+    "name": "Annalena Kretschmer",
+    "contact": "anna@bdp-rps.de",
     "group": "von Helfenstein"
   },
   {
@@ -110,9 +103,9 @@
   },
   {
     "part": "Landesbeauftragte Medien & IT",
-    "name": "Robin Weser",
-    "contact": "robin@bdp-rps.de",
-    "group": "Luchs"
+    "name": "Chris Gebel (Schnappi)",
+    "contact": "chris@bdp-rps.de",
+    "group": "Falke"
   },
   {
     "part": "Landesbeauftragter Material",
@@ -128,9 +121,9 @@
   },
   {
     "part": "Landesjugendring Rheinland-Pfalz",
-    "name": "Berthold Müller (bertsch)",
-    "contact": "bertsch@bdp-rps.de",
-    "group": "Kurzpfalz"
+    "name": "Johanna Bonert",
+    "contact": "johanna@bdp-rps.de",
+    "group": "Bundschuh"
   },
   {
     "part": "Landesjugendring Rheinland-Pfalz",
