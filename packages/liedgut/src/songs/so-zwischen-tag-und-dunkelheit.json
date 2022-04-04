@@ -1,0 +1,37 @@
+{
+  "notation": "L:1/4\nK:Dm\n\"Vor- und Zwischenspiel\"DA,DF/E/|DA,Dz|]\nA,|\"d\"DEFG|\"F\"AAAz/ A/|\"g\"B3/2B/ \"F\"AA|\"g\"GG\"d\"Fz/F/|\n\"A\"E3/2F/GG|\"d\"FEDz/D/|\"A\"^C3/2D/EE|\"d\"DEFz/A/|\"B\"BA\"C\"GF/E/|\"d\"D3||\n",
+  "content": "So {d}zwischen Tag und {F}Dunkelheit, am {g}Abend, {F}wenn der {g}Nebel {d}fällt,\n{A}Vergessen ist der {d}Raum, die Zeit, der {A}Lärm der großen {d}Stadt ist weit,\nhalt {B}Wache {C}ich am {d}Zelt.\n\nDie Luft schmeckt herb nach frischem Rauch, im kleinen Feuer tanzt ein Troll,\nEin Falter schläft im Ginsterstrauch, bald schlafen die Gefährten auch,\nund fahrtenträumen toll.\n\nWas ist es was mich singend macht? Es tönt der Saiten Silberstahl.\nIch freue mich auf jede Nacht am, Lagerfeuer zugebracht,\nmit Liedern ohne Zahl. ",
+  "title": "So zwischen Tag und Dunkelheit",
+  "words": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother WV",
+      "year": "1952"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother WV",
+      "year": "1952"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "info": "",
+  "changes": [
+    {
+      "date": 1649079099574,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
