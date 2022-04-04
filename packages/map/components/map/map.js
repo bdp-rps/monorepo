@@ -9,13 +9,31 @@ import { Box } from '@bdp-rps/ui'
 
 import PlaceMarker from './placeMarker'
 
-const Map = ({ position, setPosition, placeMarkerVisible }) => {
+const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
   const [places, setPlaces] = useState([])
 
   useEffect(async () => {
     const data = await getPlaces()
     setPlaces(data.data)
   }, [])
+
+  useEffect(() => {
+    const filteredPlaces = places.filter((item) => {
+      Object.keys(filters).map(function (key, index) {
+        console.log('key', key)
+        console.log('filters', filters)
+        if (
+          item.attributes[key] === undefined ||
+          item.attributes[key] != filters[key]
+        ) {
+          return false
+        }
+
+        return true
+      })
+    })
+    console.log('filteredPlaces', filteredPlaces)
+  }, [filters])
 
   const DraggableMarker = useMemo(
     () => dynamic(() => import('./draggableMarker'), { ssr: false }),

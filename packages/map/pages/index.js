@@ -7,6 +7,7 @@ import Menu from '../components/menu/menu'
 
 export default function page() {
   const [position, setPosition] = useState(null)
+  const [filters, setFilters] = useState([])
   const [placeMarkerVisible, setPlaceMarkerVisible] = useState(false)
 
   const Map = useMemo(
@@ -23,11 +24,13 @@ export default function page() {
         }
         setPosition={setPosition}
         placeMarkerVisible={placeMarkerVisible}
+        filters={filters}
       />
       <Menu
         position={position}
         placeMarkerVisible={placeMarkerVisible}
         setPlaceMarkerVisible={setPlaceMarkerVisible}
+        setFilters={setFilters}
       />
     </Box>
   )

@@ -22,6 +22,7 @@ const Menu = ({
   setPlaceMarkerVisible,
   placeMarkerVisible,
   position,
+  setFilters,
 }) => {
   const [isVisible, setIsVisible] = useState(visible)
   const [tab, setTab] = useState('filter')
@@ -70,11 +71,7 @@ const Menu = ({
                 />
               </Box>
               <Box display={tab === 'filter' ? 'flex' : 'none'}>
-                <PlaceFilter
-                  position={position}
-                  setPlaceMarkerVisible={setPlaceMarkerVisible}
-                  placeMarkerVisible={placeMarkerVisible}
-                />
+                <PlaceFilter setFilters={setFilters} />
               </Box>
             </Box>
             <Spacer size={5} />
