@@ -32,10 +32,10 @@ export default function Song({
 
   const usedChords = (content.match(/\{[A-Z0-9\(\)\/]*\}/gi) || [])
     .filter((chord, index, chords) => chords.indexOf(chord) === index)
-    .map(chord => chord.replace(/[{}\(\)]/gi, ''))
+    .map((chord) => chord.replace(/[{}\(\)]/gi, ''))
     .reduce((usedChords, chord) => {
       const split = chord.split('/')
-      split.forEach(c => {
+      split.forEach((c) => {
         if (usedChords.indexOf(c) === -1) {
           usedChords.push(c)
         }
@@ -44,22 +44,22 @@ export default function Song({
       return usedChords
     }, [])
 
-  const isB = usedChords.find(chord => chord.match(/(es|as|b)/gi) !== null)
+  const isB = usedChords.find((chord) => chord.match(/(es|as|b)/gi) !== null)
 
   const theme = useTheme()
 
-  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map(block => {
+  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map((block) => {
     const lines = block.split(/(?:\r\n|\r|\n)/g)
 
-    return lines.map(line => {
+    return lines.map((line) => {
       if (line.match(/{[A-Z0-9\(\)\/]+}/gi) === null) {
         return line
       }
 
       return line
         .split(/{/gi)
-        .filter(v => v.length > 1)
-        .map(pair => {
+        .filter((v) => v.length > 1)
+        .map((pair) => {
           const s = pair.split(/}/gi)
 
           if (s.length === 1) {
@@ -88,9 +88,9 @@ export default function Song({
       )}
       <Spacer size={4} />
       <Box>
-        {blocks.map(lines => (
+        {blocks.map((lines) => (
           <Box key={JSON.stringify(lines)} wrap="wrap">
-            {lines.map(line => (
+            {lines.map((line) => (
               <Box key={JSON.stringify(line)} direction="row" wrap="wrap">
                 {typeof line === 'string' ? (
                   <Text>{line ? line : ' '}</Text>
@@ -171,7 +171,7 @@ export default function Song({
         <Box alignItems="flex-start">
           <TextInput
             type="number"
-            onChange={setTranspose}
+            onChange={(e) => setTranspose(e.target.value)}
             max={11}
             min={-11}
             value={transpose}
@@ -180,7 +180,7 @@ export default function Song({
         </Box>
 
         <Box direction="row" wrap="wrap">
-          {usedChords.map(chord => {
+          {usedChords.map((chord) => {
             const transposed = transposeChord(chord, step, isB)
 
             if (transposed && chords[transposed]) {
