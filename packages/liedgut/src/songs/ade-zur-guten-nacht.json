@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{}A{F}de {C7}zur {F}guten Nacht, \n{C7}jetzt {F}wird {C7}der {F}Schluss gemacht,\ndass ich muss {C7}schei{F}den.\n\n/: Im Sommer, da {B}wächst der Klee,\nim {C7}Winter, da {F}schneit's den Schnee,\nda komm ich {C7}wie{F}der. :/\n\nEs trauern Berg und Tal,\nwo ich viel tausendmal,\nbin drüber gangen.\nDas hat deine Schönheit gemacht,\ndie hat mich zum Lieben gebracht\nmit großem Verlangen.\n\nDas Brünnlein rinnt und rauscht,\nwohl dort am Holderstrauch,\nwo wir gesessen.\nWie manchen Glockenschlag,\nda Herz bei Herzen lag,\ndas hast du vergessen.\n\nAch wär' ich ein großer Herr,\nzög' niemandem hinterher,\nein Taler zu erben.\nIch stünd da am Heckenzaun,\nnur um nach dir auszuschaun\nund um dich zu werben.",
+  "content": "{}A{F}de {C7}zur {F}guten Nacht, {C7}jetzt {F}wird {C7}der {F}Schluss gemacht, dass ich muss {C7}schei{F}den.\n/: Im Sommer, da {B}wächst der Klee, im {C7}Winter, da {F}schneit's den Schnee, da komm ich {C7}wie{F}der. :/\n\nEs trauern Berg und Tal, wo ich viel tausendmal, bin drüber gangen.\nDas hat deine Schönheit gemacht, die hat mich zum Lieben gebracht mit großem Verlangen.\n\nDas Brünnlein rinnt und rauscht, wohl dort am Holderstrauch, wo wir gesessen.\nWie manchen Glockenschlag, da Herz bei Herzen lag, das hast du vergessen.\n\nAch wär' ich ein großer Herr, zög' niemandem hinterher, ein Taler zu erben.\nIch stünd da am Heckenzaun, nur um nach dir auszuschaun und um dich zu werben.",
   "title": "Ade zur guten Nacht",
   "words": [
     {
@@ -32,6 +32,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1649079569719,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Formattierung"
     }
   ]
 }
