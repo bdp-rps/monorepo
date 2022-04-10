@@ -1,0 +1,43 @@
+import BlogLayout from '../../components/BlogLayout'
+import { Text, Link } from '@bdp-rps/ui'
+
+export const meta = {
+  title: '39. Landesversammlung des LV RPS',
+  teaser: 1,
+  description: 'Endlich wieder analog!',
+  author: {
+    name: 'Michelle Büttner',
+    nickname: '',
+    position: 'Landesvorstand',
+  },
+  date: { year: 2022, month: 4, day: 10 },
+}
+
+export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
+
+<Text>
+  Kein Aprilscherz! Am ersten Aprilwochenende fand die 39. Landesversammlung des
+  Landesverband Rheinland-Pfalz-Saar statt. Trotz apriltypischem Schneegestöber
+  fanden knapp 120 Pfadfinderinnen und Pfadfinder ihren Weg nach Immendorf bei
+  Koblenz. An dieser Stelle ein großes Dankeschön an den Stamm von Helfenstein
+  für das grandiose Ausrichten dieser LV!
+  <br />
+  <br />
+  Diese LV war aus mehreren Gründen eine besondere: Nicht nur, dass wir uns nach
+  zwei Jahren Pandemie das erste Mal wieder in Präsenz getroffen haben, nein! Es
+  standen direkt auch Neuwahlen des Vorstands und ein Antrag zur Anerkennung einer
+  neuen Aufbaugruppe auf dem Programm. Ein Großteil des "alten" Vorstandsteams stellte
+  sich wieder zur Wahl, sodass neben Mefan als Landesvorsitzendem auch Lukas, Michelle,
+  Roxy und Zappussel erneut für zwei Jahre als Teil das Landesvorstands gewählt wurden.
+  Komplettiert wird das Team durch den Neuzugang Robin und Schatzmeisterin Cätch.
+  An dieser Stelle vielen Dank an Anne und Dominik, die den Landesverband über viele
+  Jahre mitgestaltet haben! Auch bei den Landesbeauftragten gab es einige Veränderungen,
+  diese findet ihr <Link href="/landesverband/landesleitung">hier</Link>.
+  <br />
+  <br />
+  Besonders freuen wir uns darüber, dass wir auf dieser Landesversammlung auch
+  eine neue Aufbaugruppe in RPS begrüßen dürfen! Die Rotfüchse wollen ab sofort
+  die bündische Szene in Herxheim am Berg (bei Landau) bereichern. Stark, dass
+  ihr jetzt ein Teil unseres Landesverbands seid! Wir freuen uns auf viele
+  schöne Aktionen mit euch.
+</Text>
