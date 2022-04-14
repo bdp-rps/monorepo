@@ -64,11 +64,13 @@ export default () => {
             <br />
             Anne Wendel
             <br />
-            Victoria Schilde
+            Robin Weser
             <br />
             Lukas Ebel
             <br />
-            Dominik Meisinger
+            Michelle Büttner
+            <br />
+            Victoria Schilde
             <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
@@ -85,11 +87,10 @@ export default () => {
               Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
             </b>
             <br />
-            Robin Weser
+            Timon Flick
             <br />
-            <Link href="mailto:robin@bdp-rps.de">robin@bdp-rps.de</Link>
+            <Link href="mailto:timon@bdp-rps.de">timon@bdp-rps.de</Link>
             <br />
-            <Link href="https://weser.io">https://weser.io</Link>
           </Text>
           <Text>
             <b>Haftungshinweis:</b>
