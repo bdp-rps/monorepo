@@ -1,0 +1,53 @@
+import BlogLayout from '../../components/BlogLayout'
+import { Text, Link } from '@bdp-rps/ui'
+
+export const meta = {
+  title: 'Auch keinen Plan was hier zu tun is?',
+  teaser: 1,
+  description:
+    'Outdoor Erste Hilfe Kurs mit dem Ring deutscher Pfadfinder*innenverbände',
+  author: {
+    name: 'Anahita Emminghaus',
+    nickname: '',
+    position: 'LB Ausbildung',
+  },
+  date: { year: 2022, month: 4, day: 24 },
+}
+
+export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
+
+<Text>
+  Im Juli ist es endlich soweit und es gibt wieder eine überbündische Aktion.
+  Über den Ring deutscher Pfadfinder*innenverbände (rdp) bekommen
+  Pfadfinder*innen verschiedener Verbände (BdP, PSG, VCP, DPSG und BMPPD) die
+  Chance auf Vernetzung und gegenseitige Unterstützung. Damit dies gelingt,
+  werden immer mal wieder gemeinsame Aktionen in den Landesverbänden gestartet.
+  Für Pfadfinder*innen aus Rheinland-Pfalz (und dem Saarland) gibt es jetzt eine
+  solche Aktion: einen gemeinsamen Erste Hilfe Kurs mit Outdoorfokus und
+  anschließendem Sommerabend am Feuer.
+  <br />
+  <br />
+  Alle Fakten dazu auf einen Blick:
+  <br />
+  <Text subStyle="emphasis">Wann?</Text> 02.- 03. Juli 2022, eine Anreise freitags
+  ist möglich
+  <br />
+  <Text subStyle="emphasis">Wo?</Text> Großraum Mainz, genaueres folgt
+  <br />
+  <Text subStyle="emphasis">Wer?</Text> Alle, die Lust auf Vernetzung haben, ihre
+  Erste Hilfe Kenntnisse vor dem Bula auffrischen wollen oder einen Erste Hilfe Kurs
+  für den Führerschein benötigen, ...
+  <br />
+  <Text subStyle="emphasis">Kosten?</Text> 10€
+  <br />
+  <Text subStyle="emphasis">Anmeldung?</Text> online <Link href="https://rdp-rlp.de/aktionen-und-projekte/erstehilfe/">
+    hier
+  </Link>
+  <br />
+  <br />
+  Weitere Infos zur Aktion und der allgemeinen Arbeit des rdp in Rheinland-Pfalz
+  findet ihr unter <Link href="rdp-rlp.de">rdp-rlp.de</Link> und auf instagram{' '}
+  @rdp_rlp. Außerdem könnt ihr unsere Ringebeauftragten Charly, Sorry und
+  Johanna natürlich jederzeit ansprechen oder per mail(
+  <Link href="mailto:ringe@bdp-rps.de">ringe@bdp-rps.de</Link>) anschreiben.
+</Text>
