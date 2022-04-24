@@ -9,11 +9,15 @@ import {
   Spacer,
   useField,
   useForm,
+  Accordion,
 } from '@bdp-rps/ui'
 
 import postPlaces from '../../api/postPlaces'
+import getPlacefeatures from '../../api/postPlaces'
 
 const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
+  const [placeFeature, setPlaceFeatures] = useState([])
+
   useEffect(() => {
     if (position) {
       latField.update({
@@ -30,6 +34,12 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       })
     }
   }, [position])
+
+  useEffect(async () => {
+    const features = await getPlacefeatures()
+    console.log(features)
+    setPlaceFeatures(features)
+  }, [])
 
   const nameField = useField({
     name: 'name',
@@ -135,6 +145,7 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       <TextInput label="Email" {...mailField.props} />
       <TextInput label="Telefonnummer" {...phoneField.props} />
       <TextArea {...descriptionField.props} label="Beschreibung" />
+      <Accordion summary="Ausstattung"></Accordion>
       <TextInput
         placeholder="Klicke auf 'Marker setzen'"
         label="Breitengrad"

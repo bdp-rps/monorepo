@@ -4,6 +4,7 @@ import Provider from './styling/Provider'
 export * from 'ambrose'
 export * from './components/icons'
 
+import Accordion from './components/accordion'
 import Box from './components/box'
 import Button from './components/button'
 import Card from './components/card'
@@ -38,6 +39,7 @@ export * from 'ambrose'
 export {
   Provider,
   createStyleRenderer,
+  Accordion,
   Box,
   Button,
   Card,

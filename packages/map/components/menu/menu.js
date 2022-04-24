@@ -81,7 +81,7 @@ const Menu = ({
         <Box
           width="auto"
           extend={{ position: 'absolute', top: 0, left: 0, zIndex: 10000 }}>
-          <Button onClick={() => setIsVisible(true)}> Open </Button>
+          <Button onClick={() => setIsVisible(true)}> Öffnen </Button>
         </Box>
       )}
     </>
