@@ -51,6 +51,11 @@ export default () => (
             Osterferien (SK, FaK, Sfk, Mfk und LEGO) statt, die vom
             Landesverband ausgerichtet werden. Darüber hinaus können
             Gruppenführungen ab 16 an weiteren Kursen des BdP teilnehmen.
+            <br />
+            Für mehr Informationen:{' '}
+            <Link href="mailto:ausbildung@bdp-rps.de">
+              ausbildung@bdp-rps.de
+            </Link>
           </Text>
         </Box>
         <Box space={2}>
@@ -59,14 +64,14 @@ export default () => (
             <CardTile
               title="SK - Der Sippenkurs"
               teaser="ab 12 Jahren"
-              description="Der Sippenkurs ist der erste Kurs, den Du in unserem Landesverband besuchen kannst. Hier erlebst Du zusammen mit vielen anderen Pfadis ein spannendes Zeltlager mit allem was dazu gehört: Geschlafen wird in der Kohte, ihr kocht zusammen über dem Feuer und vertieft bei abenteuerlichem Programm alle wichtigen Technikkenntnisse. Highlight der Kurs- woche ist ein Hajk (Aufgabenlauf) mit Übernachtung."
+              description="Der Sippenkurs ist der erste Kurs, den Du in unserem Landesverband besuchen kannst. Hier erlebst Du zusammen mit vielen anderen Pfadis ein spannendes Zeltlager mit allem was dazu gehört: Geschlafen wird in der Kohte, ihr kocht zusammen über dem Feuer und vertieft bei abenteuerlichem Programm alle wichtigen Technikkenntnisse. Highlight der Kurswoche ist ein Hajk (Aufgabenlauf) mit Übernachtung."
               image="ausbildung/sk"
               imageHeight={300}
             />
             <CardTile
               title="FAK - Der Fahrtenkurs"
               teaser="Ab 13 Jahren"
-              description="Der Fahrtenkurs ist für alle, die gerne mit ihrer Sippe auf Fahrt gehen. Der Kurs findet komplett draußen im Zelt statt und umfasst sowohl ein paar Lagertage als auch eine Fahrt, bei der Du mit anderen Kursteilnehmenden teilweise ohne Teamende unter- wegs bist. Das Abenteuer kommt bei diesem Kurs also keinesfalls zu kurz. Aber keine Bange - die Einheiten des Kurses werden Dich gut auf diese Heraus- forderung vorbereiten. ."
+              description="Der Fahrtenkurs ist für alle, die gerne mit ihrer Sippe auf Fahrt gehen. Der Kurs findet komplett draußen im Zelt statt und umfasst sowohl ein paar Lagertage als auch eine Fahrt, bei der Du mit anderen Kursteilnehmenden teilweise ohne Teamende unterwegs bist. Das Abenteuer kommt bei diesem Kurs also keinesfalls zu kurz. Aber keine Bange - die Einheiten des Kurses werden Dich gut auf diese Herausforderung vorbereiten."
               image="ausbildung/fak"
               imageHeight={300}
             />
@@ -80,8 +85,8 @@ export default () => (
             <CardTile
               title="MFK - Der Meutenführungskurs"
               teaser="15 Jahre"
-              description="Beim MfK lernst Du die Grundlagen der Meuten-führung kennen. Der Umgang mit Kindern steht dabei genauso auf dem Kursplan wie die Gestaltung von gutem Programm. Langweilig wird’s hier nicht:  Zusammen mit anderen Meutenführungen aus dem LV entwickelst Du spannende Aktionen für die Wölflingsstufe, die ihr mit einer Studiomeute aus- probieren könnt. Und ein top Kursteam sorgt dafür, dass auch zwischendurch der Spaß für Dich nicht auf der Strecke bleibt.
-Ideal für alle, die ganz frisch diese Aufgabe über- nommen haben.
+              description="Beim MfK lernst Du die Grundlagen der Meuten-führung kennen. Der Umgang mit Kindern steht dabei genauso auf dem Kursplan wie die Gestaltung von gutem Programm. Langweilig wird’s hier nicht:  Zusammen mit anderen Meutenführungen aus dem LV entwickelst Du spannende Aktionen für die Wölflingsstufe, die ihr mit einer Studiomeute ausprobieren könnt. Und ein top Kursteam sorgt dafür, dass auch zwischendurch der Spaß für Dich nicht auf der Strecke bleibt.
+Ideal für alle, die ganz frisch diese Aufgabe übernommen haben.
 Im Mittelpunkt des Gilwellkurses stehst Du mit Deiner Rolle im BdP selbst. Handwerkszeug gibt es hier nicht-mehr, stattdessen viel Raum für Reflexion und Diskussion mit Pfadis aus dem ganzen Bund:
 Also: MfK = stabile Basis für alle Meutenführungen"
               imageHeight={300}
@@ -95,14 +100,13 @@ Also: MfK = stabile Basis für alle Meutenführungen"
             <CardTile
               title="LEGO"
               description="LEGO ist ein Angebot für ältere Pfadis und R/Rs, die 
-              sich einer besonderen Fahrtenherausforderung stellen möchten. Bei einem Vorbereitungswochen-ende plant ihr zusammen mit erfahrenen Teamer*innen eine 1- wöchige Auslandsfahrt, die ihr selbstständig mit eurer Kurs-gruppe durchführt."
+              sich einer besonderen Fahrtenherausforderung stellen möchten. Bei einem Vorbereitungswochenende plant ihr zusammen mit erfahrenen Teamer*innen eine 1- wöchige Auslandsfahrt, die ihr selbstständig mit eurer Kursgruppe durchführt."
               image="fahrt_kothe"
               imageHeight={300}
             />
             <CardTile
               title="Stafü - Seminar"
-              teaser="Ab 13 Jahren"
-              description="Das Stafü-Seminar ist ein Wochenend-Crashkurs. Hier erhältst Du kurz und knackig einen Einblick in einen der spannendsten Jobs im BdP: die Stammesführung. Ideal für alle, die ganz frisch diese Aufgabe über- nommen haben."
+              description="Das Stafü-Seminar ist ein Wochenend-Crashkurs. Hier erhältst Du kurz und knackig einen Einblick in einen der spannendsten Jobs im BdP: die Stammesführung. Ideal für alle, die ganz frisch diese Aufgabe übernommen haben."
               image="ausbildung/stafue"
               imageHeight={300}
             />
