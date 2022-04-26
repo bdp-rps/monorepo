@@ -42,6 +42,7 @@ const subNavs = {
     '/club-29': 'Club 29',
     '/watato-kabisa': 'Watato Kabisa',
     '/intakt': 'Intakt',
+    '/liedgut': 'Liedgut',
     // '/geschichte': 'Geschichte',
   },
 }
@@ -51,7 +52,7 @@ export default function Template({ children }) {
   const theme = useTheme()
 
   const isSubPage = Object.keys(subNavs).find(
-    path => router.pathname.indexOf(path) !== -1
+    (path) => router.pathname.indexOf(path) !== -1
   )
 
   return (
@@ -86,7 +87,7 @@ export default function Template({ children }) {
       <NavBar>
         <Layout>
           <Box direction={['column', , 'row']}>
-            {Object.keys(nav).map(path => (
+            {Object.keys(nav).map((path) => (
               <NavBarItem
                 href={path}
                 active={
@@ -104,7 +105,7 @@ export default function Template({ children }) {
         <NavBar intent="secondary">
           <Layout>
             <Box direction={['column', , 'row']} paddingLeft={5}>
-              {Object.keys(subNavs[isSubPage]).map(path => (
+              {Object.keys(subNavs[isSubPage]).map((path) => (
                 <NavBarItem
                   href={path.indexOf('http') === -1 ? isSubPage + path : path}
                   active={router.pathname.indexOf(path) !== -1}>
