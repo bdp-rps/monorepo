@@ -10,13 +10,14 @@ import {
   useField,
   useForm,
   Accordion,
+  Checkbox,
 } from '@bdp-rps/ui'
 
 import postPlaces from '../../api/postPlaces'
-import getPlacefeatures from '../../api/postPlaces'
+import getPlacefeatures from '../../api/getPlacefeatures'
 
 const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
-  const [placeFeature, setPlaceFeatures] = useState([])
+  const [placeFeatures, setPlaceFeatures] = useState([])
 
   useEffect(() => {
     if (position) {
@@ -36,9 +37,8 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
   }, [position])
 
   useEffect(async () => {
-    const features = await getPlacefeatures()
-    console.log(features)
-    setPlaceFeatures(features)
+    const res = await getPlacefeatures()
+    setPlaceFeatures(res.data)
   }, [])
 
   const nameField = useField({
@@ -56,7 +56,6 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
   const latField = useField({
     name: 'lat',
     disabled: true,
-
     validation: {
       'Benutze den Marker um eine Position zu setzen': (val) => val !== '',
     },
@@ -145,13 +144,21 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       <TextInput label="Email" {...mailField.props} />
       <TextInput label="Telefonnummer" {...phoneField.props} />
       <TextArea {...descriptionField.props} label="Beschreibung" />
-      <Accordion summary="Ausstattung"></Accordion>
+      <Accordion summary="Ausstattung">
+        <Box space={2}>
+          {placeFeatures.map((placeFeature) => (
+            <Checkbox
+              label={placeFeature.attributes.feature}
+              name={placeFeature.attributes.feature}
+            />
+          ))}
+        </Box>
+      </Accordion>
       <TextInput
         placeholder="Klicke auf 'Marker setzen'"
         label="Breitengrad"
         {...latField.props}
       />
-
       <TextInput
         label="Längengrad"
         placeholder="Klicke auf 'Marker setzen'"
