@@ -32,8 +32,8 @@ const config = {
     return [
       {
         // redirect link aus ohrwurm
-        source: 'der-landesverband/liedgut',
-        destination: 'landesverband/liedgut',
+        source: '/der-landesverband/liedgut',
+        destination: '/landesverband/liedgut',
         permanent: true,
       },
     ]
