@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+
 import getPlaces from '../../api/getPlaces'
 
 import dynamic from 'next/dynamic'
@@ -20,15 +21,12 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
   useEffect(() => {
     const filteredPlaces = places.filter((item) => {
       Object.keys(filters).map(function (key, index) {
-        console.log('key', key)
-        console.log('filters', filters)
         if (
           item.attributes[key] === undefined ||
           item.attributes[key] != filters[key]
         ) {
           return false
         }
-
         return true
       })
     })

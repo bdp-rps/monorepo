@@ -9,16 +9,14 @@ import {
   Spacer,
   useField,
   useForm,
+  useBoolField,
   Accordion,
   Checkbox,
 } from '@bdp-rps/ui'
 
 import postPlaces from '../../api/postPlaces'
-import getPlacefeatures from '../../api/getPlacefeatures'
 
 const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
-  const [placeFeatures, setPlaceFeatures] = useState([])
-
   useEffect(() => {
     if (position) {
       latField.update({
@@ -35,11 +33,6 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       })
     }
   }, [position])
-
-  useEffect(async () => {
-    const res = await getPlacefeatures()
-    setPlaceFeatures(res.data)
-  }, [])
 
   const nameField = useField({
     name: 'name',
@@ -90,8 +83,30 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
   })
 
   const descriptionField = useField({
-    name: 'description',
+    name: 'firewood',
     required: true,
+  })
+
+  const logsField = useBoolField({
+    name: 'logs',
+  })
+  const showersField = useBoolField({
+    name: 'showers',
+  })
+  const toiletsField = useBoolField({
+    name: 'toilets',
+  })
+  const kitchenField = useBoolField({
+    name: 'kitchen',
+  })
+  const drinkingWaterField = useBoolField({
+    name: 'drinkingWater',
+  })
+  const firewoodField = useBoolField({
+    name: 'firewood',
+  })
+  const meetingRoomField = useBoolField({
+    name: 'meetingRoom',
   })
 
   const { submit, reset } = useForm(
@@ -105,7 +120,14 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
     mailField,
     phoneField,
     descriptionField,
-    typeField
+    typeField,
+    logsField,
+    showersField,
+    toiletsField,
+    kitchenField,
+    drinkingWaterField,
+    firewoodField,
+    meetingRoomField
   )
 
   return (
@@ -115,9 +137,56 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       onSubmit={(e) => {
         e.preventDefault()
         submit(async (isValid, data) => {
-          console.log('isValid', isValid)
           if (isValid) {
-            const response = await postPlaces(data)
+            const {
+              logs,
+              showers,
+              toilets,
+              kitchen,
+              drinkingWater,
+              firewood,
+              meetingRoom,
+            } = data
+            const response = await postPlaces({
+              ...data,
+              features: [
+                {
+                  name: logsField.name,
+                  val: logsField.value,
+                  label: 'Stangenholz',
+                },
+                {
+                  name: showersField.name,
+                  val: showersField.value,
+                  label: 'Duschen',
+                },
+                {
+                  name: toiletsField.name,
+                  val: toiletsField.value,
+                  label: 'Toiletten',
+                },
+                {
+                  name: kitchenField.name,
+                  val: kitchenField.value,
+                  label: 'Küche',
+                },
+                {
+                  name: drinkingWaterField.name,
+                  val: drinkingWaterField.value,
+                  label: 'Trinkwasser',
+                },
+                {
+                  name: firewoodField.name,
+                  val: firewoodField.value,
+                  label: 'Feuerholz',
+                },
+                {
+                  name: meetingRoomField.name,
+                  val: meetingRoomField.value,
+                  label: 'Tagungsraum',
+                },
+              ],
+            })
             if (response?.status === 200) {
               reset()
             }
@@ -146,12 +215,13 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       <TextArea {...descriptionField.props} label="Beschreibung" />
       <Accordion summary="Ausstattung">
         <Box space={2}>
-          {placeFeatures.map((placeFeature) => (
-            <Checkbox
-              label={placeFeature.attributes.feature}
-              name={placeFeature.attributes.feature}
-            />
-          ))}
+          <Checkbox label="Stangenholz" {...logsField.props} />
+          <Checkbox label="Feuerholz" {...firewoodField.props} />
+          <Checkbox label="Duschen" {...showersField.props} />
+          <Checkbox label="Toiletten" {...toiletsField.props} />
+          <Checkbox label="Küche" {...kitchenField.props} />
+          <Checkbox label="Trinkwasser" {...drinkingWaterField.props} />
+          <Checkbox label="Tagungsraum" {...meetingRoomField.props} />
         </Box>
       </Accordion>
       <TextInput

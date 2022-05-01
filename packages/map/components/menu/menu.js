@@ -25,7 +25,7 @@ const Menu = ({
   setFilters,
 }) => {
   const [isVisible, setIsVisible] = useState(visible)
-  const [tab, setTab] = useState('filter')
+  const [tab, setTab] = useState('form')
 
   return (
     <>
@@ -47,11 +47,11 @@ const Menu = ({
               overflow: 'scroll',
             }}>
             <NavBar>
-              <NavBarItem
+              {/* <NavBarItem
                 active={tab === 'filter'}
                 onClick={() => setTab('filter')}>
                 Filter
-              </NavBarItem>
+              </NavBarItem> */}
               <NavBarItem
                 active={tab === 'form'}
                 onClick={() => setTab('form')}>

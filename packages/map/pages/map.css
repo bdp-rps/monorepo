@@ -1,0 +1,9 @@
+.request-popup .leaflet-popup-content-wrapper {
+  border-radius: 0px;
+  background-color: transparent;
+  box-shadow: none !important
+ }
+ .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+   background: transparent !important;
+   box-shadow: none !important
+ }
