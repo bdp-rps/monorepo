@@ -17,7 +17,7 @@ export default () => {
               Unsere Bundesseite
             </Button>
             <Button href="https://p113-caldav.icloud.com/published/2/NTc3MjYxODIwNTc3MjYxOL9EAXRUtN8Jk2TOJ4lytVjeXa1g5MooZp2-uuLqbgfCiUN_eh0zpHmy3xgMbPZEyjPgbw3-p8HkOAKvXJAc5gU">
-              LV Termine eintragen
+              LV-Kalender abonnieren
             </Button>
           </Box>
         </Box>
