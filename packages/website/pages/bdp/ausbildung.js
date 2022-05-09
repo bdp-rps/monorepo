@@ -84,11 +84,9 @@ export default () => (
             />
             <CardTile
               title="MFK - Der Meutenführungskurs"
-              teaser="15 Jahre"
-              description="Beim MfK lernst Du die Grundlagen der Meuten-führung kennen. Der Umgang mit Kindern steht dabei genauso auf dem Kursplan wie die Gestaltung von gutem Programm. Langweilig wird’s hier nicht:  Zusammen mit anderen Meutenführungen aus dem LV entwickelst Du spannende Aktionen für die Wölflingsstufe, die ihr mit einer Studiomeute ausprobieren könnt. Und ein top Kursteam sorgt dafür, dass auch zwischendurch der Spaß für Dich nicht auf der Strecke bleibt.
-Ideal für alle, die ganz frisch diese Aufgabe übernommen haben.
-Im Mittelpunkt des Gilwellkurses stehst Du mit Deiner Rolle im BdP selbst. Handwerkszeug gibt es hier nicht-mehr, stattdessen viel Raum für Reflexion und Diskussion mit Pfadis aus dem ganzen Bund:
-Also: MfK = stabile Basis für alle Meutenführungen"
+              teaser="Ab 15 Jahren"
+              description="Beim MfK lernst Du die Grundlagen der Meutenführung kennen. Der Umgang mit Kindern steht dabei genauso auf dem Kursplan wie die Gestaltung von gutem Programm. Langweilig wird’s hier nicht: Zusammen mit anderen Meutenführungen aus dem LV entwickelst Du spannende Aktionen für die Wölflingsstufe, die ihr mit einer Studiomeute ausprobieren könnt. Und ein top Kursteam sorgt dafür, dass auch zwischendurch der Spaß für Dich nicht auf der Strecke bleibt.
+              Also: MfK = stabile Basis für alle Meutenführungen"
               imageHeight={300}
               image="ausbildung/mfk"
             />
