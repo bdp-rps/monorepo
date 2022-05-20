@@ -11,11 +11,12 @@ import {
   ScrollView,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
-import ICalParser from 'ical-js-parser'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 import PostTile from '../components/PostTile'
+
+import getEvents from '../utils/getEvents'
 
 import manifest from '../public/blog-manifest.json'
 const [firstPost, ...otherPosts] = manifest
@@ -40,8 +41,6 @@ const TextBox = ({ children }) => {
 
 export default ({ events }) => {
   const theme = useTheme()
-
-  console.log(events)
 
   return (
     <Template>
@@ -85,16 +84,11 @@ export default ({ events }) => {
 }
 
 export async function getStaticProps() {
-  const URL =
-    'http://p113-caldav.icloud.com/published/2/NTc3MjYxODIwNTc3MjYxOL9EAXRUtN8Jk2TOJ4lytVjeXa1g5MooZp2-uuLqbgfCiUN_eh0zpHmy3xgMbPZEyjPgbw3-p8HkOAKvXJAc5gU'
-
-  const res = await fetch(URL)
-  const data = await res.text()
-
-  const events = ICalParser.toJSON(data)
+  const events = await getEvents()
 
   return {
-    revalidate: 60,
+    // alle 20 minuten
+    revalidate: 1200,
     props: {
       events,
     },
