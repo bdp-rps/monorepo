@@ -8,7 +8,14 @@
   },
   {
     "part": "Vorstand",
-    "name": "Roxanne Schäfer (roxy)",
+    "name": "Carina Bochynek",
+    "position": "Landeschatzmeisterin",
+    "contact": "caetch@bdp-rps.de",
+    "group": "Luchs"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Roxanne Reuter (roxy)",
     "position": "Stellv. Landesvorsitzende",
     "contact": "roxy@bdp-rps.de",
     "group": "Albert Schweitzer"
@@ -37,10 +44,11 @@
   {
     "part": "Vorstand",
     "name": "Robin Weser",
-    "position": "Stellv. Landesvorsitzende",
+    "position": "Stellv. Landesvorsitzender",
     "contact": "robin@bdp-rps.de",
     "group": "Luchs"
   },
+
   {
     "part": "Mitgliederverwaltung",
     "name": "Maren Raskob",
