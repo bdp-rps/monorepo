@@ -3,13 +3,13 @@ import ICalParser from 'ical-js-parser'
 const URL =
   'http://p113-caldav.icloud.com/published/2/NTc3MjYxODIwNTc3MjYxOL9EAXRUtN8Jk2TOJ4lytVjeXa1g5MooZp2-uuLqbgfCiUN_eh0zpHmy3xgMbPZEyjPgbw3-p8HkOAKvXJAc5gU'
 
-function getDate(value) {
+function getDate({ value, isAllDay }, isStartDate) {
   const [match, year, month, day] = value.match(
     /([0-9]{4})([0-9]{2})([0-9]{2})/
   )
 
   const date = new Date(year, parseInt(month) - 1, day)
-  return date.valueOf()
+  return date.valueOf() - (isAllDay ? (isStartDate ? -1 : 1) : 0)
 }
 
 function normalizeEvent({
@@ -20,8 +20,9 @@ function normalizeEvent({
   dtstart,
   dtend,
 }) {
-  const startDate = getDate(dtstart.value)
-  const endDate = getDate(dtend.value)
+  console.log(summary, dtend)
+  const startDate = getDate(dtstart, true)
+  const endDate = getDate(dtend, false)
 
   return {
     id: uid,
