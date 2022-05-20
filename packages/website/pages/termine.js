@@ -15,8 +15,6 @@ import Template from '../components/Template'
 import getEvents from '../utils/getEvents'
 
 export default function Page({ events }) {
-  console.log(events)
-
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>

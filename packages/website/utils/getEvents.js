@@ -20,7 +20,6 @@ function normalizeEvent({
   dtstart,
   dtend,
 }) {
-  console.log(summary, dtend)
   const startDate = getDate(dtstart, true)
   const endDate = getDate(dtend, false)
 
