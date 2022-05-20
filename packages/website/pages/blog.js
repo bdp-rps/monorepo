@@ -5,6 +5,7 @@ import {
   Text,
   useTheme,
   Spacer,
+  Grid,
   Tile,
   Link,
 } from '@bdp-rps/ui'
@@ -43,11 +44,11 @@ export default () => {
         paddingTop={10}
         paddingBottom={20}
         extend={{ backgroundColor: 'rgb(240, 240, 240)' }}>
-        <Box space={5}>
-          {manifest.map(post => (
+        <Grid gap={5} columns={['1fr', , '1fr 1fr']}>
+          {manifest.map((post) => (
             <PostTile key={post.id} {...post} />
           ))}
-        </Box>
+        </Grid>
       </Layout>
     </Template>
   )
