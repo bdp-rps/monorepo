@@ -3,13 +3,15 @@ import ICalParser from 'ical-js-parser'
 const URL =
   'http://p113-caldav.icloud.com/published/2/NTc3MjYxODIwNTc3MjYxOL9EAXRUtN8Jk2TOJ4lytVjeXa1g5MooZp2-uuLqbgfCiUN_eh0zpHmy3xgMbPZEyjPgbw3-p8HkOAKvXJAc5gU'
 
+const halfDay = 1000 * 60 * 60 * 12
+
 function getDate({ value, isAllDay }, isStartDate) {
   const [match, year, month, day] = value.match(
     /([0-9]{4})([0-9]{2})([0-9]{2})/
   )
 
   const date = new Date(year, parseInt(month) - 1, day)
-  return date.valueOf() - (isAllDay ? (isStartDate ? -1 : 1) : 0)
+  return date.valueOf() - (isAllDay ? (isStartDate ? -halfDay : halfDay) : 0)
 }
 
 function getLocation(location) {

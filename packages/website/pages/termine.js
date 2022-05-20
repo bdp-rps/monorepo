@@ -21,17 +21,26 @@ export default function Page({ events }) {
         <Box space={8} paddingBottom={10}>
           <Text variant="subtitle">Termine</Text>
 
-          <Box space={4}>
+          <Box space={[8, 6]}>
             {events.map(
               ({ startDate, endDate, location, description, name, id }) => (
-                <Box key={id} space={5} direction="row">
-                  <Text color="blue">
+                <Box key={id} space={[0, 5]} direction={['column', 'row']}>
+                  <Text color="blue" extend={{ width: 100 }}>
                     <DateTime format="dd.MM">{startDate}</DateTime>
-                    {' - '}
-                    <DateTime format="dd.MM">{endDate}</DateTime>
+                    {startDate !== endDate && (
+                      <>
+                        {' - '}
+                        <DateTime format="dd.MM">{endDate}</DateTime>
+                      </>
+                    )}
                   </Text>
                   <Box>
-                    <Text>{name}</Text>
+                    <Text subStyle="emphasis">{name}</Text>
+                    {description && (
+                      <Text extend={{ fontStyle: 'italic' }}>
+                        {description}
+                      </Text>
+                    )}
                     {location && (
                       <Box direction="row" alignItems="center" space={1}>
                         <IconLocation fill="grey2" extend={{ marginTop: -2 }} />
