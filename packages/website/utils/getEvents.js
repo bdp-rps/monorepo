@@ -16,9 +16,10 @@ function getDate({ value, isAllDay }, isStartDate) {
 
 function getLocation(location) {
   return location
-    .replace(/\\n/, ', ')
+    .replace(/\\n/gi, ', ')
     .replace(', Germany', '')
-    .replace(/\\/, '')
+    .replace(', Rhineland-Palatinate', '')
+    .replace(/\\/gi, '')
 }
 
 function normalizeEvent({
