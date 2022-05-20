@@ -12,6 +12,13 @@ function getDate({ value, isAllDay }, isStartDate) {
   return date.valueOf() - (isAllDay ? (isStartDate ? -1 : 1) : 0)
 }
 
+function getLocation(location) {
+  return location
+    .replace(/\\n/, ', ')
+    .replace(', Germany', '')
+    .replace(/\\/, '')
+}
+
 function normalizeEvent({
   uid,
   summary,
@@ -27,7 +34,7 @@ function normalizeEvent({
     id: uid,
     name: summary,
     description,
-    location,
+    location: getLocation(location),
     startDate,
     endDate,
   }
