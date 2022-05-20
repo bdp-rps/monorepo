@@ -89,6 +89,7 @@ export default function Template({ children }) {
           <Box direction={['column', , 'row']}>
             {Object.keys(nav).map((path) => (
               <NavBarItem
+                key={path}
                 href={path}
                 active={
                   path === '/'
@@ -107,6 +108,7 @@ export default function Template({ children }) {
             <Box direction={['column', , 'row']} paddingLeft={5}>
               {Object.keys(subNavs[isSubPage]).map((path) => (
                 <NavBarItem
+                  key={path}
                   href={path.indexOf('http') === -1 ? isSubPage + path : path}
                   active={router.pathname.indexOf(path) !== -1}>
                   {subNavs[isSubPage][path]}

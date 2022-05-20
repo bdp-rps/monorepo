@@ -16,6 +16,8 @@ import Layout from '../components/Layout'
 import Template from '../components/Template'
 import PostTile from '../components/PostTile'
 
+import getEvents from '../utils/getEvents'
+
 import manifest from '../public/blog-manifest.json'
 const [firstPost, ...otherPosts] = manifest
 
@@ -37,7 +39,7 @@ const TextBox = ({ children }) => {
   )
 }
 
-export default () => {
+export default ({ events }) => {
   const theme = useTheme()
 
   return (
@@ -79,4 +81,16 @@ export default () => {
       </Layout>
     </Template>
   )
+}
+
+export async function getStaticProps() {
+  const events = await getEvents()
+
+  return {
+    // alle 20 minuten
+    revalidate: 1200,
+    props: {
+      events,
+    },
+  }
 }
