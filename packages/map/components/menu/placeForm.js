@@ -208,7 +208,7 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
           }
         })
       }}>
-      <TextInput label="Name" {...nameField.props} />
+      <TextInput label="Platzname" {...nameField.props} />
       <SelectInput label="Größe" {...sizeField.props}>
         <option value="" />
         <option value="small">Klein</option>
