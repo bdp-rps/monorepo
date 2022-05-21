@@ -3,7 +3,6 @@ const STRAPI_MAP =
 const STRAPI_URL = 'https://docs.bdp-rps.de'
 
 export default function getPlace(id) {
-  console.log('id', id)
   return fetch(`${STRAPI_URL}/api/places/${id}`, {
     method: 'GET',
     headers: {

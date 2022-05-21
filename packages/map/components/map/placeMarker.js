@@ -46,37 +46,70 @@ const PlaceMarker = ({
   place,
   street,
   postcode,
+  features,
+  url,
 }) => {
   const markerRef = useRef(null)
   const [moreVisible, setMoreVisible] = useState(false)
   if (!lat || !lng) {
     return null
   }
+
   return (
     <Marker icon={placeIcon(type)} position={[lat, lng]} ref={markerRef}>
       <Popup minWidth={90} className="request-popup">
         <PopupTile title={name}>
           <Box>
-            <Text>Größe: {size}</Text>
-            <Text>Typ: {type}</Text>
+            <Text variant="category">Allgemeine Infos</Text>
+            <Text variant="note">Größe: {size}</Text>
+            <Text variant="note">Typ: {type}</Text>
             <Spacer size={2} />
             {moreVisible && (
               <>
-                <Text>
+                <Text variant="category">Kontaktdaten</Text>
+                <Text variant="note">
                   Mail: <a href={`mailTo:${mail}`}>{mail}</a>
                 </Text>
-                <Text>
+                <Text variant="note">
                   Telefonnummer: <a href={`phone:${phone}`}>{phone}</a>
                 </Text>
+                <Text variant="note">
+                  Webseite:{' '}
+                  {url ? (
+                    <a
+                      target="_blank"
+                      href={
+                        url.includes('https://www.')
+                          ? url
+                          : `https://www.${url}`
+                      }>
+                      {url}
+                    </a>
+                  ) : (
+                    <Text variant="note">Keine Angaben</Text>
+                  )}
+                </Text>
                 <Spacer size={2} />
-                <Text>Adresse</Text>
-                <Text>
+                <Text variant="category">Adresse</Text>
+                <Text variant="note">
                   {postcode} {place}
                 </Text>
-                <Text>{street}</Text>
+                <Text note>{street}</Text>
                 <Spacer size={2} />
-                <Text>Beschreibung</Text>
-                <Text>{description}</Text>
+                <Text variant="category">Beschreibung</Text>
+                <Text variant="note">
+                  {description === null || description.isEmpty
+                    ? 'Keine Angaben'
+                    : description}
+                </Text>
+                <Text variant="category">Ausstattung</Text>
+                <Box>
+                  {features
+                    ?.filter((feature) => feature.val)
+                    .map((feature) => (
+                      <Text variant="note">{feature.label}</Text>
+                    ))}
+                </Box>
               </>
             )}
             <Spacer size={4} />

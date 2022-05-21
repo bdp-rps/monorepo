@@ -14,9 +14,13 @@ import {
   Checkbox,
 } from '@bdp-rps/ui'
 
+import { useRouter } from 'next/router'
+
 import postPlaces from '../../api/postPlaces'
 
 const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
+  const router = useRouter()
+
   useEffect(() => {
     if (position) {
       latField.update({
@@ -65,6 +69,10 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
     name: 'place',
     required: true,
   })
+  const urlField = useField({
+    name: 'url',
+  })
+
   const streetField = useField({
     name: 'street',
     required: true,
@@ -76,6 +84,12 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
   const mailField = useField({
     name: 'mail',
     required: true,
+    validation: {
+      'Bitte füge eine valide Email Adresse ein': (val) =>
+        /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/.test(
+          val
+        ),
+    },
   })
   const phoneField = useField({
     name: 'phone',
@@ -84,7 +98,6 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
 
   const descriptionField = useField({
     name: 'firewood',
-    required: true,
   })
 
   const logsField = useBoolField({
@@ -127,7 +140,8 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
     kitchenField,
     drinkingWaterField,
     firewoodField,
-    meetingRoomField
+    meetingRoomField,
+    urlField
   )
 
   return (
@@ -188,6 +202,7 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
               ],
             })
             if (response?.status === 200) {
+              router.reload()
               reset()
             }
           }
@@ -212,6 +227,7 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       <TextInput label="Postleitzahl" {...postcodeField.props} />
       <TextInput label="Email" {...mailField.props} />
       <TextInput label="Telefonnummer" {...phoneField.props} />
+      <TextInput label="Webseite" {...urlField.props} />
       <TextArea {...descriptionField.props} label="Beschreibung" />
       <Accordion summary="Ausstattung">
         <Box space={2}>

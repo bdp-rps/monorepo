@@ -52,7 +52,7 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
       {placeMarkerVisible && (
         <DraggableMarker position={position} setPosition={setPosition} />
       )}
-      {places.map((place) => (
+      {places?.map((place) => (
         <PlaceMarker {...place.attributes} />
       ))}
     </MapContainer>
