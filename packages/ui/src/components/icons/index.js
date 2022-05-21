@@ -47,6 +47,8 @@ import IconChartLine from "./js/chart-line"
 import IconChartPie from "./js/chart-pie"
 import IconChat from "./js/chat"
 import IconCheck from "./js/check"
+import IconChevronDown from "./js/chevron-down"
+import IconChevronUp from "./js/chevron-up"
 import IconClipboard from "./js/clipboard"
 import IconClock from "./js/clock"
 import IconCloudThunder from "./js/cloud-thunder"
@@ -334,6 +336,8 @@ export {
   IconChartPie,
   IconChat,
   IconCheck,
+  IconChevronDown,
+  IconChevronUp,
   IconClipboard,
   IconClock,
   IconCloudThunder,

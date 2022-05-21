@@ -4,12 +4,16 @@ import Provider from './styling/Provider'
 export * from 'ambrose'
 export * from './components/icons'
 
+import Accordion from './components/accordion'
 import Box from './components/box'
 import Button from './components/button'
 import Card from './components/card'
 import Checkbox from './components/checkbox'
+import Click from './components/click'
+import El from './components/el'
 import Fixed from './components/fixed'
 import Grid from './components/grid'
+import IconButton from './components/iconButton'
 import Link from './components/link'
 import List from './components/list'
 import ListItem from './components/listItem'
@@ -28,12 +32,14 @@ import TextArea from './components/textArea'
 import TextInput from './components/textInput'
 import Tile from './components/tile'
 import Toggle from './components/toggle'
+import visuallyHidden from 'ambrose/lib/components/visuallyHidden'
 
 export * from 'ambrose'
 
 export {
   Provider,
   createStyleRenderer,
+  Accordion,
   Box,
   Button,
   Card,
@@ -58,4 +64,7 @@ export {
   TextInput,
   Tile,
   Toggle,
+  Click,
+  El,
+  IconButton,
 }

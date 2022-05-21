@@ -139,7 +139,7 @@ TextInput.propTypes = {
   /** A unique semantic name that is connected to the label. */
   name: PropTypes.string.isRequired,
   /** The controlled value. */
-  value: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   /** Sets the validation state. */
   valid: PropTypes.bool,
   /** Sets disabled. */
