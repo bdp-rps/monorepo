@@ -15,6 +15,7 @@ import NextLink from 'next/link'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 import PostTile from '../components/PostTile'
+import blogPosts from '../api/getBogposts'
 
 import getEvents from '../utils/getEvents'
 
