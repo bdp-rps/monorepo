@@ -1,5 +1,5 @@
-import { useCallback, useMemo, useRef, useState } from 'react'
-import { Marker, Popup, Tooltip } from 'react-leaflet'
+import { useCallback, useMemo, useRef, useState, useEffect } from 'react'
+import { Marker, Popup, Tooltip, useMap } from 'react-leaflet'
 import { icon } from 'leaflet'
 import { Box } from '@bdp-rps/ui'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
@@ -10,8 +10,9 @@ const iconPerson = icon({
   iconSize: new L.Point(36, 36),
 })
 
-const DraggableMarker = ({ setPosition, position }) => {
+const DraggableMarker = ({ setPosition, position, visible }) => {
   const [draggable, setDraggable] = useState(false)
+  const map = useMap()
   const markerRef = useRef(null)
   const eventHandlers = useMemo(
     () => ({
@@ -27,22 +28,32 @@ const DraggableMarker = ({ setPosition, position }) => {
   const toggleDraggable = useCallback(() => {
     setDraggable((d) => !d)
   }, [])
-
+  useEffect(() => {
+    if (visible) {
+      setPosition(map.getCenter())
+    } else {
+      setPosition(null)
+    }
+  }, [visible])
   return (
-    <Marker
-      icon={iconPerson}
-      draggable={true}
-      eventHandlers={eventHandlers}
-      position={position}
-      ref={markerRef}>
-      <Tooltip minWidth={90} permanent>
-        <span>
-          Latitude: {position.lat}
-          <br />
-          Longitude: {position.lng}
-        </span>
-      </Tooltip>
-    </Marker>
+    <>
+      {visible && position !== null && (
+        <Marker
+          icon={iconPerson}
+          draggable={true}
+          eventHandlers={eventHandlers}
+          position={position}
+          ref={markerRef}>
+          <Tooltip minWidth={90} permanent>
+            <span>
+              Latitude: {position.lat}
+              <br />
+              Longitude: {position.lng}
+            </span>
+          </Tooltip>
+        </Marker>
+      )}
+    </>
   )
 }
 
