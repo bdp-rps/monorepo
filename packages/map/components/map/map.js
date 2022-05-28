@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic'
 import { Box } from '@bdp-rps/ui'
 
 import PlaceMarker from './placeMarker'
-import LeafletControlGeocoder from '../../Leaflet-Control-Geocoder'
+import LeafletControlGeocoder from './leafletControlGeocoder'
 
 const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
   const [places, setPlaces] = useState([])
