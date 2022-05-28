@@ -49,9 +49,13 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {placeMarkerVisible && (
-        <DraggableMarker position={position} setPosition={setPosition} />
-      )}
+
+      <DraggableMarker
+        position={position}
+        visible={placeMarkerVisible}
+        setPosition={setPosition}
+      />
+
       {places?.map((place) => (
         <PlaceMarker {...place.attributes} />
       ))}
