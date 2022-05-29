@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'leaflet-control-geocoder'
 
 import getPlaces from '../../api/getPlaces'
 
@@ -9,6 +10,7 @@ import dynamic from 'next/dynamic'
 import { Box } from '@bdp-rps/ui'
 
 import PlaceMarker from './placeMarker'
+import LeafletControlGeocoder from './leafletControlGeocoder'
 
 const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
   const [places, setPlaces] = useState([])
@@ -59,7 +61,10 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
       {places?.map((place) => (
         <PlaceMarker {...place.attributes} />
       ))}
+    <LeafletControlGeocoder></LeafletControlGeocoder>
     </MapContainer>
+  
+    
   )
 }
 
