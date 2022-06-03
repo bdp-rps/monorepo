@@ -16,19 +16,16 @@ import NextLink from 'next/link'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 import PostTile from '../components/PostTile'
-import blogPosts from '../api/getBlogposts'
 
 import getEvents from '../utils/getEvents'
 
-import manifest from '../public/blog-manifest.json'
 import getBlogposts from '../api/getBlogposts'
 
-export default ({ events, posts }) => {
+export default function page({ events, posts }) {
   const theme = useTheme()
 
-  const [firstPost, ...otherPosts] = posts.data
-  console.log('firstPost', firstPost)
-  console.log('otherPosts', otherPosts)
+  const [firstPost, ...otherPosts] = posts
+
   return (
     <Template>
       <Layout paddingTop={5} paddingBottom={5}>
@@ -43,6 +40,8 @@ export default ({ events, posts }) => {
         </Box>
       </Layout>
       <Layout
+        grow={1}
+        alignSelf="stretch"
         paddingTop={5}
         paddingBottom={10}
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
@@ -70,13 +69,15 @@ export default ({ events, posts }) => {
 export async function getStaticProps() {
   const events = await getEvents()
   const posts = await getBlogposts()
-
   return {
     // alle 20 minuten
     revalidate: 1200,
     props: {
       events,
-      posts,
+      posts: posts.data.sort(
+        (a, b) =>
+          new Date(b.attributes.publish) - new Date(a.attributes.publish)
+      ),
     },
   }
 }

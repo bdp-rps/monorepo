@@ -30,12 +30,11 @@ const Title = ({ children }) => {
   )
 }
 
-export default ({ children, meta }) => {
+export default ({ children, meta, image }) => {
   const router = useRouter()
   const id = router.pathname.replace('/blog/', '')
-
   return (
-    <Template>
+    <Template backgroundImage={`url("https://docs.bdp-rps.de${image}")`}>
       <Layout paddingTop={10} paddingBottom={20}>
         <NextLink href="/blog" passHref>
           <Link>← Zurück zur Übersicht</Link>
@@ -44,8 +43,8 @@ export default ({ children, meta }) => {
         <Title>{meta.title}</Title>
         <Spacer size={1} />
         <Text variant="note">
-          von {meta.author.name} ({meta.author.position}), veröffentlicht am{' '}
-          {meta.date.day} {months[meta.date.month - 1]}, {meta.date.year}
+          von {meta.author.name}, veröffentlicht am {meta.date.day}{' '}
+          {months[meta.date.month - 1]}, {meta.date.year}
         </Text>
         <Spacer size={8} />
         <MDXProvider
