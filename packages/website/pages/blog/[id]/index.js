@@ -30,12 +30,13 @@ export async function getStaticPaths() {
   const blogposts = await getBlogposts()
 
   return {
-    fallback: true,
-    paths: blogposts.data.map((blogpost) => ({
-      params: {
-        id: String(blogpost.id),
-      },
-    })),
+    fallback: false,
+    paths:
+      blogposts.data.map((blogpost) => ({
+        params: {
+          id: String(blogpost.id),
+        },
+      })) || [],
   }
 }
 

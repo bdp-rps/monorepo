@@ -69,6 +69,7 @@ export default function page({ events, posts }) {
 export async function getStaticProps() {
   const events = await getEvents()
   const posts = await getBlogposts()
+  
   return {
     // alle 20 minuten
     revalidate: 1200,
