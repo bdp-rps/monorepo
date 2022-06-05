@@ -156,7 +156,7 @@ export default function Template({
               <Text variant="category">Soziales</Text>
               <Spacer size={0.5} />
               <Link href="https://www.facebook.com/bdprps">Facebook</Link>
-              <Link href="https://instagram.com/bdp_lv_rps/">Instagram</Link>
+              <Link href="https://instagram.com/pfadfinden_rps/">Instagram</Link>
             </Box>
           </Box>
           <Text>
