@@ -47,7 +47,10 @@ const subNavs = {
   },
 }
 
-export default function Template({ children }) {
+export default function Template({
+  children,
+  backgroundImage = 'url("/images/bg.jpg")',
+}) {
   const router = useRouter()
   const theme = useTheme()
 
@@ -62,7 +65,7 @@ export default function Template({ children }) {
         minHeight={[200, , , 230]}
         height={['12vh', , , '20vh']}
         extend={{
-          backgroundImage: 'url("/images/bg.jpg")',
+          backgroundImage: backgroundImage,
           backgroundSize: 'cover',
           backgroundPosition: '70% 50%',
           width: '100%',
