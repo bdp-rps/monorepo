@@ -12,6 +12,7 @@ export default () => {
           <Box space={4}>
             <Button href="/blog">Blogbeiträge</Button>
             <Button href="/bdp/ausbildung">Ausbildung</Button>
+            <Button href="/termine">Termine</Button>
             <Button href="https://www.watoto-kabisa.de/">Keniaprojekt</Button>
             <Button href="https://www.pfadfinden.de/">
               Unsere Bundesseite

@@ -7,3 +7,8 @@
    background: transparent !important;
    box-shadow: none !important
  }
+
+ .leafletControlGeocoder {
+   background: transparent !important;
+   box-shadow: none !important;
+ }

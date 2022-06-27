@@ -5,7 +5,6 @@ import "leaflet-control-geocoder/dist/Control.Geocoder.js";
 import L from "leaflet";
 import icon from "../../constants";
 
-
 export default function LeafletControlGeocoder() {
   const map = useMap();
 
@@ -21,10 +20,9 @@ export default function LeafletControlGeocoder() {
         console.warn("Unsupported geocoder", geocoderString);
       }
     }
-
     L.Control.geocoder({
       query: "",
-      placeholder: "Search here...",
+      placeholder: "Suche starten...",
       defaultMarkGeocode: false,
       geocoder
     })

@@ -11,6 +11,7 @@ import { Box } from '@bdp-rps/ui'
 
 import PlaceMarker from './placeMarker'
 import LeafletControlGeocoder from './leafletControlGeocoder'
+import { IconBox } from '@bdp-rps/ui/lib/components/icons'
 
 const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
   const [places, setPlaces] = useState([])
@@ -60,11 +61,9 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
 
       {places?.map((place) => (
         <PlaceMarker {...place.attributes} />
-      ))}
-    <LeafletControlGeocoder></LeafletControlGeocoder>
+      ))}x
+      <LeafletControlGeocoder/>
     </MapContainer>
-  
-    
   )
 }
 
