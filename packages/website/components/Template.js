@@ -43,6 +43,7 @@ const subNavs = {
     '/watato-kabisa': 'Watato Kabisa',
     '/intakt': 'Intakt',
     '/liedgut': 'Liedgut',
+    '/termine': 'Termine',
     // '/geschichte': 'Geschichte',
   },
 }

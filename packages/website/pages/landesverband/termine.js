@@ -9,10 +9,10 @@ import {
   IconLocation,
 } from '@bdp-rps/ui'
 
-import Layout from '../components/Layout'
-import Template from '../components/Template'
+import Layout from '../../components/Layout'
+import Template from '../../components/Template'
 
-import getEvents from '../utils/getEvents'
+import getEvents from '../../utils/getEvents'
 
 export default function Page({ events }) {
   return (
