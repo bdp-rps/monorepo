@@ -22,6 +22,10 @@ function getLocation(location) {
     .replace(/\\/gi, '')
 }
 
+function getDescription(description) {
+  return description.replace(/\\n/gi, '<br />')
+}
+
 function normalizeEvent({
   uid,
   summary,
@@ -36,7 +40,7 @@ function normalizeEvent({
   return {
     id: uid,
     name: summary,
-    description,
+    description: getDescription(description),
     location: getLocation(location),
     startDate,
     endDate,
