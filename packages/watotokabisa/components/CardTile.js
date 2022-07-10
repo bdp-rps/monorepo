@@ -20,7 +20,7 @@ export default function CardTile({
         extend={{
           border: '2px solid black',
           borderRadius: theme.tokens.borderRadius,
-          background: theme.tokens.primary,
+          background: 'background.primary',
           padding: 0,
           overflow: 'hidden',
         }}>

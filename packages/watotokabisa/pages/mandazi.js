@@ -28,10 +28,10 @@ export default () => {
         <meta type="description" content="Rezept für Mandazis" />
       </Head>
 
-      <Box bg="background.primary">
+      <Box bg="background.accent">
         <Layout space={15} paddingTop={15} paddingBottom={25}>
-          <Box space={4}>
-            <Box maxWidth={theme.maxReadWidth}>
+          <CardTile title="Mandazi Rezept" image={'mandazi'} imageHeight={500}>
+            <Box space={4}>
               <Text>
                 Mandazi sind süße Teigkrapfen, ähnliche wie Berliner oder
                 Donuts, die in Kenia sehr viel im Alltag und zu Feierlichkeiten
@@ -41,10 +41,6 @@ export default () => {
                 Fritteuse, in einem Topf auf dem Herd oder im Freien auf dem
                 Feuer machen.
               </Text>
-            </Box>
-          </Box>
-          <CardTile title="Mandazi Rezept" image={'mandazi'} imageHeight={500}>
-            <Box space={4}>
               <Box space={2}>
                 <Text variant="subtitle">Zutaten</Text>
                 <br />
