@@ -1,8 +1,6 @@
 import { Box, Tile, Text } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
-import months from '../data/months.json'
-
 export default function PostTile({ id, highlight, ...post }) {
   const { image, title, text, subtitle, publish, author } = post.attributes
   return (
