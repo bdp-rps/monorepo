@@ -11,16 +11,12 @@ export default async function handler({ body }, res) {
     },
   })
 
-  console.log(body)
-
   const mail = {
     from: `"Mitglieder-Service" <mitglieder@watoto-kabisa.de>`,
     to: 'robin@watoto-kabisa.de',
     subject: 'Mitgliedsantrag - ' + body.name,
     text: JSON.stringify(body, null, 2),
   }
-
-  console.log(mail)
 
   // send mail with defined transport object
   try {
