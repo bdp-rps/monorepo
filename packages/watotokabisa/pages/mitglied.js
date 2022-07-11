@@ -126,6 +126,8 @@ function RegisterForm() {
             e.preventDefault()
 
             submit(async (isValid, data) => {
+              console.log(data)
+
               if (isValid) {
                 setLoading(true)
 

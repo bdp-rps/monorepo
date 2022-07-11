@@ -11,19 +11,29 @@ export default async function handler({ body }, res) {
     },
   })
 
+  console.log(body)
+
   const mail = {
-    from: `"${body.name}" <${body.email}>`,
+    from: `"Mitglieder-Service" <mitglieder@watoto-kabisa.de>`,
     to: 'robin@watoto-kabisa.de',
     subject: 'Mitgliedsantrag - ' + body.name,
     text: JSON.stringify(body, null, 2),
   }
 
-  // send mail with defined transport object
-  const result = await transporter.sendMail(mail)
+  console.log(mail)
 
-  if (result?.accepted?.length > 0) {
-    res.status(200).json({ status: 'done' })
-  } else {
+  // send mail with defined transport object
+  try {
+    const result = await transporter.sendMail(mail)
+
+    if (result?.accepted?.length > 0) {
+      res.status(200).json({ status: 'done' })
+    } else {
+      res.status(400).json({ status: 'error' })
+    }
+  } catch (e) {
+    console.log(e)
+
     res.status(400).json({ status: 'error' })
   }
 }
