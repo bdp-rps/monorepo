@@ -13,7 +13,7 @@ import Layout from '../components/Layout'
 import Template from '../components/Template'
 import CardTile from '../components/CardTile'
 
-import image from '../public/images/mandazi.jpg'
+import image from '../public/images/berg.jpg'
 
 export default () => {
   const theme = useTheme()
