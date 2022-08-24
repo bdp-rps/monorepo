@@ -1,0 +1,37 @@
+{
+  "notation": "X:1\nT:Unter dem Pflaster\nM:4/4\nL:1/8\nQ:100\nK:A\nz C E G F G1/ F3/2 C | z D F A G/ F3/2 E2 | \nz C E G F G1/ F3/2 C| z D F A G3/2 F/ E2 | |\nK:Am\nz E C E D/ B,3/2-B, D | C B,/A,/ G, A,2 z2 | \nz E C E D2 B, D | C A, B,/A,/ G, A,2 z2 ||\n\n ",
+  "content": "{A}  Komm lass dich {fis} nicht erweichen,{h}  bleib hart an deinem Kern,\n{A}  Rutsch nicht in {fis} ihre Weichen,{h}  treib dich nicht selbst dir fern.\n\nRefrain:\n{a}  Unter dem {G} Pflaster, ja {a}da {G}liegt der {a}Strand,\n{a} Komm reiß auch {G}du ein paar {a} Steine {G}aus dem {a}Sand.\n\nKomm lass die nicht erzählen, was du zu lassen hast.\nDu kannst doch selber wählen, nur langsam, keine Hast.\n\nZieh' die Schuhe aus, die schon so lang dich drücken.\nLieber barfuß lauf, aber nicht auf ihren Krücken.\n\nDreh' dich und tanz, dann könn'n sie dich nicht packen.\nVerscheuch' sie ganz mit deinem lauten Lachen.\n\n\nDie größte Kraft ist deine Phantasie.\nWirf die Ketten weg und schmeiß sie gegen die,\nDie mit ihrer Macht deine Kräfte brechen wollen.",
+  "title": "Unter dem Pflaster",
+  "words": [
+    {
+      "name": "Angi Domdey",
+      "nickname": "",
+      "group": "Schneewitchen",
+      "organisation": "",
+      "year": "1978"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Angi Domdey",
+      "nickname": "",
+      "group": "Schneewitchen",
+      "organisation": "",
+      "year": "1978"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1661358254236,
+      "name": "Timon ",
+      "mail": "timonflick@outlook.com",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
