@@ -59,14 +59,14 @@ export default () => {
             Jugendverband
           </Text>
           <Text>
-            <b>Gesetzliche Vertreter:</b>
+            <b>Gesetzliche Vertreter*innen:</b>
             <br />
-            Timon Flick
             <br />
             Wiebke Spieß
             <br />
-            Konstantin
+            Konstantin Iland
             <br />
+            Timon Flick
             <br />
             <br />
             <br />
@@ -92,7 +92,7 @@ export default () => {
             Haftung für die Inhalte externer Links.
             <br />
             Für den Inhalt der verlinkten Seiten sind ausschließlich deren
-            Betreiber verantwortlich.
+            Betreiber*innen verantwortlich.
           </Text>
         </Box>
       </Layout>

@@ -16,6 +16,7 @@ import Layout from './Layout'
 const nav = {
   '/': 'Startseite',
   '/blog': 'Blog',
+  '/aufbaugruppe': 'Aufbaugruppe',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
@@ -32,8 +33,6 @@ const subNavs = {
   },
   '/digital': {
     '/downloads': 'Downloads',
-    'https://cloud.bdp-rps.de': 'Cloud',
-    '/apps': 'Apps',
   },
   '/landesverband': {
     '/landesleitung': 'Landesleitung',
@@ -44,7 +43,6 @@ const subNavs = {
     '/intakt': 'Intakt',
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
-    // '/geschichte': 'Geschichte',
   },
 }
 
@@ -134,7 +132,7 @@ export default function Template({
               <Spacer size={0.5} />
               <Link href="/impressum">Impressum</Link>
               <Link href="/datenschutz">Datenschutz</Link>
-              <Link href="/landesverband/landesleitung">Kontakt</Link>
+              <Link href="/kontakt">Kontakt</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Andere Seiten</Text>
