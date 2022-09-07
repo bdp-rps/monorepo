@@ -1,0 +1,37 @@
+{
+  "notation": "\"C\"E2|E3EE2C2|\"E\"E5zE|\"a\"A2AA A^GAB|\n\"E\"^G4E4|\"C\"G4G2G2|\"G7\"G2F2\"C\"E4|\"G7\"E4\"C\"F2G2|\"F\"A4\"C\"G4|\n\"C\"G4G2G2|\"G7\"G2F2\"C\"E4|C4\"G\"G2G2|G2F2\"C\"E4|]",
+  "content": "{C}Die Feuer sind ver{E}raucht\nver{a}flogen der Klang unsrer {E}Lieder.\n{C}Ziehender {G7}Vögel {C}Ruf:\nKeh{G7}ren {C}bald {F}wie{C}der\nC}Ziehender {G7}Vögel {C}Ruf:\nKeh{G7}ren {C}bald {G}wie{C}der.\n\nDer Reif ziert Laub und Gras\nverrauscht sind unsre Feste - vorrüber.\n/: Scheidender Freunde Gruß:\nsehen uns wieder! :/",
+  "title": "Die Feuer sind verraucht",
+  "words": [
+    {
+      "name": "Rudi Rogoll",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1955"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Rudi Rogoll",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1955"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "80",
+  "info": "",
+  "changes": [
+    {
+      "date": 1662551392569,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
