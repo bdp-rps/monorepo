@@ -40,7 +40,7 @@ const subNavs = {
     '/staemme': 'Stämme',
     '/leitsaetze': 'Leitsätze',
     '/club-29': 'Club 29',
-    '/watato-kabisa': 'Watato Kabisa',
+    '/watato-kabisa': 'Watoto Kabisa',
     '/intakt': 'Intakt',
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
@@ -157,7 +157,9 @@ export default function Template({
               <Text variant="category">Soziales</Text>
               <Spacer size={0.5} />
               <Link href="https://www.facebook.com/bdprps">Facebook</Link>
-              <Link href="https://instagram.com/pfadfinden_rps/">Instagram</Link>
+              <Link href="https://instagram.com/pfadfinden_rps/">
+                Instagram
+              </Link>
             </Box>
           </Box>
           <Text>
