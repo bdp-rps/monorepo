@@ -153,7 +153,7 @@ export default function Template({
               </Link>
             </Box>
             <Box space={2} grow={1}>
-              <Text variant="category">Soziales</Text>
+              <Text variant="category">Soziale Medien</Text>
               <Spacer size={0.5} />
               <Link href="https://instagram.com/pfadfinden_rps/">
                 Instagram
