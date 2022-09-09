@@ -1,6 +1,8 @@
 import React from 'react'
 import { Text, Spacer, Link, Box, useTheme } from '@bdp-rps/ui'
-import { MDXProvider } from '@mdx-js/react'
+
+import ReactMarkdown from 'react-markdown'
+
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -30,7 +32,7 @@ const Title = ({ children }) => {
   )
 }
 
-export default ({ children, meta, image }) => {
+export default ({ children, meta, image }, props) => {
   const router = useRouter()
   const id = router.pathname.replace('/blog/', '')
   return (
@@ -44,10 +46,11 @@ export default ({ children, meta, image }) => {
         <Spacer size={1} />
         <Text variant="note">
           von {meta.author.name}, veröffentlicht am {meta.date.day}{' '}
-          {months[meta.date.month - 1]}, {meta.date.year}
+          {months[meta.date.month]}, {meta.date.year}
         </Text>
         <Spacer size={8} />
-        <MDXProvider
+        <ReactMarkdown
+          escapeHtml={false}
           components={{
             p: ({ children }) => (
               <Text as="p" extend={{ marginBottom: 18 }}>
@@ -60,6 +63,9 @@ export default ({ children, meta, image }) => {
             h4: ({ children }) => <Text>{children}</Text>,
             h5: ({ children }) => <Text variant="note">{children}</Text>,
             a: ({ href, children }) => <Link href={href}>{children}</Link>,
+            br: () => <br />,
+            n: () => <br />,
+            hr: () => <Text>Hallo</Text>,
             img: ({ src, title, alt, extend, ...props }) => (
               <Box
                 as="img"
@@ -76,8 +82,8 @@ export default ({ children, meta, image }) => {
               />
             ),
           }}>
-          <main>{children}</main>
-        </MDXProvider>
+          {children}
+        </ReactMarkdown>
       </Layout>
     </Template>
   )
