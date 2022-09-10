@@ -11,11 +11,11 @@ import {
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 
-import Layout from '../../components/Layout'
-import Template from '../../components/Template'
-import PostTile from '../../components/PostTile'
+import Layout from '../../../components/Layout'
+import Template from '../../../components/Template'
+import PostTile from '../../../components/PostTile'
 
-import getBlogposts from '../../api/getBlogposts'
+import { getBlogposts } from '../../../api/getBlogposts'
 
 export default ({ posts }) => {
   const theme = useTheme()
@@ -28,7 +28,11 @@ export default ({ posts }) => {
         extend={{ backgroundColor: 'rgb(240, 240, 240)' }}>
         <Grid gap={5} columns={['1fr', , '1fr 1fr']}>
           {posts.map((post) => (
-            <PostTile key={post.id} {...post} />
+            <PostTile
+              key={post.id}
+              href={`/landesverband/blog/${post.id}`}
+              {...post}
+            />
           ))}
         </Grid>
       </Layout>

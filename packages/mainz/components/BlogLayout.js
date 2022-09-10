@@ -32,13 +32,18 @@ const Title = ({ children }) => {
   )
 }
 
-export default ({ children, meta, image }, props) => {
+export default (
+  { children, meta, image, href = '/landesverband/blog/' },
+  props
+) => {
   const router = useRouter()
   const id = router.pathname.replace('/blog/', '')
   return (
-    <Template backgroundImage={`url("https://docs.bdp-rps.de${image}")`}>
+    <Template
+      backgroundImage={`url("https://docs.bdp-rps.de${image}")`}
+      imageHeight={['12vh', , , '80vh']}>
       <Layout paddingTop={10} paddingBottom={20}>
-        <NextLink href="/blog" passHref>
+        <NextLink href={href} passHref>
           <Link>← Zurück zur Übersicht</Link>
         </NextLink>
         <Spacer size={5} />
@@ -65,7 +70,6 @@ export default ({ children, meta, image }, props) => {
             a: ({ href, children }) => <Link href={href}>{children}</Link>,
             br: () => <br />,
             n: () => <br />,
-            hr: () => <Text>Hallo</Text>,
             img: ({ src, title, alt, extend, ...props }) => (
               <Box
                 as="img"

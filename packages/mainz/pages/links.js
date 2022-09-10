@@ -10,7 +10,10 @@ export default () => {
         <Box space={8} paddingBottom={10}>
           <Text variant="subtitle">Links</Text>
           <Box space={4}>
-            <Button href="/blog">Blogbeiträge</Button>
+            <Button href="/landesverband/blog/">
+              Blogbeiträge Landesverband
+            </Button>
+            <Button href="/blog/stamm">Blogbeiträge Aufbaugruppe</Button>
             <Button href="/bdp/ausbildung">Ausbildung</Button>
             <Button href="https://www.watoto-kabisa.de/">Keniaprojekt</Button>
             <Button href="https://www.pfadfinden.de/">

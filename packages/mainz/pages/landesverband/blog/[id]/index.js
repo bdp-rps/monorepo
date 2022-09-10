@@ -1,9 +1,9 @@
 import React from 'react'
 import { Box, Text } from '@bdp-rps/ui'
-import BlogLayout from '../../../components/BlogLayout'
+import BlogLayout from '../../../../components/BlogLayout'
 
-import getBlogposts from '../../../api/getBlogposts'
-import getBlogpost from '../../../api/getBlogPost'
+import { getBlogposts } from '../../../../api/getBlogposts'
+import {getBlogpost} from '../../../../api/getBlogPost'
 
 export default function Page({ blogpost }) {
   const { image, title, text, subtitle, publish, author } =
