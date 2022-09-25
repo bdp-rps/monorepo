@@ -6,22 +6,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "deploy": "vercel --prod",
-    "prepare": "echo 1"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@bdp-rps/ui": "^0.0.25",
-    "@mdx-js/loader": "^1.5.8",
-    "@mdx-js/react": "^1.5.8",
     "@next/bundle-analyzer": "9.3.4",
-    "@next/mdx": "^12.0.7",
     "ical-js-parser": "^0.6.0",
     "next": "^12.0.7",
     "node-fetch": "^2.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-markdown": "^8.0.3",
     "rehype-slug": "3.0.0"
   },
   "devDependencies": {

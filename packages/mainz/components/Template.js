@@ -15,8 +15,7 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
-  '/blog': 'Blog',
-  '/aufbaugruppe': 'Aufbaugruppe',
+  '/stamm': 'Aufbaugruppe',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
@@ -43,12 +42,17 @@ const subNavs = {
     '/intakt': 'Intakt',
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
+    '/blog': 'Blog',
+  },
+  '/stamm': {
+    '/blog': 'Blog',
   },
 }
 
 export default function Template({
   children,
   backgroundImage = 'url("/images/bg.jpg")',
+  imageHeight = ['12vh', , , '40vh'],
 }) {
   const router = useRouter()
   const theme = useTheme()
@@ -62,7 +66,7 @@ export default function Template({
       <Box
         paddingBottom={[1, , , 2]}
         minHeight={[200, , , 230]}
-        height={['12vh', , , '20vh']}
+        height={imageHeight}
         extend={{
           backgroundImage: backgroundImage,
           backgroundSize: 'cover',
