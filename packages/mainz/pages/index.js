@@ -45,8 +45,7 @@ export default function page({ events, posts, postsMainz }) {
             werden: <br />
             <Text subStyle="emphasis">
               {' '}
-              schon im November wollen wir mit den ersten Gruppenstunden in der
-              Mainzer Neustadt loslegen.{' '}
+              schon am 09 November ab 17 Uhr wollen wir mit der ersten Gruppenstunde am Goethepark in der Mainzer Neustadt loslegen.{' '}
             </Text>
           </Text>
         </Box>
@@ -56,7 +55,7 @@ export default function page({ events, posts, postsMainz }) {
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
           <Tile
             title="Die Menschen hinter der Aufbaugruppe"
-            image={`/images/gemeinschaft_freunde.jpg`}
+            image={`/images/sternhimmel_bula.jpg`}
             imageHeight={500}>
             <Box>
               <Text>
@@ -106,7 +105,6 @@ export default function page({ events, posts, postsMainz }) {
         <Text variant="subtitle">Das läuft in unserem Landesverband.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
-            {console.log(firstPost.id)}
             <PostTile
               highlight
               href={'/landesverband/blog/' + firstPost.id}

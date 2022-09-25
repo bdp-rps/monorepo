@@ -38,7 +38,6 @@ export default ({ posts }) => {
 
 export async function getStaticProps() {
   const posts = await getBlogpostsMainz()
-  console.log(posts)
   return {
     // alle 20 minuten
     revalidate: 1200,
