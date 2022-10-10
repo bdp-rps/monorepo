@@ -45,7 +45,8 @@ export default function page({ events, posts, postsMainz }) {
             werden: <br />
             <Text subStyle="emphasis">
               {' '}
-              schon am 09 November ab 17 Uhr wollen wir mit der ersten Gruppenstunde am Goethepark in der Mainzer Neustadt loslegen.{' '}
+              schon am 09 November ab 17 Uhr wollen wir mit der ersten
+              Gruppenstunde am Goethepark in der Mainzer Neustadt loslegen.{' '}
             </Text>
           </Text>
         </Box>
@@ -61,8 +62,8 @@ export default function page({ events, posts, postsMainz }) {
               <Text>
                 Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktier
                 uns doch gerne über{' '}
-                <Link href="mailTo:pfadfinden-mainz@bdp-rps.de">
-                  pfadfinden-mainz[at]bdp-rps.de
+                <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                  pfadfinden[at]bdp-mainz.de
                 </Link>
               </Text>
             </Box>
