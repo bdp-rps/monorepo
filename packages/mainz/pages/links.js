@@ -19,6 +19,9 @@ export default () => {
         <Box space={8} paddingBottom={10}>
           <Text variant="subtitle">Links</Text>
           <Box space={4}>
+            <Button href="https://wa.me/message/AFS5J32ZUO6ZI1">
+              Whatsapp Gruppe
+            </Button>
             <Button href="mailTo:pfadfinden@bdp-mainz.de">
               pfadfinden[at]bdp-mainz.de
             </Button>
