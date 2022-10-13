@@ -10,6 +10,12 @@ export default () => {
         <Box space={8} paddingBottom={10}>
           <Text variant="subtitle">Links</Text>
           <Box space={4}>
+            <Button href="mailTo:pfadfinden@bdp-mainz.de">
+              pfadfinden[at]bdp-mainz.de
+            </Button>
+            <Button href="https://instagram.com/pfadfinden_mainz/">
+              Instagram
+            </Button>
             <Button href="/landesverband/blog/">
               Blogbeiträge Landesverband
             </Button>
