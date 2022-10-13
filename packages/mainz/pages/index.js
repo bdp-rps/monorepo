@@ -12,6 +12,7 @@ import {
   Grid,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -29,6 +30,13 @@ export default function page({ events, posts, postsMainz }) {
 
   return (
     <Template>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Startseite</title>
+        <meta
+          name="description"
+          content="Startseite für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+        />
+      </Head>
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text variant="category">Ahoi und Hallo!</Text>

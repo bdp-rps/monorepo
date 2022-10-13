@@ -1,4 +1,6 @@
 import { useRouter } from 'next/router'
+import Head from 'next/head'
+
 import { useFela } from 'react-fela'
 
 import {
@@ -21,6 +23,13 @@ export default () => {
 
   return (
     <Template>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Leitsätze</title>
+        <meta
+          name="description"
+          content="Pfadfinder Aufbaugruppe Mainz Unsere Leitsätze und Richtwerte um in einer Gemeinschaft zu leben."
+        />
+      </Head>
       <Layout paddingTop={5} paddingBottom={10}>
         <Box>
           <Text>

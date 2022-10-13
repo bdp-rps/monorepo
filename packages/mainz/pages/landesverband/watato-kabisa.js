@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import {
   Box,
@@ -19,6 +20,13 @@ export default () => {
 
   return (
     <Template>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Watoto Kabisa</title>
+        <meta
+          name="description"
+          content="Pfadfinder Aufbaugruppe Mainz Bereich für unser soziales Kenia Projekt Watoto Kabisa"
+        />
+      </Head>
       <Layout paddingTop={10} paddingBottom={15}>
         <Text variant="subtitle">Watoto Kabisa</Text>
         <Spacer size={4} />

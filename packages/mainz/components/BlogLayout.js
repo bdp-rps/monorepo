@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown'
 
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import Layout from './Layout'
 import Template from './Template'
@@ -42,6 +43,13 @@ export default (
     <Template
       backgroundImage={`url("https://docs.bdp-rps.de${image}")`}
       imageHeight={['12vh', , , '80vh']}>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Blog Post {meta.title}</title>
+        <meta
+          name="description"
+          content={`Blog Post ${meta.title} für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP`}
+        />
+      </Head>
       <Layout paddingTop={10} paddingBottom={20}>
         <NextLink href={href} passHref>
           <Link>← Zurück zur Übersicht</Link>

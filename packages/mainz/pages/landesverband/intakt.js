@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import { Box, Text, Spacer, Tile, Link } from '@bdp-rps/ui'
 
@@ -10,6 +11,15 @@ import intakt from '../../data/intakt.json'
 export default () => (
   <Template>
     <Layout paddingTop={5} paddingBottom={10}>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Intakt</title>
+        <meta
+          name="description"
+          content="Pfadfinder Aufbaugruppe Mainz Arbeitskreis für Schutz vor
+          physischer, psychischer oder speziell sexualisierter Gewalt an
+          Kindern und Jugendlichen im Bund"
+        />
+      </Head>
       <Text variant="subtitle">INTAKTOPUS</Text>
 
       <Box space={2}>
@@ -18,11 +28,11 @@ export default () => (
           Wir sind INTAKTOPUS, das neu gegründete Intakt-Team des LV RPS. Wir
           haben uns zusammengefunden um das Interesse des Bundesarbeits- kreis
           INTAKT verstärkt in unseren LV zu tragen. Dazu gehören der Schutz vor
-          physischer, psychischer oder spe- ziell sexualisierter Gewalt an
-          Kindern und Jugendlichen im Bund. Unser Ziel ist es die
-          Präventionsarbeit im LV zu verstärken und auf Kursen wie auch in euren
-          Stämmen präsenter zu machen. Auch wollen wir dafür sorgen dass ihr
-          immer wisst wen ihr bei Problemen ansprechen könnt.
+          physischer, psychischer oder speziell sexualisierter Gewalt an Kindern
+          und Jugendlichen im Bund. Unser Ziel ist es die Präventionsarbeit im
+          LV zu verstärken und auf Kursen wie auch in euren Stämmen präsenter zu
+          machen. Auch wollen wir dafür sorgen dass ihr immer wisst wen ihr bei
+          Problemen ansprechen könnt.
         </Text>
       </Box>
     </Layout>

@@ -9,6 +9,8 @@ import {
   IconLocation,
 } from '@bdp-rps/ui'
 
+import Head from 'next/head'
+
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
@@ -31,6 +33,13 @@ export default function Page({ events }) {
 
   return (
     <Template>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Termine</title>
+        <meta
+          name="description"
+          content="Pfadfinder Aufbaugruppe Mainz Termine aus dem Landesverband"
+        />
+      </Head>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={8} paddingBottom={10}>
           <Text variant="title">Termine</Text>

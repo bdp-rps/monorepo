@@ -9,6 +9,8 @@ import {
   Link,
 } from '@bdp-rps/ui'
 
+import Head from 'next/head'
+
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 
@@ -17,6 +19,13 @@ export default () => {
 
   return (
     <Template>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Kontakt</title>
+        <meta
+          name="description"
+          content="Kontakt für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+        />
+      </Head>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box
           marginBottom={4}

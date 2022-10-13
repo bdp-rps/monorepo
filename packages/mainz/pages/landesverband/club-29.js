@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import {
   Box,
@@ -16,6 +17,13 @@ import Template from '../../components/Template'
 
 export default () => (
   <Template>
+    <Head>
+      <title>Pfadfinder Aufbaugruppe Mainz Club 29</title>
+      <meta
+        name="description"
+        content=" Pfadfinder Aufbaugruppe Mainz Club 29 Arbeitskreis für ehmalige"
+      />
+    </Head>
     <Layout paddingTop={10} paddingBottom={15}>
       <Text variant="subtitle">Für Ehemalige</Text>
       <Spacer size={4} />
