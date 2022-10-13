@@ -14,8 +14,17 @@ import Template from '../../components/Template'
 
 import staemme from '../../data/staemme.json'
 
+import Head from 'next/head'
+
 export default () => (
   <Template>
+    <Head>
+      <title>Pfadfinder Aufbaugruppe Mainz Stämme</title>
+      <meta
+        name="description"
+        content="Pfadfinder Aufbaugruppe Mainz Bereich für die Stämme, also Ortsgruppen."
+      />
+    </Head>
     <Layout
       paddingTop={10}
       paddingBottom={15}

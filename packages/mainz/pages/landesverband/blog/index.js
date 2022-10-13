@@ -9,7 +9,9 @@ import {
   Tile,
   Link,
 } from '@bdp-rps/ui'
+
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import Layout from '../../../components/Layout'
 import Template from '../../../components/Template'
@@ -22,6 +24,15 @@ export default ({ posts }) => {
 
   return (
     <Template>
+      <Head>
+        <title>
+          Pfadfinder Aufbaugruppe Mainz Rheinland Pfalz Saar Landesverband Blog
+        </title>
+        <meta
+          name="description"
+          content="Pfadfinder Aufbaugruppe Mainz Rheinland Pfalz Saar Landesverband Blog"
+        />
+      </Head>
       <Layout
         paddingTop={10}
         paddingBottom={20}

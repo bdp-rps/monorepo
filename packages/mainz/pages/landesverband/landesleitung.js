@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import {
   Box,
@@ -27,13 +28,20 @@ const parts = landesleitung.reduce((parts, member) => {
 
 export default () => (
   <Template>
+    <Head>
+      <title>Pfadfinder Aufbaugruppe Mainz Landesleitung</title>
+      <meta
+        name="description"
+        content="Pfadfinder Aufbaugruppe Mainz Bereich für Landesleitung"
+      />
+    </Head>
     <Layout
       paddingTop={10}
       paddingBottom={15}
       grow={1}
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Box space={8}>
-        {Object.keys(parts).map(part => (
+        {Object.keys(parts).map((part) => (
           <Box>
             <Text variant="subtitle">{part}</Text>
 

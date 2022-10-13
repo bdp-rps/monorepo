@@ -10,6 +10,7 @@ import {
   Link,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
+import Head from 'next/head'
 
 import Layout from '../../../components/Layout'
 import Template from '../../../components/Template'
@@ -22,6 +23,13 @@ export default ({ posts }) => {
 
   return (
     <Template>
+      <Head>
+        <title>Pfadfinder Aufbaugruppe Mainz Blog</title>
+        <meta
+          name="description"
+          content="Hier befundet sich der Blog für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+        />
+      </Head>
       <Layout
         paddingTop={10}
         paddingBottom={20}
