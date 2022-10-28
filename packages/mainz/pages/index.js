@@ -47,10 +47,17 @@ export default function page({ events, posts, postsMainz }) {
             und einen sicheren Ort, an dem wir neue Ideen ausprobieren und ganz
             wir selbst sein können.
             <br />
-            Das wollen wir nicht nur für uns zurück in den Alltag holen, sondern
-            vor allem vielen Kindern und Jugendlichen hier in der Stadt
-            ermöglichen. Diese Idee soll nun endlich in die Tat umgesetzt
-            werden: <br />
+            Der BdP ist ein großer Verband für Pfadfinderinnen und Pfadfinder,
+            mit Gruppen an deutschlandweit etwa 250 Orten – und bald auch in
+            Mainz! Eine Ortsgruppe wird Stamm genannt und besteht aus einzelnen
+            Stufen verschiedener Altersgruppen: die Wölflingsstufe (6-11 Jahre),
+            die Pfadfinderstufe (12-15 Jahre) und die Ranger/Rover-Stufe (ab 16
+            Jahre). Um unseren neuen Stamm in Mainz aufzubauen, wollen wir vor
+            allem Kinder und Jugendliche für die Wölflings- und die
+            Pfadfinderstufe begeistern. Wir selbst sind langjährige
+            Pfadfinderinnen und Pfadfinder aus Rheinland-Pfalz und dem Saarland,
+            die ihre Freude am Pfadfindersein nun auch in Mainz weitergeben
+            wollen. werden: <br />
             <Text subStyle="emphasis">
               {' '}
               schon am 09 November ab 17 Uhr wollen wir mit der ersten
