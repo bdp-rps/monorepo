@@ -54,7 +54,8 @@ export default function page({ events, posts, postsMainz }) {
             <Text subStyle="emphasis">
               {' '}
               schon am 09 November ab 17 Uhr wollen wir mit der ersten
-              Gruppenstunde am Goethepark in der Mainzer Neustadt loslegen.{' '}
+              Gruppenstunde am Spielplatz im Valenciaplatz in der Mainzer
+              Neustadt loslegen.{' '}
             </Text>
           </Text>
         </Box>
