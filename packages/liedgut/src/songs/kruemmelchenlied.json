@@ -5,7 +5,7 @@
   "words": [],
   "tune": [],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "tempo": 60,
   "info": "",
   "changes": [
@@ -15,6 +15,13 @@
       "mail": "",
       "type": "create",
       "content": "d könnte auch a sein"
+    },
+    {
+      "date": 1662378643020,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": ""

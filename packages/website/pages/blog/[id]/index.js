@@ -8,7 +8,7 @@ import getBlogpost from '../../../api/getBlogPost'
 export default function Page({ blogpost }) {
   const { image, title, text, subtitle, publish, author } =
     blogpost.data.attributes
-
+  const date = new Date(publish)
   return (
     <BlogLayout
       image={image.data.attributes.url}
@@ -19,28 +19,18 @@ export default function Page({ blogpost }) {
         author: {
           name: author,
         },
-        date: { year: 2022, month: 4, day: 10 },
+        date: {
+          year: date.getFullYear(),
+          month: date.getMonth(),
+          day: date.getDate(),
+        },
       }}>
-      <Text>{text}</Text>
+      {text}
     </BlogLayout>
   )
 }
 
-export async function getStaticPaths() {
-  const blogposts = await getBlogposts()
-
-  return {
-    fallback: false,
-    paths:
-      blogposts.data.map((blogpost) => ({
-        params: {
-          id: String(blogpost.id),
-        },
-      })) || [],
-  }
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const blogpost = await getBlogpost(params.id)
 
   return {
