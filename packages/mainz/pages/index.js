@@ -51,12 +51,11 @@ export default function page({ events, posts, postsMainz }) {
             vor allem vielen Kindern und Jugendlichen hier in der Stadt
             ermöglichen. Diese Idee soll nun endlich in die Tat umgesetzt
             werden: <br />
-            <Text subStyle="emphasis">
-              {' '}
-              schon am 09 November ab 17 Uhr wollen wir mit der ersten
-              Gruppenstunde am Spielplatz im Valenciaplatz in der Mainzer
-              Neustadt loslegen.{' '}
-            </Text>
+          </Text>
+          <Text subStyle="emphasis">
+            {' '}
+            Wir treffen uns jeden Mittwoch, ausserhalb der Schulferien, ab 17
+            Uhr auf dem Valenciaplatz in der Mainzer Neustadt.
           </Text>
         </Box>
         <Spacer size={8} />
