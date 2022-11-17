@@ -53,10 +53,8 @@ export default function page({ events, posts, postsMainz }) {
             werden: <br />
             <Text subStyle="emphasis">
               {' '}
-              schon am 09 November ab 17 Uhr wollen wir mit der ersten
-              Gruppenstunde am Spielplatz im Valenciaplatz in der Mainzer
-              Neustadt loslegen.{' '}
-            </Text>
+              Wir treffen uns jeden Mittwoch, ausserhalb der Schulferien, ab 17
+              Uhr auf dem Valenciaplatz in der Mainzer Neustadt.
           </Text>
         </Box>
         <Spacer size={8} />
