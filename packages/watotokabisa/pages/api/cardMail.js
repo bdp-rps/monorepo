@@ -12,7 +12,7 @@ export default async function handler({ body }, res) {
   })
 
   const mail = {
-    from: `"${body.name}" <${body.email}>`,
+    from: `"Karten Service" <karten@watoto-kabisa.de>`,
     to: 'karten@watoto-kabisa.de',
     subject: 'Bestellung Karten - ' + body.name,
     text: JSON.stringify(body, null, 2),
