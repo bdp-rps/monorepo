@@ -39,8 +39,7 @@ Verwendungszweck: Geschenkkarten Kenia
 
 Wir versenden die Karten, sobald wir das Geld erhalten haben.`
 
-  const text = `
-  Hallo ${name},
+  const text = `Hallo ${name},
   
 Vielen Dank für deine Kartenbestellung!
 
