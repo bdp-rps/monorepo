@@ -28,6 +28,9 @@ export default function Footer() {
               <Link variant="subline" href="/datenschutz">
                 Datenschutz
               </Link>
+              <Link variant="subline" href="/transparenz">
+                Transparenz
+              </Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="heading">Andere Seiten</Text>
@@ -62,7 +65,7 @@ export default function Footer() {
               height={50}
               width={50}>
               <IconButton
-                icon={props => <IconInstagrem fill="white" {...props} />}
+                icon={(props) => <IconInstagrem fill="white" {...props} />}
                 iconSize={25}
                 href="https://instagram.com/watotokabisa/"
               />
