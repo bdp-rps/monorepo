@@ -52,10 +52,17 @@ export default function page({ events, posts, postsMainz }) {
             ermöglichen. Diese Idee soll nun endlich in die Tat umgesetzt
             werden: <br />
           </Text>
-          <Text subStyle="emphasis">
+          <Text>
             {' '}
-            Wir treffen uns jeden Mittwoch, ausserhalb der Schulferien, ab 17
-            Uhr auf dem Valenciaplatz in der Mainzer Neustadt.
+            Normalerweise treffen wir uns jeden Mittwoch, ausserhalb der
+            Schulferien, ab 17 Uhr auf dem Valenciaplatz in der Mainzer
+            Neustadt.
+          </Text>
+          <Text subStyle="emphasis">
+            Diesen Mittwoch (22.12.2022) machen wir eine Ausnahme und treffen
+            uns zur gemeinsamen Jahresabschlussfeier, an der Liebfrauenkirche
+            (Moselstraße 30) und gehen danach in eine kleine Winterpause
+            (22.12.2022 - 10.01.2023)!
           </Text>
         </Box>
         <Spacer size={8} />
