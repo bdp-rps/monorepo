@@ -1,0 +1,37 @@
+{
+  "notation": "",
+  "content": "Der {d}Nebel {A}dämpft das {d}Mor{A}gen{d}licht\nUnd alles {A}Wesen {d}flüst{A}ernd {d}spricht\n{C}Das {F}Land verh{C}angen {F}grau\nIm {g}Felde singt die {A7}Regen{d}frau.\n\nDer Weg ist lang, der Weg ist Weit\nWir wandern tief im Grund der Zeit\nDer Sommer ist verbannt\nEin fahler Rauch geht durch das Land.\n\nDas Jahr geht aus der Regen fällt\nEin andrer Herr regiert die Welt\nDer Wind ist nass und schwer\nDas Land ertrinkt im Regenmeer",
+  "title": "Die Regenfrau",
+  "words": [
+    {
+      "name": "Walter Scherf",
+      "nickname": "tejo",
+      "group": "",
+      "organisation": "Deutsche Jungenschaft",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Walter Scherf",
+      "nickname": "tejo",
+      "group": "",
+      "organisation": "Deutsche Jungenschaft",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1673203292790,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
