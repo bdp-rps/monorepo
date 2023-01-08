@@ -1,0 +1,37 @@
+{
+  "notation": "",
+  "content": "{C}Malt der Mond mit {F}hellen {C}Farben\nauf die See sein {F}Spiegel{G}bild,\n||: {G}Paporaki, {a}kleines {F}Bötchen\nschw{C}ankt mal sacht und {G}tanzt mal {C}wild. :||\n\nZaust der Wind mit wilden Wirbeln,\nkleine Wellen schaumbedeckt.\nGischt spritzt auf und Wasserzungen\nhaben an den Strand geleckt.\n\nDonner rollt von fernen Bergen,\nBlitz erleuchtet Wasserspiel,\nPaporaki treibt ins Weite\nkleines Bötchen ohne Ziel.\n\nSonne wärmt mit ersten Strahlen\nstarren Fels und feinen Sand.\nPaporaki bist entschwunden\nauf der Fahrt in fernes Land.",
+  "title": "Paporaki",
+  "words": [
+    {
+      "name": "Jörg Seyffarth, Rolf Koerber",
+      "nickname": "Plauder, Philo",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1993"
+    }
+  ],
+  "tune": [
+    {
+      "name": "",
+      "nickname": "Plauder",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "Takt: 7/8",
+  "changes": [
+    {
+      "date": 1673203825316,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
