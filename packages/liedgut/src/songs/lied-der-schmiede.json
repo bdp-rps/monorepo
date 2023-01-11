@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "  {d}                                                {A}                             {d}\nSiehst du dort das Feuer brennen und kannst Du die Männer sehn\n  {d}                                                {A}                       {d}\ndie im Licht der glüh’nden Kohlen an der Schmiedeesse stehn\n {g}                                                 {d}\nunterm Hammer fliegen Funken Schwefeldampf entsteigt der Glut\n {g}                                        {A}\nJa sie riechen wie die Teufel und sie schmieden auch so gut.\n\n  {d}                                                  {A}                             {d}\nHammer tanz im Rhythmus meines Armes schwer und gut\n  {d}                                         {A}                      {d}\nBruder blas die Esse an denn lodern soll die Glut\n {g}                      {d}                      {A}                                                {d}\nStahl auf Stahl, Stahl auf Stahl. Lied der Schmiede klinge durchs Tal.\n\t\nIn der Schmiede Augen spiegelt sich der Esse lodernd Glut\nUnd ihr Herzschlag gibt den Rhythmus für das Eisen rot wie Blut\nUnd die angefachten Kohlen glühen rot und glühen heiß\nStarke Arme halten Zangen und auf Männerhaut glänzt Schweiß\n\nGroße Hände formen Dinge, die so wundersam und fein\nund doch, wenn sie einmal zornig, möchte’ ich nicht der Gegner sein\ndenn der Narr, der sie verärgert, war die längste Zeit ein Held\nund mit Sicherheit herrscht Ruhe wenn erst dieser Hammer fällt\n\nSchließlich sind wir ja Kollegen, darum nehmt vom Verseschmied\nvoller Dankbarkeit entgegen und in Freundschaft dieses Lied\n",
+  "content": "{d}Siehst du dort das Feuer brennen {A}und kannst Du die {d}Männer sehn\n{d}die im Licht der glüh'nden Kohlen {A}an der Schmiede{d}esse stehn\n{g}unterm Hammer fliegen Funken {d}Schwefeldampf entsteigt der Glut\n{g}Ja sie riechen wie die Teufel {A}und sie schmieden auch so gut.\n\n  \n{d}Hammer tanz im Rhythmus meines {A}Armes schwer und {d}gut\n{d}Bruder blas die Esse an denn {A}lodern soll die {d}Glut\n//:{g}Stahl auf Stahl, {d}Stahl auf Stahl. {A}Lied der Schmiede klinge durch das {d}Tal.://\n\n\t\nIn der Schmiede Augen spiegelt sich der Esse lodernd Glut\nUnd ihr Herzschlag gibt den Rhythmus für das Eisen rot wie Blut\nUnd die angefachten Kohlen glühen rot und glühen heiß\nStarke Arme halten Zangen und auf Männerhaut glänzt Schweiß\n\nGroße Hände formen Dinge, die so wundersam und fein\nund doch, wenn sie einmal zornig, möchte' ich nicht der Gegner sein\ndenn der Narr, der sie verärgert, war die längste Zeit ein Held\nund mit Sicherheit herrscht Ruhe wenn erst dieser Hammer fällt\n\nSchließlich sind wir ja Kollegen, darum nehmt vom Verseschmied\nvoller Dankbarkeit entgegen und in Freundschaft dieses Lied\n",
   "title": "Lied der Schmiede",
   "words": [
     {
@@ -32,6 +32,13 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1673451800206,
+      "name": "Ronja Ley",
+      "mail": "ronja.ley@gmx.de",
+      "type": "update",
+      "content": "Hab die Akkorde an die richtigen Stellen im Text gesetzt"
     }
   ]
 }
