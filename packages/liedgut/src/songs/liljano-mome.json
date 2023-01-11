@@ -1,0 +1,37 @@
+{
+  "notation": "",
+  "content": "{a}                   {d}        {G}                     {C}\nLiljano mome, Liljano, ja stani rano, prisori,\n{a}                     {d}       {E}              {a}\nja stani rano, prisori, libeto si pregreni.\n{a}                     {d}         {G}                    {C}\nLiljano mome, Liljano, ja stani rano, prisori,\n{a}                     {d}       {E}             {a}\nja stani rano, prisori, libeto si pregreni.\n\nNe mi izlegla Liljana, tuk' e izlegla majka ì,\nluti si kletvi kolneshe i na Gjorgji dumashe:\n\nIdi si, Gjorgji, idi si, Liljana bolna legnala,\nLiljana bolna legnala, i ne mosche da stane.\n\nNe mi go lazhi, mamo ma, jas sum si Gjorgji ljubila,\njas sum si Gjorgji ljubila, za nego ste se oschena.\n",
+  "title": "Liljano mome",
+  "words": [
+    {
+      "name": "bulgarisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "bulgarisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1673371248378,
+      "name": "Ronja Ley",
+      "mail": "ronja.ley@gmx.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
