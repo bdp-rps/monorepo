@@ -1,0 +1,37 @@
+{
+  "notation": "",
+  "content": "{h}                   {e}                  {Fis}                     {h}\nSchlaf Anne, schlaf nur ein bald kommt die Nacht.\n{h}                  {A7}                          {D}\nHat sich aus Wolken Pantoffeln gemacht.\n     {h}                       {e}           {Fis}                      {h}\n//: Kommt von den Bergen, kommt von ganz weit.\n {h}               {Fis}                                         {h}\nSchlaf Anne schlaf nur ein, es ist Schlafenszeit. ://\n\nSchlaf Anne, schlaf nur ein, bald kommt der Mond\nDer draußen hinter den Birnbäumen wohnt\n//: Einer davon kitzelt ihn sanft am Kinn\nLächelt der Mond und zieht leise dahin. ://\n\nSchlaf Anne, schlaf nur ein, bald kommt ein Traum\nSchlüpft dir zum Ohr hinein, merkst ihn erst kaum\n//: Fährst auf dem Traumschiff ans Ende der Nacht\nBis dir der Morgen die Augen aufmacht. ://\n\n",
+  "title": "Schlaflied für Anne",
+  "words": [
+    {
+      "name": "Frederik Vahle",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Frederik Vahle",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1673366964631,
+      "name": "Ronja Ley",
+      "mail": "ronja.ley@gmx.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
