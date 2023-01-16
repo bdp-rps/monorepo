@@ -289,7 +289,7 @@ export default () => {
             <br />
             die zu uns passen. Das wichtigste bleibt aber,
             <br />
-            dass wir mit Freunde und Leidenschaft singen und das an die Jüngeren
+            dass wir mit Freude und Leidenschaft singen und das an die Jüngeren
             weitergeben.
           </Tile>
           <Tile
