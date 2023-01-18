@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "             {a}                                        {d}\nAuf den Leitplanken stehen die Geschichten drauf\n             {G}                                                 {C7}   {D7}  {D#7}  {E7}\nWer hier stand auf seiner Reise schrieb sie auf.\n              {a}                                      {d}\nAuf dem nassen Asphalt ein weißes Taschentuch. \n     {E7}                                                       {a}\nSo nass und grauverschmiert steh ich hier auch\n\n                {F}                {G}                     {a}\nNur einen Schritt dann bin ich auf der Reise,\n               {F}     {G}                           {a}\nIm ersten Auto bin ich schon am Ziel,\n                    {F}         {G}                {C}   {C/B}  {a}\nEin Ziel, dass ich, so hoff ich, nie erreiche,\n               {d}                           {a}\nDoch das Brennen wird dann leichter,\n     {d}                    {a}         {d}                           {E}              {E7}\nich merke es geht weiter, dam deram deram dara darara\n\nI {a} I  {E7} I  {a} I  {F}  {E7}  I  {a}  {d}  {E}  {E7}  I  {a}  {E7} {a}\n\nWas dann hält, das ist ein rosa Blümchenbus,\nMit ´ner Aura von baldigem K.O.\nOb der Onkel, der ihn fährt, vielleicht ´ne Tante ist,\nWeiß er selbst nicht so genau, mal so, mal so.\n\nIch weiß nicht, warum ich immer weg muss\nEr weiß nicht, wer er, sie, es, er ist.\nOb wir auf unsrer Suche was erreichen?\nNur das Fahren macht es leichter,\nWir merken, es geht weiter, dam deram deram dara darara\n\n\nIst es die Angst, das Leben zu verpassen\nOder ist es nur die Sehnsucht nach dem Meer?\nManchmal kann ich meine Freiheit kaum fassen,\nManchmal ist mir dieser Rucksack viel zu schwer.\n\nIch kann die Straße nur in eine Richtung geh´n.\nAuch wenn die Straße sich groß und breit verflicht.\nTrotz Weg und Wagnis kann ich nicht wiederstehen,\nDenn die Sehnsucht wird dann leichter,\nIch merke, es geht weiter, dam deram deram dara darara\n",
+  "content": "Auf den {a}Leitplanken stehen die {d}Geschichten drauf\nWer hier {G}stand auf seiner Reise schrieb sie auf.{C7}{D7}{D#7}{E7}\nAuf dem {a}nassen Asphalt ein weißes {d}Taschentuch. \nSo {E7}nass und grau verschmiert steh' ich hier {a}auch\n\nNur einen {F}Schritt, dann {G}bin ich auf der {a}Reise,\nIm ersten {F}Auto {G}bin ich schon am {a}Ziel,\nEin Ziel, das {F}ich, so {G}hoff' ich, nie err-{C}{C/B}{a}eiche,\nDoch das {d}Brennen wird dann {a}leichter,\nich {d}merke es geht {a}weiter, {d}dam deram deram dara darar{E}a{E7}\n\n{|}{a}{|}{E7}{|}{a}{|}{F}{E7}{|}{a}{d}{E}{E7}{|}{a}{E7}{a}{|}\n\n\nWas dann hält, das ist ein rosa Blümchenbus,\nMit 'ner Aura von baldigem K.O.\nOb der Onkel, der ihn fährt, vielleicht 'ne Tante ist,\nWeiß er selbst nicht so genau, mal so, mal so.\n\nIch weiß nicht, warum ich immer weg muss\nEr weiß nicht, wer er, sie, es, er ist.\nOb wir auf unsrer Suche was erreichen?\nNur das Fahren macht es leichter,\nWir merken, es geht weiter, dam deram deram dara darara\n\n\nIst es die Angst, das Leben zu verpassen\nOder ist es nur die Sehnsucht nach dem Meer?\nManchmal kann ich meine Freiheit kaum fassen,\nManchmal ist mir dieser Rucksack viel zu schwer.\n\nIch kann die Straße nur in eine Richtung geh'n\nAuch wenn die Straße sich groß und breit verflicht.\nTrotz Weg und Wagnis kann ich nicht wiederstehen,\nDenn die Sehnsucht wird dann leichter,\nIch merke, es geht weiter, dam deram deram dara darara\n",
   "title": "Bobbys Fernweh",
   "words": [
     {
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "155",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1674052531635,
+      "name": "sherlock",
+      "mail": "anton.pung@mailbox.org",
+      "type": "update",
+      "content": "Kleine Rechtschreibfehler korrigiert, Akkorde richtig formatiert, Formatierung des Zwischenspiels geändert"
     }
   ]
 }
