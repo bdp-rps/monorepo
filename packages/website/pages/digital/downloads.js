@@ -38,12 +38,6 @@ export default () => (
           - Merkblatt zur Förderung junger Menschen aus einkommensschwachen
           Familien bei Maßnahmen der Sozialen Bildung
         </Link>
-        <br />
-        <Link
-          href="/files/ZuschussAntrag 2021 Massnahmen Formular_neu.pdf"
-          download>
-          - Zuschuss Antrag 2021 Massnahmen Formular
-        </Link>
       </Text>
     </Layout>
   </Template>
