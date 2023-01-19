@@ -15,7 +15,7 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
-  '/stamm': 'Aufbaugruppe',
+  '/stamm': 'Aufbaugruppe Tilia',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
@@ -85,7 +85,7 @@ export default function Template({
               alignSelf: 'flex-start',
             }}>
             <Text variant="title" height={1} color={theme.colors.blue}>
-              Aufbaugruppe Mainz
+              Aufbaugruppe Tilia Mainz
             </Text>
           </Box>
         </Layout>

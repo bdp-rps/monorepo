@@ -38,10 +38,10 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Impressum</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Impressum</title>
         <meta
           name="description"
-          content="Impressum für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+          content="Impressum für die Pfadfinder Aufbaugruppe Tilia Mainz Neustadt BdP"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>
@@ -53,7 +53,7 @@ export default () => {
             <b>Landesverband Rheinland-Pfalz/Saar</b>
             <br />
             <br />
-            <b>Aufbaugruppe Mainz</b>
+            <b>Aufbaugruppe Tilia Mainz</b>
             <br />
             <br />
             <b>Timon Flick</b>

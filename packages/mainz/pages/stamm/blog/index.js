@@ -24,10 +24,10 @@ export default ({ posts }) => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Blog</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Blog</title>
         <meta
           name="description"
-          content="Hier befundet sich der Blog für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+          content="Hier befundet sich der Blog für die Pfadfinder Aufbaugruppe Tilia Mainz Neustadt BdP"
         />
       </Head>
       <Layout

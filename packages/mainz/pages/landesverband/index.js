@@ -18,10 +18,10 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Head>
-      <title>Pfadfinder Aufbaugruppe Mainz Landesverband</title>
+      <title>Pfadfinder Aufbaugruppe Tilia Mainz Landesverband</title>
       <meta
         name="description"
-        content="Pfadfinder Aufbaugruppe Mainz informationen und Bereich für den Landesverband"
+        content="Pfadfinder Aufbaugruppe Tilia Mainz informationen und Bereich für den Landesverband"
       />
     </Head>
     <Layout paddingTop={10} paddingBottom={15}>

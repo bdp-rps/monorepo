@@ -21,20 +21,22 @@ import PostTile from '../components/PostTile'
 import getEvents from '../utils/getEvents'
 
 import { getBlogposts, getBlogpostsMainz } from '../api/getBlogposts'
+import { useState } from 'react'
 
 export default function page({ events, posts, postsMainz }) {
   const theme = useTheme()
 
+  const [isHover, setIsHover] = useState(false)
   const [firstPost, ...otherPosts] = posts
   const [firstPostsMainz, ...otherPostsMainz] = postsMainz
 
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Startseite</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Startseite</title>
         <meta
           name="description"
-          content="Startseite für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+          content="Startseite für die Pfadfinder Aufbaugruppe Tilia Mainz Neustadt BdP"
         />
       </Head>
       <Layout paddingTop={5} paddingBottom={5}>
@@ -62,22 +64,41 @@ export default function page({ events, posts, postsMainz }) {
         </Box>
         <Spacer size={8} />
         <Box
+          onMouseOver={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
           marginBottom={4}
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
-          <Tile
-            title="Die Menschen hinter der Aufbaugruppe"
-            image={`/images/sternhimmel_bula.jpg`}
-            imageHeight={500}>
-            <Box>
-              <Text>
-                Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktier
-                uns doch gerne über{' '}
-                <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                  pfadfinden[at]bdp-mainz.de
-                </Link>
-              </Text>
-            </Box>
-          </Tile>
+          {!isHover ? (
+            <Tile
+              title="Die Menschen hinter der Aufbaugruppe Tilia"
+              image={`/images/tilia.jpeg`}
+              imageHeight={800}>
+              <Box>
+                <Text>
+                  Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
+                  Kontaktier uns doch gerne über{' '}
+                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                    pfadfinden[at]bdp-mainz.de
+                  </Link>
+                </Text>
+              </Box>
+            </Tile>
+          ) : (
+            <Tile
+              title="Die Menschen hinter der Aufbaugruppe Tilia"
+              image={`/images/tilia-action.jpeg`}
+              imageHeight={800}>
+              <Box>
+                <Text>
+                  Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
+                  Kontaktier uns doch gerne über{' '}
+                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                    pfadfinden[at]bdp-mainz.de
+                  </Link>
+                </Text>
+              </Box>
+            </Tile>
+          )}
         </Box>
       </Layout>
       <Layout

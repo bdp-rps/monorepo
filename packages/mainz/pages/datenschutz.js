@@ -20,10 +20,10 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Datenschutz</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Datenschutz</title>
         <meta
           name="description"
-          content="Datenschutz Informationen für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+          content="Datenschutz Informationen für die Pfadfinder Aufbaugruppe Tilia Mainz Neustadt BdP"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={15}>

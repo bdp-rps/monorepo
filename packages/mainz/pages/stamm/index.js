@@ -9,10 +9,10 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Head>
-      <title>Pfadfinder Aufbaugruppe Mainz Vorstellung</title>
+      <title>Pfadfinder Aufbaugruppe Tilia Mainz Vorstellung</title>
       <meta
         name="description"
-        content="Hier stellts sich die Pfadfinder Aufbaugruppe Mainz Neustadt BdP vor"
+        content="Hier stellts sich die Pfadfinder Aufbaugruppe Tilia Mainz Neustadt BdP vor"
       />
     </Head>
     <Layout paddingTop={10} paddingBottom={10}>

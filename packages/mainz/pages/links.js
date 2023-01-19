@@ -31,7 +31,7 @@ export default () => {
             <Button href="/landesverband/blog/">
               Blogbeiträge Landesverband
             </Button>
-            <Button href="/blog/stamm">Blogbeiträge Aufbaugruppe</Button>
+            <Button href="/blog/stamm">Blogbeiträge Aufbaugruppe Tilia</Button>
             <Button href="/bdp/ausbildung">Ausbildung</Button>
             <Button href="https://www.watoto-kabisa.de/">Keniaprojekt</Button>
             <Button href="https://www.pfadfinden.de/">

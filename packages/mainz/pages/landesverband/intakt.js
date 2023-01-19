@@ -12,10 +12,10 @@ export default () => (
   <Template>
     <Layout paddingTop={5} paddingBottom={10}>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Intakt</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Intakt</title>
         <meta
           name="description"
-          content="Pfadfinder Aufbaugruppe Mainz Arbeitskreis für Schutz vor
+          content="Pfadfinder Aufbaugruppe Tilia Mainz Arbeitskreis für Schutz vor
           physischer, psychischer oder speziell sexualisierter Gewalt an
           Kindern und Jugendlichen im Bund"
         />

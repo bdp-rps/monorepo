@@ -19,10 +19,10 @@ import Head from 'next/head'
 export default () => (
   <Template>
     <Head>
-      <title>Pfadfinder Aufbaugruppe Mainz Stämme</title>
+      <title>Pfadfinder Aufbaugruppe Tilia Mainz Stämme</title>
       <meta
         name="description"
-        content="Pfadfinder Aufbaugruppe Mainz Bereich für die Stämme, also Ortsgruppen."
+        content="Pfadfinder Aufbaugruppe Tilia Mainz Bereich für die Stämme, also Ortsgruppen."
       />
     </Head>
     <Layout

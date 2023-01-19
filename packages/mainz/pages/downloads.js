@@ -38,7 +38,7 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Downloads</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Downloads</title>
         <meta
           name="description"
           content="Downloadbereich für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
