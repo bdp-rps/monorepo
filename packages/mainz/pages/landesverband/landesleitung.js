@@ -29,10 +29,10 @@ const parts = landesleitung.reduce((parts, member) => {
 export default () => (
   <Template>
     <Head>
-      <title>Pfadfinder Aufbaugruppe Mainz Landesleitung</title>
+      <title>Pfadfinder Aufbaugruppe Tilia Mainz Landesleitung</title>
       <meta
         name="description"
-        content="Pfadfinder Aufbaugruppe Mainz Bereich für Landesleitung"
+        content="Pfadfinder Aufbaugruppe Tilia Mainz Bereich für Landesleitung"
       />
     </Head>
     <Layout

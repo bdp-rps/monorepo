@@ -24,10 +24,10 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Leitsätze</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Leitsätze</title>
         <meta
           name="description"
-          content="Pfadfinder Aufbaugruppe Mainz Unsere Leitsätze und Richtwerte um in einer Gemeinschaft zu leben."
+          content="Pfadfinder Aufbaugruppe Tilia Mainz Unsere Leitsätze und Richtwerte um in einer Gemeinschaft zu leben."
         />
       </Head>
       <Layout paddingTop={5} paddingBottom={10}>

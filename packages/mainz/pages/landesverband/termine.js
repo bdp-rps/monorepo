@@ -34,10 +34,10 @@ export default function Page({ events }) {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Termine</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Termine</title>
         <meta
           name="description"
-          content="Pfadfinder Aufbaugruppe Mainz Termine aus dem Landesverband"
+          content="Pfadfinder Aufbaugruppe Tilia Mainz Termine aus dem Landesverband"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>

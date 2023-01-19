@@ -21,10 +21,10 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Watoto Kabisa</title>
+        <title>Pfadfinder Aufbaugruppe Tilia Mainz Watoto Kabisa</title>
         <meta
           name="description"
-          content="Pfadfinder Aufbaugruppe Mainz Bereich für unser soziales Kenia Projekt Watoto Kabisa"
+          content="Pfadfinder Aufbaugruppe Tilia Mainz Bereich für unser soziales Kenia Projekt Watoto Kabisa"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={15}>

@@ -26,11 +26,12 @@ export default ({ posts }) => {
     <Template>
       <Head>
         <title>
-          Pfadfinder Aufbaugruppe Mainz Rheinland Pfalz Saar Landesverband Blog
+          Pfadfinder Aufbaugruppe Tilia Mainz Rheinland Pfalz Saar Landesverband
+          Blog
         </title>
         <meta
           name="description"
-          content="Pfadfinder Aufbaugruppe Mainz Rheinland Pfalz Saar Landesverband Blog"
+          content="Pfadfinder Aufbaugruppe Tilia Mainz Rheinland Pfalz Saar Landesverband Blog"
         />
       </Head>
       <Layout
