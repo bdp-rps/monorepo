@@ -101,16 +101,16 @@ function SongList({ songs }) {
   )
 
   return (
-    <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={1}>
+    <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={3}>
       <TextInput
         {...search.props}
+        description={`${totalHits} Lieder gefunden`}
         placeholder={
           'Suche nach Titel oder Liedtext z.B. "Am Ural" oder "schöne Stadt am Karmar"'
         }
       />
-      <Text color="grey">{totalHits} Lieder gefunden</Text>
 
-      <Box paddingTop={2}>
+      <Box>
         {arrayMap(Object.keys(hits), (name) => {
           const { title, content, isVisible } = hits[name]
 

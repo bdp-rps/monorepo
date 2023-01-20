@@ -22,7 +22,6 @@ fs.readdir('./src/songs', (err, files) => {
       song.content = normalizeContent(song.content)
       song.translation = song.translation || []
       song.alternativeTitle = song.alternativeTitle || ''
-      delete song.musicalKey
 
       fs.writeFile('./src/songs/' + f, JSON.stringify(song, null, 2), (err) => {
         if (err) {
