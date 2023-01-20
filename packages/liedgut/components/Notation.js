@@ -2,6 +2,8 @@ import React, { useRef, useState, useEffect } from 'react'
 import { Box, Button, Checkbox, TextInput } from '@bdp-rps/ui'
 import ABC, { synth } from 'abcjs'
 
+import 'abcjs/abcjs-audio.css'
+
 import normalizeChord from '../src/utils/normalizeChord'
 
 function CursorControl() {
@@ -135,7 +137,7 @@ export default function Notation({
     if (paperRef.current && audioRef.current && synthControl && notation) {
       const cursorControl = new CursorControl()
       synthControl.load(audioRef.current, cursorControl, {
-        // displayLoop: true,
+        displayLoop: true,
         displayRestart: true,
         displayPlay: true,
         displayProgress: true,
@@ -240,13 +242,13 @@ export default function Notation({
             name="speed"
             maskEnd="%"
             min="20"
-            onChange={setSpeed}
+            onChange={(e) => setSpeed(e.target.value)}
             value={speed}
           />
           <Checkbox
             label="Akkorde"
             name="chords"
-            onChange={setChords}
+            onChange={() => setChords(!chords)}
             value={chords}
           />
         </Box>
