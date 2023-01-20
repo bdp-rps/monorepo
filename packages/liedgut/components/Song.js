@@ -29,7 +29,7 @@ export default function Song({
   const [transpose, setTranspose] = useState(0)
   const [didMount, setDidMount] = useState(false)
 
-  const step = parseInt(transpose) || 0
+  const step = Math.max(-11, Math.min(parseInt(transpose) || 0, 11))
 
   useEffect(() => setDidMount(true), [])
 
