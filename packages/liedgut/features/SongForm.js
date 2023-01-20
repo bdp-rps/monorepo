@@ -35,6 +35,7 @@ const defaultSong = {
   beat: '4/4',
   alternativeTitle: '',
   tempo: 60,
+  musicalKey: '',
   info: '',
 }
 
@@ -189,6 +190,45 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               <option value="4/4">4/4</option>
               <option value="5/4">5/4</option>
               <option value="6/8">6/8</option>
+              <option value="7/8">7/8</option>
+            </SelectInput>
+
+            <SelectInput
+              label="Tonart"
+              value={song.musicalKey}
+              onChange={(e) =>
+                setSong({ ...song, musicalKey: e.target.value })
+              }>
+              <option value="C">C</option>
+              <option value="Cm">c</option>
+              <option value="C#">Cis</option>
+              <option value="C#m">cis</option>
+              <option value="Db">Des</option>
+              <option value="Dbm">des</option>
+              <option value="D">D</option>
+              <option value="Dm">d</option>
+              <option value="Eb">Es</option>
+              <option value="Ebm">es</option>
+              <option value="E">E</option>
+              <option value="Em">e</option>
+              <option value="F">F</option>
+              <option value="Fm">f</option>
+              <option value="F#">Fis</option>
+              <option value="F#m">fis</option>
+              <option value="Gb">Ges</option>
+              <option value="Gbm">ges</option>
+              <option value="G">G</option>
+              <option value="Gm">g</option>
+              <option value="Ab">As</option>
+              <option value="Abm">as</option>
+              <option value="A">A</option>
+              <option value="Am">a</option>
+              <option value="Bb">B</option>
+              <option value="Bbm">b</option>
+              <option value="B">H</option>
+              <option value="Bm">h</option>
+              <option value="Cb">Ces</option>
+              <option value="Cbm">ces</option>
             </SelectInput>
 
             <TextArea

@@ -23,7 +23,7 @@
     "Edge >= 15"
   ],
   "scripts": {
-    "dev": "next dev",
+    "dev": "yarn build && next dev",
     "clean": "rimraf lib es coverage",
     "songlist": "babel-node scripts/songList",
     "normalize": "babel-node scripts/normalize",

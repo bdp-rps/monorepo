@@ -17,12 +17,15 @@ export default function Song({
   tune,
   words,
   tempo,
+  musicalKey,
   beat,
   translation,
   info,
   notation,
   textAreaRef,
 }) {
+  const key = musicalKey
+
   const [transpose, setTranspose] = useState(0)
   const [didMount, setDidMount] = useState(false)
 
@@ -204,6 +207,7 @@ export default function Song({
               tempo={tempo}
               title={title}
               transpose={step}
+              musicalKey={musicalKey}
               author={renderAuthors(tune)}
               textAreaRef={textAreaRef}
             />

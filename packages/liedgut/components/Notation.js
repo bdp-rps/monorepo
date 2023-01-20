@@ -7,14 +7,14 @@ import normalizeChord from '../src/utils/normalizeChord'
 function CursorControl() {
   var self = this
 
-  self.onReady = function() {
+  self.onReady = function () {
     // var downloadLink = document.querySelector('.download')
     // downloadLink.addEventListener('click', download)
     // downloadLink.setAttribute('style', '')
     // var clickEl = document.querySelector('.click-explanation')
     // clickEl.setAttribute('style', '')
   }
-  self.onStart = function() {
+  self.onStart = function () {
     var svg = document.querySelector('#paper svg')
     var cursor = document.createElementNS('http://www.w3.org/2000/svg', 'line')
     cursor.setAttribute('class', 'abcjs-cursor')
@@ -36,7 +36,7 @@ function CursorControl() {
   //     ' Total time: ' +
   //     totalTime
   // }
-  self.onEvent = function(ev) {
+  self.onEvent = function (ev) {
     if (ev.measureStart && ev.left === null) return // this was the second part of a tie across a measure line. Just ignore it.
 
     var lastSelection = document.querySelectorAll('#paper svg .highlight')
@@ -59,7 +59,7 @@ function CursorControl() {
       cursor.setAttribute('y2', ev.top + ev.height)
     }
   }
-  self.onFinished = function() {
+  self.onFinished = function () {
     var els = document.querySelectorAll('svg .highlight')
     for (var i = 0; i < els.length; i++) {
       els[i].classList.remove('highlight')
@@ -88,12 +88,15 @@ export default function Notation({
   notation,
   tempo,
   beat,
+  musicalKey = 'C',
   title,
   author,
   transpose = 0,
   options = {},
   textAreaRef,
 }) {
+  const key = musicalKey
+
   const [synthControl, setSynthControl] = useState()
   const [speed, setSpeed] = useState(100)
   const [chords, setChords] = useState(true)
@@ -109,7 +112,7 @@ export default function Notation({
     beat +
     '\nQ:1/4=' +
     tempo +
-    '\nK:C' +
+    `\nK:${key}` +
     '\n'
   const notationText = prefix + notation
 
@@ -199,7 +202,7 @@ export default function Notation({
             soundFontUrl: 'https://gleitz.github.io/midi-js-soundfonts/FatBoy/',
           },
         })
-        .then(function(response) {
+        .then(function (response) {
           if (synthControl) {
             synthControl.setTune(visualObj, false, {
               chordsOff: !chords,
