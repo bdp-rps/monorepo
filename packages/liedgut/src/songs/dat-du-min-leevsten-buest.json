@@ -1,5 +1,5 @@
 {
-  "notation": "K:D\n\"D\"F2F2A2|\"A\"E2ECA,2|\"D\"F2F2A2|\"A\"E6|\n|:\"G\"B2BAG2|\"D\"A2AGF2|1:\"A\"E2D2E2|\"D\"F2A4:|2:\"A\"E2D2C2|\"D\"D6|",
+  "notation": "\"D\"F2F2A2|\"A\"E2ECA,2|\"D\"F2F2A2|\"A\"E6|\n|:\"G\"B2BAG2|\"D\"A2AGF2|1:\"A\"E2D2E2|\"D\"F2A4:|2:\"A\"E2D2C2|\"D\"D6|",
   "content": "{D}Dat du min {A}Leevsten büst, {D}dat du wull {A}weest,\n/: {G}kumm bi de Nacht, {D}kumm bi de Nacht, {A}segg wo du {D}heeßt! :/\n\nKum du um Middernacht, kumm du klock een! /: Vader slöpt, Moder slöpt, ik slaap alleen. :/\n\nKlopp an de Kammerdör, fat an de Klink.\n/: Vader ment, Moder meent, dat deit de Wind. :/\n\nKummt denn de Morgenstund, kreiht de ol Hahn.\n/: Leevsten min, leevsten min, denn mößt du gahn. :/\n\nSachen den Gang entlang, lies mit de Klink!\n/: Vader meent, Moder meent, dat deit de Wind. :/",
   "title": "Dat du min leevsten büst",
   "words": [
@@ -24,6 +24,7 @@
   "beat": "3/4",
   "tempo": "80",
   "info": "",
+  "musicalKey": "D",
   "changes": [
     {
       "date": 1590952198379,

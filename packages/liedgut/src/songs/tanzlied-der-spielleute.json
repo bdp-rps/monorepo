@@ -1,5 +1,5 @@
 {
-  "notation": "K:Dm\nL:1/4\n\"d\"DD/ E/FD|\"B\"F4|\"C\"C2DE|\"d\"D4|DD/ E/FE|\n\"B\"GFED|\"C\"C2\"B\"B,2|\"A\"A,4|\"F\"AF/ G/AB|\"C\"G2c2|\n\"d\"FD/ E/ FG|\"A\"E4|\"d\"DD/ E/FE|\"F\"FEDC|\n\"C\"C2E-D|\"d\"D4|:D/ D//E// F/E/ \"B\"G/F/ E/D/|\n\"C\"C\"C7\"B,\"A\"A,2|\"d\"D/ D//E// F/E/ \"B\"G/F/ E/D/|\"C\"C\"A\"E/D/\"d\"D2:|",
+  "notation": "L:1/4\n\"d\"DD/ E/FD|\"B\"F4|\"C\"C2DE|\"d\"D4|DD/ E/FE|\n\"B\"GFED|\"C\"C2\"B\"B,2|\"A\"A,4|\"F\"AF/ G/AB|\"C\"G2c2|\n\"d\"FD/ E/ FG|\"A\"E4|\"d\"DD/ E/FE|\"F\"FEDC|\n\"C\"C2E-D|\"d\"D4|:D/ D//E// F/E/ \"B\"G/F/ E/D/|\n\"C\"C\"C7\"B,\"A\"A,2|\"d\"D/ D//E// F/E/ \"B\"G/F/ E/D/|\"C\"C\"A\"E/D/\"d\"D2:|",
   "content": "{d}Über dem Horiz{B}ont {C}rot Sonne thr{d}ont,\nnahen zwei Reiter {B}auf der Straße {C}nach {B}Clerm{A}ont.\n{F}Wie durch das bunte {C}Laub es {d}sie in die Wälder {A}zieht,\nsingt in den kahlen {F}Zweigen leis' der {C}Wind sein {d}Lied.\n/: Bam bada bam {B}ba da da da {C}ba {B}ba {A}ba \n{d}Bam bada bam {B}ba da da da {C}ba {A}ba {d}ba :/\n\nSanft er die Laute streicht, tänzelnd und leicht,\nbauscht er den weißen Federbusch den Wolken gleich.\nSpielt über roten Rosen, Schleier von zarter Hand,\nLenkt so den Schimmel froh der eine durch das Land.\n\nSchwarz wie die nahe Nacht, würdig und schwer,\ntreu ihm zur Seite zieht der Zweite stumm einher.\nKühnheit in Streit und Minnen, wichen wohl Zucht und Maß,\ndoch folgt sein Herz den Stimmen, die sein Geist vergaß.\n\n{e}Gestern tat buntes {C}Volk {D}munter sich {e}dreh'n,\nheut werden Herrscher {C}ernst vor ihren {D}Thro{C}nen {H}stehn.\n{G}Lauschend dem Klang der {D}Lieder, {e}die ihre Seele {H}singt,\n{e}wenn sie im Tanze {C}Schwert und Lanze {D}niederr{e}ingt.\n/: Bam bada bam {C}ba da da da {D}ba {C}ba {H}ba \n{e}Bam bada bam {C}ba da da da {D}ba {H}ba {e}ba :/",
   "title": "Tanzlied der Spielleute",
   "words": [
@@ -25,6 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "info": "",
+  "musicalKey": "Dm",
   "changes": [
     {
       "date": 1661371238439,

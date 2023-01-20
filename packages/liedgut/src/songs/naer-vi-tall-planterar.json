@@ -1,5 +1,5 @@
 {
-  "notation": "K:D\n\"D\"D3/2 D/ D F A2 A A|AG \"A\"FE \"D\"D4|D3/2D/D F A2A2|\n\"h\"BB BB B4|:\"e\"GF EF G2B2|\"h\"FE DE F2z2|\n\"e\"ED CD \"Fis\"E2F2|\"h\"DCB,4z2:|",
+  "notation": "\"D\"D3/2 D/ D F A2 A A|AG \"A\"FE \"D\"D4|D3/2D/D F A2A2|\n\"h\"BB BB B4|:\"e\"GF EF G2B2|\"h\"FE DE F2z2|\n\"e\"ED CD \"Fis\"E2F2|\"h\"DCB,4z2:|",
   "content": "{D}När vi tall planterar är vintern {A}redan gl{D}ömmt.\nPoikarna och flickor, {h}allt om våren drömmt.\n/: {e}Tuli, luli, luli, {h}tuli, luli, la, {e}sjungar trollen dj{Fis}up i sk{h}orgarna. :/\n\nI den gröna lunden, näktergalen slår.\nHurtig ösar bäcken, genom skog och snår.\n\nSitta vi kring elden, lågor lysa röd.\nGlömma hela världen, glömma alla nöd.",
   "title": "När vi tall planterar",
   "words": [
@@ -24,6 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "Wenn wir Kiefern pflanzen",
   "tempo": "90",
+  "musicalKey": "D",
   "info": "wörtlich:\nWenn wir Kiefern pflanzen ist der Winter bereits vergessen.\nDie Jungen und Mädchen, alle Träumen im Frühling. Tuli, luli...\nsingt der Troll tief in den Wäldern.\nIm grünen Hain schlägt die Nachtigall.\nDer Bach eilt hurtig durch Wald und Unterholz.\nSitzen wir am Feuer, die Flammen leuchten rot,\nvergessen wir die ganze Welt, vergessen wir die Not.\n",
   "changes": [
     {

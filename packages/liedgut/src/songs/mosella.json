@@ -34,6 +34,7 @@
   ],
   "beat": "4/4",
   "tempo": 100,
+  "musicalKey": "E",
   "info": "Mosella = alt-römische Personifizierung der Mosel\nUndine = Fährschiff zwischen Bernkastel-Kues und Trier",
   "content": "{E}Auf und ab der {H7}Pfad uns {A}führt,\nZum Sang der Riemen {E}klingt ein {H7}Lied.\n{cis}Schlangen durchziehen das {A}Land,\nMo{cis}sella, dein schimmerndes {A}Band,\ndein {E}schim{H7}merndes {E}Band.\n\nIm Abschied der Sonne das Tal erglüht,\nein knisterndes Feuer, das Wärme bringt,\nDie Kohte hoch oben thront,\nmit Blick auf dein Land uns lohnt,\ndein Land uns lohnt.\n\nFeinster Wein, dein Rebensaft,\nwir tippeln selig durch die Nacht.\nKraniche ziehen fort,\nverlassen den magischen Ort,\nden magischen Ort.\n\nMit Sehnsucht geht's gen Süden zu,\nlässt uns dein Zauber keine Ruh,\nUndine, gewähr uns Fahrt,\ndenn ferner Regen naht,\ndenn Regen naht.",
   "changes": [
@@ -66,6 +67,6 @@
     }
   ],
   "translation": [],
-  "notation": "L:1/4\nK:E\n\"E\" E, B, B, B, | \"H7\" B, B, \"A\" C2 | -C3/ C/ C3/ C/ | C C \"E\" B, E | \"H7\" F2 z2 |\n|: \"cis\" E/ E E/ E/ D D/ |1 \"A\" C3 z/ C/ :|2 \"A\" C3 C | \"E\" B,2 \"H7\" B, A, | \"E\" G,2 z2 |]",
+  "notation": "L:1/4\n\"E\" E, B, B, B, | \"H7\" B, B, \"A\" C2 | -C3/ C/ C3/ C/ | C C \"E\" B, E | \"H7\" F2 z2 |\n|: \"cis\" E/ E E/ E/ D D/ |1 \"A\" C3 z/ C/ :|2 \"A\" C3 C | \"E\" B,2 \"H7\" B, A, | \"E\" G,2 z2 |]",
   "alternativeTitle": "Moselfahrt"
 }

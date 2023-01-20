@@ -1,8 +1,10 @@
 const fs = require('fs')
 
-const normalizeContent = content =>
+const normalizeContent = (content) =>
   content
+    .replace(/ /g, ' ')
     .replace(/’/g, "'")
+    .replace(/‘/, "'")
     .replace(/ ́/g, "'")
     .replace(/„/g, '"')
     .replace(/“/g, '"')
@@ -13,8 +15,8 @@ fs.readdir('./src/songs', (err, files) => {
   }
 
   files
-    .filter(f => f !== 'index.json')
-    .map(f => {
+    .filter((f) => f !== 'index.json')
+    .map((f) => {
       const song = require('../src/songs/' + f)
 
       song.content = normalizeContent(song.content)
@@ -22,7 +24,7 @@ fs.readdir('./src/songs', (err, files) => {
       song.alternativeTitle = song.alternativeTitle || ''
       delete song.musicalKey
 
-      fs.writeFile('./src/songs/' + f, JSON.stringify(song, null, 2), err => {
+      fs.writeFile('./src/songs/' + f, JSON.stringify(song, null, 2), (err) => {
         if (err) {
           console.error(err)
         }
