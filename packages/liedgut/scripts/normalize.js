@@ -1,13 +1,15 @@
 const fs = require('fs')
 
+const OPENING_REPEAT_SIGN = /(\|{1,2}\:|\/\/\:)/g
+const CLOSING_REPEAT_SIGN = /(\:\|{1,2}|\/\/\:)/g
+const APOSTROPHE_REGEX = /(’|‘| ́|„|“)/g
+
 const normalizeContent = (content) =>
   content
     .replace(/ /g, ' ')
-    .replace(/’/g, "'")
-    .replace(/‘/, "'")
-    .replace(/ ́/g, "'")
-    .replace(/„/g, '"')
-    .replace(/“/g, '"')
+    .replace(APOSTROPHE_REGEX, "'")
+    .replace(OPENING_REPEAT_SIGN, '/:')
+    .replace(CLOSING_REPEAT_SIGN, ':/')
 
 fs.readdir('./src/songs', (err, files) => {
   if (err) {

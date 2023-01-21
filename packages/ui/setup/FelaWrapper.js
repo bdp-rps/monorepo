@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleProvider, ThemeProvider, ConfigProvider } from 'ambrose'
+import { Provider } from '../src/styling/Provider'
 
 import createStyleRenderer from '../src/styling/createStyleRenderer'
 
@@ -31,7 +31,7 @@ export default function FelaWrapper({ children }) {
   renderer.renderFont('Immenhausen', ['/fonts/Immenhausen-Regular.ttf'])
 
   return (
-    <Provider theme="bdp" renderer={renderer}>
+    <Provider renderer={renderer} theme="bdp">
       {children}
     </Provider>
   )

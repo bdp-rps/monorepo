@@ -7,6 +7,7 @@ import {
   Button,
   useTheme,
   useField,
+  IconNoteBeamed,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 import {
@@ -39,6 +40,7 @@ function SongList({ songs }) {
       {
         title,
         content,
+        notation = '',
         normalizedTitle,
         normalizedContent,
         normalizedAlternativeTitle,
@@ -55,6 +57,8 @@ function SongList({ songs }) {
 
       const isVisible =
         matchesTitle || matchesContent || matchesAlternativeTitle
+
+      const hasNotation = notation.length > 20
 
       const shownTitle = matchesTitle ? (
         <>
@@ -90,6 +94,7 @@ function SongList({ songs }) {
         isVisible,
         title: shownTitle,
         content: shownContent,
+        hasNotation,
       }
     }
   )
@@ -112,7 +117,7 @@ function SongList({ songs }) {
 
       <Box>
         {arrayMap(Object.keys(hits), (name) => {
-          const { title, content, isVisible } = hits[name]
+          const { title, content, hasNotation, isVisible } = hits[name]
 
           return (
             <NextLink key={name} href={'/' + name} passHref>
@@ -120,9 +125,16 @@ function SongList({ songs }) {
                 extend={{
                   display: isVisible ? 'flex' : 'none',
                 }}>
-                <Box>
-                  <Text color={theme.tokens.primary}>{title}</Text>
-                  {isFiltered && <Text>{content}</Text>}
+                <Box direction="row" alignItems="center">
+                  <Box grow={1}>
+                    <Text color={theme.tokens.primary}>{title}</Text>
+                    {isFiltered && <Text>{content}</Text>}
+                  </Box>
+                  {hasNotation && (
+                    <Box>
+                      <IconNoteBeamed />
+                    </Box>
+                  )}
                 </Box>
               </ListItem>
             </NextLink>
