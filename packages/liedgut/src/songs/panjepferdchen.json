@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{d}Hej, ihr {g}kleinen {d}Panjepf{F}erdchen, {d}heute, {g}heut noch {C7}haltet {F}aus,\n{d}bis zur sch{F}önen Batasch{g}urka {A7}führet uns der Weg nach {d}Haus.\n{d}Peitsche {g}knallt und {d}Pferdchen {F}schnauben, {d}und der {g}Muschik {C7}singt ein {F}Lied\n{d}von dem {F}kleinen Panjepf{g}erdchen, {A7}das ihn nach der Heimat {d}zieht.\n\n{C7}Seht ich lass' die {F}Zügel schießen, {C7}ihr habt ungehemmten {F}Lauf: (hej,hej,hej)\n{g}Schneller Pferdchen, {d}schneller Pferdchen, {A7}eh noch zieht die Nacht {d}herauf.\n\nSeht dort steht die kleine Schänke. Jubel, Trubel wird dort sein.\nAuf ein Schwätzchen, auf ein Gläschen Wodka kehrt' ich gerne ein.\nHe, der alte Kolkatschewka, freundlich lächelt er uns zu.\nDoch lass fahren Schwatz und Wodka, noch gibt's für uns keine Ruh'.\n\nWas seh' ich dort vorne blinken? Das ist meine kleine Stadt.\nHej, Tatjana wird mir winken, die auf mich gewartet hat.\nBataschurkas Fluten scheinen eilig, g'rade so wie wir.\nDoch lass eilen ihre Wasser, wir sind endlich nun am Ziel.\nStraff will ich die Zügel halten: Pferdchen, hemmet euren Lauf.\nHaltet Pferdchen, haltet Pferdchen, seht, nun zieht die Nacht herauf.",
+  "title": "Panjepferdchen",
+  "words": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1958"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1958"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Dm",
+  "info": "",
+  "changes": [
+    {
+      "date": 1674311724723,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
