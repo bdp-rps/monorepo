@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconPinterest(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 772 1000" {...props}>
@@ -8,5 +7,4 @@ function IconPinterest(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconPinterest} {...props} />

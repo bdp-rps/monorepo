@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconFilter(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 1000" {...props}>
@@ -10,5 +9,4 @@ function IconFilter(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconFilter} {...props} />

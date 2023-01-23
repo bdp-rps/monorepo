@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconSpotify(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1000" {...props}>
@@ -8,5 +7,4 @@ function IconSpotify(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconSpotify} {...props} />

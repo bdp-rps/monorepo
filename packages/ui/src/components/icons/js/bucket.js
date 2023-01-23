@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconBucket(props) {
   return (
     <svg viewBox="0 0 912 1000" xmlns="http://www.w3.org/2000/svg" {...props}>
@@ -8,5 +7,4 @@ function IconBucket(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconBucket} {...props} />

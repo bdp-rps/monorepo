@@ -1,8 +1,6 @@
 import React from 'react'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
-import { createStyleRenderer } from '@bdp-rps/ui'
-import { renderToNodeList } from 'react-fela'
-
+import { createStyleRenderer, renderToNodeList } from '@bdp-rps/ui'
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const renderer = createStyleRenderer()
@@ -10,7 +8,7 @@ export default class MyDocument extends Document {
 
     ctx.renderPage = () =>
       originalRenderPage({
-        enhanceApp: App => props => <App {...props} renderer={renderer} />,
+        enhanceApp: (App) => (props) => <App {...props} renderer={renderer} />,
       })
 
     const initialProps = await Document.getInitialProps(ctx)

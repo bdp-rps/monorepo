@@ -20,7 +20,7 @@ import PostTile from '../components/PostTile'
 
 import manifest from '../public/blog-manifest.json'
 
-export default function() {
+export default function () {
   const [firstPost, ...otherPosts] = manifest
 
   const theme = useTheme()
@@ -64,7 +64,7 @@ export default function() {
                 <PostTile highlight {...firstPost} />
               </Box>
               <Box grow={1} shrink={1} space={4}>
-                {otherPosts.splice(0, 2).map(post => (
+                {otherPosts.splice(0, 2).map((post) => (
                   <PostTile key={post.id} {...post} />
                 ))}
               </Box>

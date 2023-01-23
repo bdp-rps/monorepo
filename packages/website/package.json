@@ -1,6 +1,5 @@
 {
   "name": "bdp-rps.de",
-  "version": "0.0.25",
   "description": "Official bdp-rps.de website",
   "private": true,
   "scripts": {

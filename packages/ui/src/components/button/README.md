@@ -90,7 +90,7 @@ Well, a button, not much to say about that.
 
 ```jsx
 <Box space={2}>
-  <Button submit variant="primary">
+  <Button type="submit" variant="primary">
     Click Me
   </Button>
 </Box>

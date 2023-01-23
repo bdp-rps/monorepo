@@ -23,7 +23,7 @@ export default function PostTile({
           extend={{
             border: '2px solid black',
             borderRadius: theme.tokens.borderRadius,
-            background: theme.tokens.primary,
+            backgroundColor: 'background.accent',
             padding: 0,
           }}>
           <Box padding={2.5}>

@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconAlert(props) {
   return (
     <svg viewBox="0 0 901 1000" xmlns="http://www.w3.org/2000/svg" {...props}>
@@ -8,5 +7,4 @@ function IconAlert(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconAlert} {...props} />

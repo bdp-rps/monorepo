@@ -1,6 +1,5 @@
 {
   "name": "watoto-kabisa.de",
-  "version": "0.0.25",
   "description": "Official watoto-kabisa website",
   "private": true,
   "scripts": {
@@ -21,7 +20,6 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-dom-confetti": "^0.2.0",
-    "react-fela": "^11.7.0",
     "rehype-slug": "3.0.0"
   },
   "devDependencies": {

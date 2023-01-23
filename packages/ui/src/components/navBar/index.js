@@ -1,10 +1,10 @@
 import React from 'react'
-import { useFela } from 'react-fela'
+import { useTheme } from 'ambrose'
 
 import Box from '../box'
 
 export default function NavBar({ children, intent = 'primary' }) {
-  const { theme } = useFela()
+  const theme = useTheme()
 
   return (
     <Box

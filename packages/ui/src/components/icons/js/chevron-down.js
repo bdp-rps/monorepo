@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconChevronDown(props) {
   return (
     <svg
@@ -18,5 +17,4 @@ function IconChevronDown(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconChevronDown} {...props} />

@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Icon from '../Icon'
-
 function IconCd(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 1000" {...props}>
@@ -8,5 +7,4 @@ function IconCd(props) {
     </svg>
   )
 }
-
 export default (props) => <Icon icon={IconCd} {...props} />

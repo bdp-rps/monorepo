@@ -1,8 +1,9 @@
-import createStyleRenderer from './styling/createStyleRenderer'
-import Provider from './styling/Provider'
-
 export * from 'ambrose'
 export * from './components/icons'
+
+import createStyleRenderer from './styling/createStyleRenderer'
+import Provider from './styling/Provider'
+import renderToNodeList from './styling/renderToNodeList'
 
 import Accordion from './components/accordion'
 import Box from './components/box'
@@ -32,13 +33,12 @@ import TextArea from './components/textArea'
 import TextInput from './components/textInput'
 import Tile from './components/tile'
 import Toggle from './components/toggle'
-import visuallyHidden from 'ambrose/lib/components/visuallyHidden'
-
-export * from 'ambrose'
+import visuallyHidden from './components/visuallyHidden'
 
 export {
   Provider,
   createStyleRenderer,
+  renderToNodeList,
   Accordion,
   Box,
   Button,

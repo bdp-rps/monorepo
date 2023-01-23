@@ -115,7 +115,7 @@ function RegisterForm() {
 
   return (
     <>
-      {confettiVisible && <Confetti />}
+      {/* {confettiVisible && <Confetti />} */}
       <Box space={8} width="100%" maxWidth={['100%', , , 600]}>
         <Text variant="subtitle">Beitrittsformular</Text>
         <Box

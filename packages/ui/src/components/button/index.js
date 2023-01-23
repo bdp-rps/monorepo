@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types'
-import React from 'react'
-import { useFela } from 'react-fela'
+import React, { forwardRef } from 'react'
+import { useTheme } from 'ambrose'
 
+import Box from '../box'
+import Click from '../click'
 import Loading from '../loading'
 
 const fontSizeMap = {
@@ -99,81 +101,95 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   ],
 })
 
-export default function Button({
-  onClick,
-  children,
-  variant,
-  intent,
-  disabled,
-  submit,
-  loading,
-  size,
-  href,
-  ...props
-}) {
-  const styleProps = {
-    variant,
-    intent,
-    disabled,
-    loading,
-    size,
-  }
+const Button = forwardRef(
+  (
+    {
+      href,
+      disabled,
+      intent,
+      variant,
+      loading,
+      type,
+      size,
+      icon: Icon,
+      iconPosition = 'right',
+      target,
+      onClick,
+      children,
+      ...props
+    },
+    ref
+  ) => {
+    const theme = useTheme()
 
-  const { css, theme } = useFela(styleProps)
+    const extend = style({
+      intent,
+      variant,
+      disabled,
+      loading,
+      size,
+      theme,
+      hasIcon: Icon,
+    })
+    const buttonProps = {
+      ...props,
+      disabled,
+      extend,
+      type,
+    }
 
-  if (loading) {
-    return (
-      <div {...props} className={css(style)}>
-        <Loading
-          size={loadingSizeMap[size]}
-          color={
-            variant === 'primary'
-              ? theme.tokens.background
-              : intent === 'positive'
-              ? theme.tokens.primary
-              : theme.tokens.destructive
-          }
-        />
-      </div>
-    )
-  }
+    if (loading) {
+      return (
+        <Box {...props} extend={extend} ref={ref}>
+          <Box
+            extend={{
+              position: 'absolute',
+            }}>
+            <Loading
+              size={loadingSizeMap[size]}
+              color={
+                variant === 'primary'
+                  ? theme.tokens.background
+                  : intent === 'positive'
+                  ? theme.tokens.primary
+                  : theme.tokens.destructive
+              }
+            />
+          </Box>
+          {children}
+        </Box>
+      )
+    }
 
-  if (href) {
-    return (
-      <a
-        {...props}
-        href={!disabled ? href : undefined}
-        disabled={disabled}
-        className={css(style)}>
+    const content = (
+      <Box direction="row" space={2}>
+        {iconPosition === 'left' && Icon && <Icon />}
         {children}
-      </a>
+        {iconPosition === 'right' && Icon && <Icon />}
+      </Box>
     )
-  }
 
-  if (submit) {
+    if (href) {
+      const rel = target === '_blank' ? 'noreferrer noopener' : ''
+
+      return (
+        <Click {...buttonProps} ref={ref} href={href} target={target} rel={rel}>
+          {content}
+        </Click>
+      )
+    }
+
     return (
-      <input
-        {...props}
-        type="submit"
-        disabled={disabled}
-        onClick={!disabled ? onClick : undefined}
-        className={css(style)}
-        value={children}
-      />
+      <Click {...buttonProps} ref={ref} onClick={onClick}>
+        {content}
+      </Click>
     )
   }
+)
 
-  return (
-    <button
-      {...props}
-      disabled={disabled}
-      onClick={!disabled ? onClick : undefined}
-      className={css(style)}>
-      {children}
-    </button>
-  )
-}
+export default Button
 
+Button.displayName = 'Button'
 Button.defaultProps = {
   variant: 'primary',
   intent: 'positive',
@@ -193,8 +209,7 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   /** Enables a loading state. Hover, active and click events aren't triggered anymore. */
   loading: PropTypes.bool,
-  /** Renders an input of type="submit" for forms. */
-  submit: PropTypes.bool,
+  type: PropTypes.oneOf(['submit', 'reset']),
   /** Makes the button act as a link tag. */
   href: PropTypes.string,
 }

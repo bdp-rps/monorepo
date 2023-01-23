@@ -3,17 +3,18 @@ import { StyleProvider, ThemeProvider, ConfigProvider } from 'ambrose'
 
 import createStyleRenderer from './createStyleRenderer'
 
-import config from './config'
+import defaultConfig from './config'
 
 const clientRenderer = createStyleRenderer()
 
 export default function Provider({
+  config = {},
   children,
   renderer = clientRenderer,
   theme,
 }) {
   return (
-    <ConfigProvider config={config}>
+    <ConfigProvider config={{ ...defaultConfig, ...config }}>
       <StyleProvider renderer={renderer}>
         <ThemeProvider theme={theme}>{children}</ThemeProvider>
       </StyleProvider>

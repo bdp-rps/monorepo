@@ -29,14 +29,14 @@ const getResponsiveMediaQueries = (values, props) => {
   return mediaQueryMap[values.length]
 }
 
-const [extend, embedded, prefixer, fallbackValue, unit] = plugins
+const [extend, embedded, unit, fallbackValue, prefixer] = plugins
 
 export default function createStyleRenderer() {
   const renderer = createRenderer({
     optimizeCaching: true,
     enhancers: [sortMediaQueryMobileFirst(), enforceLonghands()],
     plugins: [
-      namedKeys(props => props?.theme?.breakpoints || {}),
+      namedKeys((props) => props?.theme?.breakpoints || {}),
       hoverMedia(),
       multipleSelectors(),
       extend,

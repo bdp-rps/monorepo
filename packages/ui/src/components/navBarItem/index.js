@@ -1,10 +1,9 @@
 import React from 'react'
 import { useFela } from 'react-fela'
 
-import { Click } from 'ambrose'
-
 import Box from '../box'
 import Text from '../text'
+import Click from '../click'
 
 export default function NavBarItem({ href, active, onClick, children }) {
   const { theme } = useFela()

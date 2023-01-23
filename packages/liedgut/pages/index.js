@@ -9,7 +9,6 @@ import {
   useField,
   IconNoteBeamed,
 } from '@bdp-rps/ui'
-import NextLink from 'next/link'
 import {
   arrayMap,
   arrayReduce,
@@ -106,7 +105,7 @@ function SongList({ songs }) {
   )
 
   return (
-    <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={3}>
+    <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={4}>
       <TextInput
         {...search.props}
         description={`${totalHits} Lieder gefunden`}
@@ -120,24 +119,24 @@ function SongList({ songs }) {
           const { title, content, hasNotation, isVisible } = hits[name]
 
           return (
-            <NextLink key={name} href={'/' + name} passHref>
-              <ListItem
-                extend={{
-                  display: isVisible ? 'flex' : 'none',
-                }}>
-                <Box direction="row" alignItems="center">
-                  <Box grow={1}>
-                    <Text color={theme.tokens.primary}>{title}</Text>
-                    {isFiltered && <Text>{content}</Text>}
-                  </Box>
-                  {hasNotation && (
-                    <Box>
-                      <IconNoteBeamed />
-                    </Box>
-                  )}
+            <ListItem
+              key={name}
+              href={'/' + name}
+              extend={{
+                display: isVisible ? 'flex' : 'none',
+              }}>
+              <Box direction="row" alignItems="center">
+                <Box grow={1}>
+                  <Text color={theme.tokens.primary}>{title}</Text>
+                  {isFiltered && <Text>{content}</Text>}
                 </Box>
-              </ListItem>
-            </NextLink>
+                {hasNotation && (
+                  <Box>
+                    <IconNoteBeamed />
+                  </Box>
+                )}
+              </Box>
+            </ListItem>
           )
         })}
       </Box>

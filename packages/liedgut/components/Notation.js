@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
 import { Box, Button, Checkbox, TextInput } from '@bdp-rps/ui'
 import ABC, { synth } from 'abcjs'
+import { useRouter } from 'next/router'
 
 import 'abcjs/abcjs-audio.css'
 
@@ -97,6 +98,8 @@ export default function Notation({
   options = {},
   textAreaRef,
 }) {
+  const router = useRouter()
+
   const key = musicalKey
 
   const [synthControl, setSynthControl] = useState()
@@ -197,6 +200,7 @@ export default function Notation({
       })[0]
 
       const midiBuffer = new ABC.synth.CreateSynth()
+
       midiBuffer
         .init({
           visualObj,
@@ -223,6 +227,24 @@ export default function Notation({
     transpose,
     textAreaRef,
   ])
+
+  useEffect(() => {
+    const handleRouteChangeStart = () => {
+      console.log('TRIGGERED')
+
+      if (synthControl) {
+        console.log(synthControl)
+
+        synthControl.pause()
+      }
+    }
+
+    router.events.on('routeChangeComplete', handleRouteChangeStart)
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChangeStart)
+    }
+  }, [router])
 
   return (
     <Box>
