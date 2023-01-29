@@ -17,6 +17,7 @@ const nav = {
   '/': 'Startseite',
   '/blog': 'Blog',
   '/bdp': 'BdP',
+  '/challenges': '2023 Challenges',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
   '/landesverband/landesleitung': 'Kontakt',
