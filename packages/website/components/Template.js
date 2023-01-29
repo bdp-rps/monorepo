@@ -15,6 +15,7 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
+  '/challenges': '2023 Challenges',
   '/blog': 'Blog',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
