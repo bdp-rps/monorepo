@@ -18,7 +18,7 @@
     "playroom.bdp-rps.app#build": {
       "outputs": ["out/**"]
     },
-    "@bdp-rps/react-pdf#build": {
+    "@bdp-rps/react-pdf-renderer#build": {
       "outputs": ["dist/**"]
     },
     "test": {
@@ -32,16 +32,10 @@
     "@bdp-rps/react-pdf#setup": {
       "outputs": ["dist/**"]
     },
-    "setup": {},
-    "@bdp-rps/ambrose#setup": {
-      "outputs": ["lib/**", "es/**"]
-    },
-    "@bdp-rps/ui#setup": {
-      "outputs": ["lib/**", "es/**"]
-    },
     "lint": {
       "dependsOn": ["^build"]
     },
+    "setup": {},
     "dev": {
       "cache": false
     }

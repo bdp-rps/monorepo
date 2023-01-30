@@ -5,9 +5,9 @@ import Song from './Song'
 
 import songs from '../songs/index.json'
 
-const songData = songs.map(song => require('../songs/' + song + '.json'))
+const songData = songs.map((song) => require('../songs/' + song + '.json'))
 
-const normalizeContent = content =>
+const normalizeContent = (content) =>
   content.replace(/{[a-z0-9]}/gi, '').toLowerCase()
 
 export default () => (
@@ -19,7 +19,7 @@ export default () => (
 
         return tA > tB ? 1 : -1
       })
-      .map(data => (
+      .map((data) => (
         <Song key={data.title} {...data} />
       ))}
   </Document>
