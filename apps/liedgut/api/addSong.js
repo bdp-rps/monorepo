@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 
 const appId = 'ebb641c9-5640-42ed-97ba-7e4339caa779'
 const docId = '85208b05-7e05-40f3-84b8-e5892063f57f'
-const songPath = 'packages/liedgut/src/songs/'
+const songPath = 'apps/liedgut/src/songs/'
 const extension = '.json'
 
 import escapeSongName from '../src/utils/escapeSongName'
@@ -15,7 +15,7 @@ if (typeof window !== 'undefined') {
   })
 }
 
-const hash = function(s) {
+const hash = function (s) {
   /* Simple hash function. */
   var a = 1,
     c = 0,
