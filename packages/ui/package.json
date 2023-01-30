@@ -43,6 +43,7 @@
   "license": "MIT",
   "dependencies": {
     "@bdp-rps/ambrose": "^1.0.0",
+    "fast-loops": "^1.1.3",
     "fela": "^12.2.1",
     "fela-enforce-longhands": "^12.2.1",
     "fela-monolithic": "^11.7.0",
