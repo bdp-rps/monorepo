@@ -27,7 +27,7 @@
     "build": "pnpm clean && pnpm build:icons && pnpm build:package",
     "build:styleguide": "styleguidist build",
     "build:package": "pnpm build:es && pnpm build:lib",
-    "build:icons": "rimraf src/components/icons/js && pnpm -r svgr -d src/components/icons/js src/components/icons/svg --config-file ./svgr.config.js && pnpm exec babel-node scripts/buildIcons.js",
+    "build:icons": "rimraf src/components/icons/js && pnpm -r svgr -d src/components/icons/js src/components/icons/svg --config-file ./svgr.config.js && babel-node scripts/buildIcons.js",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
     "dev": "npm run dev:lib & npm run dev:es",
