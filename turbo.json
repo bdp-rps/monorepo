@@ -13,6 +13,7 @@
       "outputs": ["lib/**", "es/**"]
     },
     "@bdp-rps/ui#build": {
+      "dependsOn": ["@bdp-rps/ambrose#build"],
       "outputs": ["lib/**", "es/**", "src/components/icons/js"]
     },
     "playroom.bdp-rps.app#build": {
