@@ -4,7 +4,7 @@
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write '**/**/*.{js,jsx,json,md,mdx,ts,tsx}' && turbo run format && turbo run setup",
+    "format": "prettier --write '**/**/*.{js,jsx,json,md,mdx,ts,tsx}' && turbo run format",
     "lint": "turbo run lint",
     "postinstall": "turbo run setup",
     "build": "turbo run build",
