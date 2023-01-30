@@ -13,13 +13,14 @@
       "outputs": ["lib/**", "es/**"]
     },
     "@bdp-rps/ui#build": {
+      "dependsOn": ["@bdp-rps/ambrose#build"],
       "outputs": ["lib/**", "es/**", "src/components/icons/js"]
-    },
-    "playroom.bdp-rps.app#build": {
-      "outputs": ["out/**"]
     },
     "@bdp-rps/react-pdf-renderer#build": {
       "outputs": ["dist/**"]
+    },
+    "playroom.bdp-rps.app#build": {
+      "outputs": ["out/**"]
     },
     "test": {
       "dependsOn": ["^build"],
@@ -32,10 +33,19 @@
     "@bdp-rps/react-pdf#setup": {
       "outputs": ["dist/**"]
     },
+    "setup": {},
+    "@bdp-rps/ambrose#setup": {
+      "outputs": ["lib/**", "es/**"]
+    },
+    "@bdp-rps/ui#setup": {
+      "outputs": ["lib/**", "es/**"]
+    },
+    "@bdp-rps/react-pdf-renderer#setup": {
+      "outputs": ["dist/**"]
+    },
     "lint": {
       "dependsOn": ["^build"]
     },
-    "setup": {},
     "dev": {
       "cache": false
     }
