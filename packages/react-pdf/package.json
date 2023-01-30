@@ -34,9 +34,6 @@
     "scheduler": "0.15.0",
     "yoga-layout-prebuilt": "1.9.3"
   },
-  "peerDependencies": {
-    "react": "16.0.0"
-  },
   "devDependencies": {
     "@babel/cli": "7.2.3",
     "@babel/core": "7.3.3",
@@ -59,8 +56,8 @@
     "mock-fs": "4.8.0",
     "mockdate": "2.0.2",
     "prettier": "1.16.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "rimraf": "2.6.3",
     "rollup": "1.2.3",
     "rollup-plugin-alias": "1.5.1",

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Provider } from '../src/styling/Provider'
+import Provider from '../src/styling/Provider'
 
 import createStyleRenderer from '../src/styling/createStyleRenderer'
 
