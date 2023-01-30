@@ -84,7 +84,8 @@ export default function TextInput({
         variant="label"
         extend={{
           cursor: disabled ? 'not-allowed' : 'pointer',
-        }}>
+        }}
+      >
         {label}
       </Text>
       <Box direction="row" alignItems="center">

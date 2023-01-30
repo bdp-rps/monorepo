@@ -150,7 +150,8 @@ function RegisterForm() {
                 }
               }
             })
-          }}>
+          }}
+        >
           <TextInput label="Vor- und Nachname" {...name.props} />
           <TextInput
             label="Geburtsdatum"
@@ -193,7 +194,8 @@ function RegisterForm() {
           <SelectInput
             label="Abbuchungsinteral"
             description="Jährliche Buchungen erleichtern werden immer zum 1. April eingezogen."
-            {...interval.props}>
+            {...interval.props}
+          >
             <option value="year">Jährlich</option>
             <option value="quarter">Quar­tals­wei­se</option>
           </SelectInput>
@@ -229,7 +231,8 @@ function RegisterForm() {
             extend={{
               border: '2px solid black',
               borderRadius: theme.tokens.borderRadius,
-            }}>
+            }}
+          >
             <Button type="submit" loading={loading}>
               Abschicken
             </Button>

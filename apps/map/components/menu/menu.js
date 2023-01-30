@@ -45,7 +45,8 @@ const Menu = ({
               left: 0,
               zIndex: 10000,
               overflow: 'scroll',
-            }}>
+            }}
+          >
             <NavBar>
               {/* <NavBarItem
                 active={tab === 'filter'}
@@ -54,7 +55,8 @@ const Menu = ({
               </NavBarItem> */}
               <NavBarItem
                 active={tab === 'form'}
-                onClick={() => setTab('form')}>
+                onClick={() => setTab('form')}
+              >
                 Hinzufügen
               </NavBarItem>
               <NavBarItem onClick={() => setIsVisible(false)}>
@@ -80,7 +82,8 @@ const Menu = ({
       ) : (
         <Box
           width="auto"
-          extend={{ position: 'absolute', top: 0, left: 0, zIndex: 10000 }}>
+          extend={{ position: 'absolute', top: 0, left: 0, zIndex: 10000 }}
+        >
           <Button onClick={() => setIsVisible(true)}> Öffnen </Button>
         </Box>
       )}

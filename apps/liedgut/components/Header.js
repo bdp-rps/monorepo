@@ -26,10 +26,12 @@ export default function Header() {
             <Box
               alignItems="center"
               direction="row"
-              display={['none', , 'flex']}>
+              display={['none', , 'flex']}
+            >
               <Text
                 color="white"
-                extend={{ fontSize: 16, lineHeight: 1, paddingTop: 2 }}>
+                extend={{ fontSize: 16, lineHeight: 1, paddingTop: 2 }}
+              >
                 /
               </Text>
               <NavBarItem href={'/' + songId}>

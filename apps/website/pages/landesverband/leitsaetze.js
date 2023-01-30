@@ -40,14 +40,16 @@ export default () => {
         paddingTop={5}
         paddingBottom={15}
         alignSelf="stretch"
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+      >
         <Text variant="subtitle">Wir wollen...</Text>
         <Box paddingTop={2} direction={'column'} space={4}>
           <Tile
             title="1. einen Beitrag zur Persönlichkeitsbildung junger Menschen leisten"
             image="/images/bula_2.jpg"
             imageHeight={400}
-            highlight>
+            highlight
+          >
             Unser Ziel ist es, junge Menschen in der Entwicklung zu
             eigenverantwortlichen, kritischen und engagierten Persönlichkeiten
             zu unterstützen.
@@ -72,7 +74,8 @@ export default () => {
             }
             image="/images/gemnschaft_freunde.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Wir sind mehr als ein geographischer Zusammenschluss von Stämmen,
             weil wir uns als Weggefährten verstehen und füreinander einstehen.
             <br />
@@ -95,7 +98,8 @@ export default () => {
             image="/images/bula_1.jpg"
             imagePosition="bottom"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Unser Landesverband wird von jungen Menschen gebildet, die Lust
             haben, sich ihre eigene Gemeinschaft zu schaffen.
             <br />
@@ -112,7 +116,8 @@ export default () => {
             title="4. zusammenarbeiten und uns gegenseitig unterstützen"
             image="/images/fahrt_strnd.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Als Gemeinschaft von Stämmen gestalten wir das Leben unseres
             Landesverbandes.
             <br />
@@ -128,7 +133,8 @@ export default () => {
             title="5. unsere Vielfalt als Chance sehen und voneinander lernen"
             image="/images/vielfalt.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Jeder Stamm in unserem Landesverband ist einzigartig.
             <br />
             Wir wollen in unserer Verschiedenheit aber nicht das Trennende
@@ -148,7 +154,8 @@ export default () => {
             }
             image="/images/fahrt_kote.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Unsere Gemeinschaft richtet sich nach den Werten und Idealen des
             internationalen Pfadfindertums.
             <br />
@@ -168,7 +175,8 @@ export default () => {
             title="7. einen Stil pflegen, der Ausdruck unserer gemeinsamen Kultur & Tradition ist"
             image="/images/schwrzzelte_1.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Unser Stil soll nach Innen und Außen verdeutlichen, dass wir eine
             Gemeinschaft sind.
             <br />
@@ -200,7 +208,8 @@ export default () => {
             title="8. ein attraktives & abenteuerliches Programm für alle Altersstufen"
             image="/images/popcorn.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Um unserem pädagogischen Anspruch gerecht zu werden, muss das
             Programm für die Jungen und Mädchen in den anspruchsvoll,
             <br />
@@ -230,7 +239,8 @@ export default () => {
             title="9. dass unsere Gruppen mit Freude & Stil auf Fahrt gehen"
             image="/images/lagerfeuer_fhrt_1.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Die Fahrt ist nicht nur Programminhalt, sondern Ausdruck unseres
             pfadfinderischen Selbstverständnisses.
             <br />
@@ -256,7 +266,8 @@ export default () => {
             title="10. eine lebendige & verbindende Singekultur pflegen"
             image="/images/gitarren.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Unsere Lieder und unser Singen spiegeln das Wesen unserer
             Gemeinschaft.
             <br />
@@ -294,7 +305,8 @@ export default () => {
             }
             image="/images/mnd.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Wir legen großen Wert auf die Qualifizierung unserer
             Gruppenführungen. Die Grundlage dafür wird in den Stämmen gelegt.
             <br />
@@ -324,7 +336,8 @@ export default () => {
             title="12. nach außen als Gemeinschaft positiv wahrgenommen werden"
             image="/images/fahrt_landschft_1.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Wir setzen uns damit auseinander, wie wir in der Öffentlichkeit
             wirken und bemühen uns um ein authentisches, positives Außenbild.
             <br />
@@ -335,7 +348,8 @@ export default () => {
             title="13. so viel Spaß wie möglich mit soviel Ernsthaftigkeit wie nötig haben"
             image="/images/landeszentrum_theke_1.jpg"
             highlight
-            imageHeight={400}>
+            imageHeight={400}
+          >
             Pfadfinden im Landesverband RPS ist ein großes Spiel, das allen
             Beteiligten vor allem Spaß machen soll.
             <br />

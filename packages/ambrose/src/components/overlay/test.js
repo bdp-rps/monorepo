@@ -13,7 +13,8 @@ describe('<Overlay />', () => {
         right={0}
         left={0}
         bottom={0}
-        visible={true}>
+        visible={true}
+      >
         Children
       </Overlay>
     )
@@ -27,7 +28,8 @@ describe('<Overlay />', () => {
         right={0}
         left={0}
         bottom={0}
-        visible={false}>
+        visible={false}
+      >
         Children
       </Overlay>
     )

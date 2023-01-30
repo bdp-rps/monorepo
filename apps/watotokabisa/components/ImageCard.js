@@ -19,7 +19,8 @@ export default function ImageCard({ image, children, ...props }) {
         ':hover > .description': {
           opacity: 1,
         },
-      }}>
+      }}
+    >
       <El
         as={Image}
         priority
@@ -44,7 +45,8 @@ export default function ImageCard({ image, children, ...props }) {
             medium: {
               opacity: 0,
             },
-          }}>
+          }}
+        >
           {children}
         </Box>
       )}

@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'fs'
 import {
   pdf,
   View,
@@ -14,49 +14,49 @@ import {
   StyleSheet,
   PDFRenderer,
   createInstance,
-} from './index';
+} from './index'
 
 export const renderToStream = async function (element) {
-  const instance = pdf(element);
-  const buffer = await instance.toBuffer();
-  instance.container.finish();
-  return buffer;
-};
+  const instance = pdf(element)
+  const buffer = await instance.toBuffer()
+  instance.container.finish()
+  return buffer
+}
 
 export const renderToFile = async function (element, filePath, callback) {
-  const output = await renderToStream(element);
-  const stream = fs.createWriteStream(filePath);
+  const output = await renderToStream(element)
+  const stream = fs.createWriteStream(filePath)
 
-  output.pipe(stream);
+  output.pipe(stream)
 
   return new Promise((resolve, reject) => {
     stream.on('finish', () => {
-      if (callback) callback(output, filePath);
-      resolve(output);
-    });
-    stream.on('error', reject);
-  });
-};
+      if (callback) callback(output, filePath)
+      resolve(output)
+    })
+    stream.on('error', reject)
+  })
+}
 
-const throwEnvironmentError = name => {
+const throwEnvironmentError = (name) => {
   throw new Error(
-    `${name} is a web specific API. Or you're either using this component on Node, or your bundler is not loading react-pdf from the appropiate web build.`,
-  );
-};
+    `${name} is a web specific API. Or you're either using this component on Node, or your bundler is not loading react-pdf from the appropiate web build.`
+  )
+}
 
 export const PDFViewer = () => {
-  throwEnvironmentError('PDFViewer');
-};
+  throwEnvironmentError('PDFViewer')
+}
 
 export const PDFDownloadLink = () => {
-  throwEnvironmentError('PDFDownloadLink');
-};
+  throwEnvironmentError('PDFDownloadLink')
+}
 
 export const BlobProvider = () => {
-  throwEnvironmentError('BlobProvider');
-};
+  throwEnvironmentError('BlobProvider')
+}
 
-export const render = renderToFile;
+export const render = renderToFile
 
 export {
   pdf,
@@ -73,7 +73,7 @@ export {
   StyleSheet,
   PDFRenderer,
   createInstance,
-} from './index';
+} from './index'
 
 export default {
   pdf,
@@ -96,4 +96,4 @@ export default {
   renderToStream,
   renderToFile,
   render,
-};
+}

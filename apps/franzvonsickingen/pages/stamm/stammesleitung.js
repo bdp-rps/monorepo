@@ -30,9 +30,10 @@ export default () => (
       paddingTop={10}
       paddingBottom={15}
       grow={1}
-      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+    >
       <Box space={8}>
-        {Object.keys(parts).map(part => (
+        {Object.keys(parts).map((part) => (
           <Box>
             <Text variant="subtitle">{part}</Text>
 
@@ -40,11 +41,13 @@ export default () => (
               {parts[part].map(({ name, group, contact, position, image }) => (
                 <Box
                   marginBottom={4}
-                  basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
+                  basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
+                >
                   <Tile
                     title={name}
                     image={`/images/${image}.jpg`}
-                    imageHeight={500}>
+                    imageHeight={500}
+                  >
                     <Box>
                       <Text>{position}</Text>
                     </Box>

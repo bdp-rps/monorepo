@@ -22,11 +22,13 @@ const Title = ({ children }) => {
       paddingLeft={2}
       paddingRight={2}
       alignSelf="flex-start"
-      extend={{ backgroundColor: theme.tokens.secondary }}>
+      extend={{ backgroundColor: theme.tokens.secondary }}
+    >
       <Text
         variant="title"
         color={theme.tokens.primary}
-        extend={{ lineHeight: 1, wordBreak: 'break-all' }}>
+        extend={{ lineHeight: 1, wordBreak: 'break-all' }}
+      >
         {children}
       </Text>
     </Box>
@@ -42,9 +44,12 @@ export default (
   return (
     <Template
       backgroundImage={`url("https://docs.bdp-rps.de${image}")`}
-      imageHeight={['12vh', , , '80vh']}>
+      imageHeight={['12vh', , , '80vh']}
+    >
       <Head>
-        <title>Pfadfinder Aufbaugruppe Tilia Mainz Blog Post {meta.title}</title>
+        <title>
+          Pfadfinder Aufbaugruppe Tilia Mainz Blog Post {meta.title}
+        </title>
         <meta
           name="description"
           content={`Blog Post ${meta.title} für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP`}
@@ -93,7 +98,8 @@ export default (
                 }
               />
             ),
-          }}>
+          }}
+        >
           {children}
         </ReactMarkdown>
       </Layout>

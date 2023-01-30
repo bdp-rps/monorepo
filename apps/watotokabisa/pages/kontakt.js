@@ -23,7 +23,8 @@ const TextBox = ({ children }) => {
       paddingLeft={2}
       paddingRight={2}
       alignSelf="flex-start"
-      extend={{ backgroundColor: theme.tokens.secondary }}>
+      extend={{ backgroundColor: theme.tokens.secondary }}
+    >
       <Head>
         <title>Kontakt - Watoto Kabisa</title>
         <meta type="description" content="Die Watoto Kabisa Kontaktdaten" />

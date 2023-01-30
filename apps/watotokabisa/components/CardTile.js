@@ -22,7 +22,8 @@ export default function CardTile({
           background: 'background.primary',
           padding: 0,
           overflow: 'hidden',
-        }}>
+        }}
+      >
         <Box padding={6}>{children}</Box>
       </Tile>
     </Box>

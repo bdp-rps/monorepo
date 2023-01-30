@@ -84,7 +84,8 @@ export default function Page() {
 
                       position: 'fixed',
                       bottom: 8,
-                    }}>
+                    }}
+                  >
                     <Text variant="label" color="white">
                       <strong>{selected.length}</strong> ausgewählt.
                     </Text>

@@ -16,7 +16,8 @@ export default function TextCard({ children }) {
       extend={{
         border: '2px solid black',
         borderRadius: theme.tokens.borderRadius,
-      }}>
+      }}
+    >
       {children}
     </Box>
   )

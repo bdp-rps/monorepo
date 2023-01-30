@@ -10,7 +10,8 @@ export default function CarouselItem({ width, maxWidth, children }) {
       width={[width, , , 'auto']}
       extend={{
         scrollSnapAlign: 'center',
-      }}>
+      }}
+    >
       {children}
     </Box>
   )

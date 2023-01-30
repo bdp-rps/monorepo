@@ -44,7 +44,8 @@ export default function Confetti({ delay = 500 }) {
         left: 0,
         zIndex: 40,
         pointerEvents: 'none',
-      }}>
+      }}
+    >
       <BaseConfetti active={active} config={config} />
     </Box>
   )

@@ -7,7 +7,8 @@ export default function Layout({ children, extend, ...props }) {
         padding={[2.5, , , 0]}
         maxWidth={1000}
         width="100%"
-        alignSelf="center">
+        alignSelf="center"
+      >
         {children}
       </Box>
     </Box>

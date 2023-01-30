@@ -26,7 +26,7 @@ const bMap = {
   b: 'ais',
 }
 
-const checkDur = chord =>
+const checkDur = (chord) =>
   chord.substr(0, 1).toLowerCase() !== chord.substr(0, 1)
 
 const transposeChord = (chord, transpose) => {
@@ -98,7 +98,8 @@ export default function Song(props) {
                 overflow: 'auto !important',
                 width: '100%',
               },
-            }}>
+            }}
+          >
             <Notation notation={notationText} />
           </Box>
           <Box maxWidth={300}>
@@ -119,18 +120,18 @@ export default function Song(props) {
 
   const theme = useTheme()
 
-  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map(block => {
+  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map((block) => {
     const lines = block.split(/(?:\r\n|\r|\n)/g)
 
-    return lines.map(line => {
+    return lines.map((line) => {
       if (line.match(/{[A-Z0-9]+}/gi) === null) {
         return line
       }
 
       return line
         .split(/{/gi)
-        .filter(v => v.length > 1)
-        .map(pair => {
+        .filter((v) => v.length > 1)
+        .map((pair) => {
           const s = pair.split(/}/gi)
 
           if (s.length === 1) {
@@ -152,9 +153,9 @@ export default function Song(props) {
       <Text variant="category">{title}</Text>
       <Spacer size={4} />
       <Box>
-        {blocks.map(lines => (
+        {blocks.map((lines) => (
           <Box wrap="wrap">
-            {lines.map(line => (
+            {lines.map((line) => (
               <Box direction="row" wrap="wrap">
                 {typeof line === 'string' ? (
                   <Text>{line ? line : ' '}</Text>
@@ -164,13 +165,15 @@ export default function Song(props) {
                       <Box
                         display="inline-flex"
                         alignItems="flex-start"
-                        paddingTop={1}>
+                        paddingTop={1}
+                      >
                         <Text
                           extend={{
                             transform: 'translate(0, 1px)',
                             lineHeight: 0.8,
                             color: theme.tokens.primary,
-                          }}>
+                          }}
+                        >
                           {p.chord
                             ? transposeChord(p.chord, parseInt(transpose))
                             : ' '}
@@ -195,7 +198,8 @@ export default function Song(props) {
         <Box>
           <Text
             variant="note"
-            extend={{ fontStyle: 'italic', color: theme.foreground }}>
+            extend={{ fontStyle: 'italic', color: theme.foreground }}
+          >
             {info}
           </Text>
         </Box>

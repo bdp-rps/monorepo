@@ -256,7 +256,8 @@ export default function Notation({
       <Box
         direction={['column', , 'row']}
         space={2}
-        alignItems={['flex-start', , 'center']}>
+        alignItems={['flex-start', , 'center']}
+      >
         <Box grow={1} ref={audioRef} alignSelf={['stretch', , 'center']} />
         <Box direction="row" space={2} alignItems="center" paddingRight={8}>
           <TextInput

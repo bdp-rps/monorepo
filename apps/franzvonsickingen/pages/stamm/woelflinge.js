@@ -15,7 +15,7 @@ import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
 const representatives = []
-stammesleitung.map(member => {
+stammesleitung.map((member) => {
   if (member.position == 'Wölflingsbeauftragte*r') {
     representatives.push(member)
   }
@@ -44,7 +44,9 @@ export default () => {
               Kleidung anzuziehen, die dreckig werden kann und warm hält
               (besonders im Frühjahr und Herbst). Außerdem sind feste Schuhe
               wichtig. Ansprechpartner für die Wölflingsmeute:{' '}
-              {representatives.map(representative => representative.name + ' ')}
+              {representatives.map(
+                (representative) => representative.name + ' '
+              )}
               <br />
               Was machen wir bei einer Meutenstunde? <br />
               Alles, was wir tun, soll uns Spaß machen. Deshalb machen wir ganz

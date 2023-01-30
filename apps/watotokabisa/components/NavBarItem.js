@@ -13,7 +13,8 @@ export default function NavBarItem({ href, active, children }) {
       extend={{
         textDecoration: 'none',
         cursor: 'pointer',
-      }}>
+      }}
+    >
       <Text
         color="white"
         variant="heading"
@@ -24,7 +25,8 @@ export default function NavBarItem({ href, active, children }) {
           borderBottomWidth: 3,
           borderBottomColor: active ? 'background.secondary' : 'transparent',
           borderBottomStyle: 'solid',
-        }}>
+        }}
+      >
         {children}
       </Text>
     </Box>

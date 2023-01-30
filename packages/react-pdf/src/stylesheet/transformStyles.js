@@ -1,15 +1,15 @@
-import yogaValue from './yogaValue';
-import parseScalar from './transformUnits';
-import { isBorderStyle, processBorders } from './borders';
-import { isBoxModelStyle, processBoxModel } from './boxModel';
-import { isFontWeightStyle, processFontWeight } from './transformFontWeight';
-import { isObjectPositionStyle, processObjectPosition } from './objectPosition';
+import yogaValue from './yogaValue'
+import parseScalar from './transformUnits'
+import { isBorderStyle, processBorders } from './borders'
+import { isBoxModelStyle, processBoxModel } from './boxModel'
+import { isFontWeightStyle, processFontWeight } from './transformFontWeight'
+import { isObjectPositionStyle, processObjectPosition } from './objectPosition'
 import {
   isTransformOriginStyle,
   processTransformOrigin,
-} from './transformOrigin';
+} from './transformOrigin'
 
-const hasOwnProperty = Object.prototype.hasOwnProperty;
+const hasOwnProperty = Object.prototype.hasOwnProperty
 
 const styleShorthands = {
   margin: {
@@ -106,18 +106,18 @@ const styleShorthands = {
     transformOriginX: true,
     transformOriginY: true,
   },
-};
+}
 
 // Expand the shorthand properties to isolate every declaration from the others.
-const expandStyles = style => {
-  if (!style) return style;
+const expandStyles = (style) => {
+  if (!style) return style
 
-  const propsArray = Object.keys(style);
-  const resolvedStyle = {};
+  const propsArray = Object.keys(style)
+  const resolvedStyle = {}
 
   for (let i = 0; i < propsArray.length; i++) {
-    const key = propsArray[i];
-    const value = style[key];
+    const key = propsArray[i]
+    const value = style[key]
 
     switch (key) {
       case 'display':
@@ -133,11 +133,11 @@ const expandStyles = style => {
       case 'alignItems':
       case 'alignContent':
       case 'order':
-        resolvedStyle[key] = yogaValue(key, value);
-        break;
+        resolvedStyle[key] = yogaValue(key, value)
+        break
       case 'textAlignVertical':
-        resolvedStyle.verticalAlign = value === 'center' ? 'middle' : value;
-        break;
+        resolvedStyle.verticalAlign = value === 'center' ? 'middle' : value
+        break
       case 'margin':
       case 'marginHorizontal':
       case 'marginVertical':
@@ -156,51 +156,51 @@ const expandStyles = style => {
       case 'objectPosition':
       case 'transformOrigin':
         {
-          const expandedProps = styleShorthands[key];
+          const expandedProps = styleShorthands[key]
           for (const propName in expandedProps) {
             if (hasOwnProperty.call(expandedProps, propName)) {
-              resolvedStyle[propName] = value;
+              resolvedStyle[propName] = value
             }
           }
         }
-        break;
+        break
       default:
-        resolvedStyle[key] = value;
-        break;
+        resolvedStyle[key] = value
+        break
     }
   }
 
-  return resolvedStyle;
-};
+  return resolvedStyle
+}
 
 const transformStyles = (style, container) => {
-  const expandedStyles = expandStyles(style);
-  const propsArray = Object.keys(expandedStyles);
-  const resolvedStyle = {};
+  const expandedStyles = expandStyles(style)
+  const propsArray = Object.keys(expandedStyles)
+  const resolvedStyle = {}
 
   for (let i = 0; i < propsArray.length; i++) {
-    const key = propsArray[i];
-    const value = expandedStyles[key];
+    const key = propsArray[i]
+    const value = expandedStyles[key]
 
-    let resolved;
+    let resolved
     if (isBorderStyle(key, value)) {
-      resolved = processBorders(key, value);
+      resolved = processBorders(key, value)
     } else if (isBoxModelStyle(key, value)) {
-      resolved = processBoxModel(key, value);
+      resolved = processBoxModel(key, value)
     } else if (isObjectPositionStyle(key, value)) {
-      resolved = processObjectPosition(key, value);
+      resolved = processObjectPosition(key, value)
     } else if (isTransformOriginStyle(key, value)) {
-      resolved = processTransformOrigin(key, value);
+      resolved = processTransformOrigin(key, value)
     } else if (isFontWeightStyle(key, value)) {
-      resolved = processFontWeight(value);
+      resolved = processFontWeight(value)
     } else {
-      resolved = value;
+      resolved = value
     }
 
-    resolvedStyle[key] = parseScalar(resolved, container);
+    resolvedStyle[key] = parseScalar(resolved, container)
   }
 
-  return resolvedStyle;
-};
+  return resolvedStyle
+}
 
-export default transformStyles;
+export default transformStyles

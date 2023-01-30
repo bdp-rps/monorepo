@@ -29,7 +29,8 @@ const TextBox = ({ children }) => {
       paddingLeft={2}
       paddingRight={2}
       alignSelf="flex-start"
-      extend={{ backgroundColor: theme.tokens.secondary }}>
+      extend={{ backgroundColor: theme.tokens.secondary }}
+    >
       <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
@@ -60,7 +61,8 @@ export default () => {
         paddingTop={5}
         paddingBottom={10}
         alignSelf="stretch"
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+      >
         <Text variant="subtitle">Das läuft bei uns.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>

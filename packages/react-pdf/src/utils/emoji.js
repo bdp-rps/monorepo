@@ -1,16 +1,22 @@
 /* eslint-disable no-cond-assign */
-import emojiRegex from 'emoji-regex';
-import Font from '../font';
-import { resolveImage } from '../utils/image';
+import emojiRegex from 'emoji-regex'
+import Font from '../font'
+import { resolveImage } from '../utils/image'
 
 // Caches emoji images data
-const emojis = {};
-const regex = emojiRegex();
+const emojis = {}
+const regex = emojiRegex()
 
-const reflect = promise => (...args) => promise(...args).then(v => v, e => e);
+const reflect =
+  (promise) =>
+  (...args) =>
+    promise(...args).then(
+      (v) => v,
+      (e) => e
+    )
 
 // Returns a function to be able to mock resolveImage.
-const makeFetchEmojiImage = () => reflect(resolveImage);
+const makeFetchEmojiImage = () => reflect(resolveImage)
 
 /**
  * When an emoji as no color, it might still have 2 parts,
@@ -22,61 +28,61 @@ const makeFetchEmojiImage = () => reflect(resolveImage);
  * The empty string needs to be removed otherwise the generated
  * url will be incorect.
  */
-const _removeNoColor = x => x !== '️';
+const _removeNoColor = (x) => x !== '️'
 
-const getCodePoints = string =>
+const getCodePoints = (string) =>
   Array.from(string)
     .filter(_removeNoColor)
-    .map(char => char.codePointAt(0).toString(16))
-    .join('-');
+    .map((char) => char.codePointAt(0).toString(16))
+    .join('-')
 
-const buildEmojiUrl = emoji => {
-  const { url, format } = Font.getEmojiSource();
-  return `${url}${getCodePoints(emoji)}.${format}`;
-};
+const buildEmojiUrl = (emoji) => {
+  const { url, format } = Font.getEmojiSource()
+  return `${url}${getCodePoints(emoji)}.${format}`
+}
 
-export const fetchEmojis = string => {
-  const emojiSource = Font.getEmojiSource();
+export const fetchEmojis = (string) => {
+  const emojiSource = Font.getEmojiSource()
 
-  if (!emojiSource || !emojiSource.url) return [];
+  if (!emojiSource || !emojiSource.url) return []
 
-  const promises = [];
+  const promises = []
 
-  let match;
+  let match
   while ((match = regex.exec(string))) {
-    const emoji = match[0];
+    const emoji = match[0]
 
     if (!emojis[emoji] || emojis[emoji].loading) {
-      const emojiUrl = buildEmojiUrl(emoji);
+      const emojiUrl = buildEmojiUrl(emoji)
 
-      emojis[emoji] = { loading: true };
-      const fetchEmojiImage = makeFetchEmojiImage();
+      emojis[emoji] = { loading: true }
+      const fetchEmojiImage = makeFetchEmojiImage()
       promises.push(
-        fetchEmojiImage({ uri: emojiUrl }).then(image => {
-          emojis[emoji].loading = false;
-          emojis[emoji].data = image.data;
-        }),
-      );
+        fetchEmojiImage({ uri: emojiUrl }).then((image) => {
+          emojis[emoji].loading = false
+          emojis[emoji].data = image.data
+        })
+      )
     }
   }
 
-  return promises;
-};
+  return promises
+}
 
-export const embedEmojis = fragments => {
-  const result = [];
+export const embedEmojis = (fragments) => {
+  const result = []
 
   for (let i = 0; i < fragments.length; i++) {
-    const fragment = fragments[i];
+    const fragment = fragments[i]
 
-    let match;
-    let lastIndex = 0;
+    let match
+    let lastIndex = 0
 
     while ((match = regex.exec(fragment.string))) {
-      const index = match.index;
-      const emoji = match[0];
-      const emojiSize = fragment.attributes.fontSize;
-      const chunk = fragment.string.slice(lastIndex, index + match[0].length);
+      const index = match.index
+      const emoji = match[0]
+      const emojiSize = fragment.attributes.fontSize
+      const chunk = fragment.string.slice(lastIndex, index + match[0].length)
 
       // If emoji image was found, we create a new fragment with the
       // correct attachment and object substitution character;
@@ -92,25 +98,25 @@ export const embedEmojis = fragments => {
               image: emojis[emoji].data,
             },
           },
-        });
+        })
       } else {
         // If no emoji data, we just replace the emoji with a nodef char
         result.push({
           string: chunk.replace(match, String.fromCharCode(0)),
           attributes: fragment.attributes,
-        });
+        })
       }
 
-      lastIndex = index + emoji.length;
+      lastIndex = index + emoji.length
     }
 
     if (lastIndex < fragment.string.length) {
       result.push({
         string: fragment.string.slice(lastIndex),
         attributes: fragment.attributes,
-      });
+      })
     }
   }
 
-  return result;
-};
+  return result
+}

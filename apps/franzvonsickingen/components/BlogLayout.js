@@ -19,11 +19,13 @@ const Title = ({ children }) => {
       paddingLeft={2}
       paddingRight={2}
       alignSelf="flex-start"
-      extend={{ backgroundColor: theme.tokens.secondary }}>
+      extend={{ backgroundColor: theme.tokens.secondary }}
+    >
       <Text
         variant="title"
         color={theme.tokens.primary}
-        extend={{ lineHeight: 1, wordBreak: 'break-all' }}>
+        extend={{ lineHeight: 1, wordBreak: 'break-all' }}
+      >
         {children}
       </Text>
     </Box>
@@ -77,7 +79,8 @@ export default ({ children, meta }) => {
                 }
               />
             ),
-          }}>
+          }}
+        >
           <main>{children}</main>
         </MDXProvider>
       </Layout>

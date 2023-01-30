@@ -17,7 +17,8 @@ export default ({ children, meta }) => {
   return (
     <Template
       image={'/posts/' + id + '/' + meta.teaser + '.jpg'}
-      title={meta.title}>
+      title={meta.title}
+    >
       <Box bg="background.primary">
         <Layout paddingTop={10} paddingBottom={20}>
           <Link href="/blog">← Zurück zur Übersicht</Link>
@@ -59,7 +60,8 @@ export default ({ children, meta }) => {
                   }
                 />
               ),
-            }}>
+            }}
+          >
             <main>{children}</main>
           </MDXProvider>
         </Layout>

@@ -13,18 +13,18 @@ export default function Song({
   words,
   tune,
 }) {
-  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map(block => {
+  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map((block) => {
     const lines = block.split(/(?:\r\n|\r|\n)/g)
 
-    return lines.map(line => {
+    return lines.map((line) => {
       if (line.match(/{[A-Z0-9]+}/gi) === null) {
         return line
       }
 
       return line
         .split(/{/gi)
-        .filter(v => v.length > 1)
-        .map(pair => {
+        .filter((v) => v.length > 1)
+        .map((pair) => {
           const s = pair.split(/}/gi)
 
           if (s.length === 1) {
@@ -51,7 +51,8 @@ export default function Song({
         fontSize: 10,
         lineHeight: 1.2,
         fontFamily: 'Bell Gothic Bold',
-      }}>
+      }}
+    >
       <View
         fixed
         render={({ pageNumber }) => (
@@ -59,7 +60,8 @@ export default function Song({
             style={{
               left: pageNumber % 2 === 0 ? '15mm' : '5mm',
               right: pageNumber % 2 === 0 ? '5mm' : '15mm',
-            }}>
+            }}
+          >
             <Text
               fixed
               style={{
@@ -91,7 +93,8 @@ export default function Song({
           <View
             style={{
               paddingRight: pageNumber % 2 === 0 ? '5mm' : '15mm',
-            }}>
+            }}
+          >
             <Text
               fixed
               render={({ subPageNumber }) =>
@@ -99,12 +102,13 @@ export default function Song({
               }
             />
           </View>
-        )}></View>
+        )}
+      ></View>
       <Text>{' '}</Text>
       <View>
-        {blocks.map(lines => (
+        {blocks.map((lines) => (
           <View key={JSON.stringify(lines)} wrap={false}>
-            {lines.map(line => {
+            {lines.map((line) => {
               return (
                 <View
                   key={JSON.stringify(line)}
@@ -120,7 +124,8 @@ export default function Song({
                           maxWidth: '128mm',
                           left: pageNumber % 2 === 0 ? '15mm' : '5mm',
                           right: pageNumber % 2 === 0 ? '5mm' : '15mm',
-                        }}>
+                        }}
+                      >
                         {typeof line === 'string' ? (
                           <Text wrap={false}>{line ? line : ' '}</Text>
                         ) : (
@@ -131,9 +136,11 @@ export default function Song({
                                   display: 'inline-flex',
                                   flexDirection: 'column',
                                   alignItems: 'flex-start',
-                                }}>
+                                }}
+                              >
                                 <Text
-                                  style={{ transform: 'translate(0, 1px)' }}>
+                                  style={{ transform: 'translate(0, 1px)' }}
+                                >
                                   {p.chord || ' '}
                                 </Text>
 
@@ -167,7 +174,8 @@ export default function Song({
             style={{
               paddingLeft: pageNumber % 2 === 0 ? '15mm' : '5mm',
               paddingRight: pageNumber % 2 === 0 ? '5mm' : '15mm',
-            }}>
+            }}
+          >
             <Text
               fixed
               style={{

@@ -54,7 +54,8 @@ export default function Template({
         path === '/'
           ? router.pathname === '/'
           : router.pathname.indexOf(path) !== -1
-      }>
+      }
+    >
       {nav[path]}
     </NavBarItem>
   ))
@@ -74,7 +75,8 @@ export default function Template({
             width: '100%',
             height: '100%',
             filter: 'contrast(0.9)',
-          }}>
+          }}
+        >
           <El
             as={Image}
             src={image || defaultImage}
@@ -88,7 +90,8 @@ export default function Template({
           padding={2}
           direction="row"
           justifyContent="space-between"
-          display={['flex', , , 'none']}>
+          display={['flex', , , 'none']}
+        >
           <Logo />
           <IconButton
             icon={(props) => <IconMenu fill="white" {...props} />}
@@ -102,7 +105,8 @@ export default function Template({
           justifyContent="space-between"
           paddingLeft={15}
           paddingRight={10}
-          paddingTop={5}>
+          paddingTop={5}
+        >
           <Logo />
           <NavBar>
             <Layout>
@@ -119,7 +123,8 @@ export default function Template({
               fontSize: 60.0,
               medium: { fontSize: 84.0 },
               textShadow: theme.tokens.textOnImageShadow,
-            }}>
+            }}
+          >
             {title}
           </Text>
           <Text
@@ -128,7 +133,8 @@ export default function Template({
             align="center"
             extend={{
               textShadow: theme.tokens.textOnImageShadow,
-            }}>
+            }}
+          >
             {subTitle}
           </Text>
         </Layout>

@@ -11,7 +11,8 @@ export default function PostTile({ id, highlight, ...post }) {
           title={title}
           image={'https://docs.bdp-rps.de' + image.data.attributes.url}
           highlight={highlight}
-          imageHeight={200}>
+          imageHeight={200}
+        >
           {subtitle}
           <Box paddingTop={2}>
             <Text variant="note">{author}</Text>

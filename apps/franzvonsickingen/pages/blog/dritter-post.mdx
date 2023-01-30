@@ -1,6 +1,6 @@
 import BlogLayout from '../../components/BlogLayout'
-import { Box, Tile,Text } from '@bdp-rps/ui'
- 
+import { Box, Tile, Text } from '@bdp-rps/ui'
+
 export const meta = {
   title: 'RPS goes digital...',
   teaser: 1,
@@ -10,30 +10,42 @@ export const meta = {
     nickname: '',
     position: 'Stellv. Landesvorsitzende',
   },
-  date: { year: 2021, month: 3, day: 5},
+  date: { year: 2021, month: 3, day: 5 },
 }
 
 export default ({ children }) => <BlogLayout meta={meta}>{children}</BlogLayout>
 
 <Box space={5}>
-  <Text >
-    Letztes Wochenende fanden die Stammes- und Stufenführungs-Arbeitskreise des LV RPS statt. Alle Arbeitskreise waren sehr gut besucht - super, dass auch nach einem Jahr Corinna immer noch so viele Leute mit uns gemeinsam den Landesverband gestalten und voranbringen wollen!
+  <Text>
+    Letztes Wochenende fanden die Stammes- und Stufenführungs-Arbeitskreise des
+    LV RPS statt. Alle Arbeitskreise waren sehr gut besucht - super, dass auch
+    nach einem Jahr Corinna immer noch so viele Leute mit uns gemeinsam den
+    Landesverband gestalten und voranbringen wollen!
     <br />
-    Ein besonderes Highlight war der Stammesführungsarbeitskreis, bei dem der Nachmittag ganz unter dem Motto „Kinder- und Jugendschutz“ stand. Aus diesem Grund hatte der Landesvorstand externe Referent*innen eingeladen: An dieser Stelle ein fettes DANKE an den Bundesarbeitskreis Intakt und Ingo Lauer  vom Jugendamt Birkenfeld! Mit diesen Einheiten haben wir nicht nur eine Menge gelernt, sondern zugleich auch einen Bundesversammlungsbeschluss erfüllt, denn zukünftig sollen sich alle Stammesführungen und Landesvorstände stetig in der Prävention und Intervention sexualisierter Gewalt fortbilden.
+    Ein besonderes Highlight war der Stammesführungsarbeitskreis, bei dem der
+    Nachmittag ganz unter dem Motto „Kinder- und Jugendschutz“ stand. Aus diesem
+    Grund hatte der Landesvorstand externe Referent*innen eingeladen: An dieser
+    Stelle ein fettes DANKE an den Bundesarbeitskreis Intakt und Ingo Lauer vom
+    Jugendamt Birkenfeld! Mit diesen Einheiten haben wir nicht nur eine Menge
+    gelernt, sondern zugleich auch einen Bundesversammlungsbeschluss erfüllt,
+    denn zukünftig sollen sich alle Stammesführungen und Landesvorstände stetig
+    in der Prävention und Intervention sexualisierter Gewalt fortbilden.
     <br />
-    Auch wenn 2021 sicher noch nicht so laufen wird, wie wir uns das als Pfadfinder*innen wünschen (nämlich draußen!!), haben wir an diesem Wochenende eine Menge schöner Aktionen auf den Weg bringen können. Bleibt gespannt, ihr werdet davon hören! 
-    </Text>
-    <Text> Es folgt noch eine kleine Auswahl an Kachelbildern: </Text>
-  <Box space={5} direction={'column'} >
-    <Tile 
-        image="/posts/dritter-post/Kachel_1.jpg"
-        imageHeight={600} > </ Tile>
-    <Tile 
-        image="/posts/dritter-post/Kachel_2.jpg"
-        imageHeight={600}> </ Tile>
-   <Tile 
-        image="/posts/dritter-post/Kachel_3.jpg"
-        imageHeight={600}
-       > </ Tile>
+    Auch wenn 2021 sicher noch nicht so laufen wird, wie wir uns das als
+    Pfadfinder*innen wünschen (nämlich draußen!!), haben wir an diesem
+    Wochenende eine Menge schöner Aktionen auf den Weg bringen können. Bleibt
+    gespannt, ihr werdet davon hören!
+  </Text>
+  <Text> Es folgt noch eine kleine Auswahl an Kachelbildern: </Text>
+  <Box space={5} direction={'column'}>
+    <Tile image="/posts/dritter-post/Kachel_1.jpg" imageHeight={600}>
+      {' '}
+    </Tile>
+    <Tile image="/posts/dritter-post/Kachel_2.jpg" imageHeight={600}>
+      {' '}
+    </Tile>
+    <Tile image="/posts/dritter-post/Kachel_3.jpg" imageHeight={600}>
+      {' '}
+    </Tile>
   </Box>
 </Box>

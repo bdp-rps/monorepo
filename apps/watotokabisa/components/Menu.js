@@ -21,10 +21,11 @@ export default function Menu({ menuVisible, hideMenu, children, ...props }) {
         bottom: 0,
         right: 0,
         zIndex: 10,
-      }}>
+      }}
+    >
       <Box padding={4}>
         <IconButton
-          icon={props => <IconCancel fill="white" {...props} />}
+          icon={(props) => <IconCancel fill="white" {...props} />}
           iconSize={40}
           onClick={hideMenu}
         />

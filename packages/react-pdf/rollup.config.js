@@ -1,38 +1,38 @@
-import json from 'rollup-plugin-json';
-import alias from 'rollup-plugin-alias';
-import babel from 'rollup-plugin-babel';
-import { terser } from 'rollup-plugin-terser';
-import ignore from 'rollup-plugin-ignore';
-import replace from 'rollup-plugin-replace';
-import sourceMaps from 'rollup-plugin-sourcemaps';
-import bundleSize from 'rollup-plugin-bundle-size';
-import nodeResolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
+import json from 'rollup-plugin-json'
+import alias from 'rollup-plugin-alias'
+import babel from 'rollup-plugin-babel'
+import { terser } from 'rollup-plugin-terser'
+import ignore from 'rollup-plugin-ignore'
+import replace from 'rollup-plugin-replace'
+import sourceMaps from 'rollup-plugin-sourcemaps'
+import bundleSize from 'rollup-plugin-bundle-size'
+import nodeResolve from 'rollup-plugin-node-resolve'
+import commonjs from 'rollup-plugin-commonjs'
 
-import pkg from './package.json';
-import chalk from 'chalk';
+import pkg from './package.json'
+import chalk from 'chalk'
 
 const moduleAliases = {
   'yoga-layout': 'yoga-layout-prebuilt',
-};
+}
 
-const globals = { react: 'React' };
+const globals = { react: 'React' }
 
 const cjs = {
   globals,
   format: 'cjs',
   exports: 'named',
   sourcemap: true,
-};
+}
 
 const esm = {
   globals,
   format: 'es',
   sourcemap: true,
-};
+}
 
-const getCJS = override => Object.assign({}, cjs, override);
-const getESM = override => Object.assign({}, esm, override);
+const getCJS = (override) => Object.assign({}, cjs, override)
+const getESM = (override) => Object.assign({}, esm, override)
 
 const ignoredCircular = [
   {
@@ -40,21 +40,21 @@ const ignoredCircular = [
     message:
       'Circular dependency: src/elements/index.js -> src/elements/Page.js -> src/elements/index.js',
   },
-];
+]
 
-const onwarn = warning => {
+const onwarn = (warning) => {
   if (
     warning.code === 'CIRCULAR_DEPENDENCY' &&
     ignoredCircular.some(
-      circular =>
+      (circular) =>
         circular.importer === warning.importer &&
-        circular.message === warning.message,
+        circular.message === warning.message
     )
   ) {
-    return;
+    return
   }
-  console.warn(chalk.bold.yellow(`(!) ${warning.message}`));
-};
+  console.warn(chalk.bold.yellow(`(!) ${warning.message}`))
+}
 
 const babelConfig = ({ browser }) => ({
   babelrc: false,
@@ -75,7 +75,7 @@ const babelConfig = ({ browser }) => ({
     '@babel/plugin-transform-runtime',
     ['@babel/plugin-proposal-class-properties', { loose: true }],
   ],
-});
+})
 
 const commonPlugins = [
   commonjs({
@@ -86,7 +86,7 @@ const commonPlugins = [
   alias(moduleAliases),
   nodeResolve(),
   bundleSize(),
-];
+]
 
 const configBase = {
   external: [
@@ -108,7 +108,7 @@ const configBase = {
   ].concat(Object.keys(pkg.dependencies), Object.keys(pkg.peerDependencies)),
   plugins: commonPlugins,
   onwarn,
-};
+}
 
 const getPlugins = ({ browser }) => [
   ...configBase.plugins,
@@ -116,7 +116,7 @@ const getPlugins = ({ browser }) => [
   replace({
     BROWSER: JSON.stringify(browser),
   }),
-];
+]
 
 const serverConfig = {
   ...configBase,
@@ -127,7 +127,7 @@ const serverConfig = {
   ],
   plugins: getPlugins({ browser: false }),
   external: configBase.external.concat(['fs', 'path', 'url']),
-};
+}
 
 const serverProdConfig = {
   ...serverConfig,
@@ -136,7 +136,7 @@ const serverProdConfig = {
     getCJS({ file: 'dist/react-pdf.cjs.min.js' }),
   ],
   plugins: serverConfig.plugins.concat(terser()),
-};
+}
 
 const browserConfig = {
   ...configBase,
@@ -146,7 +146,7 @@ const browserConfig = {
     getCJS({ file: 'dist/react-pdf.browser.cjs.js' }),
   ],
   plugins: [...getPlugins({ browser: true }), ignore(['fs', 'path', 'url'])],
-};
+}
 
 const browserProdConfig = {
   ...browserConfig,
@@ -155,11 +155,11 @@ const browserProdConfig = {
     getCJS({ file: 'dist/react-pdf.browser.cjs.min.js' }),
   ],
   plugins: browserConfig.plugins.concat(terser()),
-};
+}
 
 export default [
   serverConfig,
   serverProdConfig,
   browserConfig,
   browserProdConfig,
-];
+]

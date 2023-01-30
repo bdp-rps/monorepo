@@ -61,7 +61,8 @@ export default function Page({ events }) {
                       <Box
                         key={id}
                         space={[0, 5]}
-                        direction={['column', 'row']}>
+                        direction={['column', 'row']}
+                      >
                         <Text color="blue" extend={{ width: 100 }}>
                           <DateTime format="dd.MM">{startDate}</DateTime>
                           {startDate !== endDate && (

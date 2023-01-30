@@ -75,7 +75,8 @@ It accepts a style object that can be consumed by fela.
     backgroundColor: 'blue',
     color: 'white',
     ':hover': { backgroundColor: 'red' },
-  }}>
+  }}
+>
   Hello
 </Box>
 ```

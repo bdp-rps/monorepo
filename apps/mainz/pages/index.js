@@ -67,12 +67,14 @@ export default function page({ events, posts, postsMainz }) {
           onMouseOver={() => setIsHover(true)}
           onMouseLeave={() => setIsHover(false)}
           marginBottom={4}
-          basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
+          basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
+        >
           {!isHover ? (
             <Tile
               title="Die Menschen hinter der Aufbaugruppe Tilia"
               image={`/images/tilia.jpeg`}
-              imageHeight={800}>
+              imageHeight={800}
+            >
               <Box>
                 <Text>
                   Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
@@ -87,7 +89,8 @@ export default function page({ events, posts, postsMainz }) {
             <Tile
               title="Die Menschen hinter der Aufbaugruppe Tilia"
               image={`/images/tilia-action.jpeg`}
-              imageHeight={800}>
+              imageHeight={800}
+            >
               <Box>
                 <Text>
                   Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
@@ -106,7 +109,8 @@ export default function page({ events, posts, postsMainz }) {
         alignSelf="stretch"
         paddingTop={5}
         paddingBottom={10}
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+      >
         <Text variant="subtitle">Das läuft bei uns.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>
@@ -133,7 +137,8 @@ export default function page({ events, posts, postsMainz }) {
         alignSelf="stretch"
         paddingTop={5}
         paddingBottom={10}
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+      >
         <Text variant="subtitle">Das läuft in unserem Landesverband.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>

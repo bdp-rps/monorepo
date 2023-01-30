@@ -1,38 +1,35 @@
-import { isNil, propEq, prop, complement, compose } from 'ramda';
-import AttributedString from '@react-pdf/textkit/attributedString';
+import { isNil, propEq, prop, complement, compose } from 'ramda'
+import AttributedString from '@react-pdf/textkit/attributedString'
 
-import Font from '../font';
-import { embedEmojis } from './emoji';
-import { ignoreChars } from './ignorableChars';
+import Font from '../font'
+import { embedEmojis } from './emoji'
+import { ignoreChars } from './ignorableChars'
 
-const PREPROCESSORS = [ignoreChars, embedEmojis];
+const PREPROCESSORS = [ignoreChars, embedEmojis]
 
-const capitalize = value => value.replace(/(^|\s)\S/g, l => l.toUpperCase());
+const capitalize = (value) => value.replace(/(^|\s)\S/g, (l) => l.toUpperCase())
 
-const isImage = propEq('name', 'Image');
+const isImage = propEq('name', 'Image')
 
-const isTextInstance = compose(
-  complement(isNil),
-  prop('value'),
-);
+const isTextInstance = compose(complement(isNil), prop('value'))
 
 const transformText = (text, transformation) => {
   switch (transformation) {
     case 'uppercase':
-      return text.toUpperCase();
+      return text.toUpperCase()
     case 'lowercase':
-      return text.toLowerCase();
+      return text.toLowerCase()
     case 'capitalize':
-      return capitalize(text);
+      return capitalize(text)
     default:
-      return text;
+      return text
   }
-};
+}
 
-export const getFragments = instance => {
-  if (!instance) return [{ string: '' }];
+export const getFragments = (instance) => {
+  if (!instance) return [{ string: '' }]
 
-  let fragments = [];
+  let fragments = []
   const {
     color = 'black',
     backgroundColor,
@@ -49,10 +46,10 @@ export const getFragments = instance => {
     letterSpacing,
     textIndent,
     opacity,
-  } = instance.style;
+  } = instance.style
 
-  const obj = Font.getFont({ fontFamily, fontWeight, fontStyle });
-  const font = obj ? obj.data : fontFamily;
+  const obj = Font.getFont({ fontFamily, fontWeight, fontStyle })
+  const font = obj ? obj.data : fontFamily
   const attributes = {
     font,
     color,
@@ -70,9 +67,9 @@ export const getFragments = instance => {
     strikeStyle: textDecorationStyle,
     strikeColor: textDecorationColor || color,
     lineHeight: lineHeight ? lineHeight * fontSize : null,
-  };
+  }
 
-  instance.children.forEach(child => {
+  instance.children.forEach((child) => {
     if (isImage(child)) {
       fragments.push({
         string: String.fromCharCode(0xfffc),
@@ -84,26 +81,26 @@ export const getFragments = instance => {
             image: child.image.data,
           },
         },
-      });
+      })
     } else if (isTextInstance(child)) {
       fragments.push({
         string: transformText(child.value, textTransform),
         attributes,
-      });
+      })
     } else {
       if (child) {
-        fragments.push(...getFragments(child));
+        fragments.push(...getFragments(child))
       }
     }
-  });
+  })
 
   for (const preprocessor of PREPROCESSORS) {
-    fragments = preprocessor(fragments);
+    fragments = preprocessor(fragments)
   }
 
-  return fragments;
-};
+  return fragments
+}
 
-export const getAttributedString = instance => {
-  return AttributedString.fromFragments(getFragments(instance));
-};
+export const getAttributedString = (instance) => {
+  return AttributedString.fromFragments(getFragments(instance))
+}

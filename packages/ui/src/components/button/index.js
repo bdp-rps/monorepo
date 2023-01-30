@@ -144,7 +144,8 @@ const Button = forwardRef(
           <Box
             extend={{
               position: 'absolute',
-            }}>
+            }}
+          >
             <Loading
               size={loadingSizeMap[size]}
               color={

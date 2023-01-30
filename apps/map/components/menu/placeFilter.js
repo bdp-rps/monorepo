@@ -16,7 +16,8 @@ const PlaceFilter = ({ setFilters }) => {
             }
             return { ...prev, size: e.target.value }
           })
-        }>
+        }
+      >
         <option value="small">Klein</option>
         <option value="medium">Mittel</option>
         <option value="large">Groß</option>
@@ -31,7 +32,8 @@ const PlaceFilter = ({ setFilters }) => {
             }
             return { ...prev, type: e.target.value }
           })
-        }}>
+        }}
+      >
         <option value="heim">Heim</option>
         <option value="lager">Lagerplatz</option>
         <option value="stammesheim">Stammesheim</option>

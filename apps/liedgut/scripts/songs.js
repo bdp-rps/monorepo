@@ -3,8 +3,8 @@ import { execSync } from 'child_process'
 import songs from '../src/songs/index.json'
 
 songs
-  .filter(s => s !== 'index.json')
-  .forEach(song => {
+  .filter((s) => s !== 'index.json')
+  .forEach((song) => {
     try {
       execSync('yarn build:song ' + song)
       console.log('Successfully built ' + song)

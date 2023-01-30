@@ -48,7 +48,8 @@ const TabNav = ({ onChange, style, extend, children }) => (
       direction="row"
       justifyContent="flex-start"
       style={style}
-      extend={[style, extend]}>
+      extend={[style, extend]}
+    >
       {children}
     </Box>
   </TabNavContext.Provider>
@@ -81,7 +82,8 @@ const TabNavItem = ({ disabled = false, id, active, children }) => {
         if (!disabled) {
           onChange(id)
         }
-      }}>
+      }}
+    >
       <Text
         extend={{
           fontFamily: theme.fonts.content,
@@ -92,7 +94,8 @@ const TabNavItem = ({ disabled = false, id, active, children }) => {
             : active
             ? theme.tokens.primary
             : theme.tokens.foreground
-        }>
+        }
+      >
         {children}
       </Text>
     </Box>
@@ -146,7 +149,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
       direction={['column', , , 'row']}
       grow={1}
       alignSelf="stretch"
-      height="calc(100vh - 50px)">
+      height="calc(100vh - 50px)"
+    >
       <Box grow={[1, , , 0]} basis="40%">
         <TabNav onChange={setTab}>
           <TabNavItem active={tab === 'details'} id="details">
@@ -163,12 +167,14 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           grow={1}
           height="100%"
           shrink={1}
-          extend={{ backgroundColor: 'rgb(245, 245, 245)', overflow: 'auto' }}>
+          extend={{ backgroundColor: 'rgb(245, 245, 245)', overflow: 'auto' }}
+        >
           <Box
             grow={1}
             space={4}
             padding={5}
-            display={tab === 'details' ? 'flex' : 'none'}>
+            display={tab === 'details' ? 'flex' : 'none'}
+          >
             <TextInput
               label="Titel"
               value={song.title}
@@ -183,7 +189,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             <SelectInput
               label="Takt"
               value={song.beat}
-              onChange={(e) => setSong({ ...song, beat: e.target.value })}>
+              onChange={(e) => setSong({ ...song, beat: e.target.value })}
+            >
               <option value="1/4">1/4</option>
               <option value="2/4">2/4</option>
               <option value="3/4">3/4</option>
@@ -196,9 +203,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             <SelectInput
               label="Tonart"
               value={song.musicalKey}
-              onChange={(e) =>
-                setSong({ ...song, musicalKey: e.target.value })
-              }>
+              onChange={(e) => setSong({ ...song, musicalKey: e.target.value })}
+            >
               <option value="C">C</option>
               <option value="Cm">c</option>
               <option value="C#">Cis</option>
@@ -268,7 +274,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                                 ...song,
                                 words: song.words.filter((a) => author !== a),
                               })
-                            }>
+                            }
+                          >
                             Löschen
                           </Button>
                         </Box>
@@ -282,7 +289,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                     onClick={() => {
                       setAuthorMode('words')
                       setAuthorVisible(true)
-                    }}>
+                    }}
+                  >
                     Hinzufügen
                   </Button>
                 </Box>
@@ -309,7 +317,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                                 ...song,
                                 tune: song.tune.filter((a) => author !== a),
                               })
-                            }>
+                            }
+                          >
                             Löschen
                           </Button>
                         </Box>
@@ -323,7 +332,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                     onClick={() => {
                       setAuthorMode('tune')
                       setAuthorVisible(true)
-                    }}>
+                    }}
+                  >
                     Hinzufügen
                   </Button>
                 </Box>
@@ -331,7 +341,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             </Box>
             <Modal
               visible={authorVisible}
-              onClose={() => setAuthorVisible(false)}>
+              onClose={() => setAuthorVisible(false)}
+            >
               <Box space={4} padding={2} minWidth={350}>
                 <Text variant="category">Autor hinzufügen</Text>
                 <TextInput
@@ -393,7 +404,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
 
                       setAuthor(defaultAuthor)
                       setAuthorVisible(false)
-                    }}>
+                    }}
+                  >
                     Hinzufügen
                   </Button>
                   <Button
@@ -402,7 +414,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                     onClick={() => {
                       setAuthor(defaultAuthor)
                       setAuthorVisible(false)
-                    }}>
+                    }}
+                  >
                     Abbrechen
                   </Button>
                 </Box>
@@ -413,7 +426,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             grow={1}
             space={5}
             padding={5}
-            display={tab === 'text' ? 'flex' : 'none'}>
+            display={tab === 'text' ? 'flex' : 'none'}
+          >
             <TextArea
               extend={{ minHeight: 400, flexGrow: 1 }}
               description="Akkorde können im Text in Klammern markiert werden. z.B. Ein {e}Akk{D7}ord."
@@ -430,7 +444,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
             grow={1}
             space={0}
             padding={5}
-            display={tab === 'melody' ? 'flex' : 'none'}>
+            display={tab === 'melody' ? 'flex' : 'none'}
+          >
             <Text>
               T:{song.title}
               <br />
@@ -451,7 +466,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                   <Link
                     href="http://kurs.schacherl.info/ABC-Musiknotation/abc_syntax/abc_syntax.html"
                     target="_blank"
-                    rel="noopener">
+                    rel="noopener"
+                  >
                     ABC Syntax Kurs
                   </Link>
                 </>
@@ -471,7 +487,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           space={2}
           grow={1}
           justifyContent="space-between"
-          direction={['column', , 'row']}>
+          direction={['column', , 'row']}
+        >
           <Button
             intent="positive"
             variant="secondary"
@@ -484,7 +501,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 setSong(song)
                 setAuthor(author)
               }
-            }}>
+            }}
+          >
             Letzte Sitzung wiederherstellen
           </Button>
           <Button onClick={() => setSendVisible(true)}>Einreichen</Button>
@@ -497,12 +515,14 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         paddingTop={5}
         paddingBottom={8}
         space={8}
-        extend={{ overflow: 'auto' }}>
+        extend={{ overflow: 'auto' }}
+      >
         <Song {...song} textAreaRef={textAreaRef} />
       </Box>
       <Modal
         visible={reuseCacheVisible}
-        onClose={() => setReuseCacheVisible(false)}>
+        onClose={() => setReuseCacheVisible(false)}
+      >
         <Box space={4} padding={2} minWidth={350}>
           <Text variant="category">Letzte Sitzung wiederherstellen</Text>
           <Text>
@@ -518,7 +538,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                 setReuseCacheVisible(false)
                 setSong(song)
                 setAuthor(author)
-              }}>
+              }}
+            >
               Wiederherstellen
             </Button>
             <Button
@@ -526,7 +547,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               intent="negative"
               onClick={() => {
                 setReuseCacheVisible(false)
-              }}>
+              }}
+            >
               Abbrechen
             </Button>
           </Box>
@@ -538,7 +560,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           if (!isLoading) {
             setSendVisible(false)
           }
-        }}>
+        }}
+      >
         <Box space={4} padding={2} minWidth={350}>
           <Text variant="category">Deine Daten</Text>
           <TextInput
@@ -582,7 +605,8 @@ Danke für die Einsendung.`)
                 }
 
                 setLoading(false)
-              }}>
+              }}
+            >
               {isLoading ? 'Daten werden gesendet...' : 'Einreichen'}
             </Button>
             <Button
@@ -590,7 +614,8 @@ Danke für die Einsendung.`)
               disabled={isLoading}
               onClick={() => {
                 setSendVisible(false)
-              }}>
+              }}
+            >
               Abbrechen
             </Button>
           </Box>

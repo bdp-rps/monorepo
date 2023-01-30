@@ -5,4 +5,4 @@ module.exports = {
     'cross-fetch': 'jest-fetch-mock',
     'yoga-layout': 'yoga-layout-prebuilt',
   },
-};
+}

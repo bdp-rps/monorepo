@@ -26,7 +26,8 @@ export default ({ posts }) => {
       <Layout
         paddingTop={10}
         paddingBottom={20}
-        extend={{ backgroundColor: 'rgb(240, 240, 240)' }}>
+        extend={{ backgroundColor: 'rgb(240, 240, 240)' }}
+      >
         <Grid gap={5} columns={['1fr', , '1fr 1fr']}>
           {posts.map((post) => (
             <PostTile key={post.id} {...post} />

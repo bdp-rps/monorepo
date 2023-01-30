@@ -23,7 +23,7 @@ function clusterOrganisation(authors) {
 
 export default function renderAuthors(authors) {
   const clustered = clusterOrganisation(
-    authors.map(auth => ({
+    authors.map((auth) => ({
       organisation: '',
       nickname: '',
       name: '',
@@ -34,15 +34,15 @@ export default function renderAuthors(authors) {
   )
 
   return Object.keys(clustered).map(
-    year =>
+    (year) =>
       Object.keys(clustered[year])
         .map(
-          org =>
+          (org) =>
             Object.keys(clustered[year][org])
               .map(
-                group =>
+                (group) =>
                   clustered[year][org][group]
-                    .map(author =>
+                    .map((author) =>
                       author.nickname
                         ? author.nickname +
                           (author.name ? ' (' + author.name + ')' : '')

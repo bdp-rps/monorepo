@@ -24,7 +24,8 @@ const TextBox = ({ children }) => {
       paddingLeft={2}
       paddingRight={2}
       alignSelf="flex-start"
-      extend={{ backgroundColor: theme.tokens.secondary }}>
+      extend={{ backgroundColor: theme.tokens.secondary }}
+    >
       <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>

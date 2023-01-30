@@ -124,7 +124,8 @@ function SongList({ songs }) {
               href={'/' + name}
               extend={{
                 display: isVisible ? 'flex' : 'none',
-              }}>
+              }}
+            >
               <Box direction="row" alignItems="center">
                 <Box grow={1}>
                   <Text color={theme.tokens.primary}>{title}</Text>

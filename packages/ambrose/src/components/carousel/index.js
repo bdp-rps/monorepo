@@ -43,10 +43,12 @@ export default function Carousel({ columns, gap, padding, children }) {
           gridGap: innerSpace.map((space) => space * theme.baselineGrid),
           gridTemplateColumns: `repeat(${columns}, 1fr)`,
         },
-      }}>
+      }}
+    >
       <Box
         display="contents"
-        space={[innerSpace[0], innerSpace[1], innerSpace[2], 0]}>
+        space={[innerSpace[0], innerSpace[1], innerSpace[2], 0]}
+      >
         {children}
       </Box>
       <Box

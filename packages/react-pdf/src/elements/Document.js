@@ -1,7 +1,7 @@
-import wrapPages from 'page-wrapping';
+import wrapPages from 'page-wrapping'
 
-import Font from '../font';
-import { fetchEmojis } from '../utils/emoji';
+import Font from '../font'
+import { fetchEmojis } from '../utils/emoji'
 
 class Document {
   static defaultProps = {
@@ -9,173 +9,173 @@ class Document {
     keywords: null,
     subject: null,
     title: null,
-  };
+  }
 
   constructor(root, props) {
-    this.root = root;
-    this.style = {};
-    this.props = props;
-    this.children = [];
-    this.subpages = [];
+    this.root = root
+    this.style = {}
+    this.props = props
+    this.children = []
+    this.subpages = []
   }
 
   get name() {
-    return 'Document';
+    return 'Document'
   }
 
   appendChild(child) {
-    child.parent = this;
-    this.children.push(child);
+    child.parent = this
+    this.children.push(child)
   }
 
   removeChild(child) {
-    const index = this.children.indexOf(child);
+    const index = this.children.indexOf(child)
 
     if (index !== -1) {
-      child.parent = null;
-      this.children.splice(index, 1);
+      child.parent = null
+      this.children.splice(index, 1)
     }
 
-    child.cleanup();
+    child.cleanup()
   }
 
   addMetaData() {
-    const { title, author, subject, keywords, creator, producer } = this.props;
+    const { title, author, subject, keywords, creator, producer } = this.props
 
     // The object keys need to start with a capital letter by the PDF spec
-    if (title) this.root.instance.info.Title = title;
-    if (author) this.root.instance.info.Author = author;
-    if (subject) this.root.instance.info.Subject = subject;
-    if (keywords) this.root.instance.info.Keywords = keywords;
+    if (title) this.root.instance.info.Title = title
+    if (author) this.root.instance.info.Author = author
+    if (subject) this.root.instance.info.Subject = subject
+    if (keywords) this.root.instance.info.Keywords = keywords
 
-    this.root.instance.info.Creator = creator || 'react-pdf';
-    this.root.instance.info.Producer = producer || 'react-pdf';
+    this.root.instance.info.Creator = creator || 'react-pdf'
+    this.root.instance.info.Producer = producer || 'react-pdf'
   }
 
   async loadFonts() {
-    const promises = [];
-    const listToExplore = this.children.slice(0);
+    const promises = []
+    const listToExplore = this.children.slice(0)
 
     while (listToExplore.length > 0) {
-      const node = listToExplore.shift();
+      const node = listToExplore.shift()
 
       if (node.style && node.style.fontFamily) {
-        promises.push(Font.load(node.style, this.root.instance));
+        promises.push(Font.load(node.style, this.root.instance))
       }
 
       if (node.children) {
-        node.children.forEach(childNode => {
-          listToExplore.push(childNode);
-        });
+        node.children.forEach((childNode) => {
+          listToExplore.push(childNode)
+        })
       }
     }
 
-    await Promise.all(promises);
+    await Promise.all(promises)
   }
 
   async loadEmojis() {
-    const promises = [];
-    const listToExplore = this.children.slice(0);
+    const promises = []
+    const listToExplore = this.children.slice(0)
 
     while (listToExplore.length > 0) {
-      const node = listToExplore.shift();
+      const node = listToExplore.shift()
 
       if (typeof node === 'string') {
-        promises.push(...fetchEmojis(node));
+        promises.push(...fetchEmojis(node))
       } else if (typeof node.value === 'string') {
-        promises.push(...fetchEmojis(node.value));
+        promises.push(...fetchEmojis(node.value))
       } else if (node.children) {
-        node.children.forEach(childNode => {
-          listToExplore.push(childNode);
-        });
+        node.children.forEach((childNode) => {
+          listToExplore.push(childNode)
+        })
       }
     }
 
-    await Promise.all(promises);
+    await Promise.all(promises)
   }
 
   async loadImages() {
-    const promises = [];
-    const listToExplore = this.children.slice(0);
+    const promises = []
+    const listToExplore = this.children.slice(0)
 
     while (listToExplore.length > 0) {
-      const node = listToExplore.shift();
+      const node = listToExplore.shift()
 
       if (node.name === 'Image') {
-        promises.push(node.fetch());
+        promises.push(node.fetch())
       }
 
       if (node.children) {
-        node.children.forEach(childNode => {
-          listToExplore.push(childNode);
-        });
+        node.children.forEach((childNode) => {
+          listToExplore.push(childNode)
+        })
       }
     }
 
-    await Promise.all(promises);
+    await Promise.all(promises)
   }
 
   async loadAssets() {
-    await Promise.all([this.loadFonts(), this.loadImages(), this.loadEmojis()]);
+    await Promise.all([this.loadFonts(), this.loadImages(), this.loadEmojis()])
   }
 
   applyProps() {
-    this.children.forEach(child => child.applyProps());
+    this.children.forEach((child) => child.applyProps())
   }
 
   update(newProps) {
-    this.props = newProps;
+    this.props = newProps
   }
 
   cleanup() {
-    this.subpages.forEach(p => p.cleanup());
+    this.subpages.forEach((p) => p.cleanup())
   }
 
   finish() {
-    this.children.forEach(c => c.cleanup());
+    this.children.forEach((c) => c.cleanup())
   }
 
   getLayoutData() {
     return {
       type: this.name,
-      children: this.subpages.map(c => c.getLayoutData()),
-    };
+      children: this.subpages.map((c) => c.getLayoutData()),
+    }
   }
 
   async wrapPages() {
-    let pageCount = 1;
-    const pages = [];
+    let pageCount = 1
+    const pages = []
 
     for (const page of this.children) {
       if (page.wrap) {
         const wrapArea = page.isAutoHeight
           ? Infinity
-          : page.size.height - (page.style.paddingBottom || 0);
+          : page.size.height - (page.style.paddingBottom || 0)
 
-        const subpages = await wrapPages(page, wrapArea, pageCount);
+        const subpages = await wrapPages(page, wrapArea, pageCount)
 
-        pageCount += subpages.length;
+        pageCount += subpages.length
 
         subpages.forEach((sub, index) =>
           pages.push({
             page: sub,
             number: index + 1,
             count: subpages.length,
-          }),
-        );
+          })
+        )
       } else {
-        pages.push({ page, number: 1, count: 1 });
+        pages.push({ page, number: 1, count: 1 })
       }
     }
 
-    return pages;
+    return pages
   }
 
   async renderPages() {
-    const subpages = await this.wrapPages();
-    const normalized = subpages.map(p => p.page);
+    const subpages = await this.wrapPages()
+    const normalized = subpages.map((p) => p.page)
 
-    this.subpages = normalized;
+    this.subpages = normalized
 
     for (let j = 0; j < subpages.length; j++) {
       // Update dynamic text nodes with total pages info
@@ -186,26 +186,26 @@ class Document {
           subPageNumber: subpages[j].number,
           subPageTotalPages: subpages[j].count,
         },
-        node => node.name === 'Text',
-      );
-      await this.subpages[j].render();
+        (node) => node.name === 'Text'
+      )
+      await this.subpages[j].render()
     }
 
-    return normalized;
+    return normalized
   }
 
   async render() {
     try {
-      this.addMetaData();
-      this.applyProps();
-      await this.loadAssets();
-      await this.renderPages();
-      this.root.instance.end();
-      Font.reset();
+      this.addMetaData()
+      this.applyProps()
+      await this.loadAssets()
+      await this.renderPages()
+      this.root.instance.end()
+      Font.reset()
     } catch (e) {
-      throw e;
+      throw e
     }
   }
 }
 
-export default Document;
+export default Document

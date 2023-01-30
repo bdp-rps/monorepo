@@ -9,7 +9,8 @@ export default function NavBar({ children }) {
       width="100%"
       paddingTop={2}
       direction="row"
-      justifyContent="start">
+      justifyContent="start"
+    >
       {children}
     </Box>
   )

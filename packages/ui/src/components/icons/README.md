@@ -35,8 +35,8 @@ import { IconCalendar } from './'
 import * as Icons from './'
 ;<Box direction="row" wrap="wrap">
   {Object.keys(Icons)
-    .filter(icon => icon.indexOf('Icon') === 0)
-    .map(icon => {
+    .filter((icon) => icon.indexOf('Icon') === 0)
+    .map((icon) => {
       const Icon = require('./')[icon]
 
       return (
@@ -56,7 +56,8 @@ import * as Icons from './'
             overflow: 'hidden',
             textOverflow: 'ellipsis',
             whiteSpace: 'nowrap',
-          }}>
+          }}
+        >
           <Icon size={30} />
           {icon}
         </Box>

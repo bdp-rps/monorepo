@@ -49,7 +49,8 @@ export default function Page({ id, songData }) {
               space={2}
               alignSelf={[, 'flex-start']}
               alignItems="flex-start"
-              direction={['column', 'row']}>
+              direction={['column', 'row']}
+            >
               {!isMounted ? null : (
                 <Box
                   as={PDFDownloadLink}
@@ -61,7 +62,8 @@ export default function Page({ id, songData }) {
                       <PDFSong {...songData} />
                     </Document>
                   }
-                  fileName={id + '.pdf'}>
+                  fileName={id + '.pdf'}
+                >
                   {({ blob, url, loading, error }) => (
                     <Button loading={loading}>Als PDF herunterladen</Button>
                   )}

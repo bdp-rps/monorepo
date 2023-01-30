@@ -22,7 +22,8 @@ export default function Loading({ size, color }) {
       height={height}
       viewBox={'0 0 ' + width + ' ' + height}
       xmlns="http://www.w3.org/2000/svg"
-      fill={color || theme.tokens.primary}>
+      fill={color || theme.tokens.primary}
+    >
       <circle cx={radius} cy={radius} r={radius}>
         <animate
           attributeName="r"

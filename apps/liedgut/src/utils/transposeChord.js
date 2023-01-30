@@ -21,8 +21,8 @@ const bMap = {
   b: 'ais',
 }
 
-const checkDur = chord => chord.match(/[A-Z]/) !== null
-const checkB = chord => chord.match(/(es|as|b)/) !== null
+const checkDur = (chord) => chord.match(/[A-Z]/) !== null
+const checkB = (chord) => chord.match(/(es|as|b)/) !== null
 
 export default function transpose(chord, steps = 0, forceB = false) {
   if (steps === 0) {
@@ -32,7 +32,7 @@ export default function transpose(chord, steps = 0, forceB = false) {
   const isDur = checkDur(chord)
   const isB = checkB(chord)
 
-  return chord.replace(/([a-zA-Z]+)/g, match => {
+  return chord.replace(/([a-zA-Z]+)/g, (match) => {
     let normalized = match.toLowerCase()
 
     if (chords.indexOf(normalized) === -1) {
@@ -59,7 +59,7 @@ export default function transpose(chord, steps = 0, forceB = false) {
 
     if (isB || forceB) {
       // remap to b chords if possible
-      Object.keys(bMap).forEach(chord => {
+      Object.keys(bMap).forEach((chord) => {
         if (bMap[chord] === newChord) {
           newChord = chord
         }

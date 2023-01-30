@@ -22,7 +22,8 @@ export default () => {
     <Template
       image={image}
       title="Mandazi"
-      subTitle="Eine kenianische Teigspezialität!">
+      subTitle="Eine kenianische Teigspezialität!"
+    >
       <Head>
         <title>Mandazi, eine kenianische Spezialität!</title>
         <meta type="description" content="Rezept für Mandazis" />

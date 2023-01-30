@@ -24,14 +24,16 @@ export default () => (
       <Text>
         <Link
           href="/files/Aenderungen_Soziale_Bildung_Corona_und_01_07_.pdf"
-          download>
+          download
+        >
           - Änderung der Förderrichtlinien für Soziale Bildungsmaßnahmen während
           der Corona-Pandemie
         </Link>
         <br />
         <Link
           href="/files/Beiblatt-SB_einkommensschw TN ab 01_07_2021.pdf"
-          download>
+          download
+        >
           - Beiblatt zum Antrag
         </Link>
         <br />

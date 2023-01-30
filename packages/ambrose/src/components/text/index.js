@@ -53,7 +53,8 @@ const Text = forwardRef(
             parentVariant: appliedVariant,
             parentSubStyle: appliedSubStyle,
             parentColor: appliedColor,
-          }}>
+          }}
+        >
           {children}
         </TextContext.Provider>
       </Component>

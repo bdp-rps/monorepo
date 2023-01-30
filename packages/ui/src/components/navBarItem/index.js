@@ -35,10 +35,12 @@ export default function NavBarItem({ href, active, onClick, children }) {
             paddingRight: 0,
           },
         },
-      }}>
+      }}
+    >
       <Text
         color={active ? theme.tokens.secondary : theme.tokens.background}
-        extend={{ fontSize: 18, lineHeight: 1 }}>
+        extend={{ fontSize: 18, lineHeight: 1 }}
+      >
         {children}
       </Text>
     </Box>

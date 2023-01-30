@@ -31,13 +31,15 @@ export default () => (
     <Layout
       paddingTop={10}
       paddingBottom={15}
-      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+    >
       <Box space={8}>
         <Box direction="row" wrap="wrap" space={4}>
           {intakt.map(({ name, group, contact, position }) => (
             <Box
               marginBottom={4}
-              basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
+              basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
+            >
               <Tile title={name}>
                 <Box>
                   <Text>{position}</Text>

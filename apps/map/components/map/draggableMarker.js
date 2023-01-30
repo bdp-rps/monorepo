@@ -43,7 +43,8 @@ const DraggableMarker = ({ setPosition, position, visible }) => {
           draggable={true}
           eventHandlers={eventHandlers}
           position={position}
-          ref={markerRef}>
+          ref={markerRef}
+        >
           <Tooltip minWidth={90} permanent>
             <span>
               Latitude: {position.lat}

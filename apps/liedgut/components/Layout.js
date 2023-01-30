@@ -10,7 +10,8 @@ export default function Layout({ children, ...props }) {
       {...props}
       maxWidth={theme.maxContentWidth}
       width="100%"
-      alignSelf="center">
+      alignSelf="center"
+    >
       {children}
     </Box>
   )

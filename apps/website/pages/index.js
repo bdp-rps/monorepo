@@ -45,7 +45,8 @@ export default function page({ events, posts }) {
         alignSelf="stretch"
         paddingTop={5}
         paddingBottom={10}
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+      >
         <Text variant="subtitle">Das läuft bei uns.</Text>
         <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
           <Box grow={5}>

@@ -11,7 +11,8 @@ export default function ConfigProvider({ config, children }) {
         ...config,
         activeOverlayCount,
         setActiveOverlayCount,
-      }}>
+      }}
+    >
       {children}
     </ConfigContext.Provider>
   )

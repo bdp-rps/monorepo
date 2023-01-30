@@ -12,7 +12,8 @@ Box is a direct export of [ambrose](https://github.com/robinweser/ambrose)'s Box
     padding={10}
     space={3}
     direction="row"
-    extend={{ backgroundColor: 'grey' }}>
+    extend={{ backgroundColor: 'grey' }}
+  >
     <Box padding={10} extend={{ backgroundColor: 'lightgrey' }} />
     <Box padding={10} extend={{ backgroundColor: 'lightgrey' }} />
   </Box>
@@ -26,7 +27,8 @@ Box is a direct export of [ambrose](https://github.com/robinweser/ambrose)'s Box
   padding={10}
   space={[3, , , 10]}
   direction={['column', , , 'row']}
-  extend={{ backgroundColor: 'grey' }}>
+  extend={{ backgroundColor: 'grey' }}
+>
   <Box padding={10} extend={{ backgroundColor: 'lightgrey' }} />
   <Box padding={10} extend={{ backgroundColor: 'lightgrey' }} />
 </Box>

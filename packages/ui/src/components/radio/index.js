@@ -101,7 +101,8 @@ export default function Radio({
         />
         <label
           htmlFor={name + id}
-          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}>
+          className={css({ cursor: disabled ? 'not-allowed' : 'pointer' })}
+        >
           <Text variant="label">{label}</Text>
         </label>
       </Box>

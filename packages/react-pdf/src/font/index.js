@@ -1,83 +1,83 @@
-import font from './font';
-import emoji from './emoji';
-import standardFonts from './standard';
-import hyphenation from './hyphenation';
-import warning from '../utils/warning';
+import font from './font'
+import emoji from './emoji'
+import standardFonts from './standard'
+import hyphenation from './hyphenation'
+import warning from '../utils/warning'
 
-let fonts = {};
+let fonts = {}
 
 const register = (src, data) => {
   if (typeof src === 'object') {
-    data = src;
+    data = src
   } else {
     warning(
       false,
-      'Font.register will not longer accept the font source as first argument. Please move it into the data object. For more info refer to https://react-pdf.org/fonts',
-    );
+      'Font.register will not longer accept the font source as first argument. Please move it into the data object. For more info refer to https://react-pdf.org/fonts'
+    )
 
-    data.src = src;
+    data.src = src
   }
 
-  const { family } = data;
+  const { family } = data
 
   if (!fonts[family]) {
-    fonts[family] = font.create(family);
+    fonts[family] = font.create(family)
   }
 
   // Bulk loading
   if (data.fonts) {
     for (let i = 0; i < data.fonts.length; i++) {
-      fonts[family].register({ family, ...data.fonts[i] });
+      fonts[family].register({ family, ...data.fonts[i] })
     }
   } else {
-    fonts[family].register(data);
+    fonts[family].register(data)
   }
-};
+}
 
-const getRegisteredFonts = () => fonts;
+const getRegisteredFonts = () => fonts
 
-const getRegisteredFontFamilies = () => Object.keys(fonts);
+const getRegisteredFontFamilies = () => Object.keys(fonts)
 
-const getFont = descriptor => {
-  const { fontFamily } = descriptor;
-  const isStandard = standardFonts.includes(fontFamily);
+const getFont = (descriptor) => {
+  const { fontFamily } = descriptor
+  const isStandard = standardFonts.includes(fontFamily)
 
-  if (isStandard) return null;
+  if (isStandard) return null
 
   if (!fonts[fontFamily]) {
     throw new Error(
-      `Font family not registered: ${fontFamily}. Please register it calling Font.register() method.`,
-    );
+      `Font family not registered: ${fontFamily}. Please register it calling Font.register() method.`
+    )
   }
 
-  return fonts[fontFamily].resolve(descriptor);
-};
+  return fonts[fontFamily].resolve(descriptor)
+}
 
-const load = async function(descriptor, doc) {
-  const { fontFamily } = descriptor;
-  const isStandard = standardFonts.includes(fontFamily);
+const load = async function (descriptor, doc) {
+  const { fontFamily } = descriptor
+  const isStandard = standardFonts.includes(fontFamily)
 
-  if (isStandard) return;
+  if (isStandard) return
 
-  const font = getFont(descriptor);
+  const font = getFont(descriptor)
 
   // We cache the font to avoid fetching it many times
   if (!font.data && !font.loading) {
-    await font.load();
+    await font.load()
   }
-};
+}
 
-const reset = function() {
+const reset = function () {
   for (const font in fonts) {
     if (fonts.hasOwnProperty(font)) {
-      fonts[font].data = null;
+      fonts[font].data = null
     }
   }
-};
+}
 
-const clear = function() {
-  fonts = {};
-};
+const clear = function () {
+  fonts = {}
+}
 
 export default {
   register,
@@ -89,4 +89,4 @@ export default {
   reset,
   ...emoji,
   ...hyphenation,
-};
+}

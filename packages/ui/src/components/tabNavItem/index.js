@@ -46,7 +46,8 @@ export default function TabNavItem({ disabled, id, active, children }) {
         if (!disabled) {
           onChange(id)
         }
-      }}>
+      }}
+    >
       <Text
         color={
           disabled
@@ -54,7 +55,8 @@ export default function TabNavItem({ disabled, id, active, children }) {
             : active
             ? theme.tokens.primary
             : theme.tokens.foreground
-        }>
+        }
+      >
         {children}
       </Text>
     </Box>

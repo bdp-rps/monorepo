@@ -12,12 +12,14 @@ export default function PopupTile({ title, children }) {
       extend={{
         backgroundColor: 'white',
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',
-      }}>
+      }}
+    >
       <Box
         height={12}
         justifyContent="flex-end"
         alignItems="flex-start"
-        width="100%">
+        width="100%"
+      >
         {title ? (
           <Box
             paddingTop={1.5}
@@ -26,7 +28,8 @@ export default function PopupTile({ title, children }) {
             paddingRight={2}
             extend={{
               backgroundColor: theme.tokens.secondary,
-            }}>
+            }}
+          >
             <Text variant={'subtitle'} color={theme.tokens.primary}>
               {title}
             </Text>

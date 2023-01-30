@@ -11,4 +11,4 @@ export const inheritedProperties = [
   'textAlign',
   'visibility',
   'wordSpacing',
-];
+]

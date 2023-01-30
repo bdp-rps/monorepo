@@ -40,7 +40,8 @@ export default () => (
           <Tile
             title="Stamm Franz von Sickingen 1965"
             image="/images/franzVonSickingen_2.jpeg"
-            imageHeight={500}></Tile>
+            imageHeight={500}
+          ></Tile>
           <Text>
             Günther hatte im Donnersbergkreis bereits eine Gruppe in
             Kirchheimbolanden und eine in Göllheim gegründet, bevor er als
@@ -58,7 +59,8 @@ export default () => (
           <Tile
             title="Stamm Franz von Sickingen Bundeslager 2017"
             image="/images/franzVonSickingen_1.jpeg"
-            imageHeight={500}></Tile>
+            imageHeight={500}
+          ></Tile>
           <Text>
             Heute ist der Stamm eine ständig wachsende Jugendorganisation, die
             viele Lager und Fahrten erlebt und sich auch im Landesverband

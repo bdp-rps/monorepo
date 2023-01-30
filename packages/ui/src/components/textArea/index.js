@@ -71,7 +71,8 @@ const TextArea = forwardRef(
           variant="label"
           extend={{
             cursor: disabled ? 'not-allowed' : 'pointer',
-          }}>
+          }}
+        >
           {label}
         </Text>
         <textarea

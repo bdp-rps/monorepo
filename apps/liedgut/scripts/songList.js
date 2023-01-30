@@ -8,9 +8,9 @@ fs.readdir('./src/songs', (err, files) => {
   fs.writeFile(
     './src/songs/index.json',
     JSON.stringify(
-      files.filter(f => f !== 'index.json').map(f => f.replace('.json', ''))
+      files.filter((f) => f !== 'index.json').map((f) => f.replace('.json', ''))
     ),
-    err => {
+    (err) => {
       if (err) {
         console.error(err)
       }

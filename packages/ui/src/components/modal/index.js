@@ -18,7 +18,7 @@ export default function Modal({ children, visible, title, onClose }) {
     <Box
       justifyContent="center"
       alignItems="center"
-      onClick={e => {
+      onClick={(e) => {
         const isClickOnInner = innerRef.current.contains(e.target)
 
         if (!isClickOnInner && onClose) {
@@ -35,7 +35,8 @@ export default function Modal({ children, visible, title, onClose }) {
         padding: 10,
         backgroundColor: 'rgba(0,0,0, 0.3)',
         overflow: 'auto',
-      }}>
+      }}
+    >
       <Box
         ref={innerRef}
         alignSelf={['stretch', , 'center']}
@@ -44,13 +45,15 @@ export default function Modal({ children, visible, title, onClose }) {
         width="100%"
         padding={2}
         grow={[1, , 0]}
-        shrink={[0, , 1]}>
+        shrink={[0, , 1]}
+      >
         <Card elevation="medium" space={title ? 2 : 0} extend={{ padding: 0 }}>
           {title ? (
             <Box
               padding={2}
               width="100%"
-              extend={{ backgroundColor: theme.tokens.secondary }}>
+              extend={{ backgroundColor: theme.tokens.secondary }}
+            >
               <Text variant="subtitle" color={theme.tokens.primary} height={1}>
                 {title}
               </Text>

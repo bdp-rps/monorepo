@@ -26,7 +26,8 @@ const TextBox = ({ children }) => {
       paddingLeft={2}
       paddingRight={2}
       alignSelf="flex-start"
-      extend={{ backgroundColor: theme.tokens.secondary }}>
+      extend={{ backgroundColor: theme.tokens.secondary }}
+    >
       <Text variant="category" color={theme.tokens.primary}>
         {children}
       </Text>
@@ -42,9 +43,10 @@ export default () => {
       <Layout
         paddingTop={10}
         paddingBottom={20}
-        extend={{ backgroundColor: 'rgb(240, 240, 240)' }}>
+        extend={{ backgroundColor: 'rgb(240, 240, 240)' }}
+      >
         <Box space={5}>
-          {manifest.map(post => (
+          {manifest.map((post) => (
             <PostTile key={post.id} {...post} />
           ))}
         </Box>

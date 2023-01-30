@@ -18,7 +18,8 @@ export default function PostTile({
         <Tile
           title={title}
           image={'/posts/' + id + '/' + teaser + '.jpg'}
-          highlight={highlight}>
+          highlight={highlight}
+        >
           {description}
           <Box paddingTop={2}>
             <Text variant="note">

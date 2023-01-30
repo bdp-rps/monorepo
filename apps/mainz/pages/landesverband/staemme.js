@@ -29,7 +29,8 @@ export default () => (
       paddingTop={10}
       paddingBottom={15}
       grow={1}
-      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+    >
       <Box direction="row" wrap="wrap" space={4}>
         {staemme
           .sort((a, b) =>
@@ -38,7 +39,8 @@ export default () => (
           .map(({ leader, name, location, website, contact }) => (
             <Box
               marginBottom={4}
-              basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
+              basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
+            >
               <Tile title={name}>
                 <Box>
                   <Text>{location}</Text>

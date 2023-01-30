@@ -21,7 +21,8 @@ export default () => (
       paddingTop={10}
       paddingBottom={15}
       grow={1}
-      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}
+    >
       <Box space={4} direction="row" wrap="wrap">
         {/* <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
@@ -40,7 +41,8 @@ export default () => (
         </Box> */}
         <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
-          paddingBottom={4}>
+          paddingBottom={4}
+        >
           <NextLink href="https://styleguide.bdp-rps.app">
             <a style={{ textDecoration: 'none' }}>
               <Tile title="Styleguide">
@@ -54,7 +56,8 @@ export default () => (
         </Box>
         <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
-          paddingBottom={4}>
+          paddingBottom={4}
+        >
           <NextLink href="https://playroom.bdp-rps.app">
             <a style={{ textDecoration: 'none' }}>
               <Tile title="Playroom">

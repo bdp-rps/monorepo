@@ -13,7 +13,7 @@ fs.readdir(blogDir, (err, files) => {
 
   const manifest = []
 
-  files.forEach(file => {
+  files.forEach((file) => {
     const data = fs.readFileSync(blogDir + file, 'utf-8')
 
     const post = eval(
@@ -27,11 +27,15 @@ fs.readdir(blogDir, (err, files) => {
     getFullTime(a.date) > getFullTime(b.date) ? -1 : 1
   )
 
-  fs.writeFile('./public/blog-manifest.json', JSON.stringify(manifest), err => {
-    if (err) {
-      console.error(err)
-    }
+  fs.writeFile(
+    './public/blog-manifest.json',
+    JSON.stringify(manifest),
+    (err) => {
+      if (err) {
+        console.error(err)
+      }
 
-    console.log('Blog Manifest has been updated.')
-  })
+      console.log('Blog Manifest has been updated.')
+    }
+  )
 })

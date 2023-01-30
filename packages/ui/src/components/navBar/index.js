@@ -13,7 +13,8 @@ export default function NavBar({ children, intent = 'primary' }) {
       extend={{
         backgroundColor:
           theme.tokens[intent === 'primary' ? 'primary' : 'primaryLight'],
-      }}>
+      }}
+    >
       {children}
     </Box>
   )

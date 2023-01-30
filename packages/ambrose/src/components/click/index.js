@@ -86,7 +86,8 @@ const Click = React.forwardRef(
           },
           appliedStyle({ disabled }),
           extend,
-        ]}>
+        ]}
+      >
         {children}
       </El>
     )

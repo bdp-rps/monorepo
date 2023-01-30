@@ -24,7 +24,8 @@ export default function Page({ blogpost }) {
           month: date.getMonth(),
           day: date.getDate(),
         },
-      }}>
+      }}
+    >
       {text}
     </BlogLayout>
   )

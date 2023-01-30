@@ -1,32 +1,32 @@
 const Debug = {
   debug() {
-    const layout = this.getAbsoluteLayout();
-    const padding = this.padding;
-    const margin = this.margin;
+    const layout = this.getAbsoluteLayout()
+    const padding = this.padding
+    const margin = this.margin
 
-    this.root.instance.save();
+    this.root.instance.save()
 
-    this.debugContent(layout, margin, padding);
-    this.debugPadding(layout, margin, padding);
-    this.debugMargin(layout, margin);
-    this.debugText(layout, margin);
-    this.debugOrigin();
+    this.debugContent(layout, margin, padding)
+    this.debugPadding(layout, margin, padding)
+    this.debugMargin(layout, margin)
+    this.debugText(layout, margin)
+    this.debugOrigin()
 
-    this.root.instance.restore();
+    this.root.instance.restore()
   },
   debugOrigin() {
     if (this.style.transform) {
-      const origin = this.origin;
+      const origin = this.origin
       this.root.instance
         .circle(origin[0], origin[1], 3)
         .fill('red')
         .circle(origin[0], origin[1], 5)
-        .stroke('red');
+        .stroke('red')
     }
   },
   debugText(layout, margin) {
-    const roundedWidth = Math.round(this.width + margin.left + margin.right);
-    const roundedHeight = Math.round(this.height + margin.top + margin.bottom);
+    const roundedWidth = Math.round(this.width + margin.left + margin.right)
+    const roundedHeight = Math.round(this.height + margin.top + margin.bottom)
 
     this.root.instance
       .fontSize(4)
@@ -35,8 +35,8 @@ const Debug = {
       .text(
         `${roundedWidth} x ${roundedHeight}`,
         layout.left - margin.left,
-        Math.max(layout.top - margin.top - 4, 1),
-      );
+        Math.max(layout.top - margin.top - 4, 1)
+      )
   },
   debugContent(layout, margin, padding) {
     this.root.instance
@@ -46,12 +46,12 @@ const Debug = {
         layout.left + padding.left,
         layout.top + padding.top,
         layout.width - padding.left - padding.right,
-        layout.height - padding.top - padding.bottom,
+        layout.height - padding.top - padding.bottom
       )
-      .fill();
+      .fill()
   },
   debugPadding(layout, margin, padding) {
-    this.root.instance.fillColor('#c4deb9').opacity(0.5);
+    this.root.instance.fillColor('#c4deb9').opacity(0.5)
 
     // Padding top
     this.root.instance
@@ -59,14 +59,14 @@ const Debug = {
         layout.left + padding.left,
         layout.top,
         layout.width - padding.right - padding.left,
-        padding.top,
+        padding.top
       )
-      .fill();
+      .fill()
 
     // Padding left
     this.root.instance
       .rect(layout.left, layout.top, padding.left, layout.height)
-      .fill();
+      .fill()
 
     // Padding right
     this.root.instance
@@ -74,9 +74,9 @@ const Debug = {
         layout.left + layout.width - padding.right,
         layout.top,
         padding.right,
-        layout.height,
+        layout.height
       )
-      .fill();
+      .fill()
 
     // Padding bottom
     this.root.instance
@@ -84,17 +84,17 @@ const Debug = {
         layout.left + padding.left,
         layout.top + layout.height - padding.bottom,
         layout.width - padding.right - padding.left,
-        padding.bottom,
+        padding.bottom
       )
-      .fill();
+      .fill()
   },
   debugMargin(layout, margin) {
-    this.root.instance.fillColor('#f8cca1').opacity(0.5);
+    this.root.instance.fillColor('#f8cca1').opacity(0.5)
 
     // Margin top
     this.root.instance
       .rect(layout.left, layout.top - margin.top, layout.width, margin.top)
-      .fill();
+      .fill()
 
     // Margin left
     this.root.instance
@@ -102,9 +102,9 @@ const Debug = {
         layout.left - margin.left,
         layout.top - margin.top,
         margin.left,
-        layout.height + margin.top + margin.bottom,
+        layout.height + margin.top + margin.bottom
       )
-      .fill();
+      .fill()
 
     // Margin right
     this.root.instance
@@ -112,9 +112,9 @@ const Debug = {
         layout.left + layout.width,
         layout.top - margin.top,
         margin.right,
-        layout.height + margin.top + margin.bottom,
+        layout.height + margin.top + margin.bottom
       )
-      .fill();
+      .fill()
 
     // Margin bottom
     this.root.instance
@@ -122,10 +122,10 @@ const Debug = {
         layout.left,
         layout.top + layout.height,
         layout.width,
-        margin.bottom,
+        margin.bottom
       )
-      .fill();
+      .fill()
   },
-};
+}
 
-export default Debug;
+export default Debug

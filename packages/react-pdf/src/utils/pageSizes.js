@@ -49,28 +49,28 @@ const PAGE_SIZES = {
   LEGAL: [612.0, 1008.0],
   LETTER: [612.0, 792.0],
   TABLOID: [792.0, 1224.0],
-};
+}
 
 // Return page size in an object { width, height } given the passed size and orientation
 // Accepts page type string, number, array or object as parameter
 const getPageSize = (size, orientation = 'portrait') => {
-  let result;
+  let result
 
   if (typeof size === 'string') {
-    result = PAGE_SIZES[size.toUpperCase()];
+    result = PAGE_SIZES[size.toUpperCase()]
   } else if (Array.isArray(size)) {
-    result = size;
+    result = size
   } else if (typeof size === 'number') {
-    result = [size];
+    result = [size]
   } else if (typeof size === 'object' && size.width) {
-    result = [size.width, size.height];
+    result = [size.width, size.height]
   } else {
-    throw new Error(`Invalid Page size: ${size}`);
+    throw new Error(`Invalid Page size: ${size}`)
   }
 
   return orientation === 'portrait'
     ? { width: result[0], height: result[1] }
-    : { width: result[1], height: result[0] };
-};
+    : { width: result[1], height: result[0] }
+}
 
-export default getPageSize;
+export default getPageSize

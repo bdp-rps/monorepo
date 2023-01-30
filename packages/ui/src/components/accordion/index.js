@@ -50,7 +50,8 @@ export default function Accordion({
             boxShadow: 'none',
           },
         },
-      }}>
+      }}
+    >
       <Box
         {...props}
         {...toggleProps}
@@ -71,7 +72,8 @@ export default function Accordion({
         space={4}
         extend={{
           outline: 0,
-        }}>
+        }}
+      >
         <Box grow={1} shrink={1}>
           {typeof summary === 'string' ? (
             <Text variant="label">{summary}</Text>
@@ -91,7 +93,8 @@ export default function Accordion({
       <Box
         {...contentProps}
         width="100%"
-        extend={isExpanded ? undefined : style}>
+        extend={isExpanded ? undefined : style}
+      >
         {children}
       </Box>
     </Box>

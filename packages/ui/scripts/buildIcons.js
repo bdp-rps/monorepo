@@ -12,19 +12,19 @@ function upperCase(value) {
 }
 const icons = fs
   .readdirSync(path.join(__dirname, '../src/components/icons/svg'))
-  .map(name => name.replace('.svg', ''))
-  .filter(name => name !== '.DS_Store')
+  .map((name) => name.replace('.svg', ''))
+  .filter((name) => name !== '.DS_Store')
 
 fs.writeFile(
   path.join(__dirname, '../src/components/icons/index.js'),
   icons
-    .map(icon => `import Icon${upperCase(icon)} from "./js/${icon}"`)
+    .map((icon) => `import Icon${upperCase(icon)} from "./js/${icon}"`)
     .join('\n') +
     '\n\n' +
     'export {\n  ' +
-    icons.map(icon => 'Icon' + upperCase(icon)).join(',\n  ') +
+    icons.map((icon) => 'Icon' + upperCase(icon)).join(',\n  ') +
     '\n}',
-  err => {
+  (err) => {
     if (err) {
       console.error('Something went wrong.')
     }

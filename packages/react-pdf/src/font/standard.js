@@ -8,4 +8,4 @@ export default [
   'Times-Roman',
   'Times-Bold',
   'Times-Italic',
-];
+]

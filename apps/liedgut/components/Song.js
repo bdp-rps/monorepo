@@ -103,14 +103,16 @@ export default function Song({
                       <Box
                         display="inline-flex"
                         alignItems="flex-start"
-                        paddingTop={1}>
+                        paddingTop={1}
+                      >
                         <Text
                           extend={{
                             transform: 'translate(0, 1px)',
                             lineHeight: 0.8,
                             paddingRight: 5,
                             color: theme.tokens.primary,
-                          }}>
+                          }}
+                        >
                           {p.chord ? transposeChord(p.chord, step, isB) : ' '}
                         </Text>
 
@@ -136,7 +138,8 @@ export default function Song({
             extend={{
               fontStyle: 'italic',
               color: theme.foreground,
-            }}>
+            }}
+          >
             <span
               dangerouslySetInnerHTML={{
                 __html: info.replace(/(?:\r\n|\r|\n)/g, '<br>'),

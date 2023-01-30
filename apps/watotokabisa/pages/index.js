@@ -76,7 +76,8 @@ export default function () {
               extend={{
                 border: '2px solid black',
                 borderRadius: theme.tokens.borderRadius,
-              }}>
+              }}
+            >
               <Button href="/blog" size="large">
                 Weitere Beiträge
               </Button>

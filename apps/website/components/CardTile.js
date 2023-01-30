@@ -17,7 +17,8 @@ export default function PostTile({
         title={title}
         image={`/images/${image}.jpg`}
         highlight={highlight}
-        imageHeight={imageHeight}>
+        imageHeight={imageHeight}
+      >
         {description}
         <Box paddingTop={2}>
           <Text variant="note">{teaser}</Text>

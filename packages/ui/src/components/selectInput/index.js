@@ -66,7 +66,8 @@ export default function SelectInput({
         variant="label"
         extend={{
           cursor: disabled ? 'not-allowed' : 'pointer',
-        }}>
+        }}
+      >
         {label}
       </Text>
       <select
@@ -79,7 +80,8 @@ export default function SelectInput({
         onChange={onChange}
         onBlur={onBlur}
         onFocus={onFocus}
-        className={css(style)}>
+        className={css(style)}
+      >
         {!required ? <option value="" /> : null}
         {children}
       </select>

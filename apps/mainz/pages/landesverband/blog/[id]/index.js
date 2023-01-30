@@ -3,7 +3,7 @@ import { Box, Text } from '@bdp-rps/ui'
 import BlogLayout from '../../../../components/BlogLayout'
 
 import { getBlogposts } from '../../../../api/getBlogposts'
-import {getBlogpost} from '../../../../api/getBlogPost'
+import { getBlogpost } from '../../../../api/getBlogPost'
 
 export default function Page({ blogpost }) {
   const { image, title, text, subtitle, publish, author } =
@@ -24,7 +24,8 @@ export default function Page({ blogpost }) {
           month: date.getMonth(),
           day: date.getDate(),
         },
-      }}>
+      }}
+    >
       {text}
     </BlogLayout>
   )

@@ -1,8 +1,5 @@
-import { compose, equals, type } from 'ramda';
+import { compose, equals, type } from 'ramda'
 
-const isFunction = compose(
-  equals('Function'),
-  type,
-);
+const isFunction = compose(equals('Function'), type)
 
-export default isFunction;
+export default isFunction

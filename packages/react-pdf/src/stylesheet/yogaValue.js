@@ -1,80 +1,80 @@
-import Yoga from 'yoga-layout';
+import Yoga from 'yoga-layout'
 
 const yogaValue = (prop, value) => {
-  const isAlignType = prop =>
-    prop === 'alignItems' || prop === 'alignContent' || prop === 'alignSelf';
+  const isAlignType = (prop) =>
+    prop === 'alignItems' || prop === 'alignContent' || prop === 'alignSelf'
 
   switch (value) {
     case 'auto':
       if (prop === 'alignSelf') {
-        return Yoga.ALIGN_AUTO;
+        return Yoga.ALIGN_AUTO
       }
-      break;
+      break
     case 'flex':
-      return Yoga.DISPLAY_FLEX;
+      return Yoga.DISPLAY_FLEX
     case 'none':
-      return Yoga.DISPLAY_NONE;
+      return Yoga.DISPLAY_NONE
     case 'row':
-      return Yoga.FLEX_DIRECTION_ROW;
+      return Yoga.FLEX_DIRECTION_ROW
     case 'row-reverse':
-      return Yoga.FLEX_DIRECTION_ROW_REVERSE;
+      return Yoga.FLEX_DIRECTION_ROW_REVERSE
     case 'column':
-      return Yoga.FLEX_DIRECTION_COLUMN;
+      return Yoga.FLEX_DIRECTION_COLUMN
     case 'column-reverse':
-      return Yoga.FLEX_DIRECTION_COLUMN_REVERSE;
+      return Yoga.FLEX_DIRECTION_COLUMN_REVERSE
     case 'stretch':
-      return Yoga.ALIGN_STRETCH;
+      return Yoga.ALIGN_STRETCH
     case 'baseline':
-      return Yoga.ALIGN_BASELINE;
+      return Yoga.ALIGN_BASELINE
     case 'space-around':
       if (prop === 'justifyContent') {
-        return Yoga.JUSTIFY_SPACE_AROUND;
+        return Yoga.JUSTIFY_SPACE_AROUND
       } else if (isAlignType(prop)) {
-        return Yoga.ALIGN_SPACE_AROUND;
+        return Yoga.ALIGN_SPACE_AROUND
       }
-      break;
+      break
     case 'space-between':
       if (prop === 'justifyContent') {
-        return Yoga.JUSTIFY_SPACE_BETWEEN;
+        return Yoga.JUSTIFY_SPACE_BETWEEN
       } else if (isAlignType(prop)) {
-        return Yoga.ALIGN_SPACE_BETWEEN;
+        return Yoga.ALIGN_SPACE_BETWEEN
       }
-      break;
+      break
     case 'around':
-      return Yoga.JUSTIFY_SPACE_AROUND;
+      return Yoga.JUSTIFY_SPACE_AROUND
     case 'between':
-      return Yoga.JUSTIFY_SPACE_BETWEEN;
+      return Yoga.JUSTIFY_SPACE_BETWEEN
     case 'wrap':
-      return Yoga.WRAP_WRAP;
+      return Yoga.WRAP_WRAP
     case 'wrap-reverse':
-      return Yoga.WRAP_WRAP_REVERSE;
+      return Yoga.WRAP_WRAP_REVERSE
     case 'nowrap':
-      return Yoga.WRAP_NO_WRAP;
+      return Yoga.WRAP_NO_WRAP
     case 'flex-start':
       if (prop === 'justifyContent') {
-        return Yoga.JUSTIFY_FLEX_START;
+        return Yoga.JUSTIFY_FLEX_START
       } else if (isAlignType(prop)) {
-        return Yoga.ALIGN_FLEX_START;
+        return Yoga.ALIGN_FLEX_START
       }
-      break;
+      break
     case 'flex-end':
       if (prop === 'justifyContent') {
-        return Yoga.JUSTIFY_FLEX_END;
+        return Yoga.JUSTIFY_FLEX_END
       } else if (isAlignType(prop)) {
-        return Yoga.ALIGN_FLEX_END;
+        return Yoga.ALIGN_FLEX_END
       }
-      break;
+      break
     case 'center':
       if (prop === 'justifyContent') {
-        return Yoga.JUSTIFY_CENTER;
+        return Yoga.JUSTIFY_CENTER
       } else if (isAlignType(prop)) {
-        return Yoga.ALIGN_CENTER;
+        return Yoga.ALIGN_CENTER
       }
-      break;
+      break
     default:
-      return value;
+      return value
   }
-};
+}
 
 // These are not supported yet
 
@@ -111,4 +111,4 @@ const yogaValue = (prop, value) => {
 // UNIT_PERCENT: 2,
 // UNIT_AUTO: 3,
 
-export default yogaValue;
+export default yogaValue

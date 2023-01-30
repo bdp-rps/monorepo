@@ -146,7 +146,8 @@ function OrderForm() {
                 }
               }
             })
-          }}>
+          }}
+        >
           <TextInput label="Vor- und Nachname" {...name.props} />
           <TextInput
             label="Straße"
@@ -227,7 +228,8 @@ function OrderForm() {
             extend={{
               border: '2px solid black',
               borderRadius: theme.tokens.borderRadius,
-            }}>
+            }}
+          >
             <Button type="submit" loading={loading}>
               Abschicken
             </Button>

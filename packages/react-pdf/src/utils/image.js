@@ -1,140 +1,145 @@
-import fs from 'fs';
-import url from 'url';
-import path from 'path';
-import fetch from 'cross-fetch';
+import fs from 'fs'
+import url from 'url'
+import path from 'path'
+import fetch from 'cross-fetch'
 
-import PNG from './png';
-import JPEG from './jpeg';
-import createCache from './cache';
+import PNG from './png'
+import JPEG from './jpeg'
+import createCache from './cache'
 
-export const IMAGE_CACHE = createCache({ limit: 30 });
+export const IMAGE_CACHE = createCache({ limit: 30 })
 
-export const getAbsoluteLocalPath = src => {
+export const getAbsoluteLocalPath = (src) => {
   if (BROWSER) {
-    throw new Error('Cannot check local paths in client-side environment');
+    throw new Error('Cannot check local paths in client-side environment')
   }
 
-  const { protocol, auth, host, port, hostname, path: pathname } = url.parse(
-    src,
-  );
-  const absolutePath = path.resolve(pathname);
+  const {
+    protocol,
+    auth,
+    host,
+    port,
+    hostname,
+    path: pathname,
+  } = url.parse(src)
+  const absolutePath = path.resolve(pathname)
   if ((protocol && protocol !== 'file:') || auth || host || port || hostname) {
-    return undefined;
+    return undefined
   }
-  return absolutePath;
-};
+  return absolutePath
+}
 
 export const isDangerousLocalPath = (
   filename,
-  { safePath = './public' } = {},
+  { safePath = './public' } = {}
 ) => {
   if (BROWSER) {
     throw new Error(
-      'Cannot check dangerous local path in client-side environemnt',
-    );
+      'Cannot check dangerous local path in client-side environemnt'
+    )
   }
-  const absoluteSafePath = path.resolve(safePath);
-  const absoluteFilePath = path.resolve(filename);
-  return !absoluteFilePath.startsWith(absoluteSafePath);
-};
+  const absoluteSafePath = path.resolve(safePath)
+  const absoluteFilePath = path.resolve(filename)
+  return !absoluteFilePath.startsWith(absoluteSafePath)
+}
 
 const fetchLocalFile = (src, { safePath, allowDangerousPaths = false } = {}) =>
   new Promise((resolve, reject) => {
     try {
       if (BROWSER) {
-        return reject(new Error('Cannot fetch local file in this environemnt'));
+        return reject(new Error('Cannot fetch local file in this environemnt'))
       }
-      const absolutePath = getAbsoluteLocalPath(src);
+      const absolutePath = getAbsoluteLocalPath(src)
       if (!absolutePath) {
-        return reject(new Error(`Cannot fetch non-local path: ${src}`));
+        return reject(new Error(`Cannot fetch non-local path: ${src}`))
       }
       if (
         !allowDangerousPaths &&
         isDangerousLocalPath(absolutePath, { safePath })
       ) {
-        return reject(new Error(`Cannot fetch dangerous local path: ${src}`));
+        return reject(new Error(`Cannot fetch dangerous local path: ${src}`))
       }
       fs.readFile(absolutePath, (err, data) =>
-        err ? reject(err) : resolve(data),
-      );
+        err ? reject(err) : resolve(data)
+      )
     } catch (err) {
-      reject(err);
+      reject(err)
     }
-  });
+  })
 
 const fetchRemoteFile = async (uri, options) => {
-  const response = await fetch(uri, options);
+  const response = await fetch(uri, options)
 
   const buffer = await (response.buffer
     ? response.buffer()
-    : response.arrayBuffer());
+    : response.arrayBuffer())
 
-  return buffer.constructor.name === 'Buffer' ? buffer : Buffer.from(buffer);
-};
+  return buffer.constructor.name === 'Buffer' ? buffer : Buffer.from(buffer)
+}
 
-const isValidFormat = format => {
-  const lower = format.toLowerCase();
-  return lower === 'jpg' || lower === 'jpeg' || lower === 'png';
-};
+const isValidFormat = (format) => {
+  const lower = format.toLowerCase()
+  return lower === 'jpg' || lower === 'jpeg' || lower === 'png'
+}
 
-const guessFormat = buffer => {
-  let format;
+const guessFormat = (buffer) => {
+  let format
 
   if (JPEG.isValid(buffer)) {
-    format = 'jpg';
+    format = 'jpg'
   } else if (PNG.isValid(buffer)) {
-    format = 'png';
+    format = 'png'
   }
 
-  return format;
-};
+  return format
+}
 
 const isCompatibleBase64 = ({ uri }) =>
-  /^data:image\/[a-zA-Z]*;base64,[^"]*/g.test(uri);
+  /^data:image\/[a-zA-Z]*;base64,[^"]*/g.test(uri)
 
 function getImage(body, extension) {
   switch (extension.toLowerCase()) {
     case 'jpg':
     case 'jpeg':
-      return new JPEG(body);
+      return new JPEG(body)
     case 'png':
-      return new PNG(body);
+      return new PNG(body)
     default:
-      return null;
+      return null
   }
 }
 
 const resolveBase64Image = ({ uri }) => {
-  const match = /^data:image\/([a-zA-Z]*);base64,([^"]*)/g.exec(uri);
-  const format = match[1];
-  const data = match[2];
+  const match = /^data:image\/([a-zA-Z]*);base64,([^"]*)/g.exec(uri)
+  const format = match[1]
+  const data = match[2]
 
   if (!isValidFormat(format)) {
-    throw new Error(`Base64 image invalid format: ${format}`);
+    throw new Error(`Base64 image invalid format: ${format}`)
   }
 
-  return new Promise(resolve => {
-    return resolve(getImage(Buffer.from(data, 'base64'), format));
-  });
-};
+  return new Promise((resolve) => {
+    return resolve(getImage(Buffer.from(data, 'base64'), format))
+  })
+}
 
-const resolveImageFromData = src => {
+const resolveImageFromData = (src) => {
   if (src.data && src.format) {
-    return new Promise(resolve => resolve(getImage(src.data, src.format)));
+    return new Promise((resolve) => resolve(getImage(src.data, src.format)))
   }
 
-  throw new Error(`Invalid data given for local file: ${JSON.stringify(src)}`);
-};
+  throw new Error(`Invalid data given for local file: ${JSON.stringify(src)}`)
+}
 
-const resolveBufferImage = buffer => {
-  const format = guessFormat(buffer);
+const resolveBufferImage = (buffer) => {
+  const format = guessFormat(buffer)
 
   if (format) {
-    return new Promise(resolve => resolve(getImage(buffer, format)));
+    return new Promise((resolve) => resolve(getImage(buffer, format)))
   }
-};
+}
 
-const getImageFormat = body => {
+const getImageFormat = (body) => {
   const isPng =
     body[0] === 137 &&
     body[1] === 80 &&
@@ -143,60 +148,60 @@ const getImageFormat = body => {
     body[4] === 13 &&
     body[5] === 10 &&
     body[6] === 26 &&
-    body[7] === 10;
+    body[7] === 10
 
-  const isJpg = body[0] === 255 && body[1] === 216 && body[2] === 255;
+  const isJpg = body[0] === 255 && body[1] === 216 && body[2] === 255
 
-  let extension = '';
+  let extension = ''
   if (isPng) {
-    extension = 'png';
+    extension = 'png'
   } else if (isJpg) {
-    extension = 'jpg';
+    extension = 'jpg'
   } else {
-    throw new Error('Not valid image extension');
+    throw new Error('Not valid image extension')
   }
 
-  return extension;
-};
+  return extension
+}
 
 const resolveImageFromUrl = async (src, options) => {
-  const { uri, body, headers, method = 'GET' } = src;
+  const { uri, body, headers, method = 'GET' } = src
 
   const data =
     !BROWSER && getAbsoluteLocalPath(uri)
       ? await fetchLocalFile(uri, options)
-      : await fetchRemoteFile(uri, { body, headers, method });
+      : await fetchRemoteFile(uri, { body, headers, method })
 
-  const extension = getImageFormat(data);
+  const extension = getImageFormat(data)
 
-  return getImage(data, extension);
-};
+  return getImage(data, extension)
+}
 
 export const resolveImage = (src, { cache = true, ...options } = {}) => {
-  const cacheKey = src.data ? src.data.toString() : src.uri;
+  const cacheKey = src.data ? src.data.toString() : src.uri
 
   if (cache && IMAGE_CACHE.get(cacheKey)) {
-    return IMAGE_CACHE.get(cacheKey);
+    return IMAGE_CACHE.get(cacheKey)
   }
 
-  let image;
+  let image
   if (isCompatibleBase64(src)) {
-    image = resolveBase64Image(src);
+    image = resolveBase64Image(src)
   } else if (Buffer.isBuffer(src)) {
-    image = resolveBufferImage(src);
+    image = resolveBufferImage(src)
   } else if (typeof src === 'object' && src.data) {
-    image = resolveImageFromData(src);
+    image = resolveImageFromData(src)
   } else {
-    image = resolveImageFromUrl(src, options);
+    image = resolveImageFromUrl(src, options)
   }
 
   if (!image) {
-    throw new Error('Cannot resolve image');
+    throw new Error('Cannot resolve image')
   }
 
   if (cache) {
-    IMAGE_CACHE.set(cacheKey, image);
+    IMAGE_CACHE.set(cacheKey, image)
   }
 
-  return image;
-};
+  return image
+}

@@ -25,7 +25,8 @@ export default function PostTile({
             borderRadius: theme.tokens.borderRadius,
             backgroundColor: 'background.accent',
             padding: 0,
-          }}>
+          }}
+        >
           <Box padding={2.5}>
             <Text color="white">{description}</Text>
             <Box paddingTop={2}>

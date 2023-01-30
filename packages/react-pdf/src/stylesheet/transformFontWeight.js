@@ -14,12 +14,12 @@ const FONT_WEIGHTS = {
   extrabold: 800,
   heavy: 900,
   black: 900,
-};
+}
 
-export const isFontWeightStyle = key => key.match(/^fontWeight/);
+export const isFontWeightStyle = (key) => key.match(/^fontWeight/)
 
-export const processFontWeight = value => {
-  if (!value) return FONT_WEIGHTS.normal;
-  if (typeof value === 'number') return value;
-  return FONT_WEIGHTS[value.toLowerCase()];
-};
+export const processFontWeight = (value) => {
+  if (!value) return FONT_WEIGHTS.normal
+  if (typeof value === 'number') return value
+  return FONT_WEIGHTS[value.toLowerCase()]
+}

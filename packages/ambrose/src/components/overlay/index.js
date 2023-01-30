@@ -47,7 +47,8 @@ export default function Overlay({
           bottom,
           right,
         }),
-      ]}>
+      ]}
+    >
       {children}
     </Box>
   )

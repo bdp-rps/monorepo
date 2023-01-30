@@ -207,7 +207,8 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
             }
           }
         })
-      }}>
+      }}
+    >
       <TextInput label="Platzname" {...nameField.props} />
       <SelectInput label="Größe" {...sizeField.props}>
         <option value="" />
@@ -252,7 +253,8 @@ const PlaceForm = ({ setPlaceMarkerVisible, placeMarkerVisible, position }) => {
       />
       <Button
         type="button"
-        onClick={() => setPlaceMarkerVisible((prev) => !prev)}>
+        onClick={() => setPlaceMarkerVisible((prev) => !prev)}
+      >
         {!placeMarkerVisible ? 'Marker setzen' : 'Marker entfernen'}
       </Button>
       <Button type="submit">Hinzufügen</Button>

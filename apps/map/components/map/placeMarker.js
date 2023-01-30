@@ -82,7 +82,8 @@ const PlaceMarker = ({
                         url.includes('https://www.')
                           ? url
                           : `https://www.${url}`
-                      }>
+                      }
+                    >
                       {url}
                     </a>
                   ) : (
@@ -116,7 +117,8 @@ const PlaceMarker = ({
             <Button
               size="small"
               variant="secondary"
-              onClick={() => setMoreVisible((prev) => !prev)}>
+              onClick={() => setMoreVisible((prev) => !prev)}
+            >
               {moreVisible ? 'weniger' : 'mehr'}
             </Button>
           </Box>

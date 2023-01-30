@@ -15,7 +15,7 @@ if (typeof window !== 'undefined') {
   })
 }
 
-const hash = function(s) {
+const hash = function (s) {
   /* Simple hash function. */
   var a = 1,
     c = 0,

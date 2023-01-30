@@ -46,7 +46,8 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
       center={position}
       zoom={13}
       zoomControl={false}
-      scrollWheelZoom={true}>
+      scrollWheelZoom={true}
+    >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -61,10 +62,8 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
       {places?.map((place) => (
         <PlaceMarker {...place.attributes} />
       ))}
-    <LeafletControlGeocoder></LeafletControlGeocoder>
+      <LeafletControlGeocoder></LeafletControlGeocoder>
     </MapContainer>
-  
-    
   )
 }
 

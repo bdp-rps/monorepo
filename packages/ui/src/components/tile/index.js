@@ -26,7 +26,8 @@ export default function Tile({
         backgroundColor: 'white',
         boxShadow: '0 5px 5px rgba(0,0,0,.1)',
         ...extend,
-      }}>
+      }}
+    >
       <Box
         grow={image ? 1 : 0}
         justifyContent="flex-end"
@@ -37,7 +38,8 @@ export default function Tile({
           backgroundImage: image ? 'url("' + image + '")' : undefined,
           backgroundSize: 'cover',
           backgroundPosition: imagePosition,
-        }}>
+        }}
+      >
         {title ? (
           <Box
             paddingTop={1.5}
@@ -46,10 +48,12 @@ export default function Tile({
             paddingRight={2}
             extend={{
               backgroundColor: titleBackground || theme.tokens.secondary,
-            }}>
+            }}
+          >
             <Text
               variant={highlight ? 'subtitle' : 'category'}
-              color={theme.tokens.primary}>
+              color={theme.tokens.primary}
+            >
               {title}
             </Text>
           </Box>

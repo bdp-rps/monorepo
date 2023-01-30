@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React from 'react'
 
-import warning from '../src/utils/warning';
+import warning from '../src/utils/warning'
 
 import {
   pdf,
@@ -18,73 +18,73 @@ import {
   PDFRenderer,
   createInstance,
   Document as PDFDocument,
-} from './index';
+} from './index'
 
-const flatStyles = stylesArray =>
-  stylesArray.reduce((acc, style) => ({ ...acc, ...style }), {});
+const flatStyles = (stylesArray) =>
+  stylesArray.reduce((acc, style) => ({ ...acc, ...style }), {})
 
 export const Document = ({ children, ...props }) => {
-  return <PDFDocument {...props}>{children}</PDFDocument>;
-};
+  return <PDFDocument {...props}>{children}</PDFDocument>
+}
 
 class InternalBlobProvider extends React.PureComponent {
-  state = { blob: null, url: null, loading: true, error: null };
+  state = { blob: null, url: null, loading: true, error: null }
 
   constructor(props) {
-    super(props);
+    super(props)
 
     // Create new root container for this render
-    this.instance = pdf();
+    this.instance = pdf()
   }
 
   componentDidMount() {
-    this.renderDocument();
-    this.onDocumentUpdate();
+    this.renderDocument()
+    this.onDocumentUpdate()
   }
 
   componentDidUpdate() {
-    this.renderDocument();
+    this.renderDocument()
 
     if (this.instance.isDirty() && !this.state.error) {
-      this.onDocumentUpdate();
+      this.onDocumentUpdate()
     }
   }
 
   renderDocument() {
-    this.instance.updateContainer(this.props.document);
+    this.instance.updateContainer(this.props.document)
   }
 
   onDocumentUpdate() {
-    const oldBlobUrl = this.state.url;
+    const oldBlobUrl = this.state.url
 
     this.instance
       .toBlob()
-      .then(blob => {
+      .then((blob) => {
         this.setState(
           { blob, url: URL.createObjectURL(blob), loading: false },
-          () => URL.revokeObjectURL(oldBlobUrl),
-        );
+          () => URL.revokeObjectURL(oldBlobUrl)
+        )
       })
-      .catch(error => {
-        this.setState({ error });
-        console.error(error);
-        throw error;
-      });
+      .catch((error) => {
+        this.setState({ error })
+        console.error(error)
+        throw error
+      })
   }
 
   render() {
-    return this.props.children(this.state);
+    return this.props.children(this.state)
   }
 }
 
 export const BlobProvider = ({ document: doc, children }) => {
   if (!doc) {
-    warning(false, 'You should pass a valid document to BlobProvider');
-    return null;
+    warning(false, 'You should pass a valid document to BlobProvider')
+    return null
   }
 
-  return <InternalBlobProvider document={doc}>{children}</InternalBlobProvider>;
-};
+  return <InternalBlobProvider document={doc}>{children}</InternalBlobProvider>
+}
 
 export const PDFViewer = ({
   className,
@@ -105,8 +105,8 @@ export const PDFViewer = ({
         />
       )}
     </InternalBlobProvider>
-  );
-};
+  )
+}
 
 export const PDFDownloadLink = ({
   document: doc,
@@ -116,19 +116,19 @@ export const PDFDownloadLink = ({
   fileName = 'document.pdf',
 }) => {
   if (!doc) {
-    warning(false, 'You should pass a valid document to PDFDownloadLink');
-    return null;
+    warning(false, 'You should pass a valid document to PDFDownloadLink')
+    return null
   }
 
-  const downloadOnIE = blob => () => {
+  const downloadOnIE = (blob) => () => {
     if (window.navigator.msSaveBlob) {
-      window.navigator.msSaveBlob(blob, fileName);
+      window.navigator.msSaveBlob(blob, fileName)
     }
-  };
+  }
 
   return (
     <InternalBlobProvider document={doc}>
-      {params => (
+      {(params) => (
         <a
           className={className}
           download={fileName}
@@ -140,8 +140,8 @@ export const PDFDownloadLink = ({
         </a>
       )}
     </InternalBlobProvider>
-  );
-};
+  )
+}
 
 export {
   pdf,
@@ -157,7 +157,7 @@ export {
   StyleSheet,
   PDFRenderer,
   createInstance,
-} from './index';
+} from './index'
 
 export default {
   pdf,
@@ -177,4 +177,4 @@ export default {
   BlobProvider,
   createInstance,
   PDFDownloadLink,
-};
+}

@@ -45,20 +45,20 @@ export default () => {
             <Text variant="category">Unsere Sippen auf einen Blick</Text>
             {count}
             <Box space={4} justifyContent="center">
-              {sippen.map(sippe => {
+              {sippen.map((sippe) => {
                 return (
                   <Box maxWidth={500}>
                     <Tile title={sippe.name}>
                       <Text>Seit: {sippe.date}</Text>
                       <Text>
                         Sippenführer*innen:{' '}
-                        {sippe.leader.map(leader => leader + ' ')}
+                        {sippe.leader.map((leader) => leader + ' ')}
                       </Text>
                       <Text>Gruppenstunde: {sippe.meeting}</Text>
                       <Text>Jahrgang: {sippe.year}</Text>
                       <Text>
                         Besondere Aktionen:{' '}
-                        {sippe.campaigns.map(campaign => campaign + ' ')}
+                        {sippe.campaigns.map((campaign) => campaign + ' ')}
                       </Text>
                     </Tile>
                   </Box>

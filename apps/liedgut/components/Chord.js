@@ -237,7 +237,8 @@ export default function Chord({ name, chord, config }) {
           fontFamily: 'Aleo',
           lineHeight: 1,
           fontSize: 20,
-        }}>
+        }}
+      >
         {name}
         {alternative ? '/' + alternative : ''}
       </div>

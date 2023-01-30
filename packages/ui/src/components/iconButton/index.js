@@ -69,7 +69,8 @@ const IconButton = forwardRef(
           ref={ref}
           href={href}
           disabled={disabled}
-          extend={linkStyle(styleProps)}>
+          extend={linkStyle(styleProps)}
+        >
           {icon}
           {labelEl}
         </Click>
@@ -83,7 +84,8 @@ const IconButton = forwardRef(
         ref={ref}
         onClick={onClick}
         disabled={disabled}
-        extend={buttonStyle(styleProps)}>
+        extend={buttonStyle(styleProps)}
+      >
         <Box
           extend={{
             alignItems: 'center',
@@ -91,7 +93,8 @@ const IconButton = forwardRef(
           }}
           // maybe this should be aria-label? Ask kitty
           title={label}
-          role={role}>
+          role={role}
+        >
           {icon}
           {labelEl}
         </Box>

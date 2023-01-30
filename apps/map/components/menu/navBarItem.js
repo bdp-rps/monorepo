@@ -12,7 +12,8 @@ export default function NavBarItem({ active, children, onClick }) {
       extend={{
         textDecoration: 'none',
         cursor: 'pointer',
-      }}>
+      }}
+    >
       <Text
         color={active ? 'yellow' : 'white'}
         extend={{
@@ -20,7 +21,8 @@ export default function NavBarItem({ active, children, onClick }) {
           borderBottomWidth: 3,
           borderBottomColor: active ? 'background.secondary' : 'transparent',
           borderBottomStyle: 'solid',
-        }}>
+        }}
+      >
         {children}
       </Text>
     </Box>

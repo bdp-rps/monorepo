@@ -113,7 +113,8 @@ export default function Checkbox({
             marginTop: 2,
             cursor: disabled ? 'not-allowed' : 'pointer',
             lineHeight: 1.4,
-          }}>
+          }}
+        >
           {label}
         </Text>
       </Box>
