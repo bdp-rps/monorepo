@@ -1,16 +1,7 @@
 {
-  "name": "@bdp-rps/pfapp",
+  "name": "pfapp.bdp-rps.de",
   "description": "Gruppenstunden Sammlung",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "lib/**",
-    "es/**"
-  ],
+  "private": true,
   "browserslist": [
     "IE >= 11",
     "Firefox >= 60",
@@ -24,8 +15,10 @@
     "lint": "pnpm exec eslint . --quiet",
     "dev": "next dev",
     "start": "next start",
-    "test": "echo 1",
-    "build": "next build"
+    "build": "next build",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=pfapp.bdp-rps.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=pfapp.bdp-rps.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "dependencies": {
     "@bdp-rps/ui": "workspace:*",

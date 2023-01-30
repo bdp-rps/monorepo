@@ -24,7 +24,6 @@
   "scripts": {
     "clean": "rimraf lib es coverage",
     "lint": "pnpm exec eslint . --quiet",
-    "setup": "pnpm build",
     "build": "pnpm clean && pnpm build:package",
     "build:package": "pnpm build:es && pnpm build:lib",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",

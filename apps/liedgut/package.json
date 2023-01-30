@@ -1,18 +1,8 @@
 {
-  "name": "@bdp-rps/liedgut",
+  "name": "liedgut.bdp-rps.de",
   "description": "Vorlagen, Inhalte und Zusatzmaterial rund ums Thema Liedgut",
-  "version": "0.0.25",
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "lib/**",
-    "es/**"
-  ],
+  "private": true,
   "browserslist": [
     "IE >= 11",
     "Firefox >= 60",
@@ -37,7 +27,10 @@
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --copy-files",
     "build:song": "babel-node scripts/song",
     "build:songs": "babel-node scripts/songs",
-    "build:book": "babel-node scripts/book"
+    "build:book": "babel-node scripts/book",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=liedgut.bdp-rps.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=liedgut.bdp-rps.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "dependencies": {
     "@bdp-rps/react-pdf-renderer": "workspace:*",

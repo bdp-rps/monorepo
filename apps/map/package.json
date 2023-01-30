@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=map.bdp-rps.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=map.bdp-rps.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "dependencies": {
     "@bdp-rps/ui": "workspace:*",

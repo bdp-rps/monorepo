@@ -1,10 +1,13 @@
 {
-  "name": "playroom.bdp-rps.app",
+  "name": "playroom.bdp-rps.de",
   "private": true,
   "scripts": {
     "dev": "playroom start",
     "build": "playroom build && cp -a public/fonts ./out",
-    "coverage": "pnpm test --coverage"
+    "coverage": "pnpm test --coverage",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=playroom.bdp-rps.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=playroom.bdp-rps.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",

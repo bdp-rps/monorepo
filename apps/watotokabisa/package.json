@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "pnpm build:blog-manifest && next build",
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
-    "start": "next start"
+    "start": "next start",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=watoto-kabisa.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=watoto-kabisa.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "dependencies": {
     "@bdp-rps/ui": "workspace:*",

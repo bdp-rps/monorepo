@@ -9,7 +9,9 @@
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
     "start": "next start",
     "export": "next export",
-    "deploy": "vercel --prod"
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=pfadfinder-eisenberg.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=pfadfinder-eisenberg.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "dependencies": {
     "@bdp-rps/ui": "workspace:*",

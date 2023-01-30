@@ -21,7 +21,6 @@
     "Edge >= 15"
   ],
   "scripts": {
-    "setup": "pnpm build",
     "lint": "pnpm exec eslint . --quiet",
     "clean": "rimraf lib es coverage",
     "build": "pnpm clean && pnpm build:icons && pnpm build:package",

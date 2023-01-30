@@ -13,7 +13,6 @@
   },
   "typings": "index.d.ts",
   "scripts": {
-    "setup": "pnpm build",
     "build": "rimraf ./dist && rollup -c",
     "watch": "rimraf ./dist && rollup -c -w",
     "prepublish": "npm run build"
