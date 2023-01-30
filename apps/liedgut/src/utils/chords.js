@@ -41,6 +41,17 @@ const Cis7 = {
   D: { fret: 6, finger: 2 },
 }
 
+const dis = {
+  barre: {
+    finger: 1,
+    fret: 6,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 7, finger: 2 },
+  G: { fret: 8, finger: 4 },
+  D: { fret: 8, finger: 3 },
+}
 const dis7 = {
   barre: {
     finger: 1,
