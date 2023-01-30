@@ -29,7 +29,7 @@
     "build:songs": "babel-node scripts/songs",
     "build:book": "babel-node scripts/book",
     "build:deps": "cd ../.. && pnpm exec turbo run build --filter=liedgut.bdp-rps.de^...",
-    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build:page --filter=liedgut.bdp-rps.de --force --no-cache",
+    "vercel:build": "pnpm build:deps && pnpm build:page",
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
