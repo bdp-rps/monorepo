@@ -34,7 +34,6 @@ const style = ({ theme, valid }) => ({
       position: 'absolute',
       width: 12,
       height: 12,
-      borderRadius: '50%',
       backgroundColor: theme.tokens.primary,
     },
   },
@@ -76,14 +75,13 @@ export default function Radio({
   label,
   errorMessage,
   description,
-  ...props
 }) {
   const styleProps = {
     valid,
     disabled,
   }
 
-  const { css, theme } = useFela(styleProps)
+  const { css } = useFela(styleProps)
 
   return (
     <Box>
@@ -96,7 +94,7 @@ export default function Radio({
           checked={value === id}
           disabled={disabled}
           required={required}
-          onChange={e => onChange(id, e)}
+          onChange={(e) => onChange(id, e)}
           onBlur={onBlur}
           onFocus={onFocus}
           className={css(style)}

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { useFela } from 'react-fela'
 
-export default function Loading({ size, className, color }) {
+export default function Loading({ size, color }) {
   const { theme } = useFela()
 
   const pxSize = size * theme.baselineGrid

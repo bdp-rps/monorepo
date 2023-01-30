@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { useRouter } from 'next/router'
 
 import {
@@ -33,7 +34,7 @@ export default () => (
       grow={1}
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Box space={8}>
-        {Object.keys(parts).map(part => (
+        {Object.keys(parts).map((part) => (
           <Box>
             <Text variant="subtitle">{part}</Text>
 

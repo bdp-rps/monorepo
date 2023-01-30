@@ -17,12 +17,6 @@ export default function Tile({
 }) {
   const { theme } = useFela()
 
-  const styleProps = {
-    image,
-    title,
-    imageHeight,
-  }
-
   return (
     <Box
       padding={3.5}
@@ -70,7 +64,5 @@ Tile.propTypes = {
   /** The highlighted tile title. */
   title: PropTypes.string,
   /** The tile main content. */
-  children: PropTypes.string,
-  /** The highlighted image.. */
   children: PropTypes.string,
 }

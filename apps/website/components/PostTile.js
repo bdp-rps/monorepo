@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { Box, Tile, Text } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 

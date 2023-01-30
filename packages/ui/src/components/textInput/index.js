@@ -5,7 +5,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ valid, disabled, theme }) => ({
+const style = ({ valid, theme }) => ({
   appearance: 'none',
   borderRadius: 0,
   borderWidth: 2,

@@ -16,7 +16,6 @@ import Fixed from './components/fixed'
 import Grid from './components/grid'
 import IconButton from './components/iconButton'
 import Link from './components/link'
-import List from './components/list'
 import ListItem from './components/listItem'
 import Loading from './components/loading'
 import Modal from './components/modal'
@@ -32,28 +31,29 @@ import Text from './components/text'
 import TextArea from './components/textArea'
 import TextInput from './components/textInput'
 import Tile from './components/tile'
-import Toggle from './components/toggle'
-import visuallyHidden from './components/visuallyHidden'
+import VisuallyHidden from './components/visuallyHidden'
 
 export {
-  Provider,
-  createStyleRenderer,
-  renderToNodeList,
   Accordion,
   Box,
   Button,
   Card,
   Checkbox,
+  Click,
+  createStyleRenderer,
+  El,
   Fixed,
   Grid,
+  IconButton,
   Link,
-  List,
   ListItem,
   Loading,
   Modal,
   NavBar,
   NavBarItem,
+  Provider,
   Radio,
+  renderToNodeList,
   ScrollView,
   SelectInput,
   Spacer,
@@ -63,8 +63,5 @@ export {
   TextArea,
   TextInput,
   Tile,
-  Toggle,
-  Click,
-  El,
-  IconButton,
+  VisuallyHidden,
 }

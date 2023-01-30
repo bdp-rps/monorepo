@@ -4,13 +4,12 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ valid, disabled, theme }) => ({
+const style = ({ valid, theme }) => ({
   display: 'flex',
   borderRadius: 0,
   appearance: 'none',
   borderWidth: 2,
   borderStyle: 'solid',
-  borderRadius: 0,
   borderColor: theme.tokens.inputBorder,
   paddingLeft: theme.tokens.inputPaddingHorizontal,
   paddingRight: theme.tokens.inputPaddingHorizontal,
@@ -57,7 +56,7 @@ export default function SelectInput({
     disabled,
   }
 
-  const { css, theme } = useFela(styleProps)
+  const { css } = useFela(styleProps)
 
   return (
     <Box space={1}>

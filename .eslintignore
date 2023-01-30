@@ -1,5 +1,8 @@
 **/build/**
 *.config.js
+**/lib/**
+**/es/**
 **/out/**
 **/.turbo/**
 **/__generated__/**
+**/node_modules/**

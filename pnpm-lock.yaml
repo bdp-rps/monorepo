@@ -265,6 +265,7 @@ importers:
       '@bdp-rps/ui': ^1.0.0
       '@next/bundle-analyzer': 9.3.4
       eslint-config-next: 12.3.1
+      fast-loops: ^1.1.3
       ical-js-parser: ^0.6.0
       next: ^12.0.7
       node-fetch: ^2.6.0
@@ -274,6 +275,7 @@ importers:
       rehype-slug: 3.0.0
     dependencies:
       '@bdp-rps/ui': link:../../packages/ui
+      fast-loops: 1.1.3
       ical-js-parser: 0.6.12
       next: 12.3.4_sfoxds7t5ydpegc3knd667wn6m
       node-fetch: 2.6.8
@@ -299,10 +301,21 @@ importers:
       babel-core: 7.0.0-bridge.0
       babel-jest: ^27.0.2
       cross-env: ^6.0.3
+      css-in-js-utils: ^3.1.0
+      fast-loops: ^1.1.3
       fela: ^12.2.1
+      fela-monolithic: ^12.2.1
+      fela-plugin-custom-property: ^12.2.1
+      fela-plugin-named-keys: ^12.2.1
+      fela-plugin-responsive-value: ^12.2.1
+      fela-plugin-theme-value: ^12.2.1
+      fela-preset-web: ^12.2.1
+      fela-sort-media-query-mobile-first: ^12.2.1
+      isobject: ^4.0.0
       jest: ^26.6.0
       jest-react-fela: ^12.2.1
       jsdom: ^16.6.0
+      kilvin: ^3.1.1
       prop-types: ^15.8.1
       react: ^17.0.1
       react-dom: ^17.0.1
@@ -310,6 +323,9 @@ importers:
       rimraf: ^3.0.0
       small-date: ^2.0.0
     dependencies:
+      css-in-js-utils: 3.1.0
+      fast-loops: 1.1.3
+      isobject: 4.0.0
       prop-types: 15.8.1
       small-date: 2.0.0
     devDependencies:
@@ -325,9 +341,17 @@ importers:
       babel-jest: 27.5.1_@babel+core@7.20.12
       cross-env: 6.0.3
       fela: 12.2.1
+      fela-monolithic: 12.2.1
+      fela-plugin-custom-property: 12.2.1_fela@12.2.1
+      fela-plugin-named-keys: 12.2.1
+      fela-plugin-responsive-value: 12.2.1
+      fela-plugin-theme-value: 12.2.1_fela@12.2.1
+      fela-preset-web: 12.2.1_fela@12.2.1
+      fela-sort-media-query-mobile-first: 12.2.1
       jest: 26.6.3
       jest-react-fela: 12.2.1_uk7qz3kbybwnwdrog57ffzvxn4
       jsdom: 16.7.0
+      kilvin: 3.1.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-fela: 12.2.1_fela@12.2.1+react@17.0.2
@@ -8040,6 +8064,16 @@ packages:
       string-hash: 1.1.3
     dev: false
 
+  /fela-monolithic/12.2.1:
+    resolution: {integrity: sha512-cj8LZYs4oypb627P+06tMhg4INRFCd0wT2+vvnilZpyX2G2PBE+qctBYNOQJE7fSpPmS+SHaKn7wGRchkpRtHA==}
+    dependencies:
+      css-in-js-utils: 3.1.0
+      fast-loops: 1.1.3
+      fela-utils: 12.2.1
+      isobject: 3.0.1
+      string-hash: 1.1.3
+    dev: true
+
   /fela-plugin-custom-property/12.2.1_fela@12.2.1:
     resolution: {integrity: sha512-3ueCXW6qYijTaAq4oHCEdmpyb6Uj/IX+rTlY7ZeKhWeGNR3dZBX78N885fJeK5THek8ypi4piTW1qGhFMPCtiw==}
     peerDependencies:
@@ -8048,14 +8082,12 @@ packages:
       css-in-js-utils: 3.1.0
       fela: 12.2.1
       isobject: 3.0.1
-    dev: false
 
   /fela-plugin-embedded/12.2.1:
     resolution: {integrity: sha512-fexRLSbl3uvB2SguS7aWjGbUNH9+s1YjPXSIUybPxi0Send8oKPvRbPqGGts3MpiBj/gz4VateeIRJLndq7CZA==}
     dependencies:
       fast-loops: 1.1.3
       isobject: 3.0.1
-    dev: false
 
   /fela-plugin-extend/12.2.1_fela@12.2.1:
     resolution: {integrity: sha512-J6XJe+9V4+oaSR+p4/8A8RVTQK1/o6U4T/FY0dRATasyqc80zeQuCh8QjxGiMVeF1x1rqfpSrslLTBWENzVTWQ==}
@@ -8067,14 +8099,12 @@ packages:
       fela: 12.2.1
       fela-utils: 12.2.1
       isobject: 3.0.1
-    dev: false
 
   /fela-plugin-fallback-value/12.2.1:
     resolution: {integrity: sha512-V70rO0DRljNUJBzRKHp0fXO/2TlOpszx6rgLaFL+jc0M37cyTwuXesSpduUIJRc6u5VliAO3R3yZeTOQAoUueQ==}
     dependencies:
       css-in-js-utils: 3.1.0
       isobject: 4.0.0
-    dev: false
 
   /fela-plugin-hover-media/12.2.1_fela@12.2.1:
     resolution: {integrity: sha512-lbgFG+6MwClUuPk04Y11pVNG5XsiB1t6xtZi1kmYb0KqK5HyIcunrkEyQcPvvudrSayu5OtHPR4w79bRLyNTKg==}
@@ -8099,7 +8129,6 @@ packages:
     dependencies:
       css-in-js-utils: 3.1.0
       isobject: 3.0.1
-    dev: false
 
   /fela-plugin-prefixer/12.2.1:
     resolution: {integrity: sha512-qWNL/Cgj9QZHhtPt6Ti8ZhxDphkzi5s3stq03kd2LAdJqEGTP9IeuZE0rtPQjGYepXwswM3FJt/3mOKrdrypaQ==}
@@ -8108,7 +8137,6 @@ packages:
       fast-loops: 1.1.3
       isobject: 4.0.0
       stylis: 4.1.3
-    dev: false
 
   /fela-plugin-responsive-value/12.2.1:
     resolution: {integrity: sha512-dUlouP8b1Yl0klLP0cfCqM2qqDt2HBulsOPJQiEWvB1/Z1PKPCXRGdjwpzkNoq/G4LZHZ5V9dVtXt46Nv2RQdA==}
@@ -8116,7 +8144,6 @@ packages:
       css-in-js-utils: 3.1.0
       fast-loops: 1.1.3
       isobject: 3.0.1
-    dev: false
 
   /fela-plugin-theme-value/12.2.1_fela@12.2.1:
     resolution: {integrity: sha512-qo6HG90gSn2mw4KZtR7bYIla68c47O7W+4R6Tlpgc1XVum48eatsMOfMBhtfVJteJvtMDFk/cOl58CaL3GfRdg==}
@@ -8126,14 +8153,12 @@ packages:
       fast-loops: 1.1.3
       fela: 12.2.1
       isobject: 3.0.1
-    dev: false
 
   /fela-plugin-unit/12.2.1:
     resolution: {integrity: sha512-+UZKsqRaHBFAxKKD9+AmWZfge8nNI/Lj/Qju1eV21uFL73OkVDZeQQ8v+VRJwn+3px6i7+n9bJpOz7eA8a0e3A==}
     dependencies:
       css-in-js-utils: 3.1.0
       isobject: 4.0.0
-    dev: false
 
   /fela-preset-web/12.2.1_fela@12.2.1:
     resolution: {integrity: sha512-Qp5fOTBQKGa+d8tZEYUfZi5fZgDUGcb4/3PWP2rPxrVB9yPd5Adov8ohrPoYuW5R0ymP9LqyEP1qk51XZdglVg==}
@@ -8145,13 +8170,11 @@ packages:
       fela-plugin-unit: 12.2.1
     transitivePeerDependencies:
       - fela
-    dev: false
 
   /fela-sort-media-query-mobile-first/12.2.1:
     resolution: {integrity: sha512-CuMKGFCmwduieDZf+EsursRq5oOuBXB0VN0ZB4adJXAK1adbmOYOBnUpDn4+0G9tgYdfuKWd6fnUkQu4Jh4c0Q==}
     dependencies:
       sort-css-media-queries: 1.5.4
-    dev: false
 
   /fela-tools/12.2.1:
     resolution: {integrity: sha512-iUiw6mQKJWgQ9rcTePiAATQozEGu+NSa7XrtWGdqcGz/+QYTujq0LBWT5JCXFkrObWEdRjkA7h6xO01IsoXbGQ==}
@@ -10090,7 +10113,6 @@ packages:
   /isobject/4.0.0:
     resolution: {integrity: sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==}
     engines: {node: '>=0.10.0'}
-    dev: false
 
   /isomorphic-fetch/2.2.1:
     resolution: {integrity: sha512-9c4TNAKYXM5PRyVcwUZrF3W09nQ+sO7+jydgs4ZGW9dhsLG2VOlISJABombdQqQRXCwuYG3sYV/puGf5rp0qmA==}
@@ -11736,7 +11758,6 @@ packages:
     resolution: {integrity: sha512-K0lxKMp2I9p61Yn6WM2t/13pDgwuLXHsR2i0gifcYU37Ds0OvqPiLMlKloBbWFsM5tLt1JKA0qs2SiinQ33BAA==}
     dependencies:
       prop-types: 15.8.1
-    dev: false
 
   /kind-of/3.2.2:
     resolution: {integrity: sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ==}
@@ -16369,7 +16390,6 @@ packages:
 
   /string-hash/1.1.3:
     resolution: {integrity: sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==}
-    dev: false
 
   /string-length/2.0.0:
     resolution: {integrity: sha512-Qka42GGrS8Mm3SZ+7cH8UXiIWI867/b/Z/feQSpQx/rbfB8UGknGEZVaUQMOUVj+soY6NpWAxily63HI1OckVQ==}

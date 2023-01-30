@@ -21,8 +21,6 @@ export default function ThemeProvider({ theme, children }) {
     throw new Error(
       `The theme variant "${themeName}" could not be found. Please provide it as part of the "theming" configuration.`
     )
-
-    return null
   }
 
   const { tokens = {}, colors = {}, ...rest } = variants[themeName]

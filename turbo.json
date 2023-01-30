@@ -36,7 +36,8 @@
       "outputs": ["lib/**", "es/**"]
     },
     "lint": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "outputs": ["lib/**", "es/**"]
     },
     "dev": {
       "cache": false

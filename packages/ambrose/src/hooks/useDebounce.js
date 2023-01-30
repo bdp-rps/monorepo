@@ -6,7 +6,7 @@ export default function useDebounce(value, delay) {
   useEffect(() => {
     let timeout = setTimeout(() => setDebouncedValue(() => value), delay)
 
-    return () => clearTimeout(handler)
+    return () => clearTimeout(timeout)
   }, [value])
 
   return debouncedValue

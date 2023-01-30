@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { useRouter } from 'next/router'
 import { useFela } from 'react-fela'
 

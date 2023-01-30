@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { Box, Button, Text, Spacer, Tile, Link } from '@bdp-rps/ui'
 
 import Layout from '../components/Layout'

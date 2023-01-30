@@ -9,7 +9,7 @@ module.exports = {
   usageMode: 'expand',
   components: 'src/components/**/index.js',
   skipComponentsWithoutExample: true,
-  dangerouslyUpdateWebpackConfig(webpackConfig, env) {
+  dangerouslyUpdateWebpackConfig(webpackConfig) {
     webpackConfig.plugins[3].dangerouslyAllowCleanPatternsOutsideProject = true
     return webpackConfig
   },
@@ -21,8 +21,7 @@ module.exports = {
   },
   template: {
     head: {
-      raw:
-        '<style>[name=rsg-code-editor],[data-testid=preview-wrapper]+div,footer{display:none!important}</style>',
+      raw: '<style>[name=rsg-code-editor],[data-testid=preview-wrapper]+div,footer{display:none!important}</style>',
     },
   },
   styleguideComponents: {

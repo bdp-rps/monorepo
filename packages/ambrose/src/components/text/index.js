@@ -4,8 +4,6 @@ import { useFela } from 'react-fela'
 
 import TextContext from './TextContext'
 
-import useConfig from '../../config/useConfig'
-
 function stripFlowElement(el) {
   return /^(div|p|h[1-6])$/.test(el) ? 'span' : el
 }

@@ -81,14 +81,13 @@ export default function Checkbox({
   label,
   errorMessage,
   description,
-  ...props
 }) {
   const styleProps = {
     valid,
     disabled,
   }
 
-  const { css, theme } = useFela(styleProps)
+  const { css } = useFela(styleProps)
 
   return (
     <Box space={1}>

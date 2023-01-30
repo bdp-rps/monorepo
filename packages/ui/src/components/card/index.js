@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { useFela } from 'react-fela'
 
 import Box from '../box'
 

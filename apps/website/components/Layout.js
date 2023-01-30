@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { Box } from '@bdp-rps/ui'
 
 export default function Layout({ children, extend, ...props }) {

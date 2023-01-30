@@ -5,7 +5,7 @@ import { useFela } from 'react-fela'
 import Box from '../box'
 import Text from '../text'
 
-const style = ({ valid, disabled, theme }) => ({
+const style = ({ valid, theme }) => ({
   flexGrow: 1,
   appearance: 'none',
   borderRadius: 0,
@@ -49,7 +49,6 @@ const TextArea = forwardRef(
       onBlur,
       onFocus,
       placeholder,
-      type = 'text',
       label,
       errorMessage,
       description,
@@ -62,7 +61,7 @@ const TextArea = forwardRef(
       disabled,
     }
 
-    const { css, theme } = useFela(styleProps)
+    const { css } = useFela(styleProps)
 
     return (
       <Box extend={extend} space={1}>

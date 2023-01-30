@@ -31,6 +31,7 @@ const getResponsiveMediaQueries = (values, props) => {
   return mediaQueryMap[values.length]
 }
 
+// eslint-disable-next-line
 const [extend, embedded, prefixer, fallbackValue, unit] = plugins
 
 function getTestRenderer() {

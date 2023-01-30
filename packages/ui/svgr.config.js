@@ -1,10 +1,10 @@
 module.exports = {
   filenameCase: 'kebab',
   dimensions: false,
-  template: function(
+  template: function (
     { template },
     opts,
-    { imports, interfaces, componentName, props, jsx, exports }
+    { imports, interfaces, componentName, props, jsx }
   ) {
     const plugins = ['jsx']
 
