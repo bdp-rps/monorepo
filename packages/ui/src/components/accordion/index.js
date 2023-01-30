@@ -10,7 +10,6 @@ import { IconChevronUp, IconChevronDown } from '../icons'
 import generateId from '../../utils/generateId'
 import useDisclosure from '../../hooks/useDisclosure'
 import useHidden from '../../hooks/useHidden'
-
 export default function Accordion({
   summary,
   value,
