@@ -34,7 +34,10 @@
     "dev:es": "babel src -d es -w",
     "test": "cross-env BABEL_ENV=commonjs echo 1",
     "coverage": "pnpm test --coverage",
-    "styleguide": "styleguidist server"
+    "styleguide": "styleguidist server",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-mainz.de^...",
+    "vercel:build": "pnpm build:deps && pnpm build:styleguide",
+    "vercel:install": "pnpm i -r"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",

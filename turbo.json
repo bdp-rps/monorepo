@@ -6,7 +6,6 @@
       "cache": false
     },
     "build": {
-      "dependsOn": ["^build"],
       "outputs": [".next/**"]
     },
     "@bdp-rps/ambrose#build": {
@@ -18,7 +17,7 @@
     "@bdp-rps/react-pdf-renderer#build": {
       "outputs": ["dist/**"]
     },
-    "playroom.bdp-rps.app#build": {
+    "playroom.bdp-rps.de#build": {
       "outputs": ["out/**"]
     },
     "test": {
