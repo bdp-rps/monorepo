@@ -41,7 +41,7 @@
   "author": "BdP LV RPS <medien@bdp-rps.de>",
   "license": "MIT",
   "dependencies": {
-    "@bdp-rps/ambrose": "^1.0.0",
+    "@bdp-rps/ambrose": "workspace:*",
     "fast-loops": "^1.1.3",
     "fela": "^12.2.1",
     "fela-enforce-longhands": "^12.2.1",

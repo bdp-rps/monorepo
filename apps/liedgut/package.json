@@ -30,7 +30,6 @@
     "normalize": "babel-node scripts/normalize",
     "start": "next start",
     "export": "next export",
-    "setup": "pnpm build",
     "build": "pnpm run clean && pnpm songlist && pnpm normalize && pnpm build:package",
     "build:page": "pnpm build && next build",
     "build:package": "pnpm build:es && pnpm build:lib",
@@ -41,8 +40,8 @@
     "build:book": "babel-node scripts/book"
   },
   "dependencies": {
-    "@bdp-rps/react-pdf-renderer": "^1.0.0",
-    "@bdp-rps/ui": "^1.0.0",
+    "@bdp-rps/react-pdf-renderer": "workspace:*",
+    "@bdp-rps/ui": "workspace:*",
     "abcjs": "^6.0.0-beta.19",
     "node-fetch": "^2.6.0",
     "onegraph-auth": "^2.2.1",

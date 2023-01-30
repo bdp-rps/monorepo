@@ -8,7 +8,7 @@
     "build": "next build"
   },
   "dependencies": {
-    "@bdp-rps/ui": "^1.0.0",
+    "@bdp-rps/ui": "workspace:*",
     "ical-js-parser": "^0.6.0",
     "next": "^12.0.7",
     "node-fetch": "^2.6.0",

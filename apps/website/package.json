@@ -7,10 +7,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-rps.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=bdp-rps.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
   },
   "dependencies": {
-    "@bdp-rps/ui": "^1.0.0",
+    "@bdp-rps/ui": "workspace:*",
     "fast-loops": "^1.1.3",
     "ical-js-parser": "^0.6.0",
     "next": "^12.0.7",

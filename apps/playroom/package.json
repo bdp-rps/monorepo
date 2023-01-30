@@ -2,17 +2,15 @@
   "name": "playroom.bdp-rps.app",
   "private": true,
   "scripts": {
-    "setup": "echo 1",
-    "start": "playroom start",
+    "dev": "playroom start",
     "build": "playroom build && cp -a public/fonts ./out",
-    "test": "echo 1",
     "coverage": "pnpm test --coverage"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "author": "BdP LV RPS <medien@bdp-rps.de>",
   "license": "MIT",
   "dependencies": {
-    "@bdp-rps/ui": "^1.0.0",
+    "@bdp-rps/ui": "workspace:*",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -26,39 +24,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.1.0",
-    "playroom": "^0.21.7",
+    "playroom": "^0.28.2",
     "rimraf": "^3.0.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "node-fetch@<2.6.7": ">=2.6.7",
-      "simple-git@<3.5.0": ">=3.5.0",
-      "braces@<2.3.1": ">=2.3.1",
-      "simple-git@<3.15.0": ">=3.15.0",
-      "nth-check@<2.0.1": ">=2.0.1",
-      "trim@<0.0.3": ">=0.0.3",
-      "merge@<2.1.1": ">=2.1.1",
-      "node-notifier@<8.0.1": ">=8.0.1",
-      "node-fetch@<2.6.1": ">=2.6.1",
-      "serialize-javascript@<3.1.0": ">=3.1.0",
-      "serialize-javascript@<2.1.1": ">=2.1.1",
-      "luxon@>=2.0.0 <2.5.2": ">=2.5.2",
-      "loader-utils@>=2.0.0 <2.0.4": ">=2.0.4",
-      "loader-utils@<1.4.1": ">=1.4.1",
-      "loader-utils@>=2.0.0 <2.0.3": ">=2.0.3",
-      "node-forge@<1.0.0": ">=1.0.0",
-      "simple-git@<3.16.0": ">=3.16.0",
-      "cross-fetch@>=3.0.0 <3.1.5": ">=3.1.5",
-      "node-forge@<1.3.0": ">=1.3.0",
-      "simple-git@<3.3.0": ">=3.3.0",
-      "yargs-parser@<=5.0.0": ">=5.0.1",
-      "yargs-parser@>=6.0.0 <13.1.2": ">=13.1.2",
-      "json5@<1.0.2": ">=1.0.2",
-      "terser@<4.8.1": ">=4.8.1",
-      "glob-parent@<5.1.2": ">=5.1.2",
-      "property-expr@<2.0.3": ">=2.0.3",
-      "jsdom@<=16.4.0": ">=16.5.0",
-      "ejs@<3.1.7": ">=3.1.7"
-    }
   }
 }
