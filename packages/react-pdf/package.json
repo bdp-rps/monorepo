@@ -5,6 +5,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
   "main": "dist/react-pdf.cjs.js",
   "module": "dist/react-pdf.es.js",
   "browser": {
@@ -33,6 +37,9 @@
     "react-reconciler": "0.21.0",
     "scheduler": "0.15.0",
     "yoga-layout-prebuilt": "1.9.3"
+  },
+  "peerDependencies": {
+    "react": "16.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -71,9 +78,5 @@
     "rollup-plugin-sourcemaps": "0.4.2",
     "rollup-plugin-terser": "4.0.4"
   },
-  "files": [
-    "dist",
-    "index.d.ts"
-  ],
   "gitHead": "09e19151ab54a017720eeeeed33131db1a5651e2"
 }
