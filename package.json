@@ -4,20 +4,25 @@
   "repository": "https://github.com/bdp-rps/monorepo.git",
   "license": "MIT",
   "scripts": {
-    "postinstall": "yarn turbo run setup",
-    "build": "yarn turbo run build",
-    "format": "prettier --write \"**/*.js\"",
-    "test": "yarn turbo run test",
-    "check": "yarn format && yarn test && yarn lint",
-    "lint": "eslint packages apps --quiet",
-    "dev": "yarn turbo run dev --parallel --no-cache"
+    "format": "prettier --write '**/**/*.{js,jsx,json,md,mdx,ts,tsx}' && turbo run format",
+    "lint": "turbo run lint",
+    "postinstall": "turbo run setup",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "check": "pnpm format && pnpm test && pnpm lint",
+    "dev": "turbo run dev --parallel --no-cache"
   },
+  "packageManager": "pnpm@7.11.0",
   "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.0.4",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "turbo": "^1.0.6"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

@@ -23,17 +23,17 @@
   ],
   "scripts": {
     "clean": "rimraf lib es coverage",
-    "setup": "yarn build",
-    "build": "yarn clean && yarn build:package",
-    "build:package": "yarn build:es && yarn build:lib",
+    "setup": "pnpm build",
+    "build": "pnpm clean && pnpm build:package",
+    "build:package": "pnpm build:es && pnpm build:lib",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
     "dev": "npm run dev:lib & npm run dev:es",
     "dev:lib": "BABEL_ENV=commonjs babel src -d lib -w",
     "dev:es": "babel src -d es -w",
     "test": "jest --config=jest.config.js",
-    "coverage": "yarn test --coverage",
-    "release": "yarn build && yarn test && npm publish"
+    "coverage": "pnpm test --coverage",
+    "release": "pnpm build && pnpm test && npm publish"
   },
   "dependencies": {
     "prop-types": "^15.8.1",

@@ -1,0 +1,33 @@
+{
+  "name": "playroom.bdp-rps.app",
+  "version": "0.0.25",
+  "private": true,
+  "scripts": {
+    "setup": "echo 1",
+    "start": "playroom start",
+    "build": "playroom build && cp -a public/fonts ./out",
+    "test": "echo 1",
+    "coverage": "pnpm test --coverage"
+  },
+  "repository": "https://github.com/bdp-rps/monorepo.git",
+  "author": "BdP LV RPS <medien@bdp-rps.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@bdp-rps/ui": "^0.0.25",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.1.0",
+    "playroom": "^0.21.7",
+    "rimraf": "^3.0.0"
+  }
+}

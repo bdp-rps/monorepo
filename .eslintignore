@@ -1,0 +1,5 @@
+**/build/**
+*.config.js
+**/out/**
+**/.turbo/**
+**/__generated__/**
