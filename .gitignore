@@ -26,6 +26,7 @@ packages/ui/public/index.html
 packages/react-pdf/dist
 apps/liedgut/public/dist
 apps/endlichwieder/public/groups
+packages/ui/src/components/icons/js
 
 yarn.lock
 
