@@ -9,7 +9,16 @@ const cis = {
   G: { fret: 6, finger: 4 },
   D: { fret: 6, finger: 3 },
 }
-const cis7 = {}
+const cis7 = {
+  barre: {
+    finger: 1,
+    fret: 4,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 5, finger: 2 },
+  D: { fret: 6, finger: 3 },
+}
 const Cis = {
   barre: {
     finger: 1,
@@ -21,12 +30,59 @@ const Cis = {
   G: { fret: 6, finger: 3 },
   D: { fret: 6, finger: 2 },
 }
-const Cis7 = {}
+const Cis7 = {
+  barre: {
+    finger: 1,
+    fret: 4,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 5, finger: 4 },
+  D: { fret: 6, finger: 2 },
+}
 
-const dis = {}
-const dis7 = {}
-const Dis = {}
-const Dis7 = {}
+const dis = {
+  barre: {
+    finger: 1,
+    fret: 6,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 7, finger: 2 },
+  G: { fret: 8, finger: 4 },
+  D: { fret: 8, finger: 3 },
+}
+const dis7 = {
+  barre: {
+    finger: 1,
+    fret: 6,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 7, finger: 2 },
+  D: { fret: 8, finger: 3 },
+}
+const Dis = {
+  barre: {
+    finger: 1,
+    fret: 6,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 8, finger: 2 },
+  G: { fret: 8, finger: 4 },
+  D: { fret: 8, finger: 3 },
+}
+const Dis7 = {
+  barre: {
+    finger: 1,
+    fret: 6,
+    from: 'e',
+    to: 'A',
+  },
+  b: { fret: 8, finger: 2 },
+  D: { fret: 8, finger: 3 },
+}
 
 const fis = {
   barre: {
@@ -52,9 +108,28 @@ const Fis = {
 }
 const Fis7 = {}
 
-const gis = {}
+const gis = {
+  barre: {
+    fret: 4,
+    finger: 1,
+    from: 'e',
+    to: 'E',
+  },
+  D: { fret: 6, finger: 4 },
+  A: { fret: 6, finger: 3 },
+}
 const gis7 = {}
-const Gis = {}
+const Gis = {
+  barre: {
+    fret: 4,
+    finger: 1,
+    from: 'e',
+    to: 'E',
+  },
+  G: { fret: 5, finger: 2 },
+  D: { fret: 6, finger: 4 },
+  A: { fret: 6, finger: 3 },
+}
 const Gis7 = {}
 
 const ais = {

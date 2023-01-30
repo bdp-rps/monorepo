@@ -15,11 +15,11 @@
     "@bdp-rps/ui#build": {
       "outputs": ["lib/**", "es/**", "src/components/icons/js"]
     },
+    "@bdp-rps/react-pdf-renderer#build": {
+      "outputs": ["dist/**"]
+    },
     "playroom.bdp-rps.app#build": {
       "outputs": ["out/**"]
-    },
-    "@bdp-rps/react-pdf#build": {
-      "outputs": ["dist/**"]
     },
     "test": {
       "dependsOn": ["^build"],
@@ -29,15 +29,15 @@
       "dependsOn": ["^build"],
       "outputs": [".next/analyze/**"]
     },
-    "@bdp-rps/react-pdf#setup": {
-      "outputs": ["dist/**"]
-    },
     "setup": {},
     "@bdp-rps/ambrose#setup": {
       "outputs": ["lib/**", "es/**"]
     },
     "@bdp-rps/ui#setup": {
       "outputs": ["lib/**", "es/**"]
+    },
+    "@bdp-rps/react-pdf-renderer#setup": {
+      "outputs": ["dist/**"]
     },
     "lint": {
       "dependsOn": ["^build"]
