@@ -197,19 +197,19 @@ Button.defaultProps = {
 }
 
 Button.propTypes = {
-  /** Use either a primary or a secondary button. */
+  /** Use either a primary or a secondary button */
   variant: PropTypes.oneOf(['primary', 'secondary']),
-  /** Use either a positive blue or a negative red button. */
+  /** Use either a positive blue or a negative red button */
   intent: PropTypes.oneOf(['positive', 'negative']),
-  /** The size of the button. */
+  /** The size of the button */
   size: PropTypes.oneOf(['tiny', 'small', 'medium', 'large']),
   /** The onClick event handler */
   onClick: PropTypes.func,
-  /** Disables the button. The click event handler won't be triggered. */
+  /** Disables the button. The click event handler won't be triggered */
   disabled: PropTypes.bool,
-  /** Enables a loading state. Hover, active and click events aren't triggered anymore. */
+  /** Enables a loading state. Hover, active and click events aren't triggered anymore */
   loading: PropTypes.bool,
   type: PropTypes.oneOf(['submit', 'reset']),
-  /** Makes the button act as a link tag. */
+  /** Makes the button act as a link tag */
   href: PropTypes.string,
 }
