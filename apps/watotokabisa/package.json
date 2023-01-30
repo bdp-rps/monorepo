@@ -3,14 +3,13 @@
   "description": "Official watoto-kabisa website",
   "private": true,
   "scripts": {
-    "setup": "echo 1",
     "dev": "next dev",
     "build": "pnpm build:blog-manifest && next build",
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
     "start": "next start"
   },
   "dependencies": {
-    "@bdp-rps/ui": "^0.0.25",
+    "@bdp-rps/ui": "^1.0.0",
     "@mdx-js/loader": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@next/bundle-analyzer": "9.3.4",

@@ -1,6 +1,6 @@
 {
-  "name": "ambrose",
-  "version": "0.0.5",
+  "name": "@bdp-rps/ambrose",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,

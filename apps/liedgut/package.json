@@ -30,7 +30,7 @@
     "start": "next start",
     "export": "next export",
     "deploy": "vercel --prod",
-    "prepare": "pnpm build:package",
+    "setup": "pnpm build",
     "test": "echo 1",
     "build": "pnpm run clean && pnpm songlist && pnpm normalize && pnpm build:package",
     "build:page": "pnpm build && next build",
@@ -42,8 +42,8 @@
     "build:book": "babel-node scripts/book"
   },
   "dependencies": {
-    "@bdp-rps/react-pdf-renderer": "^0.0.25",
-    "@bdp-rps/ui": "^0.0.25",
+    "@bdp-rps/react-pdf-renderer": "^1.0.0",
+    "@bdp-rps/ui": "^1.0.0",
     "abcjs": "^6.0.0-beta.19",
     "node-fetch": "^2.6.0",
     "onegraph-auth": "^2.2.1",

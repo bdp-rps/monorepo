@@ -26,27 +26,10 @@ importers:
       rimraf: 3.0.2
       turbo: 1.7.0
 
-  apps/endlichwieder:
-    specifiers:
-      '@bdp-rps/ui': ^0.0.25
-      '@next/bundle-analyzer': 9.3.4
-      '@squoosh/cli': ^0.6.4
-      next: ^12.0.7
-      react: ^17.0.1
-      react-dom: ^17.0.1
-    dependencies:
-      '@bdp-rps/ui': link:../../packages/ui
-      '@next/bundle-analyzer': 9.3.4
-      next: 12.3.4_sfoxds7t5ydpegc3knd667wn6m
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    devDependencies:
-      '@squoosh/cli': 0.6.4
-
   apps/franzvonsickingen:
     specifiers:
       '@babel/node': ^7.8.7
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       '@mdx-js/loader': ^1.6.22
       '@mdx-js/react': ^1.6.22
       '@next/bundle-analyzer': 9.3.4
@@ -82,8 +65,8 @@ importers:
       '@babel/polyfill': ^7.2.5
       '@babel/preset-env': ^7.7.6
       '@babel/preset-react': ^7.7.4
-      '@bdp-rps/react-pdf-renderer': ^0.0.25
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/react-pdf-renderer': ^1.0.0
+      '@bdp-rps/ui': ^1.0.0
       abcjs: ^6.0.0-beta.19
       babel-plugin-transform-es2015-modules-commonjs: ^6.26.2
       cross-env: ^6.0.3
@@ -120,7 +103,7 @@ importers:
   apps/mainz:
     specifiers:
       '@babel/node': ^7.8.7
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       '@next/bundle-analyzer': 9.3.4
       ical-js-parser: ^0.6.0
       next: ^12.0.7
@@ -145,7 +128,7 @@ importers:
   apps/map:
     specifiers:
       '@babel/node': ^7.8.7
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       '@next/bundle-analyzer': 9.3.4
       leaflet: ^1.7.1
       leaflet-control-geocoder: ^2.4.0
@@ -175,7 +158,7 @@ importers:
       '@babel/polyfill': ^7.2.5
       '@babel/preset-env': ^7.7.6
       '@babel/preset-react': ^7.7.4
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       babel-plugin-transform-es2015-modules-commonjs: ^6.26.2
       cross-env: ^6.0.3
       next: ^12.0.7
@@ -212,7 +195,7 @@ importers:
       '@babel/polyfill': ^7.7.0
       '@babel/preset-env': ^7.5.5
       '@babel/preset-react': ^7.0.0
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       babel-core: 7.0.0-bridge.0
       babel-jest: ^23.6.0
       babel-loader: ^8.1.0
@@ -240,7 +223,7 @@ importers:
   apps/watotokabisa:
     specifiers:
       '@babel/node': ^7.8.7
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       '@mdx-js/loader': ^1.6.22
       '@mdx-js/react': ^1.6.22
       '@next/bundle-analyzer': 9.3.4
@@ -269,7 +252,7 @@ importers:
   apps/website:
     specifiers:
       '@babel/node': ^7.8.7
-      '@bdp-rps/ui': ^0.0.25
+      '@bdp-rps/ui': ^1.0.0
       '@next/bundle-analyzer': 9.3.4
       ical-js-parser: ^0.6.0
       next: ^12.0.7
@@ -452,8 +435,8 @@ importers:
       '@babel/polyfill': ^7.7.0
       '@babel/preset-env': ^7.5.5
       '@babel/preset-react': ^7.0.0
+      '@bdp-rps/ambrose': ^1.0.0
       '@svgr/cli': ^5.5.0
-      ambrose: ^0.0.5
       babel-core: 7.0.0-bridge.0
       babel-jest: ^23.6.0
       babel-loader: ^8.1.0
@@ -479,7 +462,7 @@ importers:
       rimraf: ^3.0.0
       webpack: ^4.44.2
     dependencies:
-      ambrose: link:../ambrose
+      '@bdp-rps/ambrose': link:../ambrose
       fela: 12.2.1
       fela-enforce-longhands: 12.2.1
       fela-monolithic: 11.7.0
@@ -3468,13 +3451,6 @@ packages:
     resolution: {integrity: sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==}
     dependencies:
       '@sinonjs/commons': 1.8.6
-    dev: true
-
-  /@squoosh/cli/0.6.4:
-    resolution: {integrity: sha512-UxT2f+7s2OJXQaNRy6nwATFoTClfcyVT8VqN+hzVrWCkYV5GnYRkpVpXJTPcRBPnXe+GcrvDAH9ziJVGtRTC2A==}
-    hasBin: true
-    dependencies:
-      web-streams-polyfill: 3.2.1
     dev: true
 
   /@svgr/babel-plugin-add-jsx-attribute/5.4.0:
@@ -17609,11 +17585,6 @@ packages:
   /web-namespaces/1.1.4:
     resolution: {integrity: sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==}
     dev: false
-
-  /web-streams-polyfill/3.2.1:
-    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
-    engines: {node: '>= 8'}
-    dev: true
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}

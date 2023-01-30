@@ -26,8 +26,11 @@
       "dependsOn": ["^build"],
       "outputs": [".next/analyze/**"]
     },
-    "setup": {
-      "outputs": ["dist/**", "lib/**", "es/**", "out/**"]
+    "@bdp-rps/react-pdf#setup": {
+      "outputs": ["dist/**"]
+    },
+    "@bdp-rps/ui#setup": {
+      "outputs": ["lib/**", "es/**"]
     },
     "lint": {
       "dependsOn": ["^build"]

@@ -6,11 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "prepare": "echo 1"
+    "export": "next export"
   },
   "dependencies": {
-    "@bdp-rps/ui": "^0.0.25",
+    "@bdp-rps/ui": "^1.0.0",
     "@next/bundle-analyzer": "9.3.4",
     "ical-js-parser": "^0.6.0",
     "next": "^12.0.7",
