@@ -13,7 +13,6 @@
       "outputs": ["lib/**", "es/**"]
     },
     "@bdp-rps/ui#build": {
-      "dependsOn": ["@bdp-rps/ambrose#build"],
       "outputs": ["lib/**", "es/**", "src/components/icons/js"]
     },
     "playroom.bdp-rps.app#build": {
@@ -32,6 +31,10 @@
     },
     "@bdp-rps/react-pdf#setup": {
       "outputs": ["dist/**"]
+    },
+    "setup": {},
+    "@bdp-rps/ambrose#setup": {
+      "outputs": ["lib/**", "es/**"]
     },
     "@bdp-rps/ui#setup": {
       "outputs": ["lib/**", "es/**"]
