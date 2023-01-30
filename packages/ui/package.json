@@ -36,7 +36,7 @@
     "coverage": "pnpm test --coverage",
     "styleguide": "styleguidist server",
     "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-mainz.de^...",
-    "vercel:build": "pnpm build:deps && pnpm build && pnpm build:styleguidist",
+    "vercel:build": "pnpm build:deps && pnpm build && pnpm build:styleguide",
     "vercel:install": "pnpm i -r"
   },
   "repository": "https://github.com/bdp-rps/monorepo.git",
