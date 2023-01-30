@@ -13,7 +13,7 @@
       "outputs": ["lib/**", "es/**"]
     },
     "@bdp-rps/ui#build": {
-      "outputs": ["lib/**", "es/**"]
+      "outputs": ["lib/**", "es/**", "src/components/icons/js"]
     },
     "playroom.bdp-rps.app#build": {
       "outputs": ["out/**"]
@@ -36,8 +36,7 @@
       "outputs": ["lib/**", "es/**"]
     },
     "lint": {
-      "dependsOn": ["^build"],
-      "outputs": ["lib/**", "es/**"]
+      "dependsOn": ["^build"]
     },
     "dev": {
       "cache": false
