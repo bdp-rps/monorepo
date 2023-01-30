@@ -23,15 +23,14 @@
     "Edge >= 15"
   ],
   "scripts": {
+    "lint": "pnpm exec eslint . --quiet",
     "dev": "pnpm build && next dev",
     "clean": "rimraf lib es coverage",
     "songlist": "babel-node scripts/songList",
     "normalize": "babel-node scripts/normalize",
     "start": "next start",
     "export": "next export",
-    "deploy": "vercel --prod",
     "setup": "pnpm build",
-    "test": "echo 1",
     "build": "pnpm run clean && pnpm songlist && pnpm normalize && pnpm build:package",
     "build:page": "pnpm build && next build",
     "build:package": "pnpm build:es && pnpm build:lib",
@@ -62,6 +61,7 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
+    "eslint-config-next": "12.3.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "cross-env": "^6.0.3"
   }

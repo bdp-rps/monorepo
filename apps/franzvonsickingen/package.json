@@ -3,6 +3,7 @@
   "description": "Official pfadfinder-eisenberg.de website",
   "private": true,
   "scripts": {
+    "lint": "pnpm exec eslint . --quiet",
     "dev": "next dev",
     "build": "pnpm build:blog-manifest && next build",
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
@@ -24,6 +25,7 @@
     "rehype-slug": "3.0.0"
   },
   "devDependencies": {
-    "@babel/node": "^7.8.7"
+    "@babel/node": "^7.8.7",
+    "eslint-config-next": "12.3.1"
   }
 }
