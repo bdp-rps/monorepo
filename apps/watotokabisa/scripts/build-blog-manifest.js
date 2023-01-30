@@ -29,7 +29,7 @@ fs.readdir(blogDir, (err, files) => {
 
   fs.writeFile(
     './public/blog-manifest.json',
-    JSON.stringify(manifest),
+    JSON.stringify(manifest, null, 2),
     (err) => {
       if (err) {
         console.error(err)
