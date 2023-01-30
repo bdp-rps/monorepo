@@ -1,3 +1,3 @@
-import { Click } from 'ambrose'
+import { Click } from '@bdp-rps/ambrose'
 
 export default Click

@@ -1,3 +1,3 @@
-import { useTheme } from 'ambrose'
+import { useTheme } from '@bdp-rps/ambrose'
 
 export default useTheme

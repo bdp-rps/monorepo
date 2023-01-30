@@ -13,7 +13,7 @@ import {
   typography,
   themeValueMap,
   responsiveProps,
-} from 'ambrose'
+} from '@bdp-rps/ambrose'
 
 const getResponsiveMediaQueries = (values, props) => {
   const { small, medium, large, huge } = props.theme.breakpoints

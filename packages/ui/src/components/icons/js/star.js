@@ -1,0 +1,10 @@
+import * as React from 'react'
+import Icon from '../Icon'
+function IconStar(props) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1000" {...props}>
+      <path d="M440 60l120 336h320L618 592l94 348-272-208-272 208 94-348L0 396h320L440 60" />
+    </svg>
+  )
+}
+export default (props) => <Icon icon={IconStar} {...props} />

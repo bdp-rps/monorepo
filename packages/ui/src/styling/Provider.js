@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleProvider, ThemeProvider, ConfigProvider } from 'ambrose'
+import { StyleProvider, ThemeProvider, ConfigProvider } from '@bdp-rps/ambrose'
 
 import createStyleRenderer from './createStyleRenderer'
 

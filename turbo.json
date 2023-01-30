@@ -9,6 +9,9 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**"]
     },
+    "@bdp-rps/ambrose#build": {
+      "outputs": ["lib/**", "es/**"]
+    },
     "@bdp-rps/ui#build": {
       "outputs": ["lib/**", "es/**"]
     },

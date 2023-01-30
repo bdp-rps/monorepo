@@ -1,4 +1,4 @@
-export * from 'ambrose'
+export * from '@bdp-rps/ambrose'
 export * from './components/icons'
 
 import createStyleRenderer from './styling/createStyleRenderer'

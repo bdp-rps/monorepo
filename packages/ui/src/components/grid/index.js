@@ -1,3 +1,3 @@
-import { Grid } from 'ambrose'
+import { Grid } from '@bdp-rps/ambrose'
 
 export default Grid

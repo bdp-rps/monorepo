@@ -1,0 +1,10 @@
+import * as React from 'react'
+import Icon from '../Icon'
+function IconBookmark(props) {
+  return (
+    <svg viewBox="0 0 360 1000" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M310 50c14.667 0 26.667 5 36 15 9.333 10 14 21.667 14 35v850L180 770 0 950V100c0-33.333 13.333-50 40-50h270" />
+    </svg>
+  )
+}
+export default (props) => <Icon icon={IconBookmark} {...props} />

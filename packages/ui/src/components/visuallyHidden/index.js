@@ -1,3 +1,3 @@
-import { VisuallyHidden } from 'ambrose'
+import { VisuallyHidden } from '@bdp-rps/ambrose'
 
 export default VisuallyHidden

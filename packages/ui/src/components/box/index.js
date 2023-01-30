@@ -1,3 +1,3 @@
-import { Box } from 'ambrose'
+import { Box } from '@bdp-rps/ambrose'
 
 export default Box

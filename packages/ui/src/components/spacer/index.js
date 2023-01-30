@@ -1,3 +1,3 @@
-import { Spacer } from 'ambrose'
+import { Spacer } from '@bdp-rps/ambrose'
 
 export default Spacer

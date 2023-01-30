@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTheme } from 'ambrose'
+import { useTheme } from '@bdp-rps/ambrose'
 
 import Box from '../box'
 

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { forwardRef } from 'react'
-import { useTheme } from 'ambrose'
+import { useTheme } from '@bdp-rps/ambrose'
 
 import Box from '../box'
 import Click from '../click'

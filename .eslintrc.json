@@ -17,17 +17,15 @@
       "files": ["*.js"],
       "extends": [
         "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:cypress/recommended"
+        "plugin:react/recommended"
       ],
       "settings": {
         "react": {
           "version": "detect"
         }
       },
-      "plugins": ["react", "cypress", "import"],
+      "plugins": ["react", "import"],
       "rules": {
-        "import/extensions": ["error", "ignorePackages"],
         "import/no-unresolved": "error",
         "no-sparse-arrays": "off",
         "react/prop-types": "warn",
@@ -36,43 +34,7 @@
         "no-useless-catch": "warn",
         "react/no-unescaped-entities": "warn",
         "no-console": "error",
-        "eqeqeq": ["error", "always", { "null": "ignore" }],
-        "no-restricted-syntax": [
-          "error",
-          {
-            "selector": "[source.value=/(?:(?!^\\.).)\\u002F\\w+\\.mjs$/]",
-            "message": "Don't use generated ReScript code directly. Instead, create a JS file close to the ReScript one and reexport only needed variables, providing a more convenient API for JavaScript users. It'll help prevent unwanted exceptions on the JavaScript side when changing ReScript code."
-          }
-        ]
-      }
-    },
-    {
-      "files": ["*.mjs"],
-      "rules": {
-        "no-console": "error",
-        "no-restricted-syntax": [
-          "error",
-          {
-            "selector": "CallExpression[callee.object.name='Belt_Array'][callee.property.name='keepMap'] > FunctionExpression[body.body.0.type='ReturnStatement'][body.body.0.argument.type='Identifier']",
-            "message": "Use OptionExtra.values instead."
-          },
-          {
-            "selector": ":matches(CallExpression[callee.name='use'], CallExpression[callee.object.property.name='Query'][callee.property.name='use'])[arguments.length=5]:not([arguments.1.value>=0])",
-            "message": "Should explicitly set fetchPolicy for the query. Use 'StoreAndNetwork' when the queried data is editable by users and 'StoreOrNetwork' when it's not, eg list of users. You can read more in the relay docs: https://relay.dev/docs/guided-tour/reusing-cached-data/fetch-policies/"
-          },
-          {
-            "selector": "Property[value.property.name='fragmentRefs']:matches([key.name='fragmentRefs'],[key.name!=/^\\w+Refs$/])",
-            "message": "We have a naming convention for fragmentRefs props: `<entityName>Refs`"
-          },
-          {
-            "selector": "[source.value=/_test\\.mjs$/]",
-            "message": "Don't import anything from test files."
-          },
-          {
-            "selector": "[source.value=/_sandbox\\.mjs$/]",
-            "message": "Don't import anything from sandbox files."
-          }
-        ]
+        "eqeqeq": ["error", "always", { "null": "ignore" }]
       }
     }
   ]
