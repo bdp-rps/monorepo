@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
+import { renderAuthors, chords } from '@bdp-rps/liedgut'
 
 import Chord from './Chord'
 import Notation from './Notation'
-import normalizeChord from '../src/utils/normalizeChord'
 
-import renderAuthors from '../src/utils/renderAuthors'
-import transposeChord from '../src/utils/transposeChord'
-import removeChords from '../src/utils/removeChords'
-import chords from '../src/utils/chords'
+import normalizeChord from '../utils/normalizeChord'
+import transposeChord from '../utils/transposeChord'
+import removeChords from '../utils/removeChords'
 
 export default function Song({
   content,

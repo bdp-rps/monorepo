@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from 'react'
-import { Text, Box, Spacer, Button, Link, useTheme } from '@bdp-rps/ui'
-import { PDFDownloadLink, Font, Document } from '@bdp-rps/react-pdf-renderer'
-import { useRouter } from 'next/router'
 import { useFela } from 'react-fela'
 import NextLink from 'next/link'
+
+import { Text, Box, Spacer, Button, Link, useTheme } from '@bdp-rps/ui'
+import { PDFDownloadLink, Font, Document } from '@bdp-rps/react-pdf-renderer'
+import {
+  renderAuthors,
+  Song as PDFSong,
+  songs as songList,
+} from '@bdp-rps/liedgut'
 
 import Layout from '../../components/Layout'
 import Song from '../../components/Song'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import PDFSong from '../../src/templates/Song'
-import renderAuthors from '../../src/utils/renderAuthors'
-
 export default function Page({ id, songData }) {
   const theme = useTheme()
-  const router = useRouter()
   const [isMounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -39,7 +40,7 @@ export default function Page({ id, songData }) {
 
   return (
     <>
-      <Header />
+      <Header id={id} title={songData.title} />
       <Box grow={1}>
         <Layout>
           <Box minHeight="95vh" space={2} paddingTop={6} paddingBottom={25}>
@@ -67,7 +68,7 @@ export default function Page({ id, songData }) {
                   )}
                 </Box>
               )}
-              <NextLink href={'/bearbeiten/' + id}>
+              <NextLink href={'/' + id + '/bearbeiten'}>
                 <Button variant="secondary">Änderungsvorschlag</Button>
               </NextLink>
             </Box>
@@ -80,8 +81,6 @@ export default function Page({ id, songData }) {
 }
 
 export async function getStaticPaths() {
-  const songList = require('../../src/songs/index.json')
-
   return {
     fallback: true,
     paths: songList.map((id) => ({
@@ -93,7 +92,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const songData = require('../../src/songs/' + params.id + '.json')
+  const songData = require('@bdp-rps/liedgut/lib/songs/' + params.id + '.json')
 
   return {
     props: {

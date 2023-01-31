@@ -57,54 +57,31 @@ importers:
 
   apps/liedgut:
     specifiers:
-      '@babel/cli': ^7.11.6
-      '@babel/core': ^7.11.6
-      '@babel/node': ^7.7.4
-      '@babel/plugin-proposal-class-properties': ^7.7.4
-      '@babel/plugin-transform-runtime': ^7.7.6
-      '@babel/polyfill': ^7.2.5
-      '@babel/preset-env': ^7.7.6
-      '@babel/preset-react': ^7.7.4
+      '@bdp-rps/liedgut': workspace:*
       '@bdp-rps/react-pdf-renderer': workspace:*
       '@bdp-rps/ui': workspace:*
-      abcjs: ^6.0.0-beta.19
-      babel-plugin-transform-es2015-modules-commonjs: ^6.26.2
-      cross-env: ^6.0.3
+      abcjs: 6.0.0-beta.19
       eslint-config-next: 12.3.1
       next: ^12.0.7
       node-fetch: ^2.6.0
       onegraph-auth: ^2.2.1
       react: ^17.0.1
-      react-abc: ^0.4.0
       react-dom: ^17.0.1
-      rimraf: ^3.0.0
     dependencies:
+      '@bdp-rps/liedgut': link:../../packages/liedgut
       '@bdp-rps/react-pdf-renderer': link:../../packages/react-pdf
       '@bdp-rps/ui': link:../../packages/ui
-      abcjs: 6.1.8
-      next: 12.3.4_jiuppbrrdpqsioctsbaxdlfu4e
+      abcjs: 6.0.0-beta.19
+      next: 12.3.4_sfoxds7t5ydpegc3knd667wn6m
       node-fetch: 2.6.8
       onegraph-auth: 2.2.4
       react: 17.0.2
-      react-abc: 0.4.0
       react-dom: 17.0.2_react@17.0.2
-      rimraf: 3.0.2
     devDependencies:
-      '@babel/cli': 7.20.7_@babel+core@7.20.12
-      '@babel/core': 7.20.12
-      '@babel/node': 7.20.7_@babel+core@7.20.12
-      '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.12
-      '@babel/plugin-transform-runtime': 7.19.6_@babel+core@7.20.12
-      '@babel/polyfill': 7.12.1
-      '@babel/preset-env': 7.20.2_@babel+core@7.20.12
-      '@babel/preset-react': 7.18.6_@babel+core@7.20.12
-      babel-plugin-transform-es2015-modules-commonjs: 6.26.2
-      cross-env: 6.0.3
       eslint-config-next: 12.3.1
 
   apps/mainz:
     specifiers:
-      '@babel/node': ^7.8.7
       '@bdp-rps/ui': workspace:*
       '@next/bundle-analyzer': 9.3.4
       eslint-config-next: 12.3.1
@@ -125,7 +102,6 @@ importers:
       react-markdown: 8.0.5_react@17.0.2
       rehype-slug: 3.0.0
     devDependencies:
-      '@babel/node': 7.20.7
       '@next/bundle-analyzer': 9.3.4
       eslint-config-next: 12.3.1
 
@@ -355,6 +331,47 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-fela: 12.2.1_fela@12.2.1+react@17.0.2
+      rimraf: 3.0.2
+
+  packages/liedgut:
+    specifiers:
+      '@babel/cli': ^7.13.16
+      '@babel/core': ^7.2.2
+      '@babel/node': ^7.13.13
+      '@babel/plugin-transform-modules-commonjs': ^7.5.0
+      '@babel/polyfill': ^7.7.0
+      '@babel/preset-env': ^7.5.5
+      '@babel/preset-react': ^7.0.0
+      '@bdp-rps/react-pdf-renderer': workspace:*
+      babel-core: 7.0.0-bridge.0
+      babel-jest: ^23.6.0
+      babel-loader: ^8.1.0
+      cross-env: ^6.0.3
+      fast-loops: ^1.1.3
+      jest: ^23.6.0
+      node-fetch: ^2.6.0
+      react: ^17.0.1
+      react-dom: ^17.0.1
+      rimraf: ^3.0.0
+    dependencies:
+      '@bdp-rps/react-pdf-renderer': link:../react-pdf
+      fast-loops: 1.1.3
+      node-fetch: 2.6.8
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@babel/cli': 7.20.7_@babel+core@7.20.12
+      '@babel/core': 7.20.12
+      '@babel/node': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-transform-modules-commonjs': 7.20.11_@babel+core@7.20.12
+      '@babel/polyfill': 7.12.1
+      '@babel/preset-env': 7.20.2_@babel+core@7.20.12
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.12
+      babel-core: 7.0.0-bridge.0_@babel+core@7.20.12
+      babel-jest: 23.6.0_babel-core@7.0.0-bridge.0
+      babel-loader: 8.3.0_@babel+core@7.20.12
+      cross-env: 6.0.3
+      jest: 23.6.0
       rimraf: 3.0.2
 
   packages/react-pdf:
@@ -4140,14 +4157,10 @@ packages:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
     dev: true
 
-  /abcjs/5.1.2:
-    resolution: {integrity: sha512-mOrZlWV3xh6VPSTPNmNLwj7seC0xmuUP54SJiIRswdLCaen6f4LIXhjNX1mKiD5K56CWznVDV5kM3GtCkHGMdA==}
+  /abcjs/6.0.0-beta.19:
+    resolution: {integrity: sha512-PDknvR5yW3K5JKfs7qVBg+m+LL97n8L+QndogKDlkL0rjJB0OsIguKDuhftEMin5TaVlUoM//4z6X+y0A42e0g==}
     dependencies:
       midi: github.com/paulrosen/MIDI.js/e593ffef81a0350f99448e3ab8111957145ff6b2
-    dev: false
-
-  /abcjs/6.1.8:
-    resolution: {integrity: sha512-8NTkcNIqKINfZ9Zq5y6fiImX5ptSeLLk2PA8tJ4P4VtZg9ht7bUvftJFZmaQNrX4n/3NGtWZ4+NRNTcEN+sKpg==}
     dev: false
 
   /accepts/1.3.8:
@@ -14553,15 +14566,6 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /react-abc/0.4.0:
-    resolution: {integrity: sha512-5QorUB3UFV/R/naDJYFyDpJVGaVjmWGSqzJymO4ZjJn8dngb6Im5eJi1k7kje9zxkl1yR0AnWjFXM7BWBQvKyg==}
-    dependencies:
-      abcjs: 5.1.2
-      prop-types: 15.8.1
-      react: 16.14.0
-      react-dom: 16.14.0_react@16.14.0
-    dev: false
-
   /react-addons-shallow-compare/15.6.3:
     resolution: {integrity: sha512-EDJbgKTtGRLhr3wiGDXK/+AEJ59yqGS+tKE6mue0aNXT6ZMR7VJbbzIiT6akotmHg1BLj46ElJSb+NBMp80XBg==}
     dependencies:
@@ -14673,18 +14677,6 @@ packages:
       object-assign: 4.1.1
       react: 15.4.2
     dev: true
-
-  /react-dom/16.14.0_react@16.14.0:
-    resolution: {integrity: sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==}
-    peerDependencies:
-      react: ^16.14.0
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      prop-types: 15.8.1
-      react: 16.14.0
-      scheduler: 0.19.1
-    dev: false
 
   /react-dom/17.0.2_react@17.0.2:
     resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
@@ -14928,15 +14920,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
     dev: true
-
-  /react/16.14.0:
-    resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      prop-types: 15.8.1
-    dev: false
 
   /react/17.0.2:
     resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
@@ -15756,6 +15739,7 @@ packages:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
+    dev: true
 
   /scheduler/0.20.2:
     resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}

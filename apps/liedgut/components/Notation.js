@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 import 'abcjs/abcjs-audio.css'
 
-import normalizeChord from '../src/utils/normalizeChord'
+import normalizeChord from '../utils/normalizeChord'
 
 function CursorControl() {
   var self = this
@@ -139,6 +139,7 @@ export default function Notation({
   useEffect(() => {
     if (paperRef.current && audioRef.current && synthControl && notation) {
       const cursorControl = new CursorControl()
+
       synthControl.load(audioRef.current, cursorControl, {
         displayLoop: true,
         displayRestart: true,
@@ -230,21 +231,19 @@ export default function Notation({
 
   useEffect(() => {
     const handleRouteChangeStart = () => {
-      console.log('TRIGGERED')
+      console.log('CHANGED', synthControl)
 
       if (synthControl) {
-        console.log(synthControl)
-
         synthControl.pause()
       }
     }
 
-    router.events.on('routeChangeComplete', handleRouteChangeStart)
+    router.events.on('routeChangeStart', handleRouteChangeStart)
 
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChangeStart)
+      router.events.off('routeChangeStart', handleRouteChangeStart)
     }
-  }, [router])
+  }, [])
 
   return (
     <Box>

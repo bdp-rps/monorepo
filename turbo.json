@@ -11,6 +11,9 @@
     "@bdp-rps/ambrose#build": {
       "outputs": ["lib/**", "es/**"]
     },
+    "@bdp-rps/liedgut#build": {
+      "outputs": ["lib/**", "es/**"]
+    },
     "@bdp-rps/ui#build": {
       "outputs": ["lib/**", "es/**", "src/components/icons/js"]
     },
@@ -27,16 +30,6 @@
     "analyze": {
       "dependsOn": ["^build"],
       "outputs": [".next/analyze/**"]
-    },
-    "setup": {},
-    "@bdp-rps/ambrose#setup": {
-      "outputs": ["lib/**", "es/**"]
-    },
-    "@bdp-rps/ui#setup": {
-      "outputs": ["lib/**", "es/**"]
-    },
-    "@bdp-rps/react-pdf-renderer#setup": {
-      "outputs": ["dist/**"]
     },
     "lint": {
       "dependsOn": ["^build"]

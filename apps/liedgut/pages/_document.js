@@ -30,7 +30,6 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width,height=device-height,initial-scale=1, viewport-fit=cover"
           />
-          <link rel="stylesheet" href="/abc_controls.css" />
         </Head>
         <body>
           <Main />

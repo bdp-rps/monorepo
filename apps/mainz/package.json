@@ -22,7 +22,6 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "9.3.4",
-    "@babel/node": "^7.8.7",
     "eslint-config-next": "12.3.1"
   }
 }

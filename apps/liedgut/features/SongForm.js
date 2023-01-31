@@ -19,11 +19,12 @@ import {
   useTheme,
   useField,
 } from '@bdp-rps/ui'
+import { renderAuthors } from '@bdp-rps/liedgut'
 
 import Song from '../components/Song'
 import ListItem from '../components/ListItem'
-import renderAuthors from '../src/utils/renderAuthors'
-import normalizeChord from '../src/utils/normalizeChord'
+
+import normalizeChord from '../utils/normalizeChord'
 
 const defaultSong = {
   notation: '',
@@ -439,6 +440,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               M:{song.beat}
               <br />
               Q:1/4={song.tempo}
+              <br />
+              K:{song.musicalKey}
             </Text>
             <TextArea
               extend={{ minHeight: 400, flexGrow: 1 }}

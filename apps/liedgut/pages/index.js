@@ -17,14 +17,15 @@ import {
   objectReduce,
 } from 'fast-loops'
 
+import { songs as songList } from '@bdp-rps/liedgut'
+
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-import songList from '../src/songs'
-import removeChords from '../src/utils/removeChords'
-import removeBreaks from '../src/utils/removeBreaks'
+import removeChords from '../utils/removeChords'
+import removeBreaks from '../utils/removeBreaks'
 
 function SongList({ songs }) {
   const search = useField({ name: 'search' })
@@ -162,7 +163,7 @@ export async function getStaticProps() {
   const songs = arrayReduce(
     songList,
     (songs, name) => {
-      const song = require('../src/songs/' + name + '.json')
+      const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
 
       const content = removeChords(removeBreaks(song.content))
 

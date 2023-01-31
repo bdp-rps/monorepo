@@ -1,22 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import { useRouter } from 'next/router'
 import { Box, Click, Button, Text, NavBar, NavBarItem } from '@bdp-rps/ui'
 
 import Layout from './Layout'
 
-export default function Header() {
-  const router = useRouter()
-  const [title, setTitle] = useState()
-
-  const songId = router.query.songId
-
-  useEffect(() => {
-    if (songId) {
-      const songData = require('../src/songs/' + songId + '.json')
-      setTitle(songData.title)
-    }
-  }, [])
-
+export default function Header({ id, title }) {
   return (
     <NavBar>
       <Layout>
@@ -32,7 +19,7 @@ export default function Header() {
                 extend={{ fontSize: 16, lineHeight: 1, paddingTop: 2 }}>
                 /
               </Text>
-              <NavBarItem href={'/' + songId}>
+              <NavBarItem href={'/' + id}>
                 <span style={{ fontSize: 16, lineHeight: 1, paddingTop: 2 }}>
                   {title}
                 </span>
