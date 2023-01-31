@@ -1,10 +1,12 @@
 // core & styling
+import ConfigProvider from './config/ConfigProvider'
 import StyleProvider from './styling/StyleProvider'
 import ThemeProvider from './theming/ThemeProvider'
-import ConfigProvider from './config/ConfigProvider'
 
 // components
 import Box from './components/box'
+import Carousel from './components/carousel'
+import CarouselItem from './components/carouselItem'
 import Click from './components/click'
 import Currency from './components/currency'
 import DateTime from './components/dateTime'
@@ -14,41 +16,38 @@ import Grid from './components/grid'
 import IconButton from './components/iconButton'
 import Overlay from './components/overlay'
 import ScrollView from './components/scrollView'
-import Carousel from './components/carousel'
-import CarouselItem from './components/carouselItem'
 import Spacer from './components/spacer'
 import Text from './components/text'
 import VisuallyHidden from './components/visuallyHidden'
 
 // hooks
-import useTheme from './theming/useTheme'
-import useRenderer from './styling/useRenderer'
-import useStaticStyle from './styling/useStaticStyle'
 import useConfig from './config/useConfig'
+import useBoolField from './hooks/useBoolField'
 import useBreakpoint from './hooks/useBreakpoint'
 import useDisclosure from './hooks/useDisclosure'
 import useField from './hooks/useField'
-import useBoolField from './hooks/useBoolField'
 import useForm from './hooks/useForm'
 import useHidden from './hooks/useHidden'
 import useIconLink from './hooks/useIconLink'
 import useLocalStorage from './hooks/useLocalStorage'
 import useScrollBlockingOverlay from './hooks/useScrollBlockingOverlay'
 import useSessionStorage from './hooks/useSessionStorage'
+import useRenderer from './styling/useRenderer'
+import useStaticStyle from './styling/useStaticStyle'
+import useTheme from './theming/useTheme'
 
 // utils
 import formatCurrency from './components/currency/formatCurrency'
-import formatDistance from './components/distance/formatDistance'
 import formatDateTime from './components/dateTime/formatDateTime'
+import formatDistance from './components/distance/formatDistance'
 
 // styling
-import themeValueMap from './styling/themeValueMap'
-import responsiveProps from './styling/responsiveProps'
-import typography from './styling/plugins/typography'
 import axisProperties from './styling/plugins/axisProperties'
+import typography from './styling/plugins/typography'
+import responsiveProps from './styling/responsiveProps'
+import themeValueMap from './styling/themeValueMap'
 
 export {
-  // providers
   StyleProvider,
   ThemeProvider,
   ConfigProvider,
@@ -59,14 +58,14 @@ export {
   responsiveProps,
   // components
   Box,
+  Carousel,
+  CarouselItem,
   Click,
   Currency,
   DateTime,
   Distance,
   El,
   Grid,
-  Carousel,
-  CarouselItem,
   IconButton,
   Overlay,
   ScrollView,
