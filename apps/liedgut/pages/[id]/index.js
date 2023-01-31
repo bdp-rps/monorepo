@@ -40,7 +40,7 @@ export default function Page({ id, songData }) {
 
   return (
     <>
-      <Header id={id} title={songData.title} />
+      <Header id={id} title={songData?.title} />
       <Box grow={1}>
         <Layout>
           <Box minHeight="95vh" space={2} paddingTop={6} paddingBottom={25}>

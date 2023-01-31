@@ -10,7 +10,7 @@ import addSong from '../../api/addSong'
 export default function Page({ id, songData }) {
   return (
     <>
-      <Header id={id} title={songData.title} />
+      <Header id={id} title={songData?.title} />
 
       <SongForm
         initialSong={songData}
