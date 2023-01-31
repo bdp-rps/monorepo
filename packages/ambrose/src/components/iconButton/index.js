@@ -46,7 +46,7 @@ const IconButton = forwardRef(
       color,
       onClick,
       disabled,
-      dataTest,
+      extend,
       ...props
     },
     ref
@@ -65,11 +65,10 @@ const IconButton = forwardRef(
         <Click
           {...props}
           {...linkProps}
-          data-test={dataTest}
           ref={ref}
           href={href}
           disabled={disabled}
-          extend={linkStyle(styleProps)}>
+          extend={[linkStyle(styleProps), extend]}>
           {icon}
           {labelEl}
         </Click>
@@ -79,11 +78,10 @@ const IconButton = forwardRef(
     return (
       <Click
         {...props}
-        data-test={dataTest}
         ref={ref}
         onClick={onClick}
         disabled={disabled}
-        extend={buttonStyle(styleProps)}>
+        extend={[buttonStyle(styleProps), extend]}>
         <Box
           extend={{
             alignItems: 'center',
@@ -105,7 +103,7 @@ export default IconButton
 IconButton.displayName = 'IconButton'
 
 IconButton.defaultProps = {
-  size: 50,
+  size: 48,
   iconSize: 16,
   role: 'presentation',
   color: 'foreground.primary',
