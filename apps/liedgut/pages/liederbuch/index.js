@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Text, Spacer, Checkbox, Button, useTheme } from '@bdp-rps/ui'
 import { PDFViewer, Document, Font } from '@bdp-rps/react-pdf-renderer'
+import { Song, songs } from '@bdp-rps/liedgut'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Layout from '../../components/Layout'
 
-import normalizeContent from '../../src/utils/normalizeContent'
-import Song from '../../src/templates/Song'
-
-import songs from '../../src/songs'
+import normalizeContent from '../../utils/normalizeContent'
 
 const songData = songs.reduce((songData, name) => {
-  const song = require('../../src/songs/' + name + '.json')
+  const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
   songData[name] = {
     ...song,
     sort: normalizeContent(song.content),
