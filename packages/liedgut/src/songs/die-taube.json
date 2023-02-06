@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{e}Ade mein {C}Lieb, ich {G}muss jetzt {D}geh'n, \nich {e}kann nicht {C}mehr {D}ver{e}weilen.\nUnd geh' ich {C}auch ich {G}kehr' zur{D}ück, \nsein es {e}auch zehnt{C}aus{D}end {C}Meilen, {D}mein {h}Lieb,\nsein es {e}auch zehnt{a}ausend {e}Meilen.\n\nNie wird das Meer versiegen, mein Lieb,\nnie wird der Fels vergehen.\nDoch ich, mein Lieb, ich bleib bei dir,\nbis all dies ist gescheh'n mein Lieb,\nbis all dies ist gescheh'n.\n\nSiehst du dort drüben in jenem Strauch,\ndie kleine Taube nicht?\nTief trauernd um ihr Herzallerliebst,\nso will ich trauern um dich, mein Lieb,\nso will ich trauern um dich.",
+  "title": "Die Taube",
+  "words": [
+    {
+      "name": "Schottisches Volkslied, Nachdichtung: Renate Mitchell",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Schottisches Volkslied, Nachdichtung: Renate Mitchell",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Em",
+  "info": "",
+  "changes": [
+    {
+      "date": 1675705054363,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
