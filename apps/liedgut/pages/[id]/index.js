@@ -92,7 +92,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const songData = require('@bdp-rps/liedgut/lib/songs/' + params.id + '.json')
+  const songData = require('@bdp-rps/liedgut/src/songs/' + params.id + '.json')
 
   return {
     props: {
