@@ -10,7 +10,7 @@ import Layout from '../../components/Layout'
 import normalizeContent from '../../utils/normalizeContent'
 
 const songData = songs.reduce((songData, name) => {
-  const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
+  const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
   songData[name] = {
     ...song,
     sort: normalizeContent(song.content),

@@ -163,7 +163,7 @@ export async function getStaticProps() {
   const songs = arrayReduce(
     songList,
     (songs, name) => {
-      const song = require('@bdp-rps/liedgut/lib/songs/' + name + '.json')
+      const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
 
       const content = removeChords(removeBreaks(song.content))
 
