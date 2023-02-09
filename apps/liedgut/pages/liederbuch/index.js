@@ -1,25 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Text, Spacer, Checkbox, Button, useTheme } from '@bdp-rps/ui'
 import { PDFViewer, Document, Font } from '@bdp-rps/react-pdf-renderer'
-import { Song, songs } from '@bdp-rps/liedgut'
+import { Song, songs as songList } from '@bdp-rps/liedgut'
+import { arrayReduce } from 'fast-loops'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Layout from '../../components/Layout'
 
 import normalizeContent from '../../utils/normalizeContent'
+import removeChords from '../../utils/removeChords'
+import removeBreaks from '../../utils/removeBreaks'
 
-const songData = songs.reduce((songData, name) => {
-  const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
-  songData[name] = {
-    ...song,
-    sort: normalizeContent(song.content),
-  }
-
-  return songData
-}, {})
-
-export default function Page() {
+export default function Page({ songs }) {
   const [selected, setSelected] = useState([])
   const [step, setStep] = useState(0)
   const theme = useTheme()
@@ -51,9 +44,9 @@ export default function Page() {
                 <Text>Wähle Lieder für dein Liederbuch aus.</Text>
                 <Spacer size={4} />
                 <Box space={4}>
-                  {Object.keys(songData).map((name) => (
+                  {Object.keys(songs).map((name) => (
                     <Checkbox
-                      label={songData[name].title}
+                      label={songs[name].title}
                       name={name}
                       value={selected.indexOf(name) !== -1}
                       onChange={(change) => {
@@ -96,11 +89,9 @@ export default function Page() {
                 <PDFViewer style={{ minHeight: '90vh' }}>
                   <Document>
                     {selected
-                      .sort((a, b) =>
-                        songData[a].sort > songData[b].sort ? 1 : -1
-                      )
+                      .sort((a, b) => (songs[a].sort > songs[b].sort ? 1 : -1))
                       .map((key) => (
-                        <Song key={key} {...songData[key]} />
+                        <Song key={key} {...songs[key]} />
                       ))}
                   </Document>
                 </PDFViewer>
@@ -112,4 +103,33 @@ export default function Page() {
       <Footer />
     </>
   )
+}
+
+export async function getStaticProps() {
+  const songs = arrayReduce(
+    songList,
+    (songs, name) => {
+      const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
+
+      const content = removeChords(removeBreaks(song.content))
+
+      return {
+        ...songs,
+        [name]: {
+          ...song,
+          content,
+          normalizedContent: content.toLowerCase(),
+          normalizedTitle: song.title.toLowerCase(),
+          normalizedAlternativeTitle: song.alternativeTitle.toLowerCase(),
+        },
+      }
+    },
+    {}
+  )
+
+  return {
+    props: {
+      songs,
+    },
+  }
 }
