@@ -38,13 +38,12 @@ const IconButton = forwardRef(
   (
     {
       label,
+      action,
       icon: Icon,
-      href,
       size,
       iconSize,
       role,
       color,
-      onClick,
       disabled,
       extend,
       ...props
@@ -52,24 +51,29 @@ const IconButton = forwardRef(
     ref
   ) => {
     const { theme } = useFela()
-    const { linkProps, iconProps, label: labelEl } = useIconLink(label, href)
+
+    const isLink = typeof action === 'string' || typeof action === 'object'
     const styleProps = {
       size,
       theme,
     }
 
-    const icon = <Icon size={iconSize} color={color} {...iconProps} />
+    if (isLink) {
+      const {
+        linkProps,
+        iconProps,
+        label: labelEl,
+      } = useIconLink(label, action)
 
-    if (href) {
       return (
         <Click
           {...props}
           {...linkProps}
           ref={ref}
-          href={href}
+          action={action}
           disabled={disabled}
           extend={[linkStyle(styleProps), extend]}>
-          {icon}
+          <Icon size={iconSize} color={color} {...iconProps} />
           {labelEl}
         </Click>
       )
@@ -90,7 +94,7 @@ const IconButton = forwardRef(
           // maybe this should be aria-label? Ask kitty
           title={label}
           role={role}>
-          {icon}
+          <Icon size={iconSize} color={color} aria-hidden focusable={false} />
           {labelEl}
         </Box>
       </Click>
@@ -112,9 +116,13 @@ IconButton.defaultProps = {
 IconButton.propTypes = {
   size: PropTypes.number,
   iconSize: PropTypes.number,
-  href: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  /** Either a string or object setting the href attribute that forces the component to render an <a> tag or a function setting the onClick handler */
+  action: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.func,
+  ]),
   label: PropTypes.string.isRequired,
   icon: PropTypes.func.isRequired,
   role: PropTypes.string,
-  onClick: PropTypes.func,
 }

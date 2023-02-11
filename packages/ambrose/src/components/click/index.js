@@ -60,26 +60,26 @@ const linkResetStyle = ({ disabled }) => ({
 })
 
 const Click = React.forwardRef(
-  ({ children, extend, href, disabled, onClick, ...props }, ref) => {
+  ({ action, disabled, children, extend, ...props }, ref) => {
     const config = useConfig()
 
-    const hasHref = typeof href === 'string' || typeof href === 'object'
+    const isLink = typeof action === 'string' || typeof action === 'object'
 
     const Link = config.linkComponent || 'a'
-    const as = hasHref ? Link : 'button'
+    const as = isLink ? Link : 'button'
 
-    const appliedStyle = as === 'button' ? buttonResetStyle : linkResetStyle
+    const appliedStyle = isLink ? linkResetStyle :  buttonResetStyle
 
     return (
       <El
         {...props}
-        disabled={as === 'button' && disabled}
-        href={!disabled && hasHref ? href : undefined}
-        onClick={!disabled && onClick ? onClick : undefined}
+        disabled={!isLink ? disabled : undefined}
+        href={!disabled && isLink && action ? action : undefined}
+        onClick={!disabled !isLink && action ? action : undefined}
         onTouchStart={() => {}}
         ref={ref}
         as={as}
-        type={as === 'button' ? props.type || 'button' : null}
+        type={!isLink ? props.type || 'button' : null}
         extend={[
           {
             boxSizing: 'border-box',
@@ -103,14 +103,12 @@ Click.propTypes = {
     PropTypes.func,
     PropTypes.array,
   ]),
-  /** Setting an href attribute will force the component to render with an `<a>` tag */
-  href: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  /** Either a string or object setting the href attribute that forces the component to render an <a> tag or a function setting the onClick handler */
+  action: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.func]),
   /** If rendering a button (by not supplying an href), this let's you provide a type attribute for that button */
   type: PropTypes.string,
   /** A JSX node */
   children: PropTypes.node,
   /** Set the Click to disabled */
   disabled: PropTypes.bool,
-  /** An action that is fired on click */
-  onClick: PropTypes.func,
 }
