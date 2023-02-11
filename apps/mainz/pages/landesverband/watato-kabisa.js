@@ -45,7 +45,7 @@ export default () => {
               verschiedene Projekte, die mehreren tausend Kindern eine stabile,
               gesunde Lebens- und Lernumgebung verschaffen.
               <br />
-              <Link href="https://www.instagram.com/watotokabisa/">
+              <Link action="https://www.instagram.com/watotokabisa/">
                 Hier
               </Link>{' '}
               geht es zum Watoto Kabisa Instagram-Kanal.

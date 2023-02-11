@@ -104,7 +104,8 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
 const Button = forwardRef(
   (
     {
-      href,
+      action,
+      target,
       disabled,
       intent,
       variant,
@@ -113,14 +114,19 @@ const Button = forwardRef(
       size,
       icon: Icon,
       iconPosition = 'right',
-      target,
-      onClick,
       children,
       ...props
     },
     ref
   ) => {
     const theme = useTheme()
+
+    const baseProps = {
+      ...props,
+      action,
+      extend,
+      ref,
+    }
 
     const extend = style({
       intent,
@@ -131,12 +137,6 @@ const Button = forwardRef(
       theme,
       hasIcon: Icon,
     })
-    const buttonProps = {
-      ...props,
-      disabled,
-      extend,
-      type,
-    }
 
     if (loading) {
       return (
@@ -169,21 +169,25 @@ const Button = forwardRef(
       </Box>
     )
 
-    if (href) {
+    const isLink = typeof action === 'string' || typeof action === 'object'
+
+    if (isLink) {
       const rel = target === '_blank' ? 'noreferrer noopener' : ''
 
       return (
-        <Click {...buttonProps} ref={ref} href={href} target={target} rel={rel}>
+        <Click {...baseProps} target={target} rel={rel}>
           {content}
         </Click>
       )
     }
 
-    return (
-      <Click {...buttonProps} ref={ref} onClick={onClick}>
-        {content}
-      </Click>
-    )
+    const buttonProps = {
+      ...baseProps,
+      disabled,
+      type,
+    }
+
+    return <Click {...buttonProps}>{content}</Click>
   }
 )
 
@@ -203,13 +207,15 @@ Button.propTypes = {
   intent: PropTypes.oneOf(['positive', 'negative']),
   /** The size of the button */
   size: PropTypes.oneOf(['tiny', 'small', 'medium', 'large']),
-  /** The onClick event handler */
-  onClick: PropTypes.func,
   /** Disables the button. The click event handler won't be triggered */
   disabled: PropTypes.bool,
   /** Enables a loading state. Hover, active and click events aren't triggered anymore */
   loading: PropTypes.bool,
   type: PropTypes.oneOf(['submit', 'reset']),
-  /** Makes the button act as a link tag */
-  href: PropTypes.string,
+  /** Either a string or object setting the href attribute that forces the component to render an <a> tag or a function setting the onClick handler */
+  action: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.func,
+  ]),
 }

@@ -44,16 +44,16 @@ export default (
       backgroundImage={`url("https://docs.bdp-rps.de${image}")`}
       imageHeight={['12vh', , , '80vh']}>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Tilia Mainz Blog Post {meta.title}</title>
+        <title>
+          Pfadfinder Aufbaugruppe Tilia Mainz Blog Post {meta.title}
+        </title>
         <meta
           name="description"
           content={`Blog Post ${meta.title} für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP`}
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={20}>
-        <NextLink href={href} passHref>
-          <Link>← Zurück zur Übersicht</Link>
-        </NextLink>
+        <Link action={href}>← Zurück zur Übersicht</Link>
         <Spacer size={5} />
         <Title>{meta.title}</Title>
         <Spacer size={1} />
@@ -75,7 +75,7 @@ export default (
             h3: ({ children }) => <Text variant="category">{children}</Text>,
             h4: ({ children }) => <Text>{children}</Text>,
             h5: ({ children }) => <Text variant="note">{children}</Text>,
-            a: ({ href, children }) => <Link href={href}>{children}</Link>,
+            a: ({ href, children }) => <Link action={href}>{children}</Link>,
             br: () => <br />,
             n: () => <br />,
             img: ({ src, title, alt, extend, ...props }) => (

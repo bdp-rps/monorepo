@@ -17,16 +17,10 @@ const style = ({ theme }) => ({
   },
 })
 
-export default function ListItem({
-  href,
-  onClick,
-  children,
-  extend,
-  ...props
-}) {
-  if (href) {
+export default function ListItem({ action, children, extend, ...props }) {
+  if (action) {
     return (
-      <Box as={Click} {...props} href={href} extend={[style, extend]}>
+      <Box as={Click} {...props} action={action} extend={[style, extend]}>
         {children}
       </Box>
     )

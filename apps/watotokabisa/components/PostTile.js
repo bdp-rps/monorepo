@@ -14,7 +14,7 @@ export default function PostTile({
 }) {
   const theme = useTheme()
   return (
-    <NextLink href={'/blog/' + id} passHref>
+    <NextLink action={'/blog/' + id} passHref>
       <Box as="a" grow={highlight ? 1 : 0} extend={{ textDecoration: 'none' }}>
         <Tile
           title={title}

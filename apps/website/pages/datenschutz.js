@@ -263,7 +263,7 @@ export default () => {
               ohne Angabe einer besonderen Situation von uns umgesetzt wird.
               Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch
               machen, genügt eine E-Mail an{' '}
-              <Link href="mailto:datenschutz@pfadfinden.de">
+              <Link action="mailto:datenschutz@pfadfinden.de">
                 datenschutz@pfadfinden.de
               </Link>
               .
@@ -307,7 +307,7 @@ export default () => {
               Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu
               ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit
               auf der Website unter{' '}
-              <Link href="https://www.pfadfinden.de/datenschutzerklaerung/">
+              <Link action="https://www.pfadfinden.de/datenschutzerklaerung/">
                 https://www.pfadfinden.de/datenschutzerklaerung/
               </Link>{' '}
               von Ihnen abgerufen und ausgedruckt werden.

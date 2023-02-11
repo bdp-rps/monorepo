@@ -273,17 +273,17 @@ export default function Page() {
                   dir!
                   <br />
                   Alternativ kannst du das{' '}
-                  <Link href="/files/beitrittsformular.pdf" download>
+                  <Link action="/files/beitrittsformular.pdf" download>
                     Beitrittsformular
                   </Link>{' '}
                   herunterladen, ausfüllen und uns per{' '}
-                  <Link href="mailto:info@watoto-kabisa.de">E-Mail</Link> oder
+                  <Link action="mailto:info@watoto-kabisa.de">E-Mail</Link> oder
                   Post zukommen lassen. Wenn dein Briefumschlag ein Fenster hat,
                   brauchst du ihn noch nicht einmal zu beschriften.
                   <br />
                   <br />
                   Solltest du noch Fragen haben,{' '}
-                  <Link href="mailto:info@watoto-kabisa.de">
+                  <Link action="mailto:info@watoto-kabisa.de">
                     helfen wir dir per Mail
                   </Link>{' '}
                   auch gerne weiter.

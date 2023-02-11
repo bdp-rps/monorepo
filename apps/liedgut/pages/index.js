@@ -122,7 +122,7 @@ function SongList({ songs }) {
           return (
             <ListItem
               key={name}
-              href={'/' + name}
+              action={'/' + name}
               extend={{
                 display: isVisible ? 'flex' : 'none',
               }}>

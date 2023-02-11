@@ -20,10 +20,10 @@ export default function Footer() {
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={5}>
           <Box space={2} direction="row">
-            <Link href="https://bdp-rps.app">Website</Link>
-            <Link href="https://bdp-rps.app/impressum">Impressum</Link>
-            <Link href="https//bdp-rps.app/datenschutz">Datenschutz</Link>
-            <Link href="https//bdp-rps.app/kontakt">Kontakt</Link>
+            <Link action="https://bdp-rps.app">Website</Link>
+            <Link action="https://bdp-rps.app/impressum">Impressum</Link>
+            <Link action="https//bdp-rps.app/datenschutz">Datenschutz</Link>
+            <Link action="https//bdp-rps.app/kontakt">Kontakt</Link>
           </Box>
 
           <Text>

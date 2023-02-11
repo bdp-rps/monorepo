@@ -28,8 +28,8 @@ export default function Spenden() {
             <Box maxWidth={theme.maxReadWidth}>
               <Text>
                 Neben dem Kauf von{' '}
-                <Link href="/geschenkkarten">Geschenkkarten</Link> oder einer{' '}
-                <Link href="/mitglied">Mitgliedschaft</Link> hast du natürlich
+                <Link action="/geschenkkarten">Geschenkkarten</Link> oder einer{' '}
+                <Link action="/mitglied">Mitgliedschaft</Link> hast du natürlich
                 auch die Möglichkeit, einmalig und zweckungebunden zu spenden.
                 Es gibt so viele sinnvolle Einsatzmöglichkeiten für
                 Spendengelder, dass wir sicher auch für DEINE Spende eine gute
@@ -48,7 +48,7 @@ export default function Spenden() {
                 Spendenquittungen werden schnellstmöglich und ohne Mindestbetrag
                 ausgestellt.
                 <br />
-                <Link href="mailto:kasse@watoto-kabisa.de">
+                <Link action="mailto:kasse@watoto-kabisa.de">
                   Schick uns am besten eine E-Mail
                 </Link>{' '}
                 mit deinem Namen, deiner Adresse und dem gespenden Betrag. Das

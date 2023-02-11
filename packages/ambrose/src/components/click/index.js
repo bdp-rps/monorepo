@@ -60,7 +60,7 @@ const linkResetStyle = ({ disabled }) => ({
 })
 
 const Click = React.forwardRef(
-  ({ action, disabled, children, extend, ...props }, ref) => {
+  ({ action, disabled, target, children, extend, ...props }, ref) => {
     const config = useConfig()
 
     const isLink = typeof action === 'string' || typeof action === 'object'
@@ -73,6 +73,7 @@ const Click = React.forwardRef(
     return (
       <El
         {...props}
+        target={isLink ? target : undefined}
         disabled={!isLink ? disabled : undefined}
         href={!disabled && isLink && action ? action : undefined}
         onClick={!disabled !isLink && action ? action : undefined}

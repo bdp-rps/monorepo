@@ -96,7 +96,7 @@ export default function Template({
             {Object.keys(nav).map((path) => (
               <NavBarItem
                 key={path}
-                href={path}
+                action={path}
                 active={
                   path === '/'
                     ? router.pathname === '/'
@@ -115,7 +115,7 @@ export default function Template({
               {Object.keys(subNavs[isSubPage]).map((path) => (
                 <NavBarItem
                   key={path}
-                  href={path.indexOf('http') === -1 ? isSubPage + path : path}
+                  action={path.indexOf('http') === -1 ? isSubPage + path : path}
                   active={router.pathname.indexOf(path) !== -1}>
                   {subNavs[isSubPage][path]}
                 </NavBarItem>
@@ -134,32 +134,32 @@ export default function Template({
             <Box space={2} grow={1}>
               <Text variant="category">Rechtliches</Text>
               <Spacer size={0.5} />
-              <Link href="/impressum">Impressum</Link>
-              <Link href="/datenschutz">Datenschutz</Link>
-              <Link href="/kontakt">Kontakt</Link>
+              <Link action="/impressum">Impressum</Link>
+              <Link action="/datenschutz">Datenschutz</Link>
+              <Link action="/kontakt">Kontakt</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Andere Seiten</Text>
               <Spacer size={0.5} />
-              <Link href="https://bdp-rps.de/">Landesseite</Link>
-              <Link href="https://www.pfadfinden.de">Bundesseite</Link>
-              <Link href="http://www.ljr-rlp.de">
+              <Link action="https://bdp-rps.de/">Landesseite</Link>
+              <Link action="https://www.pfadfinden.de">Bundesseite</Link>
+              <Link action="http://www.ljr-rlp.de">
                 Landesjugendring Rheinland-Pfalz
               </Link>
-              <Link href="http://www.landesjugendring-saar.de">
+              <Link action="http://www.landesjugendring-saar.de">
                 Landesjugendring Saarland
               </Link>
-              <Link href="https://www.stiftungpfadfinden.de">
+              <Link action="https://www.stiftungpfadfinden.de">
                 Stiftung Pfadfinden
               </Link>
-              <Link href="https://www.ausruester-eschwege.de">
+              <Link action="https://www.ausruester-eschwege.de">
                 Der Ausrüster
               </Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Soziales</Text>
               <Spacer size={0.5} />
-              <Link href="https://instagram.com/pfadfinden_mainz/">
+              <Link action="https://instagram.com/pfadfinden_mainz/">
                 Instagram
               </Link>
             </Box>

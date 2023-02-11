@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { useFela } from 'react-fela'
 
 const style = ({ disabled, theme }) => ({
   fontSize: 16,
@@ -28,12 +27,12 @@ export default function Link({ href, disabled, children, ...props }) {
     disabled,
   }
 
-  const { css } = useFela(styleProps)
+  const extend = style(styleProps)
 
   return (
-    <a {...props} href={!disabled ? href : undefined} className={css(style)}>
+    <Click {...props} action={!disabled ? href : undefined} extend={extend}>
       {children}
-    </a>
+    </Click>
   )
 }
 

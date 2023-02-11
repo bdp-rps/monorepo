@@ -28,7 +28,7 @@ export default () => (
             Autofreien Eistal in Eisenberg übernimmt. Von dem erwirtschafteten
             Erlös werden Ausrüstungsgegenstände wie Zelte, Seile usw. für den
             Stamm angeschafft. Mehr Infos findest du{' '}
-            <Link href="http://foerderverein.pfadfinder-eisenberg.de/">
+            <Link action="http://foerderverein.pfadfinder-eisenberg.de/">
               hier.
             </Link>{' '}
           </Text>

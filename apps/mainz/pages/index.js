@@ -77,7 +77,7 @@ export default function page({ events, posts, postsMainz }) {
                 <Text>
                   Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
                   Kontaktier uns doch gerne über{' '}
-                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                  <Link action="mailTo:pfadfinden@bdp-mainz.de">
                     pfadfinden[at]bdp-mainz.de
                   </Link>
                 </Text>
@@ -92,7 +92,7 @@ export default function page({ events, posts, postsMainz }) {
                 <Text>
                   Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
                   Kontaktier uns doch gerne über{' '}
-                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                  <Link action="mailTo:pfadfinden@bdp-mainz.de">
                     pfadfinden[at]bdp-mainz.de
                   </Link>
                 </Text>

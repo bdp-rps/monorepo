@@ -27,7 +27,7 @@ export default () => (
         {/* <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
           paddingBottom={4}>
-          <NextLink href="https://liedgut.bdp-rps.app">
+          <NextLink action="https://liedgut.bdp-rps.app">
             <a style={{ textDecoration: 'none' }}>
               <Tile title="Liedgut">
                 <b>Unser Liedgut - digital.</b>
@@ -42,7 +42,7 @@ export default () => (
         <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
           paddingBottom={4}>
-          <NextLink href="https://styleguide.bdp-rps.app">
+          <NextLink action="https://styleguide.bdp-rps.app">
             <a style={{ textDecoration: 'none' }}>
               <Tile title="Styleguide">
                 <b>Unser digitaler Styleguide.</b>
@@ -56,7 +56,7 @@ export default () => (
         <Box
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
           paddingBottom={4}>
-          <NextLink href="https://playroom.bdp-rps.app">
+          <NextLink action="https://playroom.bdp-rps.app">
             <a style={{ textDecoration: 'none' }}>
               <Tile title="Playroom">
                 <b>Design und Mockups leicht gemacht.</b>

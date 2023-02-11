@@ -35,7 +35,7 @@ export default () => (
           - Beiblatt zum Antrag
         </Link>
         <br />
-        <Link href="/files/Merkblatt_EKS_ab_01_07_.pdf" download>
+        <Link action="/files/Merkblatt_EKS_ab_01_07_.pdf" download>
           - Merkblatt zur Förderung junger Menschen aus einkommensschwachen
           Familien bei Maßnahmen der Sozialen Bildung
         </Link>

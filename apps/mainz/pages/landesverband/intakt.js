@@ -33,7 +33,7 @@ export default () => (
           LV zu verstärken und auf Kursen wie auch in euren Stämmen präsenter zu
           machen. Auch wollen wir dafür sorgen dass ihr immer wisst wen ihr bei
           Problemen ansprechen könnt. Ihr erreicht uns unter{' '}
-          <Link href={'mailto:intakt@bdp-rps.de'}>intakt[at]bdp-rps.de</Link>.
+          <Link action={'mailto:intakt@bdp-rps.de'}>intakt[at]bdp-rps.de</Link>.
         </Text>
       </Box>
     </Layout>
@@ -59,7 +59,7 @@ export default () => (
                 {contact ? (
                   <Box>
                     <Text>
-                      <Link href={'mailto:' + contact}>{contact}</Link>
+                      <Link action={'mailto:' + contact}>{contact}</Link>
                     </Text>
                   </Box>
                 ) : null}

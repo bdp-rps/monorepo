@@ -37,7 +37,7 @@ export default ({ children, meta }) => {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={20}>
-        <NextLink href="/blog" passHref>
+        <NextLink action="/blog" passHref>
           <Link>← Zurück zur Übersicht</Link>
         </NextLink>
         <Spacer size={5} />
@@ -61,7 +61,7 @@ export default ({ children, meta }) => {
             h3: ({ children }) => <Text variant="category">{children}</Text>,
             h4: ({ children }) => <Text>{children}</Text>,
             h5: ({ children }) => <Text variant="note">{children}</Text>,
-            a: ({ href, children }) => <Link href={href}>{children}</Link>,
+            a: ({ href, children }) => <Link action={href}>{children}</Link>,
             img: ({ src, title, alt, extend, ...props }) => (
               <Box
                 as="img"

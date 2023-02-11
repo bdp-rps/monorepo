@@ -5,14 +5,13 @@ import Box from '../box'
 import Text from '../text'
 import Click from '../click'
 
-export default function NavBarItem({ href, active, onClick, children }) {
+export default function NavBarItem({ href, action, children }) {
   const { theme } = useFela()
 
   return (
     <Box
       as={Click}
-      href={href}
-      onClick={onClick}
+      action={action}
       paddingTop={[3, , 2, 4]}
       paddingBottom={[3, , 2, 4]}
       paddingRight={[1.5, , 2]}

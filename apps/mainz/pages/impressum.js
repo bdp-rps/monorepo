@@ -62,7 +62,7 @@ export default () => {
             <br />
             55118 Mainz
             <br />
-            <Link href="mailto:timon@bdp-rps.de">timon@bdp-rps.de</Link>
+            <Link action="mailto:timon@bdp-rps.de">timon@bdp-rps.de</Link>
             <br />
             <br />
             Jugendverband
@@ -91,7 +91,7 @@ export default () => {
             <br />
             Timon Flick
             <br />
-            <Link href="mailto:timon@bdp-rps.de">timon@bdp-rps.de</Link>
+            <Link action="mailto:timon@bdp-rps.de">timon@bdp-rps.de</Link>
             <br />
           </Text>
           <Text>

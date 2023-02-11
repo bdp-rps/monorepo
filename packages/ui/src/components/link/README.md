@@ -6,7 +6,7 @@ If used with Next.js, make sure to add the `passHref` prop to `next/link`.
 
 ```jsx
 <Box space={2}>
-  <Link href="/link">Just a link</Link>
+  <Link action="/link">Just a link</Link>
 </Box>
 ```
 

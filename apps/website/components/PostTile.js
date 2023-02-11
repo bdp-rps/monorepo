@@ -5,7 +5,7 @@ import NextLink from 'next/link'
 export default function PostTile({ id, highlight, ...post }) {
   const { image, title, text, subtitle, publish, author } = post.attributes
   return (
-    <NextLink href={'/blog/' + id} passHref>
+    <NextLink action={'/blog/' + id} passHref>
       <Box as="a" grow={highlight ? 1 : 0} extend={{ textDecoration: 'none' }}>
         <Tile
           title={title}

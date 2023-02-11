@@ -273,7 +273,7 @@ export default function Page() {
                 <br />
                 <br />
                 Bestelle ganz einfach unten mit dem Formular oder{' '}
-                <Link href="mailto:karten@watoto-kabisa.de">
+                <Link action="mailto:karten@watoto-kabisa.de">
                   schick uns eine E-Mail
                 </Link>{' '}
                 mit deinem Bestellwunsch.

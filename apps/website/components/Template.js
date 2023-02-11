@@ -133,32 +133,32 @@ export default function Template({
             <Box space={2} grow={1}>
               <Text variant="category">Rechtliches</Text>
               <Spacer size={0.5} />
-              <Link href="/impressum">Impressum</Link>
-              <Link href="/datenschutz">Datenschutz</Link>
-              <Link href="/landesverband/landesleitung">Kontakt</Link>
+              <Link action="/impressum">Impressum</Link>
+              <Link action="/datenschutz">Datenschutz</Link>
+              <Link action="/landesverband/landesleitung">Kontakt</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Andere Seiten</Text>
               <Spacer size={0.5} />
-              <Link href="https://www.pfadfinden.de">Bundesseite</Link>
-              <Link href="http://www.ljr-rlp.de">
+              <Link action="https://www.pfadfinden.de">Bundesseite</Link>
+              <Link action="http://www.ljr-rlp.de">
                 Landesjugendring Rheinland-Pfalz
               </Link>
-              <Link href="http://www.landesjugendring-saar.de">
+              <Link action="http://www.landesjugendring-saar.de">
                 Landesjugendring Saarland
               </Link>
-              <Link href="https://www.stiftungpfadfinden.de">
+              <Link action="https://www.stiftungpfadfinden.de">
                 Stiftung Pfadfinden
               </Link>
-              <Link href="https://www.ausruester-eschwege.de">
+              <Link action="https://www.ausruester-eschwege.de">
                 Der Ausrüster
               </Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Soziales</Text>
               <Spacer size={0.5} />
-              <Link href="https://www.facebook.com/bdprps">Facebook</Link>
-              <Link href="https://instagram.com/pfadfinden_rps/">
+              <Link action="https://www.facebook.com/bdprps">Facebook</Link>
+              <Link action="https://instagram.com/pfadfinden_rps/">
                 Instagram
               </Link>
             </Box>

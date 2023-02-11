@@ -47,7 +47,7 @@ export default function Template({ children }) {
   const theme = useTheme()
 
   const isSubPage = Object.keys(subNavs).find(
-    path => router.pathname.indexOf(path) !== -1
+    (path) => router.pathname.indexOf(path) !== -1
   )
 
   return (
@@ -82,9 +82,9 @@ export default function Template({ children }) {
       <NavBar>
         <Layout>
           <Box direction={['column', , 'row']}>
-            {Object.keys(nav).map(path => (
+            {Object.keys(nav).map((path) => (
               <NavBarItem
-                href={path}
+                action={path}
                 active={
                   path === '/'
                     ? router.pathname === '/'
@@ -100,7 +100,7 @@ export default function Template({ children }) {
         <NavBar intent="secondary">
           <Layout>
             <Box direction={['column', , 'row']} paddingLeft={5}>
-              {Object.keys(subNavs[isSubPage]).map(path => (
+              {Object.keys(subNavs[isSubPage]).map((path) => (
                 <NavBarItem
                   href={path.indexOf('http') === -1 ? isSubPage + path : path}
                   active={router.pathname.indexOf(path) !== -1}>
@@ -121,33 +121,33 @@ export default function Template({ children }) {
             <Box space={2} grow={1}>
               <Text variant="category">Rechtliches</Text>
               <Spacer size={0.5} />
-              <Link href="/impressum">Impressum</Link>
-              <Link href="/datenschutz">Datenschutz</Link>
-              <Link href="/landesverband/landesleitung">Kontakt</Link>
+              <Link action="/impressum">Impressum</Link>
+              <Link action="/datenschutz">Datenschutz</Link>
+              <Link action="/landesverband/landesleitung">Kontakt</Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Andere Seiten</Text>
               <Spacer size={0.5} />
-              <Link href="https://bdp-rps.de">Landesseite</Link>
-              <Link href="https://www.pfadfinden.de">Bundesseite</Link>
-              <Link href="http://www.ljr-rlp.de">
+              <Link action="https://bdp-rps.de">Landesseite</Link>
+              <Link action="https://www.pfadfinden.de">Bundesseite</Link>
+              <Link action="http://www.ljr-rlp.de">
                 Landesjugendring Rheinland-Pfalz
               </Link>
-              <Link href="http://www.landesjugendring-saar.de">
+              <Link action="http://www.landesjugendring-saar.de">
                 Landesjugendring Saarland
               </Link>
-              <Link href="https://www.stiftungpfadfinden.de">
+              <Link action="https://www.stiftungpfadfinden.de">
                 Stiftung Pfadfinden
               </Link>
-              <Link href="https://www.ausruester-eschwege.de">
+              <Link action="https://www.ausruester-eschwege.de">
                 Der Ausrüster
               </Link>
             </Box>
             <Box space={2} grow={1}>
               <Text variant="category">Soziales</Text>
               <Spacer size={0.5} />
-              <Link href="https://www.facebook.com/bdpfvs">Facebook</Link>
-              <Link href="https://www.instagram.com/fraenze_pfadfinder_eisenberg/">
+              <Link action="https://www.facebook.com/bdpfvs">Facebook</Link>
+              <Link action="https://www.instagram.com/fraenze_pfadfinder_eisenberg/">
                 Instagram
               </Link>
             </Box>

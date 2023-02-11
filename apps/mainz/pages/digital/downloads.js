@@ -19,17 +19,17 @@ export default () => (
     <Layout paddingTop={10} paddingBottom={15}>
       <Text>
         <br />
-        <Link href="/files/Aufnahmeantrag.pdf" download>
+        <Link action="/files/Aufnahmeantrag.pdf" download>
           Aufnahmeantrag
         </Link>
         <br />
         <br />
-        <Link href="/files/Paedagogische-Konzeption.pdf" download>
+        <Link action="/files/Paedagogische-Konzeption.pdf" download>
           Pädagogisches Konzept
         </Link>
         <br />
         <br />
-        <Link href="/files/Packliste.pdf" download>
+        <Link action="/files/Packliste.pdf" download>
           Packliste
         </Link>
         <br />

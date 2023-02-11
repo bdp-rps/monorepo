@@ -62,7 +62,7 @@ export default () => (
                     {contact ? (
                       <Box>
                         <Text>
-                          <Link href={'mailto:' + contact}>{contact}</Link>
+                          <Link action={'mailto:' + contact}>{contact}</Link>
                         </Text>
                       </Box>
                     ) : null}

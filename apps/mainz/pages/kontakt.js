@@ -38,7 +38,7 @@ export default () => {
               <Text>
                 Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktiere
                 uns doch gerne über{' '}
-                <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                <Link action="mailTo:pfadfinden@bdp-mainz.de">
                   pfadfinden[at]bdp-mainz.de
                 </Link>
               </Text>

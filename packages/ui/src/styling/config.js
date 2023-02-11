@@ -24,7 +24,7 @@ export default {
 
     if (typeof href === 'object' || href.startsWith('/')) {
       return (
-        <NextLink href={href}>
+        <NextLink action={href}>
           <a {...linkProps}>{children}</a>
         </NextLink>
       )

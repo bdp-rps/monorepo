@@ -38,7 +38,7 @@ export default ({ children, meta, image }, props) => {
   return (
     <Template backgroundImage={`url("https://docs.bdp-rps.de${image}")`}>
       <Layout paddingTop={10} paddingBottom={20}>
-        <NextLink href="/blog" passHref>
+        <NextLink action="/blog" passHref>
           <Link>← Zurück zur Übersicht</Link>
         </NextLink>
         <Spacer size={5} />
@@ -62,7 +62,7 @@ export default ({ children, meta, image }, props) => {
             h3: ({ children }) => <Text variant="category">{children}</Text>,
             h4: ({ children }) => <Text>{children}</Text>,
             h5: ({ children }) => <Text variant="note">{children}</Text>,
-            a: ({ href, children }) => <Link href={href}>{children}</Link>,
+            a: ({ href, children }) => <Link action={href}>{children}</Link>,
             br: () => <br />,
             n: () => <br />,
             hr: () => <Text>Hallo</Text>,

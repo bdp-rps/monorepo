@@ -54,7 +54,7 @@ export default () => (
             Gruppenführungen ab 16 an weiteren Kursen des BdP teilnehmen.
             <br />
             Für mehr Informationen:{' '}
-            <Link href="mailto:ausbildung@bdp-rps.de">
+            <Link action="mailto:ausbildung@bdp-rps.de">
               ausbildung@bdp-rps.de
             </Link>
           </Text>

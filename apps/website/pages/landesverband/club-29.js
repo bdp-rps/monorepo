@@ -43,8 +43,10 @@ export default () => (
             Informationen aus dem LV bekommen?
             <br />
             Meld dich{' '}
-            <Link href="mailto:vorstand@bdp-rps.de">bei unserem Vorstand</Link>.
-            Wir freuen uns sehr, von Dir zu hören.
+            <Link action="mailto:vorstand@bdp-rps.de">
+              bei unserem Vorstand
+            </Link>
+            . Wir freuen uns sehr, von Dir zu hören.
           </Text>
         </Box>
       </Box>

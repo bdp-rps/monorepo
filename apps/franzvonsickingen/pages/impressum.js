@@ -52,7 +52,7 @@ export default () => {
             <br />
             67549 Worms
             <br />
-            <Link href="mailto:christmanndaniel1@gmail.com">
+            <Link action="mailto:christmanndaniel1@gmail.com">
               christmanndaniel1@gmail.com
             </Link>
             <br />

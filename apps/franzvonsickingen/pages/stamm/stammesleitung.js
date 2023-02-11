@@ -32,7 +32,7 @@ export default () => (
       grow={1}
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Box space={8}>
-        {Object.keys(parts).map(part => (
+        {Object.keys(parts).map((part) => (
           <Box>
             <Text variant="subtitle">{part}</Text>
 
@@ -56,7 +56,7 @@ export default () => (
                     {contact ? (
                       <Box>
                         <Text>
-                          <Link href={'mailto:' + contact}>{contact}</Link>
+                          <Link action={'mailto:' + contact}>{contact}</Link>
                         </Text>
                       </Box>
                     ) : null}

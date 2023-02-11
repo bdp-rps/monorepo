@@ -68,7 +68,7 @@ export default function Page({ id, songData }) {
                   )}
                 </Box>
               )}
-              <NextLink href={'/' + id + '/bearbeiten'}>
+              <NextLink action={'/' + id + '/bearbeiten'}>
                 <Button variant="secondary">Änderungsvorschlag</Button>
               </NextLink>
             </Box>

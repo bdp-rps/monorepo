@@ -54,7 +54,7 @@ export default () => {
                 der kenianischen NGO WONESU zusammen, die in Kisumu neben den
                 Schulspeisungen auch noch weitere soziale und
                 landwirtschaftliche Projekte durchführt (weitere Infos dazu
-                findet ihr unter <Link href="/projekte">Projekte</Link>).
+                findet ihr unter <Link action="/projekte">Projekte</Link>).
                 <br />
                 <br />
                 Unser Team in Deutschland arbeitet komplett ehrenamtlich. So

@@ -45,11 +45,11 @@ export default () => (
                 </Box>
                 <Box>
                   <Text>
-                    Kontakt: <Link href={'mailto:' + contact}>{leader}</Link>
+                    Kontakt: <Link action={'mailto:' + contact}>{leader}</Link>
                   </Text>
                 </Box>
                 <Box>
-                  <Link href={website}>{website}</Link>
+                  <Link action={website}>{website}</Link>
                 </Box>
               </Tile>
             </Box>

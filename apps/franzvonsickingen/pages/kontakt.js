@@ -39,7 +39,7 @@ export default () => {
         <Text>
           Daniel Christmann
           <br />
-          <Link href="mailto:christmanndaniel1@gmail.com">
+          <Link action="mailto:christmanndaniel1@gmail.com">
             christmanndaniel1@gmail.com
           </Link>
         </Text>

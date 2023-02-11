@@ -47,7 +47,7 @@ export default () => {
                 <br />
                 56077 Koblenz
                 <br />
-                <Link href="mailto:vorstand@watoto-kabisa.de">
+                <Link action="mailto:vorstand@watoto-kabisa.de">
                   vorstand@watoto-kabisa.de
                 </Link>
               </Text>
@@ -270,7 +270,7 @@ export default () => {
                 Situation von uns umgesetzt wird. Möchten Sie von Ihrem
                 Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine
                 E-Mail an{' '}
-                <Link href="mailto:vorstand@watoto-kabisa.de">
+                <Link action="mailto:vorstand@watoto-kabisa.de">
                   vorstand@watoto-kabisa.de
                 </Link>
                 .
