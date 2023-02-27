@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}                                   {G}             {F}                   {a}\nKannst du nachts nicht schlafen, beobachte die Sterne, \n{C}                     {G}               {F}                         {a}\ntausend kleine Lichter, ihr Schein erhellt die Ferne.\n{C}                  {G}          {d}                       {a}\nTräum´, eine Rakete steht in deinem Garten, \n     {C}                         {G}                 {F}\ndu steigst hinein ins Cockpit und drückst darin auf \"Starten\".\n\n               {a}                           {G}         {F]                  {a}                  {G}                    {F}\nUnd du hörst krachend den lauten Knall, und du fliegst wie ein Komet durchs All.\n    {B}                                          {F}                           {C}                {d}\n/: Der Wassermann planscht munter, im großen Wagen tönt Gesang,\n          {B}                                   {F}         {g}             {a(C)}             {d(F)}\n    am schwarzen Loch geht's runter, immer die Milchstraße lang. ://\n\nAn der Sonne ist es wärmer, am Adlernebel kühler, \ndie Jungfrau hat nen Spiegel, der Skorpion hat Fühler.\nDu fütterst Pegasus und stellst dich auf die Waage\nund wohnst in einer Raumstation in bester Südsternlage.\n\nDer Himmelszoo ist riesig, vom Widder bis zum Schwan, \ndort tauchst sogar ein Walfisch und kentert fast den Kahn.\nDer Mond besteht aus Käse, dort machst du eine Pause, \nund dann fliegst du mit Düsenkraft so schnell es geht nach Hause.\n",
+  "content": "{C}Kannst du nachts {G}nicht schla{F}fen, beobac{a}hte die Sterne, \n{C}tausend kleine {G}Lichter, {F}ihr Schein er{a}hellt die Ferne.\n{C}Träum´, eine {G}Rakete {d}steht in dein{a}em Garten, \ndu {C}steigst hinein {G}ins Cockpit {F}und drückst darin auf \"Starten\".\n\nUnd du {a}hörst krachend {G}den lau{F}ten Knall, {a}und du flie{G}gst wie ein {F}Komet durchs All.\n/: {B}Der Wassermann plan{F}scht munter, im {C}großen Wa{d}gen tönt Gesang,\n    am {B}schwarzen Loch {F}geht's run{g}ter, im{a(C)}mer die Milch{d(F)}straße lang. ://\n\nAn der Sonne ist es wärmer, am Adlernebel kühler, \ndie Jungfrau hat nen Spiegel, der Skorpion hat Fühler.\nDu fütterst Pegasus und stellst dich auf die Waage\nund wohnst in einer Raumstation in bester Südsternlage.\n\nDer Himmelszoo ist riesig, vom Widder bis zum Schwan, \ndort tauchst sogar ein Walfisch und kentert fast den Kahn.\nDer Mond besteht aus Käse, dort machst du eine Pause, \nund dann fliegst du mit Düsenkraft so schnell es geht nach Hause.\n",
   "title": "Milchstraßenfahrt",
   "words": [
     {
@@ -32,6 +32,13 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1677450813627,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "update",
+      "content": "Syntax der Akkorde verbessert"
     }
   ]
 }
