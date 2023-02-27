@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}                            {E}                           {F}                         {G}\nWir gleiten auf den Planken, Richtung schwarzer Pulverrauch\n      {a}                    {E}                   {F}                            {G}\nDie vollen Schiffe wanken, doch wir sind noch wohl auf\n      {C}                   {G}                    {F}                      {G}\nWir steigen in die Wanten und warten auf den Wind\n      {C}                     {G}                {F}                    {G}\nMit einem Fass voll Rum, wird ein neuer Kurs bestimmt\n\n                 {F}                       {C}       {G}                         {a}\n    Auf den Meeren sind wir ewig, frei und unbeugsam\n                 {F}                         {C}                {G}                      {a}\n    Sind wir Kaiser, Papst und König, aber niemals Bettelmann\n\nUm dem Galgen zu entfliehen, suchen wir die neue Welt\nWo wir nicht den Heuchlern dienen, wo der alte Kodex zählt\nAn Schnee und Eis vorbei und den größten Ungetümen\nTreiben uns die Stürme, zu den Inseln tief im Süden\n\nDort schlossen sich dem Bund noch viele Schiffe an\nUnd auf den Meeresgrund, sinkt der Schuldspruch lebenslang\nNiemand weiß wohin unsere weite Reise geht\nWir hissen stolz die Fahne, auf der unsere Botschaft steht\n\nFreiheit sei beschieden, ob arm, ob reich, ob blind\nDem Aufsatz dem vertriebenen, die alle mit uns sind\nSie steigen in die Wanten und warten auf den Wind\nMit einem Fass voll Rum, wird ein neuer Kurs bestimmt\n",
+  "content": "{a}Wir gleiten auf {E}den Planken, Rich{F} tung schwar{G}zer Pulverrauch\nDie {a}vollen Schif{E}fe wanken, {F}doch wir sind {G}noch wohl auf\n{C}Wir steigen in {G}die Wanten {F}und warten {G}auf den Wind\nMit {C}einem Fass {G}voll Rum, {F}wird ein neu{G}er Kurs bestimmt\n\n    Auf {F}den Meeren sin{C}d wir {G}ewig, frei und {a}unbeugsam\n    Sind {F}wir Kaiser, Papst {C}und Kön{G}ig, aber niem{a}als Bettelmann\n\nUm dem Galgen zu entfliehen, suchen wir die neue Welt\nWo wir nicht den Heuchlern dienen, wo der alte Kodex zählt\nAn Schnee und Eis vorbei und den größten Ungetümen\nTreiben uns die Stürme, zu den Inseln tief im Süden\n\nDort schlossen sich dem Bund noch viele Schiffe an\nUnd auf den Meeresgrund, sinkt der Schuldspruch lebenslang\nNiemand weiß wohin unsere weite Reise geht\nWir hissen stolz die Fahne, auf der unsere Botschaft steht\n\nFreiheit sei beschieden, ob arm, ob reich, ob blind\nDem Aufsatz dem vertriebenen, die alle mit uns sind\nSie steigen in die Wanten und warten auf den Wind\nMit einem Fass voll Rum, wird ein neuer Kurs bestimmt\n",
   "title": "Aussatz",
   "words": [
     {
@@ -32,6 +32,13 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1677451172697,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "update",
+      "content": "Syntax Akkorde"
     }
   ]
 }
