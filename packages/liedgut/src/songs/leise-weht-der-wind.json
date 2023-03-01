@@ -4,10 +4,10 @@
   "title": "Leise weht der Wind",
   "words": [
     {
-      "name": "",
-      "nickname": "",
-      "group": "Rovergruppe Condor, Stamm Grauer Adler",
-      "organisation": "",
+      "name": "Frank Diener",
+      "nickname": "Holzwurm",
+      "group": "Runde Condor",
+      "organisation": "Stamm Grauer Adler",
       "year": ""
     }
   ],
@@ -32,6 +32,13 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1677688375723,
+      "name": "wombat",
+      "mail": "nermax03@gmail.com",
+      "type": "update",
+      "content": "Ergaenzen des Autors\n"
     }
   ]
 }
