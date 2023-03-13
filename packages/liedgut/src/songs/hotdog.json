@@ -1,0 +1,58 @@
+{
+  "notation": "",
+  "content": "Ein {a}Hotdog unten am {C}Hafen und vorm {E}Einschlafen schnell  noch ein {F}Bier,\ndem {C}Feind einen Tritt in die {F}Rippen und ein paar {G}Kippen  für hinterher.\nEin {a}Date mit dem Dalai {C}Lama und ein {E}Apfelsaft morgens um {F}zwei\nund eine {C}halbautomatische {G}Waffe ist immer da{C}bei. {G}\n\n{a}Schön, wenn man liebt, was {G}Mutter Natur einem gibt.\nWas kann {F}ich dafür, dass {G}du mich nicht ver{C}gisst?\nEin ge{F}selliges Tier ist das {G}Schwein und das {C}Stachelschwein lieber {F}allein.\n{C}Ohne dich will ich nicht, {G}mit dir kann ich nicht {C}sein. {G}\n\nRäucherstäbchen und Wildreis und Abende auf dem Balkon.\nIn Eppendorf ist morgen Flohmarkt, und jeder nach seiner Façon.\nEin Date mit dem Dalai Lama und ein Griff ins Kosmetikregal.\nUnd wenn's im Rücken mal wehtut, wird jede Bewegung zur Qual.\n\nEine Parkbank in Planten und Blomen und der Mond über Altona,\nein Sohn, der bald mal ins Bett muss und trockene Blumen im Haar.\nEin Date mit dem Dalai Lama und ein Klimpern auf dem Klavier\nund zum Abschied ein bisschen Gefummel hinter der Tür.\n\n{C}Ohne dich will ich nicht, {G}mit dir kann ich nicht {C}sein.\n",
+  "title": "Hotdog",
+  "words": [
+    {
+      "name": "Element of Crime",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Element of Crime",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "Hotdog unten am Hafen",
+  "tempo": 60,
+  "info": "",
+  "changes": [
+    {
+      "date": 1673363766797,
+      "name": "Ronja Ley",
+      "mail": "ronja.ley@gmx.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1673436676156,
+      "name": "Robi",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Titel, Akkorde, Takt"
+    },
+    {
+      "date": 1675524675761,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1678700310791,
+      "name": "Nele",
+      "mail": "floro.nele@web.de",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}
