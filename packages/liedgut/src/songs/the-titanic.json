@@ -1,12 +1,12 @@
 {
   "notation": "",
-  "content": "            {a}        {G}                                   {a}\nOn the 11th of April ninteenhundredandtwelve\n                           {G}                                {a}\nThe queen of the ocean had started her life\n        {C}                        {G}                                     {a}\nWith thirteenhundred passangers she sailed out from Cork\n                                  {G}                                     {a}\nLead by ninehundred sailors on her way to New York\n\n{C} {G}                      {a}\nOh, riddle of the century\n{C} {G}                                       {a}\nOh, pride of The White-Star-Line\n{C} {G}                                {a}\nOh, ye became a wet reliquary\n{C} {G}           {F}       {G}        {a}\nOh, and a victim of the brine\n\nOn the 14th of Aprli at 11.40 pm\nAn outlook guy named Freedy Fleet the alarmbell he did ring\nCaptain Smith gave the order: \"Half steam ahead!\" he cried\nAs the steamer got a narrow shave from a giant in the night \n\nThe water filled the liner\nThe death-struggle takes three hours\nThe operators working hard an emergency he morsed\n\"Californian can't you hear me - is your wireless working there?\"\nWallace Hartley and his rag-time-band played a tune called Derry\n\nOn the 15th of April ninteenhundredandtwelve\nThe queen of the ocean had ended her life\n18 lifeboats were in store sevenhundred for to save\nBut 1500 passangers rest in their icy grave\n",
+  "content": "On the {a}11th of {G}April nineteenhundredand{a}twelve\nThe queen of the {G}ocean had started her {a}life\nWith {C}thirteenhundred {G}passangers she sailed out from {a}Cork\nLead by ninehundred {G}sailors on her way to New {a}York\n\nRef:\n{C}Uh-uh-{G}uh, riddle of the {a}century\n{C}Uh-uh-{G}uh, pride of The White-Star-{a}Line\n{C}Uh-uh-{G}uh, ye became a wet re{a}liquary\n{C}Uh-uh-{G}uh, a {F}victim {G}of the {a}brine\n\nOn the 14th of April at 11.40 pm\nAn outlook guy named Freedy Fleet the alarmbell he did ring\nCaptain Smith gave the order: \"Half steam ahead!\" he cried\nAs the steamer got a narrow shave from a giant in the night\n\nThe water filled the line\nThe death-struggle takes 3 hours\nThe operators working hard an emergency he morsed\n\"Californian can't you hear me - is your wireless working there?\"\nWallace Hartley and his rag-time-band played a tune called Derry Air\n\nOn the 15th of April nineteenhundredandtwelve\nThe queen of the ocean had ended her life\nEighteen lifeboats were in store sevenhundred for to save\nBut fifteenhundred passangers rest in their icy grave\n\n",
   "title": "The Titanic",
   "words": [
     {
       "name": "H. Klügge",
       "nickname": "",
-      "group": "",
+      "group": "Paddy Goes to Holyhead",
       "organisation": "",
       "year": ""
     }
@@ -15,21 +15,22 @@
     {
       "name": "H. Klügge",
       "nickname": "",
-      "group": "",
+      "group": "Paddy Goes to Holyhead",
       "organisation": "",
       "year": ""
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "",
+  "musicalKey": "",
   "info": "",
   "changes": [
     {
-      "date": 1673368542304,
-      "name": "Ronja Ley",
-      "mail": "ronja.ley@gmx.de",
+      "date": 1678701588971,
+      "name": "Nele",
+      "mail": "floro.nele@web.de",
       "type": "create",
       "content": ""
     }
