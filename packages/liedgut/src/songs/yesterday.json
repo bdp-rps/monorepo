@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{G}Yesterday\n{H7}All my troubles seemed so {e}far away {D} {C}\nNow it {D}looks as though they're {G}here to stay\nOh {e}I be{A}lieve in {C}yester{G}day\n\n{G}Suddenly,  {H7}{} I'm not half the man I {e}used to be {D} {C}\nThere's a {D}shadow hanging {G}over me\nOh {e}yester{A}day came {C}sudden{G}ly\n\n{H7}Why {e}she {D}had to {C}go\nI don't {D}know she wouldn't {G}say\n{H7}I {e}said {D}some{C}thing wrong\nNow I {D}long for yester{G}day\n\n{G}Yesterday, {H7}{}Love was such an easy {e}game to play {D} {C}\nNow I {D}need a place to {G}hide away\nOh {e}I be{A}lieve in {C}yester{G}day\n\n{H7}Why {e}she {D}had to {C}go\nI don't {D}know she wouldn't {G}say\n{H7}I {e}said {D}some{C}thing wrong\nNow I {D}long for yester{G}day\n\n{G}Yesterday, {H7}{} Love was such an easy {e}game to play {D} {C}\nNow I {D}need a place to {G}hide away\nOh {e}I be{A}lieve in {C}yester{G}day\n{e}Hmm hmm  {A}hmm hmm  {C}hmm hmm {G}hmm",
+  "title": "Yesterday",
+  "words": [
+    {
+      "name": "",
+      "nickname": "",
+      "group": "The Beatles",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "",
+      "nickname": "",
+      "group": "The Beatles",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "G",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679088972140,
+      "name": "Marie",
+      "mail": "marie@bdp-koblenz.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
