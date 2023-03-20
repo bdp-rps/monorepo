@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Ihr {D}Wölfe kommt und {A}schließt den Kreis,\nein {D}Wolf will von uns {G}gehn.\nIhr {D}Wölfe kommt und {A}schließt den Kreis,\nsagt {G}ihm auf {A}Wieder{D}seh'n!\nEr {D}geht nun zu den {A}Menschen fort und {D}schaut nochmal zu{G}rück,\nwir {D}wünschen ihm am {A}fremden Ort viel {G}Beute {A}und viel {D}Glück!\n\nIhr Wölfe kommt zum Felsen heut,\nein Bruder von uns geht.\nIhr Wölfe kommt zum Felsen heut,\ndamit ihr hier noch seht:\ndas ist nur \"Gute Jagd\" für ihn, das ist kein Lebewohl.\nEs wird  zurück ihn immer zieh'n, das ist kein Lebewohl.\n\nWie Mogli von den Menschen einst\nnicht wieder kam bei Nacht.\nWie Mogli von den Menschen einst\nzum Mann sich hat gemacht.\nSo muss auch jeder Wölfing nun vom Felsen einmal fort.\nEs zieht  ihn selbst zu ander'm Tun einmal vom Felsen fort.\n\nDu, der du gehst, erinn're dich\nan jede Wölflingsjagd.\nDu, der du gehst, erinn're dich\nans Feuer in der Nacht.\nAns Ratsgeheul und Akela und einmal komm zurück!\nEin Platz für dich ist immer da, drum komm einmal zurück.",
+  "title": "Abschied von der Meute",
+  "words": [
+    {
+      "name": "nach einem französischen Wölflingslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "schottisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679319849950,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
