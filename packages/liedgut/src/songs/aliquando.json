@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Schneestaub um{h}glitzert die {e}Hufe,\n{a}Firn zieht der {h}Mond durch die {e}Nacht,\nIm {a}Wald hört {D}niemand die {G}Ruf{De}e\nvom {a}Schlitten mit {D}schneeweißer {e}Fracht.\n\nGedungene Bäume noch wanken\nwerden vergessen bald sein.\nDer Einsame ahnt nicht die Schranken,\nhier draußen ist er nicht allein.\n\nOb der {G}Wind laut heult und der {D}Schnee auch stäubt,\nseinen {a}Weg find't er {e}doch.\nIhn hält {G}nichts mehr auf, denn er {D}spürt den Hauch,\nund {C}Frühling wird es {e}noch.\n\nWeiß nicht und könnte doch wissen,\nDenken an Eltern, an Heim - \nSein Mädchen will er nicht vermissen,\ner kann nicht, doch will er bei ihr sein.\n\nTraurigkeit in seinenAugen,\nwie soll er glücklich so sein?\nWin Pfiff, Schlitten dreht, Pferde schnauben.\nEr weiß jetzt: Er fährt nie mehr heim.",
+  "title": "Aliquando",
+  "words": [
+    {
+      "name": "Thomas Ertner",
+      "nickname": "joker",
+      "group": "BdP Berlin",
+      "organisation": "BdP",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Thomas Ertner",
+      "nickname": "joker",
+      "group": "BdP Berlin",
+      "organisation": "BdP",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "Am",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679320127173,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
