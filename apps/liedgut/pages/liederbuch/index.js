@@ -30,6 +30,8 @@ export default function Page({ songs }) {
     })
   }, [])
 
+  console.log(songs, selected)
+
   return (
     <>
       <Header />
@@ -111,16 +113,13 @@ export async function getStaticProps() {
     (songs, name) => {
       const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
 
-      const content = removeChords(removeBreaks(song.content))
+      const normalizeContent = removeChords(removeBreaks(song.content))
 
       return {
         ...songs,
         [name]: {
           ...song,
-          content,
-          normalizedContent: content.toLowerCase(),
-          normalizedTitle: song.title.toLowerCase(),
-          normalizedAlternativeTitle: song.alternativeTitle.toLowerCase(),
+          sort: normalizeContent.toLowerCase(),
         },
       }
     },

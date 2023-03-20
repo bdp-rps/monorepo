@@ -9,7 +9,7 @@
     "test": "turbo run test",
     "check": "pnpm format && pnpm test && pnpm lint"
   },
-  "packageManager": "pnpm@7.11.0",
+  "packageManager": "pnpm@7.30.0",
   "devDependencies": {
     "eslint": "^8.24.0",
     "eslint-plugin-import": "^2.26.0",
