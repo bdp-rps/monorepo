@@ -30,8 +30,6 @@ export default function Page({ songs }) {
     })
   }, [])
 
-  console.log(songs, selected)
-
   return (
     <>
       <Header />
