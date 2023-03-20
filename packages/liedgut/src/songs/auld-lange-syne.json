@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Should {D}auld acquaintance {A}be forgot\nand {D}never brought to {G}mind?\nShould {D}auld acquaintance {A}be forgot\nand {G}days of {A}auld lang {D}syne? \n\nFor auld lang {A}syne, my dear,\nfor {D}auld lang {G}syne.\nWe'll {D}tak' a cup o' {A}kindness yet,\nfor {G}auld {A}lang {D}syne.\n\nAnd surely ye'll be your pint-stoup and surely I'll be mine.\nAnd we'll tak' a cup o' kindness yet, for auld lang syne. \n\nWe twa hae run about the braes and pou'd the gowans fine.\nBut we've wander'd mony a weary fit, sin' auld lang syne. \n\nWe twa hae paidl'd in the burn, frae morning sun till dine.\nBut seas between us braid hae roar'd, sin' auld lang syne.\n\nAnd there's a hand, my trusty fiere and gie's a hand o' thine.\nAnd we'll tak' a right gude willie-waught, for auld lang syne.  ",
+  "title": "Auld lange syne",
+  "words": [
+    {
+      "name": "Robert Burns",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1794"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robert Burns",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1794"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Old lange syne",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "1794 schrieb der Schotte Robert Burns für seine Freunde dieses Abschiedslied. Er war finanziell am Ende und glaubte auswandern zu müssen. Das Lied wurde zu einer alten, schottischen Hirtenmelodie gesungen und bald in ganz England bekannt. Seefahrer sangen es beim Auslaufen der Schiffe, bald war es das Abschiedslied überhaupt. Weltweite Verbreitung fand es durch die Pfadfinderbewegung. Fast in jedem Land entwickelten die PFadfinder eine eigene Übersetzung. Die deutsche Übersetzung von Claus Ludwig Laue entstand 1950 und heißt \"Nehmt Abschied, Brüder\"",
+  "changes": [
+    {
+      "date": 1679320579968,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
