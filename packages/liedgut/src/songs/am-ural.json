@@ -1,29 +1,38 @@
 {
+  "notation": "",
+  "content": "{e}Am Ural{D}{e}, fern von der Heimat,{D}{e}\nsitzen Ko{D}saken am Feuer{e}schein.{D}{e}\nDer ein{D}{e}e spielt Balalaika,{D}{e}\ndie {D}Andern, die fall'n mit {e}ein{D}{e}.\n\n{ }Ossa, Ossa,schöne Stadt am Kama.\n{D}Ossa, Ossa,schöne Stadt am Kama.\n{e}Ossa, Ossa,schöne Stadt am Kama.\n{D}Juhei, {e}ju{D}hei {e}ju, ju{D}hei {e}ju,\n{D}juhei, {e}ju{D}hei {e}ju.{D}{e}\n\nDen Pferden gellt's in den Ohren,\nwenn die Kosaken jauchzen und schrein.\nSie geben den Rossen die Sporen,\ndrüben liegt Ossa im Feuerschein.\n\nAm Himmel, da leuchten die Sterne,\nder Wolf heult im finst'ren Tann.\nDie Heimat, sie grüßt von Ferne,\nvergessen ist alle Qual.",
   "title": "Am Ural",
   "words": [
     {
-      "name": "Alexej Stachowitsch",
-      "nickname": "axi"
+      "name": "mündlich überliefert",
+      "nickname": "",
+      "group": "",
+      "organisation": "möglicherweise dj.1.11",
+      "year": ""
     }
   ],
   "tune": [
     {
-      "name": "Alexej Stachowitsch",
-      "nickname": "axi"
-    }
-  ],
-  "beat": "4/4",
-  "tempo": 60,
-  "info": "",
-  "content": "Am {e}Ural{D}, {e}fern von der Heimat{D}, {e}sitzen Kos{D}aken beim Feuer{e}schein{D}.{e}\nDer ein{D}e {e}spielt Balalaik{D}a, {e}die {D}andern stimmen mit {e}ein{D}. {e}\nOssa, Ossa, schöne Stadt am Karmar. {D}Ossa, Ossa, schöne Stadt am Karmar.\n{e}Ossa, Ossa, schöne Stadt am Karmar. {D}Johei, {e}jo{D}hei {e}jo, jo{D}hei {e}jo, {D}johei, {e}jo{D}hei {e}jo.\n\nDen Pferden gellts in den Ohren, wenn die Kosaken jauchzen und schrein.\nSie geben den Rossen die Sporen, drüben liegt Ossa im Feuerschein.\n\nAm Himmel, da leuchten die Sterne, der Wolf heult im finstren Tann.\nDie Heimat, sie grüßt von Ferne, vergessen ist alle Qual.",
-  "changes": [
-    {
-      "name": "Robin Weser",
-      "mail": "robin@bdp-rps.de",
-      "type": "create",
-      "date": 1585221170355
+      "name": "mündlich überliefert",
+      "nickname": "",
+      "group": "",
+      "organisation": "möglicherweise dj.1.11",
+      "year": ""
     }
   ],
   "translation": [],
-  "alternativeTitle": ""
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Der Ural ist ein Gebirge in Russland zwischen dem Europäischen und dem Asiatischen Kontinent, außerdem gibt es einen gleichnamigen Fluss. In dem Lied geht es um den Fluss.\nKosaken sind freie Reiterhorden, die in den osteuropäischen steppen lebten. Sie waren bis ins 18. Jahrhundert selbstständig und wurden dann als Reiterverbände in die russische Armee eingegliedert.\nEine Balalaika ist ein russisches Saiteninstrument mit einem dreieckigen Korpus.\nDer bzw. eigentlich die Kama ist ein Nebenfluss der Wolga.",
+  "changes": [
+    {
+      "date": 1679320377541,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
 }
