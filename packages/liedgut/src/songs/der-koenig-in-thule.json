@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Es {a}war ein König in {F}Thu{C}le,\ngar {d}treu bis an das {E}Grab,\n|:dem {a}sterbend {G}seine {C}Buh{d}le\neinen {a}gold'nen {E}Becher {a}gab. :|\n\nEs ging ihm nichts darüber,\ner leert ihn jeden Schmaus.\n|:Die Augen gingen ihm über,\nso oft er trank daraus. :|\n\nUnd als er kam zu sterben,\nzählt er seine Städt' im Reich,\n|:gönnt alles seinem Erben,\nden Becher nicht zugleich. :|\n\nEr saß beim Königsmahle,\ndie Ritter um ihn her,\n|:auf hohem Vätersaale,\ndort auf dem Schloss am Meer. :|\n\nDort stand der alte Zecher,\ntrank letzte Lebensglut,\n|:und warf den heiligen Becher\nhinunter in die Flut. :|\n\nEr sah ihn stürzen, trinken\nund sinken tief ins Meer.\n|:Die Augen täten ihm sinken -\ntrank nie einen Tropfen mehr. :|",
+  "title": "Der König in Thule",
+  "words": [
+    {
+      "name": "Johann Wolfgang von Goethe",
+      "nickname": "",
+      "group": "",
+      "organisation": "aus \"Faust\"",
+      "year": "1774"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Carl Friedrich Zelter",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1812"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Buhle ist altes dichterisches deutsch und bedeutet Geliebte.\nThule ist eine mystische Insel am Rande der Welt.",
+  "changes": [
+    {
+      "date": 1679406361704,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
