@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "{C}Holt mir Wein aus {F}vollen {C}Krügen,\n{F}Nota{C}bene, {G}Wein vom {C}Sundgau.\nUnd ein Weib soll {F}bei mir {C}liegen,\n{F}Nota{C}bene, {G}eine {C}Jungrau.\n{F}Ach {C}wie {G}hängt {C}sie {F}mir {C}am {G}Munde,\n{F}Nota{C}bene, {G}eine {C}Stunde!\n\nAch das Leben lebt sich lyrisch,\nNotabene, wenn man jung ist.\nUnd es duftet so verführ'ich,\nNotabene, wenn's kein Dung ist.\nAch wie leicht wird hier erreicht doch,\nNotabene, ein vielleicht noch.\n\nLasst die Erde heiß sich drehen,\nNotabene, bis sie kalt ist.\nDeine Liebste sollst du sehen,\nNotabene, wenn sie alt ist.\nLache, saufe, hure, trabe,\nNotabene, bis zum Grabe.",
+  "title": "Das Notabene",
+  "words": [
+    {
+      "name": "Carl Michael Bellmann",
+      "nickname": "",
+      "group": "",
+      "organisation": "Schweden",
+      "year": ""
+    },
+    {
+      "name": "dt. Übersetzung: Klabund(Alfred Henschke)",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Carl Michael Bellmann",
+      "nickname": "",
+      "group": "",
+      "organisation": "Schweden",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Das Notabene bedeutet Merkzeichen/Vermerk. Das gleichgeschriebene Verb bedeutet wohlgemerkt/übrigens.",
+  "changes": [
+    {
+      "date": 1679406077646,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
