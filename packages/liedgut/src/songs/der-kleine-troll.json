@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{D}Steigt so ein kleiner {h}Troll von dem Fjäll,\n{A}nähert sich {D}leis',\n{G}hat in der Hand ein {D}Hexenkraut,\n{A}was niemand {D}weiß.\n\n{D}Sitzt du am {G}Feuer und die {e}Lieder sind ver{A}weht,\n{D}dann bleib {A}ganz {D}stumm.\nDenn in {G}dem Land, das {e}dich umgibt, ist {A}was erwacht\nund {D}schleicht herum.\n\nPlötzlich in deinem Nacken\nspürst du eiskalten Hauch,\nAtem des Trolls trifft dich\nwie giftiger Rauch.\n\nDu führst den Becher Tee nun zum Mund.\nWas zauderst du?\nBlütenstaub im Zaubertrank\nraubt dir die Ruh'.\n\nWenn du in dieser Nacht deinen Schlaf\nfindest nicht mehr:\nDer kleine Troll macht\ndeine Träume so schwer.",
+  "title": "Der kleine Troll",
+  "words": [
+    {
+      "name": "Erik Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Erik Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679406266253,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
