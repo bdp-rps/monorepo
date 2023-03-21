@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Box, Text, Spacer, Checkbox, Button, useTheme } from '@bdp-rps/ui'
 import { PDFViewer, Document, Font } from '@bdp-rps/react-pdf-renderer'
 import { Song, songs as songList } from '@bdp-rps/liedgut'
-import { arrayReduce } from 'fast-loops'
+import { objectMap } from 'fast-loops'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -106,27 +106,20 @@ export default function Page({ songs }) {
 }
 
 export async function getStaticProps() {
-  const songs = arrayReduce(
-    songList,
-    (songs, name) => {
-      const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
+  const songs = require('@bdp-rps/liedgut/lib/songs').default
 
-      const normalizeContent = removeChords(removeBreaks(song.content))
+  const normalizedSongs = objectMap(songs, (song, name) => {
+    const normalizeContent = removeChords(removeBreaks(song.content))
 
-      return {
-        ...songs,
-        [name]: {
-          ...song,
-          sort: normalizeContent.toLowerCase(),
-        },
-      }
-    },
-    {}
-  )
+    return {
+      ...song,
+      sort: normalizeContent.toLowerCase(),
+    }
+  })
 
   return {
     props: {
-      songs,
+      songs: normalizedSongs,
     },
   }
 }

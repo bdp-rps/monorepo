@@ -17,7 +17,7 @@ fs.readdir('./src/songs', (err, files) => {
   }
 
   files
-    .filter((f) => f !== 'index.json')
+    .filter((f) => !f.startsWith('index.js'))
     .map((f) => {
       const song = require('../src/songs/' + f)
 

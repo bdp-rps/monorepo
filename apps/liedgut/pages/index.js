@@ -160,30 +160,23 @@ export default function Page({ songs }) {
 }
 
 export async function getStaticProps() {
-  const songs = arrayReduce(
-    songList,
-    (songs, name) => {
-      const song = require('@bdp-rps/liedgut/src/songs/' + name + '.json')
+  const songs = require('@bdp-rps/liedgut/lib/songs').default
 
-      const content = removeChords(removeBreaks(song.content))
+  const normalizedSongs = objectMap(songs, (song, name) => {
+    const content = removeChords(removeBreaks(song.content))
 
-      return {
-        ...songs,
-        [name]: {
-          ...song,
-          content,
-          normalizedContent: content.toLowerCase(),
-          normalizedTitle: song.title.toLowerCase(),
-          normalizedAlternativeTitle: song.alternativeTitle.toLowerCase(),
-        },
-      }
-    },
-    {}
-  )
+    return {
+      ...song,
+      content,
+      normalizedContent: content.toLowerCase(),
+      normalizedTitle: song.title.toLowerCase(),
+      normalizedAlternativeTitle: song.alternativeTitle.toLowerCase(),
+    }
+  })
 
   return {
     props: {
-      songs,
+      songs: normalizedSongs,
     },
   }
 }
