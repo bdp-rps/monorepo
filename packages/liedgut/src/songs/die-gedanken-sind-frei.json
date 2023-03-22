@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "Die Ge{G}danken sind frei, wer {D}kann sie errat{G}en,\nsie fliegen vorbei, wie {D}nächtliche {G}Schatten.\nKein {D}Mensch kann sie {G}wissen, kein {D}Jäger erschie{G}ßen,\nmit {C}Pulver und {G}Blei: Die Ged{D}anken sind {G}frei!\n\nIch denke was ich will und was mich beglücket,\ndoch alles in der Still und wie es sich schicket.\nMein Wunsch und Begehren kann niemand verwehren,\nes bleibet dabei: Die Gedanken sind frei!\n\nUnd sperrt man mich ein im finsteren Kerker,\nich spotte der Pein und menschliche Werke.\nDenn meine Gedanken zerreißen die Schranken\nund Mauern entzwei: Die Gedanken sind frei!\n\nDrum will ich auf immer den Sorgen entsagen\nund will mich auch nimmer mit Grillen mehr plagen.\nMan kann ja im Herzen stets lachen und scherzen\nund denken dabei: Die Gedanken sind frei!",
+  "title": "Die Gedanken sind frei",
+  "words": [
+    {
+      "name": "Flugblätter",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1780"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Hoffmann von Fallersleben",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1840"
+    },
+    {
+      "name": "Volksweise",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1810 - 1840"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Das Lied handelt von der Gedankenfreiheit und im weiteren Sinn auch von der Meinungsfreiheit, die es zum Zeitpunkt, als das Lied geschrieben wurde, noch nicht wirklich gab.",
+  "changes": [
+    {
+      "date": 1679505435077,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
