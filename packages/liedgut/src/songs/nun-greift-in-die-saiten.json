@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Nun {G}greift in die Saiten und {C}singt uns ein {G}Lied,\nvom {C}Wechsel der {G}Zeiten, dem {D}Keiner ent{G}flieht.\nLasst dröhnen die {C}Bässe, lasst {G}jubeln den Te{C}nor,\naus Nebel und {G}Nässe bricht {D}Sonne her{G}vor!\n\n|:Und ein strah{D}lender {G}Tag geht {C}wie{D}der ins {G}Land. :|\n\nMal Sonne mal Regen, mal Freud' und mal Plag',\nmal brausendes Leben, mal tristester Tag,\nmal traurig und einsam, das Herz dir schier bricht,\nlacht plötzlich dir heilsam mein junges Gesicht.\n\nAuf kretischen Pfaden, in dunkelster Nacht,\ngebeugt und beladen und keiner mehr lacht.\nVergessen die Sorgen, - ein siegreiches Heer -\nbeim dämmernden Morgen am südlichen Meer.",
+  "title": "Nun greift in die Saiten",
+  "words": [
+    {
+      "name": "Rolf Gehrke",
+      "nickname": "gero",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1981"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Walter Oppenburg",
+      "nickname": "robin",
+      "group": "Zugvogel",
+      "organisation": "",
+      "year": "1981"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Ein strahlender Tag",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679515539982,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
