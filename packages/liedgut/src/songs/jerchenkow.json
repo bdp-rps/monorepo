@@ -1,0 +1,52 @@
+{
+  "notation": "",
+  "content": "{a}Jeden Abend träumt Jerchenkow,\nträumt von {E}Nietschni {E7}Nowgo{a}rod.{E7}{a}\n{a}Damals, als der Zar noch lebte,\nvierzig {E}Jahr ist {E7}er schon {a}tot.{E7}{a}\n\n|:Man {d}müsste wieder {a}zwei Pistolen \n{E}und ein {E7}Pferdchen {a}haben,\nda{d}zu mit einer Reiter{a}schar\nnach {E}Nietschni {E7}Nowgorod {a}tra{(E a)}ben.:|\n\n|:d  a  E  a E a:|\n\nAls der Mond stand nachts am Himmel,\nklopften wir beim Starosten an.\nAlles klauten wir dem Lümmel,\nselbst den roten Sarafan.\n\nDreimal ritt ich nach Odessa,\ndreimal sah ich Petersburg.\nAls des Zaren Leibkosaken\nunter Hebnio Saratow.\n\nAn die vielen schönen Feste\ndenk ich sehnsuchtsvoll zurück\nWodka trinken, tanzen, singen,\ndiese Zeit kehrt nie zurück.",
+  "title": "Jerchenkow",
+  "words": [
+    {
+      "name": "ukrainisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "Dieter Krolle",
+      "nickname": "übersetzt von peer",
+      "group": "Nerother Wandervogel",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "ukrainisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "Dieter Krolle",
+      "nickname": "übersetzt von peer",
+      "group": "Nerother Wandervogel",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Tscheftschenkow",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Hatman ist ein gewählter Anführer der Saporoger-Kosaken. Es entspricht eines Ataman bei anderen Kosaken.\nStarost ist slawisch für Ältester. In diesem Lied handelt es sich wahrscheinlich um den Bürgermeister oder den Dorfältesten.",
+  "changes": [
+    {
+      "date": 1679518158226,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
