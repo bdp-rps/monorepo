@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "Eines {d}Morgens ging ich so {F}für mich {C}hin,\nim {d}Julisonnensch{C}ein.\nden {d}Wiesenpfad, den {F}Hang hin{C}ab,\nkam ein sch{d}önes {(B)}Mäg{C}del{d}ein.\nUnd sie {F}lacht mich an und ich fr{C}eu mich daran\nund bew{d}undre ihr nussbraunes {C}Haar.\nEiner {d}lockenden Fee kam ich {F}kaum in die {C}Näh,\nganz verw{d}irrt von dem {(B)}nuss{C}braunen {d}Haar.\n\n|:Oh, from {F}Bantry bay up to {C}Derry Quay\nand from {d}Galway to Dublin {C}Town,\nno maid {d}I have seen like this {F}brown Coll{C}een\nthat I {d}met in the {(B)}count{C}y {d}down. :|\n\nDoch sie ging unbeirrt ihres Weges, verwirrt,\nstand ich da, und nur eins war mir klar.\nAls ein Bauer kam, sprach ich: \"Lieber Mann,\nwer ist die mit dem nussbraunen Haar?\"\nUnd der Mann lacht mich an, und mit Stolz sagt er dann:\n\"Sie ist die Perle von Irlands Kron',\nunsre Rose Mc Cann von den Ufern des Bane\nist der Stern der Landschaft dort!\"\n\nDoch ich sah sie beim Tanz unterm Erntekranz\neines Abends im Sommerkleid.\nDann mit schmeichelndem Blick versucht´ ich mein Glück\num das Herz meiner nussbraunen Maid.\nGeb mein Wort dafür, keinen Pflug ich führ,\nwird das Eisen vom Rost auch braun.\nSitzt an meinem Herd die, die ich begehrt',\nstrahlt der Stern von County down.",
+  "title": "Die nussbraune Maid",
+  "words": [
+    {
+      "name": "irisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "dt. Übersetzung:",
+      "nickname": "",
+      "group": "Fahrtengruppe aus dem Gau Meißner des BDP auf einer Irlandgroßfahrt",
+      "organisation": "",
+      "year": "1957"
+    }
+  ],
+  "tune": [
+    {
+      "name": "schottische Volksweise",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Die Übersetzung des Refrains der Fahrtengruppe gibt es natürlich auch:\nZwischen Bantry Bay und Derry Quay\nund von Galway nach Dublin hinein,\nkein Kind sah ich je wie die braune Fee\njenes Morgens im Sonnenschein.",
+  "changes": [
+    {
+      "date": 1679514686510,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
