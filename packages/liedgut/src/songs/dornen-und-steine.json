@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{e}Hier {G}wächst kein {D}A{e}horn, hier {D}wächst kein Pflaumen{e}baum,\nhier wachsen {G}keine {A}Mädchen{e}herzen, {D}keine Mädchen{e}herzen\n\n|:{e}La {D}Laleralla{e}la {D}Laleralla{e}la {D}Lalerallal{e}a :|\n\nHier wächst der Thymian, hier wächst der Ginsterstrauch.\nund Dornen wachsen aus den Steinen, Dornen aus den Steinen.\n\nHier wächst der Handschar, hier wächst der Flintenlauf\nund blühn wie Lilien, blühn im Mondlicht, Lilien blühn im Mondlicht.\n\nUnd morgen Abend, und wenn der Nachtwind weht, \nkommt unser General geritten, General geritten.\n\nUnd brint uns Raki, hej ho bogami hej,\nund bringt uns tausend Golddukaten, tausend Golddukaten.",
+  "title": "Dornen und Steine",
+  "words": [
+    {
+      "name": "Jooschen Engelke",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Walter Scherf",
+      "nickname": "tejo",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Hier wächst kein Ahorn",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679515090964,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
