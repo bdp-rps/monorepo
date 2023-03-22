@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "Fern hallt {a}Musik, doch hier ist stille Nacht,\nmit {e}Schlummerduft anhauchen mich die Pflanzen.\nIch habe {d}immer, immer dein gedacht;\nich möchte {E}schlafen, aber du musst tanzen,\naber du musst {a}tanzen, aber du musst {F}tanzen,\naber du musst {E}tanzen, aber du musst {a}tanzen.\n\n|:La-la-la-lei {F}la-la-la-la-lei,\n{E}la-la-la-lei {a}la-la-la-la-lei :|\n\nEs hört nicht auf, es rast ohne Unterlass;\ndie Kerzen brennen und die Geigen schreien,\nes teilen und es schließen sich die Reihen\nund alle glühen, Aber du bist blass,\naber du bist blass, aber du bist blass,\naber du bist blass, aber du bist blass.\n\nUnd du musst tanzen, fremde Arme schmiegen\nsich an dein Herz, o leide nicht Gewalt.\nIch seh’ dein weißes Kleid vorüberfliegen\nund deine leichte, zärtliche Gestalt. Aber du musst tanzen,\naber du musst tanzen, aber du musst tanzen,\naber du musst tanzen, aber du musst tanzen.\n\nUnd süßer strömend quillt der Duft der Nacht\nund träumerischer aus dem Kelch der Pflanze.\nIch habe immer, immer dein gedacht,\nich möchte schlafen, aber du musst tanzen,\naber du musst tanzen, aber du musst tanzen,\naber du musst tanzen, aber du musst tanzen.",
+  "title": "Hyazinthen",
+  "words": [
+    {
+      "name": "Theodor Storm",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Manuel Knorz",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "Kalle Johansen",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Hyazinthen sind bunte süßlich duftende Blumen.",
+  "changes": [
+    {
+      "date": 1679517068573,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
