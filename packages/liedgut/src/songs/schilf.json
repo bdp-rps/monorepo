@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Schilf bleicht die langen, {C}welkenden Haare\n{E}strähnengleich unterm {a}Regenwind grau.\nSchilf taucht die heißen {C}Sommerglanztage\n{E}wild in die See, die {a}Möwe schreit rau.\n\n{C}Kiefern im Wind die {G}Klippen sind wach,\n{a}jäh sprüht der See ins {E}Schilfhütten{E7}dach.\n{a}Asche ist auf die {C}uralten Steine\n{E}wie weißer Staub ge{a}weht.\n\nFeuer ist in den dämmernden Stunden\nlange erloschen, Tag wird es schon.\nGraugänse sind am Morgen gekommen,\nwelk auf der Schwelle schläft roter Mohn.\n\nWeht aus den Fugen weit in die Ödmark,\nfrierend macht mich das Sturmsausen taub.\nSchlaft noch und träumt von Felsen und Birken,\nlegt auch im Mantel unter das Laub.\n\nAch, diese letzten Tage und Stunden,\nmorgen ist uns're Fahrt schon vorbei.\nweit ist die alte Tür aufgesprungen,\nstrandhell erschallt der Herbstmöwenschrei.",
+  "title": "Schilf",
+  "words": [
+    {
+      "name": "Walter Scherf",
+      "nickname": "tejo",
+      "group": "",
+      "organisation": "dj.1.11.",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "schwedische Volksweise",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Kiefern im Wind",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Das schwedische Original, Vårvindar friska, handelt nicht etwa von der Pfadfinderromantik, sondern von einem Liebespaar, bei dem der Mann in den Krieg zieht und nicht zurückkehrt. Es wird oft zum Frühjahrsfest der Walpurgisnacht gesungen.",
+  "changes": [
+    {
+      "date": 1679560786963,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
