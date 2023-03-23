@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{G}Lang war die {D}Reise, holt die Segel dicht!\nBald liegt das {G}Schiff in {e}Hafen, {C}es ist {D}Land in {G}Sicht,\n{C}es ist Land in {a}Sicht{D}.\n\n{G}La lala{D}lala lalalalala lala{G}la lala{e}lala  \n{C}lalalala{D}la {C}lalalalala{a}la. {D}\n\nOft sah ich im Nebel die Hand vor Augen nicht.     \nDoch jetzt klärt sich der Himmel, \nes ist Land in Sicht. Es ist Land in Sicht.      \n\nZwei blaue Augen, warm und voller Licht,  \ndie Fahrt ist nun zu Ende,  \nes ist Land in Sicht, es ist Land in Sicht. \n\nIm Traum sah ich die Sonne, die das Dunkel bricht. \nEin Meer voller Blumen,  \nes ist Land in Sicht, es ist Land in Sicht.     \n\nWer weiß ob schon morgen eine neue Zeit anbricht \ndie Fahrt geht immer weiter,  \nes ist Land in Sicht, es ist Land in Sicht. ",
+  "title": "Lang war die Reise",
+  "words": [
+    {
+      "name": "Jörg Ermisch",
+      "nickname": "",
+      "group": "Liederjan",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jörg Ermisch",
+      "nickname": "",
+      "group": "Liederjan",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679560984948,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
