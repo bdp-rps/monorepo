@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{C}Dort an dem {G}Üferchen, {a}entlang dem Fluss Ka{E}sanka,\n{F}ein grau{G}blauer {C}Ent'rich schwamm.\n\n{C}Aida {G}ljuli, {a}aida {E}ljuli,\n{F}ein grau{G}blauer {C}Ent'rich schwamm.\n\nDort an dem Üferchen, entlang dem Fluss Kasanka,\nein gar guter Bursche ging.\n\nSieh, da kommt ein Reiter, führt ein ledig Pferd an.\nDer Bursch behänd hinauf sich schwingt.\n\nBursch, willst du nicht bleiben bei der lieben Mutter\nund dem greisen Vater dein?\n\nSieh, ich lieb die Mutter und den greisen Vater,\ndoch die bunten Mützen der Kosaken lieb ich mehr.\n\nDort auf der Brücke steht ein Mädchen.\nTränen tropfen in den Fluss.\n\nDort an dem Üferchen, entlang dem Fluss Kasanka,\nreiten zwei junge Kosaken dahin.",
+  "title": "Dort an dem Üferchen",
+  "words": [
+    {
+      "name": "Gustav Kemperdick",
+      "nickname": "utta",
+      "group": "",
+      "organisation": "",
+      "year": "ca. 1948"
+    }
+  ],
+  "tune": [
+    {
+      "name": "aus der Ukraine",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679515245401,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
