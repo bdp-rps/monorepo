@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{A}Jo{g}van{A}o,{g} {A}Jo{g}van{A}ke \n|:{d}Kraj Vardarot sed{g}ish, mori \n{C}Belo platno bel{F}ish \n{d}Se na gore {g}gledash, dusho \n{A}Srce {g}moje {A}Jo{a}va{A}no{g}{A} :|\n\nJovano, Jovanke \n|:Jas te tebe chekŕxn, mori \nDoma da mi dojdesh \nA ti ne doagash, dusho \nSrce moje Jovano :|\n\nJovano, Jovanke \n|:Tvoojata majka, mori \nTebe ne te pushta \nTi mene da dojdesh, dusho \nSrce moje Jovano :|",
+  "title": "Jovano, Jovanke",
+  "words": [
+    {
+      "name": "aus Mazedonien",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "aus Mazedonien",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Jovana, Jovanke, du sitzt am Vardar, bleichst das weiße Leinen und schaust nach oben.\nJovana, ich warte auf dich, dass du in mein Haus kommst. Aber du darfst nicht, mein Herz, Jovana.\nJovana, deine Mutter lässt dich nicht zu mir kommen, mein Herz, Jovana.",
+  "changes": [
+    {
+      "date": 1679560637997,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
