@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Der {C}Papa{a}gei ein {d}Vogel {G}ist,\nrot, {C}gelb und {a}grün ge{d}tupft{G}.\nEr {C}wohnt in {a}einem {d}Gummi{G}baum,\nund {C}wenn er {a}da so {d}hupft,\nja dann {G}singt er:\n\n|:\"{C}Inge dinge {a}dinge, {d}use wuse {G}wuse,\n{C}sabadaba{a}daba, ei{d}tei{G}tei!:|\n\nDie Affen im Bananenbaum,\ndie lieben Obstsalat.\nSie werfen mit der Kokosnuss,\ndenn die sind rund und hart,\nund sie singen:\n\nIn Afrika am großen Fluss,\nda wohnt ein Krokodil,\ndas braucht zum Zähneputzen bloß\nnen Schrubber mit nem Stiel,\nund dann singt es:\n\nDas Nilpferd grüne Seife liebt,\ndie es zum Baden nutzt.\nEs schläft so gern am Uferrand,\nund wenn es sich dort putzt,\nja dann singt es:\n\nDer Löwe sehr gefährlich ist,\ndie sind sehr scharf.\nDoch wenn er dieses Liedchen hört,\nwird er ganz sanft und brav\nund dann singt er:\n\nEin alter Elefant im Zoo,\nder kannte dieses Lied noch nicht,\nund weil er so alleine ist,\nmacht er sich ein Gedicht,\nund das lautet:\n\nDer Kuckuck in der Kuckucksuhr\nkommt jede Stunde raus,\ndoch wenn er keine Lust mehr hat,\nbleibt er in seinem Haus\nund man hört nur:\n\nDer Gockelhahn Karl Fridolin\nist Herr im Hühnerstall,\nund alle Hennen lieben ihn,\ndas gibt einen Mordskrawall,\nund sie gackern:\n|:Gack ga gack ga gack gack...:|",
+  "title": "Der Papagei",
+  "words": [
+    {
+      "name": "Peter Ehlebracht",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Peter Ehlebracht",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679504062349,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
