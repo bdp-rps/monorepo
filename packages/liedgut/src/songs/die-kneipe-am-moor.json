@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Kameraden, wann sehen wir uns wieder,\nKameraden, wann kehren wir zur{E}ück?\nWann {a}setzen zum Trunke wir uns nieder\nund genießen ein traumhaftes {E}Glück?\n\nIn der {A}Kneipe am {E}Moor singt\nund {A}spielt einer {E}vor,\nklirren {D}Gläser und {A}Klampfen,\ndie {D}Gesellen, sie {A}stampfen zu dem {D}Sang,\nund der {A}Klang lässt die Männer {E}lau{A}schen.\n\nDer eine liebt Gin oder Wodka,\nder and're, der liebt gar ein Weib,\nder dritte liebt Schwerter und Kämpfe,\ndoch in einem sind alle gleich:\n\nUnd sehen wir uns in Madagaskar\nund treffen wir uns in Rio\nund trennen wir uns in Alaska,\nja dann heißt es beim nächsten Mal:\"Wo?\"",
+  "title": "Die Kneipe am Moor",
+  "words": [
+    {
+      "name": "Georg Zierenberg",
+      "nickname": "",
+      "group": "Nerother Wandervogel",
+      "organisation": "",
+      "year": "1935"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Georg Zierenberg",
+      "nickname": "",
+      "group": "Nerother Wandervogel",
+      "organisation": "",
+      "year": "1935"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Die \"Kneipe vorm Moor\" war ein Güterwaggon, den bündische Gruppen 1925 in's Moor am Heidesee gebracht hatten und der ihnen bis in die Verbotszeit hinein als Treffpunkt diente.",
+  "changes": [
+    {
+      "date": 1679514365842,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
