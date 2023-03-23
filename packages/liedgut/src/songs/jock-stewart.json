@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "For my {C}name is Jock {G}Stewart,\nI'm a {C}canny gaun {F}man,\nAnd a {C}roving young {G}fellow\nI've {C}been.{G}\n\nSo be {C}easy and {G}free,\nwhen you're {C}drinkin' with {F}me,\nI'm a {C}man you don't {G}meet every {C}day.\n\nI have acres of land,\nI have men to command,\nI have always a shilling\nto spare.\n\nNow, I took out my gun\nwith my dog for to shoot\nall down by the river\nKildare.\n\nSo, come fill up your glasses\nwith brandy and wine,\nand whatever the cost,\nI will pay.",
+  "title": "Jock Stewart",
+  "words": [
+    {
+      "name": "traditionelles irisches Varieté-Lied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "traditionelles irisches Varieté-Lied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679560532971,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
