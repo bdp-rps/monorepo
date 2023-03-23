@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Heute {A}hier, morgen dort, bin kaum {D}da,\nmuss ich {A}fort, hab' mich niemals deswegen be{E}klagt.\nHab es {A}selbst so gewählt, nie die {D}Jahre gezählt,\nnie nach {A}gestern und {E}morgen {A}gefragt.\n\nManchmal {E}träume ich schwer und dann {D}denk ich,\nes {A}wär' Zeit zu {E}bleiben\nund nun was ganz {D}andres zu {A}tun.\nSo vergeht Jahr um Jahr und es {D}ist mir längst {A}klar,\ndass nichts bleibt, dass nichts {E}bleibt, wie es {A}war.\n\nDass man mich kaum vermisst, schon nach Tagen vergisst,\nwenn ich längst wieder anderswo bin,\nstört und kümmert mich nicht. Vielleicht bleibt mein Gesicht\ndoch dem ein'n oder anderen im Sinn.\n\nFragt mich einer, warum ich so bin,bleib' ich stumm,\ndenn die Antwort darauf fällt mir schwer.\nDenn was neu ist, wird alt und was gestern noch galt,\ngilt schon heut' oder morgen nicht mehr.",
+  "title": "Heute hier, morgen dort",
+  "words": [
+    {
+      "name": "Hannes Wader",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1972"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Gary Bolstad",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679516879320,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
