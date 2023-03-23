@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Und als wir dann am Abend den {C}See vor uns sah'n,\nfühlten {G}wir den Beginn unsres {a}Abenteuers nah'n,\nund wir {d}stiegen zum {a}U{E}fer hin{a}ab.\n\nLasst uns {F}singen, lasst uns {a}singen,\nlasst die {G}Lieder unsrer Fahrt er{a}klingen.\nLasst uns {F}ziehen, lasst uns {a}ziehen,\nlasst uns {G}weiter durch die Wälder {a}zieh'n.\n\nUnd als die Kohten standen am Steinufersaum,\ntranken wir Tee am Feuer, ein alter Kiefernbaum\ngrüßte knarrend uns später im Schlaf.\n\nUnd als die Sonne morgens aufs Kohtenkreuz schien,\ngab's nur eins und das war aus den Schlafsäcken zu flieh'n\nund zu schwimmen zur Insel hinaus.\n\nUnd morgen geht es weiter, wer weiß schon wohin.\nJeder Tag ist so anders und stets ist er Beginn\nneuer Taten voll Wildheit und Glück.",
+  "title": "Lasst uns singen",
+  "words": [
+    {
+      "name": "Erik Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Erik Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679561099430,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
