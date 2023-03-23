@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{d}Makedonsko devojce, {g}kitka šare{d}na,\nvo gradina nabrana, {A}dar poda{d}rena.\n\n{d}Da{g}li ima na ov{C}oj beli {F}svet\n{Es}poubavo {d}devoj{A}ce od {d}makedonce?\n{d}Nema, {g}nema {C}nek'e se {F}rodi\n{Es}poubavo {d}devoj{A}ce od {d}makedonce?\n\nNema dzvezdi policni od tvoj'te oci,\nda se nok'e na nebo den k'e razdeni.\n\nKoga kosi raspletiš kako koprina,\nlicna si i policna od samovila.\n\nKoga pesna zapee, slavej nadpee,\nkoga oro zaigra srce razigra.",
+  "title": "Makedonsko Devojce",
+  "words": [
+    {
+      "name": "Jonce Hristovski",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1964"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jonce Hristovski",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1964"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679561836415,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
