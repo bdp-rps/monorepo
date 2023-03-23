@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "{D}Zwei mal drei macht {e}vier, \nWiddewidde{A}witt und drei macht {D}neune! \n{D}Ich mach' mir die {e}Welt, widdewidde {A}wie sie mir ge{D}fällt! \n\n{D}Hej, Pippi {G}Langstrumpf, tralle{e}ri trallera tralla {A7}hoppsassa, \n{D}hej, Pippi {G}Langstrumpf, die {A7}macht, was ihr {D}gefällt. \n\nIch {D7}hab' ein {G}Haus, ein {A}kunterbuntes {D}Haus, \nein {h}Äffchen und ein {e}Pferd, \ndie {A}schauen dort zum {D}Fen{G}ster {D}raus. \nIch hab' ein Haus, ein Äffchen und ein Pferd, \nund jeder, der uns mag, \nkriegt unser Einmaleins gelehrt.\n\nDrei mal drei macht sechs, \nwiddewidde wer will's von mir lernen? \nAlle, Groß und Klein, trallalala lad' ich zu mir ein. ",
+  "title": "Hej, Pippi Langstrumpf",
+  "words": [
+    {
+      "name": "Astrid Lindgren",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "übersetzt von Helmut Harun",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Konrad Elfers ",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "aus dem Buch „Pippi Langstrumpf\" ",
+  "changes": [
+    {
+      "date": 1679516779275,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
