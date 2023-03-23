@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{D}Durch die {G}morgenro{D}ten Sch{G}eiben\n{e}lacht der blanke {D}Mai ins Haus,\n|:{D}Lämmer{G}wölkchen {D}will er {G}treiben\nin die {G}blaue {(a)}Welt {D}hin{G}aus. :|\n\nSingend strolcht der liebe Junge\nunter meinem Fensterhin,\nwie ich da mit einem Sprunge\nsingend ihm zur Seite bin.\n\nGleich das jüngste seiner Lieder\nsingt er mir im Wanderschritt,\nimmer wieder, immer wieder\nsing ich's frühlingsselig mit.\n\nWeiße Nacht und blaue Frühe\nund ein gold'ner, gold'ner Tag,\nblühe, junge Sonne, blühe,\nbis die Erde blühen mag.",
+  "title": "Morgenlied im Mai",
+  "words": [
+    {
+      "name": "Walter Flex",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alf Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679562116545,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
