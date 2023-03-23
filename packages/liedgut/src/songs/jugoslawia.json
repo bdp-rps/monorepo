@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{E}Auf weißer Straß' im Sonnenglast,\nTippelino, {H7}tippe{E}lo!\nNichts hält uns auf, nichts hemmt den Lauf,\nTippelino, {H7}tippe{E}lo!\n{A}Jugosl{E}awia so ziehen wir, {H7}heja - \n|:Morgen {E}wiegt sich {E7}unser {A}Kranich\n{E}an der blauen {H7}Adr{E}ia :|\n\nJulische Alpen anzusehen,\nTippelino tippelo!\nBosniens Berge und Moscheen,\nTippelino tippelo!\nWilden Wassern gleich wie Piva, Tara, Lim,\n|:Treibt es uns hin nach Ragusa\nAn die blaue Adria. :|\n\nZagreb, Rijeka, Rab, Zadar,\nTippelino tippelo!\nSibenik, Split, Risar, Mostar,\nTippelino tippelo!\nJugoslawia, bald sind wir wieder da,\n|:Do vidjenia, do vidjenia,\nSchöne blaue Adria. :|",
+  "title": "Jugoslawia",
+  "words": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1679560700701,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
