@@ -26,6 +26,7 @@ const Menu = ({
   places,
   position,
   setPosition,
+  filters,
   setFilters,
 }) => {
   const [isVisible, setIsVisible] = useState(visible)
@@ -51,16 +52,16 @@ const Menu = ({
               overflow: 'scroll',
             }}>
             <NavBar>
-              {/* <NavBarItem
-                active={tab === 'filter'}
-                onClick={() => setTab('filter')}>
-                Filter
-              </NavBarItem> */}
               <NavBarItem
                 active={tab === 'places'}
                 onClick={() => setTab('places')}>
                 Alle Plätze
               </NavBarItem>
+              {/* <NavBarItem
+                active={tab === 'filter'}
+                onClick={() => setTab('filter')}>
+                Filter
+              </NavBarItem> */}
               <NavBarItem
                 active={tab === 'form'}
                 onClick={() => setTab('form')}>
@@ -89,7 +90,7 @@ const Menu = ({
                 />
               </Box>
               <Box display={tab === 'filter' ? 'flex' : 'none'}>
-                <PlaceFilter setFilters={setFilters} />
+                <PlaceFilter setFilters={setFilters} filters={filters} />
               </Box>
             </Box>
             <Spacer size={5} />
