@@ -56,18 +56,6 @@ const PlaceMarker = ({
     return null
   }
 
-  // const eventHandlers = useMemo(
-  //   () => ({
-  //     click() {
-  //       const marker = markerRef.current
-  //       if (marker != null) {
-
-  //       }
-  //     },
-  //   }),
-  //   []
-  // )
-
   return (
     <Marker
       eventHandlers={{
@@ -113,7 +101,7 @@ const PlaceMarker = ({
                 <Text variant="note">
                   {postcode} {place}
                 </Text>
-                <Text note>{street}</Text>
+                <Text variant="note">{street}</Text>
                 <Spacer size={2} />
                 <Text variant="category">Beschreibung</Text>
                 <Text variant="note">
@@ -121,14 +109,19 @@ const PlaceMarker = ({
                     ? 'Keine Angaben'
                     : description}
                 </Text>
-                <Text variant="category">Ausstattung</Text>
-                <Box>
-                  {features
-                    ?.filter((feature) => feature.val)
-                    .map((feature) => (
-                      <Text variant="note">{feature.label}</Text>
-                    ))}
-                </Box>
+                {features?.filter((feature) => feature.val).length > 0 && (
+                  <>
+                    {' '}
+                    <Text variant="category">Ausstattung</Text>
+                    <Box>
+                      {features
+                        ?.filter((feature) => feature.val)
+                        .map((feature) => (
+                          <Text variant="note">{feature.label}</Text>
+                        ))}
+                    </Box>
+                  </>
+                )}
               </>
             )}
             <Spacer size={4} />

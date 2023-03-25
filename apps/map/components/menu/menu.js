@@ -39,16 +39,7 @@ const Menu = ({
             maxWidth="500px"
             minWidth="250px"
             height="100%"
-            bg="white"
-            top={0}
-            left={0}
-            extend={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              zIndex: 10000,
-              overflow: 'scroll',
-            }}>
+            bg="white">
             <NavBar>
               {/* <NavBarItem
                 active={tab === 'filter'}
