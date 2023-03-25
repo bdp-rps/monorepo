@@ -21,15 +21,7 @@ export default function page() {
   }, [])
 
   return (
-    <Box height="100%">
-      <Menu
-        places={places}
-        position={position}
-        setPosition={setPosition}
-        placeMarkerVisible={placeMarkerVisible}
-        setPlaceMarkerVisible={setPlaceMarkerVisible}
-        setFilters={setFilters}
-      />
+    <Box extend={{ position: 'relative', overflow: 'hidden' }} height="100%">
       <Map
         position={
           position !== null
@@ -43,6 +35,14 @@ export default function page() {
         setPlaces={setPlaces}
         placeMarkerVisible={placeMarkerVisible}
         filters={filters}
+      />
+      <Menu
+        places={places}
+        position={position}
+        setPosition={setPosition}
+        placeMarkerVisible={placeMarkerVisible}
+        setPlaceMarkerVisible={setPlaceMarkerVisible}
+        setFilters={setFilters}
       />
     </Box>
   )

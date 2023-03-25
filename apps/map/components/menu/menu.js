@@ -17,6 +17,7 @@ import PlaceList from './placeList'
 import PlaceFilter from './placeFilter'
 import NavBar from './navBar'
 import NavBarItem from './navBarItem'
+import { latLng } from 'leaflet'
 
 const Menu = ({
   visible = false,
@@ -39,7 +40,16 @@ const Menu = ({
             maxWidth="500px"
             minWidth="250px"
             height="100%"
-            bg="white">
+            bg="white"
+            top={0}
+            left={0}
+            extend={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              zIndex: 10000,
+              overflow: 'scroll',
+            }}>
             <NavBar>
               {/* <NavBarItem
                 active={tab === 'filter'}
@@ -63,7 +73,13 @@ const Menu = ({
             <Box padding={5}>
               <Text color="white">Platzfinder</Text>
               <Box display={tab === 'places' ? 'flex' : 'none'}>
-                <PlaceList places={places} setPosition={setPosition} />
+                <PlaceList
+                  places={places}
+                  onMoveTo={(latLng) => {
+                    setPosition(latLng)
+                    setIsVisible(false)
+                  }}
+                />
               </Box>
               <Box display={tab === 'form' ? 'flex' : 'none'}>
                 <PlaceForm

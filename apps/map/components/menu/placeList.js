@@ -16,7 +16,7 @@ const PlaceCard = ({
   postcode,
   features,
   url,
-  setPosition,
+  onMoveTo,
 }) => {
   const [showMore, setShowMore] = useState(false)
   return (
@@ -85,7 +85,7 @@ const PlaceCard = ({
           <Button
             size="small"
             variant="secondary"
-            onClick={() => setPosition({ lat, lng })}>
+            onClick={() => onMoveTo({ lat, lng })}>
             gehe zu
           </Button>
         </Box>
@@ -94,11 +94,11 @@ const PlaceCard = ({
   )
 }
 
-const PlaceList = ({ places, setPosition }) => {
+const PlaceList = ({ places, onMoveTo }) => {
   return (
     <Box space={2}>
       {places.map((place) => (
-        <PlaceCard {...place.attributes} setPosition={setPosition} />
+        <PlaceCard {...place.attributes} onMoveTo={onMoveTo} />
       ))}
     </Box>
   )
