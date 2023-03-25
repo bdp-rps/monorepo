@@ -3,7 +3,6 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-control-geocoder'
 
-import getPlaces from '../../api/getPlaces'
 import ChangeView from './changeView'
 
 import dynamic from 'next/dynamic'
@@ -20,14 +19,9 @@ const Map = ({
   setZoom,
   placeMarkerVisible,
   filters = [],
+  setPlaces,
+  places,
 }) => {
-  const [places, setPlaces] = useState([])
-
-  useEffect(async () => {
-    const data = await getPlaces()
-    setPlaces(data.data)
-  }, [])
-
   useEffect(() => {
     const filteredPlaces = places.filter((item) => {
       Object.keys(filters).map(function (key, index) {

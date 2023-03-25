@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import {
   Box,
   Text,
@@ -13,6 +13,7 @@ import {
 
 import postPlaces from '../../api/postPlaces'
 import PlaceForm from './placeForm'
+import PlaceList from './placeList'
 import PlaceFilter from './placeFilter'
 import NavBar from './navBar'
 import NavBarItem from './navBarItem'
@@ -21,7 +22,9 @@ const Menu = ({
   visible = false,
   setPlaceMarkerVisible,
   placeMarkerVisible,
+  places,
   position,
+  setPosition,
   setFilters,
 }) => {
   const [isVisible, setIsVisible] = useState(visible)
@@ -53,6 +56,11 @@ const Menu = ({
                 Filter
               </NavBarItem> */}
               <NavBarItem
+                active={tab === 'places'}
+                onClick={() => setTab('places')}>
+                Alle Plätze
+              </NavBarItem>
+              <NavBarItem
                 active={tab === 'form'}
                 onClick={() => setTab('form')}>
                 Hinzufügen
@@ -63,6 +71,9 @@ const Menu = ({
             </NavBar>
             <Box padding={5}>
               <Text color="white">Platzfinder</Text>
+              <Box display={tab === 'places' ? 'flex' : 'none'}>
+                <PlaceList places={places} setPosition={setPosition} />
+              </Box>
               <Box display={tab === 'form' ? 'flex' : 'none'}>
                 <PlaceForm
                   position={position}
