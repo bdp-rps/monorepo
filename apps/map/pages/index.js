@@ -7,6 +7,7 @@ import Menu from '../components/menu/menu'
 
 export default function page() {
   const [position, setPosition] = useState(null)
+  const [zoom, setZoom] = useState(13)
   const [filters, setFilters] = useState([])
   const [placeMarkerVisible, setPlaceMarkerVisible] = useState(false)
 
@@ -23,6 +24,8 @@ export default function page() {
             : { lat: 51.42618636026203, lng: 9.478454589843752 }
         }
         setPosition={setPosition}
+        setZoom={setZoom}
+        zoom={zoom}
         placeMarkerVisible={placeMarkerVisible}
         filters={filters}
       />

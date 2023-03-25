@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { Box, Link, Text, Button, Spacer } from '@bdp-rps/ui'
 
-import { Marker, Popup } from 'react-leaflet'
+import { Marker, Popup, useMap } from 'react-leaflet'
 import { icon } from 'leaflet'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 
@@ -48,6 +48,7 @@ const PlaceMarker = ({
   postcode,
   features,
   url,
+  setPosition,
 }) => {
   const markerRef = useRef(null)
   const [moreVisible, setMoreVisible] = useState(false)
@@ -55,8 +56,26 @@ const PlaceMarker = ({
     return null
   }
 
+  // const eventHandlers = useMemo(
+  //   () => ({
+  //     click() {
+  //       const marker = markerRef.current
+  //       if (marker != null) {
+
+  //       }
+  //     },
+  //   }),
+  //   []
+  // )
+
   return (
-    <Marker icon={placeIcon(type)} position={[lat, lng]} ref={markerRef}>
+    <Marker
+      eventHandlers={{
+        click: (e) => setPosition(e.latlng),
+      }}
+      icon={placeIcon(type)}
+      position={[lat, lng]}
+      ref={markerRef}>
       <Popup minWidth={90} className="request-popup">
         <PopupTile title={name}>
           <Box>
