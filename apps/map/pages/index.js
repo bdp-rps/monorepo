@@ -36,7 +36,7 @@ export default function page() {
         placeMarkerVisible={placeMarkerVisible}
         filters={filters}
       />
-      {/* <Menu
+      <Menu
         places={places}
         filters={filters}
         position={position}
@@ -44,7 +44,7 @@ export default function page() {
         placeMarkerVisible={placeMarkerVisible}
         setPlaceMarkerVisible={setPlaceMarkerVisible}
         setFilters={setFilters}
-      /> */}
+      />
     </Box>
   )
 }
