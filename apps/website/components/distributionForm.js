@@ -162,7 +162,7 @@ const DistributionForm = () => {
         <option value="derpiraten">der Piraten</option>
         <option value="robinhood">Robin Hood</option>
         <option value="rotfuchs">Rotfuchs</option>
-        <option value="schwarzermilan">SchwarzerMilan</option>
+        <option value="schwarzermilan">Schwarzer Milan</option>
         <option value="sturmvogel">Sturmvogel</option>
         <option value="tilia">Tilia</option>
         <option value="tscherkessen">Tscherkessen</option>
