@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{e}Welle wogte {C}an den {e}Strand,\ngriff nach eines {C}Mädchens {D}Hand,\n{G}das in Abend{h}sonnen{e}gl{h}ut,\n{e}heimwärts wandert {C}durch die {e}Flut.\n\nZarte Brust und schlanker Fuß,\nwahrt euch vor des Schmeichlers Gruß:\n\"Höre, Kind, mein sanft Gebot,\nwarte, bleib, ich bin der Tod.\"\n\nDrüben ruft der liebe Glück.\nSchmachvoll wär's, blieb ich zurück.\nDort im Fluss, der helle Klang.\nWar's ein Fisch, der spielend sprang?\n\nSchlanker Fuß und zartes Herz\nharrt der Fähre heimatwärts.\nHör auf mich, die Welle droht,\nwarte, Kind! Ich bin der Tod.\n\nLiebster ruft, da muss ich eilen.\nSchande träf' mich, wollte ich weilen.\nWelle, Welle wogt und ringt,\nmächtig ihren Leib umschlingt.\n\nTöricht Herze, treue Hand,\nkleiner Fuß trat nie ans Land.\nWelle wandert, Welle rot,\nwogt hinab und trägt den Tod.",
+  "title": "Welle wogte",
+  "words": [
+    {
+      "name": "Dagobert von Mikusch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Ulrich Steckel",
+      "nickname": "tuck",
+      "group": "",
+      "organisation": "BdP",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680019580903,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
