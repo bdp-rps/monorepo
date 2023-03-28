@@ -1,0 +1,22 @@
+{
+  "notation": "",
+  "content": "Des {E}Nachts wohl um halb Zwölfe\ntönt {H7}uns ein Lied ans {E}Ohr.\nEs ist das Lied der Wölfe,\nsie {H7}heulen all im {E}Chor:\nJa-huu, Ja-huu, {H7}Ja-huu, Jahuu, Ja-{E}huu,\nJa-huu, Ja-huu, {H7}Ja-huu, Jahuu, Ja-{E}huu.",
+  "title": "Wolfskanon",
+  "words": [],
+  "tune": [],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680020309125,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
