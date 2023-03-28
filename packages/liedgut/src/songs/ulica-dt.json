@@ -1,0 +1,38 @@
+{
+  "notation": "A2 | \"d\" A2 z A A2 z A | A2 F2 E2 F2 | E2 D2 z4| z5 d2 | d3 d d2 z d | d3 D E2 F2|\n\"g\" G6 z2| z6 |: B2| c3 B B2 z2| c3 B B4| \"d\" B3 A A2 D2| B3 A A4|  \"A\" A3 G G2 B2|\n[1 \"A\" A2 G2 F2 G2 | \"d\" A8 -| \"D7\" c6:| [2 \"A\" A2 G2 F2 E2 | \"d\" D8 |: \"g\" c3-B B2 B2|  c2 B2 B2 z2| \"d\" B2 A2 A2 D2|\n\"d\" B2 A2 z2 A A| \"A\" A2 G2 G2 B2 |[1 A2 G2 F2 G2| \"d\" A8 -| \"D7\" c6:| [2 \"A\" A2 G2 F2 E2 | \"d\" D6|]",
+  "content": "|:{g}Ulica, ulica, {d}ulica radnaja.\nMassa{A7}jerowskaja ulica ma{d}ja. {(D7)}:|\n\nWer {d}kennt sie nicht, die Straße an der Ecke,\nach {D7}Freunde, uns’re Straße, Tag und {g}Nacht.\n|:{g}Innenhöfe vollgestellt, {d}Oma die Kartoffeln pellt,\nund {A7}Menschen gefüllt bis unters {d}Dach.{(D7)} :|\n\nWas hat die Zeit der Straße genommen?\nMassajerowskaja einst warst du mein Glück.\n|:Trotz dem neuem Krankenhaus, kommen jetzt nur Kranke raus\nSchick nur unsern Feind dorthin zurück. :|\n\nFrüher war'n die Leute noch zufrieden,\nunzählige waren da und kamen wieder.\n|:Im Galopp entstanden dort, dort an unser’m Lieblingsort\nMassajerowskaja Straße, meine Lieder. :|",
+  "title": "Ulica (dt.)",
+  "words": [
+    {
+      "name": "aus Russland",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "aus Russland",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680019077049,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
