@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{G}Wenn auf {D7}leeren Feldern,\n{e}die Ul{a}anen {D}reiten.\n|:{G}Mar{C}uschka moja, {G}Mar{C}uschka moja,\n{G}kommen {D7}schwere {G}Zeiten. :|\n\nHuhn und weißer Ganter,\nwander in die Pfanne.\n|:Maruschka moja, Maruschka moja,\nleer wird Krug und Kanne. :|\n\nVor dem Tor im Schatten,\nsitzen sie und lachen:\n|:Maruschka moja, Maruschka moja,\nhütte deine Sachen. :|\n\nPfeife rauchen sie und\nsingen freche Lieder:\n|:Maruschka moja, Maruschka moja,\nlauf und kehr nie wieder. :|\n\nHaben sie am Ende\ndich auch noch bestohlen?\n|:Maruschka moja, Maruschka moja,\ndenk es wär für Polen. :|",
+  "title": "Ulanen",
+  "words": [
+    {
+      "name": "Erich Scholz",
+      "nickname": "olka",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "polnisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680018988250,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
