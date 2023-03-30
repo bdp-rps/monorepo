@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Was {a}kann ich denn dafür? So {C}kurz vor meiner Tür,\nda {G}fingen sie mich ein und bald {a}endet meine Pein.\nIch hatte niemals Glück, mein tr{C}ostloses Geschick,\nnahm {G}keinen von euch ein, ja, heut {a}soll gestorben sein.\n\n|:Wenn der Nebel auf das {G}Moor sich senkt,\nder {F}Piet am {E}Galgen {a}hängt. :|\n\nSie nahmen mir die Schuh und auch den Rock dazu.\nSie banden mir die Händ' und mein Haus, es hat gebrennt.\nIch sah den Galgen steh'n, sie zwangen mich zu gehn.\nSie wollten meinen Tod, keiner half mir in der Not.\n\nWas kratzt da am Genick? Ich spür den rauen Strick.\nEin Mönch, der betet dort und spricht für mich fromme Wort.\nDie Wort, die ich nicht kenn, wer lehrte sie mir denn?\nFünf Raben fliegen her, doch ich sehe sie nicht mehr.",
+  "title": "Piet am Galgen",
+  "words": [
+    {
+      "name": "Eric Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Eric Martin",
+      "nickname": "mac",
+      "group": "",
+      "organisation": "Waldjugend",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Piet ist eine, aus der Fantasie macs entsprungenen, Fantasiegestalt, die auch in seinen Geschichten vorkommt.",
+  "changes": [
+    {
+      "date": 1680012860375,
+      "name": "Torben",
+      "mail": "test.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
