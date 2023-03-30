@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{}A{F}de {C7}zur {F}guten Nacht, {C7}jetzt {F}wird {C7}der {F}Schluss gemacht, dass ich muss {C7}schei{F}den.\n/: Im Sommer, da {B}wächst der Klee, im {C7}Winter, da {F}schneit's den Schnee, da komm ich {C7}wie{F}der. :/\n\nEs trauern Berg und Tal, wo ich viel tausendmal, bin drüber gangen.\nDas hat deine Schönheit gemacht, die hat mich zum Lieben gebracht mit großem Verlangen.\n\nDas Brünnlein rinnt und rauscht, wohl dort am Holderstrauch, wo wir gesessen.\nWie manchen Glockenschlag, da Herz bei Herzen lag, das hast du vergessen.\n\nAch wär' ich ein großer Herr, zög' niemandem hinterher, ein Taler zu erben.\nIch stünd da am Heckenzaun, nur um nach dir auszuschaun und um dich zu werben.",
+  "content": "{}A{F}de {C7}zur {F}guten Nacht, {C7}jetzt {F}wird {C7}der {F}Schluss gemacht, dass ich muss {C7}schei{F}den.\n/: Im Sommer, da {B}wächst der Klee, im {C7}Winter, da {F}schneit's den Schnee, da komm ich {C7}wie{F}der. :/\n\nEs trauern Berg und Tal, wo ich viel tausendmal, bin drüber gangen.\nDas hat deine Schönheit gemacht, die hat mich zum Lieben gebracht mit großem Verlangen.\n\nDas Brünnlein rinnt und rauscht, wohl dort am Holderstrauch, wo wir gesessen.\nWie manchen Glockenschlag, da Herz bei Herzen lag, das hast du vergessen.\n\nAch wär' ich ein großer Herr, zög' niemandem hinterher, ein Taler zu erben.\nIch stünd da am Heckenzaun, nur um nach dir auszuschaun und um dich zu werben.\n\nAlternative Version der letzten Strophe (mir häufiger untergekommen):\n\nDie Mädchen in der Welt, sind Falscher als das Gelt, mit ihrem Lieben.\nAde zur guten Nacht, jetzt wird der Schluss gemacht, dass ich muss scheiden.\n\nSarkastisch hinzugedichtet durch Hannes Wader:\n\nNur Männer verhalten sich, stets edel und vorbildlich, sie sind vollkommen.\nAde zur guten Nacht, jetzt wird der Schluss gemacht, dass ich muss scheiden.",
   "title": "Ade zur guten Nacht",
   "words": [
     {
@@ -39,6 +39,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Formattierung"
+    },
+    {
+      "date": 1680033343424,
+      "name": "hutmann",
+      "mail": "Nicolas.metz05@gmail.com",
+      "type": "update",
+      "content": ""
     }
   ]
 }
