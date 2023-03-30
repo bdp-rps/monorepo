@@ -24,8 +24,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "date": 1585221170356
+    },
+    {
+      "date": 1680020031255,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "update",
+      "content": "Alternativtitel ergänzt"
     }
   ],
   "translation": [],
-  "alternativeTitle": ""
+  "alternativeTitle": "Grau ist der Regen"
 }
