@@ -18,6 +18,13 @@
       "group": "Flötenweise",
       "organisation": "",
       "year": "1553"
+    },
+    {
+      "name": "Tilman Susato (laut dem Liederbuch des LV NRW)",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
     }
   ],
   "translation": [],
@@ -31,6 +38,13 @@
       "name": "cätch",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1680030104567,
+      "name": "Nicolas Metz (hutmann)",
+      "mail": "Nicolas.metz05@gmail.com",
+      "type": "update",
       "content": ""
     }
   ]
