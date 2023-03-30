@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Wir {d}fahren über's weite Meer,\n{g}holla ballo bal{d}ay! {g}Holla baloo bal{d}oo balay!\ndie Heimat sieht uns {A}nimmermehr,\nholla baloo ba{d}lay!\n\nVom Maste weht ein schwarzes Tuch,\nholla ballo balay! Holla baloo baloo balay!\nVielleicht trifft uns der Heimat Fluch,\nholla baloo balay!\n\nDas wilde Wasser rauscht und schäumt,\nholla ballo balay! Holla baloo baloo balay!\nManch einer von den Sternen träumt,\nholla baloo balay!\n\nOh Bruder lass das Träumen sein,\nholla ballo balay! Holla baloo baloo balay!\nVieleicht muss bald gestorben sein,\nholla baloo balay!\n\nUnd gilts dem Tod, wir fechtens aus,\nholla ballo balay! Holla baloo baloo balay!\nVon uns will keiner mahr nach Haus\nholla baloo balay!",
+  "title": "Wir fahren übers weite Meer",
+  "words": [
+    {
+      "name": "Karl Seidelmann",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Englischer Shanty",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680020154462,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
