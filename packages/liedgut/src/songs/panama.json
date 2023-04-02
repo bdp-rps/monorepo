@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Jeden Kilometer spielt ein Jazztrompeter\nnach der neusten Welle {D7}Pana{G}ma!\n{D7}Auf den {G}Zuchthaustreppen sieht man Menschen steppen\nnach der neusten Welle {D7}Pana{G}ma!\n\nPanama, das ist kein Zuchthaus!\nPanama, das ist kein Sing-{D7}Sing!\nPanama, das ist die Hochburg,\ndas ist die Hochburg für den {G}Swing! Ja, ja, ja,\n|:{C}Pa-pa-Panama, {G}Pa-pa-Panama,\n{D7}Pa-pa-Panama, oo-{G}lee, {D7}oo-{G}lee :|\n\nSchönes Wetter heute und so viele Leute\nalle tanzen heute: Panama!\nSchalt das Radio an, Radio Moskau dran\nauf der neusten Welle Panama!\n\nUnd der alte Opa und die alte Oma\nsingen hellbegeistert: Panama!\nSitzen hinterm Ofen und sind wüst am schofen,\nlautstark spielt das Radio: Panama",
+  "content": "{G}Jeden Kilometer spielt ein Jazztrompeter\nnach der neusten Welle {D7}Pana{G}ma!\n{D7}Auf den {G}Zuchthaustreppen sieht man Menschen steppen\nnach der neusten Welle {D7}Pana{G}ma!\n\nPanama, das ist kein Zuchthaus!\nPanama, das ist kein Sing-{D7}Sing!\nPanama, das ist die Hochburg,\ndas ist die Hochburg für den {G}Swing! Ja, ja, ja,\n/:{C}Pa-pa-Panama, {G}Pa-pa-Panama,\n{D7}Pa-pa-Panama, oo-{G}lee, {D7}oo-{G}lee :/\n\nSchönes Wetter heute und so viele Leute\nalle tanzen heute: Panama!\nSchalt das Radio an, Radio Moskau dran\nauf der neusten Welle Panama!\n\nUnd der alte Opa und die alte Oma\nsingen hellbegeistert: Panama!\nSitzen hinterm Ofen und sind wüst am schofen,\nlautstark spielt das Radio: Panama",
   "title": "Panama",
   "words": [
     {
@@ -25,13 +25,20 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "",
-  "info": "",
+  "info": "Strophe 1 geändert (nicht politisch korrekter Begriff ausgetauscht)",
   "changes": [
     {
       "date": 1680012759989,
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1680453427217,
+      "name": "Philipp",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
