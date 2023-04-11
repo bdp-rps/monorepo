@@ -15,6 +15,8 @@ import {
   arrayFilter,
   objectMap,
   objectReduce,
+  objectFilter,
+  objectEach,
 } from 'fast-loops'
 
 import { songs as songList } from '@bdp-rps/liedgut'
@@ -44,6 +46,7 @@ function SongList({ songs }) {
         normalizedTitle,
         normalizedContent,
         normalizedAlternativeTitle,
+        duplicateTitle,
       },
       name
     ) => {
@@ -90,11 +93,16 @@ function SongList({ songs }) {
         </>
       )
 
+      const start = content.substr(0, 30).split(' ')
+      start.pop()
+      const context = start.join(' ')
+
       return {
         isVisible,
         title: shownTitle,
         content: shownContent,
         hasNotation,
+        context: duplicateTitle ? context : undefined,
       }
     }
   )
@@ -105,11 +113,18 @@ function SongList({ songs }) {
     0
   )
 
+  const totalHitsWithNotation = objectReduce(
+    hits,
+    (totalHits, { isVisible, hasNotation }) =>
+      totalHits + (isVisible && hasNotation ? 1 : 0),
+    0
+  )
+
   return (
     <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={4}>
       <TextInput
         {...search.props}
-        description={`${totalHits} Lieder gefunden`}
+        description={`${totalHits} Lieder gefunden • ${totalHitsWithNotation} mit Melodie`}
         placeholder={
           'Suche nach Titel oder Liedtext z.B. "Am Ural" oder "schöne Stadt am Karmar"'
         }
@@ -117,7 +132,7 @@ function SongList({ songs }) {
 
       <Box>
         {arrayMap(Object.keys(hits), (name) => {
-          const { title, content, hasNotation, isVisible } = hits[name]
+          const { title, content, hasNotation, isVisible, context } = hits[name]
 
           return (
             <ListItem
@@ -129,6 +144,7 @@ function SongList({ songs }) {
               <Box direction="row" alignItems="center">
                 <Box grow={1}>
                   <Text color={theme.tokens.primary}>{title}</Text>
+                  {context && <Text color="grey">{context} ...</Text>}
                   {isFiltered && <Text>{content}</Text>}
                 </Box>
                 {hasNotation && (
@@ -165,12 +181,22 @@ export async function getStaticProps() {
   const normalizedSongs = objectMap(songs, (song, name) => {
     const content = removeChords(removeBreaks(song.content))
 
+    const normalizedTitle = song.title.toLowerCase()
+
+    const sameTitleSongs = Object.keys(
+      objectFilter(
+        songs,
+        (song, name) => song.title.toLowerCase() === normalizedTitle
+      )
+    )
+
     return {
       ...song,
       content,
       normalizedContent: content.toLowerCase(),
-      normalizedTitle: song.title.toLowerCase(),
+      normalizedTitle,
       normalizedAlternativeTitle: song.alternativeTitle.toLowerCase(),
+      duplicateTitle: sameTitleSongs.length > 1,
     }
   })
 

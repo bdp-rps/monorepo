@@ -26,7 +26,7 @@
     "clean": "rimraf lib es coverage",
     "songlist": "babel-node scripts/songList",
     "normalize": "babel-node scripts/normalize",
-    "build": "pnpm clean &&  pnpm normalize && pnpm songlist && pnpm build:package",
+    "build": "pnpm clean && pnpm normalize && pnpm songlist && pnpm build:package",
     "build:package": "pnpm build:es && pnpm build:lib",
     "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
     "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",

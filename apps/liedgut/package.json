@@ -17,7 +17,7 @@
     "@bdp-rps/react-pdf-renderer": "workspace:*",
     "@bdp-rps/ui": "workspace:*",
     "@bdp-rps/liedgut": "workspace:*",
-    "abcjs": "6.0.0-beta.19",
+    "abcjs": "^6.2.0",
     "node-fetch": "^2.6.0",
     "onegraph-auth": "^2.2.1",
     "next": "^12.0.7",
