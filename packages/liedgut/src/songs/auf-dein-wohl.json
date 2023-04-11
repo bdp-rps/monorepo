@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Auf dein {C}Wohl und wir {e}heben, wir {F}trinken auf das {C}Leben,\ngib dein {a}Glas zum Ge{d}nuss, ver{G}treibe Gott zum Gruß.\nAuf dein {C}Wohl und wir {e}glauben, wir {F}haben alle {C}Macht,\nsei ein {a}Freund, heute {G}lacht uns die {C}Nacht!\n\nGrüß dich {C}wohl, wo bist {G}du in der {C}Welt abge{G}stellt?\nHast du {a}auch noch dies {d}Feuer im {G}Blut?\nHaben {C}wir, tausend {G}Mann, Freunde {C}von dir und {G}mir,\nkomm, wir {a}feiern wie {F}lodernde {G}Glut.\n\nSag, wie weit bist du schon in dem Land wohl bekannt,\nin dem Land voller Freunde und Sinn?\nLiebst du auch, so wie wir, den lebendigen Brauch?\nGeh'n die Zeiten daher und dahin.\n\nWeiter geht's, bist du endlich bereit für die Zeit,\nfür die Zeiten voll Wahrheit und Glück?\nAlt ist alt, neu ist neu, lass uns leben getreu\nunsrer Wahl und wir schau'n nicht zurück!",
+  "title": "Auf dein Wohl",
+  "words": [
+    {
+      "name": "Robert Welti",
+      "nickname": "rökan",
+      "group": "",
+      "organisation": "Piratenschaft Stormann",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robert Welti",
+      "nickname": "rökan",
+      "group": "",
+      "organisation": "Piratenschaft Stormann",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "C",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681243300516,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
