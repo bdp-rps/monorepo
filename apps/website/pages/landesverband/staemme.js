@@ -1,14 +1,5 @@
 import * as React from 'react'
-import {
-  Box,
-  NavBar,
-  NavBarItem,
-  Text,
-  useTheme,
-  Spacer,
-  Tile,
-  Link,
-} from '@bdp-rps/ui'
+import { Box, Text, Tile, Link } from '@bdp-rps/ui'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'

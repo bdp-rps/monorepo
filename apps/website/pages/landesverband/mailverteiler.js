@@ -13,7 +13,7 @@ export default () => (
         <Text variant="subtitle">Mail Verteiler</Text>
         <Text>
           Hier könnt ihr euch für die LV-Mailverteiler an- und abmelden. Tragt
-          zu euren Namen, den Stammesnamen und eure Mailadresse ein.
+          dazu euren Namen, den Stammesnamen und eure Mailadresse ein.
         </Text>
       </Box>
     </Layout>
