@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{d}Im blinden Alligator, das {A7}kommt mir sogleich spanisch {d}vor.\n{d}Im blinden Alligator da {A7}singt man mit Herz und {d}Humor\nvom {C}armen {C7}Fischer {F}Pedro, En{g}rico dem To{F}rero,\nund {A7}von der schönen {d}Bianca, \ndie {A}fächernd lächelt vom ver{d}gitter{g}ten Bal{d}kon.\n\n{d}Kreist der {g}Murietta{d}wein, {g}fallen {d}die Se{A}nores {d}ein.\n{d}Wirbel{g}tänze: Malam{d}ba, {g}Chaqua{d}rera, {A}Sardana. Ole!\n\nDer blinde Alligator schluckt jeden auf eigene Art.\nEr schluckt auch die Pesetas die Ramon und José gespart.\nDen Sodabrenner Jefre schnitt Maja auf der Plaza.\nSie schnitt ihn mit Grandezza.\nJetzt spielt er Karten wie besessen und gewinnt.\n\nDes Korans dritte Sure ist auch für den Spanier gemacht.\nTrotz seines Glaubens Glorie, er schwört auf des Koranes Macht;\n\"Der Mann steht vor dem Weibe.\" - Es opfert gleich für beide\nder Sodabrenner Kerzen,\ndas bringt entflammte Herzen über eine Nacht.",
+  "title": "Im blinden Alligator",
+  "words": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "Text 1962 und Melodie 1944"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "Text 1962 und Melodie 1944"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Dm",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681332652529,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
