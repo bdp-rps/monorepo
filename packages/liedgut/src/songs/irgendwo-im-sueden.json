@@ -1,0 +1,30 @@
+{
+  "notation": "",
+  "content": "{a}Irgendwo im {F}Süden von {a}Dixi\n{a}(bricht {d}mir's {C}Herz {E}im {a}Traum)\n{E}hingen {E7}sie meinen {a}jun{E}gen {C}schwar{d}zen {E}Lieb{a}sten\n{a}an einem {F}Wegkr{E}euz{a}baum.\n\nIrgendwo im Süden von Dixi\n(geschändet hängt er im Wind)\nfragte ich den weißen Herren Jesus\nwofür Gebete sind.\n\nIrgendwo im Süden von Dixi\n(bricht mir's Herz im Traum)\nist die Liebe ein nackter Schatten an einem\nknorrigen kahlen Baum.",
+  "title": "Irgendwo im Süden",
+  "words": [],
+  "tune": [
+    {
+      "name": "Ulrich Becker",
+      "nickname": "uli",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1958"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "Nach dem Gedicht \"Song for a Dark Girl\" von Langston Hughes.",
+  "changes": [
+    {
+      "date": 1681412030367,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
