@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Von {C}Blatt und Blüte wusch der Regen \ndes letzten Tages {G}Staub und Ruß.\nAuf {F}grünen flachen Ufer{G}wegen \nbegleiten {F}wir den letzten {C}Fluss.\nDen {G}letzten Rest der Nacht durch{G7}bricht \ndes {F}Mondes {G}bleiches {C}Silberlicht.\n\nWir wandern gut. Des Morgens Kühle \nbeschwingt den Fuß. Ein frohes Lied\nverscheucht die Schwermut der Gefühle, \nmit der die Nacht uns noch umzieht.\nEin Nebelschleier senkt sich grau\nund schmückt die Lotusbank mit Tau.\n\nEin Bächlein lustig plätschernd schlingt sich\nquer durch den Reis. Fern tönt Gebell\nvon Hunden. Aus dem Neste schwingt sich\nein Vogel und entflattert schnell.\nDie Dämm'rung schimmert durch den Hag:\nZehn Meilen noch, dann ist Tag.",
+  "title": "Aufbruch in der Frühe",
+  "words": [
+    {
+      "name": "Vincenz Hundhausen",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jörg Seyffarth",
+      "nickname": "Plauder",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2004"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "C",
+  "info": "Nachdichtung eines chinesischen Textes von Bo Dju Yi aus dem 8. Jhd. n. Chr..",
+  "changes": [
+    {
+      "date": 1681330685823,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
