@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Du schöner {a}Leichtfuß, mit diesen Augen! \nIch {F}würde dich so {G}gern ganz bald mal {C}wiederseh'n,\nmich {d}selbst nicht mehr versteh'n, denn dich {a}brauch ich,\num den {F}Sommer anzuhalten, da{C}mit nicht so bald wieder {G}Winter wird.\nKalter {a}Winter wird, einsamer {E}Winter wird.\n{F}Mit dir wär jeden Tag Markt {C}unter meinem Fenster,\n{d}du wärst der, über den ich {a}schimpfen kann,\nmit dem Ge{G}müsemann oder der {E}Blumenfrau!\nUnd viel{F}leicht hängt sie dann mal einen {C}Mistelzweig über {E}uns?\n\n{F}Das was in mir ist, es würde {C}nie wieder leise,\nbeim {d}Bier auf'm Platz wär ich {a}nicht mehr allein.\nWir {F}zwei würden uns {C}- nie verraten,\nund ich {d}könnte jede Nacht ganz {E}real bei dir {E7}sein!\n\nIm alten Sommerregen würden wir tanzen im Hof,\nder Biergarten könnte das Hauptquartier sein.\nIch glaub fast für dich fänd' ich nie die besten Worte,\ndoch ich weiß, es könnte großartig sein.",
+  "title": "Du schöner Leichtfuß",
+  "words": [
+    {
+      "name": "Sophia Kuhn",
+      "nickname": "venija",
+      "group": "",
+      "organisation": "Laninger Wandervogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Sophia Kuhn",
+      "nickname": "venija",
+      "group": "",
+      "organisation": "Laninger Wandervogel",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681411168258,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
