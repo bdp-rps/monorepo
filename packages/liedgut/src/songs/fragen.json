@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{C}Sind denn wirklich {G}all die Träume {e}nichts als Bauch und {a}Schmerz?\nHat ein {C}dunkles Haus im {F}Walde doch ein {e}warmes Licht als {G}Herz?\n/: {G7}Himmel, {C}sag, hast du's ge{G}zwungen oder {a}war ich's selber {e}gar?\nHab ich {C}etwa eben {e}selbst dies Lied ge{G}sungen? :/\n\nWird denn wirklich immer wieder jeder Mensch gefällt?\nWehr ich mich denn nicht wie keiner, keiner, keiner auf der Welt?\n\nBin ich eigentlich am Leben oder schlaf ich lang?\nHab ich selber denn verweigert, was ich früher süchtig sang?\n\nKann denn sein, dass selber ich bin Krieg, Gewalt und Tod?\nIch bin stark und starr und steh mit einem Bein im gleichen Boot.\n\nHimmel sag, hast du's gefressen oder war ich's selber gar?\nHab ich etwa eben selbst dies Lied vergessen?",
+  "title": "Fragen",
+  "words": [
+    {
+      "name": "Robert Welti",
+      "nickname": "rökan",
+      "group": "",
+      "organisation": "Piratenschaft Stormann",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robert Welti",
+      "nickname": "rökan",
+      "group": "",
+      "organisation": "Piratenschaft Stormann",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "C",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681417678149,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
