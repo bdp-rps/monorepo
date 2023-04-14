@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{e}Wenn die Stern am Himmel steigen,\nüber {H7}unserm kleinen {e}Dom.\nBricht der Jeduschka sein Schweigen,\nBala{H7}laika spielt der {e}Sohn.\n{G}Ehja Ta{D}mara {G}tan{D}ze, {G}tanze!\nEhja Ta{D}mara {G}tan{D}ze, {G}Kind!\nEhja Ta{D}mara {G}tan{D}ze, {G}tanze!\nEhja Ta{D}mara {G}tan{D}ze, {G}tanz' gesch{e}wind.\n\nDie Babuschka dreht die Mühle,\ndreht die Mühle mit dem Mohn.\nDoch beim Balalaika-Spiele\nlässt sie Mühle steh'n und Mohn.\n\nPaare drehen ihre Reigen\num den hellen Feuerschein.\nFeurig sind die alten Weisen,\nfeurig ist der dunkle Wein.",
+  "title": "Tanze Tamara",
+  "words": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1954"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1954"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Em",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681413199447,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
