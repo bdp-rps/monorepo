@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Box, Text, Spacer, Tile, Button } from '@bdp-rps/ui'
 import PopupTile from '../map/popupTile'
+import { sizeToString, typeToString } from '../../utils'
 
 const PlaceCard = ({
   lat,
@@ -23,8 +24,8 @@ const PlaceCard = ({
     <Tile title={name}>
       <Box>
         <Text variant="category">Allgemeine Infos</Text>
-        <Text variant="note">Größe: {size}</Text>
-        <Text variant="note">Typ: {type}</Text>
+        <Text variant="note">Größe: {sizeToString(size)}</Text>
+        <Text variant="note">Typ: {typeToString(type)}</Text>
         <Spacer size={2} />
         {showMore && (
           <>

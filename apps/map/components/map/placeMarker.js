@@ -11,6 +11,8 @@ import heim from '../../public/images/heim.svg'
 import lager from '../../public/images/lager.svg'
 
 import PopupTile from './popupTile'
+import { sizeToString, typeToString } from '../../utils'
+
 const placeIcon = (type) => {
   let iconSvg = stammesheim
   switch (type) {
@@ -68,8 +70,8 @@ const PlaceMarker = ({
         <PopupTile title={name}>
           <Box>
             <Text variant="category">Allgemeine Infos</Text>
-            <Text variant="note">Größe: {size}</Text>
-            <Text variant="note">Typ: {type}</Text>
+            <Text variant="note">Größe: {sizeToString(size)}</Text>
+            <Text variant="note">Typ: {typeToString(type)}</Text>
             <Spacer size={2} />
             {moreVisible && (
               <>
