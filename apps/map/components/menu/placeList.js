@@ -64,7 +64,6 @@ const PlaceCard = ({
             </Text>
             {features?.filter((feature) => feature.val).length > 0 && (
               <>
-                {console.log()}
                 <Text variant="category">Ausstattung</Text>
                 <Box>
                   {features

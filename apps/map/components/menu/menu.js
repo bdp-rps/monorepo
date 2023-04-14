@@ -13,6 +13,7 @@ import {
 
 import postPlaces from '../../api/postPlaces'
 import PlaceForm from './placeForm'
+import PlaceInfo from './placeInfo'
 import PlaceList from './placeList'
 import PlaceFilter from './placeFilter'
 import NavBar from './navBar'
@@ -66,12 +67,16 @@ const Menu = ({
                 onClick={() => setTab('form')}>
                 Hinzufügen
               </NavBarItem>
+              <NavBarItem
+                active={tab === 'info'}
+                onClick={() => setTab('info')}>
+                Infos
+              </NavBarItem>
               <NavBarItem onClick={() => setIsVisible(false)}>
                 Schließen
               </NavBarItem>
             </NavBar>
             <Box padding={5}>
-              <Text color="white">Platzfinder</Text>
               <Box display={tab === 'places' ? 'flex' : 'none'}>
                 <PlaceList
                   places={places}
@@ -87,6 +92,9 @@ const Menu = ({
                   setPlaceMarkerVisible={setPlaceMarkerVisible}
                   placeMarkerVisible={placeMarkerVisible}
                 />
+              </Box>
+              <Box display={tab === 'info' ? 'flex' : 'none'}>
+                <PlaceInfo />
               </Box>
               <Box display={tab === 'filter' ? 'flex' : 'none'}>
                 <PlaceFilter setFilters={setFilters} filters={filters} />
