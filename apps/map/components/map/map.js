@@ -22,21 +22,21 @@ const Map = ({
   setPlaces,
   places,
 }) => {
-  useEffect(() => {
-    const filteredPlaces = places.filter((item) => {
-      Object.keys(filters).map(function (key, index) {
-        if (
-          item.attributes[key] === undefined ||
-          item.attributes[key] != filters[key]
-        ) {
-          return false
-        }
-        return true
-      })
-    })
-    console.log('filteredPlaces', filteredPlaces)
-  }, [filters])
-
+  // useEffect(() => {
+  //   const filteredPlaces = places.filter((item) => {
+  //     Object.keys(filters).map(function (key, index) {
+  //       if (
+  //         item.attributes[key] === undefined ||
+  //         item.attributes[key] != filters[key]
+  //       ) {
+  //         return false
+  //       }
+  //       return true
+  //     })
+  //   })
+  //   console.log('filteredPlaces', filteredPlaces)
+  // }, [filters])
+  console.log('map.js')
   const DraggableMarker = useMemo(
     () => dynamic(() => import('./draggableMarker'), { ssr: false }),
     []
