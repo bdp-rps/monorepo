@@ -17,7 +17,6 @@ import PlaceList from './placeList'
 import PlaceFilter from './placeFilter'
 import NavBar from './navBar'
 import NavBarItem from './navBarItem'
-import { latLng } from 'leaflet'
 
 const Menu = ({
   visible = false,
