@@ -32,8 +32,11 @@ export default () => (
           unserem Landesverband stärken, neue Lieder in den LV bringen und
           Gitarrenspieler fördern. Eines unserer Projekte ist die Liedgut-App
           die unter folgendem Link für Landesverbands-Mitglieder zur Verfügung
-          steht: <Link href="liedgut.bdp-rps.app">liedgut.bdp-rps.app</Link>.
-          Als Arbeitskreis stehen wir euch zu allen Fragen und Anliegen zum
+          steht:{' '}
+          <Link target="_blank" href="https://liedgut.bdp-rps.app/">
+            liedgut.bdp-rps.app
+          </Link>
+          . Als Arbeitskreis stehen wir euch zu allen Fragen und Anliegen zum
           Thema Liedgut als Ansprechpartner zur Seite. Wir sind erreichbar unter{' '}
           <Link href="mailto:liedgut@bdp-rps.de">liedgut[at]bdp-rps.de</Link>.
         </Text>
