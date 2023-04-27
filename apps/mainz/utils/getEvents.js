@@ -47,8 +47,8 @@ function normalizeEvent({
   }
 }
 
-export default async function getEvents(cutOff = new Date()) {
-  const res = await fetch(URL)
+export default async function getEvents(cutOff = new Date(), url = URL) {
+  const res = await fetch(url)
   const data = await res.text()
 
   const { events } = ICalParser.toJSON(data)
