@@ -1,6 +1,6 @@
 import { Octokit } from 'octokit'
 
-const GITHUB_TOKEN = process.env.HUBSPOT_CONTACTS_API_TOKEN
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN
 
 const songPath = 'packages/liedgut/src/songs/'
 const extension = '.json'
