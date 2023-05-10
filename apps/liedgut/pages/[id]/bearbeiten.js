@@ -1,11 +1,10 @@
+import fetch from 'node-fetch'
 import React from 'react'
 
 import { songs as songList } from '@bdp-rps/liedgut'
 
 import SongForm from '../../features/SongForm'
 import Header from '../../components/Header'
-
-import addSong from '../../api/addSong'
 
 export default function Page({ id, songData }) {
   return (
@@ -15,7 +14,17 @@ export default function Page({ id, songData }) {
       <SongForm
         initialSong={songData}
         onSubmit={async (song, meta) =>
-          await addSong(song, { ...meta, change: true })
+          await fetch('/api/add-song', {
+            method: 'POST',
+            headers: {
+              'content-type': 'application/json',
+            },
+            body: JSON.stringify({
+              ...meta,
+              change: true,
+              song,
+            }),
+          })
         }
       />
     </>

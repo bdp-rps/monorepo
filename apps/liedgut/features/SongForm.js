@@ -576,12 +576,14 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                   submitterContent: submitter.content,
                 })
 
-                if (res.success) {
+                const json = await res.json()
+
+                if (json.status === 'done') {
                   setSendVisible(false)
                   alert(`Erfolgreich!
 Danke für die Einsendung.`)
                 } else {
-                  alert(res.error)
+                  alert(json.error)
                 }
 
                 setLoading(false)
