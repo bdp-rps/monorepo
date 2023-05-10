@@ -1,5 +1,7 @@
 import { Octokit } from 'octokit'
 
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+
 const songPath = 'packages/liedgut/src/songs/'
 const extension = '.json'
 
@@ -25,8 +27,6 @@ const hash = function (s) {
   return a.toString(36)
 }
 
-// TODO: add as vercel env variable
-const GITHUB_TOKEN = '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'
 const repo = {
   owner: 'bdp-rps',
   repo: 'monorepo',
