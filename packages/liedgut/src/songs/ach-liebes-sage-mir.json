@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Durch's {a}Fenster rotwang{E}ig der Fruhling {a}gähnt \nund {A7}breitet aus die langen, grünen Äste.{d}\nDoch {G7}von dir morgens bis zum Abend {C}spät \nBe{d}leidigungen, Launen und Ge{E}zeter. \n{a}Bist in der Liebe wie {E},ne Dampflok {a}drauf \nund {A7}ich darunter wie ein Stückchen Schi{d}ene. \n{G7}Manchmal trifft mich ein Stück von deinem gr{C}oßen Eisenreif, \ndass {d}jeder wisse, wer im Bahnhof {E7}wohne. \n\nAch Liebes, {a}sage mir, was treibt dich {d}nur so rum? \nWas schlägst du {a}wie ein Falter an das {G}Fens{F}tergl{E}as? \nJa, was ver{a}fluchst du denn und was er{d}hoffst du nun, \nvor allem: {a}Was beweist mir {E}und beweist dir {a}das?\n\nDein Weiberclub, der kommt zu uns nach Haus \nund isst sich satt vom Morgen bis zum Abend. \nGrad deshalb platzt es nun aus mir heraus: \nWill endlich meinen Seelenfrieden haben. \nDein Hund zerkaute heut mein Portemonnaie. \nDa drin war noch Kohle für die Sauna. \nIch hab ihm nichts getan, aber er tat mir heute weh, \num fünfe morgens klingelt deine Mama!\n\nDu hättest gern Millionen und Prestige. \nAber ich, ich lebe ja so ganz bescheiden. \nDein Glück find'st du wahrscheinlich in Paris, \ndenn hier kann man sich nur besebstmitleiden. \nKomm, abends setzen wir uns einfach hin \nauf eine kleine, ruhige, traute Runde. \nUnd Kognak aus Armenien, das ist wohl noch drin, \nwir setzen dann dem Alltagszöff ein Ende. ",
+  "content": "Durchs {a}Fenster rotwang{E}ig der Frühling {a}gähnt \nund {A7}breitet aus die langen, grünen Äste.{d}\nDoch {G7}von dir morgens bis zum Abend {C}spät \nBe{d}leidigungen, Launen und Ge{E}zeter. \n{a}Bist in der Liebe wie {E},ne Dampflok {a}drauf \nund {A7}ich darunter wie ein Stückchen Schi{d}ene. \n{G7}Manchmal trifft mich ein Stück von deinem gr{C}oßen Eisenreif, \ndass {d}jeder wisse, wer im Bahnhof {E7}wohne. \n\nAch Liebes, {a}sage mir, was treibt dich {d}nur so rum? \nWas schlägst du {a}wie ein Falter an das {G}Fens{F}tergl{E}as? \nJa, was ver{a}fluchst du denn und was er{d}hoffst du nun, \nvor allem: {a}Was beweist mir {E}und beweist dir {a}das?\n\nDein Weiberclub, der kommt zu uns nach Haus \nund isst sich satt vom Morgen bis zum Abend. \nGrad deshalb platzt es nun aus mir heraus: \nWill endlich meinen Seelenfrieden haben. \nDein Hund zerkaute heut mein Portemonnaie. \nDa drin war noch Kohle für die Sauna. \nIch hab ihm nichts getan, aber er tat mir heute weh, \num fünfe morgens klingelt deine Mama!\n\nDu hättest gern Millionen und Prestige. \nAber ich, ich lebe ja so ganz bescheiden. \nDein Glück find'st du wahrscheinlich in Paris, \ndenn hier kann man sich nur selbstbemitleiden. \nKomm, abends setzen wir uns einfach hin \nauf eine kleine, ruhige, traute Runde. \nUnd Kognak aus Armenien, das ist wohl noch drin, \nwir setzen dann dem Alltagszöff ein Ende. ",
   "title": "Ach Liebes sage mir",
   "words": [],
   "tune": [],
@@ -17,6 +17,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1683728287481,
+      "name": "chris",
+      "mail": "chris@bdp-rps.de",
+      "type": "update",
+      "content": "Rechtschreibfehler"
     }
   ]
 }
