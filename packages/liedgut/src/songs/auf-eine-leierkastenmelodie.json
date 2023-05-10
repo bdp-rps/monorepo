@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Du {C}kamst nur um einige {a}Jahre zu spät,\nUnd ich {d}konnte so lange nicht {F}warten.\nAlle {C}Blumen, die ich, dich zu {a}grüßen, gesät\nSind {e}verwelkt nun in meinem  {F}Garten\n\nTag um {C}Tag, Jahr um Jahr hab ich {a}nach dir gespäht.\nDoch da {d}warst du auf endlosen {F}Fahrten.\nMeine {C}Sehnsucht verstummte, mein {a}Lied ist verweht,\nUnd nun {e}kommst du um einige {F}Jahre zu spät,\nDenn ich {C}konnte so lange nicht {a}warten.\nIch {C}konnte so lange nicht {a}warten.\n\n{D}  Sag, wo warst du, als Frühling im Lande noch {C}war,\nAls das Glück vor den {G}Toren noch stand,\n{D}  Als die Tage voll Licht und die Nächte so {C}klar,\nSag, wo warst du, {G}als ich frohe Zwanzig noch {A}war,\nUnd frei war mein Herz, mein die {a}Hand.\n \nSieh, nun {C}ist meine Liebe er{a}loschen und müd,\nWie die {e}Sonne im Herbst, die nur {F}scheint und nicht glüht,\nUnd es {C}silbert mein goldenes {F}Haar.\n\nLass dein {C}Boot fest am Ufer, an {a}dem es nun steht,\nDenn nun {e}kommst du um einige {F}Jahre zu spät,\nUnd es {C}wird nie mehr so wie es {a}war. {F}\nEs {C}wird nie mehr so wie es {a}war. {F}\nEs {C}wird nie mehr so wie es {a}war.\nEs {C}wird nie mehr so wie es {a}war.",
+  "content": "Du {C}kamst nur um einige {a}Jahre zu spät,\nUnd ich {d}konnte so lange nicht {F}warten.\nAlle {C}Blumen, die ich, dich zu {a}grüßen, gesät\nSind {e}verwelkt nun in meinem  {F}Garten\n\nTag um {C}Tag, Jahr um Jahr hab ich {a}nach dir gespäht.\nDoch da {d}warst du auf endlosen {F}Fahrten.\nMeine {C}Sehnsucht verstummte, mein {a}Lied ist verweht,\nUnd nun {e}kommst du um einige {F}Jahre zu spät,\nDenn ich {C}konnte so lange nicht {a}warten.\nIch {C}konnte so lange nicht {a}warten.\n\n{D}  Sag, wo warst du, als Frühling im Lande noch {C}war,\nAls das Glück vor den {G}Toren noch stand,\n{D}  Als die Tage voll Licht und die Nächte so {C}klar,\nSag, wo warst du, {G}als ich frohe Zwanzig noch {A}war,\nUnd frei war mein Herz, mein die {a}Hand.\n\nSieh, nun {C}ist meine Liebe er{a}loschen und müd,\nWie die {e}Sonne im Herbst, die nur {F}scheint und nicht glüht,\nUnd es {C}silbert mein goldenes {F}Haar.\n\nLass dein {C}Boot fest am Ufer, an {a}dem es nun steht,\nDenn nun {e}kommst du um einige {F}Jahre zu spät,\nUnd es {C}wird nie mehr so wie es {a}war. {F}\nEs {C}wird nie mehr so wie es {a}war. {F}\nEs {C}wird nie mehr so wie es {a}war.\nEs {C}wird nie mehr so wie es {a}war.",
   "title": "Auf eine Leierkastenmelodie",
   "words": [
     {
@@ -40,6 +40,13 @@
       "mail": "robin@weser.io",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1683728120508,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Leerzeile"
     }
   ]
 }
