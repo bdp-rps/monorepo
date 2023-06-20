@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wir {a}tanzen mit Tarnkappen, {F}und wir gehen trinken\n{C}mit falschen {e}Bärten. \nBis der {a}Himmel brennt auf dem Nach{F}hauseweg,\nund stehlen {C}Obst aus verbote {e}Gärten. \nMein {a}Herz ist ein Campmobil, {F}und ich will segeln gehen,\n{C}und jeden Tag {e}ist alles neu. \nUnd {a}alles ist gut, {F}nichts macht mir Angst, \nund {C}ich bin dir immer noch {e}treu.\n\n{a}Nur dein {F}liebes Ges{C}icht, macht mich zu{e}hause auf der {a}Welt.{F}{C}{e}\n\nDafür bleib ich hier und dafür komm ich wieder, \nund dafür könnt ihr mir alle gestohlen sein. \nIch hab verlorenes Gepäck, \nes ist irgendwo, aber immer noch mein - und \n\nEin Rundfunkmast funkt rund und ich hab meinen Raketenrucksack auf. \nIch muss wieder fort, ich muss ganz hoch hinauf. \nIch geb mir viel Mühe allein zufrieden zu sein, und vielleicht sieht es so aus. \nDann bin ich am Ende zufrieden aber eben nicht zuhaus', denn ",
+  "content": "Wir {e}tanzen mit Tarnkappen, {Cmaj7}und wir gehen trinken\n{e/G}mit falschen {e/Fis}Bärten. \nBis der {e}Himmel brennt auf dem Nach{Cmaj7}hauseweg,\nund stehlen {e/G}Obst aus verbote {e/Fis}Gärten. \nMein {e}Herz ist ein Campmobil, {Cmaj7}und ich will segeln gehen,\n{e/G}und jeden Tag {e/Fis}ist alles neu. \nUnd {e}alles ist gut, {Cmaj7}nichts macht mir Angst, \nund {e/G}ich bin dir immer noch {e/Fis}treu.\n\n{e}Nur dein {Cmaj7}liebes Ges{e/G}icht, macht mich zu{e/Fis}hause auf der {e}Welt.{Cmaj7}{e/G}{e/Fis}\n\nDafür bleib ich hier und dafür komm ich wieder, \nund dafür könnt ihr mir alle gestohlen sein. \nIch hab verlorenes Gepäck, \nes ist irgendwo, aber immer noch mein - und \n\nEin Rundfunkmast funkt rund und ich hab meinen Raketenrucksack auf. \nIch muss wieder fort, ich muss ganz hoch hinauf. \nIch geb mir viel Mühe allein zufrieden zu sein, und vielleicht sieht es so aus. \nDann bin ich am Ende zufrieden aber eben nicht zuhaus', denn ",
   "title": "Zuhause",
   "words": [
     {
@@ -40,6 +40,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1687293587461,
+      "name": "Chrissi",
+      "mail": "chrissistaudt@googlemail.com",
+      "type": "update",
+      "content": "Unter https://www.youtube.com/watch?v=nju8WaYZz4k wurde während Corona mal ein HowTo für den Gitarrenteil gemacht, bei dem die Akkorde in der Videobeschreibung wie bei mir vorgeschlagen notiert wurden. Der Nachteil, wenn man das 1 zu 1 übernehmen würde, wäre sicherlich, dass zumindest die gefühlte Einstiegshürde für neue Gitarrenspieler*innen erhöht werden würde, da die \"Akkorde\" nicht ergooglebar wären...\n\nIst letzlich eine Ermessensfrage, aber die ursprüngliche Version passt auch gut!"
     }
   ]
 }
