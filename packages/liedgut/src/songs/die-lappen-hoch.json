@@ -1,11 +1,11 @@
 {
   "notation": "",
-  "content": "{E}Die Lappen hoch, wir {H7}wollen {E}sailen,\nhol {A}an die {E}Schot, {H7}ohe!\nSind {E}viele {H7}tausend {E}Meilen\nzu {A}segeln {E}über {H7}See.\n\nDie Lappen {E}hoch, die Anker {A}fort,\nheute {E}hier und {H7}morgen {E}dort.\n/:Po morjam, po wol{A}nam,\nnyinsche {E}sdjes a {H7}savtra {E}tam.:/\n\nWenn einst am Lagunenstrande\nim Lee liegt unser Boot,\nlacht uns das Glück am Strande,\nam Strande hell und rot.\n\nUnd nie würdest weiter du ziehen,\nja ewig bliebest du dann,\nJa, wenn nicht wäre das Segeln,\nder Wind und der Ozean.\n",
+  "content": "{E}Die Lappen hoch, wir {H7}wollen {E}sailen,\nhol {A}an die {E}Schot, {H7}ohe!\nSind {E}viele {H7}tausend {E}Meilen\nzu {A}segeln {E}über {H7}See.\n\nDie Lappen {E}hoch, die Anker {A}fort,\nheute {E}hier und {H7}morgen {E}dort.\n/: Po morjam, po wol{A}nam,\nnyinsche {E}sdjes a {H7}savtra {E}tam. :/\n\nWenn einst am Lagunenstrande\nim Lee liegt unser Boot,\nlacht uns das Glück am Strande,\nam Strande hell und rot.\n\nUnd nie würdest weiter du ziehen,\nja ewig bliebest du dann,\nJa, wenn nicht wäre das Segeln,\nder Wind und der Ozean.\n",
   "title": "Die Lappen hoch",
   "words": [
     {
       "name": "Georg Andreef",
-      "nickname": "Jurij",
+      "nickname": "jurij",
       "group": "",
       "organisation": "Nerother Wandervogel",
       "year": "1954"
@@ -14,7 +14,7 @@
   "tune": [
     {
       "name": "Georg Andreef",
-      "nickname": "Jurij",
+      "nickname": "jurij",
       "group": "",
       "organisation": "Nerother Wandervogel",
       "year": "1954"
@@ -23,9 +23,9 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "100",
-  "musicalKey": "",
-  "info": "Po morjam, po wolnam, nyinsche sdjes a savtra tam:\"Über das Meer, über die Welle, heute hier und morgen dort\", ist aus dem Lied Ty moryak übernommen.\nSailen ist plattdeutsch für \"segeln\"",
+  "tempo": "105",
+  "musicalKey": "E",
+  "info": "Po morjam, po wolnam, nyinsche sdjes a savtra tam: \"Über das Meer, über die Welle, heute hier und morgen dort\", ist aus dem Lied Ty moryak übernommen. Sailen ist plattdeutsch für \"segeln\".",
   "changes": [
     {
       "date": 1679514539923,
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1687331614806,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Layout"
     }
   ]
 }

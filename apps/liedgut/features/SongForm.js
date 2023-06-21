@@ -19,7 +19,12 @@ import {
   useTheme,
   useField,
 } from '@bdp-rps/ui'
-import { renderAuthors } from '@bdp-rps/liedgut'
+import { PDFViewer, Font, Document } from '@bdp-rps/react-pdf-renderer'
+import {
+  renderAuthors,
+  Song as PDFSong,
+  songs as songList,
+} from '@bdp-rps/liedgut'
 
 import Song from '../components/Song'
 import ListItem from '../components/ListItem'
@@ -117,6 +122,8 @@ const defaultSubmitter = {
 const CACHE_ID = 'bdp-rps-liedgut-song'
 
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
+  const [isMounted, setMounted] = useState(false)
+
   const textAreaRef = useRef()
   const [song, setSong] = useState(initialSong)
   const [author, setAuthor] = useState(defaultAuthor)
@@ -134,6 +141,21 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
     if (localStorage.hasOwnProperty(CACHE_ID)) {
       setCache(localStorage.getItem(CACHE_ID))
     }
+  }, [])
+
+  useEffect(() => {
+    Font.register({
+      family: 'Bell Gothic',
+      src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic.ttf',
+    })
+
+    Font.register({
+      family: 'Bell Gothic Bold',
+      src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic_Bold.ttf',
+      fontWeight: 'bold',
+    })
+
+    setMounted(true)
   }, [])
 
   useEffect(() => {
@@ -502,6 +524,15 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         space={8}
         extend={{ overflow: 'auto' }}>
         <Song {...song} textAreaRef={textAreaRef} />
+        {isMounted && (
+          <Box height={500}>
+            <PDFViewer key={Date.now()} width="100%" height="100%">
+              <Document>
+                <PDFSong {...song} />
+              </Document>
+            </PDFViewer>
+          </Box>
+        )}
       </Box>
       <Modal
         visible={reuseCacheVisible}

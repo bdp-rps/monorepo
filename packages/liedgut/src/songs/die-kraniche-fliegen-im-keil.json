@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "6/8",
   "tempo": "90",
-  "info": "",
+  "info": "Kurt Demmler war ein deutscher Liedermacher und Texter vieler DDR-Rockbands. Später wurde er wegen sexuellen Missbrauchs von Kindern in mehreren Fällen verurteilt.",
   "changes": [
     {
       "date": 1600716772404,
@@ -35,6 +35,13 @@
     {
       "date": 1601215660063,
       "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1686995526903,
+      "name": "gloria",
       "mail": "",
       "type": "update",
       "content": ""
