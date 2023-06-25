@@ -12,7 +12,7 @@
     }
   ],
   "beat": "4/4",
-  "tempo": 60,
+  "tempo": "120",
   "info": "Haff: Lakune, die durch einen Landstreifen fast vollständig vom Meer abgeschlossen ist\nPalve: ostpreußische Bezeichnung für dürres Heideland",
   "content": "{a}Abends treten {d}Elche aus den {a}Dünen,\nziehen von der {d}Palve {E}an den {a}Strand.\n/: {d}Wenn die {a}Nacht wie {d}eine gute {a}Mutter leise deckt ihr {d}Tuch {E}auf Haff und {a}Land. :/\n\nRuhig trinken sie vom große Wasser,\ndarin Sterne wie am Himmel stehn.\n/: Und sie heben ihre starken Köpfe, lautlos in des Sommerwindes Weh'n. :/\n\nLangsam schreiten wieder sie von dannen,\nTiere einer längst vergang'nen Zeit.\n/: Und sie schwinden in der Ferne Nebel, wie im hohen Tor der Ewigkeit. :/",
   "changes": [
@@ -35,6 +35,13 @@
       "mail": "Nicolas.metz05@gmail.com",
       "type": "update",
       "content": "weiß nicht genau, was hier rein soll, aber die Akkordänderung entnehme ich dem schwarzen Adler, obgleich dieser das einzige Liederbuch in meinem besitz ist, das diese Version aufführt, da ich der Meinung bin, dass das Lied so besser klingt und besser auf die unten angegebene Melodie Passt."
+    },
+    {
+      "date": 1687681151587,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
