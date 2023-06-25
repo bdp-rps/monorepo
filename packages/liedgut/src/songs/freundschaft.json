@@ -4,14 +4,7 @@
     {
       "name": "Robin Weser",
       "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": "2020"
-    },
-    {
-      "name": "Philipp Winicker",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
       "year": "2020"
     }
@@ -20,14 +13,7 @@
     {
       "name": "Robin Weser",
       "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": "2020"
-    },
-    {
-      "name": "Philipp Winicker",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
       "year": "2020"
     }
@@ -83,6 +69,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Text-Anpassung, Akkorde transponiert"
+    },
+    {
+      "date": 1687728262086,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
     }
   ],
   "notation": "M:4/4\nC: Swing\n C C D | \"C\" E2 z A G E \"G\" D C | \"a\" A, C  C2 z C C D | \"C\" E2 z E \"F\" F2 F E |\n\"G\" D4 z C  C D | \"C\" E2 z A  G E \"G\" D C | \"a\" A, C  C2 z C D E | \"F\" F2 E2 \"G\" D2 C B, | \"C\" C2 z6 |",
