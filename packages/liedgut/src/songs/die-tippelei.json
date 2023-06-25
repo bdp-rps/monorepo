@@ -2,34 +2,34 @@
   "title": "Die Tippelei",
   "words": [
     {
-      "name": "Robin Weser",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": 2018
-    },
-    {
       "name": "Philipp Winicker",
       "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
-      "year": 2018
+      "year": "2018"
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2018"
     }
   ],
   "tune": [
     {
-      "name": "Robin Weser",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": 2018
-    },
-    {
       "name": "Philipp Winicker",
       "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
-      "year": 2018
+      "year": "2018"
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2018"
     }
   ],
   "beat": "6/8",
@@ -64,6 +64,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Takte"
+    },
+    {
+      "date": 1687728354472,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
