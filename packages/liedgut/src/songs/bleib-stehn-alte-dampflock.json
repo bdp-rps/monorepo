@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Bleib' {a}steh'n, alte {d}Dampflok, und {E}schlagt nicht, ihr {a}Räder.\nDu, {C}Schaffner, tritt auf die Bremse {E}nun.\n/: Zur {a}Mutter, der Lieben und {A7}mit letztem {d}Gruße\neile {a}ich, dass sie {E}mich noch einmal {a}sieht. :/\n\nWarte nicht, meine Mama, auf das gute Söhnchen.\nDein Sohn ist nicht der, der er einmal war.\nGefährliche Sümpfe haben mich aufgesogen.\nMein Leben, ein ewigliches Spiel.\n\nBleib' steh'n, alte Dampflok, und schlagt nicht, ihr Räder.\nDie Zeit reicht das Schicksal anzuseh'n.\nSolange es nicht zu spät ist, hier kurz Halt zu machen:\nDu Schaffner, tritt auf die Bremse nun.\n\nPastoi paravoz ne stučite kaliosa,\nkanduktor nažmi na tarmaza.\nJa k mamenkie rodnoj s paslednim privietom,\nspiešu pakazatsia na glaza.",
+  "content": "Bleib' {a}steh'n, alte {d}Dampflok, und {E}schlagt nicht, ihr {a}Räder.\nDu, {C}Schaffner, tritt auf die Bremse {E}nun.\n/: Zur {a}Mutter, der Lieben und {A7}mit letztem {d}Gruße\neile {a}ich, dass sie {E}mich noch einmal {a}sieht. :/\n\n\nWarte nicht, meine Mama, auf das gute Söhnchen.\nDein Sohn ist nicht der, der er einmal war.\nGefährliche Sümpfe haben mich aufgesogen.\nMein Leben, ein ewigliches Spiel.\n\n\nBleib' steh'n, alte Dampflok, und schlagt nicht, ihr Räder.\nDie Zeit reicht das Schicksal anzuseh'n.\nSolange es nicht zu spät ist, hier kurz Halt zu machen:\nDu Schaffner, tritt auf die Bremse nun.\n\nPostoy, parovoz ne stuchite, koljosa,\nKonduktor, nazhmi na tormoza.\nYa k mamen'ke rodnoy s poslednim privetom,\nspeshu pokazat'sya na glaza.",
   "title": "Bleib steh'n, alte Dampflock",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "dt. Übersetzung: fotler (Erik Schellhorn) & igor (Igor Plakhonin), Zugvogel",
+  "info": "Aus dem Film \"Operazia bl\", dt. Übersetzung: fotler (Erik Schellhorn) & igor (Igor Plachonin), Zugvogel",
   "changes": [
     {
       "date": 1643737403651,
@@ -39,6 +39,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1687431108814,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "Am"
 }
