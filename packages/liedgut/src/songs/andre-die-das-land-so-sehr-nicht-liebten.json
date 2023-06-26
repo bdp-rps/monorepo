@@ -15,15 +15,23 @@
   "beat": "4/4",
   "tempo": 70,
   "info": "",
-  "content": "{G}Andre, die das Land so sehr nicht {D}liebten, {e}warn von Anfang {C}an gewillt zu {G}ge{D}hn;\n{e}ihnen - manche {C}sind schon fort - ist {G}besser,\nich doch müßte mit dem eignen {D}Messer {e}meine Wurzeln {C}aus der {D}Erde {G}drehn.\n\nKeine Nacht hab' ich seither geschlafen, und es ist mir mehr als weh zumut;\nviele Wochen sind seither verstrichen,\nalle Kraft ist längst aus mir gewichen, und ich fühl', daß ich daran verblut'.\n\nUnd doch müßt' ich mich von hinnen heben, sei's auch nur, zu bleiben, was ich war.\nNimmer kann ich, wo ich bin, gedeihen;\ndraußen braucht' ich wahrlich nicht zu schreien, denn mein leises Wort war immer wahr.\n\nSeiner wär' ich wie in alten Tagen sicher; schluchzend wider mich gewandt,\nhätt ich Tag und Nacht mich nur zu heißen,\nmich samt meiner Wurzeln auszureißen und zu setzen in ein andres Land.",
+  "content": "{G}Andre, die das Land so sehr nicht {D}liebten, {e}warn von Anfang {C}an gewillt zu {G}ge{D}h'n;\n{e}ihnen - manche {C}sind schon fort - ist {G}besser,\nich doch müsste mit dem eignen {D}Messer {e}meine Wurzeln {C}aus der {D}Erde {G}dreh'n.\n\nKeine Nacht hab' ich seither geschlafen, und es ist mir mehr als weh zumut;\nviele Wochen sind seither verstrichen,\nalle Kraft ist längst aus mir gewichen, und ich fühl', dass ich daran verblut'.\n\nUnd doch müsst' ich mich von hinnen heben, sei's auch nur, zu bleiben, was ich war.\nNimmer kann ich, wo ich bin, gedeihen;\ndraußen braucht' ich wahrlich nicht zu schreien, denn mein leises Wort war immer wahr.\n\nSeiner wär' ich wie in alten Tagen sicher; schluchzend wider mich gewandt,\nhätt ich Tag und Nacht mich nur zu heißen,\nmich samt meiner Wurzeln auszureißen und zu setzen in ein andres Land.",
   "changes": [
     {
       "name": "Robin Weser",
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "date": 1585221170355
+    },
+    {
+      "date": 1687429104008,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "G"
 }
