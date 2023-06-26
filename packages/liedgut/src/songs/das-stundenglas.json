@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Weißer Sand, um{a}hüllt von Glas, von {G}Standgehäuse und {C}Zinn,\nrieselt ohne {a}Unterlass, {F} Traum und Stunden da{G}hin.\nUnd so {C}lautlos, {F}wie die {G}Sandsäule {C}fällt, zählt es {F}die Se{G}kunden der {C}Welt,\nist dann seine {a}Zeit herum, so {G}dreht man es wieder {C}um.\n\nKaiser, König, Edelmann, die hielten es in der Hand.\nIhre Zeit ist längst vertan, mit dem Sand weggerannt.\nSelbst das Stundenglas noch mal umzudreh'n, macht gescheh'nes nicht ungescheh'n.\nDenn die Zeit ist taub und blind; nur der Sand rinnt und rinnt.\n\n{C}Sei nicht {G}traurig, {F}wenn der Augenblick {G}flieht,\n{C}der ist {a}glücklich, {F}der den Sonnenschein {G}sieht.\n\nMancher glaubt, die goldne Zeit, die sei schon lange vorbei,\ntrotzdem wechseln Freud und Leid jede Stunde aufs neu.\nWas heut oben ist fällt morgen herab, was jetzt blüht liegt bald schon im Grab.\nDenn die Zeit läßt keine Wahl, bei ihr ist alles egal.\n\nSei nicht traurig, halt Minuten nicht auf!\nLach und lebe, alles nimmt seinen Lauf!\n\nSchau nicht auf das Stundenglas, tagein, tagaus wie gebannt.\nFinde selbst das richt'ge Maß, gib dem Leben die Hand.\nNütz den Tag und nütz die Stunde der Nacht! Freu dich, wenn die Liebe dir lacht!\nEinmal kommt der Sensenmann und hält das Stundenglas an.",
+  "content": "{C}Weißer Sand, um{a}hüllt von Glas, von {G}Standgehäuse und {C}Zinn,\nrieselt ohne {a}Unterlass, {F} Traum und Stunden da{G}hin.\nUnd so {C}lautlos, {F}wie die {G}Sandsäule {C}fällt, zählt es {F}die Se{G}kunden der {C}Welt.\nIst dann seine {a}Zeit herum, so {G}dreht man es wieder {C}um.\n\nKaiser, König, Edelmann, die hielten es in der Hand.\nIhre Zeit ist längst vertan, mit dem Sand weggerannt.\nSelbst das Stundenglas noch mal umzudreh'n, macht Gescheh'nes nicht ungescheh'n.\nDenn die Zeit ist taub und blind; nur der Sand rinnt und rinnt.\n\n{C}Sei nicht {G}traurig, {F}wenn der Augenblick {G}flieht,\n{C}der ist {a}glücklich, {F}der den Sonnenschein {G}sieht.\n\nMancher glaubt, die gold'ne Zeit, die sei schon lange vorbei.\nTrotzdem wechseln Freud und Leid jede Stunde aufs neu.\nWas heut oben ist fällt morgen herab. Was jetzt blüht liegt bald schon im Grab.\nDenn die Zeit lässt keine Wahl, bei ihr ist alles egal.\n\nSei nicht traurig, halt Minuten nicht auf!\nLach und lebe, alles nimmt seinen Lauf!\n\nSchau nicht auf das Stundenglas, tagein, tagaus wie gebannt.\nFinde selbst das richt'ge Maß, gib dem Leben die Hand.\nNütz den Tag und nütz die Stunde der Nacht! Freu dich, wenn die Liebe dir lacht!\nEinmal kommt der Sensenmann und hält das Stundenglas an.",
   "title": "Das Stundenglas",
   "words": [
     {
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "6/8",
-  "tempo": "95",
+  "tempo": "100",
   "info": "",
   "changes": [
     {
@@ -31,7 +31,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1687354276162,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Text, Tonart, Tempo"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "C"
 }

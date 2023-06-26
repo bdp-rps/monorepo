@@ -25,13 +25,20 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "",
-  "info": "",
+  "info": "Kurt Demmler war ein deutscher Liedermacher und Texter vieler DDR-Rockbands. Später wurde er wegen sexuellen Missbrauchs von Kindern in mehreren Fällen verurteilt.",
   "changes": [
     {
       "date": 1679504549049,
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1686994742120,
+      "name": "peter",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

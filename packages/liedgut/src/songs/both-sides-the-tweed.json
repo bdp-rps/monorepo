@@ -1,6 +1,6 @@
 {
   "notation": "A,B,|\"a\"C2B,2A,2|\"C\"C2D2E2|\"F\"A6-|A3zAA|\"C\"GE3C2|\n\"a\"C3DE2|\"G\"G,6-|G,3zA,B,|\"a\"C2B,2A,2|\"C\"C2D2E2|\"F\"A6-|A3zA|\n\"C\"GE3E2|\"G\"D3B,G,2|\"a\"A,6-|A,3zEG|\"F\"A3AA2|A4GA|\n\"e\"G6-|G3zAG|\"a\"E3DCB,|\"F\"CD3E2|\"G\"G,6-|\"e\"G,3zA,B,|\"a\"C2B,2A,2|\n\"C\"C2D2E2|\"F\"A6-|A3zA|\"C\"GE3E2|\"G\"D2B,2G,2|\"a\"A,6-|A,3z3",
-  "content": "What's the {a}spring breathing {C}jasmine and {F}rose, what's the {C}summer with {a}all its gay {G}train?\nWhat's the {a}splendour of {C}autumn to {F}those who've {C}bartered their {G}freedom for {a}gain?\n/: Let the {F}love of our land's sacred {C}righ{G}ts-\nto the {a}love of our people succ{e}eed.\nLet {a}friendship and {C}honour un{F}ite\nand {C}flourish on {G}both sides the {a}Tweed. :/\n\nNo sweetness the senses can cheer, which corruption and bribery bind.\nNo brightness the sun can l'er clear, for honour's the sum of the mind.\n\nLet virtue distinguish the brave, place riches at lowest degree.\nThink them poorest who can be a slave, them richest who dare to be free.",
+  "content": "What's the {a}spring breathing {C}jasmine and {F}rose, what's the {C}summer with {a}all its gay {G}train?\nWhat's the {a}splendour of {C}autumn to {F}those who've {C}bartered their {G}freedom for {a}gain?\n\nLet the {F}love of our land's sacred {C}righ{G}ts - to the {a}love of our people succ{e}eed.\nLet {a}friendship and {C}honour un{F}ite and {C}flourish on {G}both sides the {a}Tweed.\n\n\nNo sweetness the senses can cheer, which corruption and bribery bind.\nNo brightness the sun can l'er clear, for honour's the sum of the mind.\n\nLet virtue distinguish the brave, place riches at lowest degree.\nThink them poorest who can be a slave, them richest who dare to be free.",
   "title": "Both sides the tweed",
   "words": [
     {
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "3/4",
-  "tempo": "90",
+  "tempo": "115",
   "info": "",
   "changes": [
     {
@@ -38,6 +38,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Zeilenumbruch"
+    },
+    {
+      "date": 1687290937787,
+      "name": "Robin",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Layout"
     }
   ],
   "alternativeTitle": ""
