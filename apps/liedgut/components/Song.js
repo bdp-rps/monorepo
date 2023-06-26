@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { Text, Box, Spacer, Button, TextInput, useTheme } from '@bdp-rps/ui'
 import { renderAuthors, chords } from '@bdp-rps/liedgut'
+import dynamic from 'next/dynamic'
 
 import Chord from './Chord'
-import Notation from './Notation'
 
 import normalizeChord from '../utils/normalizeChord'
 import transposeChord from '../utils/transposeChord'
 import removeChords from '../utils/removeChords'
+
+const Notation = dynamic(() => import('./Notation'))
 
 export default function Song({
   content,

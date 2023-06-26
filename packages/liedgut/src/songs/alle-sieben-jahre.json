@@ -1,0 +1,52 @@
+{
+  "notation": "L:1/8\n|: \"a\" a, a, c d | \"G\" b,2 b,2 | c c b, g, | \"a\" a,2 a,2 :|\n|: \"C\" c c e g | \"G\"  d2 d2 | \"d\" f f e d | \"a\" e2 z2 |\n| \"a\" a, a, c d | \"G\" b,2 b,2 | \"C\" c c \"G\" b, g, | \"a\" a,2 z2  :|",
+  "content": "{a}In den weisen {G}Büchern habe ich ge{a}lesen:\nAlle sieben {G}Jahre wandelt sich dein {a}Wesen.\n/: {C}Alle sieben {G}Jahre, {d}merket, Mann und {a}Weib,\nwandelt sich die {G}Seele, {C}wandelt {G}sich der {a}Leib. :/\n\nWandelt sich dein Hassen, wandelt sich dein Lieben.\nUnd ich zählte heimlich: drei Mal, vier Mal sieben.\n/: Ach, die Geister kamen. Und mein Ohr vernimmt:\nAlle sieben Jahre ... siehe da, es stimmt. :/\n\nSorgenvoll betracht ich alle Liebespaare.\nOb sie es wohl wissen: Alle sieben Jahre ...\n/: Selbst in deinen Armen fragt mein Schatten stumm:\nWann sind wohl, Geliebter, uns're sieben um? :/",
+  "title": "Alle sieben Jahre",
+  "words": [
+    {
+      "name": "Mascha Kaléko",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2023"
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "",
+  "tempo": "105",
+  "musicalKey": "Am",
+  "info": "",
+  "changes": [
+    {
+      "date": 1687718917169,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1687792003595,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie"
+    },
+    {
+      "date": 1687793176894,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Groß- und Kleinschreibung"
+    }
+  ]
+}
