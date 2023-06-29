@@ -31,7 +31,15 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688061785273,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Tonart hinzugefügt"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "C"
 }
