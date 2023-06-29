@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "Das russische Original stammt aus dem Kinderfilm \"Tscheburaschka\" und erfreut sich in Russland als \"Lied des Krokodils Gena\" großer Beliebtheit",
   "changes": [
     {
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688061650772,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Tonart hinzugefügt"
     }
   ]
 }
