@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "C",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688061536388,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Tonart ergänzt"
     }
   ]
 }
