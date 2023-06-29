@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "Hier wächst kein Ahorn",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688061615260,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Tonart eingetragen"
     }
   ]
 }
