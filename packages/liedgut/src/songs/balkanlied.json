@@ -4,20 +4,20 @@
   "title": "Balkanlied",
   "words": [
     {
-      "name": "Fredl Mayer, 1. & 2. Strophe",
+      "name": "(1.&2. Strophe) Fredl Mayr ",
       "nickname": "",
       "group": "",
-      "organisation": "",
-      "year": ""
+      "organisation": "Österreichisches Jungenkorps",
+      "year": " 1932"
     }
   ],
   "tune": [
     {
-      "name": "Fredl Mayer, 1. & 2. Strophe",
+      "name": "Fredl Mayr",
       "nickname": "",
       "group": "",
-      "organisation": "",
-      "year": ""
+      "organisation": "Österreichisches Jungenkorps",
+      "year": "1932"
     }
   ],
   "translation": [],
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1687872725132,
+      "name": "hutmann",
+      "mail": "hutmann.schwarzer.milan@gmail.com",
+      "type": "update",
+      "content": "Ergänzung der Organisation des Autoren"
     }
   ]
 }
