@@ -4,7 +4,7 @@
   "title": "Die Grenze",
   "words": [
     {
-      "name": "Sergiusz Piasecki\t",
+      "name": "Sergiusz Piasecki",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -38,6 +38,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1687948159154,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "\"Worte\" neu hinzugefügt, da dort blanko Jahreszahl drin war (gibt Eckige Klammern im pDF)"
     }
   ],
   "alternativeTitle": ""
