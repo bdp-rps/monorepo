@@ -92,6 +92,7 @@ const DistributionForm = () => {
               stafues,
               pfadis,
               group,
+              type,
             } = data
             const response = await postDistributors({
               ...data,
