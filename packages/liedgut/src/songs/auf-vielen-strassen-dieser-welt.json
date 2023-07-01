@@ -15,7 +15,7 @@
       "year": 1950
     }
   ],
-  "beat": "2/4",
+  "beat": "4/4",
   "tempo": "80",
   "info": "",
   "musicalKey": "Em",
@@ -33,6 +33,13 @@
       "mail": "",
       "type": "update",
       "content": "NOten hinzugefügt"
+    },
+    {
+      "date": 1687430599458,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "notation": "EEF|\"e\"G3EG3E|\"H7\"F4|zFFG|\"a\"A2A2|\"H7\"G2F2|\"e\"GFEz\n|:zBBB|\"a\"c3Ac3A|\"e\"B4|zBAG|\"H7\"F4|1: z2A|\"e\"GAB:|2 zB|\"e\"GFE",

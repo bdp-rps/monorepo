@@ -121,6 +121,20 @@ const defaultSubmitter = {
 
 const CACHE_ID = 'bdp-rps-liedgut-song'
 
+function debounce(func, duration) {
+  let timeout
+
+  return function (...args) {
+    const effect = () => {
+      timeout = null
+      return func.apply(this, args)
+    }
+
+    clearTimeout(timeout)
+    timeout = setTimeout(effect, duration)
+  }
+}
+
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [isMounted, setMounted] = useState(false)
 
@@ -136,12 +150,8 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [isLoading, setLoading] = useState(false)
   const [cache, setCache] = useState()
   const [reuseCacheVisible, setReuseCacheVisible] = useState(false)
-
-  useEffect(() => {
-    if (localStorage.hasOwnProperty(CACHE_ID)) {
-      setCache(localStorage.getItem(CACHE_ID))
-    }
-  }, [])
+  const [isPreviewVisible, setPreviewVisible] = useState(false)
+  const [previewRefresh, setPreviewRefresh] = useState(Date.now())
 
   useEffect(() => {
     Font.register({
@@ -156,6 +166,12 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
     })
 
     setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (localStorage.hasOwnProperty(CACHE_ID)) {
+      setCache(localStorage.getItem(CACHE_ID))
+    }
   }, [])
 
   useEffect(() => {
@@ -524,15 +540,29 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         space={8}
         extend={{ overflow: 'auto' }}>
         <Song {...song} textAreaRef={textAreaRef} />
-        {isMounted && (
-          <Box height={500}>
-            <PDFViewer key={Date.now()} width="100%" height="100%">
-              <Document>
-                <PDFSong {...song} />
-              </Document>
-            </PDFViewer>
-          </Box>
-        )}
+        <Box space={4}>
+          <Checkbox
+            label="PDF Vorschau anzeigen"
+            value={isPreviewVisible}
+            onChange={() => setPreviewVisible(!isPreviewVisible)}
+          />
+          {isMounted && isPreviewVisible && (
+            <Box space={3}>
+              <Box alignSelf="flex-start">
+                <Button onClick={() => setPreviewRefresh(Date.now())}>
+                  Neu generieren
+                </Button>
+              </Box>
+              <Box height={500}>
+                <PDFViewer key={previewRefresh} width="100%" height="100%">
+                  <Document>
+                    <PDFSong {...song} />
+                  </Document>
+                </PDFViewer>
+              </Box>
+            </Box>
+          )}
+        </Box>
       </Box>
       <Modal
         visible={reuseCacheVisible}
