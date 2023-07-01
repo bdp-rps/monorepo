@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "Hier wächst kein Ahorn",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -39,7 +39,7 @@
       "name": "cätch",
       "mail": "",
       "type": "update",
-      "content": "leerzeile entfernt wegen Layout"
+      "content": "leerzeile entfernt wegen Layout, Tonart eingetragen"
     }
   ]
 }
