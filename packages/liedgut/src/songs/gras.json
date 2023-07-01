@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{h}Als wir endlich groß ge{e}nug war'n\nNahmen {D}wir unsere Sch{fis}uh\n{h}Die bemalte Kinder{e}zimmertür\nFiel {D}hinter uns zu{fis}\n{h}Vater gab uns seinen {e}Mantel\nUnd {e}sein' blauen {fis}Hut\n{h}Mutter gab uns ihre {e}Tränen und\n{D}machte uns {fis}ein Zucker{h}brot {e}{h}{h}\n\n{G}Immer wieder wächst das {h}Gras\n{A}Wild und hoch und {G}grün\n{G}Bis die Sensen ohne {h}Hass\n{C}Ihre Kreise {G}zieh'n\n{G}Immer wieder wächst das {h}Gras\n{A}Klammert all die Wunden {G}zu\nManchmal {G}stark und manchmal {h}blass\n{C}So wie ich und {G}du\n\nAls wir endlich alt genug war'n\nStopften wir sie in den Schrank\nDie allzu oft geflickten Flügel\nUnd Gott sagte: \"Gott sei Dank\"\nNachts macht diese Stadt\nÜber uns die Luken dicht\nUnd wer den Kopf zu weit oben hat\nDer find't seine Ruhe nicht\n\nImmer wieder wächst das Gras\nWild und hoch und grün\nBis die Sensen ohne Hass\nIhre Kreise zieh'n\nImmer wieder wächst das Gras\nKlammert all die Wunden zu\nManchmal stark und manchmal blass\nSo wie ich und du",
+  "content": "{h}Als wir endlich groß ge{e}nug war'n, nahmen {D}wir unsere Sch{fis}uh.\n{h}Die bemalte Kinder{e}zimmertür fiel {D}hinter uns zu{fis}.\n{h}Vater gab uns seinen {e}Mantel und {D}sein' blauen {fis}Hut.\n{h}Mutter gab uns ihre {e}Tränen und {D}machte uns {fis}ein Zucker{h}brot. {e}{h}\n\n{G}Immer wieder wächst das {h}Gras, {A}wild und hoch und {G}grün.\nBis die Sensen ohne {h}Hass {C}ihre Kreise {G}zieh'n.\nImmer wieder wächst das {h}Gras,{A}klammert all die Wunden {G}zu.\nManchmal stark und manchmal {h}blass - {C}so wie ich und {G}du\n\nAls wir endlich alt genug war'n, stopften wir sie in den Schrank.\nDie allzu oft geflickten Flügel und Gott sagte: \"Gott sei Dank\".\nNachts macht diese Stadt über uns die Luken dicht.\nUnd wer den Kopf zu weit oben hat, der find't seine Ruhe nicht.\n\nImmer wieder wächst das Gras, wild und hoch und grün.\nBis die Sensen ohne Hass ihre Kreise zieh'n.\nImmer wieder wächst das Gras, klammert all die Wunden zu.\nManchmal stark und manchmal blass - so wie ich und du.",
   "title": "Gras",
   "words": [
     {
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "3/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "115",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,14 @@
       "mail": "timonflick@outlook.com",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688212760449,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Layout, Tonart, Tempo, Rechtschreibung"
     }
-  ]
+  ],
+  "musicalKey": "Bm"
 }
