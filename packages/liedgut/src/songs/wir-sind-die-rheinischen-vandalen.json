@@ -1,6 +1,6 @@
 {
   "notation": "A,DF|\"d\"A3FA3F|\"A\"A2E2zEEE|A2G2F2E2|\n\"d\"D4-D A,DF|A3FA3F|\"A\"A2E2zEEE|A2G2F2E2|\n\"d\"D4-D ddd|:\"g\"d2B2d d z B|\"d\"A4-A A A B|1\"A\"A2G2F2G2|\n\"d\"A4-A ddd:|2\"A\"A2G2F2E2|\"d\"D4-D|]",
-  "content": "Wir sind die {d}rheinischen {A}Vandalen,\nauf Waldeck raufen, saufen {d}wir.\nWir haben uns schon viele {A}Male,\ndort überhoben an dem {d}Bier.\n/: Hussa, Ma{g}noli, hau ins Kla{d}vier!\nKarambo{A}lino stift uns {d}Bier. :/\n\nWir bleiben gern wo's guten Wein gibt,\nWhisky und Gin uns wirft nix hin.\nWir alle lallen freudetrunken\nund fragen nicht mehr nach dem Sinn.\n\nIn Spanien kämpften wir mit Stieren,\ndass die Toreros blass vor Neid.\nIn Indien stahlen wir Fakiren,\nden letzten Lendenschurz vom Leib.\n\nSo ziehen wir mit Fluchen, Saufen,\nquer durch Europa bis zum Nil.\nWir sind ein ganz verlor'ner Haufen,\nund kennen weder Weg noch Ziel.\n\nUnd kommt mit seinem Klappzylinder\ndereinst der Knochensensemann.\nWir alle aber feuertrunken,\nbegrüßen ihn mit Fluchen dann.",
+  "content": "Wir sind die {d}rheinischen {A}Vandalen,\nauf Waldeck raufen, saufen {d}wir.\nWir haben uns schon viele {A}Male,\ndort überhoben an dem {d}Bier.\n/: Hussa, Ma{g}noli, hau ins Kla{d}vier!\nKarambo{A}lino stift uns {d}Bier. :/\n\nWir bleiben gern wo's guten Wein gibt,\nWhisky und Gin uns wirft nix hin.\nWir alle lallen freudetrunken\nund fragen nicht mehr nach dem Sinn.\n\nIn Spanien kämpften wir mit Stieren,\ndass die Toreros blass vor Neid.\nIn Indien stahlen wir Fakiren,\nden letzten Lendenschurz vom Leib.\n\nSo ziehen wir mit Fluchen, Saufen,\nquer durch Europa bis zum Nil.\nWir sind ein ganz verlor'ner Haufen,\nund kennen weder Weg noch Ziel.\n\nUnd kommt mit seinem Klappzylinder,\ndereinst der Knochensensemann.\nWir alle aber feuertrunken,\nbegrüßen ihn mit Fluchen dann.",
   "title": "Wir sind die rheinischen Vandalen",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "120",
-  "info": "",
+  "info": "»Heimlich trafen sich diese Gruppen auf Burg Liebenstein, denn auf der Waldeck, der Stammburg der Nerother, war das bereits ein Unterfangen mit tödlichen Gefahren, das auch bereits seine Opfer gekostet hatte, da sie von Nazispitzeln bewacht wurden. Bei diesen Zusammenkünften entlastete man sich von dem ungeheuren politischen Druck (der einem heutigen Menschen gar nicht mehr spürbar gemacht werden kann) durch wüstes Singen von Brechtliedern. Durch Persiflagen nazistischer Gepflogenheiten. Durch wilde, in die Mitternachtsstille herausgebrüllte Herausforderungen. Denn in den Kreisen der Kameraden, die nicht in die Tarnung schlüpfen konnten, folgte eine Verfolgungswelle der anderen. Meist auf Nimmerwiedersehen. Hier wurde nun mit besonderem Genuß gesungen: Wir sind die rheinischen Vandalen …« (Helwig 1980, Die blaue Blume des Wandervogels, 309f.)\n\n1931 wurde Werner Helwig wegen Verstoßes gegen § 176 StGB (Unzucht mit Kindern) in Untersuchungshaft genommen und verbüßte 1932 unter Anrechnung dieser Haft noch sechs Monate Gefängnisstrafe.",
   "musicalKey": "Dm",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1687439355545,
+      "name": "",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
