@@ -37,8 +37,9 @@
       "name": "cätch",
       "mail": "",
       "type": "update",
-      "content": "\"Die Anonyme Giddarischde\" als \"Name\" hinzugefügt, da ansonsten Komma vorgestellt wird."
+      "content": "\"Die Anonyme Giddarischde\" als \"Name\" hinzugefügt, da ansonsten Komma vorgestellt wird, Tonart hinzugefügt"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "C"
 }
