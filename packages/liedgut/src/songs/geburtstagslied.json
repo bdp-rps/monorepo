@@ -23,9 +23,9 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "120",
-  "musicalKey": "",
-  "info": "Das russische Original stammt aus dem Kinderfilm \"Tscheburaschka\"(Чебурашка) und erfreut sich in Russland als \"Lied des Krokodils Gena\" großer Beliebtheit",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "Das russische Original stammt aus dem Kinderfilm \"Tscheburaschka\" und erfreut sich in Russland als \"Lied des Krokodils Gena\" großer Beliebtheit",
   "changes": [
     {
       "date": 1679516390021,
@@ -39,7 +39,7 @@
       "name": "cätch",
       "mail": "",
       "type": "update",
-      "content": "Tippfehler"
+      "content": "Tippfehler, Tonart hinzugefügt"
     }
   ]
 }
