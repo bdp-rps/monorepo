@@ -4,25 +4,25 @@
   "title": "Palzlied",
   "words": [
     {
-      "name": "",
+      "name": "Die Anonyme Giddarischde",
       "nickname": "",
-      "group": "Die Anonyme Giddarischde",
+      "group": "",
       "organisation": "",
       "year": ""
     }
   ],
   "tune": [
     {
-      "name": "",
+      "name": "Die Anonyme Giddarischde",
       "nickname": "",
-      "group": "Die Anonyme Giddarischde",
+      "group": "",
       "organisation": "",
       "year": ""
     }
   ],
   "translation": [],
   "beat": "4/4",
-  "tempo": 60,
+  "tempo": "120",
   "info": "Letzte Strophe aus den Bünden",
   "changes": [
     {
@@ -33,11 +33,11 @@
       "content": ""
     },
     {
-      "date": 1688061785273,
+      "date": 1687949877151,
       "name": "cätch",
       "mail": "",
       "type": "update",
-      "content": "Tonart hinzugefügt"
+      "content": "\"Die Anonyme Giddarischde\" als \"Name\" hinzugefügt, da ansonsten Komma vorgestellt wird, Tonart hinzugefügt"
     }
   ],
   "alternativeTitle": "",

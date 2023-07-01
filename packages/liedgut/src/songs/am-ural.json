@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Am Ur{D}al{e}, fern von der Heimat,{D}{e}\nsitzen Ko{D}saken am Feuer{e}schein.{D}{e}\nDer ei{D}ne{e} spielt Balalaika,{D}{e}\ndie {D}Andern, die fall'n mit {e}ein.{D}{e}\n\n{e}Ossa, Ossa,schöne Stadt am Kama.\n{D}Ossa, Ossa,schöne Stadt am Kama.\n{e}Ossa, Ossa,schöne Stadt am Kama.\n{D}Juhei, {e}ju{D}hei {e}ju, ju{D}hei {e}ju,\n{D}juhei, {e}ju{D}hei {e}ju.{D}{e}\n\nDen Pferden gellt's in den Ohren,\nwenn die Kosaken jauchzen und schrein.\nSie geben den Rossen die Sporen,\ndrüben liegt Ossa im Feuerschein.\n\nAm Himmel, da leuchten die Sterne,\nder Wolf heult im finst'ren Tann.\nDie Heimat, sie grüßt von Ferne,\nvergessen ist alle Qual.",
+  "content": "{e}Am Ur{D}al{e}, fern von der Heimat,{D}{e}\nsitzen Ko{D}saken am Feuer{e}schein.{D}{e}\nDer ei{D}ne{e} spielt Balalaika,{D}{e}\ndie {D}Andern, die fall'n mit {e}ein.{D}{e}\n{e}Ossa, Ossa,schöne Stadt am Kama.\n{D}Ossa, Ossa,schöne Stadt am Kama.\n{e}Ossa, Ossa,schöne Stadt am Kama.\n{D}Juhei, {e}ju{D}hei {e}ju, ju{D}hei {e}ju,\n{D}juhei, {e}ju{D}hei {e}ju.{D}{e}\n\nDen Pferden gellt's in den Ohren,\nwenn die Kosaken jauchzen und schrein.\nSie geben den Rossen die Sporen,\ndrüben liegt Ossa im Feuerschein.\n\nAm Himmel, da leuchten die Sterne,\nder Wolf heult im finst'ren Tann.\nDie Heimat, sie grüßt von Ferne,\nvergessen ist alle Qual.",
   "title": "Am Ural",
   "words": [
     {
@@ -40,6 +40,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1687681316356,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Leerzeile zwischen STophe und Refrain entfernt, da es ansonsten nciht auf 2 Seiten passt."
     }
   ]
 }

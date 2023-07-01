@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Seht die {a}Leute sie springen ung{E}schickt über Pfützen,\nWasser {E7}sammelt sich auf dem As{a}phalt\nund sie {A7}gehen vorüber, Stund um {d}Stund wird es trüber,\nja ich {a}lache mir {E}ist gar nicht {a}kalt.\nUnd doch ich {E}spiele auf der Gar{a}moschka,\nman sieht mich {G}auf dem Trott{C}oir.\n/:Aber {d}leider ist Ge{a}burtstag\nnur ein{d}mal {E}im {a}Jahr! :/\n\nPlötzlich kommt ein Hubschrauber und heraus steigt ein Zaubrer,\nzeigt den Film \"Pippi geht auf die Walz\".\nZum Geburtstag da wünscht er mir viel Glück und\nwie immer schenkt er mir eine Tonne voll Eis.\nUnd doch ich spiele auf der Garmoschka,\nman sieht mich auf dem Trottoir.\n/:Aber leider ist Geburtstag\nnur einmal im Jahr! :/\n\nIch hab heute Geburtstag, alle kommen am Sonntag,\nfröhlich lärmen sie im Haus herum.\nUnd sie tanzen und singen, dass die Wände mitschwingen\nund zerstören mein Aquarium.\nOh wie sie rauchen und sie versauen\nden Teppich, der ganz neu noch war.\n/:Ach wie gut man hat Geburtstag\nnur einmal im Jahr! :/",
+  "content": "Seht die {a}Leute sie springen unge{E}schickt über Pfützen,\nWasser {E7}sammelt sich auf dem As{a}phalt\nund sie {A7}gehen vorüber, Stund um {d}Stund wird es trüber,\nja ich {a}lache mir {E}ist gar nicht {a}kalt.\nUnd doch ich {E}spiele auf der Gar{a}moschka,\nman sieht mich {G}auf dem Trott{C}oir.\n/:Aber {d}leider ist Ge{a}burtstag\nnur ein{d}mal {E}im {a}Jahr! :/\n\nPlötzlich kommt ein Hubschrauber und heraus steigt ein Zaubrer,\nzeigt den Film \"Pippi geht auf die Walz\".\nZum Geburtstag da wünscht er mir viel Glück und\nwie immer schenkt er mir eine Tonne voll Eis.\nUnd doch ich spiele auf der Garmoschka,\nman sieht mich auf dem Trottoir.\n/:Aber leider ist Geburtstag\nnur einmal im Jahr! :/\n\nIch hab heute Geburtstag, alle kommen am Sonntag,\nfröhlich lärmen sie im Haus herum.\nUnd sie tanzen und singen, dass die Wände mitschwingen\nund zerstören mein Aquarium.\nOh wie sie rauchen und sie versauen\nden Teppich, der ganz neu noch war.\n/:Ach wie gut man hat Geburtstag\nnur einmal im Jahr! :/",
   "title": "Geburtstagslied",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "Das russische Original stammt aus dem Kinderfilm \"Tscheburaschka\" und erfreut sich in Russland als \"Lied des Krokodils Gena\" großer Beliebtheit",
   "changes": [
     {
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688060718931,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Tippfehler, Tonart hinzugefügt"
     }
   ]
 }

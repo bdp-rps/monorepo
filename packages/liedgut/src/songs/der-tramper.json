@@ -1,6 +1,6 @@
 {
   "notation": "A,|\"d\"D3E\"B\"F2GG|\"C\"F2-E2\"F\"F2zD|\"d\"DD2EF\"B\"A2z|\n\"C\"cc2B\"A7\"A2z2||:\"g\"BB2d\"C\"cc2d|\"F\"c2-B2\"d\"A2zF|\n\"B\"FF2F\"A7\"ED2^C|1\"d\"D4\"D7\"A4:|2\"d\"D4z4||",
-  "content": "Ach, {d}lass meine {B}Haar einfach {C}wachs{F}en,\nzerf{d}etzte Klam{B}otten, {C}die zieh' ich {A7}an.\n/: {B/g}Singe mit gr{C}äulichem {F}Krächz{d}en,\nwie's {B}heute verl{A7}ustreich beg{d}ann.{(D7)} :/\n\nGitarre dabei, den Beutel zur Hand,\ndas Zeug liegt auf meiner Schulter.\n/: Frohe Gedanken am Straßenrand,\nan die Welt - und an die Brüder. :/\n\nDer Fahrer in seinem bequemen KAMAZ,\nöffnet mit Lächeln seinen Mund.\n/: Zwinkern im Auge, die Kurve ist da:\n\"Jetzt sing, du Hippie, Povorot!\" :/\n\nIch singe für all jene Kurven,\nda gibt es bestimmt ganz viele bei uns.\n/: Arbeit, die lasse ich lieber mal ruh'n,\nChaffeur, tritt nochmal aufs Gas. :/\n\nWir fahren dahin, ans Ende der Welt,\nzum Teufel, die satten Fratzen!\n/: Ihr Rahmen, oh Freunde, der uns nicht gefällt,\nwir wollen zum Glück nicht reinpassen! :/\n\nWir fahren dahin, wo niemand je war,\nwo es gar nichts gibt außer Licht.\n/: So viele Winter schon immerda,\nüberleben den Sommer nicht. :/",
+  "content": "Ach, {d}lass meine {B}Haar einfach {C}wachs{F}en,\nzerf{d}etzte Klam{B}otten, {C}die zieh' ich {A7}an.\n/: {B/g}Singe mit gr{C}äulichem {F}Krächz{d}en,\nwie's {B}heute verl{A7}ustreich beg{d}ann.{(D7)} :/\n\nGitarre dabei, den Beutel zur Hand,\ndas Zeug liegt auf meiner Schulter.\n/: Frohe Gedanken am Straßenrand,\nan die Welt - und an die Brüder. :/\n\nDer Fahrer in seinem bequemen KAMAZ,\nöffnet mit Lächeln seinen Mund.\n/: Zwinkern im Auge, die Kurve ist da:\n\"Jetzt sing, du Hippie, Povorot!\" :/\n\nIch singe für all jene Kurven,\nda gibt es bestimmt ganz viele bei uns.\n/: Arbeit, die lasse ich lieber mal ruh'n,\nChauffeur, tritt nochmal aufs Gas. :/\n\nWir fahren dahin, ans Ende der Welt,\nzum Teufel, die satten Fratzen!\n/: Ihr Rahmen, oh Freunde, der uns nicht gefällt,\nwir wollen zum Glück nicht reinpassen! :/\n\nWir fahren dahin, wo niemand je war,\nwo es gar nichts gibt außer Licht.\n/: So viele Winter schon immerdar,\nüberleben den Sommer nicht. :/",
   "title": "Der Tramper",
   "words": [
     {
@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "Dm",
-  "info": "Deutscher Text von fotler (Erik Schellhorn) und Igor Plachonin, beide Zugvogel",
+  "info": "Deutscher Text von fotler (Erik Schellhorn) und Igor Plachonin, beide Zugvogel\n\nKAMAZ ist eine russische Marke für Lastkraftwagen.\n\"Povorot\" ist ein in Russland sehr bekanntes Lied von Mashina Vremeni.",
   "changes": [
     {
       "date": 1661367997281,
@@ -40,6 +40,13 @@
       "mail": "lederboy69@bdp-rps.de",
       "type": "update",
       "content": "Akkord in Refrain anpassen"
+    },
+    {
+      "date": 1687440525264,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ]
 }
