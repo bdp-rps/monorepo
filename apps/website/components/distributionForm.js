@@ -12,13 +12,10 @@ import {
   Checkbox,
 } from '@bdp-rps/ui'
 
-import { useRouter } from 'next/router'
-
 import postDistributors from '../api/postDistributors.js'
+import allGroups from '../data/allGroups.json'
 
 const DistributionForm = () => {
-  const router = useRouter()
-
   const nameField = useField({
     name: 'name',
     required: true,
@@ -130,7 +127,6 @@ const DistributionForm = () => {
               ],
             })
             if (response?.status === 200) {
-              router.reload()
               reset()
             }
           }
@@ -143,31 +139,18 @@ const DistributionForm = () => {
       </SelectInput>
       <TextInput label="Name" {...nameField.props} />
       <Spacer />
+
       <SelectInput label="Stamm" {...groupField.props}>
-        <option value="" />
-        <option value="albertschweizer">Albert Schweitzer</option>
-        <option value="bundschuh">Bundschuh</option>
-        <option value="ciconia">Ciconia</option>
-        <option value="drache">Drache</option>
-        <option value="falke">Falke</option>
-        <option value="feldkirchen">Feldkirchen</option>
-        <option value="franzvonsickingen">Franz von Sickingen</option>
-        <option value="goten">Goten</option>
-        <option value="grafvonsponheim">Graf von Sponheim</option>
-        <option value="vonhelfenstein">von Helfenstein</option>
-        <option value="idaroberstein">Idar-Oberstein</option>
-        <option value="kurpfalz">Kurpfalz</option>
-        <option value="luchs">Luchs</option>
-        <option value="ochtendung">Ochtendung</option>
-        <option value="pilgrimfalkoni">Pilgrim Falkoni</option>
-        <option value="derpiraten">der Piraten</option>
-        <option value="robinhood">Robin Hood</option>
-        <option value="rotfuchs">Rotfuchs</option>
-        <option value="schwarzermilan">Schwarzer Milan</option>
-        <option value="sturmvogel">Sturmvogel</option>
-        <option value="tilia">Tilia</option>
-        <option value="tscherkessen">Tscherkessen</option>
-        <option value="vogtvonhunolstein">Vogt von Hunolstein</option>
+        <option value=""></option>
+        {allGroups
+          .sort((a, b) =>
+            a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+          )
+          .map(({ name }) => (
+            <option key={name} value={name}>
+              {name}
+            </option>
+          ))}
       </SelectInput>
       <TextInput label="Email" {...mailField.props} />
       <Spacer size={2} />
