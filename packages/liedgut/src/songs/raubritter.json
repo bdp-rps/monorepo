@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Von der Festung {F}dröhnt {a}derbe {E}Männer{a}stimme.\nRauer Kehle {F}Sang, {a}hell die {E}Gläser {a}klingen.\n\n{G}Be{C}herrschen dies {G}Gebiet, {a}singen stolz ihr {E}Lied:\n/:{a}Raubritter, Raubritter, wie weit {G}ist {a}un{G}ser {a}Land?\n{F}Raubritter, Raubritter, wie stark {C}ist {F}uns{G}re {a}Hand? :/\n\nIn unser Knechtschaft Zeit griffen wir zu Waffen,\nschlugen unsre Herrn, Grafen und auch Pfaffen.\n\nGroß ist unsre Macht, solange wir vereint,\nhüten unsre Burg, trotzen jeden Feind.",
+  "content": "{a}Von der Festung {F}dröhnt {a}derbe {E}Männer{a}stimme.\nRauer Kehle {F}Sang, {a}hell die {E}Gläser {a}klingen.\n\n{G}Be{C}herrschen dies {G}Gebiet, {a}singen stolz ihr {E}Lied:\n/:{a}Raubritter, Raubritter, wie weit {G}ist {a}un{G}ser {a}Land?\n{F}Raubritter, Raubritter, wie stark {C}ist {F}uns{G}re {a}Hand? :/\n\nIn unser Knechtschaft Zeit griffen wir zu Waffen,\nschlugen uns're Herrn, Grafen und auch Pfaffen.\n\nGroß ist uns're Macht, solange wir vereint,\nhüten uns're Burg, trotzen jeden Feind.",
   "title": "Raubritter",
   "words": [
     {
@@ -38,8 +38,8 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
-  "info": "",
+  "musicalKey": "Am",
+  "info": "Ordenslied der Raubritter",
   "changes": [
     {
       "date": 1680013189400,
@@ -51,6 +51,13 @@
     {
       "date": 1686995920914,
       "name": "ritter",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1688215903510,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""
