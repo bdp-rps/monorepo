@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}All diese {A7}Wellen, ja diese {d}Wellen, die sollen {C}bloß zur Hölle {F}fahr'n.{(D7)}\n/: Und keine {g}Karten von diesen {d}Stellen{(B)}, ich treibe {g}vorwärts {A7}ohne {d}Plan.{(D7)} :/\n\nIrgendwo leben, die wilden Weiber, sitzt mancher Freund beim Wodkaglas,\n/: Doch hier beherrschen der Wind die Steine, mein Boot voll Löcher, Moos und Gras. :/\n\nAm großen Fluss bin ich am Morgen, der Sommer ist dann längst vorbei,\n/: Um mich da macht euch mal keine Sorgen, denn bald schon ist es wieder Mai. :/\n\nAber vielleicht gibt's dich und so lang du mich nicht quälst mit deinem Leid,\n/: Ich liebe dich doch nur bis zur Sandbank, was dann kommt bringt uns schon die Zeit. :/",
+  "content": "{d}All diese {A7}Wellen, ja diese {d}Wellen, die sollen {C}bloß zur Hölle {F}fahr'n,{D7}\n|: und keine {g}Karten von diesen {d}Stellen{B}, ich treibe {g}vorwärts {A7}ohne {d}Plan.{(D7)} :|\n\nIrgendwo leben die tollen Weiber, sitzt mancher Freund beim Wodkaglas,\ndoch hier beherrschen der Wind, die Steine mein Boot voll Löcher, Moos und Gras.\n\nAm großen Fluss bin ich am Morgen, der Sommer ist dann längst vorbei,\num mich da macht euch mal keine Sorgen, denn bald schon wieder ist es Mai.\n\nAber vielleicht gibt's dich und solang du mich nicht quälst mit deinem Leid,\nich liebe dich doch nur bis zur Sandbank, was dann kommt bringt uns schon die Zeit.\n\nLalala....\n\nLetzte wie Erste",
   "title": "Die Sandbank",
   "words": [
     {
@@ -17,7 +17,7 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1960"
     }
   ],
   "translation": [],
@@ -31,7 +31,15 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688672362581,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }
