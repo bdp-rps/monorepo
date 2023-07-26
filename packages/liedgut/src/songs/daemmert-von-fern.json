@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Dämmert von Fern über {G}Hügeln der {C}Morgen,\ngeht durch das Lager der {G}Weckruf der {C}Posten.\n/: Auf, Kame{G}raden, {C}sattelt eure {G}Pferde\n{C}weiter geht {F}unser Ritt {C}über die {G}rote {C}Erde :/\n\nStaub wirbelt auf, dumpfes Prasseln der Hufe,\nvon Mann zu Mann geht ein Lachen und Rufen.\n/: Singend grüßt ein Reiter hell die Sonne\nund im Chor fällt dann ein brausend die ganze Kolonne. :/\n\nJeder der Reiterkameraden mir zur Seite,\nmit seinem Leben dem Zeichen sich verschrieb.\n/: Höre du, mein Bruder dort am Wege,\nschwinge dich auf dein Pferd, zwinge die rote Erde. :/\n",
+  "content": "{C}Dämmert von Fern über {G}Hügeln der {C}Morgen,\ngeht durch das Lager der {G}Weckruf der {C}Posten.\n/: Auf, Kame{G}raden, {C}sattelt eure {G}Pferde,\n{C}weiter geht {F}unser Ritt {C}über die {G}rote {C}Erde. :/\n\nStaub wirbelt auf, dumpfes Prasseln der Hufe,\nvon Mann zu Mann geht ein Lachen und Rufen.\n/: Singend grüßt ein Reiter hell die Sonne\nund im Chor fällt dann ein brausend die ganze Kolonne. :/\n\nJeder der Reiterkameraden mir zur Seite,\nmit seinem Leben dem Zeichen sich verschrieb.\n/: Höre du, mein Bruder dort am Wege,\nschwinge dich auf dein Pferd, zwinge die rote Erde. :/\n",
   "title": "Dämmert von fern",
   "words": [
     {
@@ -31,7 +31,15 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1690397548254,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "C"
 }
