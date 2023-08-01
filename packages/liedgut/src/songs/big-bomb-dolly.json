@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wir {e}kommen mit dem {H7}Walfischkahn zwei{C}mal im {D}Jahr nach {e}Haus.\nNe Wolke Dunst von {H7}Lebertran, die {C}weht dem {D}Pott vor{e}aus.\n{D}Wir {G}mähen unser {D}Sauerkraut und {G}wetzen in die {D}Stadt, oh ja,\nweil {e}die perfekte {H7}Seemansbraut uns {C}längst ge{D}rochen {e}hat.\n\nDas ist die {G}Big Bomb {D}Dolly aus {G}Dover, ahoi, ohe!\nUnd die hat Sprengstoff {D}unterm Pull{G}over, ahoi, ohe!\nDie macht {D}Feuer aus dem Heuer in der {G}Pinte an der See,\ndass die {D}Flusen nur so brennen und die {G}Leute im Calais\nnachts die {e}Zeitung {H7}lesen {e}kö{H7}nn{e}en!\n\nSitzt mal der Käptn abgebrannt in Schulden und in Gin,\ndann gehen wir mit Fisch an Hand und ohne Piepen hin.\nDie Dame ist nicht lasterhaft, drum rechnet sie genau.\nSie nimmt für ihre Einsatzkraft zwei Zentner Kabeljau.\n\nEs bleibt nicht aus, dass unser Pott den letzten Kai bezieht.\nIm Seemannsheim \"Zum lieben Gott\" gibt´s nichts auf dem Gebiet.\nDoch findet unser scharfer Blick das ferne Leuchtsignal.\nDenn unten brennt ja noch zum Glück das Feuer am Kanal!",
+  "content": "Wir {e}kommen mit dem {H7}Walfischkahn zwei{C}mal im {D}Jahr nach {e}Haus.\nNe Wolke Dunst von {H7}Lebertran, die {C}weht dem {D}Pott vor{e}aus.\n{D}Wir {G}mähen unser {D}Sauerkraut und {G}wetzen in die {D}Stadt, oh ja,\nweil {e}die perfekte {H7}Seemansbraut uns {C}längst ge{D}rochen {e}hat.\nDas ist die {G}Big Bomb {D}Dolly aus {G}Dover, ahoi, ohe!\nUnd die hat Sprengstoff {D}unterm Pull{G}over, ahoi, ohe!\nDie macht {D}Feuer aus dem Heuer in der {G}Pinte an der See,\ndass die {D}Flusen nur so brennen und die {G}Leute im Calais\nnachts die {e}Zeitung {H7}lesen {e}kö{H7}nne{e}n!\n\nSitzt mal der Käptn abgebrannt in Schulden und in Gin,\ndann gehen wir mit Fisch an Hand und ohne Piepen hin.\nDie Dame ist nicht lasterhaft, drum rechnet sie genau.\nSie nimmt für ihre Einsatzkraft zwei Zentner Kabeljau.\n\nEs bleibt nicht aus, dass unser Pott den letzten Kai bezieht.\nIm Seemannsheim \"Zum lieben Gott\" gibt´s nichts auf dem Gebiet.\nDoch findet unser scharfer Blick das ferne Leuchtsignal.\nDenn unten brennt ja noch zum Glück das Feuer am Kanal!",
   "title": "Big Bomb Dolly",
   "words": [
     {
@@ -14,24 +14,31 @@
   "tune": [
     {
       "name": "Klaus Eckhardt",
-      "nickname": "",
+      "nickname": "klappe",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1965"
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "7/8",
   "alternativeTitle": "",
-  "tempo": "100",
-  "musicalKey": "",
-  "info": "",
+  "tempo": "90",
+  "musicalKey": "Em",
+  "info": "Refrain: 2/4",
   "changes": [
     {
       "date": 1679405256878,
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690395587253,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
