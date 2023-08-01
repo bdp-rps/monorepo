@@ -17,7 +17,7 @@
   "beat": "4/4",
   "tempo": 110,
   "info": "",
-  "content": "{d}Grau ist der {A}Regen, {F}kahl liegt das {d}Land,\n{a}Herbstwinde {B}fe{C}gen das {d}Laub.\n\n/: {F}Aijala{C}lo {d}aija{A}la{d}lo. :/\n\nVogellied klagt leise fernem Sommer nach.\nVogel singt die Weise der Not.\n\nWeiß ist der Regen, weiß ist das Land,\nSchnee auf den Wegen nun liegt.\n\nWeiß tanzt in Scharen Winterreigen.\nWird sich offenbaren das Licht?",
+  "content": "{d}Grau ist der {A}Regen, {F}kahl liegt das {d}Land.\n{a}Herbstwinde {B}fe{C}gen das {d}Laub.\n\n/: {F}Aijala{C}lo {d}aija{A}la{d}lo. :/\n\nVogellied klagt leise fernem Sommer nach.\nVogel singt die Weise der Not.\n\nWeiß ist der Regen, weiß ist das Land,\nSchnee auf den Wegen nun liegt.\n\nWeiß tanzt in Scharen Winterreigen.\nWird sich offenbaren das Licht?",
   "changes": [
     {
       "name": "Robin Weser",
@@ -31,8 +31,16 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "update",
       "content": "Alternativtitel ergänzt"
+    },
+    {
+      "date": 1690889870414,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
-  "alternativeTitle": "Grau ist der Regen"
+  "alternativeTitle": "Grau ist der Regen",
+  "musicalKey": "Dm"
 }
