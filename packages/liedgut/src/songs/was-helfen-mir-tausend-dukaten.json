@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Was {D}helfen mir {A}tausend Duk{D}at{G}en,\nwenn {D}sie ver{A}soffen {D}sind?\nDer König hat {A}brave Sol{D}dat{G}en,\nwenn {D}sie mon{A}tieret {D}sind.\n/:Er {A}gibt ihnen schönes {D}Geld,\ner {A}macht's, wies ihm ge{D}fällt:\ner lässt sie brav {A}lustig marsch{D}ier{G}en,\nwohl {D}durch die {A}ganze {D}Welt. :/\n\nEi, Bauer, das tu ich dir sagen:\n\"Wenn mein Quartier ist aus,\nwenn die Trompeter blasen,\nso wecke du mich bald auf\n/:und sattle mir mein Pferd\nund rüste mir mein Schwert,\nden Mantel, den tu mir drauf binden,\ndass ich bald fertig werd'!\" :/\n\nDer Tag fing anzubrechen,\nder Wirt stand in der Tür,\ntat zu den Reitern sprechen:\n\"Trompeter sind schon hier,\n/:sie blasen alle frisch auf,\nihr Herren Soldaten, steht auf!\nDas Pferd ist schon gesattelt\nder Mantel gebunden darauf.\" :/\n\n\"Ei, Rösslein, das tu ich dir sagen,\nden Sporen gebe ich dir,\ndu musst mich heute noch tragen\nvor meiner Herzliebsten Tür,\n/:wohl vor das hohe Haus,\nda schaut das Mädel heraus\nmit ihren schwarz-braunen Äugelein,\nzum Fenster, da schaut sie heraus.\" :/\n\nDrum lade ich meine Musketen\nmit Pulver und mit Blei,\nund schieß meiner Herzallerliebsten\ndie Fensterscheiben entzwei.\n/:Das Pulver in die Luft,\ndie Kugeln wohl über den Rhein,\ndas meine Herzallerliebste weiß\nwie lustig Dragoner sein. :/",
+  "content": "Was {D}helfen mir {A}tausend Du{D}kat{G}en, wenn {D}sie ver{A}soffen {D}sind?\nDer König hat {A}brave Sol{D}dat{G}en, wenn {D}sie mon{A}tieret {D}sind.\n/: Er {A}gibt ihnen schönes {D}Geld, er {A}macht's, wies ihm ge{D}fällt:\ner lässt sie brav {A}lustig marsch{D}ier{G}en, wohl {D}durch die {A}ganze {D}Welt. :/\n\nEi, Bauer, das tu ich dir sagen: \"Wenn mein Quartier ist aus,\nwenn die Trompeter blasen, so wecke du mich bald auf\n/: und sattle mir mein Pferd und rüste mir mein Schwert,\nden Mantel, den tu mir drauf binden, dass ich bald fertig werd'!\" :/\n\nDer Tag fing anzubrechen, der Wirt stand in der Tür,\ntat zu den Reitern sprechen: \"Trompeter sind schon hier,\n/: sie blasen alle frisch auf, ihr Herren Soldaten, steht auf!\nDas Pferd ist schon gesattelt der Mantel gebunden darauf.\" :/\n\n\"Ei, Rösslein, das tu ich dir sagen, den Sporen gebe ich dir,\ndu musst mich heute noch tragen vor meiner Herzliebsten Tür,\n/: wohl vor das hohe Haus, da schaut das Mädel heraus\nmit ihren schwarz-braunen Äugelein, zum Fenster, da schaut sie heraus.\" :/\n\nDrum lade ich meine Musketen mit Pulver und mit Blei,\nund schieß meiner Herzallerliebsten die Fensterscheiben entzwei.\n/: Das Pulver in die Luft, die Kugeln wohl über den Rhein,\ndas meine Herzallerliebste weiß wie lustig Dragoner sein. :/",
   "title": "Was helfen mir tausend Dukaten?",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "D",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690800718618,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
