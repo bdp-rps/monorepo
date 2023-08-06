@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Wenn auf {D7}leeren Feldern,\n{e}die Ul{a}anen {D}reiten.\n/:{G}Mar{C}uschka moja, {G}Mar{C}uschka moja,\n{G}kommen {D7}schwere {G}Zeiten. :/\n\nHuhn und weißer Ganter,\nwander in die Pfanne.\n/:Maruschka moja, Maruschka moja,\nleer wird Krug und Kanne. :/\n\nVor dem Tor im Schatten,\nsitzen sie und lachen:\n/:Maruschka moja, Maruschka moja,\nhütte deine Sachen. :/\n\nPfeife rauchen sie und\nsingen freche Lieder:\n/:Maruschka moja, Maruschka moja,\nlauf und kehr nie wieder. :/\n\nHaben sie am Ende\ndich auch noch bestohlen?\n/:Maruschka moja, Maruschka moja,\ndenk es wär für Polen. :/",
+  "content": "{G}Wenn auf {D7}leeren Feldern, {e}die Ul{a}anen {D}reiten.\n/: {G}Mar{C}uschka moja, {G}Mar{C}uschka moja, {G}kommen {D7}schwere {G}Zeiten. :/\n\nHuhn und weißer Ganter, wandern in die Pfanne.\n/: Maruschka moja, Maruschka moja, leer wird Krug und Kanne. :/\n\nVor dem Tor im Schatten, sitzen sie und lachen:\n/: Maruschka moja, Maruschka moja, hüte deine Sachen. :/\n\nPfeife rauchen sie und singen freche Lieder:\n/: Maruschka moja, Maruschka moja, lauf und kehr nie wieder. :/\n\nHaben sie am Ende dich auch noch bestohlen?\n/: Maruschka moja, Maruschka moja, denk es wär für Polen. :/",
   "title": "Ulanen",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690799706286,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
