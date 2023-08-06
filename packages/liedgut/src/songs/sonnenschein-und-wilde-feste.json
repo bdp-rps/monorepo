@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Draußen warten Abenteuer,\n{G}unsre Seelen brennen heiß.\n{e}In die Kälte steigt das Feuer,\n{G}manche volle Flasche kreist\n/:{a}Keiner kann zu Hause bleiben,\n{e}draußen nur sich rumzutreiben,\n{a}ist es was uns {H7}immer noch am {e}Leben hält! :/\n\n{e}Sonnenschein und {D}wilde Feste\n{D7}sind im Leben {H7}doch das Beste\n{G}und der {D}Henker {G}kriegt die {a}Reste,\n{H7}was vom Lumpen {e}übr{H7}ig {e}blieb.\n\nMorgens brummt so mancher Schädel,\naber das geht auch vorbei.\nZu Hause wartet manches Mädel,\nmeinet noch wir wären treu.\n/:Wer wollt uns was übelnehmen?\nWofür sollten wir uns schämen?\nNur draußen auf der Straße sind wir frei. :/\n\nLumpenpack und Pferdewagen,\nPfeifendunst Gesang und Wein.\nSoweit uns die Füße tragen\nfahren wir Jahr aus Jahr ein.\n/:Fremde Länder zu gewinnen,\nneues Leben zu beginnen.\nWas auf dieser Erde kann denn schöner sein? :/",
+  "content": "{e}Draußen warten Abenteuer, {G}uns're Seelen brennen heiß.\n{e}In die Kälte steigt das Feuer, {G}manche volle Flasche kreist.\n/: {a}Keiner kann zu Hause bleiben, {e}draußen nur sich rumzutreiben,\n{a}ist es, was uns {H7}immer noch am {e}Leben hält! :/\n{e}Sonnenschein und {D}wilde Feste {D7}sind im Leben {H7}doch das Beste\n{G}und der {D}Henker {G}kriegt die {a}Reste, {H7}was vom Lumpen {e}üb{H7}rig {e}blieb.\n\nMorgens brummt so mancher Schädel, aber das geht auch vorbei.\nZu Hause wartet manches Mädel, meinet noch wir wären treu.\n/: Wer wollt uns was übel nehmen? Wofür sollten wir uns schämen?\nNur hier draußen auf der Straße sind wir frei. :/\n\nLumpenpack und Pferdewagen, Pfeifendunst, Gesang und Wein.\nSoweit uns die Füße tragen fahren wir jahraus, jahrein.\n/: Fremde Länder zu gewinnen, neues Leben zu beginnen,\nwas auf dieser Erde kann denn schöner sein? :/",
   "title": "Sonnenschein und wilde Feste",
   "words": [
     {
@@ -38,7 +38,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -46,6 +46,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690744165530,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
