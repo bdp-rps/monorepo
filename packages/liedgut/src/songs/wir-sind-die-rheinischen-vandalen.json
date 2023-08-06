@@ -1,6 +1,6 @@
 {
   "notation": "A,DF|\"d\"A3FA3F|\"A\"A2E2zEEE|A2G2F2E2|\n\"d\"D4-D A,DF|A3FA3F|\"A\"A2E2zEEE|A2G2F2E2|\n\"d\"D4-D ddd|:\"g\"d2B2d d z B|\"d\"A4-A A A B|1\"A\"A2G2F2G2|\n\"d\"A4-A ddd:|2\"A\"A2G2F2E2|\"d\"D4-D|]",
-  "content": "Wir sind die {d}rheinischen {A}Vandalen,\nauf Waldeck raufen, saufen {d}wir.\nWir haben uns schon viele {A}Male,\ndort überhoben an dem {d}Bier.\n/: Hussa, Ma{g}noli, hau ins Kla{d}vier!\nKarambo{A}lino stift uns {d}Bier. :/\n\nWir bleiben gern wo's guten Wein gibt,\nWhisky und Gin uns wirft nix hin.\nWir alle lallen freudetrunken\nund fragen nicht mehr nach dem Sinn.\n\nIn Spanien kämpften wir mit Stieren,\ndass die Toreros blass vor Neid.\nIn Indien stahlen wir Fakiren,\nden letzten Lendenschurz vom Leib.\n\nSo ziehen wir mit Fluchen, Saufen,\nquer durch Europa bis zum Nil.\nWir sind ein ganz verlor'ner Haufen,\nund kennen weder Weg noch Ziel.\n\nUnd kommt mit seinem Klappzylinder,\ndereinst der Knochensensemann.\nWir alle aber feuertrunken,\nbegrüßen ihn mit Fluchen dann.",
+  "content": "Wir sind die {d}rheinischen {A}Vandalen, auf Waldeck raufen, saufen {d}wir.\nWir haben uns schon viele {A}Male, dort überhoben an dem {d}Bier.\n/: Hussa, Ma{g}noli, hau ins Kla{d}vier! Karambo{A}lino stift uns {d}Bier. :/\n\nWir bleiben gern wo's guten Wein gibt, Whisky und Gin uns wirft nix hin.\nWir alle lallen freudetrunken und fragen nicht mehr nach dem Sinn.\n\nIn Spanien kämpften wir mit Stieren, dass die Toreros blass vor Neid.\nIn Indien stahlen wir Fakiren, den letzten Lendenschurz vom Leib.\n\nSo ziehen wir mit Fluchen, Saufen, quer durch Europa bis zum Nil.\nWir sind ein ganz verlor'ner Haufen, und kennen weder Weg noch Ziel.\n\nUnd kommt mit seinem Klappzylinder, dereinst der Knochensensemann.\nWir alle aber feuertrunken, begrüßen ihn mit Fluchen dann.",
   "title": "Wir sind die rheinischen Vandalen",
   "words": [
     {
@@ -37,6 +37,13 @@
     {
       "date": 1687439355545,
       "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1690890138298,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""
