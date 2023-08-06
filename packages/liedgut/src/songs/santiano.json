@@ -1,14 +1,14 @@
 {
   "notation": "",
-  "content": "Noch {e}liegt sie {D}ruhig am {G}Hafen{D}quai,\nheave a{e}way, Santi{D}ano\n{a}Sechzig Mann, ich bin {D}auch dabei,\nauf dem {C}Dreimast-{D}Kahn Sant{e}iano.\nLet's go for {D}Cali{G}forn{D}io,\nheave a{e}way, Sant{D}iano\n\nSie {a}jagt vor dem Wind vorwärts {D}hin, pfeilgeschwind,\nbis zum {C}gold'nen {D}Port von {e}Frisco.\n\nIch lasse die Margot zurück,\nhisset et oh, Santiano. \nDenk ich an sie, was mich sehr bedrückt,\nsail ich längst auf der Santiano.\nOn y va a Californio,\nhisset et oh, Santiano.\n\nMan sagt vor Sacramento,\nzijl omhog, Santiano, \nliegt Gold und Geld in der neuen Welt,\nso viel wie nirgend sonst wo.\nLaat gaan naar Californio,\nzijl omhog, Santiano.\n\nKehr ich dann heim zu der Margot,\nirza la, Santiano,\nist von Gold der Ring, den ich dann für sie bring\nund er kommt auf der Santiano.\nVamos a Californio, irza la, Santiano.\n\nLet's go for Californio,\non y va a Californio,\nlaat gaan naar Californio, \nvamos a Californio,\nirza la, Santiano,",
+  "content": "Noch {e}liegt sie ruhig {D}am {G}Hafen{D}kai, heave a{e}way, Santi{D}ano.\n{a}Sechzig Mann, ich bin {D}auch dabei, auf dem {C}Dreimast{D}kahn Sant{e}iano.\nLet's go for Ca{D}lif{G}orn{D}io, heave a{e}way, Sant{D}iano.\nSie {a}jagt vor dem Wind vorwärts {D}hin, pfeilgeschwind, bis zum {C}gold'nen {D}Port von {e}Frisco.\n\nIch lasse die Margot zurück, hisset et oh, Santiano.  \nDenk' ich an sie, was mich sehr bedrückt, sail ich längst auf der Santiano. \nOn y va a Californio, hisset et oh, Santiano.\n\nMan sagt vor Sacramento, zijl omhog, Santiano, \nliegt Gold und Geld in der neuen Welt, so viel wie nirgend sonst wo. \nLaat gaan naar Californio, zijl omhog, Santiano.\n\nKehr' ich dann heim zu der Margot, iza la, Santiano, \nist von Gold der Ring, den ich dann für sie bring und er kommt auf der Santiano. \nVamos a Californio, irza la, Santiano.\n\nLet's go for Californio, on y va a Californio, laat gaan naar Californio, vamos a Californio,\nirza la, Santiano.",
   "title": "Santiano",
   "words": [
     {
-      "name": "",
+      "name": "Jörg Seyffarth",
       "nickname": "Plauder",
       "group": "",
       "organisation": "Zugvogel",
-      "year": ""
+      "year": "2004"
     }
   ],
   "tune": [
@@ -24,14 +24,21 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
-  "info": "",
+  "musicalKey": "Em",
+  "info": "Das Lied ist ursprünglich ein englischsprachiger Shanty, der auch in einer französischen Version vorliegt. Die Geschichte eines jungen Mannes, der sein Mädchen verlässt, um in der Fremde sein Glück zu machen, ist in unzähligen Versionen in vielen Ländern der Welt erzählt worden. Die vielsprachige Gestaltung des Refrains (Englisch, Französisch, Niederländisch und Spanisch) soll die Internationalität von Lied und Geschichte unterstreichen.\n(Silberspring 6, S.23)",
   "changes": [
     {
       "date": 1680013520749,
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690742738440,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
