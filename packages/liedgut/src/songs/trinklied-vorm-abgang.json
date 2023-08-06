@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Schon {C}wird uns oft um's Herz zu {e}eng,\nes {F}lässt uns niemals {C}ruh'n;\nWir konnten manchmal im Ge{e}dräng\nnicht {F}ganz das Rechte {C}tun.\nLasst {a}in der Runde geh'n den {G}Wein,\nhorcht {F}wie die Zeit ver{C}rinnt;\ndie {F}Menschen werden kleiner {e}sein,\n{a}wenn {G}wir, {F}wenn {C}wir ge{G}gangen {C}sind.\n\nUns wäre eingereiht behaust\nund vorbetreut nicht wohl:\nwir konnten noch in unsrer Faust\nvereinen Pol und Pol.\nLasst in der Runde geh'n den Wein,\nhorcht wie die Zeit verrinnt;\ndie Menschen werden SCHWÄCHER sein,\nwenn wir, wenn wir gegangen sind.\n\n\nOb altes Maß, ob neues Maß,\nwir müssen bald vergeh'n;\nwas schadet's, bleibt nur dies und das\nvon uns als Zeichen stehn.\nLasst in der Runde geh'n den Wein\nhorcht wie die Zeit verrinnt\ndie Menschen werden FREIER sein,\nwenn wir, wenn wir gegangen sind.",
+  "content": "Schon {C}wird uns oft um's Herz zu {e}eng, es {F}lässt uns niemals {C}ruh'n;\nwir konnten manchmal im Ge{e}dräng nicht {F}ganz das Rechte {C}tun.\nLasst {a}in der Runde geh'n den {G}Wein, horcht, {F}wie die Zeit ver{C}rinnt;\ndie {F}Menschen werden kleiner {e}sein, {a}wenn {G}wir, {F}wenn {C}wir ge{G}gangen {C}sind.\n\nUns wäre eingereiht, behaust und vorbetreut nicht wohl:\nwir konnten noch in unsrer Faust vereinen Pol und Pol.\nLasst in der Runde geh'n den Wein, horcht wie die Zeit verrinnt;\ndie Menschen werden schwächer sein, wenn wir, wenn wir gegangen sind.\n\nOb altes Maß, ob neues Maß, wir müssen bald vergeh'n;\nwas schadet's, bleibt nur dies und das von uns als Zeichen stehn.\nLasst in der Runde geh'n den Wein horcht wie die Zeit verrinnt;\ndie Menschen werden freier sein, wenn wir, wenn wir gegangen sind.",
   "title": "Trinklied vorm Abgang",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "C",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690798761816,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
