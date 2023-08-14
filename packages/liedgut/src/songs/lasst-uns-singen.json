@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Und als wir dann am Abend den {C}See vor uns sah'n,\nfühlten {G}wir den Beginn unsres {a}Abenteuers nah'n,\nund wir {d}stiegen zum {a}U{E}fer hin{a}ab.\n\nLasst uns {F}singen, lasst uns {a}singen,\nlasst die {G}Lieder unsrer Fahrt er{a}klingen.\nLasst uns {F}ziehen, lasst uns {a}ziehen,\nlasst uns {G}weiter durch die Wälder {a}zieh'n.\n\nUnd als die Kohten standen am Steinufersaum,\ntranken wir Tee am Feuer, ein alter Kiefernbaum\ngrüßte knarrend uns später im Schlaf.\n\nUnd als die Sonne morgens aufs Kohtenkreuz schien,\ngab's nur eins und das war aus den Schlafsäcken zu flieh'n\nund zu schwimmen zur Insel hinaus.\n\nUnd morgen geht es weiter, wer weiß schon wohin.\nJeder Tag ist so anders und stets ist er Beginn\nneuer Taten voll Wildheit und Glück.",
+  "content": "{a}Und als wir dann am Abend den {C}See vor uns sah'n, fühlten {G}wir den Beginn unsres \n{a}Abenteuers nah'n, und wir {d}stiegen zum {a}Uf{E}er hin{a}ab.\nLasst uns {F}singen, lasst uns {a}singen, lasst die {G}Lieder unsrer Fahrt er{a}klingen.\nLasst uns {F}ziehen, lasst uns {a}ziehen, lasst uns {G}weiter durch die Wälder {a}zieh'n.\n\nUnd als die Kohten standen am Steinufersaum, tranken wir Tee am Feuer, ein \nalter Kiefernbaum grüßte knarrend uns später im Schlaf.\n\nUnd als die Sonne morgens auf's Kohtenkreuz schien, gab's nur eins und das war aus den\nSchlafsäcken zu flieh'n und zu schwimmen zur Insel hinaus.\n\nUnd morgen geht es weiter, wer weiß schon wohin. Jeder Tag ist so anders und \nstets ist er Beginn neuer Taten voll Wildheit und Glück.",
   "title": "Lasst uns singen",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690733686930,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
