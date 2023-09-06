@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "M:C\nL:1/4\nC|\"D\"F>F/1FA|\"A\"G>F/1GA/2G/2|\"D\"F>F/1Ac|\"G\"d3d|\n\"D\"c>AAF|\"A\"G>FGA/G/|\"G\"F>D\"A\"DC|\"D\"F3\nC|\"D\"F>F/1FA|\"A\"G>F/1GA/2G/2|\"D\"F>F/1Ac|\"G\"d3d|\n\"D\"c>AAF|\"A\"G>FGA/G/|\"G\"F>D\"A\"DC|\"D\"F3|]",
   "content": "Ihr {D}Wölfe kommt und {A}schließt den Kreis,\nein {D}Wolf will von uns {G}gehn.\nIhr {D}Wölfe kommt und {A}schließt den Kreis,\nsagt {G}ihm auf {A}Wieder{D}seh'n!\nEr {D}geht nun zu den {A}Menschen fort und {D}schaut nochmal zu{G}rück,\nwir {D}wünschen ihm am {A}fremden Ort viel {G}Beute {A}und viel {D}Glück!\n\nIhr Wölfe kommt zum Felsen heut,\nein Bruder von uns geht.\nIhr Wölfe kommt zum Felsen heut,\ndamit ihr hier noch seht:\ndas ist nur \"Gute Jagd\" für ihn, das ist kein Lebewohl.\nEs wird  zurück ihn immer zieh'n, das ist kein Lebewohl.\n\nWie Mogli von den Menschen einst\nnicht wieder kam bei Nacht.\nWie Mogli von den Menschen einst\nzum Mann sich hat gemacht.\nSo muss auch jeder Wölfing nun vom Felsen einmal fort.\nEs zieht  ihn selbst zu ander'm Tun einmal vom Felsen fort.\n\nDu, der du gehst, erinn're dich\nan jede Wölflingsjagd.\nDu, der du gehst, erinn're dich\nans Feuer in der Nacht.\nAns Ratsgeheul und Akela und einmal komm zurück!\nEin Platz für dich ist immer da, drum komm einmal zurück.",
   "title": "Abschied von der Meute",
   "words": [
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1693980324471,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
   ]
 }
