@@ -260,7 +260,7 @@ export default function Page({ defaultData }) {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={20} space={8}>
-        <Text variant="title">Fahrtkostenabrechung - Auto</Text>
+        <Text variant="title">Fahrtkosten - Auto</Text>
         <Box
           as="form"
           noValidate

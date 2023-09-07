@@ -82,7 +82,7 @@ export default function Reisekosten({
       </Box>
       <Box alignSelf="center" paddingTop={10} paddingBottom={10}>
         <Text subStyle="emphasis" style={{ fontSize: 18 }}>
-          Reisekostenabrechnung RPS - Auto
+          Reisekostenabrechnung - Auto
         </Text>
       </Box>
       <Box
