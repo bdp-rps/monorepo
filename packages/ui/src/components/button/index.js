@@ -35,7 +35,7 @@ const colorMap = {
 const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   boxSizing: 'border-box',
   textDecoration: 'none',
-  alignSelf: 'flex-start',
+  height: 'min-content',
   whiteSpace: 'nowrap',
   width: '100%',
   display: 'flex',
