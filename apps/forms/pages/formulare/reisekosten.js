@@ -21,15 +21,12 @@ import Wrapper from '../../templates/Wrapper'
 import Reisekosten from '../../templates/Reisekosten'
 
 const rates = {
-  1: 0.15,
-  2: 0.15,
-  3: 0.17,
-  4: 0.17,
-  5: 0.19,
-  6: 0.19,
-  7: 0.19,
-  8: 0.19,
-  9: 0.19,
+  1: 0.17,
+  2: 0.18,
+  3: 0.2,
+  4: 0.22,
+  5: 0.25,
+  '6+': 0.28,
 }
 
 function CarForm({ routes, onAdd, onDelete }) {
@@ -55,7 +52,7 @@ function CarForm({ routes, onAdd, onDelete }) {
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-          <option value="5+">5+</option>
+          <option value="6+">6+</option>
         </SelectInput>
         <Box>
           <Button
