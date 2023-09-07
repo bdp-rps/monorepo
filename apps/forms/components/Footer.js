@@ -16,7 +16,7 @@ export default function Footer() {
   const theme = useTheme()
 
   return (
-    <Box grow={1} extend={{ backgroundColor: theme.tokens.secondary }}>
+    <Box extend={{ backgroundColor: theme.tokens.secondary }}>
       <Layout paddingTop={10} paddingBottom={10}>
         <Box space={5}>
           <Box space={2} direction="row">

@@ -21,9 +21,9 @@
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
-    "@bdp-rps/react-pdf-renderer": "workspace:*",
     "@bdp-rps/ui": "workspace:*",
     "@lorren-js/core": "^0.2.3",
+    "@react-pdf/font": "2.2.1",
     "lorren": "^1.0.0",
     "next": "^12.0.7",
     "node-fetch": "^2.6.0",

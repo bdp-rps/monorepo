@@ -34,9 +34,9 @@ importers:
       '@babel/polyfill': ^7.2.5
       '@babel/preset-env': ^7.7.6
       '@babel/preset-react': ^7.7.4
-      '@bdp-rps/react-pdf-renderer': workspace:*
       '@bdp-rps/ui': workspace:*
       '@lorren-js/core': ^0.2.3
+      '@react-pdf/font': 2.2.1
       babel-plugin-transform-es2015-modules-commonjs: ^6.26.2
       cross-env: ^6.0.3
       eslint-config-next: 12.3.1
@@ -47,9 +47,9 @@ importers:
       react-dom: ^17.0.1
       rimraf: ^3.0.0
     dependencies:
-      '@bdp-rps/react-pdf-renderer': link:../../packages/react-pdf
       '@bdp-rps/ui': link:../../packages/ui
       '@lorren-js/core': 0.2.3_react@17.0.2
+      '@react-pdf/font': 2.2.1
       lorren: 1.0.0
       next: 12.3.4_jiuppbrrdpqsioctsbaxdlfu4e
       node-fetch: 2.6.8
@@ -3807,13 +3807,13 @@ packages:
       '@babel/runtime': 7.22.5
     dev: false
 
-  /@react-pdf/font/2.3.6:
-    resolution: {integrity: sha512-JYV+KmVyG2tPdpCK0/iFiBy1V7VHz2fETttKCgTRsLAo+w8RpM0pUGSAYROSuRl7yqbhiKGw/A24PYWhBReiOQ==}
+  /@react-pdf/font/2.2.1:
+    resolution: {integrity: sha512-LMdvTkhR6jm/Bt1oKvRTYQc4/4wbtH4mEF++SHzKmwaOhZeruZYzt5sboHadyKRg7gTW/HKoWN03SJGTC4CGnA==}
     dependencies:
       '@babel/runtime': 7.22.5
+      '@react-pdf/fontkit': 2.1.2
       '@react-pdf/types': 2.3.3
       cross-fetch: 3.1.6
-      fontkit: 2.0.2
       is-url: 1.2.4
     transitivePeerDependencies:
       - encoding
@@ -3938,7 +3938,7 @@ packages:
       react: ^16.8.6 || ^17.0.0
     dependencies:
       '@babel/runtime': 7.20.13
-      '@react-pdf/font': 2.3.6
+      '@react-pdf/font': 2.2.1
       '@react-pdf/layout': 3.6.2
       '@react-pdf/pdfkit': 2.4.0
       '@react-pdf/primitives': 3.0.1

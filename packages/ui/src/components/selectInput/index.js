@@ -59,7 +59,7 @@ export default function SelectInput({
   const { css } = useFela(styleProps)
 
   return (
-    <Box space={1}>
+    <Box space={1} grow={1}>
       <Text
         as="label"
         htmlFor={name}
@@ -80,7 +80,6 @@ export default function SelectInput({
         onBlur={onBlur}
         onFocus={onFocus}
         className={css(style)}>
-        {!required ? <option value="" /> : null}
         {children}
       </select>
 

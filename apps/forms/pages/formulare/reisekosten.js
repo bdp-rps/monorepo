@@ -1,37 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 import {
   Box,
   Grid,
   Button,
   TextInput,
   Text,
-  useField,
+  useField as useBaseField,
   useForm,
+  SelectInput,
 } from '@bdp-rps/ui'
-import {
-  PDFDownloadLink,
-  PDFViewer,
-  ThemeProvider,
-  ConfigProvider,
-  Document,
-} from '@lorren-js/core'
+import { PDFDownloadLink, PDFViewer, Document } from '@lorren-js/core'
 
+import Layout from '../../components/Layout'
+import Template from '../../components/Template'
+
+import { toEuro } from '../../utils/currency'
+
+import Wrapper from '../../templates/Wrapper'
 import Reisekosten from '../../templates/Reisekosten'
-
-const theme = {
-  typography: {
-    defaultVariant: 'body',
-    body: {
-      fontSize: 12,
-      lineHeight: 1.2,
-      variants: {
-        emphasis: {
-          fontWeight: 700,
-        },
-      },
-    },
-  },
-}
 
 const rates = {
   1: 0.15,
@@ -46,86 +33,125 @@ const rates = {
 }
 
 function CarForm({ routes, onAdd, onDelete }) {
-  const kilometer = useField({
+  const kilometer = useBaseField({
     name: 'kilometer',
+    required: true,
   })
-  const count = useField({
-    name: 'mitfahrer',
+  const count = useBaseField({
+    name: 'personen',
+    required: true,
+    value: '1',
   })
 
   const { submit, reset } = useForm(kilometer, count)
 
   return (
     <Box space={6}>
-      <Box
-        as="form"
-        direction="row"
-        space={2}
-        onSubmit={(e) => {
-          e.preventDefault()
-
-          submit((isValid, data) => {
-            if (isValid) {
-              console.log(data)
-
-              onAdd(data)
-              reset()
-            }
-          })
-        }}>
+      <Box direction="row" alignItems="flex-end" space={2}>
         <TextInput label="Kilometer" {...kilometer.props} />
-        <TextInput label="Mitfahrer" {...count.props} />
+        <SelectInput label="Personen" {...count.props}>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="5+">5+</option>
+        </SelectInput>
+        <Box>
+          <Button
+            onClick={(e) => {
+              e.preventDefault()
 
-        <Button type="submit">Hinzufügen</Button>
+              submit((isValid, data) => {
+                if (isValid) {
+                  onAdd({
+                    ...data,
+                    rate: rates[data.personen],
+                    total: data.kilometer * rates[data.personen],
+                  })
+                  reset()
+                }
+              })
+            }}>
+            Hinzufügen
+          </Button>
+        </Box>
       </Box>
 
-      {routes.map((route) => (
-        <Box
-          direction="row"
-          justifyContent="space-between"
-          space={4}
-          alignItems="center">
-          <Box>
-            <Text>
-              {route.kilometer}km à {route.mitfahrer} Person - {route.kilometer}{' '}
-              * {rates[route.mitfahrer]}€ ={' '}
-              {route.kilometer * rates[route.mitfahrer]}€
-            </Text>
+      <Box space={2}>
+        {routes.map((route, index) => (
+          <Box
+            direction="row"
+            justifyContent="space-between"
+            space={4}
+            alignItems="center">
+            <Box>
+              <Text>
+                {route.kilometer}km ({route.personen}{' '}
+                {route.personen === 1 ? 'Person' : 'Personen'}) ={' '}
+                {route.kilometer} * {route.rate}€ = {toEuro(route.total)}
+              </Text>
+            </Box>
+            <Box>
+              <Button
+                size="small"
+                variant="secondary"
+                intent="negative"
+                onClick={() => onDelete(index)}>
+                Löschen
+              </Button>
+            </Box>
           </Box>
-          <Box>
-            <Button variant="secondary" onClick={() => onDelete(index)}>
-              Löschen
-            </Button>
-          </Box>
-        </Box>
-      ))}
+        ))}
+      </Box>
     </Box>
   )
 }
 
-export default function Page({}) {
+// iban bekannt
+
+export default function Page({ defaultData }) {
+  const router = useRouter()
   const [routes, setRoutes] = useState([])
+  const [generated, setGenerated] = useState(false)
 
   const isMounted = process.browser
 
+  console.log(defaultData)
+
+  function useField({ name, ...props }) {
+    return useBaseField({ ...props, value: defaultData[name] })
+  }
+
   const name = useField({
     name: 'name',
+    required: true,
   })
   const event = useField({
     name: 'event',
+    required: true,
   })
   const location = useField({
     name: 'location',
+    required: true,
   })
   const startDate = useField({
     name: 'startDate',
+    required: true,
   })
   const endDate = useField({
     name: 'endDate',
+    required: true,
   })
   const destination = useField({
     name: 'destination',
+    required: true,
   })
+  const iban = useField({
+    name: 'iban',
+  })
+  const place = useField({ name: 'place', required: true })
+  const date = useField({ name: 'date', required: true })
 
   const { submit, reset } = useForm(
     name,
@@ -133,82 +159,180 @@ export default function Page({}) {
     location,
     startDate,
     endDate,
-    destination
+    destination,
+    iban,
+    place,
+    date
   )
 
   const year = new Date(startDate.value).getFullYear()
 
-  const totalValue = 10.5
+  const totalValue = routes.reduce((total, route) => total + route.total, 0)
 
   const fileName =
     year + '__' + name.value + '_' + event.value + '_' + totalValue
+
+  useEffect(() => {
+    const query = {
+      name: name.value,
+      event: event.value,
+      location: location.value,
+      startDate: startDate.value,
+      endDate: endDate.value,
+      destination: destination.value,
+      iban: iban.value,
+      place: place.value,
+      date: date.value,
+      routes,
+    }
+
+    router.replace(
+      {
+        pathname: '/formulare/reisekosten',
+        query: {
+          data: btoa(JSON.stringify(query)),
+        },
+      },
+      undefined,
+      {
+        shallow: true,
+      }
+    )
+  }, [
+    name.value,
+    event.value,
+    location.value,
+    startDate.value,
+    endDate.value,
+    destination.value,
+    iban.value,
+    place.value,
+    date.value,
+    routes,
+  ])
 
   if (!isMounted) {
     return null
   }
 
+  if (generated) {
+    return (
+      <Template>
+        <Layout paddingTop={10} paddingBottom={20} space={8} grow={1}>
+          <Text variant="title">Reisekostenabrechung - Auto</Text>
+          <Box space={4} alignItems="flex-start">
+            <Box
+              as={PDFDownloadLink}
+              grow={1}
+              extend={{ textDecoration: 'none' }}
+              document={
+                <Wrapper>
+                  <Document>
+                    <Reisekosten
+                      name={name.value}
+                      event={event.value}
+                      location={location.value}
+                      startDate={startDate.value}
+                      endDate={endDate.value}
+                      destination={destination.value}
+                      iban={iban.value}
+                      place={place.value}
+                      date={date.value}
+                      routes={routes}
+                    />
+                  </Document>
+                </Wrapper>
+              }
+              fileName={fileName + '.pdf'}>
+              {({ blob, url, loading, error }) => (
+                <Button loading={loading}>Als PDF herunterladen</Button>
+              )}
+            </Box>
+            <Box>
+              <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
+            </Box>
+          </Box>
+        </Layout>
+      </Template>
+    )
+  }
+
   return (
-    <Grid columns={['1fr', , , '1fr 1fr']}>
-      <Box padding={10} space={4} style={{ overflow: 'auto' }}>
-        <TextInput label="Name" {...name.props} />
-        <TextInput label="Veranstaltung" {...event.props} />
-        <TextInput label="Veranstaltungsort" {...location.props} />
-        <TextInput label="Start-Datum" type="date" {...startDate.props} />
-        <TextInput label="End-Datum" type="date" {...endDate.props} />
-        <TextInput label="Reiseweg" {...destination.props} />
+    <Template>
+      <Layout paddingTop={10} paddingBottom={20} space={8}>
+        <Text variant="title">Fahrtkostenabrechung - Auto</Text>
         <Box
-          paddingTop={5}
-          marginTop={5}
+          as="form"
+          noValidate
           space={4}
-          extend={{
-            borderTopStyle: 'solid',
-            borderTopColor: 'black',
-            borderTopWidth: 1,
+          onReset={(e) => {
+            e.preventDefault()
+
+            router.push('/formulare/reisekosten')
+          }}
+          onSubmit={(e) => {
+            e.preventDefault()
+
+            submit((isValid, data) => {
+              if (isValid) {
+                setGenerated(true)
+              }
+            })
           }}>
-          <Text variant="category">Auto</Text>
+          <TextInput
+            label="Name"
+            placeholder="Vor- und Nachname"
+            {...name.props}
+          />
+          <TextInput
+            label="Veranstaltung"
+            placeholder="z.B. Herbst-SST 2023"
+            {...event.props}
+          />
+          <TextInput label="Veranstaltungsort" {...location.props} />
+          <TextInput label="Start-Datum" type="date" {...startDate.props} />
+          <TextInput label="End-Datum" type="date" {...endDate.props} />
+          <TextInput label="Reiseweg" {...destination.props} />
+          <span />
           <CarForm
             routes={routes}
             onAdd={(data) => setRoutes([...routes, data])}
-            onDelete={(index) => console.log(index)}
+            onDelete={(index) =>
+              setRoutes(routes.filter((_, i) => i !== index))
+            }
           />
-        </Box>
-      </Box>
-      <PDFViewer
-        key={Date.now()}
-        fileName="foo.pdf"
-        title="Foo.pdf"
-        style={{ height: '100vh', width: '50vw' }}>
-        <ThemeProvider theme={theme}>
-          <Document>
-            <Reisekosten
-              name={name.value}
-              event={event.value}
-              location={location.value}
-              startDate={startDate.value}
-              endDate={endDate.value}
-              destination={destination.value}
-            />
-          </Document>
-        </ThemeProvider>
-      </PDFViewer>
-    </Grid>
-  )
 
-  return (
-    <Box
-      as={PDFDownloadLink}
-      grow={1}
-      alignSelf="stretch"
-      extend={{ textDecoration: 'none' }}
-      document={
-        <Document>
-          <Fahrtkosten />
-        </Document>
-      }
-      fileName={id + '.pdf'}>
-      {({ blob, url, loading, error }) => (
-        <Button loading={loading}>Als PDF herunterladen</Button>
-      )}
-    </Box>
+          <span />
+
+          <TextInput
+            label="IBAN"
+            description="Falls bereits bekannt, einfach leer lassen!"
+            {...iban.props}
+          />
+
+          <Box direction={['column', , 'row']} space={4} alignItems="stretch">
+            <TextInput label="Ort" {...place.props} />
+            <TextInput label="Datum" type="date" {...date.props} />
+          </Box>
+          <span />
+
+          <Box
+            direction={['column', , 'row']}
+            space={4}
+            alignItems="flex-start">
+            <Button type="submit">Generieren</Button>
+            <Button type="reset">Zurücksetzen</Button>
+          </Box>
+        </Box>
+      </Layout>
+    </Template>
   )
+}
+
+export async function getServerSideProps({ query }) {
+  return {
+    props: {
+      defaultData: query.data ? JSON.parse(atob(query.data)) : {},
+    },
+  }
 }

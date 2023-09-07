@@ -5,13 +5,14 @@ export default function Layout({ children, ...props }) {
   const theme = useTheme()
 
   return (
-    <Box
-      paddingHorizontal={[4, , , 0]}
-      {...props}
-      maxWidth={theme.maxContentWidth}
-      width="100%"
-      alignSelf="center">
-      {children}
+    <Box alignItems="center">
+      <Box
+        paddingHorizontal={[4, , , 0]}
+        {...props}
+        maxWidth={800}
+        width="100%">
+        {children}
+      </Box>
     </Box>
   )
 }
