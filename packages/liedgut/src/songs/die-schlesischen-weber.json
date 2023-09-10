@@ -1,0 +1,36 @@
+{
+  "title": "Die schlesischen Weber",
+  "words": [
+    {
+      "name": "Heinrich Heine",
+      "year": "1844"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Helmut König",
+      "nickname": "helm"
+    }
+  ],
+  "beat": "6/8",
+  "tempo": 100,
+  "info": "",
+  "content": "{e}Im düstren {D}Auge keine {e}Träne,  {C}  {D}  {e}\nSie sitzen am {D}Webstuhl und fletschen die {e}Zähne:  {C}  {D}  {e}\nDeutschland wir {D}weben dein Leichen{G}tuch  {D}  {e}\nWir weben hi{D}nein den dreifachen {G}Fluch\nWir {H7}weben, wir {G}we-{D}e-{G}ben!  {D}  {e}  {C}  {D}  {e}\n\nEin Fluch dem Gotte zu dem wir gebeten\nIn Winterskälte und Hungersnöten;\nWir haben vergebens gehofft und geharrt,\nEr hat uns geäfft gefoppt und genarrt -\nWir weben, wir weben!\n\nEin Fluch dem König, dem König der Reichen\nDen unser Elend nicht konnte erweichen,\nDen letzten Pfennig von uns erpreßt,\nDer uns wie Hunde erschießen lässt -\nWir weben, wir weben!\n\nEin Fluch dem falschen Vaterlande,\nWo nur gedeihen Schmach und Schande,\nWo jede Blume früh geknickt,\nWo Fäulnis und Moder den Wurm erquickt -\nWir weben, wir weben!\n\nDas Schiffchen fliegt der Webstuhl kracht,\nWir weben emsig Tag und Nacht -\nAltdeutschland wir weben dein Leichentuch,\nwir weben hinein den dreifachen Fluch,\nWir weben, wir weben!",
+  "changes": [
+    {
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "date": 1585221170355
+    },
+    {
+      "date": 1692524373388,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
+    }
+  ],
+  "translation": [],
+  "alternativeTitle": "Das Weberlied"
+}
