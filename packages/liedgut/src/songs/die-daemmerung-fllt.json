@@ -1,6 +1,6 @@
 {
   "notation": "A,2|\"D\"D2D2\"A\"E2|\"D\"F4DD|\"G\"G2G3G|\"D\"F2F3F|\"A\"E2D2E2|\"D\"F2A2\"G\"B2|\n\"D\"A3GF2|\"A\"E6|\"D\"F2F3D|\"A\"E2E3C|\"D\"D6-|D6|A2A3F|\"A\"G2A3G|\"D\"F6|",
-  "content": "Die {D}Dämmerung {A}fällt, wir sind {G}müde vom {D}Traben.\nDie {A}Straßen, sie {D}haben {G}der {D}Steine gar {A}viel.\n/: {D}Lasst sie für {A}heute {D}allein. :/\n\nEs ist uns bestimmt, mit brennenden Füßen\ndie Unrast zu büßen, die der Tag mit sich bringt.\n/: Bald, Kameraden, ist Ruh. :/\n\nWer weiß, wo der Wind uns morgen schon hinweht, wo keiner mehr mitgeht, der Bruder uns ist.\n/: Bald sind wir alle allein. :/\n\nDoch glauben wir fest, dass stets sich erneure, der Bund und die Treue zu unserem Werk.\n/: Drum Kameraden, gut Nacht. :/\n",
+  "content": "Die {D}Dämmerung {A}fällt, wir sind {G}müde vom {D}Traben.\nDie {A}Straßen, sie {D}haben {G}der {D}Steine gar {A}viel.\n/: {D}Lasst sie für {A}heute {D}allein. :/\n\nEs ist uns bestimmt, mit brennenden Füßen\ndie Unrast zu büßen, die der Tag mit sich bringt.\n/: Bald, Kameraden, ist Ruh. :/\n\nWer weiß, wo der Wind uns morgen schon hinweht, \nwo keiner mehr mitgeht, der Bruder uns ist.\n/: Bald sind wir alle allein. :/\n\nDoch glauben wir fest, dass stets sich erneure, der Bund und die Treue zu unserem Werk.\n/: Drum Kameraden, gut Nacht. :/\n",
   "title": "Die Dämmerung fällt",
   "words": [
     {
@@ -18,19 +18,12 @@
       "group": "",
       "organisation": "",
       "year": ""
-    },
-    {
-      "name": "Helmut König",
-      "nickname": "helm",
-      "group": "",
-      "organisation": "",
-      "year": ""
     }
   ],
   "translation": [],
   "beat": "3/4",
-  "tempo": "100",
-  "info": "",
+  "tempo": "80",
+  "info": "Die oben wiedergegebene Textfassung ist so 1933 in der Zeitschrift der Ringgemeinschaft deutscher Pfadfinder „Jugendland”, abgedruckt worden (Ausgabe 4/1933). Der Text entspricht aber nicht dem Original von K. A. Christel, bei dem sich noch etwas besser zwischen den Zeilen lesen und erahnen lässt: Hier ist von der ungewissen Zukunft die Rede, vom Beginn der Verbotszeit, vom Ende der Bündischen Jugend. Und vor diesem Hintergrund wird das, was man so oft als eher banales Abend- oder Nachtlied gesungen hat, plötzlich ein beklemmendes Zeugnis aus finsteren Tagen. Wie eine Reihe weiterer Lieder macht es uns Gefühl und Stimmung der bündischen Gruppen vor und während der Verbotszeit greifbar. Dieser ursprüngliche Text geht so:\n\nDie Dämmerung fiel, wir sind müde vom Traben. Die Straßen, die haben der Steine gar viel. Lasst sie für heute allein.\n\nEs ist uns bestimmt, mit brennenden Füßen die Unrast zu büßen, die uns tags mit sich nimmt. Jetzt Kameraden ist Ruh.\n\nWer weiß, wo der Wind uns heute noch hinweht. wo keiner mehr mitgeht, die Freunde uns sind. Heut noch sind wir beisamm'.\n\nDrum sei diese Stund' der Freude geschenket, die Liebe sich senket bis zum Herzensgrund. Mag uns das Morgen verwehn.\n\nWenn leise und sacht, das Band uns gebunden. ist Trennung geschwunden, ist das beste vollbracht. Dann Kameraden, gut Nacht.\n\n(Quelle: TURM, Voggenreiter Verlag)",
   "musicalKey": "D",
   "changes": [
     {
@@ -46,6 +39,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "update",
       "content": "Akkord in Melodie korrigiert"
+    },
+    {
+      "date": 1694169622733,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": ""
