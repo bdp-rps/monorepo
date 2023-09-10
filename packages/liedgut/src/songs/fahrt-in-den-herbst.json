@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Am {e}Maisfeld steht Hitze, es {A}fährt nicht ein {D}Hauch\nda{G}rüber, ein {D}Bach bietet {A}kühlende {D}Flucht.\nAm {e}Wegesrand hängen die {A}Beeren am {D}Strauch\nUnd die {G}Äste schier {D}brechen vor {A}Frucht.\n\nMit {e}eilenden {h}Schritten auf {G}Fahrt durch das {D}Land,\nauf {G}endlosen {D}Wegen auf {D}Fahrt durch die {D}Zeit,\nder {h}Sommer, er hat sich all{G}mählich ge{D}wandt,\nder {h}Herbst ist {A}nicht mehr {G}weit.\n\nGeselle, auf geht es dem Wegweiser nach,\nso weit ist das Land und so schmal ist der Pfad.\nDie Felder, sie liegen vor Stoppeln schon brach,\naus dem Aether ein Turmfalke naht.\n\nVon Burgmauer blieben auf Felsgraten bloß\nRuinen, wir singen am Feuer im Tann\nauf uralten Steinen und frisch grünem Moos\ngegen Abgrund und Untergang an.\n\nEin Regen, ein Unwetter bricht in den Wald,\nin Baumkronen Schwaden von Herbstwolken stehen.\nDas Jahr wird im Donner und Blitzschlägen alt,\nwas ist bloß mit dem Sommer geschehen?\n\nMit eilenden Schritten auf Fahrt durch das Land,\nauf endlosen Wegen auf Fahrt durch die Zeit,\nist plötzlich der Herbstanfang gar nicht mehr weit,\nder Sommer steht am Rand.",
+  "content": "Am {e}Maisfeld steht Hitze, es {A}fährt nicht ein {D}Hauch\nda{G}rüber, ein {D}Bach bietet {A}kühlende {D}Flucht.\nAm {e}Wegesrand hängen die {A}Beeren am {D}Strauch\nUnd die {G}Äste schier {D}brechen vor {A}Frucht.\n\nMit {D}eilenden {h}Schritten auf {G}Fahrt durch das {D}Land,\nauf {G}endlosen {D}Wegen auf {A}Fahrt durch die {D}Zeit,\nder {h}Sommer, er hat sich all{G}mählich ge{D}wandt,\nder {h}Herbst ist {A}nicht mehr {G}weit.\n\nGeselle, auf geht es dem Wegweiser nach,\nso weit ist das Land und so schmal ist der Pfad.\nDie Felder, sie liegen vor Stoppeln schon brach,\naus dem Aether ein Turmfalke naht.\n\nVon Burgmauer blieben auf Felsgraten bloß\nRuinen, wir singen am Feuer im Tann\nauf uralten Steinen und frisch grünem Moos\ngegen Abgrund und Untergang an.\n\nEin Regen, ein Unwetter bricht in den Wald,\nin Baumkronen Schwaden von Herbstwolken stehen.\nDas Jahr wird im Donner und Blitzschlägen alt,\nwas ist bloß mit dem Sommer geschehen?\n\nMit eilenden Schritten auf Fahrt durch das Land,\nauf endlosen Wegen auf Fahrt durch die Zeit,\nist plötzlich der Herbstanfang gar nicht mehr weit,\nder Sommer steht am Rand.",
   "title": "Fahrt in den Herbst",
   "words": [
     {
@@ -31,6 +31,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1693558527540,
+      "name": "Jakob Sauer",
+      "mail": "jakob.vom.kohwald@icloud.com",
+      "type": "update",
+      "content": "Im Refrain das e am Anfang und das D bei \"auf Fahrt\" passt nicht denke ich, statt e ein D und statt D ein A steht auch in anderen Liederbüchern so"
     }
   ],
   "alternativeTitle": ""
