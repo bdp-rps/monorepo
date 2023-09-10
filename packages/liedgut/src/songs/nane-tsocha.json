@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "{a}Nane tsocha, {G}nane {C}gad, {F}me kinel man{C}ge jo {A7}dad,\n{d}syrvydzava {a}palerom, {E7}me kinel man{a}ge {E}jo {a}rom.\n\nLailailai...\n\nDade, kin mange tschinja, o tschinja somnakune.\nNakinessa o tschinja, nabeschava dro taschaja!\n\nZagejom me der sado, sriskerdiom man sveto.\nPrikerdiom les ke schero, te kames miro ilo.\n\n(Letzte wie erste)",
+  "title": "Nane tsocha",
+  "words": [
+    {
+      "name": "russisches Romalied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "russisches Romalied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "120",
+  "info": "Polka, Tempo langsam steigernd\nÜbersetzung:\n1. Keine Röcke, keine Blusen, kauft mir mein Vater, ich geh hin zu meinem Mann, er soll mir das alles kaufen. 2. Vater, Mutter, kauft mir Ohrringe, ja, Ohrringe aus Gold. Wenn ihr mir keine Ohrringe kauft, kann ich nicht bei den anderen Mädchen sitzen. 3. Ich ging in den Garten, pflückte eine Blume, steckte sie mir ins Haar, um dir zu gefallen.",
+  "changes": [
+    {
+      "date": 1601115912112,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1694168773136,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ],
+  "alternativeTitle": "",
+  "musicalKey": "Am"
+}
