@@ -39,7 +39,7 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   whiteSpace: 'nowrap',
   width: '100%',
   display: 'flex',
-  flexGrow: 1,
+  flexShrink: 1,
   justifyContent: 'center',
   appearance: 'none',
   cursor: 'pointer',

@@ -59,7 +59,7 @@ export default function SelectInput({
   const { css } = useFela(styleProps)
 
   return (
-    <Box space={1} grow={1} shrink={1}>
+    <Box space={1} shrink={1}>
       <Text
         as="label"
         htmlFor={name}
