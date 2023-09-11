@@ -2,8 +2,24 @@
   "notation": "",
   "content": "Flink a{e}uf! Die luftigen S{a}egel gespannt! Wir fl{e}iegen wie Vögel von Str{H7}and zu Strand,\n wir t{e}anzen auf Wellen und Kl{a}ipp und Riff, wir h{e}aben das Sch{H7}iff nach dem Pf{e}iff {H7}im Gr{e}iff;\nwir k{D}önnen, w{G}as kein {a}anderer k{H7}ann: Wir h{e}aben {a}einen Klab{e}autermann.\n\nDer Klabautermann ist ein wackerer Geist, der alles im Schiff sich rühren heißt, \nder überall, überall mit uns reist, mit dem Schiffskapitän flink tringt und speist;\nbeim Steuermann sitzt er und wacht die Nacht und im obersten Mast, wenn das Wetter kracht. \n\nIst's Wetter klar und die Fahrt gelingt, so nimmt er die Geige und tanzt und springt,\nund alles muss auf dem Deck sich schwing'n, unzählige selige Lieder sing'n;\nnicht Sturm, nicht Wurm, ihn ficht nichts an: Wir haben den wahren Klabautermann. \n\nHei, klettert er! Sei die See auch so groß: Klabautermann lässt kein Takelwerk los,\ner läuft auf den Rahen, wenn alles zerreißt, er tut, was der Kapitän ihn heißt.\nUnd wisst ihr, wie man ihn rufen kann? Courage heißt der Klabautermann.",
   "title": "Flink auf die luftigen Segel gespannt",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "August Kopisch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Adolf Lohmann",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1932"
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
@@ -17,6 +33,13 @@
       "mail": "jakob.vom.kohwald@icloud.com",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1694434953943,
+      "name": "Robin",
+      "mail": "",
+      "type": "update",
+      "content": "Worte & Weise"
     }
   ]
 }
