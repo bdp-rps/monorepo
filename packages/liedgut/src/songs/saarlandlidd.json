@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "\n{E}Ed Saar{H7}land es {E}kloor, ei joo {H7}dad es w{E}ohr!\nMir hann dad scheenschte {H7} Land von deer Welt\nweil´t dahäämm uus emmernoch am {E}Beschden gefällt\nonn nedd {H7} em Ra{E}isc{A}h, onn n{E}edd e{H7}m R{E}aisch.\n\n{E}Mir wahnen {H7}aan deer {E}Grenz, tsweschen Lottringen onn {H7}Pälzer {E}Pents\nsenn half Daitscher onn half Sa{H7}arfranzos\nUuser Land es klään awwer deer {E}Doscht es groß\noff Wain, {H7}Beier {E}onn {A}Viets, off {E}Wain, {H7}Beier onn {E}Viets.\n\n{E}Wenn oowents user {H7}Faier {E}prennt woo jeeder disch baim  {H7}Naamen {E}kennt\ndann gifd deer Schwenker off de  {H7}Schwenker gelaat\nonn Maggi kemmd aan de {E}Nuddelsallaat\nbei uus  {H7}aan deer {E}Sa{A}ar, bei {E}uus {H7}aan deer {E}Saar.\n",
+  "title": "Saarlandlidd",
+  "words": [
+    {
+      "name": "Oliver Gall",
+      "nickname": "",
+      "group": "Stamm Vogt von Hunolstein",
+      "organisation": "BdP",
+      "year": "2018"
+    }
+  ],
+  "tune": [
+    {
+      "name": "\"Glück auf der Steiger kommt\", deutsches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Text in Moselfränkischer Mundart (Hidderschtrowwer Platt)",
+  "changes": [
+    {
+      "date": 1692871564181,
+      "name": "Jakob Sauer",
+      "mail": "jakob.vom.kohwald@icloud.com",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

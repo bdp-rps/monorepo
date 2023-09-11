@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "       {A}                          {e}                     {A}                   {e}\nIch träum' ich wär ein Seeräuber, ein großer, starker Held\n       {A}                       {e}                        {a}            {e}       {a}\nIch plündre auf dem weiten Meer alle Schätze dieser Welt\nIch bin der Herr auf meinem Schiff, meine Männer haben's gut\nWir rauchen, saufen, prügeln uns, wir haben Rum und Mut!\n\n                 {a}        {e}             {a}                        {A}      {e}        {A}\n    Ja dann mach dich doch auf, und schau nach, ob es stimmt\n                 {a}                      {e}                                             {a}\n    Dass die Helden deiner Träume auch in Wirklichkeit so sind!\n\nIch träum, ich wär ne Königin, die schönste Frau im Land, \nnur seidene Kleider trage ich und Ringe an der Hand.\nIch schlaf im blauen Himmelbett und  ess´ im goldenen Saal, \nich zeig mich gern auf meiner Jacht fürs Foto im Journal.\n\nIch träum' davon, ich wär am Ball so trickreich wie nur wer\nUnd wenn ich flanke, wenn ich schieß', dann brüll'n die Massen sehr\nIch seh' viel von der ganzen Welt und ernte viel Applaus\nIch komme aber gern zurück ins schöne große Haus!\n\nIch träum' ich wär ein Zauberer, der mächtigste im Land\nIch zaubre alles, was ich will, kurz mit der linken Hand\nIch halte auch so dann und wann die Zeit ganz einfach an -\nEs bleiben alle Uhren stehn, es kann nichts weitergehn!\n\nIch träum', ich wäre Direktor vom Zirkus Saus-und-Braus\nUnd lasse auf dem Höhepunkt die stärksten Tiere raus\nSie fassen mich an Haut und Haar und fressen mich fast auf\nDoch Alfred, unser Muskelprotz. der holt mich wieder raus!\n\nIch träum, ich wär ein Zauberer, bin etwas dick und rund, \nund wenn es mir mal übel geht zaubere ich mich schnell gesund.\nUnd darf ich nicht ins Zimmer rein, ich weiß, ich schaff es doch:\nIch zaubere mich ganz dünn und klein und flieg durchs Schlüsselloch\n",
+  "content": " \nIch tr{A}äum' ich wär ein S{e}eeräuber, ein gr{A}oßer, starker H{e}eld\nIch pl{A}ündre auf dem w{e}eiten Meer alle Sch{a}ätze d{e}ieser W{a}elt\nIch {A}bin der Herr auf m{e}einem Schiff, meine M{A}änner haben's g{e}ut\nWir r{A}auchen, saufen, pr{e}ügeln uns, wir h{a}aben R{e}um und M{a}ut!\n\nJa dann m{a}ach d{e}ich doch a{a}uf, und schau n{A}ach, {e}ob es st{A}immt\nDass die H{a}elden deiner Tr{e}äume auch in Wirklichkeit so s{a}ind!\n\nIch träum, ich wär ne Königin, die schönste Frau im Land, \nnur seidene Kleider trage ich und Ringe an der Hand.\nIch schlaf im blauen Himmelbett und  ess´ im goldenen Saal, \nich zeig mich gern auf meiner Jacht fürs Foto im Journal.\n\nIch träum' davon, ich wär am Ball so trickreich wie nur wer\nUnd wenn ich flanke, wenn ich schieß', dann brüll'n die Massen sehr\nIch seh' viel von der ganzen Welt und ernte viel Applaus\nIch komme aber gern zurück ins schöne große Haus!\n\nIch träum' ich wär ein Zauberer, der mächtigste im Land\nIch zaubre alles, was ich will, kurz mit der linken Hand\nIch halte auch so dann und wann die Zeit ganz einfach an -\nEs bleiben alle Uhren stehn, es kann nichts weitergehn!\n\nIch träum', ich wäre Direktor vom Zirkus Saus-und-Braus\nUnd lasse auf dem Höhepunkt die stärksten Tiere raus\nSie fassen mich an Haut und Haar und fressen mich fast auf\nDoch Alfred, unser Muskelprotz. der holt mich wieder raus!\n\nIch träum, ich wär ein Zauberer, bin etwas dick und rund, \nund wenn es mir mal übel geht zaubere ich mich schnell gesund.\nUnd darf ich nicht ins Zimmer rein, ich weiß, ich schaff es doch:\nIch zaubere mich ganz dünn und klein und flieg durchs Schlüsselloch\n",
   "title": "Helden deiner Träume",
   "words": [
     {
@@ -31,6 +31,13 @@
       "name": "Ronja Ley",
       "mail": "ronja.ley@gmx.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1692285244787,
+      "name": "korrektur falsch gesetzter Akkorde",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

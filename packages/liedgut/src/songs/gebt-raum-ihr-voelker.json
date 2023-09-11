@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "|\"a\"A,2A,3B,C2|A,2E3EE2|E2\"d\"F3ED2|C2\"E\"B,4B,2|\nz\"a\"B,C3DE2|C2A,3B,C2-|CDE2C2\"E\"D2|B,2\"a\"A,4A,2|",
   "content": "\n{a}Gebt Raum Ihr Völker, unserm Schritt\nWir {d}sind die letzten {E}Goten\n{a}Wir tragen keine Schätze mit\n{a}Wir tragen {E}einen {a}Toten\n\n{a} {E} {a} \nMit Schild an Schild und Speer an Speer \nziehen wir nach Nordlands Winden\nbis wir im fernsten grauen Meer\ndie Insel Thule finden\n\nDies soll der Treue Insel sein\nDort gilt noch Eid und Ehre\nDort senken wir den König ein\nIm Sarg der Eichenspeere\n\nWir kommen her, gebt Raum dem Schritt\naus Romas falschen Toren\nwir tragen nur den König mit\ndie Krone ging verloren",
   "title": "Gebt Raum Ihr Völker",
   "words": [
@@ -32,6 +32,13 @@
       "mail": "johannes.huschens@pfadfinder-kl.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1693651340825,
+      "name": "chris fieker",
+      "mail": "chris@fieker.de",
+      "type": "update",
+      "content": "melodie"
     }
   ]
 }

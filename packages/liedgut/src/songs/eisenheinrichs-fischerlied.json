@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{D}Du denkst dein {A}Weg kann nicht mehr {G}lange {A}sein       \n{D}und dass ein {A}Ziel kommt irgend{G}wann.       {A}            \n{D}Die Tränen {A}waschen dir die {G}Seele {A}rein        \n{G}und alles {A}fängt von vorne {D}an.\n\nDu sagst dir tun schon die Füße weh,\nkomm, ich nehm' dich bei der Hand.\nIch weck dich wenn ich unsren Hafen seh'\nund lenk das Schiff ins sichre Land.\n\n{fis}Es gibt noch {G}Inseln, die sind {D}unbe{A}rührt.\n{fis}Es kommen {G}Zeiten, die sind {D}wahr.{A}\n{fis}Und ganz {G}egal, wohin der {D}Weg uns {A}führt,\nam {G}Ende ist der {A}Himmel sternen{D}klar.\n\nUnd wenn es hunderttausend Meilen sind\nund Sturm um Sturm am Segel reißt.\nIch halt' den Kurs und kreuz' bei Gegenwind,\nsolange die Sonne Sonne heißt.\n\nUnd wenn der Mast bricht und das Schiff versinkt,\nzeige ich dir wie man schwimmt.\nIch geb' nicht auf, solange dein Lied erklingt,\nauch wenn die See mir alles nimmt.",
+  "title": "Eisenheinrichs Fischerlied",
+  "words": [
+    {
+      "name": "Sarah Lesch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "2015"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Sarah Lesch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "2015"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "85",
+  "musicalKey": "D",
+  "info": "",
+  "changes": [
+    {
+      "date": 1694168464370,
+      "name": "Phil",
+      "mail": "Nachtigallphil@gmail.com",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "M:C\nL:1/4\nC|\"D\"F>F/1FA|\"A\"G>F/1GA/2G/2|\"D\"F>F/1Ac|\"G\"d3d|\n\"D\"c>AAF|\"A\"G>FGA/G/|\"G\"F>D\"A\"DC|\"D\"F3d|\nc>AAF|\"A\"G>FGd|\"D\"c>AAc|\"G\"d3f|\n\"D\"c>AAF|\"A\"G>FG>A/2G/4|\"G\"F>D\"A\"DC|\"D\"F3z|]",
   "content": "Should {D}auld acquaintance {A}be forgot\nand {D}never brought to {G}mind?\nShould {D}auld acquaintance {A}be forgot\nand {G}days of {A}auld lang {D}syne? \n\nFor auld lang {A}syne, my dear,\nfor {D}auld lang {G}syne.\nWe'll {D}tak' a cup o' {A}kindness yet,\nfor {G}auld {A}lang {D}syne.\n\nAnd surely ye'll be your pint-stoup and surely I'll be mine.\nAnd we'll tak' a cup o' kindness yet, for auld lang syne. \n\nWe twa hae run about the braes and pou'd the gowans fine.\nBut we've wander'd mony a weary fit, sin' auld lang syne. \n\nWe twa hae paidl'd in the burn, frae morning sun till dine.\nBut seas between us braid hae roar'd, sin' auld lang syne.\n\nAnd there's a hand, my trusty fiere and gie's a hand o' thine.\nAnd we'll tak' a right gude willie-waught, for auld lang syne.  ",
   "title": "Auld lange syne",
   "words": [
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1693980493026,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
   ]
 }
