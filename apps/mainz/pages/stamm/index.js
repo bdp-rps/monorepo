@@ -18,7 +18,7 @@ export default () => (
     <Layout paddingTop={10} paddingBottom={10}>
       <Text>
         Als Aufbaugruppe Tilia bestehen wir zurzeit aus einer Meute mit 15
-        Kindern im Alter von 8 bis 12 und einer Runde von etwa zehn Rangern und
+        Kindern im Alter von 7 bis 12 und einer Runde von etwa zehn Rangern und
         Rovern, der ältesten Stufe im BdP.
         <br /> In den Gruppenstunden mit der Meute wird jede Woche ganz viel
         gespielt, gelacht, gesungen, gebaut und gebastelt.
@@ -30,9 +30,6 @@ export default () => (
         Unsere nächste offene Gruppenstunde zum Reinschnuppern findet am 1. März
         von 17 bis 18:30 Uhr in unserem Gruppenraum in der Gemeinde Liebfrauen
         statt (Moselstraße 30).
-        <br />
-        Unser Ziel ist es, im Sommer eine weitere Gruppe in der Pfadfinderstufe
-        für Kinder ab etwa 11 Jahren zu eröffnen.
         <br />
         <br />
         Der Name Tilia Tilia ist der lateinische Name für Linde. Linden wurden
