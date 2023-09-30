@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useContext } from 'react'
 import { Page, Text, View } from '@bdp-rps/react-pdf-renderer'
 
 import renderAuthors from '../utils/renderAuthors'
+import { IndexContext } from '../utils/IndexContext'
 
 export default function Song({
   title,
@@ -13,18 +14,20 @@ export default function Song({
   words,
   tune,
 }) {
-  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map(block => {
+  const addIndex = useContext(IndexContext)
+
+  const blocks = content.split(/(?:\r\n|\r|\n){2}/g).map((block) => {
     const lines = block.split(/(?:\r\n|\r|\n)/g)
 
-    return lines.map(line => {
+    return lines.map((line) => {
       if (line.match(/{[A-Z0-9]+}/gi) === null) {
         return line
       }
 
       return line
         .split(/{/gi)
-        .filter(v => v.length > 1)
-        .map(pair => {
+        .filter((v) => v.length > 1)
+        .map((pair) => {
           const s = pair.split(/}/gi)
 
           if (s.length === 1) {
@@ -65,9 +68,13 @@ export default function Song({
               style={{
                 fontSize: 12,
               }}
-              render={({ subPageNumber }) =>
-                subPageNumber === 1 ? title : ' '
-              }
+              render={({ subPageNumber, pageNumber }) => {
+                if (subPageNumber === 1) {
+                  addIndex(pageNumber, title)
+                }
+
+                return subPageNumber === 1 ? title : ' '
+              }}
             />
           </View>
         )}
@@ -102,9 +109,9 @@ export default function Song({
         )}></View>
       <Text>{' '}</Text>
       <View>
-        {blocks.map(lines => (
+        {blocks.map((lines) => (
           <View key={JSON.stringify(lines)} wrap={false}>
-            {lines.map(line => {
+            {lines.map((line) => {
               return (
                 <View
                   key={JSON.stringify(line)}
