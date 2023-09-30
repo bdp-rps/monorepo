@@ -1,6 +1,16 @@
 import React, { Fragment } from 'react'
-import { Page, Text, Box, DateTime, Br } from '@lorren-js/core'
+import dynamic from 'next/dynamic'
+
 import { toEuro } from '../utils/currency'
+import rates from '../utils/rates'
+
+const Page = dynamic(() => import('@lorren-js/core').then((p) => p.Page))
+const Text = dynamic(() => import('@lorren-js/core').then((p) => p.Text))
+const Box = dynamic(() => import('@lorren-js/core').then((p) => p.Box))
+const DateTime = dynamic(() =>
+  import('@lorren-js/core').then((p) => p.DateTime)
+)
+const Br = dynamic(() => import('@lorren-js/core').then((p) => p.Br))
 
 function DataDisplay({ label, children }) {
   return (
@@ -61,9 +71,13 @@ export default function Reisekosten({
   place,
   date,
   iban,
+  note,
   routes,
 }) {
-  const totalPrice = routes.reduce((total, route) => total + route.total, 0)
+  const totalPrice = routes.reduce(
+    (total, { kilometer, personen }) => total + kilometer * rates[personen],
+    0
+  )
 
   return (
     <Page size="A4" orientation="portrait" padding="15mm">
@@ -101,16 +115,27 @@ export default function Reisekosten({
           <DateTime format="dd.MM.yyyy">{endDate}</DateTime>
         </DataDisplay>
         <DataDisplay label="Reiseweg">{destination}</DataDisplay>
+        {note && <DataDisplay label="Kommentar">{note}</DataDisplay>}
         <DataDisplay label="IBAN">
           {iban.length > 0 ? iban.replace(/ /g, '') : 'bekannt'}
         </DataDisplay>
       </Box>
       <Box paddingTop={5} paddingBottom={5}>
+        <Box paddingBottom={2}>
+          <Text style={{ fontSize: 12 }}>
+            1 = 0,17€ • 2 = 0,18€ • 3 = 0,20€ • 4 = 0,22€ • 5 = 0,25€ • 6+ =
+            0,28€
+          </Text>
+        </Box>
         <Box>
           <Row values={['Kilometer', 'Anzahl', 'Betrag']} isLast />
-          {routes.map(({ kilometer, personen, total }, index) => (
+          {routes.map(({ kilometer, personen }, index) => (
             <Row
-              values={[kilometer + ' km', personen, toEuro(total)]}
+              values={[
+                kilometer + ' km',
+                personen,
+                toEuro(kilometer * rates[personen]),
+              ]}
               isLast={index === routes.length - 1}
             />
           ))}
@@ -150,11 +175,11 @@ export default function Reisekosten({
             <Box
               width={250}
               paddingBottom={1}
-              style={{ borderBottom: '1px solid red' }}>
-              <Text></Text>
+              style={{ borderBottom: '1px solid lightgrey' }}>
+              <Text>digital erstellt</Text>
             </Box>
             <Box paddingTop={1}>
-              <Text color="red">Unterschrift</Text>
+              <Text>Unterschrift</Text>
             </Box>
           </Box>
         </Box>

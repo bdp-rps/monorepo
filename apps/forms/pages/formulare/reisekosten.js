@@ -8,6 +8,7 @@ import {
   Text,
   useField as useBaseField,
   useForm,
+  TextArea,
   SelectInput,
 } from '@bdp-rps/ui'
 import { PDFDownloadLink, PDFViewer, Document } from '@lorren-js/core'
@@ -16,18 +17,10 @@ import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
 import { toEuro } from '../../utils/currency'
+import rates from '../../utils/rates'
 
 import Wrapper from '../../templates/Wrapper'
 import Reisekosten from '../../templates/Reisekosten'
-
-const rates = {
-  1: 0.17,
-  2: 0.18,
-  3: 0.2,
-  4: 0.22,
-  5: 0.25,
-  '6+': 0.28,
-}
 
 function CarForm({ routes, onAdd, onDelete }) {
   const kilometer = useBaseField({
@@ -64,7 +57,6 @@ function CarForm({ routes, onAdd, onDelete }) {
                   onAdd({
                     ...data,
                     rate: rates[data.personen],
-                    total: data.kilometer * rates[data.personen],
                   })
                   reset()
                 }
@@ -86,7 +78,8 @@ function CarForm({ routes, onAdd, onDelete }) {
               <Text>
                 {route.kilometer}km ({route.personen}{' '}
                 {route.personen === 1 ? 'Person' : 'Personen'}) ={' '}
-                {route.kilometer} * {route.rate}€ = {toEuro(route.total)}
+                {route.kilometer} * {route.rate}€ ={' '}
+                {toEuro(route.kilometer * rates[route.personen])}
               </Text>
             </Box>
             <Box>
@@ -105,16 +98,12 @@ function CarForm({ routes, onAdd, onDelete }) {
   )
 }
 
-// iban bekannt
-
-export default function Page({ defaultData }) {
+export default function Page({ defaultData, defaultGenerated }) {
   const router = useRouter()
-  const [routes, setRoutes] = useState([])
-  const [generated, setGenerated] = useState(false)
+  const [routes, setRoutes] = useState(defaultData.routes || [])
+  const [generated, setGenerated] = useState(defaultGenerated)
 
   const isMounted = process.browser
-
-  console.log(defaultData)
 
   function useField({ name, ...props }) {
     return useBaseField({ ...props, value: defaultData[name] })
@@ -144,6 +133,9 @@ export default function Page({ defaultData }) {
     name: 'destination',
     required: true,
   })
+  const note = useField({
+    name: 'note',
+  })
   const iban = useField({
     name: 'iban',
   })
@@ -157,6 +149,7 @@ export default function Page({ defaultData }) {
     startDate,
     endDate,
     destination,
+    note,
     iban,
     place,
     date
@@ -164,7 +157,12 @@ export default function Page({ defaultData }) {
 
   const year = new Date(startDate.value).getFullYear()
 
-  const totalValue = routes.reduce((total, route) => total + route.total, 0)
+  const totalPrice = routes.reduce(
+    (total, { kilometer, personen }) => total + kilometer * rates[personen],
+    0
+  )
+
+  const totalValue = Math.floor(totalPrice * 100) / 100
 
   const fileName =
     year + '__' + name.value + '_' + event.value + '_' + totalValue
@@ -179,6 +177,7 @@ export default function Page({ defaultData }) {
       destination: destination.value,
       iban: iban.value,
       place: place.value,
+      note: note.value,
       date: date.value,
       routes,
     }
@@ -202,6 +201,7 @@ export default function Page({ defaultData }) {
     startDate.value,
     endDate.value,
     destination.value,
+    note.value,
     iban.value,
     place.value,
     date.value,
@@ -213,11 +213,39 @@ export default function Page({ defaultData }) {
   }
 
   if (generated) {
+    const data = [
+      ['Name', name.value],
+      ['Veranstaltung', event.value],
+      ['Ort', location.value],
+      ['Reiseweg', destination.value],
+    ]
+
+    const body = [
+      'Hey Cätch,',
+      '',
+      'Anbei meine Reisekostenabrechnung mit folgenden Daten:',
+      '',
+      ...data.map((pair) => pair.join(': ')),
+      '',
+      'Gut Pfad,',
+      name.value,
+      '',
+      'https://forms.bdp-rps.app' + router.asPath + '&download=true',
+    ]
+
     return (
       <Template>
         <Layout paddingTop={10} paddingBottom={20} space={8} grow={1}>
           <Text variant="title">Reisekostenabrechung - Auto</Text>
           <Box space={4} alignItems="flex-start">
+            <Box>
+              <Button
+                href={`mailto:kasse@bdp-rps.de?subject=Fahrtkosten ${
+                  event.value
+                } ${year} - ${name.value}&body=${body.join('%0D%0A')}`}>
+                E-Mail erstellen
+              </Button>
+            </Box>
             <Box
               as={PDFDownloadLink}
               grow={1}
@@ -235,6 +263,7 @@ export default function Page({ defaultData }) {
                       iban={iban.value}
                       place={place.value}
                       date={date.value}
+                      note={note.value}
                       routes={routes}
                     />
                   </Document>
@@ -290,6 +319,11 @@ export default function Page({ defaultData }) {
           <TextInput label="Start-Datum" type="date" {...startDate.props} />
           <TextInput label="End-Datum" type="date" {...endDate.props} />
           <TextInput label="Reiseweg" {...destination.props} />
+          <TextArea
+            label="Kommentar"
+            placeholder="z.B. inkl. Materialtransport, daher so viel"
+            {...note.props}
+          />
           <span />
           <CarForm
             routes={routes}
@@ -326,10 +360,29 @@ export default function Page({ defaultData }) {
   )
 }
 
+const defaults = {
+  name: 'Robin Weser',
+  event: 'SST',
+  location: 'Birkenfeld',
+  startDate: '2023-10-10',
+  endDate: '2023-10-11',
+  destination: 'Ka - Ob - Ka',
+  place: 'Karlsruhe',
+  date: '2023-10-12',
+  routes: [
+    {
+      kilometer: 200,
+      personen: 1,
+    },
+  ],
+}
+
 export async function getServerSideProps({ query }) {
   return {
     props: {
       defaultData: query.data ? JSON.parse(atob(query.data)) : {},
+      defaultData: defaults,
+      defaultGenerated: query.download || false,
     },
   }
 }
