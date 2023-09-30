@@ -364,7 +364,6 @@ export async function getServerSideProps({ query }) {
   return {
     props: {
       defaultData: query.data ? JSON.parse(atob(query.data)) : {},
-      defaultData: defaults,
       defaultGenerated: query.download || false,
     },
   }
