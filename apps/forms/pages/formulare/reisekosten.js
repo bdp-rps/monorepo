@@ -227,13 +227,12 @@ export default function Page({ defaultData, defaultGenerated }) {
       '',
       ...data.map((pair) => pair.join(': ')),
       '',
+      encodeURIComponent(
+        'https://forms.bdp-rps.app' + router.asPath + '&download=true'
+      ),
+      '',
       'Gut Pfad,',
       name.value,
-      '',
-      'https://forms.bdp-rps.app' +
-        router.pathname +
-        '?download=true&data=' +
-        router.query.data,
     ]
 
     return (
