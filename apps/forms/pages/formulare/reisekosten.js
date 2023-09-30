@@ -230,7 +230,10 @@ export default function Page({ defaultData, defaultGenerated }) {
       'Gut Pfad,',
       name.value,
       '',
-      'https://forms.bdp-rps.app' + router.asPath + '&download=true',
+      'https://forms.bdp-rps.app' +
+        router.pathname +
+        '?download=true&data=' +
+        router.query.data,
     ]
 
     return (
