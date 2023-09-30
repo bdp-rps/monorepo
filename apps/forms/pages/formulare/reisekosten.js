@@ -360,23 +360,6 @@ export default function Page({ defaultData, defaultGenerated }) {
   )
 }
 
-const defaults = {
-  name: 'Robin Weser',
-  event: 'SST',
-  location: 'Birkenfeld',
-  startDate: '2023-10-10',
-  endDate: '2023-10-11',
-  destination: 'Ka - Ob - Ka',
-  place: 'Karlsruhe',
-  date: '2023-10-12',
-  routes: [
-    {
-      kilometer: 200,
-      personen: 1,
-    },
-  ],
-}
-
 export async function getServerSideProps({ query }) {
   return {
     props: {
