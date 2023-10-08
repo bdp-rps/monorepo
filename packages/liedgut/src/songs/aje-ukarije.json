@@ -1,0 +1,58 @@
+{
+  "notation": "\"a\"A2AAABA2|AAAB ccBA|\"G\"GGAG \"F\"FFGF|\"E\"E E-E4z2:|\n|:\"F\"FF3/2F3/2E D3-|D FF3/2F3/2ED2-|D2\"F\"FF2ED2|FE2^GB4:|\n|:\"a\"A2e2dc\"G\"B2|d2cB\"F\"A2c2|BA\"E\"^G2EE3:|",
+  "content": "/: {a}CČhajorije šukarije, maphir urde palamande,\n{G}Maphir urde {F}palamande {E}čaje! (Čaje!) :/\n/: {F}Haljam pekljanman (čaje šukarije!)\n{F}Movochi diljan (čaje šukarije!)\n{F}Irin dikh man {E}čaje!: /\n\n{a}Noo noo noo no no {G}noo noo noo no no\n{F}Noo noo noo no no {E}noo noo noo",
+  "title": "Čaje Šukarije",
+  "words": [
+    {
+      "name": "Esma Redžepova",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Esma Redžepova",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "tempo": "120",
+  "info": "",
+  "changes": [
+    {
+      "date": 1585337909583,
+      "name": "cätch",
+      "mail": "caetch@stamm-luchs.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1600871507311,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "E auf letztem chaje mit Wortanfang"
+    },
+    {
+      "date": 1678741958305,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "update",
+      "content": "Melodie auf Takt angepasst"
+    },
+    {
+      "date": 1696792086434,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ],
+  "alternativeTitle": ""
+}
