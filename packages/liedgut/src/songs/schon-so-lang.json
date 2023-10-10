@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Bin auf meinem {D}Weg, {G}schon so {D}lang. Zerschlagen und träg, {G}schon so {D}lang.\nBin müde und {A}leer, will nach Süden ans {D}Meer.\nBin auf meinem {A}Weg ohne {G}Wieder{D}kehr, {G}schon so {D}lang.\n\nSeh die Kriege, die Not, schon so lang. Ruinen und Tod, schon so lang.\nSeh die Tränen, die Wut, seh die Wunden, das Blut.\nErwürgt und verfault, was stark war und gut, schon so lang.\n\nSeh die Welt oft im Traum, schon so lang. Als Pilzwolkenbaum, schon so lang.\nEuch ihr Herren der Welt, eure Lügen, den Mord\nan Millionen die glauben an euer Wort, schon so lang.\n\nNicht nur Greuel geschehn, schon so lang. Hab die Liebe gesehn, schon so lang.\nSeh die Hoffnung, den Mut, seh den Glauben, die Glut\nund was sich in Gesichtern von Kindern tut, schon so lang.\n\n(Letzte wie erste)",
+  "content": "Bin auf meinem {D}Weg, {G}schon so {D}lang. Zerschlagen und träg, {G}schon so {D}lang.\nBin müde und {A}leer, will nach Süden ans {D}Meer.\nBin auf meinem {A}Weg ohne {G}Wieder{D}kehr, {G}schon so {D}lang.\n\nSeh' die Kriege, die Not, schon so lang. Ruinen und Tod, schon so lang.\nSeh' die Tränen, die Wut, seh' die Wunden, das Blut.\nErwürgt und verfault, was stark war und gut, schon so lang.\n\nSeh' die Welt oft im Traum, schon so lang. Als Pilzwolkenbaum, schon so lang.\nEuch ihr Herren der Welt, eure Lügen, den Mord\nan Millionen die glauben an euer Wort, schon zu lang.\n\nNicht nur Gräuel gescheh'n, schon so lang. Hab die Liebe geseh'n, schon so lang.\nSeh' die Hoffnung, den Mut, seh' den Glauben, die Glut\nund was sich in Gesichtern von Kindern tut, schon so lang.",
   "title": "Schon so lang",
   "words": [
     {
@@ -30,6 +30,13 @@
       "name": "Rouven",
       "mail": "rouven@bdp-io.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1696964184946,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ],
