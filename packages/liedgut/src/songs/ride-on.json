@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}True you ride the finest horse {F}I've ever seen, \n{G}standing sixteen, one or two, with so {a}eyes wild and green.\nAnd you ride the horse so well, {F}hands light to the touch.\n{G}I could never go with you no matter how I {a}wanted to.\n\n/:Ride on, see {F}you.\n{G}I could never go with you no matter how I wanted {a}to :/\n\nWhen you ride into the night without a trace behind, \nrun your claw along my gut, one last time. \nI turn to face an empty space, where you used to lie \nand look for the spark that lights the night through a teardrop in my eye.\n\nLetzte wie erste",
+  "content": "{a}True you ride the finest horse {F}I've ever seen, \n{G}standing sixteen, one or two, with {a}eyes wild and green.\nAnd you ride the horse so well, {F}hands light to the touch.\n{G}I could never go with you no matter how I {a}wanted to.\n\n/: Ride on, {F}see you. {G}I could never go with you no matter how I {a}wanted to :/\n\nWhen you ride into the night without a trace behind, \nrun your claw along my gut, one last time. \nI turn to face an empty space, where you used to lie \nand look for the spark that lights the night through a teardrop in my eye.",
   "title": "Ride on",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1696963552733,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
