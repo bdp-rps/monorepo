@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import { Box, Text, IconLocation, Button, DateTime } from '@bdp-rps/ui'
 
-export default (groupedEvents) => (
+export default ({ groupedEvents }) => (
   <React.Fragment>
     <Box space={8} paddingBottom={10}>
       <Text variant="title">Termine</Text>

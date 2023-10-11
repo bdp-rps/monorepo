@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { Box, Text, Spacer, Link } from '@bdp-rps/ui'
+import { Box, Text, Spacer, Link, Tile } from '@bdp-rps/ui'
 
 import intakt from '../data/intakt.json'
 

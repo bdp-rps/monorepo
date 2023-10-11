@@ -12,6 +12,7 @@ import Staemme from './pages/Staemme'
 import Termine from './pages/Termine'
 import Versprechen from './pages/Versprechen'
 import WatotoKabisa from './pages/WatotoKabisa'
+import Landesverband from './pages/Landesverband'
 
 export {
   Ausbildung,
@@ -24,6 +25,7 @@ export {
   Staemme,
   Termine,
   Leitsaetze,
+  Landesverband,
   WatotoKabisa,
   Pfadfinden,
   Stufen,
