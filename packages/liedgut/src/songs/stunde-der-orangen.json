@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Straßen auf und {F}Stra{a}ßen ab\n{F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen\n{F}der {a}Toreros {E}und Zi{a}geuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab,\nin der Stunde der Orangen\nlockt die Sonne Kataloniens\nzu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste\nbröckelts von vergilbten Mauern.\nSchweigen, die Gitarrenlieder,\nklingen nicht in Saragossa.\n\nStraßen auf und Straßen ab\nschwirren die Blicke der Verliebten,\nschwirren die Gitarrenlieder\nin der Stunde der Orangen.",
+  "content": "{a}Straßen auf und {F}Stra{a}ßen ab {F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen {F}der {a}Toreros {E}und Zi{a}geuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirren die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
   "title": "Stunde der Orangen",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1697053034700,
+      "name": "",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
