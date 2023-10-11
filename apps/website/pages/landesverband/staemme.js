@@ -15,6 +15,5 @@ export default () => (
       extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Staemme />
     </Layout>
-    <Box height={40} extend={{ backgroundColor: 'white' }} />
   </Template>
 )

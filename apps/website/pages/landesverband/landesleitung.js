@@ -2,16 +2,7 @@ import * as React from 'react'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
-import Landesleitung from '@bdp-rps/shared'
-
-const parts = landesleitung.reduce((parts, member) => {
-  if (!parts[member.part]) {
-    parts[member.part] = []
-  }
-
-  parts[member.part].push(member)
-  return parts
-}, {})
+import { Landesleitung } from '@bdp-rps/shared'
 
 export default () => (
   <Template>
