@@ -7,7 +7,11 @@ import Landesleitung from './pages/Landesleitung'
 import Leitsaetze from './pages/Leitsaetze'
 import Pfadfinden from './pages/Pfadfinden'
 import Stufen from './pages/Stufen'
+import Liedgut from './pages/Liedgut'
+import Staemme from './pages/Staemme'
+import Termine from './pages/Termine'
 import Versprechen from './pages/Versprechen'
+import WatotoKabisa from './pages/WatotoKabisa'
 
 export {
   Ausbildung,
@@ -16,7 +20,11 @@ export {
   Geschichte,
   Intakt,
   Landesleitung,
+  Liedgut,
+  Staemme,
+  Termine,
   Leitsaetze,
+  WatotoKabisa,
   Pfadfinden,
   Stufen,
   Versprechen,
