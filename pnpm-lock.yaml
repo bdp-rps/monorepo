@@ -98,6 +98,7 @@ importers:
 
   apps/mainz:
     specifiers:
+      '@bdp-rps/shared': workspace:*
       '@bdp-rps/ui': workspace:*
       '@next/bundle-analyzer': 9.3.4
       eslint-config-next: 12.3.1
@@ -109,6 +110,7 @@ importers:
       react-markdown: ^8.0.3
       rehype-slug: 3.0.0
     dependencies:
+      '@bdp-rps/shared': link:../../packages/shared
       '@bdp-rps/ui': link:../../packages/ui
       ical-js-parser: 0.6.12
       next: 12.3.4_sfoxds7t5ydpegc3knd667wn6m
