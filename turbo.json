@@ -17,6 +17,9 @@
     "@bdp-rps/ui#build": {
       "outputs": ["lib/**", "es/**", "src/components/icons/js"]
     },
+    "@bdp-rps/shared#build": {
+      "outputs": ["lib/**", "es/**"]
+    },
     "@bdp-rps/react-pdf-renderer#build": {
       "outputs": ["dist/**"]
     },
