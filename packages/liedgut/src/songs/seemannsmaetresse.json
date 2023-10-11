@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Ich wankte {h}völlig betrunken aus einer Hafenspelunke.\nIch griff nach dem {Fis}Kompass in\nmeiner Tasche, dort {D7}fand ich nur eine {Fis}Flasche {h}Rum,\n{ }die ich auch gleich trank als sie\nplötzlich vor mir stand: Du hast das {Fis}Land doch langsam satt,\nkomm {D}mit; der {Fis}Captain legt gleich {h}ab.\n\nWir betraten das Schiff und ich ahnte noch nicht,\nwas nachts in dunklen Kajüten \nMatrosen und Gemüter umtreibt und Affen, \ndie sich Rum-Flaschen schnappen,\ndie der Captain zum Steuern,\nzum in den Sternen lesen braucht.\n\nDas {A}Schiff legte ab. \"Siehst du dein {h}Land verschwinden?\",\n{A}sprach sie leise in mein {h}Ohr.\n\"Du {A}kommst nicht zurück, ich werd dich {h}an mich binden.\n{A}Nicht ist jetzt mehr wie zu{Fis}vor.\"\n\nMan sagt auf dem Schiff bringen Frauen kein Glück.\nSie bringen Gemüter zum Wanken und Matorsen zum Zanken.\nWurd' einer von ihnen, ich begann ihr zu dienen. \nDafür war sie manchmal da, wenn ich des Nachts einsam war.\n\nHai{h}hoheiohey, Haihoheiohey, Haiho Hai{Fis}hoheiohey,\n{D}Haihohei{Fis}o Hai{h}hoheiohey, Haihoheiohey,\nHaiho Hai{Fis}ho Haihohey, Hai{D}ho Hai{Fis}ho Hai{h}ho.\n\nWenn sie auf den Tischen tanzt,\nWahnsinn in Seemänner verpflanzt,\nwird sich geschlagen und zerstört\nwie's auf See sich nicht gehört.\nDas Meer, das birgt 'nen Schoß, \nwohin das Schiff auch zieht. \nDrum gehn wir niemals an Land\nund singen segelnd dieses Lied.\n\nDas Schiff legte ab...\n\nHaihoheiohey, Haihoheiohey...\n\nHai{cis}hoheiohey, Haihoheiohey... {Gis} {E} {Gis} {cis}\t\t{Gis} {E} {Gis}\n\nHai{dis}hoheiohey, Haihoheiohey... {Ais} {Fis} {Ais} {dis} \t\t{Ais} {Fis} {Ais} \n\n{f}\n...",
+  "content": "Ich wankte {h}völlig betrunken aus einer Hafenspelunke. \nGriff nach dem {Fis}Kompass in meiner Tasche, dort {D7}fand ich nur 'ne {Fis}Flasche \n{h}Rum, die ich auch gleich trank als sie plötzlich vor mir stand: \nDu hast das  {Fis}Land doch langsam satt, komm {D}mit; der {Fis}Captain legt gleich {h}ab.\n\nWir betraten das Schiff und ich ahnte noch nicht, was nachts in dunklen Kajüten \nMatrosen und Gemüter umtreibt und Affen, die sich Rum-Flaschen schnappen,\ndie der Captain zum Steuern, zum in den Sternen lesen braucht.\n\nDas {A}Schiff legte ab. \"Siehst du dein {h}Land verschwinden?\", {A}sprach sie leise in mein {h}Ohr.\nDu {A}kommst nicht zurück, ich werd dich {h}an mich binden. {A}Nichts ist jetzt mehr wie zu{Fis}vor.\n\nMan sagt auf dem Schiff bringen Frauen kein Glück. \nSie bringen Gemüter zum Wanken und Matrosen zum Zanken.\nWurd' einer von ihnen, ich begann ihr zu dienen. \nDafür war sie manchmal da, wenn ich des Nachts einsam war.\n\nHai{h}hoheiohey, Haihoheiohey, Haiho Hai{Fis}hoheiohey {D}Haihohei{Fis}...\n\nWenn sie auf den Tischen tanzt, Wahnsinn in Seemänner verpflanzt,\nwird sich geschlagen und zerstört wie's selbst auf See sich nicht gehört.\nDas Meer, das birgt 'nen Schoß, wohin das Schiff auch zieht. \nDrum geh'n wir niemals an Land und singen segelnd dieses Lied.\n\nDas Schiff legte ab...\n\nh,Fis,D / cis,Gis,E, / dis,Ais,Fis\nHaihoheiohey, Haihoheiohey...",
   "title": "Seemannsmätresse",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Bm",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1697054192796,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
