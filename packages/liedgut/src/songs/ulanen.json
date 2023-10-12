@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Wenn auf {D7}leeren Feldern, {e}die Ul{a}anen {D}reiten.\n/: {G}Mar{C}uschka moja, {G}Mar{C}uschka moja, {G}kommen {D7}schwere {G}Zeiten. :/\n\nHuhn und weißer Ganter, wandern in die Pfanne.\n/: Maruschka moja, Maruschka moja, leer wird Krug und Kanne. :/\n\nVor dem Tor im Schatten, sitzen sie und lachen:\n/: Maruschka moja, Maruschka moja, hüte deine Sachen. :/\n\nPfeife rauchen sie und singen freche Lieder:\n/: Maruschka moja, Maruschka moja, lauf und kehr nie wieder. :/\n\nHaben sie am Ende dich auch noch bestohlen?\n/: Maruschka moja, Maruschka moja, denk es wär für Polen. :/",
+  "content": "{G}Wenn auf {D7}leeren {G}Feldern, {e}die Ul{a}anen {D}reiten.\n/: {G}Mar{C}uschka moja, {G}Mar{C}uschka moja, {G}kommen {D7}schwere {G}Zeiten. :/\n\nHuhn und weißer Ganter, wandern in die Pfanne.\n/: Maruschka moja, Maruschka moja, leer wird Krug und Kanne. :/\n\nVor dem Tor im Schatten, sitzen sie und lachen.\n/: Maruschka moja, Maruschka moja, hüte deine Sachen. :/\n\nPfeife rauchen sie und singen freche Lieder.\n/: Maruschka moja, Maruschka moja, lauf und kehr nie wieder. :/\n\nHaben sie am Ende dich auch noch bestohlen?\n/: Maruschka moja, Maruschka moja, denk es wär für Polen. :/",
   "title": "Ulanen",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "G",
   "info": "",
   "changes": [
     {
@@ -36,6 +36,13 @@
     },
     {
       "date": 1690799706286,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1697124634659,
       "name": "ko",
       "mail": "",
       "type": "update",
