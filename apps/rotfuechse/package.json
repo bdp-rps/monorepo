@@ -1,0 +1,28 @@
+{
+  "name": "bdp-mainz.de",
+  "description": "Official bdp-mainz.de website",
+  "private": true,
+  "scripts": {
+    "lint": "pnpm exec eslint . --quiet",
+    "dev": "next dev",
+    "build": "next build",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-mainz.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=bdp-mainz.de --force --no-cache",
+    "vercel:install": "pnpm i -r"
+  },
+  "dependencies": {
+    "@bdp-rps/ui": "workspace:*",
+    "@bdp-rps/shared": "workspace:*",
+    "ical-js-parser": "^0.6.0",
+    "next": "^12.0.7",
+    "node-fetch": "^2.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-markdown": "^8.0.3",
+    "rehype-slug": "3.0.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "9.3.4",
+    "eslint-config-next": "12.3.1"
+  }
+}
