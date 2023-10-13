@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Am {d}Westermanns Lönstief pfeift {g}eisiger {d}Wind.\nUns {g}schaukelt die {d}See wie die {A}Mutter ihr {d}Kind.\n{(C)}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,\nwir {g}fangen den {d}Hering, den {A}Kabel{d}jau.\nTschi{g}ree macht die {d}See. Tschi{A}ra - tschi{d}ree.\nTschi{g}ree macht die {d}See. Tschi{A}ra- ha - ha - ha, tschi{d}ree.\n\nDurch Tage und Nächte wir kurven im Nord\nund hieven die zappelnde Beute an Bord.\nWir kehlen den Hering und salzen ihn ein.\nSind voll unsre Kantjes, wir fahren Heim.\n\nSüdwester, das Ölzeug und Isländer Wams,\nwas nützen die Plünnen im Schneeflockentanz.\nEin daumenbreit Schluck aus der Buddel mit Rum,\ndas krempelt uns wieder ne Weile um.\n\nSpring über die Reeling Jan Rasmus, tschiree\nfass Taue, halt fest dich, sonst fährst du zur See.\nSo mancher fuhr tief in den Meerkeller ein.\nKommt nicht mehr heraus bis Sankt Nimmerlein.\n\nAlternativ:\nSo mancher fuhr tief in den Meerkeller weg.\nDer Teufel soll holen den Höllenfreck.",
+  "content": "Am {d}Westermanns Lönstief pfeift {g}eisiger {d}Wind,\nuns {g}schaukelt die {d}See wie die {A}Mutter ihr {d}Kind.\n{(C)}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,\nwir {g}fangen den {d}Hering, den {A}Kabel{d}jau.\nTschi{g}ree macht die {d}See. Tschi{A}ra - tschi{d}ree.\nTschi{g}ree macht die {d}See. Tschi{A}ra- ha - ha - ha, tschi{d}ree.\n\nDurch Tage und Nächte wir kurren im Nord\nund hieven die zappelnde Beute an Bord.\nWir kehlen den Hering und salzen ihn ein.\nSind voll unsre Kantjes, wir fahren heim.\n\nSüdwester, das Ölzeug und Isländer Wams.\nWas nützen die Plünnen im Schneeflockentanz?\nEin daumenbreit Schluck aus der Buddel mit Rum,\ndas krempelt uns wieder 'ne Weile um.\n\nSpringt über die Reling Jan Rasmus, tschiree\nfass Taue, halt fest dich, sonst fährst du zur See.\nSo mancher fuhr tief in den Meerkeller ein.\nKommt nicht mehr heraus bis Sankt Nimmerlein.\n\nAlternativ:\nSo mancher fuhr tief in den Meerkeller weg.\nDer Teufel soll holen den Höllenfreck.",
   "title": "Tschiree",
   "words": [
     {
@@ -38,7 +38,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Formatierung"
+    },
+    {
+      "date": 1697217858723,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Dm"
 }
