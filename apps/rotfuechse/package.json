@@ -1,13 +1,13 @@
 {
-  "name": "bdp-mainz.de",
-  "description": "Official bdp-mainz.de website",
+  "name": "bdp-herxheim.de",
+  "description": "Official bdp-herxheim website",
   "private": true,
   "scripts": {
     "lint": "pnpm exec eslint . --quiet",
     "dev": "next dev",
     "build": "next build",
-    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-mainz.de^...",
-    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=bdp-mainz.de --force --no-cache",
+    "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-herxheim.de^...",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=bdp-herxheim.de --force --no-cache",
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
