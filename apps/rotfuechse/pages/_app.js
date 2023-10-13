@@ -1,0 +1,11 @@
+import * as React from 'react'
+
+import AppWrapper from '../components/AppWrapper'
+
+export default function App({ Component, pageProps, renderer }) {
+  return (
+    <AppWrapper renderer={renderer}>
+      <Component {...pageProps} />
+    </AppWrapper>
+  )
+}
