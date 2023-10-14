@@ -11,8 +11,7 @@ import {
 
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Template from '../components/Template'
 
 function ModuleListItem({ name, title, summary }) {
   return (
@@ -33,7 +32,6 @@ function ModuleList({ modules }) {
       <Box>
         {Object.keys(modules).map((name) => {
           const data = modules[name]
-
           return <ModuleListItem key={name} {...data} name={name} />
         })}
       </Box>
@@ -43,15 +41,9 @@ function ModuleList({ modules }) {
 
 export default function Page({ modules }) {
   return (
-    <>
-      <Header />
-      <Box grow={1}>
-        <Layout>
-          <ModuleList modules={modules} />
-        </Layout>
-      </Box>
-      <Footer />
-    </>
+    <Template>
+      <ModuleList modules={modules} />
+    </Template>
   )
 }
 
