@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Nun {G}greift in die Saiten und {C}singt uns ein {G}Lied,\nvom {C}Wechsel der {G}Zeiten, dem {D}Keiner ent{G}flieht.\nLasst dröhnen die {C}Bässe, lasst {G}jubeln den Te{C}nor,\naus Nebel und {G}Nässe bricht {D}Sonne her{G}vor!\n\n/:Und ein strah{D}lender {G}Tag geht {C}wie{D}der ins {G}Land. :/\n\nMal Sonne mal Regen, mal Freud' und mal Plag',\nmal brausendes Leben, mal tristester Tag,\nmal traurig und einsam, das Herz dir schier bricht,\nlacht plötzlich dir heilsam mein junges Gesicht.\n\nAuf kretischen Pfaden, in dunkelster Nacht,\ngebeugt und beladen und keiner mehr lacht.\nVergessen die Sorgen, - ein siegreiches Heer -\nbeim dämmernden Morgen am südlichen Meer.",
+  "content": "Nun {G}greift in die Saiten und {C}singt uns ein {G}Lied,\nvom {C}Wechsel der {G}Zeiten, dem {D}keiner ent{G}flieht.\nLasst dröhnen die {C}Bässe, lasst {G}jubeln den Te{C}nor,\naus Nebel und {G}Nässe bricht {D}Sonne her{G}vor!\n/: Und ein strah{D}lender {G}Tag geht {C}wie{D}der ins {G}Land. :/\n\nMal Sonne mal Regen, mal Freud' und mal Plag',\nmal brausendes Leben, mal tristester Tag,\nmal traurig und einsam, das Herze schier bricht,\nlacht plötzlich dir heilsam ein junges Gesicht.\n\nAuf kretischen Pfaden, in dunkelster Nacht,\ngebeugt und beladen und keiner mehr lacht.\nVergessen die Sorgen, - ein siegreiches Heer -\nbeim dämmernden Morgen am südlichen Meer.",
   "title": "Nun greift in die Saiten",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "Ein strahlender Tag",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "G",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1697114736999,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
