@@ -21,6 +21,7 @@ import GroupType from '../utils/groupType'
 import Size from '../utils/size'
 import Season from '../utils/season'
 import ActivityTable from './ActivityTable'
+import postActivity from '../api/postActivity'
 
 const TimeSlotForm = ({ onAdd }) => {
   const duration = useField({
@@ -149,10 +150,12 @@ export default () => {
         space={4}
         onSubmit={(e) => {
           e.preventDefault()
-
-          submit((isValid, data) => {
+          submit(async (isValid, data) => {
             if (isValid) {
-              console.log('DONE', data)
+              const response = await postActivity({
+                ...data,
+              })
+              console.log(response)
             }
           })
         }}>
@@ -173,6 +176,7 @@ export default () => {
             ))}
           </SelectInput>
           <SelectInput label="Stufe" {...groupType.props}>
+            <option value={''}>{''}</option>
             {GroupType.values.map((type) => {
               return <option value={type}> {GroupType.toText(type)}</option>
             })}
@@ -191,7 +195,7 @@ export default () => {
         <TextArea
           label="Notizen"
           placeholder="Falls es ein paar Besonderheiten gibt pack diese gerne hier rein"
-          {...description.props}
+          {...notes.props}
         />
         <TextInput
           label="Vorbereitungszeit (Minuten)"
