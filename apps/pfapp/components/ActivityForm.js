@@ -10,6 +10,9 @@ import {
   SelectInput,
   Card,
   Spacer,
+  El,
+  IconButton,
+  IconTrash,
 } from '@bdp-rps/ui'
 
 import Location from '../utils/location'
@@ -18,28 +21,20 @@ import GroupType from '../utils/groupType'
 import Size from '../utils/size'
 import Season from '../utils/season'
 
-const TimeSlot = ({ onAdd, isAdded, onDelete, values }) => {
+const TimeSlotForm = ({ onAdd }) => {
   const duration = useField({
-    value: values?.duration,
-    disabled: isAdded,
     name: 'duration',
     required: true,
   })
   const description = useField({
-    value: values?.description,
     name: 'description',
     required: true,
-    disabled: isAdded,
   })
   const materials = useField({
     name: 'materials',
-    value: values?.materials,
-    disabled: isAdded,
   })
   const responsibility = useField({
     name: 'responsibility',
-    value: values?.responsibility,
-    disabled: isAdded,
   })
 
   const { submit, reset } = useForm(
@@ -49,8 +44,8 @@ const TimeSlot = ({ onAdd, isAdded, onDelete, values }) => {
     responsibility
   )
   return (
-    <Card space={4}>
-      <Text variant="category">{`Zeitblock ${values?.id || 0}`}</Text>
+    <Box space={4}>
+      <Text variant="category">Zeitblock hinzufügen</Text>
       <Box
         as="form"
         noValidate
@@ -93,19 +88,52 @@ const TimeSlot = ({ onAdd, isAdded, onDelete, values }) => {
             </SelectInput>
           </Box>
         </Box>
-        {!isAdded ? (
-          <Box alignSelf="flex-start">
-            <Button type="submit">Hinzufügen</Button>
-          </Box>
-        ) : (
-          <Box alignSelf="flex-start">
-            <Button onClick={() => onDelete(values.id)}>Löschen</Button>
-          </Box>
-        )}
+        <Box alignSelf="flex-start" space={2} direction="row">
+          <Button type="submit">Hinzufügen</Button>
+          <Button type="reset" variant="secondary">
+            Zurücksetzen
+          </Button>
+        </Box>
       </Box>
+    </Box>
+  )
+}
 
-      {/* <Button type="reset">Zurücksetzen</Button> */}
-    </Card>
+const TimeSlotShow = ({ values, onDelete }) => {
+  let { duration, description, material, responsibility } = values
+  return (
+    <El as="tr">
+      <El as="td">
+        <Box padding={1}>
+          <Text>{duration || '-'}</Text>
+        </Box>
+      </El>
+      <El as="td">
+        <Box padding={1}>
+          <Text>{description || '-'}</Text>
+        </Box>
+      </El>
+      <El as="td">
+        <Box padding={1}>
+          {' '}
+          <Text>{material || '-'}</Text>
+        </Box>
+      </El>
+      <El as="td">
+        <Box padding={1}>
+          <Text>{responsibility || '-'}</Text>
+        </Box>
+      </El>
+      <El as="td" alignItems="flex-start">
+        <Box padding={1} alignSelf="flex-start" width="100%">
+          <IconButton
+            icon={(props) => <IconTrash {...props} />}
+            iconSize={16}
+            onClick={() => onDelete(values.id)}
+          />
+        </Box>
+      </El>
+    </El>
   )
 }
 
@@ -214,26 +242,58 @@ export default () => {
       </Box>
       <Spacer size={10} />
       <Box space={4}>
-        <TimeSlot
-          onAdd={(data) =>
-            setTimeSlots((timeSlots) => [
-              ...timeSlots,
-              { ...data, id: timeSlots.length + 1 },
-            ])
-          }
-        />
-        {timeSlots.map((values, index) => (
-          <TimeSlot
-            values={{ ...values }}
-            isAdded={true}
-            onDelete={(id) =>
-              setTimeSlots((timeSlots) =>
-                timeSlots.filter((timeSlot) => timeSlot.id !== id)
-              )
+        <Card>
+          <TimeSlotForm
+            onAdd={(data) =>
+              setTimeSlots((timeSlots) => [
+                ...timeSlots,
+                { ...data, id: timeSlots.length + 1 },
+              ])
             }
           />
-        ))}
+        </Card>
 
+        {!timeSlots.length == 0 && (
+          <El as="table" border="1" extend={{ borderCollapse: 'collapse' }}>
+            <El as="tr">
+              <El as="th">
+                <Box alignItems="flex-start" padding={1}>
+                  <Text>Zeit</Text>
+                </Box>
+              </El>
+              <El as="th">
+                <Box alignItems="flex-start" padding={1}>
+                  <Text>Programmpunkt</Text>
+                </Box>
+              </El>
+              <El as="th">
+                <Box alignItems="flex-start" padding={1}>
+                  <Text>Material</Text>
+                </Box>
+              </El>
+              <El as="th">
+                <Box alignItems="flex-start" padding={1}>
+                  <Text>Verantwortlich</Text>
+                </Box>
+              </El>
+              <El as="th">
+                <Box alignItems="flex-start" padding={1}>
+                  <Text>Löschen</Text>
+                </Box>
+              </El>
+            </El>
+            {timeSlots.map((values, index) => (
+              <TimeSlotShow
+                values={values}
+                onDelete={(id) =>
+                  setTimeSlots((timeSlots) =>
+                    timeSlots.filter((timeSlot) => timeSlot.id !== id)
+                  )
+                }
+              />
+            ))}
+          </El>
+        )}
         <Text>
           Gesamtdauer der Zeitblocks in Minuten:{' '}
           {timeSlots.reduce((prev, current) => {
