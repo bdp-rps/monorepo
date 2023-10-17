@@ -20,6 +20,7 @@ import Duration from '../utils/duration'
 import GroupType from '../utils/groupType'
 import Size from '../utils/size'
 import Season from '../utils/season'
+import ActivityTable from './ActivityTable'
 
 const TimeSlotForm = ({ onAdd }) => {
   const duration = useField({
@@ -96,44 +97,6 @@ const TimeSlotForm = ({ onAdd }) => {
         </Box>
       </Box>
     </Box>
-  )
-}
-
-const TimeSlotShow = ({ values, onDelete }) => {
-  let { duration, description, material, responsibility } = values
-  return (
-    <El as="tr">
-      <El as="td">
-        <Box padding={1}>
-          <Text>{duration || '-'}</Text>
-        </Box>
-      </El>
-      <El as="td">
-        <Box padding={1}>
-          <Text>{description || '-'}</Text>
-        </Box>
-      </El>
-      <El as="td">
-        <Box padding={1}>
-          {' '}
-          <Text>{material || '-'}</Text>
-        </Box>
-      </El>
-      <El as="td">
-        <Box padding={1}>
-          <Text>{responsibility || '-'}</Text>
-        </Box>
-      </El>
-      <El as="td" alignItems="flex-start">
-        <Box padding={1} alignSelf="flex-start" width="100%">
-          <IconButton
-            icon={(props) => <IconTrash {...props} />}
-            iconSize={16}
-            onClick={() => onDelete(values.id)}
-          />
-        </Box>
-      </El>
-    </El>
   )
 }
 
@@ -252,47 +215,15 @@ export default () => {
             }
           />
         </Card>
-
         {!timeSlots.length == 0 && (
-          <El as="table" border="1" extend={{ borderCollapse: 'collapse' }}>
-            <El as="tr">
-              <El as="th">
-                <Box alignItems="flex-start" padding={1}>
-                  <Text>Zeit</Text>
-                </Box>
-              </El>
-              <El as="th">
-                <Box alignItems="flex-start" padding={1}>
-                  <Text>Programmpunkt</Text>
-                </Box>
-              </El>
-              <El as="th">
-                <Box alignItems="flex-start" padding={1}>
-                  <Text>Material</Text>
-                </Box>
-              </El>
-              <El as="th">
-                <Box alignItems="flex-start" padding={1}>
-                  <Text>Verantwortlich</Text>
-                </Box>
-              </El>
-              <El as="th">
-                <Box alignItems="flex-start" padding={1}>
-                  <Text>Löschen</Text>
-                </Box>
-              </El>
-            </El>
-            {timeSlots.map((values, index) => (
-              <TimeSlotShow
-                values={values}
-                onDelete={(id) =>
-                  setTimeSlots((timeSlots) =>
-                    timeSlots.filter((timeSlot) => timeSlot.id !== id)
-                  )
-                }
-              />
-            ))}
-          </El>
+          <ActivityTable
+            data={timeSlots}
+            onDelete={(id) =>
+              setTimeSlots((timeSlots) =>
+                timeSlots.filter((timeSlot) => timeSlot.id !== id)
+              )
+            }
+          />
         )}
         <Text>
           Gesamtdauer der Zeitblocks in Minuten:{' '}
