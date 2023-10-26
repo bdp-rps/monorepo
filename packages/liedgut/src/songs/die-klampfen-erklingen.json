@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "E",
   "info": "",
   "changes": [
     {
@@ -36,6 +36,13 @@
     },
     {
       "date": 1697217277976,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1698313726288,
       "name": "ko",
       "mail": "",
       "type": "update",
