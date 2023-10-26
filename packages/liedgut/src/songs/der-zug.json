@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "|B,2E4G2E2AG2ABAAGE4G2E2AG2AB3Bc4\nA2c2BB2AGG2GAA4F2BB2BBB2BGG2GFG2FE2\nE2F2G2A2A2EEEEG2G2E2E2A3AEEEEGG2B4\nBBc2BAc2BABBBGEE4BGgfg2G2E4",
   "content": "Der {e}Zug fährt auf {a}stählernen {H7}Gleisen,\ndie {e}haben wir {a}selber {H7}gelegt,\ndass {a}sie auf den {e}endlosen Reisen ins {D}Morgen\ndie {G}Richtung uns weisen und {H7}dass unser Zug sich {e}bewegt.\n\n{a}Denn wir müssen immer {e}weiter kommen\n{a}und da dürfen wir nicht {e}zaghaft {E}sein,\njedes {a}Ziel kaum erreicht ist schon {e}wieder weggeschwommen.\n{a}Also: {H7}heizt {e}ein!\n\nDer Zug nimmt auch mit all die Feigen,\ndie meinen man zahlt heut nicht mehr.\nWie wärs, ließen wir sie aussteigen? Nur kurz!\nUnd es würde sich zeigen: Schwer läuft sichs dem Zug hinterher.\n\nDer Zug macht viel Rauch und Geheule,\nund nachts fährt er mit Funkenflug.\nDa grämt sich nur immer die Eule. Die Zeiten\nder klapprigen Gäule und Rindviecher sind nun genug.\n\nUnd doch führt der Zug aus\nden Zeiten der Väter manch großes Gepäck.\nEs soll auf den Wiesen und Weiden der Zukunft\nErinnerung bereiten und zeigen: Wir kommen vom Fleck!\n\nDer Zug jagt den glücklichsten Träumen\nder Menschen mit Macht hinterher,\njagt nach, noch in luftlosen Räumen des Alls,\nkeine Stund zu versäumen, und nähert sich mehr und mehr.",
   "title": "Der Zug",
   "words": [
@@ -23,8 +23,8 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "100",
-  "musicalKey": "",
+  "tempo": "120",
+  "musicalKey": "Em",
   "info": "Kurt Demmler war ein deutscher Liedermacher und Texter vieler DDR-Rockbands. Später wurde er wegen sexuellen Missbrauchs von Kindern in mehreren Fällen verurteilt.",
   "changes": [
     {
@@ -40,6 +40,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1692451277950,
+      "name": "chris fieker",
+      "mail": "chris@fieker.de",
+      "type": "update",
+      "content": "hatte keine lust auch die akkorde und taktstriche reinzumachen, melodie kreiert, tempo um 20 erhöht"
     }
   ]
 }
