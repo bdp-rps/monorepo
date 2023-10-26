@@ -1,6 +1,6 @@
 {
   "notation": "EEE|\"a\"E2AA2cBA|\"F\"cA4AAA|\"C\"G2G2\"G\"GGGG|\"E\"^G4z:|\nK:F#m \nEEG|\"fis\"A2A2\"E\"G2G2|\"A\"AE4EEE|\"D\"F4F4|d3A2AAc|\"h\"d2d2\"fis\"c2c2|\"h\"BA3FA3|\"E\"B4z:|",
-  "content": "Wir war'n im {a}letzten Herbst wie einge{F}froren,\ndie große {C}Kälte {G}hatte uns ver{E}eist.\nWir fühlten {a}uns zerschlagen und ver{F}loren\nund wie von {C}Gletschern {G}eingek{E7}reist.\n\nDoch auch die {fis}Kälte {E}geht zu{A}ende, wenn wir es {D}wollen,\nund bunte {h}Blumen {fis}wachsen {h}nicht erst im {E}August.\nWir werden {fis}tanzen {E}auf den {A}Straßen, dass uns {D}warm wird.\nIch hab vom {h}Frühling {fis}schon ein {h}Kribbeln in der {E}Brust.\n\n\nWir haben uns in unseren Wohnungen verkrochen,\nund kamen nicht mehr auf die Straße raus.\nIn unsern Gruppen ist die Schwindsucht ausgebrochen, sie sehen ziemlich traurig aus.\nAch, Freunde kommt heraus aus euren Kammern. Wir haben uns doch selber eingesperrt.\n\nKommt, laßt uns leben jetzt und nicht mehr jammern und laßt uns singen, daß es jeder hört:\nWeil wir das Leben lieben, laßt uns tanzen,\ndenn Haß und Ängste machen uns nur schwach.\nWir werden Kinder machen und paar Bäume pflanzen, denn es wird Frühling und wir werden wach.",
+  "content": "Wir war'n im {a}letzten Herbst wie einge{F}froren,\ndie große {C}Kälte {G}hatte uns ver{E}eist.\nWir fühlten {a}uns zerschlagen und ver{F}loren\nund wie von {C}Gletschern {G}eingek{E7}reist.\n\nDoch auch die {fis}Kälte {E}geht zu {A}Ende, wenn wir es {D}wollen,\nund bunte {h}Blumen {fis}wachsen {h}nicht erst im {E}August.\nWir werden {fis}tanzen {E}auf den {A}Straßen, dass uns {D}warm wird.\nIch hab vom {h}Frühling {fis}schon ein {h}Kribbeln in der {E}Brust.\n\n\nWir haben uns in unser'n Wohnungen verkrochen,\nund kamen nicht mehr auf die Straße raus.\nIn unser'n Gruppen ist die Schwindsucht ausgebrochen, \nsie sehen ziemlich traurig aus.\n\nAch, Freunde kommt heraus aus euren Kammern. \nWir haben uns doch selber eingesperrt.\nKommt, lasst uns leben jetzt und nicht mehr jammern \nund lasst uns singen, dass es jeder hört:\n\nWeil wir das Leben lieben, lasst uns tanzen,\ndenn Hass und Ängste machen uns nur schwach.\nWir werden Kinder machen und paar Bäume pflanzen, \ndenn es wird Frühling und wir werden wach.",
   "title": "Frühlingslied",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "musicalKey": "G",
+  "musicalKey": "Am",
   "beat": "4/4",
   "tempo": "100",
-  "info": "unsere Variante eher Konny Kleinkunstpunk \"Frühlinxlied\" nachempfunden ist",
+  "info": "Unsere Version ist eher Konny Kleinkunstpunk \"Frühlinxlied\" nachempfunden.",
   "changes": [
     {
       "date": 1586193504615,
@@ -46,6 +46,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Leerzeichen im Text entfernt"
+    },
+    {
+      "date": 1696955387596,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": ""
