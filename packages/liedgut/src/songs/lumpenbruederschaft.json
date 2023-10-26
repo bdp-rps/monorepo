@@ -1,6 +1,6 @@
 {
   "notation": "|:\"d\"D2AA3G2|\"F\"c2AA3A2|\"C\"E2EF3E2|\"d\"D2CD3z2:|\n|\"F\"D2Ac3d2|\"d\"A2AA5|\"g\"G2Gc3B2|\"A\"A2GF3E2|\n|\"d\"D2AA3G2|\"F\"c2AA5|\"C\"E2EF3E2|\"d\"D2CD3z2||",
-  "content": "{d}Schnorrer, Penner, {F}schräge Narren, {C}Kesselflicker, {d}Diebe\nfinden im Zi{F}geunerkarren {C}Nachtquartier und {d}Liebe.\n{F}Wo die Karten{d}hexen, fett, {g}ihre Pfeifen {A}paffen\n{d}und im schmieri{F}gen Korsett {C}aus dem Fenster {d}gaffen.\n\nWo die Messer niemals stumpf in die Rippen fahren \nund die Weiber unterm Strumpf ihr Wechselgeld verwahren.\nAbends randaliert das Pack, lange kreist die Flasche,\nund es schmiegt der Bettelsack sich zur Hurentasche\n\nWenn das Feuer knisternd loht, schrumpft die Welt zusammen, \nnur der alte Kunde Tot hockt mit vor den Flammen.\n/:Klagt die Geige herzenswund, schmelzen selbst Gendarmen\nund sie fall'n dem Lumpenhund schluchzend in die Arme. :/",
+  "content": "{d}Schnorrer, Penner, {F}schräge Narren, {C}Kesselflicker, {d}Diebe\nfinden im Zi{F}geunerkarren {C}Nachtquartier und {d}Liebe.\n{F}Wo die Karten{d}hexen fett {g}ihre Pfeifen {A}paffen\n{d}und im schmieri{F}gen Korsett {C}aus dem Fenster {d}gaffen.\n\nWo die Messer niemals stumpf in die Rippen fahren \nund die Weiber unterm Strumpf ihr Wechselgeld verwahren.\nAbends randaliert das Pack, lange kreist die Flasche,\nund es schmiegt der Bettelsack sich zur Hurentasche.\n\nWenn das Feuer knisternd loht, schrumpft die Welt zusammen, \nnur der alte Kunde Tod hockt mit vor den Flammen.\n/: Klagt die Geige herzenswund, schmelzen selbst Gendarmen\nund sie fall'n dem Lumpenhund schluchzend in die Arme. :/",
   "title": "Lumpenbrüderschaft",
   "words": [
     {
@@ -13,19 +13,19 @@
   ],
   "tune": [
     {
-      "name": "Roland Eckert",
+      "name": "Uli Becker",
       "nickname": "",
       "group": "",
-      "organisation": "",
-      "year": ""
+      "organisation": "Zugvogel",
+      "year": "1957"
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "7/8",
   "alternativeTitle": "",
   "tempo": "120",
   "musicalKey": "Dm",
-  "info": "",
+  "info": "Melodie nach einem Lied aus der Ostslowakei.",
   "changes": [
     {
       "date": 1679561548994,
@@ -40,6 +40,13 @@
       "mail": "chris@fieker.de",
       "type": "update",
       "content": "Melodie ganz kreiert, tempo um 20 erhöht"
+    },
+    {
+      "date": 1698314521324,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ]
 }
