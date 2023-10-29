@@ -7,19 +7,24 @@ import {
   Button,
   useTheme,
   useField,
+  IconLilie,
 } from '@bdp-rps/ui'
 
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
 import Template from '../components/Template'
+import GroupType from '../utils/groupType'
 
 import { getActivities } from '../api/getActivities'
 
-function ActivityListItem({ id, title, description }) {
+function ActivityListItem({ id, title, description, groupType }) {
   return (
     <ListItem href={'/' + id}>
       <Box>
-        <Text color="blue">{title}</Text>
+        <Box direction="row" space={2}>
+          <Text color="blue">{title}</Text>
+          {GroupType.toIcon(groupType, 24)}
+        </Box>
         <Text>{description}</Text>
       </Box>
     </ListItem>
