@@ -13,19 +13,24 @@ import Layout from '../../components/Layout'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
+import { getActivities } from '../../api/getActivities'
+import { getActivity } from '../../api/getActivity'
+
+import Location from '../../utils/location'
+import GroupType from '../../utils/groupType'
+import Season from '../../utils/season'
+
 export default function Page({
   title,
-  summary,
   description,
-  age,
-  size,
-  material,
-  notes,
-  type,
   location,
-  duration,
-  preparation,
-  author,
+  season,
+  groupType,
+  size,
+  preperation,
+  creator,
+  uploadedBy,
+  notes,
 }) {
   return (
     <>
@@ -33,8 +38,23 @@ export default function Page({
       <Box grow={1}>
         <Layout>
           <Box minHeight="95vh" paddingTop={6} paddingBottom={25} space={2}>
-            <Text variant="category">{title}</Text>
-            <Text>{summary}</Text>
+            <Text variant="title">{title}</Text>
+            <Text>{description}</Text>
+            {notes != '' && (
+              <>
+                <Text variant="category">Notizen:</Text>
+                <Text>{notes}</Text>
+              </>
+            )}
+            <Text variant="category">Mehr Informationen:</Text>
+            {location && <Text>{Location.toText(location)}</Text>}
+            {preperation && (
+              <Text>{`Vorbereitungsdauer sind ${preperation} minuten`}</Text>
+            )}
+            {size && <Text>{`Größe: ${size}`}</Text>}
+            {location && <Text>{Location.toText(location)}</Text>}
+            {season && <Text>{Season.toText(location)}</Text>}
+            {GroupType.toIcon(groupType, 32)}
           </Box>
         </Layout>
       </Box>
@@ -43,33 +63,23 @@ export default function Page({
   )
 }
 
-export async function getStaticPaths({ params }) {
-  const { promises: fs } = require('fs')
-  const { join } = require('path')
-
-  const dataPath = join(process.cwd(), 'data')
-  const files = await fs.readdir(dataPath)
-
+export async function getStaticPaths() {
+  const activities = await getActivities()
+  const ids = activities.data.map((activity) => activity.id)
   return {
     fallback: false,
-    paths: files.map((file) => ({
+    paths: ids.map((id) => ({
       params: {
-        id: file.replace('.json', ''),
+        id: id.toString(),
       },
     })),
   }
 }
 
 export async function getStaticProps({ params }) {
-  const { promises: fs } = require('fs')
-  const { join } = require('path')
-
-  const dataPath = join(process.cwd(), 'data')
-  const content = await fs.readFile(join(dataPath, params.id + '.json'), {
-    encoding: 'utf-8',
-  })
-
-  const data = JSON.parse(content)
+  const activity = await getActivity(params.id)
+  const data = activity.data.attributes
+  console.log(activity)
 
   return {
     props: data,

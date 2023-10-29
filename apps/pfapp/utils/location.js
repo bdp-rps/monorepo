@@ -6,6 +6,8 @@ let toText = (location) => {
       return 'draußen'
     case 'INSIDE':
       return 'drinnen'
+    default:
+      return 'Keine Angaben'
   }
 }
 
