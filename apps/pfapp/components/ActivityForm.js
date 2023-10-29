@@ -148,6 +148,7 @@ export default () => {
   })
   const groupType = useField({
     name: 'groupType',
+    value: GroupType.values[0],
     required: true,
   })
   const size = useField({
@@ -174,9 +175,12 @@ export default () => {
     title,
     description,
     location,
+    season,
     groupType,
     size,
     preperation,
+    creator,
+    uploadedBy,
     notes
   )
 
@@ -205,11 +209,35 @@ export default () => {
               const activitySlots = await Promise.all(postActivitySlotsPromises)
               const activitySlotIds = activitySlots.map((res) => res.data.id)
 
+              const {
+                creator,
+                description,
+                groupType,
+                location,
+                notes,
+                preperation,
+                size,
+                title,
+                uploadedBy,
+                season,
+              } = data
+
               //TODO: Try catch for error handling
               const result = await postActivity({
-                ...data,
+                creator,
+                description,
+                groupType,
+                location: location != '' ? location : undefined,
+                size: size != '' ? size : undefined,
+                season: season != '' ? season : undefined,
+                notes,
+                preperation,
+                title,
+                uploadedBy,
                 activity_slots: activitySlotIds,
               }).then((activity) => activity.json())
+              setTimeSlots((_) => [])
+              reset()
             }
           })
         }}>
@@ -225,6 +253,7 @@ export default () => {
         />
         <Box direction="row" space={2}>
           <SelectInput label="Ort" {...location.props}>
+            <option value={undefined}>keine Angabe</option>
             {Location.values.map((location) => (
               <option value={location}> {Location.toText(location)}</option>
             ))}
@@ -235,11 +264,13 @@ export default () => {
             })}
           </SelectInput>
           <SelectInput label="Gruppengröße" {...size.props}>
+            <option value={undefined}>keine Angabe</option>
             {Size.values.map((size) => {
               return <option value={size}> {Size.toText(size)}</option>
             })}
           </SelectInput>
           <SelectInput label="Jahreszeit" {...season.props}>
+            <option value={undefined}>keine Angabe</option>
             {Season.values.map((season) => {
               return <option value={season}> {Season.toText(season)}</option>
             })}
