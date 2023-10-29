@@ -12,7 +12,7 @@ const DataPoint = ({ data }) => {
 }
 
 const DataRow = ({ data, onDelete }) => {
-  let { duration, description, material, responsibility } = data
+  let { duration, description, material, responsibility, id } = data
   return (
     <El as="tr">
       <DataPoint data={`${duration} Minuten`} />
@@ -24,7 +24,7 @@ const DataRow = ({ data, onDelete }) => {
           <IconButton
             icon={(props) => <IconTrash {...props} />}
             iconSize={16}
-            onClick={() => onDelete(values.id)}
+            onClick={() => onDelete(id)}
           />
         </Box>
       </El>

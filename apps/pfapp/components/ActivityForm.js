@@ -13,6 +13,7 @@ import {
   El,
   IconButton,
   IconTrash,
+  Radio,
 } from '@bdp-rps/ui'
 
 import Location from '../utils/location'
@@ -22,6 +23,37 @@ import Size from '../utils/size'
 import Season from '../utils/season'
 import ActivityTable from './ActivityTable'
 import postActivity from '../api/postActivity'
+import postActivitySlots from '../api/postActivitySlots'
+
+const InfoBox = ({ label, value }) => {
+  const string = `${label} ${value}`
+
+  const show =
+    typeof value === 'string'
+      ? value
+      : typeof value === 'number'
+      ? value > 0
+      : true
+
+  return (
+    show && (
+      <Box alignItems="center" justifyContent="center">
+        <Box
+          border="1 px solid"
+          bg="blueLight"
+          extend={{
+            boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+            flex: '0 0 auto',
+            borderRadius: 22,
+          }}
+          paddingVertical={1}
+          padding={2}>
+          <Text color="white">{string}</Text>
+        </Box>
+      </Box>
+    )
+  )
+}
 
 const TimeSlotForm = ({ onAdd }) => {
   const duration = useField({
@@ -84,6 +116,7 @@ const TimeSlotForm = ({ onAdd }) => {
               type="number"
               label="Dauer des Zeitblocks"
               {...duration.props}>
+              <option value={' '}> </option>
               {Duration.values.map((duration) => (
                 <option value={duration}>{duration}</option>
               ))}
@@ -128,6 +161,13 @@ export default () => {
   })
   const preperation = useField({
     name: 'preperation',
+    default: 0,
+  })
+  const uploadedBy = useField({
+    name: 'uploadedBy',
+  })
+  const creator = useField({
+    name: 'creator',
   })
 
   const { submit, reset } = useForm(
@@ -152,15 +192,29 @@ export default () => {
           e.preventDefault()
           submit(async (isValid, data) => {
             if (isValid) {
-              const response = await postActivity({
-                ...data,
+              const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
+                const { duration, description, materials, responsibility } =
+                  timeSlot
+                return postActivitySlots({
+                  duration,
+                  description,
+                  materials,
+                  responsibility,
+                }).then((res) => res.json())
               })
-              console.log(response)
+              const activitySlots = await Promise.all(postActivitySlotsPromises)
+              const activitySlotIds = activitySlots.map((res) => res.data.id)
+
+              //TODO: Try catch for error handling
+              const result = await postActivity({
+                ...data,
+                activity_slots: activitySlotIds,
+              }).then((activity) => activity.json())
             }
           })
         }}>
         <TextInput
-          label="Title"
+          label="Titel"
           placeholder="Gib deiner Gruppenstunde einen coolen namen"
           {...title.props}
         />
@@ -176,7 +230,6 @@ export default () => {
             ))}
           </SelectInput>
           <SelectInput label="Stufe" {...groupType.props}>
-            <option value={''}>{''}</option>
             {GroupType.values.map((type) => {
               return <option value={type}> {GroupType.toText(type)}</option>
             })}
@@ -203,8 +256,39 @@ export default () => {
           placeholder="Die Minuten die es etwa braucht um die Gruppenstunde vorzubereiten"
           {...preperation.props}
         />
-        <Box alignSelf="flex-start">
-          <Button type="submit">Gruppenstunde erstellen</Button>
+        <Box direction="row" width="100%" space={2}>
+          <Box flex={1}>
+            <TextInput
+              label="Wer ist so nett und erstellt diese Gruppenstunde?"
+              placeholder="Die Minuten die es etwa braucht um die Gruppenstunde vorzubereiten"
+              {...uploadedBy.props}
+            />
+          </Box>
+          <Box flex={1}>
+            <TextInput
+              label="Von wem ist die Idee?"
+              placeholder="Falls nicht der ersteller dafür verantwortlich ist :)"
+              {...creator.props}
+            />
+          </Box>
+        </Box>
+        <Box direction="row" space={6} justifyContent="space-between">
+          <Box alignSelf="flex-start">
+            <Button type="submit">Gruppenstunde erstellen</Button>
+          </Box>
+          <Box space={1} alignItems="start">
+            <InfoBox
+              value={`${timeSlots.reduce((prev, current) => {
+                return prev + parseInt(current.duration)
+              }, 0)} min`}
+              label="Dauer:"
+            />
+
+            <InfoBox
+              value={timeSlots.map((timeSlot) => timeSlot.materials).join(',')}
+              label="Material:"
+            />
+          </Box>
         </Box>
       </Box>
       <Spacer size={10} />
@@ -229,13 +313,6 @@ export default () => {
             }
           />
         )}
-        <Text>
-          Gesamtdauer der Zeitblocks in Minuten:{' '}
-          {timeSlots.reduce((prev, current) => {
-            console.log(prev, current)
-            return prev + parseInt(current.duration)
-          }, 0)}
-        </Text>
       </Box>
     </Box>
   )
