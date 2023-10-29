@@ -28,7 +28,7 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "C",
@@ -47,6 +47,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Leerzeile"
+    },
+    {
+      "date": 1698606828097,
+      "name": "t zu dem i zu dem mon",
+      "mail": "timon@blaaa.de",
+      "type": "update",
+      "content": "ist glaub 3/4"
     }
   ]
 }
