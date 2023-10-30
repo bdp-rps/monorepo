@@ -12,22 +12,25 @@ const DataPoint = ({ data }) => {
 }
 
 const DataRow = ({ data, onDelete }) => {
-  let { duration, description, material, responsibility, id } = data
+  let { duration, description, materials, responsibility, id } = data
+
   return (
     <El as="tr">
-      <DataPoint data={`${duration} Minuten`} />
+      <DataPoint data={duration} />
       <DataPoint data={description} />
-      <DataPoint data={material} />
+      <DataPoint data={materials} />
       <DataPoint data={responsibility} />
-      <El as="td" alignItems="flex-start">
-        <Box padding={1} alignSelf="flex-start" width="100%">
-          <IconButton
-            icon={(props) => <IconTrash {...props} />}
-            iconSize={16}
-            onClick={() => onDelete(id)}
-          />
-        </Box>
-      </El>
+      {onDelete && (
+        <El as="td" alignItems="flex-start">
+          <Box padding={1} alignSelf="flex-start" width="100%">
+            <IconButton
+              icon={(props) => <IconTrash {...props} />}
+              iconSize={16}
+              onClick={() => onDelete(id)}
+            />
+          </Box>
+        </El>
+      )}
     </El>
   )
 }
@@ -35,14 +38,14 @@ const DataRow = ({ data, onDelete }) => {
 const TableHeader = ({ children }) => {
   return (
     <El as="th">
-      <Box alignItems="flex-start" padding={1}>
-        <Text>{children}</Text>
+      <Box alignItems="flex-start" padding={2}>
+        <Text align="start">{children}</Text>
       </Box>
     </El>
   )
 }
 
-const Table = ({ children }) => {
+const Table = ({ children, onDelete }) => {
   return (
     <El
       as="table"
@@ -56,7 +59,7 @@ const Table = ({ children }) => {
         <TableHeader>Programmpunkt</TableHeader>
         <TableHeader>Material</TableHeader>
         <TableHeader>Verantwortlich</TableHeader>
-        <TableHeader>Löschen</TableHeader>
+        {onDelete && <TableHeader>Löschen</TableHeader>}
       </El>
       {children}
     </El>
@@ -64,7 +67,7 @@ const Table = ({ children }) => {
 }
 export default ({ data, onDelete }) => {
   return (
-    <Table>
+    <Table onDelete={onDelete}>
       {data.map((data) => (
         <DataRow data={data} onDelete={onDelete} />
       ))}

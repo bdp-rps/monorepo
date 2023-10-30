@@ -260,7 +260,7 @@ export default () => {
           </SelectInput>
           <SelectInput label="Stufe" {...groupType.props}>
             {GroupType.values.map((type) => {
-              return <option value={type}> {GroupType.toText(type)}</option>
+              return <option value={type}>{GroupType.toText(type)}</option>
             })}
           </SelectInput>
           <SelectInput label="Gruppengröße" {...size.props}>
