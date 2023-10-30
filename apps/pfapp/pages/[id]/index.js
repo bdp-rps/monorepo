@@ -29,10 +29,14 @@ const DataRow = ({ lable, value }) => {
     <Box
       direction="row"
       justifyContent="space-between"
-      bg="lightGrey"
+      bg="blueLighter"
       padding={2}>
-      <Text variant="note">{lable}: </Text>
-      <Text variant="note">{value != '' ? value : '-'}</Text>
+      <Box alignSelf="center">
+        <Text variant="note" color="white">
+          {lable}:{' '}
+        </Text>
+      </Box>
+      <Text color="white">{value != undefined ? value : '-'}</Text>
     </Box>
   )
 }
@@ -52,17 +56,29 @@ export default function Page({
 }) {
   const activitySlots = activity_slots.data
   const data = activitySlots.map((activitySlot) => activitySlot.attributes)
+  const materials = data.map((timeSlot) => timeSlot.materials).join(',')
+  const time = data.reduce((prev, current) => {
+    return prev + parseInt(current.duration)
+  }, 0)
   return (
     <>
       <Header />
       <Box grow={1}>
         <Layout>
-          <Box minHeight="95vh" paddingTop={6} paddingBottom={25} space={8}>
+          <Box minHeight="95vh" paddingTop={6} paddingBottom={25} space={6}>
             <Box direction="row" space={4}>
               <Text variant="title">{title}</Text>
               {GroupType.toIcon(groupType, 36)}
             </Box>
-            <Text>{description}</Text>
+            <Card>
+              <Text>{description}</Text>
+            </Card>
+            <Card>
+              <Box space={2}>
+                <Text variant="category">Zeitplan:</Text>
+                <ActivityTable data={data} />
+              </Box>
+            </Card>
             <Box direction={['columns', 'row']} space={2}>
               <Box flex={1}>
                 <Card>
@@ -71,36 +87,40 @@ export default function Page({
                     <Grid columns={['1fr', '1fr 1fr']} gap={2}>
                       <DataRow lable="Größe" value={Size.toText(size)} />
                       <DataRow lable="Ort" value={Location.toText(location)} />
+                      <DataRow lable="Gesamtdauer" value={time} />
+                      <DataRow lable="Vorbereitungsdauer" value={preperation} />
                       <DataRow
                         lable="Jahreszeit"
                         value={Season.toText(season)}
                       />
-                      <DataRow lable="Vorbereitungsdauer" value={preperation} />
                       <DataRow lable="Idee" value={creator} />
                       <DataRow lable="Hochgeladen von" value={uploadedBy} />
                     </Grid>
                   </Box>
                 </Card>
               </Box>
-              {notes != '' && (
-                <Box flex={1}>
+
+              <Box flex={1} space={2}>
+                <Card>
+                  <Box space={2}>
+                    <Text variant="category">Materialien:</Text>
+                    <Box alignItems="start">
+                      <Text>{materials}</Text>
+                    </Box>
+                  </Box>
+                </Card>
+                {notes != '' && (
                   <Card>
-                    <Box size={2}>
+                    <Box space={2}>
                       <Text variant="category">Notizen:</Text>
-                      <Box alignItems="center" alignSelf="center">
+                      <Box alignItems="start">
                         <Text>{notes}</Text>
                       </Box>
                     </Box>
                   </Card>
-                </Box>
-              )}
-            </Box>
-            <Card>
-              <Box space={2}>
-                <Text variant="category">Zeitplan:</Text>
-                <ActivityTable data={data} />
+                )}
               </Box>
-            </Card>
+            </Box>
           </Box>
         </Layout>
       </Box>
