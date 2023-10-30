@@ -25,7 +25,9 @@ export default function Header() {
           alignItems="center">
           <NavBarItem href="/">PfApp Store</NavBarItem>
           <NavBarItem href="/create">
-            <IconPlus size={32} />
+            <Box direction="row" alignItems="center" space={1}>
+              <IconPlus size={32} /> Hinzufügen
+            </Box>
           </NavBarItem>
           {!title ? null : (
             <Box
