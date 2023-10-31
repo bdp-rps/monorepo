@@ -5,11 +5,13 @@ import {
   Grid,
   Button,
   TextInput,
+  Modal,
   Text,
   useField as useBaseField,
   useForm,
   TextArea,
   SelectInput,
+  useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
 import { PDFDownloadLink, PDFViewer, Document } from '@lorren-js/core'
 
@@ -22,7 +24,7 @@ import rates from '../../utils/rates'
 import Wrapper from '../../templates/Wrapper'
 import Reisekosten from '../../templates/Reisekosten'
 
-function CarForm({ routes, onAdd, onDelete }) {
+function CarForm({ onSubmit }) {
   const kilometer = useBaseField({
     name: 'kilometer',
     required: true,
@@ -36,63 +38,33 @@ function CarForm({ routes, onAdd, onDelete }) {
   const { submit, reset } = useForm(kilometer, count)
 
   return (
-    <Box space={6}>
-      <Box direction="row" alignItems="flex-end" space={2}>
-        <TextInput label="Kilometer" {...kilometer.props} />
-        <SelectInput label="Personen" {...count.props}>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6+">6+</option>
-        </SelectInput>
-        <Box>
-          <Button
-            onClick={(e) => {
-              e.preventDefault()
+    <Box space={3}>
+      <TextInput label="Kilometer" {...kilometer.props} />
+      <SelectInput label="Personen" {...count.props}>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6+">6+</option>
+      </SelectInput>
+      <Box>
+        <Button
+          onClick={(e) => {
+            e.preventDefault()
 
-              submit((isValid, data) => {
-                if (isValid) {
-                  onAdd({
-                    ...data,
-                    rate: rates[data.personen],
-                  })
-                  reset()
-                }
-              })
-            }}>
-            Hinzufügen
-          </Button>
-        </Box>
-      </Box>
-
-      <Box space={2}>
-        {routes.map((route, index) => (
-          <Box
-            direction="row"
-            justifyContent="space-between"
-            space={4}
-            alignItems="center">
-            <Box>
-              <Text>
-                {route.kilometer}km ({route.personen}{' '}
-                {route.personen === 1 ? 'Person' : 'Personen'}) ={' '}
-                {route.kilometer} * {route.rate}€ ={' '}
-                {toEuro(route.kilometer * rates[route.personen])}
-              </Text>
-            </Box>
-            <Box>
-              <Button
-                size="small"
-                variant="secondary"
-                intent="negative"
-                onClick={() => onDelete(index)}>
-                Löschen
-              </Button>
-            </Box>
-          </Box>
-        ))}
+            submit((isValid, data) => {
+              if (isValid) {
+                onSubmit({
+                  ...data,
+                  rate: rates[data.personen],
+                })
+                reset()
+              }
+            })
+          }}>
+          Hinzufügen
+        </Button>
       </Box>
     </Box>
   )
@@ -101,6 +73,8 @@ function CarForm({ routes, onAdd, onDelete }) {
 export default function Page({ defaultData, defaultGenerated }) {
   const router = useRouter()
   const [routes, setRoutes] = useState(defaultData.routes || [])
+  const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+  const [error, setError] = useState(false)
   const [generated, setGenerated] = useState(defaultGenerated)
 
   const isMounted = process.browser
@@ -286,79 +260,134 @@ export default function Page({ defaultData, defaultGenerated }) {
   }
 
   return (
-    <Template>
-      <Layout paddingTop={10} paddingBottom={20} space={8}>
-        <Text variant="title">Fahrtkosten - Auto</Text>
-        <Box
-          as="form"
-          noValidate
-          space={4}
-          onReset={(e) => {
-            e.preventDefault()
-
-            router.push('/formulare/reisekosten')
+    <>
+      <Modal
+        title="Strecke hinzufügen"
+        visible={modalVisible}
+        zIndex={10}
+        onClose={() => setModalVisible(false)}>
+        <CarForm
+          onSubmit={(data) => {
+            setError(false)
+            setRoutes([...routes, data])
+            setModalVisible(false)
           }}
-          onSubmit={(e) => {
-            e.preventDefault()
-
-            submit((isValid, data) => {
-              if (isValid) {
-                setGenerated(true)
-              }
-            })
-          }}>
-          <TextInput
-            label="Name"
-            placeholder="Vor- und Nachname"
-            {...name.props}
-          />
-          <TextInput
-            label="Veranstaltung"
-            placeholder="z.B. Herbst-SST 2023"
-            {...event.props}
-          />
-          <TextInput label="Veranstaltungsort" {...location.props} />
-          <TextInput label="Start-Datum" type="date" {...startDate.props} />
-          <TextInput label="End-Datum" type="date" {...endDate.props} />
-          <TextInput label="Reiseweg" {...destination.props} />
-          <TextArea
-            label="Kommentar"
-            placeholder="z.B. inkl. Materialtransport, daher so viel"
-            {...note.props}
-          />
-          <span />
-          <CarForm
-            routes={routes}
-            onAdd={(data) => setRoutes([...routes, data])}
-            onDelete={(index) =>
-              setRoutes(routes.filter((_, i) => i !== index))
-            }
-          />
-
-          <span />
-
-          <TextInput
-            label="IBAN"
-            description="Falls bereits bekannt, einfach leer lassen!"
-            {...iban.props}
-          />
-
-          <Box direction={['column', , 'row']} space={4} alignItems="stretch">
-            <TextInput label="Ort" {...place.props} />
-            <TextInput label="Datum" type="date" {...date.props} />
-          </Box>
-          <span />
-
+        />
+      </Modal>
+      <Template>
+        <Layout paddingTop={10} paddingBottom={20} space={8}>
+          <Text variant="title">Fahrtkosten - Auto</Text>
           <Box
-            direction={['column', , 'row']}
+            as="form"
+            noValidate
             space={4}
-            alignItems="flex-start">
-            <Button type="submit">Generieren</Button>
-            <Button type="reset">Zurücksetzen</Button>
+            onReset={(e) => {
+              e.preventDefault()
+
+              router.push('/formulare/reisekosten')
+            }}
+            onSubmit={(e) => {
+              e.preventDefault()
+
+              submit((isValid, data) => {
+                if (routes.length === 0) {
+                  setError(true)
+                  return
+                }
+
+                if (isValid) {
+                  setGenerated(true)
+                }
+              })
+            }}>
+            <TextInput
+              label="Name"
+              placeholder="Vor- und Nachname"
+              {...name.props}
+            />
+            <TextInput
+              label="Veranstaltung"
+              placeholder="z.B. Herbst-SST 2023"
+              {...event.props}
+            />
+            <TextInput label="Veranstaltungsort" {...location.props} />
+            <TextInput label="Start-Datum" type="date" {...startDate.props} />
+            <TextInput label="End-Datum" type="date" {...endDate.props} />
+            <TextInput label="Reiseweg" {...destination.props} />
+            <TextArea
+              label="Kommentar"
+              placeholder="z.B. inkl. Materialtransport, daher so viel"
+              {...note.props}
+            />
+            <span />
+            <Box space={1}>
+              <Box space={6}>
+                <Box alignSelf={['stretch', , 'flex-start']}>
+                  <Button onClick={() => setModalVisible(true)}>
+                    Strecke hinzufügen
+                  </Button>
+                </Box>
+                {routes.length > 0 && (
+                  <Box space={2}>
+                    {routes.map((route, index) => (
+                      <Box
+                        direction="row"
+                        justifyContent="space-between"
+                        space={4}
+                        alignItems="center">
+                        <Box>
+                          <Text>
+                            {route.kilometer}km ({route.personen}P) ={' '}
+                            {toEuro(route.kilometer * rates[route.personen])}
+                          </Text>
+                        </Box>
+                        <Box>
+                          <Button
+                            size="small"
+                            variant="secondary"
+                            intent="negative"
+                            onClick={() =>
+                              setRoutes(routes.filter((_, i) => i !== index))
+                            }>
+                            Löschen
+                          </Button>
+                        </Box>
+                      </Box>
+                    ))}
+                  </Box>
+                )}
+              </Box>
+              {error && (
+                <Text variant="note" color="foreground.destructive">
+                  Füge mindestens eine Strecke hinzu.
+                </Text>
+              )}
+            </Box>
+            <span />
+
+            <TextInput
+              label="IBAN"
+              description="Falls bereits bekannt, einfach leer lassen!"
+              {...iban.props}
+            />
+
+            <Box direction={['column', , 'row']} space={4} alignItems="stretch">
+              <TextInput label="Ort" {...place.props} />
+              <TextInput label="Datum" type="date" {...date.props} />
+            </Box>
+            <span />
+
+            <Box
+              direction={['column', , 'row']}
+              space={4}
+              alignSelf={['stretch', , 'flex-start']}>
+              <Button type="submit">Generieren</Button>
+              <Button type="reset">Zurücksetzen</Button>
+            </Box>
           </Box>
-        </Box>
-      </Layout>
-    </Template>
+        </Layout>
+      </Template>
+    </>
   )
 }
 

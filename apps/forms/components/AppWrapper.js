@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React, { useState } from 'react'
 import { Provider, createStyleRenderer } from '@bdp-rps/ui'
 import { arrayEach } from 'fast-loops'
 
@@ -27,6 +27,8 @@ const staticStyle = [
 const clientRenderer = createStyleRenderer()
 
 export default function AppWrapper({ renderer = clientRenderer, children }) {
+  const [activeOverlayCount, setActiveOverlayCount] = useState(0)
+
   if (renderer) {
     arrayEach(staticStyle, ({ selector, style }) =>
       renderer.renderStatic(style, selector)
@@ -56,7 +58,10 @@ export default function AppWrapper({ renderer = clientRenderer, children }) {
   }
 
   return (
-    <Provider theme="bdp" renderer={renderer}>
+    <Provider
+      theme="bdp"
+      renderer={renderer}
+      config={{ activeOverlayCount, setActiveOverlayCount }}>
       {children}
     </Provider>
   )
