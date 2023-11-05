@@ -118,7 +118,9 @@ const TimeSlotForm = ({ onAdd }) => {
               {...duration.props}>
               <option value={' '}> </option>
               {Duration.values.map((duration) => (
-                <option value={duration}>{duration}</option>
+                <option value={duration} key={duration}>
+                  {duration}
+                </option>
               ))}
             </SelectInput>
           </Box>
@@ -170,6 +172,11 @@ export default () => {
   const creator = useField({
     name: 'creator',
   })
+  const attachment = useField({
+    name: 'attachment',
+  })
+
+  console.log(attachment)
 
   const { submit, reset } = useForm(
     title,
@@ -181,6 +188,7 @@ export default () => {
     preperation,
     creator,
     uploadedBy,
+    attachment,
     notes
   )
 
@@ -220,8 +228,8 @@ export default () => {
                 title,
                 uploadedBy,
                 season,
+                attachment,
               } = data
-
               //TODO: Try catch for error handling
               const result = await postActivity({
                 creator,
@@ -231,6 +239,7 @@ export default () => {
                 size: size != '' ? size : undefined,
                 season: season != '' ? season : undefined,
                 notes,
+                attachment,
                 preperation,
                 title,
                 uploadedBy,
@@ -255,24 +264,38 @@ export default () => {
           <SelectInput label="Ort" {...location.props}>
             <option value={undefined}>keine Angabe</option>
             {Location.values.map((location) => (
-              <option value={location}> {Location.toText(location)}</option>
+              <option value={location} key={location}>
+                {Location.toText(location)}
+              </option>
             ))}
           </SelectInput>
           <SelectInput label="Stufe" {...groupType.props}>
             {GroupType.values.map((type) => {
-              return <option value={type}>{GroupType.toText(type)}</option>
+              return (
+                <option value={type} key={type}>
+                  {GroupType.toText(type)}
+                </option>
+              )
             })}
           </SelectInput>
           <SelectInput label="Gruppengröße" {...size.props}>
             <option value={undefined}>keine Angabe</option>
             {Size.values.map((size) => {
-              return <option value={size}> {Size.toText(size)}</option>
+              return (
+                <option key={size} value={size}>
+                  {Size.toText(size)}
+                </option>
+              )
             })}
           </SelectInput>
           <SelectInput label="Jahreszeit" {...season.props}>
             <option value={undefined}>keine Angabe</option>
             {Season.values.map((season) => {
-              return <option value={season}> {Season.toText(season)}</option>
+              return (
+                <option value={season} key={season}>
+                  {Season.toText(season)}
+                </option>
+              )
             })}
           </SelectInput>
         </Box>
@@ -287,6 +310,9 @@ export default () => {
           placeholder="Die Minuten die es etwa braucht um die Gruppenstunde vorzubereiten"
           {...preperation.props}
         />
+        <Box flex={1}>
+          <TextInput label="Datei" type="file" {...attachment.props} />
+        </Box>
         <Box direction="row" width="100%" space={2}>
           <Box flex={1}>
             <TextInput
@@ -314,7 +340,6 @@ export default () => {
               }, 0)} min`}
               label="Dauer:"
             />
-
             <InfoBox
               value={timeSlots.map((timeSlot) => timeSlot.materials).join(',')}
               label="Material:"

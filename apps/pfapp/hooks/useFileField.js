@@ -1,28 +1,34 @@
 import { useState, useEffect } from 'react'
-import { objectReduce } from 'fast-loops'
+
+// const result = Object.keys(obj).reduce((accumulator, key) => {
+//   accumulator[key] = obj[key] * 2
+//   return accumulator
+// }, {})
 
 function validateField(validation, value) {
-  return objectReduce(
-    validation,
-    (error, validate, message) => {
-      // early return to skip the rest once the first validation failed
-      if (error) {
-        return error
-      }
-      if (validate instanceof RegExp) {
-        if (typeof value === 'string' && value.match(validate) === null) {
-          return message
-        }
-      } else if (!validate(value)) {
-        return message
-      }
-    },
+  // return Object.keys(validation).reduce(())
+  // return objectReduce(
+  //   validation,
+  //   (error, validate, message) => {
+  //     // early return to skip the rest once the first validation failed
+  //     if (error) {
+  //       return error
+  //     }
+  //     if (validate instanceof RegExp) {
+  //       if (typeof value === 'string' && value.match(validate) === null) {
+  //         return message
+  //       }
+  //     } else if (!validate(value)) {
+  //       return message
+  //     }
+  //   },
 
-    undefined
-  )
+  //   undefined
+  // )
+  return undefined
 }
 
-export default function useField({
+export default function useFileField({
   name,
   value = '',
   touched = false,
