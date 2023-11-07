@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "Dm",
   "info": "Jiddisches Partisanen Lied",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "TFLEXX",
       "mail": "gethdichnixan@huso.com",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1699375318567,
+      "name": "",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
