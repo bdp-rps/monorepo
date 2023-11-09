@@ -33,7 +33,7 @@ export default () => {
           <Tile
             title="Die Menschen hinter der Aufbaugruppe"
             image={`/images/tilia_2023.jpeg`}
-            imageHeight={800}>
+            imageHeight={600}>
             <Box>
               <Text>
                 Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktiere
