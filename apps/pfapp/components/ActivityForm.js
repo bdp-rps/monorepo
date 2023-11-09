@@ -24,6 +24,47 @@ import Season from '../utils/season'
 import ActivityTable from './ActivityTable'
 import postActivity from '../api/postActivity'
 import postActivitySlots from '../api/postActivitySlots'
+import axios from 'axios'
+
+const FileInput = (setAttachmentId, attachmentId) => {
+  const [file, setFile] = React.useState()
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0])
+  }
+  const handleUpload = () => {
+    if (file) {
+      const formData = new FormData()
+      formData.append('files', file)
+      console.log(formData)
+
+      // You can make an Axios request to upload the file to your server.
+      // Replace 'YOUR_UPLOAD_URL' with your actual server endpoint.
+      axios
+        .post('https://docs.bdp-rps.de/api/upload', formData)
+        .then((response) => {
+          // Handle success
+          console.log('File uploaded successfully:', response.data)
+        })
+        .catch((error) => {
+          // Handle error
+          console.error('File upload error:', error)
+        })
+    }
+  }
+
+  return (
+    <Box direction="row" space={1} alignItems="center">
+      <Box>
+        <input type="file" onChange={handleFileChange} />
+      </Box>
+      <Box>
+        <Button onClick={handleUpload} disabled={!file}>
+          Upload
+        </Button>
+      </Box>
+    </Box>
+  )
+}
 
 const InfoBox = ({ label, value }) => {
   const string = `${label} ${value}`
@@ -172,11 +213,6 @@ export default () => {
   const creator = useField({
     name: 'creator',
   })
-  const attachment = useField({
-    name: 'attachment',
-  })
-
-  console.log(attachment)
 
   const { submit, reset } = useForm(
     title,
@@ -188,11 +224,11 @@ export default () => {
     preperation,
     creator,
     uploadedBy,
-    attachment,
     notes
   )
 
   const [timeSlots, setTimeSlots] = React.useState([])
+  const [attachmentId, setAttachmentId] = React.useState(null)
 
   return (
     <Box paddingVertical={4}>
@@ -311,7 +347,10 @@ export default () => {
           {...preperation.props}
         />
         <Box flex={1}>
-          <TextInput label="Datei" type="file" {...attachment.props} />
+          <FileInput
+            setAttachmentId={setAttachmentId}
+            attachmentId={attachmentId}
+          />
         </Box>
         <Box direction="row" width="100%" space={2}>
           <Box flex={1}>
