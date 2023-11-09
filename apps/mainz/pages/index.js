@@ -63,43 +63,20 @@ export default function page({ events, posts, postsMainz }) {
           </Text>
         </Box>
         <Spacer size={8} />
-        <Box
-          onMouseOver={() => setIsHover(true)}
-          onMouseLeave={() => setIsHover(false)}
-          marginBottom={4}
-          basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
-          {!isHover ? (
-            <Tile
-              title="Die Menschen hinter der Aufbaugruppe Tilia"
-              image={`/images/tilia.jpeg`}
-              imageHeight={800}>
-              <Box>
-                <Text>
-                  Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
-                  Kontaktier uns doch gerne über{' '}
-                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                    pfadfinden[at]bdp-mainz.de
-                  </Link>
-                </Text>
-              </Box>
-            </Tile>
-          ) : (
-            <Tile
-              title="Die Menschen hinter der Aufbaugruppe Tilia"
-              image={`/images/tilia-action.jpeg`}
-              imageHeight={800}>
-              <Box>
-                <Text>
-                  Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
-                  Kontaktier uns doch gerne über{' '}
-                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                    pfadfinden[at]bdp-mainz.de
-                  </Link>
-                </Text>
-              </Box>
-            </Tile>
-          )}
-        </Box>
+        <Tile
+          title="Die Menschen hinter der Aufbaugruppe Tilia"
+          image={`/images/tilia_2023.jpeg`}
+          imageHeight={600}>
+          <Box>
+            <Text>
+              Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
+              Kontaktier uns doch gerne über{' '}
+              <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                pfadfinden[at]bdp-mainz.de
+              </Link>
+            </Text>
+          </Box>
+        </Tile>
       </Layout>
       <Layout
         grow={1}
