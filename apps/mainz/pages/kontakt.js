@@ -32,7 +32,7 @@ export default () => {
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
           <Tile
             title="Die Menschen hinter der Aufbaugruppe"
-            image={`/images/tilia.jpeg`}
+            image={`/images/tilia_2023.jpeg`}
             imageHeight={800}>
             <Box>
               <Text>
