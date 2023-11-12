@@ -33,8 +33,6 @@ export default function useField({
   requiredErrorMessage = 'Det här fältet är obligatoriskt',
   validation = {},
 }) {
-  console.log('value', value)
-  const valueType = typeof value
   // add a special validation for required fields where the browser doesn't auto catch
   if (required) {
     validation[requiredErrorMessage] = (value) =>
@@ -69,7 +67,6 @@ export default function useField({
   }
 
   function onChange(event) {
-    console.log('targetValue', targetValue)
     const targetValue =
       valueType === 'boolean' ? event.target.checked : event.target.value
     const newValue =

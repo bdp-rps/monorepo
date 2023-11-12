@@ -53,6 +53,7 @@ export default function Page({
   uploadedBy,
   notes,
   activity_slots,
+  attachment,
 }) {
   const activitySlots = activity_slots.data
   const data = activitySlots.map((activitySlot) => activitySlot.attributes)
@@ -101,14 +102,33 @@ export default function Page({
               </Box>
 
               <Box flex={1} space={2}>
-                <Card>
-                  <Box space={2}>
-                    <Text variant="category">Materialien:</Text>
-                    <Box alignItems="start">
-                      <Text>{materials}</Text>
+                {materials && (
+                  <Card>
+                    <Box space={2}>
+                      <Text variant="category">Materialien:</Text>
+                      <Box alignItems="start">
+                        <Text>{materials}</Text>
+                      </Box>
                     </Box>
-                  </Box>
-                </Card>
+                  </Card>
+                )}
+
+                {attachment && (
+                  <Card>
+                    <Box space={2}>
+                      <Text>
+                        Diese Gruppenstunde hat wohl ein paar Dateien angehängt.
+                        Das können Bilder, pdfs oder sonst was sein. Klick auf
+                        den Button um sie zu öffnen.
+                      </Text>
+                      <Button
+                        target="_blank"
+                        href={`https://docs.bdp-rps.de${attachment.data[0].attributes.url}`}>
+                        Anhang öffnen
+                      </Button>
+                    </Box>
+                  </Card>
+                )}
                 {notes != '' && (
                   <Card>
                     <Box space={2}>

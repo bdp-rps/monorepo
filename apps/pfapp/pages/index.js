@@ -32,7 +32,6 @@ function ActivityListItem({ id, title, description, groupType }) {
 }
 
 function ActivityList({ activities }) {
-  console.log(activities)
   return (
     <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={2}>
       <Box>

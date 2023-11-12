@@ -69,7 +69,7 @@ export default ({ data, onDelete }) => {
   return (
     <Table onDelete={onDelete}>
       {data.map((data) => (
-        <DataRow data={data} onDelete={onDelete} />
+        <DataRow data={data} key={data.id} onDelete={onDelete} />
       ))}
     </Table>
   )
