@@ -217,10 +217,10 @@ export default () => {
       return axios
         .post('https://docs.bdp-rps.de/api/upload', formData)
         .then((response) => {
-          response.json()
+          return response
         })
-        .then((data) => data)
         .catch((error) => {
+          //TODO: Proper error handling
           console.error('File upload error:', error)
         })
     }
@@ -240,7 +240,9 @@ export default () => {
               //TODO: Separate the different uploads
               //in functions to make it more readable and maintainable
 
-              const filePromise = await handleFileUpload()
+              const fileResponse = await handleFileUpload()
+
+              const fileId = fileResponse.data[0].id
 
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
                 const { duration, description, materials, responsibility } =
@@ -266,7 +268,6 @@ export default () => {
                 title,
                 uploadedBy,
                 season,
-                attachment,
               } = data
               //TODO: Try catch for error handling
               //TODO maybe move the whole logic of not sending stuff if its empty to the api file
@@ -278,7 +279,7 @@ export default () => {
                 size: size != '' ? size : undefined,
                 season: season != '' ? season : undefined,
                 notes,
-                attachment,
+                attachment: fileId ? [fileId] : undefined,
                 preperation: preperation != '' ? preperation : undefined,
                 title,
                 uploadedBy,
