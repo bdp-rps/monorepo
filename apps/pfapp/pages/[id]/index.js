@@ -61,6 +61,7 @@ export default function Page({
   const time = data.reduce((prev, current) => {
     return prev + parseInt(current.duration)
   }, 0)
+
   return (
     <>
       <Header />
@@ -80,7 +81,7 @@ export default function Page({
                 <ActivityTable data={data} />
               </Box>
             </Card>
-            <Box direction={['columns', 'row']} space={2}>
+            <Box direction={['column', 'row']} space={2}>
               <Box flex={1}>
                 <Card>
                   <Box space={2}>
@@ -113,7 +114,7 @@ export default function Page({
                   </Card>
                 )}
 
-                {attachment && (
+                {attachment.data != null && (
                   <Card>
                     <Box space={2}>
                       <Text>

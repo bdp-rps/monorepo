@@ -68,8 +68,8 @@ const Table = ({ children, onDelete }) => {
 export default ({ data, onDelete }) => {
   return (
     <Table onDelete={onDelete}>
-      {data.map((data) => (
-        <DataRow data={data} key={data.id} onDelete={onDelete} />
+      {data.map((data, key) => (
+        <DataRow data={data} key={key} onDelete={onDelete} />
       ))}
     </Table>
   )
