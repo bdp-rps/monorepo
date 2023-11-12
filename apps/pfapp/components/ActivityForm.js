@@ -26,41 +26,11 @@ import postActivity from '../api/postActivity'
 import postActivitySlots from '../api/postActivitySlots'
 import axios from 'axios'
 
-const FileInput = (setAttachmentId, attachmentId) => {
-  const [file, setFile] = React.useState()
-  const handleFileChange = (e) => {
-    setFile(e.target.files[0])
-  }
-  const handleUpload = () => {
-    if (file) {
-      const formData = new FormData()
-      formData.append('files', file)
-      console.log(formData)
-
-      // You can make an Axios request to upload the file to your server.
-      // Replace 'YOUR_UPLOAD_URL' with your actual server endpoint.
-      axios
-        .post('https://docs.bdp-rps.de/api/upload', formData)
-        .then((response) => {
-          // Handle success
-          console.log('File uploaded successfully:', response.data)
-        })
-        .catch((error) => {
-          // Handle error
-          console.error('File upload error:', error)
-        })
-    }
-  }
-
+const FileInput = ({ handleFileChange }) => {
   return (
     <Box direction="row" space={1} alignItems="center">
       <Box>
         <input type="file" onChange={handleFileChange} />
-      </Box>
-      <Box>
-        <Button onClick={handleUpload} disabled={!file}>
-          Upload
-        </Button>
       </Box>
     </Box>
   )
@@ -118,6 +88,7 @@ const TimeSlotForm = ({ onAdd }) => {
     materials,
     responsibility
   )
+
   return (
     <Box space={4}>
       <Text variant="category">Zeitblock hinzufügen</Text>
@@ -228,7 +199,32 @@ export default () => {
   )
 
   const [timeSlots, setTimeSlots] = React.useState([])
-  const [attachmentId, setAttachmentId] = React.useState(null)
+
+  //TODO: move this to useForm somehow the changes are not applied for me
+  // too stupid
+  const [isLoading, setIsLoading] = React.useState(false)
+  // const [attachmentId, setAttachmentId] = React.useState(null)
+
+  const [file, setFile] = React.useState()
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0])
+  }
+  const handleFileUpload = () => {
+    if (file) {
+      const formData = new FormData()
+      formData.append('files', file)
+
+      return axios
+        .post('https://docs.bdp-rps.de/api/upload', formData)
+        .then((response) => {
+          response.json()
+        })
+        .then((data) => data)
+        .catch((error) => {
+          console.error('File upload error:', error)
+        })
+    }
+  }
 
   return (
     <Box paddingVertical={4}>
@@ -240,6 +236,12 @@ export default () => {
           e.preventDefault()
           submit(async (isValid, data) => {
             if (isValid) {
+              setIsLoading((_) => true)
+              //TODO: Separate the different uploads
+              //in functions to make it more readable and maintainable
+
+              const filePromise = await handleFileUpload()
+
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
                 const { duration, description, materials, responsibility } =
                   timeSlot
@@ -267,6 +269,7 @@ export default () => {
                 attachment,
               } = data
               //TODO: Try catch for error handling
+              //TODO maybe move the whole logic of not sending stuff if its empty to the api file
               const result = await postActivity({
                 creator,
                 description,
@@ -276,12 +279,13 @@ export default () => {
                 season: season != '' ? season : undefined,
                 notes,
                 attachment,
-                preperation,
+                preperation: preperation != '' ? preperation : undefined,
                 title,
                 uploadedBy,
                 activity_slots: activitySlotIds,
               }).then((activity) => activity.json())
               setTimeSlots((_) => [])
+              setIsLoading((_) => false)
               reset()
             }
           })
@@ -347,10 +351,7 @@ export default () => {
           {...preperation.props}
         />
         <Box flex={1}>
-          <FileInput
-            setAttachmentId={setAttachmentId}
-            attachmentId={attachmentId}
-          />
+          <FileInput handleFileChange={handleFileChange} />
         </Box>
         <Box direction="row" width="100%" space={2}>
           <Box flex={1}>
@@ -370,7 +371,9 @@ export default () => {
         </Box>
         <Box direction="row" space={6} justifyContent="space-between">
           <Box alignSelf="flex-start">
-            <Button type="submit">Gruppenstunde erstellen</Button>
+            <Button type="submit" loading={isLoading}>
+              Gruppenstunde erstellen
+            </Button>
           </Box>
           <Box space={1} alignItems="start">
             <InfoBox

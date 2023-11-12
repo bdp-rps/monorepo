@@ -156,7 +156,12 @@ const Button = forwardRef(
               }
             />
           </Box>
-          {children}
+          <Box
+            extend={{
+              visibility: 'hidden',
+            }}>
+            {children}
+          </Box>
         </Box>
       )
     }
