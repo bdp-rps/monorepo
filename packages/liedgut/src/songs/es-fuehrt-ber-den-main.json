@@ -38,7 +38,15 @@
       "mail": "robin@weser.io",
       "type": "create",
       "content": "Verse ergänzt"
+    },
+    {
+      "date": 1700765524177,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }
