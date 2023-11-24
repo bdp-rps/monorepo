@@ -32,8 +32,8 @@ export default () => {
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
           <Tile
             title="Die Menschen hinter der Aufbaugruppe"
-            image={`/images/tilia.jpeg`}
-            imageHeight={800}>
+            image={`/images/tilia_2023.jpeg`}
+            imageHeight={600}>
             <Box>
               <Text>
                 Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktiere
