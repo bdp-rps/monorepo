@@ -22,11 +22,12 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-dom-confetti": "^0.2.0",
+    "react-scroll-blocking-layers": "^1.0.5",
     "rehype-slug": "3.0.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "9.3.4",
     "@babel/node": "^7.8.7",
+    "@next/bundle-analyzer": "9.3.4",
     "eslint-config-next": "12.3.1"
   }
 }
