@@ -102,7 +102,7 @@ function OrderForm() {
     (parseInt(amountMeal.value) || 0) * 10 +
     (parseInt(amountGarden.value) || 0) * 20 +
     (parseInt(amountGoat.value) || 0) * 30 +
-    (porto.value === true ? 1.55 : 0)
+    (porto.value === true ? 1.6 : 0)
 
   return (
     <>
@@ -186,7 +186,7 @@ function OrderForm() {
             {...amountGoat.props}
           />
           <Checkbox
-            label="Ich möchte zusätzlich das Porto von 1,55 € bezahlen"
+            label="Ich möchte zusätzlich das Porto von 1,60 € bezahlen"
             {...porto.props}
           />
           {totalAmount > 0 && (

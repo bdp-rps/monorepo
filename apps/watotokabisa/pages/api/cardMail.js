@@ -2,6 +2,7 @@ const nodemailer = require('nodemailer')
 
 export default async function handler({ body }, res) {
   let transporter = nodemailer.createTransport({
+    service: 'gmail',
     host: process.env.MAIL_HOST,
     port: 587,
     secure: false,
@@ -50,10 +51,10 @@ ${amountMeal > 0 ? `${amountMeal}x Schulspeisung: ${amountMeal * 10}€\n` : ''}
       ? `${amountGarden}x Gemüsegarten: ${amountGarden * 20}€\n`
       : ''
   }${amountGoat > 0 ? `${amountGoat}x Ziege: ${amountGoat * 30}€\n` : ''}${
-    porto ? 'inkl. Porto: 1.55€\n' : ''
+    porto ? 'inkl. Porto: 1.60€\n' : ''
   }--------------
 Gesamt: ${
-    amountMeal * 10 + amountGarden * 20 + amountGoat * 30 + (porto ? 1.55 : 0)
+    amountMeal * 10 + amountGarden * 20 + amountGoat * 30 + (porto ? 1.6 : 0)
   }€
 
 Lieferadresse:
@@ -74,12 +75,11 @@ Asante sana,
 Der Vorstand
 Watoto Kabisa e.V.`
 
-  console.log(text, body)
-
   const mail = {
-    from: '"Karten Service" <karten@watoto-kabisa.de>',
+    from: '"Karten Service" <robin.weserio@gmail.com>',
     to: `karten@watoto-kabisa.de, ${email}`,
     subject: 'Bestellung Karten - ' + name,
+    replyTo: email,
     text,
   }
 
