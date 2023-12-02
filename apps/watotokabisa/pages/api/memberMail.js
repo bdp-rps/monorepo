@@ -2,6 +2,7 @@ const nodemailer = require('nodemailer')
 
 export default async function handler({ body }, res) {
   let transporter = nodemailer.createTransport({
+    service: 'gmail',
     host: process.env.MAIL_HOST,
     port: 587,
     secure: false,
@@ -12,7 +13,7 @@ export default async function handler({ body }, res) {
   })
 
   const mail = {
-    from: `"Mitglieder-Service" <mitglieder@watoto-kabisa.de>`,
+    from: `"Mitglieder-Service" <robin.weserio@gmail.com>`,
     to: 'robin@watoto-kabisa.de',
     subject: 'Mitgliedsantrag - ' + body.name,
     text: JSON.stringify(body, null, 2),

@@ -41,6 +41,7 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   display: 'flex',
   flexShrink: 1,
   justifyContent: 'center',
+  alignItems: 'center',
   appearance: 'none',
   cursor: 'pointer',
   paddingLeft: padding[size] + 1,
@@ -85,6 +86,7 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
       condition: loading,
       style: {
         cursor: 'not-allowed',
+        color: 'transparent',
       },
     },
     {
