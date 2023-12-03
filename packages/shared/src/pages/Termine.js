@@ -76,8 +76,8 @@ const EventItem = ({ events, year, type }) => {
               </Text>
               <Box>
                 <Box direction="row" alignItems="center" space={1}>
-                  <Text subStyle="emphasis">{getName(name)}</Text>
                   {type == 'ICON' && getIcon(name[name.length - 1])}
+                  <Text subStyle="emphasis">{getName(name)}</Text>
                 </Box>
                 {description && (
                   <Box direction="row" alignItems="center" space={1}>

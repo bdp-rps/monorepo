@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Termine } from '@bdp-rps/shared'
+import { Tile, Text, Box, IconWolfskopf, IconLilie, IconRr } from '@bdp-rps/ui'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
@@ -18,12 +19,37 @@ function groupEvents(events) {
     return groups
   }, {})
 }
+
+const Legende = () => {
+  const iconSize = 20
+  return (
+    <Tile
+      title="Legende"
+      extend={{ position: 'fixed', top: '10px', right: '10px' }}>
+      <Box space={2}>
+        <Box direction="row" alignItems="center" space={2}>
+          <IconWolfskopf size={iconSize} />
+          <Text variant="note">alle Kinder die in einer Meute sind</Text>
+        </Box>
+        <Box direction="row" alignItems="center" space={2}>
+          <IconLilie size={iconSize} />
+          <Text variant="note">alle Kinder die in einer Sippe sind</Text>
+        </Box>
+        <Box direction="row" alignItems="center" space={2}>
+          <IconRr size={iconSize} />
+          <Text variant="note">alle Personen aus dem Stammesrat</Text>
+        </Box>
+      </Box>
+    </Tile>
+  )
+}
 export default function Page({ events }) {
   const groupedEvents = { events: groupEvents(events), type: 'ICON' }
 
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
+        <Legende />
         <Termine groupedEvents={groupedEvents} />
       </Layout>
     </Template>
