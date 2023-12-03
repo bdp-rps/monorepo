@@ -51,7 +51,7 @@ export default async function getEvents(cutOff = new Date()) {
   const res = await fetch(URL)
 
   const data = await res.text()
-  console.log('data', data)
+
   const { events } = ICalParser.toJSON(data)
 
   const timestamp = cutOff.valueOf()

@@ -1,6 +1,15 @@
 import * as React from 'react'
 
-import { Box, Text, IconLocation, Button, DateTime } from '@bdp-rps/ui'
+import {
+  Box,
+  Text,
+  IconLocation,
+  IconWolfskopf,
+  IconLilie,
+  IconRr,
+  Button,
+  DateTime,
+} from '@bdp-rps/ui'
 
 const EventItem = ({ events, year, type }) => {
   const getName = (name) => {
@@ -10,6 +19,23 @@ const EventItem = ({ events, year, type }) => {
         break
       case 'ICON':
         return name.slice(0, -2)
+        break
+
+      default:
+        break
+    }
+  }
+  const getIcon = (icon) => {
+    const size = 25
+    switch (icon) {
+      case 'W':
+        return <IconWolfskopf size={size} />
+        break
+      case 'P':
+        return <IconLilie size={size} />
+        break
+      case 'R':
+        return <IconRr size={size} />
         break
 
       default:
@@ -33,15 +59,20 @@ const EventItem = ({ events, year, type }) => {
                 )}
               </Text>
               <Box>
-                <Text subStyle="emphasis">{getName(name)<Icon}</Text>
+                <Box direction="row" alignItems="center" space={1}>
+                  <Text subStyle="emphasis">{getName(name)}</Text>
+                  {type == 'ICON' && getIcon(name[name.length - 1])}
+                </Box>
                 {description && (
-                  <Text extend={{ fontStyle: 'italic' }}>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: description,
-                      }}
-                    />
-                  </Text>
+                  <Box direction="row" alignItems="center" space={1}>
+                    <Text extend={{ fontStyle: 'italic' }}>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: description,
+                        }}
+                      />
+                    </Text>
+                  </Box>
                 )}
                 {location && (
                   <Box direction="row" alignItems="center" space={1}>

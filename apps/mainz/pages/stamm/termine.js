@@ -19,7 +19,6 @@ function groupEvents(events) {
   }, {})
 }
 export default function Page({ events }) {
-  console.log('events', events)
   const groupedEvents = { events: groupEvents(events), type: 'ICON' }
 
   return (
@@ -33,7 +32,6 @@ export default function Page({ events }) {
 
 export async function getStaticProps() {
   const events = await getEvents()
-  console.log('events', events)
 
   return {
     // alle 2 minuten

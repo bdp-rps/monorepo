@@ -19,7 +19,7 @@ function groupEvents(events) {
   }, {})
 }
 export default function Page({ events }) {
-  const groupedEvents = groupEvents(events)
+  const groupedEvents = { events: groupEvents(events), type: 'DEFAULT' }
 
   return (
     <Template>
