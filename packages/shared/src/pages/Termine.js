@@ -37,6 +37,22 @@ const EventItem = ({ events, year, type }) => {
       case 'R':
         return <IconRr size={size} />
         break
+      case 'A':
+        return (
+          <Box direction="row" space={1}>
+            <IconWolfskopf size={size} /> <IconLilie size={size} />
+            <IconRr size={size} />
+          </Box>
+        )
+        break
+      case 'G':
+        return (
+          <Box direction="row" space={1}>
+            <IconLilie size={size} />
+            <IconRr size={size} />
+          </Box>
+        )
+        break
 
       default:
         break
