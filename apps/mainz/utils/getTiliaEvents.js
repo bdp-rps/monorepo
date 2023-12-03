@@ -1,7 +1,7 @@
 import ICalParser from 'ical-js-parser'
 
 const URL =
-  'http://p113-caldav.icloud.com/published/2/NTc3MjYxODIwNTc3MjYxOL9EAXRUtN8Jk2TOJ4lytVjeXa1g5MooZp2-uuLqbgfCiUN_eh0zpHmy3xgMbPZEyjPgbw3-p8HkOAKvXJAc5gU'
+  'http://p107-caldav.icloud.com/published/2/MTA3MDUyMDY3NjUxMDcwNREKf3siCmXjnpHw1dzk0y6QdEvegy5whLSKTGq3RE66Xmd94oFbrfbZGqDJGmsZuaU-l4S7dkEOlU5QYW2TzgU'
 
 const halfDay = 1000 * 60 * 60 * 12
 
@@ -49,9 +49,9 @@ function normalizeEvent({
 
 export default async function getEvents(cutOff = new Date()) {
   const res = await fetch(URL)
+
   const data = await res.text()
   console.log('data', data)
-
   const { events } = ICalParser.toJSON(data)
 
   const timestamp = cutOff.valueOf()

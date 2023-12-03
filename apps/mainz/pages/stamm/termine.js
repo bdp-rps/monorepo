@@ -4,7 +4,7 @@ import { Termine } from '@bdp-rps/shared'
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-import getEvents from '../../utils/getEvents'
+import getEvents from '../../utils/getTiliaEvents'
 
 function groupEvents(events) {
   return events.reduce((groups, event) => {
@@ -19,7 +19,8 @@ function groupEvents(events) {
   }, {})
 }
 export default function Page({ events }) {
-  const groupedEvents = groupEvents(events)
+  console.log('events', events)
+  const groupedEvents = { events: groupEvents(events), type: 'ICON' }
 
   return (
     <Template>
@@ -32,6 +33,7 @@ export default function Page({ events }) {
 
 export async function getStaticProps() {
   const events = await getEvents()
+  console.log('events', events)
 
   return {
     // alle 2 minuten

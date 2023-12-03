@@ -2,54 +2,72 @@ import * as React from 'react'
 
 import { Box, Text, IconLocation, Button, DateTime } from '@bdp-rps/ui'
 
+const EventItem = ({ events, year, type }) => {
+  const getName = (name) => {
+    switch (type) {
+      case 'DEFAULT':
+        return name
+        break
+      case 'ICON':
+        return name.slice(0, -2)
+        break
+
+      default:
+        break
+    }
+  }
+  return (
+    <Box space={4}>
+      <Text variant="subtitle">{year}</Text>
+      <Box space={[8, 6]}>
+        {events[year].map(
+          ({ startDate, endDate, location, description, name, id }) => (
+            <Box key={id} space={[0, 5]} direction={['column', 'row']}>
+              <Text color="blue" extend={{ width: 100 }}>
+                <DateTime format="dd.MM">{startDate}</DateTime>
+                {startDate !== endDate && (
+                  <>
+                    {' - '}
+                    <DateTime format="dd.MM">{endDate}</DateTime>
+                  </>
+                )}
+              </Text>
+              <Box>
+                <Text subStyle="emphasis">{getName(name)<Icon}</Text>
+                {description && (
+                  <Text extend={{ fontStyle: 'italic' }}>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: description,
+                      }}
+                    />
+                  </Text>
+                )}
+                {location && (
+                  <Box direction="row" alignItems="center" space={1}>
+                    <IconLocation fill="grey2" extend={{ marginTop: -2 }} />
+                    <Text color="grey3">{location}</Text>
+                  </Box>
+                )}
+              </Box>
+            </Box>
+          )
+        )}
+      </Box>
+    </Box>
+  )
+}
+
 export default ({ groupedEvents }) => {
+  const { events, type } = groupedEvents
+
   return (
     <React.Fragment>
       <Box space={8} paddingBottom={10}>
         <Text variant="title">Termine</Text>
         <Box space={15}>
-          {Object.keys(groupedEvents).map((year) => (
-            <Box space={4}>
-              <Text variant="subtitle">{year}</Text>
-              <Box space={[8, 6]}>
-                {groupedEvents[year].map(
-                  ({ startDate, endDate, location, description, name, id }) => (
-                    <Box key={id} space={[0, 5]} direction={['column', 'row']}>
-                      <Text color="blue" extend={{ width: 100 }}>
-                        <DateTime format="dd.MM">{startDate}</DateTime>
-                        {startDate !== endDate && (
-                          <>
-                            {' - '}
-                            <DateTime format="dd.MM">{endDate}</DateTime>
-                          </>
-                        )}
-                      </Text>
-                      <Box>
-                        <Text subStyle="emphasis">{name}</Text>
-                        {description && (
-                          <Text extend={{ fontStyle: 'italic' }}>
-                            <span
-                              dangerouslySetInnerHTML={{
-                                __html: description,
-                              }}
-                            />
-                          </Text>
-                        )}
-                        {location && (
-                          <Box direction="row" alignItems="center" space={1}>
-                            <IconLocation
-                              fill="grey2"
-                              extend={{ marginTop: -2 }}
-                            />
-                            <Text color="grey3">{location}</Text>
-                          </Box>
-                        )}
-                      </Box>
-                    </Box>
-                  )
-                )}
-              </Box>
-            </Box>
+          {Object.keys(events).map((year) => (
+            <EventItem events={events} year={year} type={type} />
           ))}
         </Box>
 
