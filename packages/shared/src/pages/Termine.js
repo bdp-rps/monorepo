@@ -105,16 +105,14 @@ const EventItem = ({ events, year, type }) => {
   )
 }
 
-export default ({ groupedEvents }) => {
-  const { events, type } = groupedEvents
-
+export default ({ groupedEvents, type = 'DEFAULT' }) => {
   return (
     <React.Fragment>
       <Box space={8} paddingBottom={10}>
         <Text variant="title">Termine</Text>
         <Box space={15}>
-          {Object.keys(events).map((year) => (
-            <EventItem events={events} year={year} type={type} />
+          {Object.keys(groupedEvents).map((year) => (
+            <EventItem events={groupedEvents} year={year} type={type} />
           ))}
         </Box>
 

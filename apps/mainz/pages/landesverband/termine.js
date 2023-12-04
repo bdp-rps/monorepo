@@ -19,12 +19,12 @@ function groupEvents(events) {
   }, {})
 }
 export default function Page({ events }) {
-  const groupedEvents = { events: groupEvents(events), type: 'DEFAULT' }
+  const groupedEvents = groupEvents(events)
 
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
-        <Termine groupedEvents={groupedEvents} />
+        <Termine groupedEvents={groupedEvents} type="DEFAULT" />
       </Layout>
     </Template>
   )
