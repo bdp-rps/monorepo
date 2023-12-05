@@ -247,9 +247,9 @@ export default function Page() {
     <>
       <Head>
         <title>Watoto Kabisa - Mitglied werden</title>
-        <meta type="title" content="Watoto Kabisa - Mitglied werden" />
+        <meta name="title" content="Watoto Kabisa - Mitglied werden" />
         <meta
-          type="description"
+          name="description"
           content="Werde Mitglied und unterstützte unsere Arbeit vor Ort."
         />
       </Head>

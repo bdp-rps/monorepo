@@ -20,9 +20,9 @@ export default () => {
     <Template heroHeight="60vh">
       <Head>
         <title>Watoto Kabisa - Impressum</title>
-        <meta type="title" content="Watoto Kabisa - Impressum" />
+        <meta name="title" content="Watoto Kabisa - Impressum" />
         <meta
-          type="description"
+          name="description"
           content="Unsere Anschrift und gesetzlichen Vertreter."
         />
       </Head>

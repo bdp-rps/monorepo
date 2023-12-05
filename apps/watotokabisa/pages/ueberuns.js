@@ -25,9 +25,9 @@ export default () => {
     <Template image={image} title="Über uns">
       <Head>
         <title>Watoto Kabisa - Über uns</title>
-        <meta type="title" content="Watoto Kabisa - Über uns" />
+        <meta name="title" content="Watoto Kabisa - Über uns" />
         <meta
-          type="description"
+          name="description"
           content="Der Verein stellt sich und seine Partner-NGO in Kenia vor."
         />
       </Head>

@@ -245,9 +245,9 @@ export default function Page() {
     <Template image={image} title="Geschenkkarten!">
       <Head>
         <title>Watoto Kabisa - Geschenkkarten</title>
-        <meta type="title" content="Watoto Kabisa - Geschenkkarten" />
+        <meta name="title" content="Watoto Kabisa - Geschenkkarten" />
         <meta
-          type="description"
+          name="description"
           content="Verschenke eine Karte und tue dabei noch etwas Gutes mit unserer Auswahl an Geschenkkarten."
         />
       </Head>

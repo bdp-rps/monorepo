@@ -14,9 +14,9 @@ export default () => {
     <Template title="Unsere Fahrtenchronik" image={image}>
       <Head>
         <title>Watoto Kabisa - Chronik</title>
-        <meta type="title" content="Watoto Kabisa - Chronik" />
+        <meta name="title" content="Watoto Kabisa - Chronik" />
         <meta
-          type="description"
+          name="description"
           content="Aktuelle Erfahrungen und Berichte direkt aus Kenia."
         />
       </Head>

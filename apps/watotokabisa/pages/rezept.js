@@ -25,9 +25,9 @@ export default () => {
       subTitle="Eine kenianische Teigspezialität!">
       <Head>
         <title>Watoto Kabisa - Mandazi</title>
-        <meta type="title" content="Watoto Kabisa - Mandazi" />
+        <meta name="title" content="Watoto Kabisa - Mandazi" />
         <meta
-          type="description"
+          name="description"
           content="Das Rezept für eine kenianische Spezialität - Mandazi."
         />
       </Head>

@@ -20,8 +20,8 @@ export default () => {
     <Template heroHeight="60vh">
       <Head>
         <title>Watoto Kabisa - Datenschutz</title>
-        <meta type="title" content="Watoto Kabisa - Datenschutz" />
-        <meta type="description" content="Unsere Datenschutzklärung." />
+        <meta name="title" content="Watoto Kabisa - Datenschutz" />
+        <meta name="description" content="Unsere Datenschutzklärung." />
       </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingTop={15} paddingBottom={25}>

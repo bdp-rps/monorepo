@@ -16,9 +16,9 @@ export default function Spenden() {
     <Template image={image} title="Spenden!">
       <Head>
         <title>Watoto Kabisa - Spenden</title>
-        <meta type="title" content="Watoto Kabisa - Spenden" />
+        <meta name="title" content="Watoto Kabisa - Spenden" />
         <meta
-          type="description"
+          name="description"
           content="Spende Geld und unterstütze unsere Arbeit finanziell."
         />
       </Head>
