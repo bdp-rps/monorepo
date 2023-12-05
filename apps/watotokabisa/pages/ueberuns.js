@@ -24,8 +24,12 @@ export default () => {
   return (
     <Template image={image} title="Über uns">
       <Head>
-        <title>Über Uns - Watoto Kabisa</title>
-        <meta type="description" content="Hier findet ihr Infos über uns." />
+        <title>Watoto Kabisa - Über uns</title>
+        <meta type="title" content="Watoto Kabisa - Über uns" />
+        <meta
+          type="description"
+          content="Der Verein stellt sich und seine Partner-NGO in Kenia vor."
+        />
       </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingTop={15} paddingBottom={25}>

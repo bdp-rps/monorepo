@@ -244,13 +244,12 @@ export default function Page() {
   return (
     <Template image={image} title="Geschenkkarten!">
       <Head>
-        <title>Geschenkkarten - Watoto Kabisa</title>
-        <Head>
-          <meta
-            type="description"
-            content="Hier findet ihr Infos zu unserer Geschenkkarten Aktion."
-          />
-        </Head>
+        <title>Watoto Kabisa - Geschenkkarten</title>
+        <meta type="title" content="Watoto Kabisa - Geschenkkarten" />
+        <meta
+          type="description"
+          content="Verschenke eine Karte und tue dabei noch etwas Gutes mit unserer Auswahl an Geschenkkarten."
+        />
       </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingTop={15} paddingBottom={25}>

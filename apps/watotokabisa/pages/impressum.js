@@ -7,8 +7,8 @@ import {
   Spacer,
   Tile,
 } from '@bdp-rps/ui'
-
 import Head from 'next/head'
+
 import Layout from '../components/Layout'
 import Template from '../components/Template'
 import Link from '../components/Link'
@@ -18,6 +18,14 @@ export default () => {
 
   return (
     <Template heroHeight="60vh">
+      <Head>
+        <title>Watoto Kabisa - Impressum</title>
+        <meta type="title" content="Watoto Kabisa - Impressum" />
+        <meta
+          type="description"
+          content="Unsere Anschrift und gesetzlichen Vertreter."
+        />
+      </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingTop={15} paddingBottom={25}>
           <Box space={8} paddingBottom={10}>
@@ -48,6 +56,8 @@ export default () => {
               <br />
               Timon Flick
               <br />
+              Jule Leimpeters
+              <br />
               <br />
               Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
               befugt.
@@ -56,9 +66,12 @@ export default () => {
             </Text>
             <Text>
               <b>
-                Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
-              </b>{' '}
+                Verantwortliche Redakteure für die Inhalte dieser Internetseite:
+              </b>
+              <br />
               Timon Flick
+              <br />
+              Robin Weser
             </Text>
           </Box>
         </Layout>

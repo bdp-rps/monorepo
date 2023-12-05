@@ -15,10 +15,11 @@ export default function Spenden() {
   return (
     <Template image={image} title="Spenden!">
       <Head>
-        <title>Spenden - Watoto Kabisa</title>
+        <title>Watoto Kabisa - Spenden</title>
+        <meta type="title" content="Watoto Kabisa - Spenden" />
         <meta
           type="description"
-          content="Hier erfahrt ihr wie ihr den Verein Watoto Kabisa finanziell unterstützen könnt."
+          content="Spende Geld und unterstütze unsere Arbeit finanziell."
         />
       </Head>
       <Box bg="background.primary">
