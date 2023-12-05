@@ -1,55 +1,118 @@
 import * as React from 'react'
 
-import { Box, Text, IconLocation, Button, DateTime } from '@bdp-rps/ui'
+import {
+  Box,
+  Text,
+  IconLocation,
+  IconWolfskopf,
+  IconLilie,
+  IconRr,
+  Button,
+  DateTime,
+} from '@bdp-rps/ui'
 
-export default ({ groupedEvents }) => {
+const EventItem = ({ events, year, type }) => {
+  const getName = (name) => {
+    switch (type) {
+      case 'DEFAULT':
+        return name
+        break
+      case 'ICON':
+        return name.slice(0, -2)
+        break
+
+      default:
+        break
+    }
+  }
+  const getIcon = (icon) => {
+    const size = 25
+    switch (icon) {
+      case 'W':
+        return <IconWolfskopf size={size} />
+        break
+      case 'P':
+        return <IconLilie size={size} />
+        break
+      case 'R':
+        return <IconRr size={size} />
+        break
+      case 'A':
+        return (
+          <Box direction="row" space={1}>
+            <IconWolfskopf size={size} /> <IconLilie size={size} />
+            <IconRr size={size} />
+          </Box>
+        )
+        break
+      case 'G':
+        return (
+          <Box direction="row" space={1}>
+            <IconLilie size={size} />
+            <IconRr size={size} />
+          </Box>
+        )
+        break
+
+      default:
+        break
+    }
+  }
+  return (
+    <Box space={4}>
+      <Text variant="subtitle">{year}</Text>
+      <Box space={[8, 6]}>
+        {events[year].map(
+          ({ startDate, endDate, location, description, name, id }) => (
+            <Box key={id} space={[0, 5]} direction={['column', 'row']}>
+              <Text color="blue" extend={{ width: 100 }}>
+                <DateTime format="dd.MM">{startDate}</DateTime>
+                {startDate !== endDate && (
+                  <>
+                    {' - '}
+                    <DateTime format="dd.MM">{endDate}</DateTime>
+                  </>
+                )}
+              </Text>
+              <Box>
+                <Box direction="row" alignItems="center" space={1}>
+                  {type == 'ICON' && getIcon(name[name.length - 1])}
+                  <Text subStyle="emphasis">{getName(name)}</Text>
+                </Box>
+                {description && (
+                  <Box direction="row" alignItems="center" space={1}>
+                    <Text extend={{ fontStyle: 'italic' }}>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: description,
+                        }}
+                      />
+                    </Text>
+                  </Box>
+                )}
+                {location && (
+                  <Box direction="row" alignItems="center" space={1}>
+                    <IconLocation fill="grey2" extend={{ marginTop: -2 }} />
+                    <Text color="grey3">{location}</Text>
+                  </Box>
+                )}
+              </Box>
+            </Box>
+          )
+        )}
+      </Box>
+    </Box>
+  )
+}
+
+export default ({ groupedEvents, type = 'DEFAULT' }) => {
   return (
     <React.Fragment>
       <Box space={8} paddingBottom={10}>
         <Text variant="title">Termine</Text>
         <Box space={15}>
           {Object.keys(groupedEvents).map((year) => (
-            <Box space={4}>
-              <Text variant="subtitle">{year}</Text>
-              <Box space={[8, 6]}>
-                {groupedEvents[year].map(
-                  ({ startDate, endDate, location, description, name, id }) => (
-                    <Box key={id} space={[0, 5]} direction={['column', 'row']}>
-                      <Text color="blue" extend={{ width: 100 }}>
-                        <DateTime format="dd.MM">{startDate}</DateTime>
-                        {startDate !== endDate && (
-                          <>
-                            {' - '}
-                            <DateTime format="dd.MM">{endDate}</DateTime>
-                          </>
-                        )}
-                      </Text>
-                      <Box>
-                        <Text subStyle="emphasis">{name}</Text>
-                        {description && (
-                          <Text extend={{ fontStyle: 'italic' }}>
-                            <span
-                              dangerouslySetInnerHTML={{
-                                __html: description,
-                              }}
-                            />
-                          </Text>
-                        )}
-                        {location && (
-                          <Box direction="row" alignItems="center" space={1}>
-                            <IconLocation
-                              fill="grey2"
-                              extend={{ marginTop: -2 }}
-                            />
-                            <Text color="grey3">{location}</Text>
-                          </Box>
-                        )}
-                      </Box>
-                    </Box>
-                  )
-                )}
-              </Box>
-            </Box>
+            <EventItem events={groupedEvents} year={year} type={type} />
           ))}
         </Box>
 
