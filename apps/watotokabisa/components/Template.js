@@ -75,6 +75,7 @@ export default function Template({
 
       <Box height={heroHeight} width="100%" bg="rgba(0,0,0,0.3)">
         <Box
+          role="presentation"
           extend={{
             zIndex: -1,
             pointerEvents: 'none',
@@ -86,7 +87,7 @@ export default function Template({
           <El
             as={Image}
             src={image || defaultImage}
-            priority
+            alt=""
             layout="fill"
             objectFit="cover"
             placeholder="blur"
