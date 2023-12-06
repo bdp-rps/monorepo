@@ -67,6 +67,10 @@ export default function Template({
     </NavBarItem>
   ))
 
+  console.log(image)
+
+  const img = image // typeof image === 'string' ? require('../public/' + image) : image
+
   return (
     <Box grow={1}>
       <Menu menuVisible={menuVisible} hideMenu={() => setMenuVisible(false)}>
@@ -82,15 +86,15 @@ export default function Template({
             position: 'fixed',
             width: '100vw',
             height: '100vh',
-            filter: 'contrast(0.9)',
+            filter: 'contrast(0.9) brightness(0.9)',
           }}>
           <El
             as={Image}
-            src={image || defaultImage}
+            src={img || defaultImage}
             alt=""
             layout="fill"
             objectFit="cover"
-            placeholder="blur"
+            placeholder={typeof image === 'string' ? undefined : 'blur'}
           />
         </Box>
         <Box
