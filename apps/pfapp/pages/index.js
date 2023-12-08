@@ -60,8 +60,8 @@ export async function getStaticProps() {
   const activities = await getActivities()
 
   return {
-    // alle 20 minuten
-    revalidate: 1200,
+    // alle 5 minuten
+    revalidate: 300,
     props: {
       activities: activities.data,
     },
