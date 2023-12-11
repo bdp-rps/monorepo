@@ -1,0 +1,22 @@
+{
+  "notation": "",
+  "content": "{a}Als der große {E7}Regen {a}fiel, {C}waren wir in {G7}unsern {C}Zelten,\n{a}kauerten beim {E7}Feuer {a}nieder, {d}ruhten {C}aus für {G7}neue {C}Taten.\n{G}Und wir {G7}sangen {C}wilde {G7}Lieder {C}aus {e}der {a}Beute {E7}der Pi{a}raten.\n\nAls das Floß im Strome trieb, stakten wir durch Felsenklippen,\nwo der Wirbel schäumend brauste, vielerlei Gefahren nahten.\nSchwer im Wind knallt die zerzauste schwarze Fahne der Piraten.\n\nAls der Fahrt zu Ende ging, feierten wir tolle Feste,\ntranken aus den Kelchen Träume, die in unsern Bannkreis traten.\nUnd es scholl durch alle Räume das Gelächter der Piraten.",
+  "title": "Piratenfahrt",
+  "words": [],
+  "tune": [],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Als der große Regen fiel",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "Bei Vers 3 im Schlusstakt Staccato",
+  "changes": [
+    {
+      "date": 1681242495078,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

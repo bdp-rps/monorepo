@@ -1,14 +1,14 @@
 {
   "notation": "",
-  "content": "Ein stolzes {C}Schiff zieht {G7}einsam durch die {C}Wellen\nund führt uns {d}uns’re {G}deutschen Brüder {c}fort,\nDie Flagge weht, die {G7}weißen Segel {C}schwellen,\nAmeri{d}ka ist {G}ihr Bestimmungs{C}ort;\nSeht, auf {a}dem Verdeck sie {F}stehen,\nsich noch {a}einmal umzu{F}sehen,\nins Vater{C}land, ins heimatliche {G7}Grün.\n{C}Seht, wie sie übers {F}große {G}Weltmeer {C}zieh'n.\n\nSie zieh'n dahin auf blauen Meereswogen.\nWarum verlassen sie ihr Heimatland?\nMan hat sie um ihr Leben schwer betrogen,\ndie Armut trieb sie aus dem Vaterland.\nSchauet auf, ihr Unterdrücker,\nschauet auf, ihr Volksbetrüger!\nSeht, eure besten Arbeitskräfte flieh'n,\nseht, wie sie übers große Weltmeer zieh'n.\n\nSie zieh'n dahin, wer wagt sie noch zu fragen?\nWarum verlassen sie ihr Heimatland?\nOh, armes Deutschland, wie kannst du es ertragen,\ndass deine Brüder werden so verbannt?\nWas sie hofften, hier zu gründen,\nsuchen sie dort drüben zu finden.\nDrum ziehen sie von deutschem Boden ab\nund finden in Amerika ihr Grab.\n\nletzte wie erste",
+  "content": "Ein stolzes {C}Schiff zieht {G7}einsam durch die {C}Wellen\nund führt uns {d}uns're {G}deutschen Brüder {c}fort.\nDie Flagge weht, die {G7}weißen Segel {C}schwellen,\nAmeri{d}ka ist {G}ihr Bestimmungs{C}ort.\nSeht auf {a}dem Verdeck sie {F}stehen,\nsich noch {a}einmal umzu{F}sehen,\nins Vater{C}land, ins heimatliche {G}Grün.\n{C}Seht, wie sie übers {F}große {G}Weltmeer {C}zieh'n.\n\nSie zieh'n dahin auf blauen Meereswogen.\nWarum verlassen sie ihr Heimatland?\nMan hat sie um ihr Leben schwer betrogen,\ndie Armut trieb sie aus dem Vaterland.\nSchauet auf, ihr Unterdrücker,\nschauet auf, ihr Volksbetrüger!\nSeht, eure besten Arbeitskräfte flieh'n.\nSeht, wie sie übers große Weltmeer zieh'n.\n\nSie zieh'n dahin, wer wagt sie noch zu fragen?\nWarum verlassen sie ihr Heimatland?\nOh, armes Deutschland, wie kannst du es ertragen,\ndass deine Brüder werden so verbannt?\nWas sie hofften, hier zu gründen,\nsuchen sie dort drüben zu finden.\nDrum ziehen sie von deutschem Boden ab\nund finden in Amerika ihr Grab.\n\n(Letzte wie erste)",
   "title": "Ein stolzes Schiff",
   "words": [
     {
-      "name": "Heinrich Schacht",
+      "name": "Heinrich Schacht, 1855, ergänzt von Thomas Friz",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": "1855"
+      "year": ""
     }
   ],
   "tune": [
@@ -23,15 +23,22 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "100",
+  "tempo": "90",
   "musicalKey": "",
-  "info": "Das Lied bezieht sich vor allem auf die in Amerika \"Forty-Eighter\" genannten Auswanderer, die infolge der niedergeschlagenen Märzrevolution von 1848 in die \"Neue Welt\" flohen.",
+  "info": "Das Lied erzählt von der Auswanderungswelle, die die politischen und wirtschaftlichen Verhältnisse in Deutschland nach dem Scheitern der Märzrevolution 1848 auslösten. Alle Hoffnung auf ein freiheitliches, demokratisches und vereinigtes Deutschland, und damit die Vision von einem besseren Leben, war geschwunden. Über drei Millionen Menschen verließen wegen bitterer Armut und Unterdrückung in der größten Massenemigration des 19. Jahrhunderts das Land. Anders, als bei der (letztlich vom Ausbruch des indonesischen Vulkans Tambora verursachten) ersten Auswanderungswelle des Jahrhunderts (1816/1817), trieb es diesmal den größten Teil der Emigranten in die Vereinigten Staaten, wo sie sich als Siedler an der Erschließung des \"Wilden Westens\" beteiligten. Wie ein Magnet zog zudem das 1845 entdeckte kalifornische Gold die Glücksritter in den Westen (der berühmte Gold Rush). Die Auswanderergeneration von damals ist auch als Forty-Eighters\" bekannt - die '48er.\n\nErich Schmeckenbecher und Thomas Friz gruben in den 1970er Jahren im Deutschen Volksliedarchiv ein anonymes Flugblatt mit dem teilweise überlieferten Text aus, ergänzten ihn, vertonten ihn neu und machten das Lied in der heutigen Form bekannt. Jochen Wiegandt (von Liederjan, vgl. sein schönes Hamburger Liederbuch\") fand später heraus, daß der Text vom Hamburger Arbeiterdichter Heinrich Schacht stammt und erstmals 1855 veröffentlicht wurde. Schacht schlug bei späteren Abdrucken als Melodie „Die Liebe schlang das heiligste der Bande\" vor, ein Lied von Albert Methfessel (1785-1869) (von dem auch die Hamburg- Hymne ist) aus dem Jahr 1828, das die Befreiung der Stadt von der französischen Besatzung (1814) und die Rolle des Hamburgischen Bürgermilitärs hierbei thematisierte.",
   "changes": [
     {
       "date": 1679515441461,
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1694171005404,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

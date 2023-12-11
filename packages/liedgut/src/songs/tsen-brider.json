@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Tsen brider sejen mir gewesn, {d}hobn mir gehandelt mit lajn.\n{G}Ejner is fun unds geschtorbn, {C}sejnen mir gelibn {E7}najn.\nNajn brider ... mit fracht ... gelibn acht.\n\n{a}Schmerle mit dem fidele, {C}Tewje mit dem bass, {E7}schpilshe mir a lidele {a}ojfn mittn gass.\nOj, oj, oj, oj, oj. {C}Oj, oj, oj, oj, oj, {E7}schpilshe mir a lidele {a}ojfn mittn gass.\n\nAcht brider ... mit ribn ... gelibn sibn. Sibn brider ... mit gebeks ... geblibn seks.\nSeks brider ... mit schtrimpf ... geblibn finf. Finf brider ... mit bir ... geblibn fir.\nFir brider ... mit hej ... geblibn draj. Draj brider ... mit blaj ... geblibn tswej.\n\nTswej brider ... mit gebejner ... geblibn ejner.\nEjn bruder bin ich mir gewesn, hob ich mir gehandelt mit licht.\nSterbn tu ich jeden tog, wajl zu esn hob ich nit.",
+  "title": "Tsen brider",
+  "words": [
+    {
+      "name": "jiddisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "jiddisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "Das Lied ist etwa um 1900 in Sankt Petersburg entstanden und thematisiert die zunehmende Verarmung der osteuropäischen Juden.",
+  "changes": [
+    {
+      "date": 1697124469998,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

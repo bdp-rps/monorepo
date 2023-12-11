@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{e}Auf Ru{H7}inen von Palästen, {G}abends {a}im O{H7}livenhain,\nzwischen Dorn und {C}Mauerresten {a}richten wir das {H7}Lager ein.\n{e}Thalassa, {E7}thalassa, {H7}ta léme {e}sindoma,\n{e}Thalassa, {E7}thalassa, {H7}ta léme {e}sindoma!\n\nMänner kämpften hier und fronten Tempel und Tyrannenthron.\nStaub zu Staub, kein Mahnmal kündet. Da und dort winkt roter Mohn.\n\nHelios lenkt seine Rosse schon hinab ans kühle Meer\nund die Nacht spannt ihre Netze schattenzart von Osten her.\n\nWarmer Wind trägt Duft vom Tage, Harz und Thymian und Salbei,\nfremde Rufe, Herden läuten, ferner Ziegenmelkerschrei.",
+  "title": "Thalassa",
+  "words": [
+    {
+      "name": "Ulrich Becker",
+      "nickname": "Uli",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2002"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Ulrich Becker",
+      "nickname": "Uli",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2002"
+    }
+  ],
+  "translation": [],
+  "beat": "7/8",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Em",
+  "info": "\"Thalassa, thalassa, ta leme sindoma\" ist griechisch und bedeutet \"Meer, Meer, bis bald!\"",
+  "changes": [
+    {
+      "date": 1681331402729,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

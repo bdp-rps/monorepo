@@ -9,6 +9,8 @@ const style = ({ valid, theme }) => ({
   appearance: 'none',
   borderRadius: 0,
   borderWidth: 2,
+  boxSizing: 'border-box',
+  height: 48,
   borderStyle: 'solid',
   borderColor: theme.tokens.inputBorder,
   paddingLeft: theme.tokens.inputPaddingHorizontal,
@@ -77,7 +79,7 @@ export default function TextInput({
   const { css, theme } = useFela(styleProps)
 
   return (
-    <Box space={1}>
+    <Box space={1} shrink={1} width="100%">
       <Text
         as="label"
         htmlFor={name}

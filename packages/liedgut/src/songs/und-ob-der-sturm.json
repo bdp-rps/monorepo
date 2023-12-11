@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Und {G}ob der {D}Sturm so {C}manche {D}Nacht uns {e}um die {D}Ohren {e}pfiff,  \nals {G}sei die {D}Hölle {C}losge{D}macht, wir {e}hielten {D}durch mit{e} Mann und {D}Fracht,       \n/: und {G}heute noch {D}fährt unser {G}Schiff. :/\n\nNoch lebt in uns der alte Mut, wie sollte es auch anders sein!\nNoch glüht in uns die heiße Glut, noch strömt in uns das junge Blut,\n/: wild schäumend, wie junger Wein :/\n\nWir fliegen mit dem salzigen Wind wohl über die brausende See.\nWir fragen nicht, wo wir morgen sind, nur segeln und fliegen pfeilgeschwind\n/: wie die Möwe in schimmernder Höh! :/\n",
+  "content": "Und {G}ob der {D}Sturm so {C}manche {D}Nacht uns {e}um die {D}Ohren {e}pfiff.\nAls {G}sei die {D}Hölle {C}losge{D}macht, wir {e}hielten {D}durch mit {e}Mann und {D}Fracht.     \n/: Und {G}heute noch {D}fährt unser {G}Schiff. :/\n\nNoch lebt in uns der alte Mut, wie sollte es auch anders sein!\nNoch glüht in uns die heiße Glut, noch strömt in uns das junge Blut,\n/: wild schäumend, wie junger Wein. :/\n\nWir fliegen mit dem salz'gen Wind wohl über die brausende See.\nWir fragen nicht wo wir morgen sind, nur segeln und fliegen pfeilgeschwind,\n/: wie die Möwe in schimmernder Höh. :/\n",
   "title": "Und ob der Sturm",
   "words": [
     {
@@ -31,7 +31,22 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1690799458662,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1697051947282,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "G"
 }

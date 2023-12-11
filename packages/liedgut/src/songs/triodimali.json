@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Bruder nun wird es {E}Abend, {a}nimm dir ein Glas zum {E}Wein.\n/: {G}schen{G7}ke, {C}triodimali, {a}triodimali, {F}triodimali, {a}ein. :/\n\nStopf dir die lange Pfeife, denke nicht viel dabei,\n/: singe, triodimali, triodimali, triodimali, zwei. :/\n\nNichts soll das Lied bedeuten, als etwas glücklich sein,\n/: dreimal, triodimali, triodimali, triodimali, drei. :/\n\nMondlampe scheint durchs Fenster, Schlaf klopft an die Tür,\n/: leise, triodimali, triodimali, triodimali, vier. :/\n\nTraumschwere Worte fallen, Stille durchzieht das Haus, \n/: trinke, triodimali, triodimali, triodimali, aus. :/",
+  "content": "{a}Bruder nun wird es {E}Abend, {a}nimm dir ein Glas zum {E}Wein.\n/: {G}Schen{G7}ke, {C}triodimali, {a}triodimali, {F}triodimali, {a}ein. :/\n\nStopf dir die lange Pfeife, denke nicht viel dabei.\n/: Singe, triodimali, triodimali, triodimali, zwei. :/\n\nNichts soll das Lied bedeuten als etwas glücklich sein.\n/: Dreimal, triodimali, triodimali, triodimali, drei. :/\n\nMondlampe scheint durchs Fenster, Schlaf klopft an die Tür.\n/: Leise, triodimali, triodimali, triodimali, vier. :/\n\nTraumschwere Worte fallen, Stille durchzieht das Haus.\n/: Trinke, triodimali, triodimali, triodimali, aus. :/",
   "title": "Triodimali",
   "words": [
     {
@@ -21,8 +21,8 @@
     }
   ],
   "translation": [],
-  "beat": "3/4",
-  "tempo": "220",
+  "beat": "6/8",
+  "tempo": "80",
   "info": "",
   "changes": [
     {
@@ -38,7 +38,22 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "G7 hinzugefügt"
+    },
+    {
+      "date": 1690799088930,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1697052372101,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }

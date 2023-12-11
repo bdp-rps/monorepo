@@ -1,6 +1,6 @@
 {
   "notation": "L:1/4\nM:4/4\n\"C\" C E G E  | \"G7\" D/E/D/C/ B, G, | \"C\" C E G E | \"G7\" D E/F/ E D |\n\"a\" A, C E C | \"E\" B,/C/B,/A,/ B, B, | \"a\" A,/B,/C/D/ \"E\" E E | \"a\" A,2 A, \"(G)\"z |",
-  "content": "{C}Über meiner {G7}Heimat Frühling,\n{C}seh' ich Schwäne {G7}nordwärts fliegen.\n{a}Ach mein Herz möcht' {E}sich auf grauen\n{a}Eismeer{E}wogen {a}wiegen. {(G)}\n\nSchwan im Singsang deiner Lieder,\ngrüß' die grünen Birkenhaine.\nAlle Rosen gäb' ich gerne\ngegen Nordlands Steine.\n\nGrüße Schweden weißer Vogel,\nsetz an meiner statt die Füße\nauf den kalten Fels der Ostsee,\nsag ihr meine Grüße.\n\nGrüß' das Eismeer, grüß' das Nordkap.\nSing den Schären zu den Fjorden.\nWie ein Schwan sei meine Seele\nauf dem Weg nach Norden.\n",
+  "content": "{C}Über meiner {G7}Heimat Frühling, {C}seh' ich Schwäne {G7}nordwärts fliegen.\n{a}Ach mein Herz möcht' {E}sich auf grauen {a}Eismeer{E}wogen {a}wiegen. {(G)}\n\nSchwan im Singsang deiner Lieder, grüß' die grünen Birkenhaine.\nAlle Rosen gäb' ich gerne gegen Nordlands Steine.\n\nGrüße Schweden weißer Vogel, setz an meiner statt die Füße\nauf den kalten Fels der Ostsee, sag ihr meine Grüße.\n\nGrüß' das Eismeer, grüß' das Nordkap. Sing den Schären zu den Fjorden.\nWie ein Schwan sei meine Seele auf dem Weg nach Norden.",
   "title": "Zug der Schwäne",
   "words": [
     {
@@ -30,6 +30,20 @@
       "name": "Robin",
       "mail": "robin@bdp-rps.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1688212819887,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1697126642701,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ],

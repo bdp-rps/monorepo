@@ -1,21 +1,21 @@
 {
   "notation": "",
-  "content": "{F}                          {C}                               {F}                    {a}\nMuro ilo losharel, kana delva, dumadel, le vastenca sikavel (hop hop).\n{F}                                         {C}                                   {d}                   {E}    {a}\nShukar san tu, muro shavo, tu man muro kutyaripo. Chumidau tyo iloro.  \n\nLalalala…\n\nKana pe leste dikhaw, gilyi leske me penaw, oi si shavo, te merau (hop, hop, hop).\nVorbil mange, khelel manghe, si te merau pala leste. Ai, Devlale, jutile.\n\nLalalala…\n\nKade, kiki, kade malav, sar me tuke sikavaw. Sar me tuke sikavaw (Ji ha..ha he)\nDikh chak, tata, sar khelaw, le changasa malavaw. Tuke voia me keraw.\n\nLalalala…",
+  "content": "{F}Muro ilo losharel, {C}kana Devla, dumadel, {F}le vastenca sika{a}vel.\n{F}Shukar san tu, muro shavo, {C}tu san muro {a}kutyaripo. {d}Chumidau tyo {E}ilor{a}o.  \n\nDadadadai…\n\nKana pe leste dikau, gilyi leske me penau, oi si shavo, te merau.\nVorbil mange, kelel mange, si te merau pala leste. Ai, Dewlale, jutile.\n\nKade, kiki, kade malau, sar me tuke sikavau. Sar me tuke sikavau.\nDik chak, tata, sar khelau, le changasa malavau. Tuke voia me kerau.",
   "title": "Muro Shavo",
   "words": [
     {
-      "name": "",
+      "name": "Traditionelles Lied der Roma",
       "nickname": "",
-      "group": "Polkageist",
+      "group": "",
       "organisation": "",
       "year": ""
     }
   ],
   "tune": [
     {
-      "name": "",
+      "name": "Traditionelles Lied der Roma",
       "nickname": "",
-      "group": "Polkageist",
+      "group": "",
       "organisation": "",
       "year": ""
     }
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1690734902576,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "F"
 }

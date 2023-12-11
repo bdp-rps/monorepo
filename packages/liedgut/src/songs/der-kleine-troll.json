@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{D}Steigt so ein kleiner {h}Troll von dem Fjäll,\n{A}nähert sich {D}leis',\n{G}hat in der Hand ein {D}Hexenkraut,\n{A}was niemand {D}weiß.\n\n{D}Sitzt du am {G}Feuer und die {e}Lieder sind ver{A}weht,\n{D}dann bleib {A}ganz {D}stumm.\nDenn in {G}dem Land, das {e}dich umgibt, ist {A}was erwacht\nund {D}schleicht herum.\n\nPlötzlich in deinem Nacken\nspürst du eiskalten Hauch,\nAtem des Trolls trifft dich\nwie giftiger Rauch.\n\nDu führst den Becher Tee nun zum Mund.\nWas zauderst du?\nBlütenstaub im Zaubertrank\nraubt dir die Ruh'.\n\nWenn du in dieser Nacht deinen Schlaf\nfindest nicht mehr:\nDer kleine Troll macht\ndeine Träume so schwer.",
+  "content": "{D}Steigt so ein kleiner {h}Troll von dem Fjäll, {A}nähert sich {D}leis',\n//: {G}hat in der Hand {D}Hexenkraut, {A}was niemand {D}weiß. ://\n\n{D}Sitzt du am {G}Feuer und die {e}Lieder sind ver{A}weht, {D}dann {G}bleib' {A}ganz {D}stumm.\nDenn in dem {G}Land, das dich um{e}gibt, ist was er{A}wacht {D}und sch{G}leicht {A}her{D}um.\n\nPlötzlich in deinem Nacken spürst du eiskalten Hauch,\n//: Atem des Trolls trifft dich wie giftiger Rauch. ://\n\nDu führst den Becher Tee nun zum Mund. Was zauderst du?\n//: Blütenstaub im Zaubertrank raubt dir die Ruh'. ://\n\nWenn du in dieser Nacht deinen Schlaf findest nicht mehr:\n//: Der kleine Troll macht deine Träume so schwer. ://",
   "title": "Der kleine Troll",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "D",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1690482668047,
+      "name": "Chrissi",
+      "mail": "chrissistaudt@googlemail.com",
+      "type": "update",
+      "content": "1. Die Akkorde im Refrain etwas umgesetzt und ergänzt, Insbesondere den DGAD-Lauf am Versende (Wobei ich für die ergänzten Akkorde im Moment keine saubere Quelle habe, die hatte ich von irgendeiner Kopie mal in eigene Liederbücher übernommen, die Kopie finde ich aber gerade nicht).\n2. Einige Zeilenumbrüche weg genommen, um auf einer Seite zu bleiben.\n3. Tonart hinzugefügt und Takt angepasst (Allerdings gibt es auch einige Versionen in C-Dur, entsprechend transponiert)"
     }
   ]
 }

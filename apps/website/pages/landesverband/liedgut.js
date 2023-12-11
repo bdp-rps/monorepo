@@ -1,16 +1,6 @@
 import * as React from 'react'
-import { useRouter } from 'next/router'
 
-import {
-  Box,
-  NavBar,
-  NavBarItem,
-  Text,
-  useTheme,
-  Spacer,
-  Tile,
-  Link,
-} from '@bdp-rps/ui'
+import { Liedgut } from '@bdp-rps/shared'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
@@ -18,7 +8,7 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Layout paddingTop={10} paddingBottom={10}>
-      In Kürze wieder verfügbar.
+      <Liedgut />
     </Layout>
   </Template>
 )

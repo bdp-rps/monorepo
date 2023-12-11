@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import {
   Box,
   Text,
@@ -13,6 +13,8 @@ import {
 
 import postPlaces from '../../api/postPlaces'
 import PlaceForm from './placeForm'
+import PlaceInfo from './placeInfo'
+import PlaceList from './placeList'
 import PlaceFilter from './placeFilter'
 import NavBar from './navBar'
 import NavBarItem from './navBarItem'
@@ -21,7 +23,10 @@ const Menu = ({
   visible = false,
   setPlaceMarkerVisible,
   placeMarkerVisible,
+  places,
   position,
+  setPosition,
+  filters,
   setFilters,
 }) => {
   const [isVisible, setIsVisible] = useState(visible)
@@ -47,6 +52,11 @@ const Menu = ({
               overflow: 'scroll',
             }}>
             <NavBar>
+              <NavBarItem
+                active={tab === 'places'}
+                onClick={() => setTab('places')}>
+                Alle Plätze
+              </NavBarItem>
               {/* <NavBarItem
                 active={tab === 'filter'}
                 onClick={() => setTab('filter')}>
@@ -57,12 +67,25 @@ const Menu = ({
                 onClick={() => setTab('form')}>
                 Hinzufügen
               </NavBarItem>
+              <NavBarItem
+                active={tab === 'info'}
+                onClick={() => setTab('info')}>
+                Infos
+              </NavBarItem>
               <NavBarItem onClick={() => setIsVisible(false)}>
                 Schließen
               </NavBarItem>
             </NavBar>
             <Box padding={5}>
-              <Text color="white">Platzfinder</Text>
+              <Box display={tab === 'places' ? 'flex' : 'none'}>
+                <PlaceList
+                  places={places}
+                  onMoveTo={(latLng) => {
+                    setPosition(latLng)
+                    setIsVisible(false)
+                  }}
+                />
+              </Box>
               <Box display={tab === 'form' ? 'flex' : 'none'}>
                 <PlaceForm
                   position={position}
@@ -70,8 +93,11 @@ const Menu = ({
                   placeMarkerVisible={placeMarkerVisible}
                 />
               </Box>
+              <Box display={tab === 'info' ? 'flex' : 'none'}>
+                <PlaceInfo />
+              </Box>
               <Box display={tab === 'filter' ? 'flex' : 'none'}>
-                <PlaceFilter setFilters={setFilters} />
+                <PlaceFilter setFilters={setFilters} filters={filters} />
               </Box>
             </Box>
             <Spacer size={5} />

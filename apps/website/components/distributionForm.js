@@ -13,7 +13,7 @@ import {
 } from '@bdp-rps/ui'
 
 import postDistributors from '../api/postDistributors.js'
-import allGroups from '../data/allGroups.json'
+import staemme from '../data/staemme.json'
 
 const DistributionForm = () => {
   const nameField = useField({
@@ -142,7 +142,7 @@ const DistributionForm = () => {
 
       <SelectInput label="Stamm" {...groupField.props}>
         <option value=""></option>
-        {allGroups
+        {staemme
           .sort((a, b) =>
             a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
           )

@@ -1,6 +1,6 @@
 {
-  "notation": "V1:\nG,G,|\"C\"C3CC\"G\"D|\"C\"E2E2EE|\"F\"A3AGF|\"C\"G2C2CC\n|: \"F\"A3AGF|\"C\"G2C2CE|1\"G\"D3DCD|\"C\"E2E2CC:|2\"G\"D3DCB,|\"F\"A,2A,2\"GC\"z2|]\nw:2.te St im me:\nV2:\nG,G,|\"C\"G,3G,G,\"G\"B,|\"C\"C2C2CC|\"F\"F3FCC|\"C\"C2G,2G,G,\n|: \"F\"F3FCC|\"C\"C2G,2G,C|1\"G\"B,3B,A,B,|\"C\"C2C2G,G,:|2\"G\"B,3B,A,G,|\"F\"C2C2\"GC\"z2|]\nw:2.te St im me auch ok ta viert sing bar:\nV3:\nGG|\"C\"G3GG\"G\"B|\"C\"c2c2cc|\"F\"f3fcc|\"C\"c2G2GG\n|: \"F\"f3fcc|\"C\"c2G2Gc|1\"G\"B3BAB|\"C\"c2c2GG:|2\"G\"B3BAG|\"F\"c2c2\"GC\"z2|]",
-  "content": "Viele {C}Straßen vie{G}le {C}Pfade bin ich {F}durch die Zeit ge{C}fahren,\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {C}waren?\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {F}wa{G}ren{C}?\n\nDunkle Wälder, lichte Berge, denken sie auch mal zurück,\nManchmal wenn die Feuer brennen, ans vergangne Fahrtenglück.\n\nStaub'ger ranzen alte Klampfe, Erinn'rung steckt im Wanderschuh,\nIch heb mit Wein den Fahrtenbecher trinke den Gefährten zu.\n\nLetzte wie Erste.\n",
+  "notation": "V1:\nG,G,|\"C\"C3CC\"G\"D|\"C\"E2E2EE|\"F\"A3AGF|\"C\"G2C2CC\n|: \"F\"A3AGF|\"C\"G2C2CE|1\"G\"D3DCD|\"C\"E2E2CC:|2\"G\"D3DCB,|\"F\"A,2A,2\"GC\"z2|]",
+  "content": "Viele {C}Straßen, vie{G}le {C}Pfade bin ich {F}durch die Zeit ge{C}fahren.\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {C}waren?\nWo sind {F}jene nur ge{C}blieben, die mit {G}auf der Reise {F}wa{G}ren{C}?\n\nDunkle Wälder, lichte Berge, denken sie auch mal zurück,\n/: manchmal wenn die Feuer brennen ans vergang'ne Fahrtenglück. :/\n\nStaub'ger Ranzen, alte Klampfe, Erinn'rung steckt im Wanderschuh.\n/: Ich heb mit Wein den Fahrtenbecher, trinke den Gefährten zu. :/\n\n(Letzte wie Erste)\n",
   "title": "Der alte Fahrtengänger",
   "words": [
     {
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "3/4",
-  "tempo": "90",
+  "tempo": "110",
   "info": "18.07.2018 Schwedenfahrt",
   "changes": [
     {
@@ -45,7 +45,22 @@
       "mail": "",
       "type": "update",
       "content": "Akkord verbessert, Autor hinzugefügt"
+    },
+    {
+      "date": 1687196779670,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1687291376967,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Text"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "C"
 }

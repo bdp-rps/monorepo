@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Malt der Mond mit {F}hellen {C}Farben\nauf die See sein {F}Spiegel{G}bild,\n/: {G}Paporaki, {a}kleines {F}Bötchen\nschw{C}ankt mal sacht und {G}tanzt mal {C}wild. :/\n\nZaust der Wind mit wilden Wirbeln,\nkleine Wellen schaumbedeckt.\nGischt spritzt auf und Wasserzungen\nhaben an den Strand geleckt.\n\nDonner rollt von fernen Bergen,\nBlitz erleuchtet Wasserspiel,\nPaporaki treibt ins Weite\nkleines Bötchen ohne Ziel.\n\nSonne wärmt mit ersten Strahlen\nstarren Fels und feinen Sand.\nPaporaki bist entschwunden\nauf der Fahrt in fernes Land.",
+  "content": "{C}Malt der Mond mit {F}hellen {C}Farben auf die See sein {F}Spiegel{G}bild,\n/: {G}Paporaki, {a}kleines {F}Bötchen schw{C}ankt mal sacht und {G}tanzt mal {C}wild. :/\n\nZaust der Wind mit wilden Wirbeln, kleine Wellen schaumbedeckt.\nGischt spritzt auf und Wasserzungen haben an den Strand geleckt.\n\nDonner rollt von fernen Bergen, Blitz erleuchtet Wasserspiel,\nPaporaki treibt ins Weite kleines Bötchen ohne Ziel.\n\nSonne wärmt mit ersten Strahlen starren Fels und feinen Sand.\nPaporaki bist entschwunden auf der Fahrt in fernes Land.",
   "title": "Paporaki",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "",
+  "beat": "7/8",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "Takt: 7/8",
+  "info": "2. Takt im Refrain 4/4",
   "changes": [
     {
       "date": 1673203825316,
@@ -32,6 +32,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688214820732,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "C"
 }

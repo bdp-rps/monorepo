@@ -35,7 +35,7 @@ export default {
     destructiveLight: colors.redLight,
     foreground: core.colors.grey1,
     background: core.colors.white,
-    inputPaddingVertical: '10px',
+    inputPaddingVertical: '12px',
     inputPaddingHorizontal: '10px',
     inputDisabledBackground: core.colors.grey8,
     inputDisabledForeground: core.colors.grey2,

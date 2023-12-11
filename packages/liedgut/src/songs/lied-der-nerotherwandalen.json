@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "Ge{C}nug nun der {G}Ruhe, die {a}Rast zeugt nur der {E}Rost,\nwir {a}treiben nach {G}Süden im {E}rauen Nordost.\n\nDie {a}Heimat das {G}Zelt, unser {e}La{G}ger das {C}Feld, \nWan{a}da{e}len {F}kom{C}men, durch{a}fah{E}ren die {a}Welt.\n\nDie heiligen Haine verdämmern im Grau,\ndie Weltesche grünet im Regen und Tau.\n\nGebirge und Meere, sie hemmen uns nicht,\ndie Weltesche grünet im Regen und Tau.\n\nGebirge und Meere, sie hemmen uns nicht,\nan unserem Willen Karthago zerbricht.\n\nGenug nun der Ruhe, die Rast zeugt nur Rost,\nwir treiben nach Süden im rauen Nordost.",
+  "title": "Lied der Nerother-Wandalen",
+  "words": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1978"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Herbert Reyer",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Genug nun der Ruhe",
+  "tempo": 60,
+  "musicalKey": "C",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681244124769,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

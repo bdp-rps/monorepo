@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{D}Trampen {A}wir durch's {D}Land und rasen durch die {G}Wälder {D}hin.\n/: {G}Wer fragt {D}dann noch, {G}wer fragt {D}dann noch {A7}nach des Lebens {D}Sinn? :/\n\nLust und Traurigkeit verweben wir im Kleid der Zeit.\nDunkle Stunden, Becherrunden, wir sind stets bereit.\n\nAlles was uns bannt, verweht im Sand, verweht im Staub.\nAlle Schätze dieser Erde werden uns zum Raub.\n\nGut war uns're Fahrt. Wir maßen aus des Lebens Raum.\nTage, Nächte, Sonnenprächte und der Träume Schaum.\n\nIm Norden und im Süd, in Ost und West das gleiche Lied.\nIn die Ferne, zu den Sternen es uns ewig zieht.",
+  "title": "Fernweh",
+  "words": [
+    {
+      "name": "Werner Helwig",
+      "nickname": "hussa",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Werner Helwig",
+      "nickname": "hussa",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "D",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681417161070,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

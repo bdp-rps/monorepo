@@ -1,6 +1,6 @@
 {
-  "notation": "\"a\"A,2\"F\"A2\"G\"zGGD\"a\"E2EEG\"F\"F2C\"G\"zDDE\"a\"E2zAG\"F\"A2A2\"G\"zGA\"d\"D2zCCD\"a\"EG2\"e\"zEcB\"a\"A2|\nw:Zwischen spiel:\ncBc2B2G2A2|z2|cBc2d2B2c2|z2|\nw: ... oder ...\ncBc2B1/2cB1/2A2|",
-  "content": "{a}Staub, {F}Staub {G} und Steppen{a}land, zwei alte {F}Mulis {G}am Weges{a}rand,\nziehn den {F}Wagen {G}aus der {d}Stadt, weiter nach {a}Osten {e}dreht sich das {a}Rad.\n\nZwischenspiel: /: a F G a :/\n\nGlaub', glaub', mein alter Freund, vom Glück da haben wir oft geträumt.\nKnarrt das Fuhrwerk im Sturmgebraus, die Mulis finden nie mehr nach Haus.\n\nFern, fern in schwerer Stund, hilft nur die Kneipe am Wiesengrund.\nDie Wahrheit ändern wir niemals, dem Schicksal trot zend auf weiter Straß'.\n\nWeit, weit und grau der Weg und unsre Stiefel steh'n starr vor Dreck.\nDie Fahrt vorbei - in Träumen ziehn wir im Wagen nochmals dahin.\n\nStjep, Stjep, Stjep krugom, dwa starich mula vesut furgon.\nIz gorodor ot sujeti na dalni zapad uchodim my.",
+  "notation": "\"a\"A,4\"F\"A4\"G\"GGGD\"a\"E5EEG\"F\"F2C3\"G\"DDE\"a\"E6AG\"F\"A2A3\"G\"G2A\"d\"D5CCD\"a\"E2G2\"e\"zEcB\"a\"A6|\nw:Zwischen spiel:\ncBA4GA2GE6||cBA4B2G2A2|z8\nw: ... oder ...\ncBc2B2G2A2|z2|cBc2d2B2c2|z2|",
+  "content": "{a}Staub, {F}Staub {G}und Steppen{a}land, zwei alte {F}Mulis {G}am Weges{a}rand,\nzieh'n den {F}Wagen {G}aus der {d}Stadt, weiter nach {a}Osten {e}dreht sich das {a}Rad.\n\nZwischenspiel: /: a F G a :/\n\nGlaub', glaub', mein alter Freund, vom Glück da haben wir oft geträumt.\nKnarrt das Fuhrwerk im Sturmgebraus, die Mulis finden nie mehr nach Haus.\n\nFern, fern in schwerer Stund', hilft nur die Kneipe am Wiesengrund.\nDie Wahrheit ändern wir niemals, dem Schicksal trotzend auf weiter Straß'.\n\nWeit, weit und grau der Weg und unsre Stiefel steh'n starr vor Dreck.\nDie Fahrt vorbei - in Träumen zieh'n wir im Wagen nochmals dahin.\n\nStjep, Stjep, Stjep krugom, dwa starich mula vesut furgon.\nIz gorodor ot sujeti na dalni zapad uchodim my.",
   "title": "Der Wagen",
   "words": [
     {
@@ -20,16 +20,16 @@
   ],
   "tune": [
     {
-      "name": "Sergej Kosigin (russ. Original)",
+      "name": "Sergej Kossigin (russ. Original), 1987",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": "1987"
+      "year": ""
     }
   ],
   "translation": [],
   "beat": "2/4",
-  "tempo": "100",
+  "tempo": "50",
   "info": "",
   "changes": [
     {
@@ -45,7 +45,22 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1687982163699,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1692273354673,
+      "name": "chris fieker",
+      "mail": "chris@fieker.de",
+      "type": "update",
+      "content": "Da hat wohl einer das lied von 4/4 auf 2/4 umgestellt und vergessen zu verlangsamen. hab es verlangsamt und die timings der strophe gefixt. das erste zwischenspiel kannte ich nicht und habe ich deshalb in die oder zeile gemacht um besser zu arbeiten. das andere zwischenspiel habe ich verlangsamt. der takt mit der pause ist da wo die gitarre zupft, idk wie lang das braucht. Generell scheint mir die gitarre in meiner fassung ein wenig aus den rhythmus aber besser als vorher immerhin"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }

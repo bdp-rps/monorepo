@@ -3,7 +3,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-control-geocoder'
 
-import getPlaces from '../../api/getPlaces'
+import ChangeView from './changeView'
 
 import dynamic from 'next/dynamic'
 
@@ -12,14 +12,16 @@ import { Box } from '@bdp-rps/ui'
 import PlaceMarker from './placeMarker'
 import LeafletControlGeocoder from './leafletControlGeocoder'
 
-const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
-  const [places, setPlaces] = useState([])
-
-  useEffect(async () => {
-    const data = await getPlaces()
-    setPlaces(data.data)
-  }, [])
-
+const Map = ({
+  position,
+  setPosition,
+  zoom,
+  setZoom,
+  placeMarkerVisible,
+  filters = [],
+  setPlaces,
+  places,
+}) => {
   useEffect(() => {
     const filteredPlaces = places.filter((item) => {
       Object.keys(filters).map(function (key, index) {
@@ -32,21 +34,19 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
         return true
       })
     })
-    console.log('filteredPlaces', filteredPlaces)
   }, [filters])
-
   const DraggableMarker = useMemo(
     () => dynamic(() => import('./draggableMarker'), { ssr: false }),
     []
   )
-
   return (
     <MapContainer
       style={{ height: '100vh', width: '100%' }}
       center={position}
-      zoom={13}
+      zoom={zoom}
       zoomControl={false}
       scrollWheelZoom={true}>
+      <ChangeView center={position} zoom={zoom} />
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -59,12 +59,10 @@ const Map = ({ position, setPosition, placeMarkerVisible, filters = [] }) => {
       />
 
       {places?.map((place) => (
-        <PlaceMarker {...place.attributes} />
+        <PlaceMarker {...place.attributes} setPosition={setPosition} />
       ))}
-    <LeafletControlGeocoder></LeafletControlGeocoder>
+      <LeafletControlGeocoder />
     </MapContainer>
-  
-    
   )
 }
 

@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{F}Finnland, du Land der tausend Seen{C}\n{F}deine Tundren, {B}deine {C}Höh'n.\n{F}Deine großen, {B}dunklen Kiefern{F}wäl{d}der {C}sind {F}schön.\n\nFinnland auf deinen Wassern\ngleiten wir so unbeschwert, so frei.\nUnd du gehst im Kleid der Umweltzeiten vorbei.\n\nSilbern im Zauber deiner Herbste\nwiegen Birken sich so hold.\nDeiner Sommer-Sonnennächte glühen wie Gold.",
+  "title": "Finnland",
+  "words": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1954"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1954"
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "F",
+  "info": "",
+  "changes": [
+    {
+      "date": 1681413819599,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

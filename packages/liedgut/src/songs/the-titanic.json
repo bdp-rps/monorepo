@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "On the {a}11th of {G}April nineteenhundredand{a}twelve\nThe queen of the {G}ocean had started her {a}life\nWith {C}thirteenhundred {G}passangers she sailed out from {a}Cork\nLead by ninehundred {G}sailors on her way to New {a}York\n\nRef:\n{C}Uh-uh-{G}uh, riddle of the {a}century\n{C}Uh-uh-{G}uh, pride of The White-Star-{a}Line\n{C}Uh-uh-{G}uh, ye became a wet re{a}liquary\n{C}Uh-uh-{G}uh, a {F}victim {G}of the {a}brine\n\nOn the 14th of April at 11.40 pm\nAn outlook guy named Freedy Fleet the alarmbell he did ring\nCaptain Smith gave the order: \"Half steam ahead!\" he cried\nAs the steamer got a narrow shave from a giant in the night\n\nThe water filled the line\nThe death-struggle takes 3 hours\nThe operators working hard an emergency he morsed\n\"Californian can't you hear me - is your wireless working there?\"\nWallace Hartley and his rag-time-band played a tune called Derry Air\n\nOn the 15th of April nineteenhundredandtwelve\nThe queen of the ocean had ended her life\nEighteen lifeboats were in store sevenhundred for to save\nBut fifteenhundred passangers rest in their icy grave\n\n",
+  "content": "On the {a}11th of {G}April nineteenhundredand{a}twelve\nThe queen of the {G}ocean had started her {a}life\nWith {C}thirteenhundred {G}passangers she sailed out from {a}Cork\nLead by ninehundred {G}sailors on her way to New {a}York\n\nRef:\n{C}Uh-uh-{G}uh, riddle of the {a}century\n{C}Uh-uh-{G}uh, pride of The White-Star-{a}Line\n{C}Uh-uh-{G}uh, ye became a wet re{a}liquary\n{C}Uh-uh-{G}uh, a {F}victim {G}of the {a}brine\n\nOn the 14th of April at 11.40 pm\nAn outlook guy named Freedy Fleet the alarmbell he did ring\nCaptain Smith gave the order: \"Half steam ahead!\" he cried\nAs the steamer got a narrow shave from a giant in the night\n\nThe water filled the line the death-struggle takes 3 hours\nThe operators working hard an emergency he morsed\n\"Californian can't you hear me - is your wireless working there?\"\nWallace Hartley and his rag-time-band played a tune called Derry Air\n\nOn the 15th of April nineteenhundredandtwelve\nThe queen of the ocean had ended her life\nEighteen lifeboats were in store sevenhundred for to save\nBut fifteenhundred passangers rest in their icy grave\n\n",
   "title": "The Titanic",
   "words": [
     {
@@ -33,6 +33,13 @@
       "mail": "floro.nele@web.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1692278714037,
+      "name": "hutmann",
+      "mail": "",
+      "type": "update",
+      "content": "Anpassung der Zeilenumbrüche"
     }
   ]
 }

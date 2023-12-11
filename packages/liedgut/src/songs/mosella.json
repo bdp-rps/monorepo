@@ -2,40 +2,40 @@
   "title": "Mosella",
   "words": [
     {
-      "name": "Robin Weser",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": 2019
-    },
-    {
       "name": "Philipp Winicker",
       "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
-      "year": 2019
+      "year": "2019"
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2019"
     }
   ],
   "tune": [
     {
-      "name": "Robin Weser",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": 2019
-    },
-    {
       "name": "Philipp Winicker",
       "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
-      "year": 2019
+      "year": "2019"
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2019"
     }
   ],
   "beat": "4/4",
   "tempo": 100,
   "musicalKey": "E",
-  "info": "Mosella = alt-römische Personifizierung der Mosel\nUndine = Fährschiff zwischen Bernkastel-Kues und Trier",
+  "info": "auf Fahrt auf dem Moselsteig geschrieben\n\nMosella = alt-römische Personifizierung der Mosel\nUndine = Fährschiff zwischen Bernkastel-Kues und Trier",
   "content": "{E}Auf und ab der {H7}Pfad uns {A}führt,\nZum Sang der Riemen {E}klingt ein {H7}Lied.\n{cis}Schlangen durchziehen das {A}Land,\nMo{cis}sella, dein schimmerndes {A}Band,\ndein {E}schim{H7}merndes {E}Band.\n\nIm Abschied der Sonne das Tal erglüht,\nein knisterndes Feuer, das Wärme bringt,\nDie Kohte hoch oben thront,\nmit Blick auf dein Land uns lohnt,\ndein Land uns lohnt.\n\nFeinster Wein, dein Rebensaft,\nwir tippeln selig durch die Nacht.\nKraniche ziehen fort,\nverlassen den magischen Ort,\nden magischen Ort.\n\nMit Sehnsucht geht's gen Süden zu,\nlässt uns dein Zauber keine Ruh,\nUndine, gewähr uns Fahrt,\ndenn ferner Regen naht,\ndenn Regen naht.",
   "changes": [
     {
@@ -61,6 +61,13 @@
     {
       "date": 1673173614997,
       "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1687728621384,
+      "name": "Robin",
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": ""

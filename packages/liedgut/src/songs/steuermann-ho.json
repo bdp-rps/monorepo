@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Steu{D}ermann {G}ho! Drei {e}Strich nord-west-nord, da liegt ein {D}hansischer {G}Krä{D}mer vor {e}Ort.\n{G}Ho {D}ho {G}ho - ho {D}hohoho {e}ho. Hisst Segel, hisst Segel, {D}heia hopp {G}hopp,\nwir {D}führen den {G}Jolly {D}Roger im {e}Top. Hoho ho, {D}ho {G}ho - ho {D}hohoho {e}ho, {D}Schiff {e}ahoi.\n\nKäpten ahoi! Schafft Rum uns an Deck, wir schlagen das Fass mit dem Enterbeil leck. Ho ho ho, ho ho ho, Zurrt fester die Tampen, hiev opp, hiev opp! Wir führen de Jolly Roger im Top. Hoho ho, ho, ho, ho ho ho, Schiff ahoi!\n\nMannschaft klar Deck! Die Klingen zur Hand, vom Mastkorb zum Bugspriet die Wan- ten bemannt. Ho ho ho – ho ho ho. Die Stückpforten auf, ran an den Pott! Wir führen den Jolly Roger im Top. Hoho ho ho ho, ho, ho, ho, Schiff ahoi!",
+  "content": "{e}Steu{D}ermann {G}ho! Drei {e}Strich nord-west-nord, da liegt ein han{D}sischer {G}Krä{D}mer vor {e}Ort.\nHo {D}ho {G}ho - ho {D}hohoho {e}ho. Heißt Segel, heißt Segel, heia {D}hopp {G}hopp,\nwir {D}führen den {G}Jolly {D}Roger im {e}Top. Hoho ho, {D}ho ho {G}ho - ho {D}hohoho {e}ho, {D}Schiff {e}ahoi.\n\nKäpten ahoi! Schafft Rum uns an Deck, wir schlagen das Fass mit dem Enterbeil leck. \nHo ho ho - ho hohoho ho. Zurrt fester die Tampen, hiev opp, hiev opp! \nWir führen den Jolly Roger im Top. Hoho ho, ho ho ho - ho hohoho ho, Schiff ahoi!\n\nMannschaft klar Deck! Die Klingen zur Hand, vom Mastkorb zum Bugspriet die Wannten bemannt. \nHo ho ho - ho hohoho ho. Die Stückpforten auf, ran an den Pott, \nwir führen den Jolly Roger im Top. Hoho ho, ho ho ho - ho hohoho ho, Schiff ahoi!",
   "title": "Steuermann ho",
   "words": [
     {
@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "3/4",
+  "beat": "6/8",
   "tempo": 60,
   "info": "",
   "changes": [
@@ -31,7 +31,15 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1690743738117,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Em"
 }

@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "{a}Straßen auf und {F}Stra{a}ßen ab {F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen {F}der {a}Toreros {E}und Zi{a}geuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirren die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
+  "title": "Stunde der Orangen",
+  "words": [
+    {
+      "name": "George Forestier",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Helm König",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1952"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "Am",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680018165110,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1697053034700,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}

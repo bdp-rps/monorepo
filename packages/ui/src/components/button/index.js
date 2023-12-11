@@ -35,12 +35,13 @@ const colorMap = {
 const style = ({ theme, intent, variant, disabled, loading, size }) => ({
   boxSizing: 'border-box',
   textDecoration: 'none',
-  alignSelf: 'flex-start',
+  height: 'min-content',
   whiteSpace: 'nowrap',
   width: '100%',
   display: 'flex',
-  flexGrow: 1,
+  flexShrink: 1,
   justifyContent: 'center',
+  alignItems: 'center',
   appearance: 'none',
   cursor: 'pointer',
   paddingLeft: padding[size] + 1,
@@ -85,6 +86,7 @@ const style = ({ theme, intent, variant, disabled, loading, size }) => ({
       condition: loading,
       style: {
         cursor: 'not-allowed',
+        color: 'transparent',
       },
     },
     {

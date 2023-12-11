@@ -28,17 +28,22 @@ export default class MyDocument extends Document {
           <meta httpEquiv="content-type" content="text/html; charset=utf-8" />
           <link
             rel="stylesheet"
-            href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+            crossorigin=""
           />
+          <script
+            src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin=""></script>
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script async defer src="https://sa.bdp-rps.app/latest.js"></script>
+          {/* <script async defer src="https://sa.bdp-rps.app/latest.js"></script>
           <noscript>
             <img src="https://sa.bdp-rps.app/noscript.gif" alt="" />
-          </noscript>
+          </noscript> */}
         </body>
       </Html>
     )

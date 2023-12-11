@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Box, Button, Text, Spacer, Tile, Link } from '@bdp-rps/ui'
+import { Box, Button, Text } from '@bdp-rps/ui'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -19,6 +19,9 @@ export default () => {
             </Button>
             <Button href="https://p113-caldav.icloud.com/published/2/NTc3MjYxODIwNTc3MjYxOL9EAXRUtN8Jk2TOJ4lytVjeXa1g5MooZp2-uuLqbgfCiUN_eh0zpHmy3xgMbPZEyjPgbw3-p8HkOAKvXJAc5gU">
               LV-Kalender abonnieren
+            </Button>
+            <Button href="https://forms.gle/JwQ5nKHwq1S6nCQM9">
+              LV-Challenge Umfrage
             </Button>
           </Box>
         </Box>

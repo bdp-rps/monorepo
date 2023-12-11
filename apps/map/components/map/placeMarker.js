@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { Box, Link, Text, Button, Spacer } from '@bdp-rps/ui'
 
-import { Marker, Popup } from 'react-leaflet'
+import { Marker, Popup, useMap } from 'react-leaflet'
 import { icon } from 'leaflet'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 
@@ -11,6 +11,8 @@ import heim from '../../public/images/heim.svg'
 import lager from '../../public/images/lager.svg'
 
 import PopupTile from './popupTile'
+import { sizeToString, typeToString } from '../../utils'
+
 const placeIcon = (type) => {
   let iconSvg = stammesheim
   switch (type) {
@@ -48,6 +50,7 @@ const PlaceMarker = ({
   postcode,
   features,
   url,
+  setPosition,
 }) => {
   const markerRef = useRef(null)
   const [moreVisible, setMoreVisible] = useState(false)
@@ -56,13 +59,19 @@ const PlaceMarker = ({
   }
 
   return (
-    <Marker icon={placeIcon(type)} position={[lat, lng]} ref={markerRef}>
+    <Marker
+      eventHandlers={{
+        click: (e) => setPosition(e.latlng),
+      }}
+      icon={placeIcon(type)}
+      position={[lat, lng]}
+      ref={markerRef}>
       <Popup minWidth={90} className="request-popup">
         <PopupTile title={name}>
           <Box>
             <Text variant="category">Allgemeine Infos</Text>
-            <Text variant="note">Größe: {size}</Text>
-            <Text variant="note">Typ: {type}</Text>
+            <Text variant="note">Größe: {sizeToString(size)}</Text>
+            <Text variant="note">Typ: {typeToString(type)}</Text>
             <Spacer size={2} />
             {moreVisible && (
               <>
@@ -94,7 +103,7 @@ const PlaceMarker = ({
                 <Text variant="note">
                   {postcode} {place}
                 </Text>
-                <Text note>{street}</Text>
+                <Text variant="note">{street}</Text>
                 <Spacer size={2} />
                 <Text variant="category">Beschreibung</Text>
                 <Text variant="note">
@@ -102,14 +111,19 @@ const PlaceMarker = ({
                     ? 'Keine Angaben'
                     : description}
                 </Text>
-                <Text variant="category">Ausstattung</Text>
-                <Box>
-                  {features
-                    ?.filter((feature) => feature.val)
-                    .map((feature) => (
-                      <Text variant="note">{feature.label}</Text>
-                    ))}
-                </Box>
+                {features?.filter((feature) => feature.val).length > 0 && (
+                  <>
+                    {' '}
+                    <Text variant="category">Ausstattung</Text>
+                    <Box>
+                      {features
+                        ?.filter((feature) => feature.val)
+                        .map((feature) => (
+                          <Text variant="note">{feature.label}</Text>
+                        ))}
+                    </Box>
+                  </>
+                )}
               </>
             )}
             <Spacer size={4} />

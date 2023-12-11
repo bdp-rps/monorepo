@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Die {e}Schluchten des {G}Balkans zu {D}zwing{e}en,\n{G}die die Le{D}gende er{H7}wähnt.\n{e}Mit den Dä{G}monen zu {D}ring{e}en,\n{G}die diese {D}Felsen ge{H7}zählt.\n\n|:{G}Riefen wir die heimliche {D}Schar,\n{e}die von Göttern auserwählt {H7}war,\nzu {e}suchen, zu {H7}wägen, zu {e}zweifeln, zu {a}hoffen,\nzu {e}wissen, was {H7}wirklich, was {e}wahr. :|\n\nDen Ungeist des Menschen zu zwingen,\nder uns das Schwert gürten heißt.\nGegen den Sturmwind zu ringen,\nder uns die Fahne zerreißt.\n\nKämpfen, verlieren oder siegen.\nWer wird versklavt, wer ein Held?\nZu entscheiden oder zu erliegen\nfordert uns diese Welt.",
+  "content": "Die {e}Schluchten des {G}Balkans zu {D}zwing{e}en,\n{G}die die Le{D}gende er{H7}wähnt.\n{e}Mit den Dä{G}monen zu {D}ring{e}en,\n{G}die diese {D}Felsen ge{H7}zählt.\n\n/:{G}Riefen wir die heimliche {D}Schar,\n{e}die von Göttern auserwählt {H7}war,\nzu {e}suchen, zu {H7}wägen, zu {e}zweifeln, zu {a}hoffen,\nzu {e}wissen, was {H7}wirklich, was {e}wahr. :/\n\nDen Ungeist des Menschen zu zwingen,\nder uns das Schwert gürten heißt.\nGegen den Sturmwind zu ringen,\nder uns die Fahne zerreißt.\n\nKämpfen, verlieren oder siegen.\nWer wird versklavt, wer ein Held?\nZu entscheiden oder zu erliegen\nfordert uns diese Welt.",
   "title": "Die Schluchten des Balkans",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1688061501906,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Tonart ergänzt"
     }
   ]
 }

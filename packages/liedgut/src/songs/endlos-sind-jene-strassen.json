@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Endlos sind jene {C}Stra{G}ßen, die wir gezogen {D}sind,\nunzählbar sind die Lieder gesungen in den {G}Wind.\nUnd {G}noch gibt es kein {C}Ra{G}sten und noch gibt's keine {D}Ruh,\nwir müssen weiter{G}ziehen und fragen {D}nicht wo{G}zu.\n|:{G}So wie die Wolken ziehen {C}ruh'los am {G}Firma{D}ment,\nso ziehen Wander{G}burschen und finden {D}nie ein {G}End. :|\n\nRuh'los ist unser Leben und rastlos unser Ich.\nWir müssen weiterziehen. Warum? so fragt ihr mich.\nWeil wir die Ferne lieben, es nirgendwo uns hält,\nwir müssen weiterziehen, ruh'los in dieser Welt.\n|:So wie die Ströme fließen, rastloser Wellenschlag,\nso ziehen Wanderburschen den fernen Zielen nach. :|\n\nWo wird die Fahrt einst enden? Ist es am Wegesrain\nist es auf Bergeshöhen, ist es in Flur und Hain?\nWo werden meine Füße versagen mir den Lauf;\nwo hört mein ruh'los Leben, wo hört mein Sehnen auf?\n|:Gleich ist mir jede Stelle, wo ich find mein End,\nseh' ich nur Wolken ziehen, ruh'los am Firmament. :|",
+  "content": "{G}Endlos sind jene {C}Stra{G}ßen, die wir gezogen {D}sind,\nunzählbar sind die Lieder gesungen in den {G}Wind.\nUnd noch gibt es kein {C}Ra{G}sten und noch gibt's keine {D}Ruh,\nwir müssen weiter{G}ziehen und fragen {D}nicht wo{G}zu.\n\n/: {G}So wie die Wolken ziehen {C}ruhlos am {G}Firma{D}ment,\nso ziehen Wander{G}burschen und finden {D}nie ein {G}End. :/\n\nRuhlos ist unser Leben und rastlos unser Ich.\nWir müssen weiterziehen. Warum? So fragt ihr mich.\nWeil wir die Ferne lieben, es nirgendwo uns hält,\nwir müssen weiterziehen, ruhlos in dieser Welt.\n\n/: So wie die Ströme fließen, rastloser Wellenschlag,\nso ziehen Wanderburschen den fernen Zielen nach. :/\n\nWo wird die Fahrt einst enden? Ist es am Wegesrain?\nIst es auf Bergeshöhen, ist es in Flur und Hain?\nWo werden meine Füße versagen mir den Lauf,\nwo hört mein ruhlos Leben, wo hört mein Sehnen auf?\n\n/: Gleich ist mir jede Stelle, wo ich find mein End,\nseh' ich nur Wolken ziehen, ruhlos am Firmament. :/",
   "title": "Endlos sind jene Straßen",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "G",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1696953812045,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

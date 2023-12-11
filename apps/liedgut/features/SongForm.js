@@ -19,7 +19,12 @@ import {
   useTheme,
   useField,
 } from '@bdp-rps/ui'
-import { renderAuthors } from '@bdp-rps/liedgut'
+import { PDFViewer, Font, Document } from '@bdp-rps/react-pdf-renderer'
+import {
+  renderAuthors,
+  Song as PDFSong,
+  songs as songList,
+} from '@bdp-rps/liedgut'
 
 import Song from '../components/Song'
 import ListItem from '../components/ListItem'
@@ -116,7 +121,23 @@ const defaultSubmitter = {
 
 const CACHE_ID = 'bdp-rps-liedgut-song'
 
+function debounce(func, duration) {
+  let timeout
+
+  return function (...args) {
+    const effect = () => {
+      timeout = null
+      return func.apply(this, args)
+    }
+
+    clearTimeout(timeout)
+    timeout = setTimeout(effect, duration)
+  }
+}
+
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
+  const [isMounted, setMounted] = useState(false)
+
   const textAreaRef = useRef()
   const [song, setSong] = useState(initialSong)
   const [author, setAuthor] = useState(defaultAuthor)
@@ -129,6 +150,23 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
   const [isLoading, setLoading] = useState(false)
   const [cache, setCache] = useState()
   const [reuseCacheVisible, setReuseCacheVisible] = useState(false)
+  const [isPreviewVisible, setPreviewVisible] = useState(false)
+  const [previewRefresh, setPreviewRefresh] = useState(Date.now())
+
+  useEffect(() => {
+    Font.register({
+      family: 'Bell Gothic',
+      src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic.ttf',
+    })
+
+    Font.register({
+      family: 'Bell Gothic Bold',
+      src: 'https://liedgut.bdp-rps.app/fonts/Bell_Gothic_Bold.ttf',
+      fontWeight: 'bold',
+    })
+
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     if (localStorage.hasOwnProperty(CACHE_ID)) {
@@ -502,6 +540,29 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
         space={8}
         extend={{ overflow: 'auto' }}>
         <Song {...song} textAreaRef={textAreaRef} />
+        <Box space={4}>
+          <Checkbox
+            label="PDF Vorschau anzeigen"
+            value={isPreviewVisible}
+            onChange={() => setPreviewVisible(!isPreviewVisible)}
+          />
+          {isMounted && isPreviewVisible && (
+            <Box space={3}>
+              <Box alignSelf="flex-start">
+                <Button onClick={() => setPreviewRefresh(Date.now())}>
+                  Neu generieren
+                </Button>
+              </Box>
+              <Box height={500}>
+                <PDFViewer key={previewRefresh} width="100%" height="100%">
+                  <Document>
+                    <PDFSong {...song} />
+                  </Document>
+                </PDFViewer>
+              </Box>
+            </Box>
+          )}
+        </Box>
       </Box>
       <Modal
         visible={reuseCacheVisible}
@@ -576,12 +637,14 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                   submitterContent: submitter.content,
                 })
 
-                if (res.success) {
+                const json = await res.json()
+
+                if (json.status === 'done') {
                   setSendVisible(false)
                   alert(`Erfolgreich!
 Danke für die Einsendung.`)
                 } else {
-                  alert(res.error)
+                  alert(json.error)
                 }
 
                 setLoading(false)

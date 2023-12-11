@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "/:{D}Oh {G}Fischer {D7}auf den {G}Wogen, oh Fede{G}ri! :/\n/:{G}Ach, {C}komm in deinem {G}Kahn.\n\nCola tua bella {D7}barca tua bella sene {G}va. \nFede{G}ri{D7}lin{G}la. :/\n\n/:Oh Fischer, hol' mein Ringlein, oh Federi! :/\n/:Es fiel in's tiefe Meer.\n\n/:Das Ringlein ist gefunden von Federi. :/\n/:Was gibst du mir als Lohn?\n\n/:Ich geb' dir hundert Taler, oh Federi. :/\n/:Den Beutel noch dazu.\n\n/:Was nützen mir die Taler? Dem Federi. :/\n/:Behalt' auch deinen Beutel.\n\n/: Mein Wunsch - darf ich es wagen - dein Federi? :/\n/:Ein Kuss von deinem Mund.\n",
+  "title": "Oh Fischer auf den Wogen",
+  "words": [
+    {
+      "name": "",
+      "nickname": "",
+      "group": "AG Spiel des BDP",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "aus Korsika",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Der Refrain bedeutet etwa:\"Sieh dein schönes Boot und deine schöne Sevena\".",
+  "changes": [
+    {
+      "date": 1680002905332,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

@@ -2,34 +2,34 @@
   "title": "Die Tippelei",
   "words": [
     {
-      "name": "Robin Weser",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": 2018
-    },
-    {
       "name": "Philipp Winicker",
       "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
-      "year": 2018
+      "year": "2018"
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2018"
     }
   ],
   "tune": [
     {
-      "name": "Robin Weser",
-      "nickname": "",
-      "group": "Die Tippelbrüder",
-      "organisation": "BdP",
-      "year": 2018
-    },
-    {
       "name": "Philipp Winicker",
       "nickname": "",
-      "group": "Die Tippelbrüder",
+      "group": "",
       "organisation": "BdP",
-      "year": 2018
+      "year": "2018"
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "",
+      "organisation": "BdP",
+      "year": "2018"
     }
   ],
   "beat": "6/8",
@@ -57,9 +57,23 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "K und M weg"
+    },
+    {
+      "date": 1681220573447,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Takte"
+    },
+    {
+      "date": 1687728354472,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
-  "notation": "%%score [(1 2)]\nV:1\n\"D\" D2 D \"G\" B,2 B,  | \"A\" A, B, C \"D\" D2 F  | \"D\" F F F \"G\" G2 G   | \"A\" A A G \"D\" F2 F   | \n\"h\" B B B \"A\" A2 A  | \"G\"  G A G \"D\" F2 A,  | F E F \"G\" G2 E   | \"A\" C D E \"D\" D2 z   | z6 | \"G\" z3 \"A\" z3  | \n\"h\" D2 D \"G\" D C D  | \"A\" E3 \"D\" F3 | \"h\" F2 F \"G\" G F G | \"A\" A4 z A | \n\"h\" B2 B \"A\" A2 A | \"G\" G A G \"D\" F3  | F G F \"A\" E D C  | \"D\" D3 z3 ||\nV:2\n x6 |  x6 | x6  | x6  | \nx6  |x6  | x6  | x6  | x6 |x6 | \n B,2 B, G, G, G, | A,3 D3 |  B,2 B, G, G, G, | A,4 z A, | \n B,2 B, C2 C |  D2 D F3 |  D2 D A,2 A, |  D3 z3 ||",
+  "notation": "%%score [(1 2)]\nV:1\n\"D\" D2 D \"G\" B,2 B,  | \"A\" A, B, C \"D\" D2 F  | \"D\" F F F \"G\" G2 G   | \"A\" A A G \"D\" F2 F   | \n\"h\" B B B \"A\" A2 A  | \"G\"  G A G \"D\" F2 A,  | F E F \"G\" G2 E   | \"A\" C D E \"D\" D2 z  | [M:3/8] z3 | [M:6/8] \"G\" z3 \"A\" z3  | \n\"h\" D2 D \"G\" D C D  | \"A\" E3 \"D\" F3 | \"h\" F2 F \"G\" G F G | \"A\" A4 z A | \n\"h\" B2 B \"A\" A2 A | \"G\" G A G \"D\" F3  | F G F \"A\" E D C  | \"D\" D3 z3 ||\nV:2\n x6 |  x6 | x6  | x6  | \nx6  |x6  | x6  | x6  | x3 |x6 | \n B,2 B, G, G, G, | A,3 D3 |  B,2 B, G, G, G, | A,4 z A, | \n B,2 B, C2 C |  D2 D F3 |  D2 D A,2 A, |  D3 z3 ||",
   "alternativeTitle": ""
 }

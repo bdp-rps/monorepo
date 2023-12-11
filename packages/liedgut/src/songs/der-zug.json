@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Der {e}Zug fährt auf {a}stählernen {H7}Gleisen,\ndie {e}haben wir {a}selber {H7}gelegt,\ndass {a}sie auf den {e}endlosen Reisen ins {D}Morgen\ndie {G}Richtung uns weisen und {H7}dass unser Zug sich {e}bewegt.\n\n{a}Denn wir müssen immer {e}weiter kommen\n{a}und da dürfen wir nicht {e}zaghaft {E}sein,\njedes {a}Ziel kaum erreicht ist schon {e}wieder weggeschwommen.\n{a}Also: {H7}heizt {e}ein!\n\nDer Zug nimmt auch mit all die Feigen,\ndie meinen man zahlt heut nicht mehr.\nWie wärs, ließen wir sie aussteigen? Nur kurz!\nUnd es würde sich zeigen: Schwer läuft sichs dem Zug hinterher.\n\nDer Zug macht viel Rauch und Geheule,\nund nachts fährt er mit Funkenflug.\nDa grämt sich nur immer die Eule. Die Zeiten\nder klapprigen Gäule und Rindviecher sind nun genug.\n\nUnd doch führt der Zug aus\nden Zeiten der Väter manch großes Gepäck.\nEs soll auf den Wiesen und Weiden der Zukunft\nErinnerung bereiten und zeigen: Wir kommen vom Fleck!\n\nDer Zug jagt den glücklichsten Träumen\nder Menschen mit Macht hinterher,\njagt nach, noch in luftlosen Räumen des Alls,\nkeine Stund zu versäumen, und nähert sich mehr und mehr.",
+  "content": "Der {e}Zug fährt auf {a}stählernen {H7}Gleisen, die {e}haben wir {a}selber {H7}gelegt,\ndass {a}sie auf den {e}endlosen Reisen ins {D}Morgen\ndie {G}Richtung uns weisen und {H7}dass unser Zug sich {e}bewegt.\n\n{a}Denn wir müssen immer {e}weiter kommen {a}und da dürfen wir nicht {e}zaghaft {E}sein,\njedes {a}Ziel kaum erreicht ist schon {e}wieder weggeschwommen. {a}Also: {H7}heizt {e}ein!\n\nDer Zug nimmt auch mit all die Feigen, die meinen man zahlt heut nicht mehr.\nWie wärs, ließen wir sie aussteigen? Nur kurz! \nUnd es würde sich zeigen: Schwer läuft sichs dem Zug hinterher.\n\nDer Zug macht viel Rauch und Geheule, und nachts fährt er mit Funkenflug.\nDa grämt sich nur immer die Eule. Die Zeiten \nder klapprigen Gäule und Rindviecher sind nun genug.\n\nUnd doch führt der Zug aus den Zeiten der Väter manch großes Gepäck.\nEs soll auf den Wiesen und Weiden der Zukunft\nErinnerung bereiten und zeigen: Wir kommen vom Fleck!\n\nDer Zug jagt den glücklichsten Träumen der Menschen mit Macht hinterher,\njagt nach, noch in luftlosen Räumen des Alls,\nkeine Stund zu versäumen, und nähert sich mehr und mehr.",
   "title": "Der Zug",
   "words": [
     {
@@ -24,14 +24,28 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
-  "info": "",
+  "musicalKey": "Em",
+  "info": "Kurt Demmler war ein deutscher Liedermacher und Texter vieler DDR-Rockbands. Später wurde er wegen sexuellen Missbrauchs von Kindern in mehreren Fällen verurteilt.",
   "changes": [
     {
       "date": 1679504549049,
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1686994742120,
+      "name": "peter",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1696958260992,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

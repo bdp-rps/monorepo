@@ -1,0 +1,59 @@
+{
+  "notation": "",
+  "content": "{e}Draußen warten Abenteuer, {G}uns're Seelen brennen heiß.\n{e}In die Kälte steigt das Feuer, {G}manche volle Flasche kreist.\n/: {a}Keiner kann zu Hause bleiben, {e}draußen nur sich rumzutreiben,\n{a}ist es, was uns {H7}immer noch am {e}Leben hält! :/\n{e}Sonnenschein und {D}wilde Feste {D7}sind im Leben {H7}doch das Beste\n{G}und der {D}Henker {G}kriegt die {a}Reste, {H7}was vom Lumpen {e}üb{H7}rig {e}blieb.\n\nMorgens brummt so mancher Schädel, aber das geht auch vorbei.\nZu Hause wartet manches Mädel, meinet noch wir wären treu.\n/: Wer wollt uns was übel nehmen? Wofür sollten wir uns schämen?\nNur hier draußen auf der Straße sind wir frei. :/\n\nLumpenpack und Pferdewagen, Pfeifendunst, Gesang und Wein.\nSoweit uns die Füße tragen fahren wir jahraus, jahrein.\n/: Fremde Länder zu gewinnen, neues Leben zu beginnen,\nwas auf dieser Erde kann denn schöner sein? :/",
+  "title": "Sonnenschein und wilde Feste",
+  "words": [
+    {
+      "name": "Sebastian Steller",
+      "nickname": "sebi",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2002"
+    },
+    {
+      "name": "Holger Tschenau",
+      "nickname": "ruski",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2002"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Sebastian Steller",
+      "nickname": "sebi",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2002"
+    },
+    {
+      "name": "Holger Tschenau",
+      "nickname": "ruski",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2002"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "Em",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680017910662,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690744165530,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}

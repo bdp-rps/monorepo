@@ -1,5 +1,6 @@
-import * as React from 'react'
+import React from 'react'
 import { Provider, createStyleRenderer } from '@bdp-rps/ui'
+import { LayerContextProvider } from 'react-scroll-blocking-layers'
 import { arrayEach } from 'fast-loops'
 
 const staticStyle = [
@@ -62,7 +63,7 @@ export default function AppWrapper({ renderer = clientRenderer, children }) {
 
   return (
     <Provider theme="kabisa" renderer={renderer}>
-      {children}
+      <LayerContextProvider>{children}</LayerContextProvider>
     </Provider>
   )
 }

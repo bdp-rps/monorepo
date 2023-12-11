@@ -1,0 +1,52 @@
+{
+  "notation": "",
+  "content": "{a}Wenn das Feuer hell und heiß, {d}lodert auf in {a}Flammen,\n/: {d}schließen wir in {a}un{E}ser'm {a}Kreis {E}fester uns zu{a}sammen. :/\n\nKeiner kann für sich allein in der Welt bestehen,\n/: jeder muss durch Angst und Pein mit dem andern gehen. :/\n\nDarum schließen wir im Kreis fester uns zusammen,\n/: wenn das Feuer hell und heiß lodert auf in Flammen. :/",
+  "title": "Wenn das Feuer hell und heiß",
+  "words": [
+    {
+      "name": "Alf Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1950"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alf Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1950"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680019641892,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1690888931249,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1697126160497,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}

@@ -14,13 +14,14 @@
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
+    "@bdp-rps/liedgut": "workspace:*",
     "@bdp-rps/react-pdf-renderer": "workspace:*",
     "@bdp-rps/ui": "workspace:*",
-    "@bdp-rps/liedgut": "workspace:*",
-    "abcjs": "6.0.0-beta.19",
+    "@octokit/core": "^4.2.0",
+    "abcjs": "^6.2.0",
+    "next": "^12.2.0",
     "node-fetch": "^2.6.0",
-    "onegraph-auth": "^2.2.1",
-    "next": "^12.0.7",
+    "octokit": "^2.0.14",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },

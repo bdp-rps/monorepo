@@ -61,7 +61,7 @@ export default () => {
             <br />
             Stefan Schmidt
             <br />
-            Roxanne Schaefer
+            Marisa Keul
             <br />
             Anne Wendel
             <br />

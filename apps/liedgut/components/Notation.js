@@ -56,8 +56,8 @@ function CursorControl() {
 
     var cursor = document.querySelector('#paper svg .abcjs-cursor')
     if (cursor) {
-      cursor.setAttribute('x1', ev.left - 2)
-      cursor.setAttribute('x2', ev.left - 2)
+      cursor.setAttribute('x1', ev.left + 5)
+      cursor.setAttribute('x2', ev.left + 5)
       cursor.setAttribute('y1', ev.top)
       cursor.setAttribute('y2', ev.top + ev.height)
     }
@@ -128,13 +128,7 @@ export default function Notation({
     if (ABC.synth.supportsAudio()) {
       setSynthControl(new ABC.synth.SynthController())
     }
-  }, [])
-
-  useEffect(() => {
-    if (synthControl) {
-      synthControl.pause()
-    }
-  }, [notation])
+  }, [notationText, paperRef, speed, chords, audioRef, transpose, textAreaRef])
 
   useEffect(() => {
     if (paperRef.current && audioRef.current && synthControl && notation) {
@@ -231,8 +225,6 @@ export default function Notation({
 
   useEffect(() => {
     const handleRouteChangeStart = () => {
-      console.log('CHANGED', synthControl)
-
       if (synthControl) {
         synthControl.pause()
       }
@@ -243,10 +235,11 @@ export default function Notation({
     return () => {
       router.events.off('routeChangeStart', handleRouteChangeStart)
     }
-  }, [])
+  }, [synthControl])
 
   return (
     <Box>
+      <style>{`.abcjs-cursor { stroke: rgba(0, 0, 255, 0.2); stroke-width: 10px }`}</style>
       <Box extend={{ overflow: 'auto' }}>
         <Box minWidth={700} width="100%">
           <Box ref={paperRef} id="paper" />

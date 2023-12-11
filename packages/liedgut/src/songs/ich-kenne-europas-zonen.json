@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Ich {e}kenne Europas Zonen\nvom Ural bis westlich Paris.\nDie {H7}Händel der großen {e}Nationen,\nder {H7}Klassen und Konfess{e}ionen\nsind für mich nur ein {H7}fauler Be{e}schiss.{D}\n{D}Ich {G}bin ein gemeiner, zer{C}lumpter Zi{G}geuner.\nIch brauche keine Heimat, kein {D}Geld,\n|:nur mein {G}Pferd und die {D}sonnige {G}Welt. :|\n\nIch streifte von Hollands Grachten\nbis weit in das russische Reich.\nIch konnte den Menschen betrachten\nund lernte ihn gründlich verachten,\ndenn im Grunde sind sie alle gleich.\nSie schreien: Gemeiner, zerlumpter Zigeuner;\nsie schätzen unsern Wert nur nach Geld,\n|:mich mein Pferd und die sonnige Welt. :|\n\nSie fragten nach meinen Papieren,\nich streckte die Zunge heraus.\nSie wollten mich nummerieren.\nin Listen und Büchern führen,\ndoch ich lachte sie einfach aus,\nIch bin ein gemeiner, zerlumpter Zigeuner,\ndenn Freiheit ist besser als Geld,\n|:für mich, für mein Pferd und die sonnige Welt. :|",
+  "content": "Ich {e}kenne Europas Zonen vom Ural bis westlich Paris. Die {H7}Händel der großen {e}Nationen, der {H7}Klassen und Konfess{e}ionen sind für mich nur ein {H7}fauler Be{e}schiss.\n{D}Ich {G}bin ein gemeiner, zer{C}lumpter Zi{G}geuner. Ich brauch' keine Heimat, kein {D}Geld,\n/: nur mein {G}Pferd und die {D}sonnige {G}Welt. :/\n\nIch streifte von Hollands Grachten bis weit in das russische Reich. \nIch konnte die Menschen betrachten und lernte sie gründlich verachten, \ndenn im Grunde sind alle gleich.\nSie schreien: Gemeiner, zerlumpter Zigeuner; sie schätzen unser'n Wert nur nach Geld,\n/: mich mein Pferd und die sonnige Welt. :/\n\nSie fragten nach meinen Papieren, ich streckte die Zunge heraus. Sie wollten mich nummerieren, in Listen und Büchern führen, doch ich lachte sie einfach aus.\nIch bin ein gemeiner, zerlumpter Zigeuner, doch Freiheit ist besser als Geld,\n/: für mich, mein Pferd und die sonnige Welt. :/",
   "title": "Ich kenne Europas Zonen",
   "words": [
     {
@@ -24,13 +24,20 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
       "date": 1679561297583,
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1698315290196,
+      "name": "ko",
+      "mail": "",
       "type": "create",
       "content": ""
     }

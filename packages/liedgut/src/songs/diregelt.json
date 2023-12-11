@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "/: {e}Dire-gelt un {H7}oj, oj, oj,\n{e}dire-gelt un {H7}bozhe moj.\n{e}dire-gelt un gr{a}adjewoj,\n{H7}dire-gelt mus men ts{e}oln :/\n\n{e}Kumt arajn der str{a}uzh,\n{e}nemt er arop dos {a}hitl,\n{e}un as men tsolt kejn {a}dire-gelt,\n{H7}hengt er arojs a {e}kw{D}itl\n\n{G}Dire-gelt un {D}oj, oj, oj,\n{e}dire-gelt un {H7}bozhe moj\n{e}dire-gelt un gr{a}adjewoj,\n{H7}dire-gelt mus men ts{e}oln\n\nKumt arajn der schontse\nmit dem grobn schtekn;\nas men git im kejn dire-gelt\nschtelt er arojs di betn.\n\nOj, farwos sol ikh ajkh gebn dire-gelt,\nas di kikh is tsebrochn?\nFarwos sol ikh ajkh tsoln dire-gelt,\nas ikh hob nischt ojf wos tsu kokhn?",
+  "content": "/: {e}Dire-gelt un {H7}oj, oj, oj, {e}dire-gelt un {H7}boshemoj!\n{e}Dire-gelt un gr{a}adjewoj, {H7}dire-gelt mus men ts{e}oln :/\n\n{e}Kumt arajn der schtr{a}ush, {e}nemt er arop dos {a}hitl,\n{e}un as men tsolt kejn {a}dire-gelt, {H7}hengt er arojs a {e}kw{D}itl.\n\n{G}Dire-gelt un {D}oj, oj, oj, {e}dire-gelt un {H7}bozhe moj ...\n\nKumt arajn der schontse mit dem grobn schtekn;\nun as men git im kejn dire-gelt, schtelt er arojs di betn.\n\nOj, farwos sol ich ajch gebn dire-gelt, as di kich is tsebrochn?\nFarwos sol ich ajch tsoln dire-gelt, as ich hob nischt ojf wos tsu kochn?",
   "title": "Dire-gelt",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "Jiddisch",
+  "info": "Übersetzung der Strophen:\n\nKommt herein der Wirt,\nnimmt er seinen Hut ab,\nund wenn man seine Miete nicht zahlt,\nhängt er ein Schild raus.\n\nKommt herein der Schutzmann,\nmit dem dicken Stecken,\nund wenn man gibt ihm keine Miete,\nstellt er die Betten raus.\n\nAch, wofür soll ich Ihnen Miete geben,\nwenn die Küche kaputt ist?\nWofür soll ich Ihnen Miete bezahlen,\nwo ich nichts hab, worauf ich kochen könnte?",
   "changes": [
     {
       "date": 1649513208953,
@@ -32,6 +32,14 @@
       "mail": "timonflick@outlook.com",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1696945529200,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "Em"
 }

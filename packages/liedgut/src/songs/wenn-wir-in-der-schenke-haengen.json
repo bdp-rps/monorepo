@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Wenn wir {C}in der {E}Schänke {a}hängen\nund uns {C}nach dem {E}Biere {a}drängen,\n{d}wenn wir unsere {a}Lieder singen\n{d}und dazu die {a}Saiten klingen,\nbringen {G}wir nach {F}alter {E}Weise\n{F}unser {G}Prosit auf die {E}Reise:\n\n{C}Qui nos {G}rodunt {C}confun{d}dantur\n{C}et cum {a}iustis {d}non {E}scri{a}bantur.\n\nAllen, die vom Wind getrieben,\nFahrten, Land und Leute lieben,\ndie des Nachts in Hecken schlafen,\nwo sich Fuchs und Hase trafen;\njedem Bursche gilt die Runde,\ndoch den Spießern diese Kunde:\n\nSein es Ritter oder Knappen\nmit Barett und and'ren Kappen,\nob in Wämsen oder Hemden,\nden Bekannten wie den Fremden;\nlasst uns diese Nacht genießen,\nda noch alle Quellen fließen.\n\nEiner muss die Zeche zahlen,\nTantalus in seinen Qualen,\nhätte gern den vollen Becher,\nhurtig den ihr frohen Zecher;\nlasst uns diese Nacht genießen,\nda noch alle Quellen fließen.\n\nSoll der Gerstensaft uns munden,\nWandervögeln, schwere Kunden,\nSchwartenhälsen und Vaganten,\nWasser lasst den alten Tanten\nund auch den Kamillentee,\nsehr zum Wohle! Prost! Olé!",
+  "title": "Wenn wir in der Schenke hängen",
+  "words": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1978"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Kurt Kremers",
+      "nickname": "turi",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1978"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Wenn wir in der Schänke hängen",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "Der Refrain bedeutet: Wer uns verlacht, wird unkenntlich gemacht und nicht zusammen mit den Gerechten verzeichnet.",
+  "changes": [
+    {
+      "date": 1680019950577,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}\nEvery mornin' 'bout seven o'clock\n                 {E}\nthere were twenty terriers a-workin' on the rock.\n      {a}\nThe boss comes along and he says \"Keep still!\n        {E}\nAnd come down heavy on the cast-iron drill!”\n\n        {a}        {E}           {a}                 {G}          {a}\nAnd drill ye terriers, drill! Drill ye terriers, drill!\n                                                                     {E}\nFor it's work all day for the sugar in your tay, down behind the railway. \n        {a}          {E}          {a}     {E}      {a}       {E}     {a}       {G} {F} {E}\nAnd drill, ye terriers, drill! And blast! And fire!\n\nOur boss was a fine man to the ground,\nbut he married a lady, six-feet round.\nShe baked good bread and she baked it well,\nbut she baked it hard as the coals in hell.\n\nOur new foreman was Jim McCann.\nBy god, he was a damn mean man!\nLast week a premature blast went off,\na mile in the sky went big Jim Goff.\n\nThe next time payday came around,\na dollar short Jim Goff was found.\nWhen he asked what for came this reply:\n\"You're docked for the time you were up in the sky.\"\n",
+  "content": "{a}Every mornin' 'bout seven o'clock there were {E}twenty terriers a-workin' on the rock.\nThe {a}boss comes along and he says: \"Keep still! And {E}come down heavy on the cast-iron drill!\"\nAnd {a}drill ye {E}terriers, {a}drill! Drill ye {G}terriers, {a}drill! For it's work all day for the {E}sugar in your tay, down behind the railway. And {a}drill, ye {E}terriers, {a}drill! {E}And {a}blast! {E}And {a}fire!\n|: G F E :|\n\nOur boss was a fine man to the ground, but he married a lady, six-feet round.\nShe baked good bread and she baked it well, but she baked it hard as the coals in hell.\n\nOur new foreman was Jim McCann. By god, he was a damn mean man.\nLast week a premature blast went off, a mile in the sky went big Jim Goff.\n\nThe next time payday came around, a dollar short Jim Goff was found.\nWhen he asked what for came this reply: \"You're docked for the time you were up in the sky.\"\n",
   "title": "Drill ye terriers",
   "words": [
     {
@@ -8,7 +8,7 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1888"
     }
   ],
   "tune": [
@@ -17,14 +17,14 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1888"
     }
   ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "",
+  "info": "Das Lied ist ein Arbeitslied und bezieht sich auf den Bau der amerikanischen Eisenbahnen im mittleren 19. Jahrhundert. Der Titel bezieht sich auf irische Arbeiter, die Löcher in den Felsen bohren, um Eisenbahntunnel auszusprengen. Es kann entweder \"verweilen\" (tarry) im Sinne von Verzögerung bedeuten oder auf Terrier-Hunde hinweisen, die ihre Beute aus dem Boden ausgraben, oder von dem französischen Wort für eine Bohrmaschine, tarière.",
   "changes": [
     {
       "date": 1673369291207,
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1690486506396,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "Am"
 }

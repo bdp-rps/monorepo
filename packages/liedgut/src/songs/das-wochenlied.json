@@ -18,16 +18,24 @@
   ],
   "beat": "2/4",
   "tempo": 80,
-  "info": "",
-  "content": "{a}An den {d}sechs ver{E}gangenen {a}Tagen mussten {d}wir uns {E}lausig {a}plagen\n/: {C}Wenig {F}Freude, {G}Luft und {C}Licht, {a}Dreck an {d}Händen {E}und Ge{a}sicht :/\n\nHeute hat die Welt uns wieder, Klampfenspiel und tausend Lieder\n/: wandern durch die Wälder mit zu den Siebenmeilenschritt: :/\n\nUnd so geht es immer munter Berg hinauf und wieder runter.\n/: Alle unsre Müdigkeit, steckt zu Haus' im Arbeitskleid. :/\n\nSieben Tage hat die Woche, sechse sind wir rumgekrochen.\n/: Doch am siebten lebt sich flott, also will's der liebe Gott. :/",
+  "info": "Alfred 'Alf' Zschiesche (1908 - 1992) widmete dieses Lied seinem Freund Fritz Plank, dem lustigen Sänger in seinem Singkreis nach dem 2. Weltkrieg in der Nerother-Bundesgruppe Wiesbaden",
+  "content": "{a}An den {d}sechs ver{E}gangenen {a}Tagen mussten {d}wir uns {E}lausig {a}plagen.\n/: {C}Wenig {F}Freude, {G}Luft und {C}Licht, {a}Dreck an {d}Händen {E}und Ge{a}sicht :/\n\nHeute hat die Welt uns wieder, Klampfenspiel und tausend Lieder\n/: wandern durch die Wälder mit zu dem Siebenmeilenschritt: :/\n\nUnd so geht es immer munter Berg hinauf und wieder runter.\n/: Alle uns're Müdigkeit steckt zu Haus' im Arbeitskleid. :/\n\nSieben Tage hat die Woche, sechse sind wir rumgekrochen.\n/: Doch am siebten lebt sichs flott, also will's der liebe Gott. :/",
   "changes": [
     {
       "name": "Robin Weser",
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "date": 1585221170355
+    },
+    {
+      "date": 1690399150394,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }

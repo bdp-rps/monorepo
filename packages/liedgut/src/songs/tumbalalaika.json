@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{a}Schtejt a bocher, schtejt un tr{E}acht, tracht un tracht a ganze {a}nacht:\nwemen zu {F}nejmen un nit varsch{C}ejmen, {d}wemen zu {E7}nejmen un nit varsch{a}ejmen.\n\nTumbala, tumbala, tumbala{E}laika, {E7}tumbala, tumbala, tumbala{a}laika,\ntumbala{F}laika, schpil bala{C}laika, {d}tumbala{E7}laika, frejlech soll {a}sain!\n\nMejdl, mejdl 'ch vell baj dir fregn: Wos kon waksn, waksn on rejgn?\nWas kon brennen un nit ojfheren? Wos kon benken, wejnen on trenen?\n\nNarrischer bocher, wos derfs tu fregn? Farschtejn kon waksn, waksn on regjn.\nLibe kon brennen un nit ojfheren. A harts kon benken, wejnen on trenen.",
+  "title": "Tumbalalaika",
+  "words": [
+    {
+      "name": "jiddisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "jiddisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "",
+  "changes": [
+    {
+      "date": 1696965173862,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

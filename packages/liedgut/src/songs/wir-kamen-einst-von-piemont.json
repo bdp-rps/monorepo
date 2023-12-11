@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "/: Wir {G}kamen {D}einst von Pie{G}mont und wollten {C}weiter {D}nach {G}Lyon. :/\nAch im Beutel, da herrschte {D}Leere, sans dessus dessous et sans devant derr{G}ière.\nBurschen waren wir drei, {D}doch nur ein {G}Sous!\n\n/: {C}Sans devant derr{G}ière, sans des{D}sus des{G}sous. :/\n\n/: Herr Wirt, bring uns ein Essen her, der Magen ist so lang schon leer. :/\nHab noch Fleisch von der alten Mähre, sens dessus dessous et sens devant derrière.\nHei, bringt es her und Wein dazu!\n\n/: Herr Wirt, wir woll'n nun weiterzieh'n, das Essen war gewiss sehr schön. :/\nNehmt den Sou, hab'n nichts mehr auf Ehre, sens dessus dessous et sens devant derrière.\nWir aber stoben fort im Nu!",
+  "title": "Wir kamen einst von Piemont",
+  "words": [
+    {
+      "name": "Klaus Tränkle",
+      "nickname": "coppi",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "französisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "G",
+  "info": "sens dessus dessous: frz. \"drunter und drüber, durcheinander\" et sens devant derrière: frz. \"und verkehrt herum\"",
+  "changes": [
+    {
+      "date": 1680020210585,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1697050099304,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{G}Wenn die bunten Fahnen {C}wehen,\n{G}geht die {C}Fahrt wohl {G}übers {D}Meer.\n{G}Woll'n wir ferne Lande {C}sehen,\n{G}fällt der {C}Abschied {D}uns nicht {G}schwer.\n{G}Leuchtet die {C}Son{G}ne,\n{D}ziehen die {G}W{D}ol{G}ken,\nklingen die {C}Lie{G}der {D7}weit übers {G}Meer.\n\nSonnenschein ist unsre Wonne,\nwie er lacht am lichten Tag!\nDoch es geht auch ohne Sonne,\nwenn sie mal nicht lachen mag.\nBlasen die Stürme,\nbrausen die Wellen,\nsingen wir mit dem Sturm unser Lied.\n\nHei, die wilden Wandervögel\nziehen wieder durch die Nacht,\nschmettern ihre alten Lieder,\ndass die Welt vom Schlaf erwacht.\nKommt dann der Morgen,\nsind sie schon weiter,\nüber die Berge wer weiß wohin.\n\nWo die blauen Gipfel ragen,\nlockt so mancher steile Pfad.\nimmer vorwärts, ohne Zagen;\nBald sind wir dem Ziel genaht!\nSchneefelder blinken,\nschimmern von Ferne her,\nLande versinken im Wolkenmeer.",
+  "title": "Wenn die bunten Fahnen wehen",
+  "words": [
+    {
+      "name": "Alf Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alf Zschiesche",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "",
+  "info": "",
+  "changes": [
+    {
+      "date": 1680019750672,
+      "name": "torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

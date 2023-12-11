@@ -22,10 +22,10 @@
   },
   {
     "name": "Franz von Sickingen",
-    "leader": "Daniel Christmann",
+    "leader": "Horst Stauffer-Bescher",
     "location": "67304 Eisenberg",
-    "website": "http://pfadfinder-eisenberg.de",
-    "contact": "christmanndaniel1@googlemail.com"
+    "website": "https://pfadfinden-eisenberg.de",
+    "contact": "Anmeldung.fvs@gmail.com"
   },
   {
     "name": "Goten",
@@ -135,5 +135,24 @@
     "location": "76829 Landau",
     "website": "http://stamm-ciconia.de",
     "contact": "info@stamm-ciconia.de"
+  },
+  {
+    "name": "Rotfuchs",
+    "leader": "Ursula Weber (Usch) und Alexander Wingerter (Alex)",
+    "location": "76863 Herxheim",
+    "contact": "wingerter01@aol.com"
+  },
+  {
+    "name": "Feldkirchen",
+    "leader": "Christoph Weber (chisum)",
+    "location": "56567 Neuwied",
+    "contact": "clpweber@web.de"
+  },
+  {
+    "name": "Tilia",
+    "leader": "pfadfinden[at]bdp-mainz.de",
+    "location": "55118 Mainz",
+    "website": "https://www.bdp-mainz.de/",
+    "contact": "pfadfinden@bdp-mainz.de"
   }
 ]
