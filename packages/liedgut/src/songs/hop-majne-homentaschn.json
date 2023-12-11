@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Jachne {G7}Dwosche {C}fort in {G7}schtot, si {C}holt sich {G7}in ejn {C}pakn,\nfort ojf {G7}purim {C}kojfn {G7}mel, {C}homen{G7}taschn {C}bakn.\n\n|: {F}Hop, majne homentaschn, {C}hop, majne wajsse!\n{G7}Hop, mit majne homentaschn, {C}is pas{G7}sirt a {C}majsse. :|\n\n‘Ss gejt a regn, ss’ falt a schnej, ‘ss kapet fun di decher,\nJachne firt schojn di kornmel, in a sak mit lecher.\n\nNit kajn puter, nit kajn mon, ojch fargessn hejwn.\nJachne macht schojn homentaschn, ‘Ss bakt sich schojn on ojwn.\n\nJachne trogt schojn schalechmoness zu der bobe Jente,\nzwej, drai schvarze homentaschn, halb roj, halb farbrente.",
+  "content": "{C}Jachne {G7}Dwosche {C}fort in {G7}schtot, si {C}holt sich {G7}in ejn {C}pa{F}kn,\n{C}fort ojf {G7}purim {C}kojfn {G7}mel, homen{G7}taschn {C}bakn.\n\n/: {F}Hop, majne homentaschn, {C}hop, majne wajsse!\n{G7}Hop, mit majne homentaschn, {C}is pas{G7}sirt a {C}majsse. :/\n\n'S gejt a regn, 's falt a schnej, 's kapet fun di decher,\nJachne firt schojn di kornmel, in a sak mit lecher.\n\nNit kajn puter, nit kajn mon, ojch fargessn hejwn.\nJachne macht schojn homentaschn, 's bakt sich schojn on ojwn.\n\nJachne trogt schojn schalechmoness zu der bobe Jente,\nzwej, drai schwarze homentaschn, halb roj, halb farbrente.",
   "title": "Hop majne homentaschn",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1702329396044,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
