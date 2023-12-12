@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Schtejt a bocher, schtejt un tr{E}acht, tracht un tracht a ganze {a}nacht:\nwemen zu {F}nejmen un nit varsch{C}ejmen, {d}wemen zu {E7}nejmen un nit varsch{a}ejmen.\n\nTumbala, tumbala, tumbala{E}laika, {E7}tumbala, tumbala, tumbala{a}laika,\ntumbala{F}laika, schpil bala{C}laika, {d}tumbala{E7}laika, frejlech soll {a}sain!\n\nMejdl, mejdl 'ch vell baj dir fregn: Wos kon waksn, waksn on rejgn?\nWas kon brennen un nit ojfheren? Wos kon benken, wejnen on trenen?\n\nNarrischer bocher, wos derfs tu fregn? Farschtejn kon waksn, waksn on regjn.\nLibe kon brennen un nit ojfheren. A harts kon benken, wejnen on trenen.",
+  "content": "{a}Schtejt a bocher, schtejt un tr{E}acht, tracht un tracht a ganze {a}nacht:\nwemen zu {F}nejmen un nit farsch{C}ejmen, {d}wemen zu {E7}nejmen un nit farsch{a}ejmen.\n\nTumbala, tumbala, tumbala{E}laika, {E7}tumbala, tumbala, tumbala{a}laika,\ntumbala{F}laika, schpil bala{C}laika, {d}tumbala{E7}laika, frejlech soll {a}sain!\n\nMejdl, mejdl 'ch well baj dir fregn: Wos kon waksn, waksn on rejgn?\nWos kon brennen un nit ojfheren? Wos kon benken, wejnen on trenen?\n\nNarrischer bocher, wos derfs tu fregn? Farschtejn kon waksn, waksn on rejgn.\nLibe kon brennen un nit ojfheren. A harts kon benken, wejnen on trenen.",
   "title": "Tumbalalaika",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1702329853890,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
