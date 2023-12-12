@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Di mame is gegangen in mark arejn nach kojln,\ndo hot si mir gebracht a {g}mejdale von pojln.\n{A}Oj, is dos a mejdale a {d}schejns und a {g}fejns,\n{A}mid di schwarze heralach - ched{d}sale, {A}du {d}mejns!\n\nDi mame is gegangen in mark arejn nach krojt,\ndo hot si mir gebracht a mejdale fun bojt.\nOj, is dos a mejdale, a schejns und a fejns,\nmid di wajsse zejndalach - chedsale, du mejns!\n\nIch hob gegessn mandlenich, hob getrunkn Wejn,\nich hob gelibt a mejdale un kon on ir nit sejn.\nOj, is dos a mejdale,a schejns und a fejns,\nmid di schwarze ojgalach - chedsale, du mejns!",
+  "content": "{d}Di mame is gegangen in mark arejn nach kojln,\ndo hot si mir gebracht a {g}mejdale von pojln.\n{A}Oj, is dos a mejdale a {d}schejns und a {g}fejns,\n{A}mid di schwarze heralach - ked{d}sale, {A}du {d}mejns!\n\nDi mame is gegangen in mark arejn nach krojt,\ndo hot si mir gebracht a mejdale fun bojt.\nOj, is dos a mejdale, a schejns und a fejns,\nmid di wajsse zejndalach - kedsale, du mejns!\n\nIch hob gegessn mandlenich, hob getrunkn wejn,\nich hob gelibt a mejdale un kon on ir nit sejn.\nOj, is dos a mejdale, a schejns und a fejns,\nmid di schwarze ojgalach - kedsale, du mejns!",
   "title": "Di mame is gegangen",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1702331202719,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
