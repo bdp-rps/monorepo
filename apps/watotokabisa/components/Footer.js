@@ -76,7 +76,7 @@ export default function Footer() {
 
         <Box paddingTop={5}>
           <a
-            name="Vercel"
+            aria-label="Vercel"
             href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"
             style={{ textDecoration: 'none' }}>
             <svg
