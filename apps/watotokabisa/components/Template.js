@@ -67,10 +67,6 @@ export default function Template({
     </NavBarItem>
   ))
 
-  console.log(image)
-
-  const img = image // typeof image === 'string' ? require('../public/' + image) : image
-
   return (
     <Box grow={1}>
       <Menu menuVisible={menuVisible} hideMenu={() => setMenuVisible(false)}>
@@ -90,7 +86,7 @@ export default function Template({
           }}>
           <El
             as={Image}
-            src={img || defaultImage}
+            src={image || defaultImage}
             alt=""
             layout="fill"
             objectFit="cover"
@@ -104,6 +100,7 @@ export default function Template({
           display={['flex', , , 'none']}>
           <Logo />
           <IconButton
+            label="Menü öffnen"
             icon={(props) => <IconMenu fill="white" {...props} />}
             iconSize={40}
             onClick={() => setMenuVisible(true)}
