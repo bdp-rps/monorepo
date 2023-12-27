@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{am}Schtil, di {dm}nacht iz oysgesch{G}ter{C}nt Un der {F}frost hot schtark gebrent{C}.\nZi geden{am}kstu vi ich{dm} hob dich ge{G}ler{C}nt {E7}Halten a schpayer in di {am}hent?\n\nA moyd, a peltzl un a beret Un halt in hand fest a nagan.\nA moyd mit a sametenem ponim Hit op dem soynes'ss karavan.\n\nGetzilt, gechossen un getrofen Hot ir kleyninker pistoyl.\nAn oto a fulinken mit wofen Farhalten hot zi mit eyn koyl.\n\nFartog, fun wald aroysgekrochen Mit schneygirlanden oyf di hor.\nGemutikt fun kleyninken nitzochen Far unser nayem frayen dor !!",
+  "content": "{a}Schtil, di {d}nacht iz ojsgesch{G}ter{C}nt un der {F}frost hot schtark gebrennt{C}.\n|: Zi geden{a}kstu wi ich {d}hob dich ge{G}ler{C}nt {E7}halten a schpajer in di {a}hent? :|\n\nA mojd, a peltzl un a beret un halt in hand fest a nagan.\nA mojd mit a sametenem ponim hit op dem sojness karawan.\n\nGetsilt, geschossen un getrofen hot ir klejninker pistojl.\nAn ojto a fulinken mit wofen farholten hot zi mit ejn kojl.\n\nFartog, fun wald arojsgekrochen mit schnejgirlanden ojf di hor.\nGemutikt fun klejninken nitzochen far unser najem frajen dor!",
   "title": "Schtil di nacht iz oysgeschternt ",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "Jiddisches Partisanen Lied",
   "changes": [
     {
@@ -38,6 +38,13 @@
       "date": 1700772210904,
       "name": "ysdfghj",
       "mail": "fdghjkl",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1702330228831,
+      "name": "ko",
+      "mail": "",
       "type": "update",
       "content": ""
     }
