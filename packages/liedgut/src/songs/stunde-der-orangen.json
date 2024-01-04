@@ -1,10 +1,10 @@
 {
   "notation": "",
-  "content": "{a}Straßen auf und {F}Stra{a}ßen ab {F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen {F}der {a}Toreros {E}und Zi{a}geuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirren die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
+  "content": "{a}Straßen auf und {F}Stra{a}ßen ab {F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen {F}der {a}Toreros {E}und Zi{a}geuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirr'n die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
   "title": "Stunde der Orangen",
   "words": [
     {
-      "name": "George Forestier",
+      "name": "George Forestier (Pseudonym von Karl Emerich Krämer)",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -40,6 +40,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1704390648593,
+      "name": "Phil",
+      "mail": "NachtigallPhil@gmail.com",
+      "type": "update",
+      "content": "Ich hab den Autor angepasst. George Forestier ist nämlich nur ein pseudonym von Karl Emerich Krämer. \nAußerdem hab ich eine kleine Stelle in der letzten Strophe abgeändert: \"schwirren die Blicke der Verliebten\" -> \"schwirr'n die Blicke der verliebten\""
     }
   ]
 }
