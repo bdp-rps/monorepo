@@ -1,6 +1,6 @@
 {
   "notation": "\"e\"E2EE\"a\"A2AA|\"H7\"F2GF\"e\"E3E|\"G\"G2GF\"D\"F2ED|\n\"e\"E4E4:|:\"G\"[G4B][G4B]\"D\"[F4A][F4A]|\"a\"[A4c]\"H7\"[G2B][F2A]|\"e\"E4-E4:|",
-  "content": "{e}Staubiger {a}Straßen {H7}weißes {e}Band sch{G}längelt {D}sich durch schroffe {e}Felsen\nDornen {a}stehen am {H7}Weges{e}rand die {G}Sonne {D}brennt unbarm{e}herzig\n/: {G}auf das {D}ausge{a}trock{H7}nete {e}Land.:/\n\nEs grüßet uns ein sanfter Morgen über grünen Hügeln Höh'n,\nwir liegen im Schatten der Eiche verborgen, vor der Sonne heißem Glühn.\n/: da vergisst man vergang'ner Tage Sorgen.:/\n\nDornen stechen uns're Beine, in der Macchia strahlt der See,\ndort leben der Drachen uralte Keime, Serpentinae- euch schütz eine Fee. \n/:Ach du Insel der Dornen und Steine!:/",
+  "content": "{e}Staubiger {a}Straßen {H7}weißes {e}Band sch{G}längelt {D}sich durch schroffe {e}Felsen.\nDornen {a}stehen am {H7}Weges{e}rand, die {G}Sonne {D}brennt unbarm{e}herzig\n/: {G}auf das {D}ausge{a}trock{H7}nete {e}Land. :/\n\nEs grüßet uns ein sanfter Morgen über grüner Hügeln Höh'n.\nWir liegen im Schatten der Eiche verborgen, vor der Sonne heißem Glüh'n.\n/: Da vergisst man vergang'ner Tage Sorgen. :/\n\nDornen stechen uns're Beine, in der Macchia strahlt der See.\nDort leben der Drachen uralte Keime, Serpentinae - euch schützt eine Fee. \n/: Ach du Insel der Dornen und Steine! :/",
   "title": "Sardegna",
   "words": [
     {
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "tempo": "80",
-  "info": "",
+  "info": "Serpentinae = Schlange (lat.)",
   "musicalKey": "Em",
   "changes": [
     {
@@ -39,6 +39,13 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "update",
       "content": "Melodie, Wiederholungsstriche"
+    },
+    {
+      "date": 1704488469551,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": ""
