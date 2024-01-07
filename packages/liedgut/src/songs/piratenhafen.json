@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Am {a}alten Hafen ein {d}Lichtlein noch brennt, die ge{E}sunk'nen Gestalten mit {a}Namen man nicht kennt.\nRaue Kehle letztes {d}Lied noch nicht sang, am {E}Holztisch der letzte {a}Heller noch nicht sprang.\nUnser Ruf eilt uns {d}voraus: der {E}Tod kann warten auf uns {a}Piraten!\n\nDer ranzige Wirt ne Pistole erzählt, die geschundene Dirne der Schnaps am Leben hält. Kein Pfaffe diesen Ort jemals sah, dafür war'n so ziemlich alle andern Gauner da.\n\nDer alte Schipper, der schläft langsam ein, auf der Schulter ne Krähe mit noch einem Bein. Eine Wespe summt ganz müde herum, durch das Wettergetöse hört man ihr Gebrumm.\n\nPlötzlich wird es totenstill im Raum, man hört der Fremden Schritte erst noch kaum. Ein jeder schenkt sein Glas noch mal ein, er weiß, es werden seine letzten Schlücke sein.\nDenn unser Ruf eilt uns voraus: Der Tod muss warten auf uns Piraten!\n",
+  "content": "Am {a}alten Hafen ein {d}Lichtlein noch brennt, die ge{E}sunk'nen Gestalten mit {a}Namen man nicht kennt. Raue Kehle letztes {d}Lied noch nicht sang, am {E}Holztisch der letzte {a}Heller noch nicht sprang.\nUnser Ruf eilt uns {d}voraus: der {E}Tod kann warten auf uns {a}Piraten!\n\nDer ranzige Wirt 'ne Pistole erzählt, die geschundene Dirne der Schnaps am Leben hält. \nKein Pfaffe diesen Ort jemals sah, dafür war'n so ziemlich alle andern Gauner da.\n\nDer alte Schipper, der schläft langsam ein, auf der Schulter 'ne Krähe mit nur einem Bein. \nEine Wespe summt ganz müde herum, durch das Wettergetöse hört man ihr Gebrumm.\n\nPlötzlich wird es totenstill im Raum, man hört der Fremden Schritte erst noch kaum. \nEin jeder schenkt sein Glas noch einmal ein, er weiß, es werden seine letzten Schlücke sein.\nDenn unser Ruf eilt uns voraus: Der Tod muss warten auf uns Piraten!",
   "title": "Piratenhafen",
   "words": [
     {
@@ -31,7 +31,15 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1704488004489,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }
