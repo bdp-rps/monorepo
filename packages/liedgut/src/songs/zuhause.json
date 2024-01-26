@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wir {a}tanzen mit Tarnkappen, {F}und wir gehen trinken\n{C}mit falschen {e}Bärten. \nBis der {a}Himmel brennt auf dem Nach{F}hauseweg,\nund stehlen {C}Obst aus verbote {e}Gärten. \nMein {a}Herz ist ein Campmobil, {F}und ich will segeln gehen,\n{C}und jeden Tag {e}ist alles neu. \nUnd {a}alles ist gut, {F}nichts macht mir Angst, \nund {C}ich bin dir immer noch {e}treu.\n\n{a}Nur dein {F}liebes Ges{C}icht, macht mich zu{e}hause auf der {a}Welt.{F}{C}{e}\n\nDafür bleib ich hier und dafür komm ich wieder, \nund dafür könnt ihr mir alle gestohlen sein. \nIch hab verlorenes Gepäck, \nes ist irgendwo, aber immer noch mein - und \n\nEin Rundfunkmast funkt rund und ich hab meinen Raketenrucksack auf. \nIch muss wieder fort, ich muss ganz hoch hinauf. \nIch geb mir viel Mühe allein zufrieden zu sein, und vielleicht sieht es so aus. \nDann bin ich am Ende zufrieden aber eben nicht zuhaus', denn ",
+  "content": "Wir {a}tanzen mit Tarnkappen, {F}und wir gehen trinken\n{C}mit falschen {e}Bärten. \nBis der {a}Himmel brennt auf dem Nach{F}hauseweg,\nund stehlen {C}Obst aus verbotenen {e}Gärten. \nMein {a}Herz ist ein Campmobil, {F}und ich will segeln gehen,\n{C}und jeden Tag {e}ist alles neu. \nUnd {a}alles ist gut, {F}nichts macht mir Angst, \nund {C}ich bin dir immer noch {e}treu.\n\n{a}Nur dein {F}liebes Ges{C}icht, macht mich zu{e}hause auf der {a}Welt.{F}{C}{e}\n\nDafür bleib ich hier und dafür komm ich wieder, \nund dafür könnt ihr mir alle gestohlen sein. \nIch hab verlorenes Gepäck, \nes ist irgendwo, aber immer noch mein - und \n\nEin Rundfunkmast funkt rund und ich hab meinen Raketenrucksack auf. \nIch muss wieder fort, ich muss ganz hoch hinauf. \nIch geb mir viel Mühe allein zufrieden zu sein, und vielleicht sieht es so aus. \nDann bin ich am Ende zufrieden aber eben nicht zuhaus', denn ",
   "title": "Zuhause",
   "words": [
     {
@@ -40,6 +40,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1706211718834,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Rechtschreibung"
     }
   ]
 }
