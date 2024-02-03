@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "tempo": "120",
-  "info": "Polka, Tempo langsam steigernd\nÜbersetzung:\n1. Keine Röcke, keine Blusen, kauft mir mein Vater, ich geh hin zu meinem Mann, er soll mir das alles kaufen. 2. Vater, Mutter, kauft mir Ohrringe, ja, Ohrringe aus Gold. Wenn ihr mir keine Ohrringe kauft, kann ich nicht bei den anderen Mädchen sitzen. 3. Ich ging in den Garten, pflückte eine Blume, steckte sie mir ins Haar, um dir zu gefallen.",
+  "info": "Polka, Tempo langsam steigernd\nÜbersetzung:\n1. Keine Röcke, keine Blusen, kauft mir mein Vater, ich geh hin zu meinem Mann, er soll mir das alles kaufen. \n2. Vater, Mutter, kauft mir Ohrringe, ja, Ohrringe aus Gold. Wenn ihr mir keine Ohrringe kauft, kann ich nicht bei den anderen Mädchen sitzen. \n3. Ich ging in den Garten, pflückte eine Blume, steckte sie mir ins Haar, um dir zu gefallen.",
   "changes": [
     {
       "date": 1601115912112,
@@ -34,6 +34,13 @@
     },
     {
       "date": 1694168773136,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707001709774,
       "name": "ko",
       "mail": "",
       "type": "update",
