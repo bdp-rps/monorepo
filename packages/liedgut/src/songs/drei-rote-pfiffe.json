@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "6/8",
   "alternativeTitle": "",
   "tempo": 60,
   "info": "Geschichte der Patisanin Helena K. (Jelka“)",
@@ -42,6 +42,13 @@
     },
     {
       "date": 1706964862004,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706985409422,
       "name": "ko",
       "mail": "",
       "type": "update",
