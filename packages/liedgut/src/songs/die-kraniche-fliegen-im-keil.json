@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "6/8",
   "tempo": "90",
-  "info": "Kurt Demmler war ein deutscher Liedermacher und Texter vieler DDR-Rockbands. Später wurde er wegen sexuellen Missbrauchs von Kindern in mehreren Fällen verurteilt.",
+  "info": "Kurt Demmler (1943 - 2009) war ein sehr bekannter und erfolgreicher Liedermacher in der DDR. Aufgrund einiger DDR-kritischer Texte wurden zeitweise Auftrittsverbote gegen ihn verhängt. Im Jahr 2002 wurde er wegen sexuellen Missbrauchs von Kindern zu einer Geldstrafe verurteilt. 2008 wurde Kurt Demmler erneut wegen sexuellen Missbrauchs in über 50 Fällen angeklagt und nahm sich vor dem zweiten Verhandlungstag im Gefängnis das Leben.",
   "changes": [
     {
       "date": 1600716772404,
@@ -49,6 +49,13 @@
     {
       "date": 1697224358368,
       "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706971482837,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""
