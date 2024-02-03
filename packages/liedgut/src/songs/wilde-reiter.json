@@ -1,19 +1,42 @@
 {
   "notation": "",
-  "content": "{D}Wilde Reiter, {A}immer weiter {h}auf der großen {fis}Straßenleiter,\n{G}jagen wir durch {D}Tag und Nacht zum {A}Meere.\n{D}In Erinner{A}ung der Zeiten, {h}da der Buchten {fis}stolze Weiten\n{G}uns befreit von aller Erden{D}schwere.\n\n/: Je pense à vous, Mademoiselle, je pense à {G}vous, Mademoiselle,\nà la {D}terre et à la {A}mer, Cap Fré{D}hel. :/\n\nBlumengärten, Ährenfelder, hohe Kronen starker Wälder,\nimmer neuen Lebens bunter Fülle.\nAlte Trachten, gelbe Dünen, schwarzgelackte Holzpantinen,\nMädchenlachen und der Dämm'rung Stille.\n\nDie bretonische Kapelle - Dudelsack und die Gesänge,\nBombardon - im Violett der Heide.\nBrosche, Spitze, Silberspange - unterm Himmel der Bretagne\ngehn die Leute in Brokat und Seide.\n\nDiesem Land sind wir verschrieben. Land und Leute muss man lieben,\nseine Dörfer, Brunnen und Tavernen.\nImmer zieht durch die Gedanken Glück, das wir am Wege fanden\nabends unter Sternen und Laternen.",
+  "content": "{D}Wilde Reiter, {A}immer weiter {h}auf der großen {fis}Straßenleiter,\n{G}jagen wir durch {D}Tag und Nacht zum {A}Meere.\n{D}In Erinner{A}ung der Zeiten, {h}da der Buchten {fis}stolze Weiten\n{G}uns befreit von {D}aller Erdensch{A}we{D}re.\n\n/: Je pense à vous, mademoiselle, je pense à {G}vous, mademoiselle,\nà la {D}terre et à la {A}mer, cap Fré{D}hel. :/\n\nBlumengärten, Ährenfelder, hohe Kronen starker Wälder,\nimmer neuen Lebens bunter Fülle.\nAlte Trachten, gelbe Dünen, schwarzgelackte Holzpantinen,\nMädchenlachen und der Dämm'rung Stille.\n\nDie bretonische Kapelle, Dudelsack und die Gesänge,\nBombardon im Violett der Heide.\nBrosche, Spitze, Silberspange unterm Himmel der Bretagne\ngehn die Leute in Brokat und Seide.\n\nDiesem Land sind wir verschrieben, Land und Leute muss man lieben,\nseine Dörfer, Brunnen und Tavernen.\nImmer zieht noch durch Gedanken Glück das wir am Wege fanden\nabends unter Sternen und Laternen.",
   "title": "Wilde Reiter",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1961"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alo Hamm",
+      "nickname": "trenk",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1961"
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "tempo": 60,
-  "info": "",
+  "info": "Übersetzung: Ich denke an Sie, Fräulein, ich denke an Sie, Fräulein, an das Land und das Meer, Kap Fréhel.",
   "changes": [
     {
       "date": 1601227266697,
       "name": "cätch",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706977304967,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ],
