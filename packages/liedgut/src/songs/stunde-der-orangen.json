@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Straßen auf und {F}Stra{a}ßen ab {F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen {F}der {a}Toreros {E}und Zi{a}geuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirr'n die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
+  "content": "{a}Straßen auf und {F}Stra{a}ßen ab {F}schwirren {a}die Gitarren{E}lieder,\n{a}seid'ne Vögel {F}auf den {a}Lippen {F}der {a}Toreros {E}und La{a}ndstreuner.\n\n{FEFE}{aGFE}{aGFE}{a}\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirr'n die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
   "title": "Stunde der Orangen",
   "words": [
     {
@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "Am",
-  "info": "",
+  "info": "Karl Emerich Krämer (1918 - 1987) war ein Dichter und Schriftsteller. Bereits 1932 trat er der Hitlerjugend bei. Bis zum Beginn des Krieges wurden mehrere Werke von ihm veröffentlicht, die wegen ihrer linientreuen nationalsozialistischen Gesinnung ausdrückliche staatliche Förderung erfuhren. ",
   "changes": [
     {
       "date": 1680018165110,
@@ -47,6 +47,13 @@
       "mail": "NachtigallPhil@gmail.com",
       "type": "update",
       "content": "Ich hab den Autor angepasst. George Forestier ist nämlich nur ein pseudonym von Karl Emerich Krämer. \nAußerdem hab ich eine kleine Stelle in der letzten Strophe abgeändert: \"schwirren die Blicke der Verliebten\" -> \"schwirr'n die Blicke der verliebten\""
+    },
+    {
+      "date": 1706971431630,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ]
 }
