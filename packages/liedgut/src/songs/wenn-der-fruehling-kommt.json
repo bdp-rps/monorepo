@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wenn der F{e}rühling k{h}ommt und die V{G}ögel z{e}ieh'n\nund die d{C}üsteren Wolken nach N{D}orden flieh'n.\nWenn man Freude und Freiheit dennoch verliert\nund der graue Alltag die Menschheit regiert.\n\nDann ist es Z{G}eit die ledernen H{D}osen zu tragen,\ndie a{C}lten verwaschenen K{H7}lampfen zu schlagen und A{C}bent{D7}euer zu b{G}esteh'n.\nUnd es lohnt sich die uralten L{D}ieder zu singen, \ndurch W{C}älder zu streifen und B{H7}erge zu zwingen.\nDie u{e}ralte S{D}onne w{e}ieder zu seh'n, die uralte S{D}onne zu s{e}eh'n.\n\nWenn das Feuer in der Kohte schwelt,\nmanch einer von großer Fahrt erzählt.\nWenn der dampfende Tee überm Feuer hängt,\nund das Glück der Freiheit den Kummer verdrängt.\n\nUnd es kommt ein Frühling zu uns in das Land\nund die Lieder, die sind uns nicht unbekannt.\nLasst uns freudig in die Ferne zieh'n,\nund gleich Vögeln dem Hier und dem Jetzt entflieh'n.",
+  "content": "Wenn der F{e}rühling k{h}ommt und die V{G}ögel z{e}ieh'n\nund die d{C}üsteren Wolken nach N{D}orden flieh'n.\nWenn man Freude und Freiheit dennoch verliert\nweil der graue Alltag die Menschheit regiert.\n\nDann ist es Z{G}eit die ledernen H{D}osen zu tragen,\ndie a{C}lten verwaschenen K{H7}lampfen zu schlagen und A{C}bent{D7}euer zu b{G}esteh'n.\nUnd es lohnt sich die uralten L{D}ieder zu singen, \ndurch W{C}älder zu streifen und B{H7}erge zu zwingen.\nDie u{e}ralte S{D}onne w{e}ieder zu seh'n, die uralte S{D}onne zu s{e}eh'n.\n\nWenn das Feuer in der Kohte schwelt,\nmanch einer von großer Fahrt erzählt.\nWenn der dampfende Tee überm Feuer hängt,\nund das Glück der Freiheit den Kummer verdrängt.\n\nUnd es kommt ein Frühling zu uns in das Land\nund die Lieder, sie sind uns nicht unbekannt.\nLasst uns freudig in die Ferne zieh'n,\nund gleich Vögeln dem Hier und dem Jetzt entflieh'n.",
   "title": "Wenn der Frühling kommt",
   "words": [
     {
@@ -35,6 +35,13 @@
     },
     {
       "date": 1697050720959,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706976141961,
       "name": "ko",
       "mail": "",
       "type": "update",
