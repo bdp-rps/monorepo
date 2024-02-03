@@ -1,6 +1,6 @@
 {
   "notation": "\"F\"z2F2GA2A2\"C\"GAGAGAGF2|\"d\"z2[FA]2GA2F\"a\"EFEFE2|\n\"d\"z2DFA2F2|\"a\"z2CEG2E2|\"E\"D2D2E2ED|\"a\"C2G2\"A\"A2G2:|",
-  "content": "{F}Wir Zigeuner {C}sausen immer wie die Winde{d}, wir Zigeuner {a}kenn' die ganze Welt. \n{d}Wir Zigeuner{a}, spiel'n für alle {E}und wir singen {a}immer{A}zu.\n\n/: {F}Ore, ore, {C}Scha-bada-bada amore{d}, Hei Amore, {a}Scha-bada-bada{d},\no Murjate{a}, o Schograte, {E}heida, Trojka {a}na Menj{(A)}a. :/\n\nWenn ich tanze, tanz der ganze Himmel mit mir. Wenn ich pfeife, pfeift mit mir der Wind.\nSchließ die Augen - Blätter welken. Wenn ich schweige, schweigt die Welt.\n\nEs wird leichter, leichter wird es, heller wird es, diese Freude machen wir nur euch!\nEs wird leichter, heller wird es, wenn dann jeder von uns singt:",
+  "content": "{F}Wir Landstreuner {C}sausen immer wie die Winde, \n{d}wir Landstreuner {a}kenn' die ganze Welt. \n{d}Wir Landstreuner, {a}spiel'n für alle {E}und wir singen {a}immer{A}zu.\n\n/: {F}Ore, ore, {C}scha-bada-bada amore, {d}hei amore, {a}scha-bada-bada,\n{d}o murjate, {a}o schograte, {E}heida, trojka {a}na menj{A}a. :/\n\nWenn ich tanze, tanzt der ganze Himmel mit mir. \nWenn ich pfeife, pfeift mit mir der Wind.\nSchließ die Augen - Blätter welken. Wenn ich schweige, schweigt die Welt.\n\nEs wird leichter, leichter wird es, heller wird es. Diese Freude machen wir nur euch!\nEs wird leichter, heller wird es, wenn dann jeder von uns singt:",
   "title": "Ore, Ore",
   "words": [
     {
@@ -38,7 +38,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Formattierung"
+    },
+    {
+      "date": 1706969898556,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }
