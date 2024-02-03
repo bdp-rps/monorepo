@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Buter káj egy berseszki szán, {C}Móri drágo piko séj,\n{a}Vorbisz mánge káki-koki, {C}Móri drágo piko séj.\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, Móri drágo piko séj, Lá lumáko szomnákáj, Móri drágo piko séj.\n\nÁldin dévlá murá sá,Mura cina pikonya, Mura cina pikonya,Murá sukár szábiná.\n",
+  "content": "{a}Buter káj egy berseszki szán, {C}Móri drágo piko séj,\n{a}Vorbisz mánge káki-koki, {C}Móri drágo piko séj.\n\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, Móri drágo piko séj, Lá lumáko szomnákáj, Móri drágo piko séj.\n\nÁldin dévlá murá sá,Mura cina pikonya, Mura cina pikonya,Murá sukár szábiná.\n",
   "title": "Mori shej",
   "words": [
     {
@@ -38,6 +38,13 @@
       "mail": "",
       "type": "update",
       "content": "layout"
+    },
+    {
+      "date": 1706998227103,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
