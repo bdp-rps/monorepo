@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Vor- / Zwischenspiel: e G D7 H7 e G H7 e\n\n{e}Unter den {H7}grünen Linden {e}duftende {H7}Blüten winden\n{e}als Gir{a}landen sich {H7}farbenprächtig {e}um den Platz.\n{e}Heute ist {H7}Bauernhochzeit, {e}Männern und {H7}Frau'n im Festkleid\n{e}springen {a}auf, denn die {H7}Musik macht so {e}schön {D7}Ra{G}batz.\n/: Johei{D7}jo, hei{e}jo, hei{H7}jo.  {e}Spiele {a}Zigan, {H7}spiele uns zum {e}Tan{(D7}ze {G)}auf! :/\n\nGlänzende Stiefel knallen, jauchzende Rufe schallen,\nReiterburschen sind's, die da zum Tanze geh'n.\nMesser, Pistolen blitzen, Ungarn mit bunten Mützen\nklatschen Takt, wenn sie sich wie wild im Kreise dreh'n.\n\nMädels, ja, große, kleine, schwingen zum Tanz die Beine,\nwiegen, biegen zum Klang der Geigen sich nun mit.\nKetten und Glöckchen klirren, Rocksaum und Bänder schwirren,\nschwarzes Haar fliegt vorbei im flotten Wirbelschritt.\n\nFlöten und Zimbal klingen, feurig die Geigen singen,\nbrummend schlägt gleich der Bass den schnellen Takt dazu.\nLockt zart die nächste Weise, jubeln sie all im Kreise.\nHeute Nacht gibt's im ganzen Dorfe keine Ruh'.",
+  "content": "Vor- / Zwischenspiel: e G D7 H7 e G H7 e\n\n{e}Unter den {H7}grünen Linden {e}duftende {H7}Blüten winden\n{e}als Gir{a}landen sich {H7}farbenprächtig {e}um den Platz.\n{e}Heute ist {H7}Bauernhochzeit, {e}Männern und {H7}Frau'n im Festkleid\n{e}springen {a}auf, denn die {H7}Musik macht so {e}schön {D7}Ra{G}batz.\n/: Johei{D7}jo, hei{e}jo, hei{H7}jo.  {e}Spiele {a}Fetzer, {H7}spiele uns zum {e}Tan{(D}ze {G)}auf! :/\n\nGlänzende Stiefel knallen, jauchzende Rufe schallen,\nReiterburschen sind's, die da zum Tanze geh'n.\nMesser, Pistolen blitzen, Ungarn mit bunten Mützen\nklatschen Takt, wenn sie sich wie wild im Kreise dreh'n.\n\nMädels, ja, große, kleine, schwingen zum Tanz die Beine,\nwiegen, biegen zum Klang der Geigen sich nun mit.\nKetten und Glöckchen klirren, Rocksaum und Bänder schwirren,\nschwarzes Haar fliegt vorbei im flotten Wirbelschritt.\n\nFlöten und Zimbal klingen, feurig die Geigen singen,\nbrummend schlägt gleich der Bass den schnellen Takt dazu.\nLockt zart die nächste Weise, jubeln sie all im Kreise.\nHeute Nacht gibt's im ganzen Dorfe keine Ruh'.",
   "title": "Ungarische Hochzeit",
   "words": [
     {
@@ -31,7 +31,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1706983127252,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Em"
 }
