@@ -21,17 +21,24 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
-  "info": "",
+  "musicalKey": "Dm",
+  "info": "Mit Witz und Ironie wird die schreckliche Armut der jüdischen Bevölkerung Osteuropas beschrieben. Auch die Rabbis leiden große Not und werden wegen ihres mittellosen Daseins verspottet. Der Dieb (Genejwe) kann ihnen nur zerrissene Hemden, Leuchter ohne Füße, Hennen ohne Kopf und Flügel oder zahnlose Töchter stehlen.",
   "changes": [
     {
       "date": 1701378992659,
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1707054923355,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
