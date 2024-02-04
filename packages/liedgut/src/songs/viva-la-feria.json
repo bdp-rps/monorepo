@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Vorspiel: G7 C E a E a\n\n{a}Viva la feria, viva la plaza, {F}viva la ilu{a}sion!\n{F}Vivan los cerros {a}pintarrajeados {E}de mi comar{a}ca.{E}{a}\n/:{F}Viene la can{a}cion, {F}viva la ilu{a}sion.\n{F}Viva la vida {a}y los amores {E}de mi comar{a}ca.{E}{a} :/",
+  "content": "Vorspiel: G7 C E a E a\n\n{a}Viva la feria, viva la plaza, {F}viva la ilu{a}sión!\n{F}Viva los cerros {a}pintarrajeados {E}de mi comar{a}ca.{E}{a}\n/: {F}Viene la can{a}ción, {F}viva la ilu{a}sión.\n{F}Viva la vida {a}y los amores {E}de mi comar{a}ca. :/{E}{a}",
   "title": "Viva la feria",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "6/8",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "in Deutschland in den 1970ern Charterfolg für Abi Ofarim\n\n\"Es lebe das Fest, es lebe der Festplatz, es lebe die Freude!\nEs leben die bunten Berge meiner Heimat.\nDa kommt der Gesang, es lebe die Freude!\nEs lebe das Leben und die Lieben meines Herzens!\"",
   "changes": [
     {
@@ -32,6 +32,20 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1697051069850,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1704489410618,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

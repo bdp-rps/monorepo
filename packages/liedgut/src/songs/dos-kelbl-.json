@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{Am}Oyfn for{E7}el {Am}ligt a {E7}kelbl, {Am}ligt gebu{Dm}ndn  {Am}mit a {E7}shtrik\n{Am}hoykh in hi{E7}ml {Am}flit a {E7}foygl, {Am}flit un dre{Dm}yt zikh {Am}hin  {E7}un {Am}ts'rik.\n \n\n{G}Lakht der vind in {C}korn, {G}lakht un lakht un {C}lakht\n{G}lakht er op a {C}tog a {Am}gantsn {E7}un a halbe na{Am}cht.\n{E7}Donaj, donaj, donaj, do{Am}naj, {G}donaj, donaj, donaj-{C}daj.\n{E7}Donaj, donaj, donaj, do{Am}naj, {E7}donaj, donaj, donaj-{Am}daj.\n \n\nShreyt dos kelbl, zogt der poyer: \"Ver - zhe heyst dikh zayn a kalb?\nVoltst gekent, doch zayn a foygl, voltst gekent doch zayn a shvalb!\"\n \n\nBidne kelblekh tut men bindn, un men shlept zey un men shekht.\nVer's hot fligl, flit aroyf tsu, is bay keynem nisht keyn knekht.",
+  "content": "{a}Ojfn {E7}forel {a}ligt a {E7}kelbl, {a}ligt ge{d}bundn {a}mit a {E7}schtrik\n{a}hojch in hi{E7}ml {a}flit a {E7}fojgl, {a}flit un dre{d}jt zich {a}hin {E7}un {a}ts'rik.\n\n{G}Lacht der wind in {C}korn, {G}lacht un lacht un {C}lacht. {G}Lacht er op a {C}tog a {a}gantsn \n{E7}un a halbe na{a}cht. {E7}Donaj, donaj, donaj, do{a}naj, {G}donaj, donaj, donaj-{C}daj.\n{E7}Donaj, donaj, donaj, do{a}naj, {E7}donaj, donaj, donaj-{a}daj.\n\nSchrejt dos kelbl, zogt der pojer: \"Wer zhe hejst dich zajn a kalb?\nWoltst gekent, doch zajn a fojgl, woltst gekent doch zajn a schwalb!\"\n\nBidne kelblech tut men bindn, un men schlept zej un men schecht.\nWer's hot fligl, flit arojf tsu, is baj kejnem nischt kejn knecht.",
   "title": "Dos Kelbl ",
   "words": [
     {
@@ -22,9 +22,9 @@
   ],
   "translation": [],
   "beat": "4/4",
-  "alternativeTitle": "Donna Donnaj\nDonna Donna\nDona Dona",
+  "alternativeTitle": "Donnaj Donnaj\nDonna Donna\nDona Dona",
   "tempo": 60,
-  "info": "Jiddisch",
+  "info": "",
   "changes": [
     {
       "date": 1649511417734,
@@ -39,6 +39,21 @@
       "mail": "leberwurstriemen@aoul.de",
       "type": "update",
       "content": "Formatierung du hund"
+    },
+    {
+      "date": 1701300431729,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1702329786578,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "Am"
 }

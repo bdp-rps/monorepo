@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Im K{D}reis ihrer Enkel die alte Frau, z{h}eigt mit erhobener Hand\nauf die W{fis}älder, die dunklen ü{G}ber der Drau:\nJetzt z{h}eige ich euch euer L{A}and, jetzt zeige ich euch euer L{D}and.\nDort d{h}roben hab ich geschuftet am Hang, als i{A}ch ein Kind noch war.\nBei der C{G}hristmette mit G{D}lockenklang hing E{fis}is von Rock und \nH{A}aar, hing E{G}is von Rock und H{D}aar.\n\nDie Bergknappen kamen vom Lindenwirt\nund f{h}lüsterten heimlich mit List, dass s{fis}ich in der Welt was ä{G}ndern wird,\nnichts b{h}leiben muss wie es is{A}t; nichts bleiben muss, wie es is{D}t.\n\n\nVerschw{d}iegene Bäume, verschw{B}orener Wa{d}ld\nund d{F}rei rote Pfiffe, d{a7}rei rote Pfiffe, d{B}rei rote P{g}fiffe im Wa{D}ld.\n\nDie Drau hinunter trieb Mond um Mond, es brach der\nFaschistenkrieg aus. Da hatte ich dann einen Mann an der Front\nund hatte drei Kinder im Haus, und hatte drei Kinder im Haus.\nWie tönte da markiger Nazigesang von deutschem Boden und Blut.\nManch ein Bursch in die Berge entsprang.\nIch trug Flugblätter unter dem Hut, trug Flugblätter unter dem Hut.\nDer Gestapo war kalt und der Gauleiter schalt:\nPartisanen im eigenen Land! Ich trug Geflüster und Brot in den Wald.\nSie haben mich Jelka genannt, sie haben mich Jelka genannt.\n\nDer Winter war nass und uns wärmte der Hass,\nviele sind's, die die Erde heut' birgt.\nWir haben gefochten, dort oben am Pass,\nan unsrer Befreiung gewirkt, an unsrer Befreiung gewirkt.\nDer Krieg war vorbei, da war Stille im Land, da waren die Lautesten leis.\nSie nahmen das Hitlerbild von der Wand. Ihre Westen,\ndie wuschen sie weiß, ihre Westen, die wuschen sie weiß,\nIhr, meine Enkel, was hört ihr so stumm die alten, die kalten Berichte?\nJetzt trampeln sie auf euren Rechten herum, erinnert euch\nmeiner Geschichte, erinnert euch meiner Geschichte, \n",
+  "content": "Im K{D}reis ihrer Enkel die alte Frau, z{h}eigt mit erhobener Hand\nauf die W{fis}älder, die dunklen ü{G}ber der Drau:\nJetzt z{h}eige ich euch euer L{A}and, jetzt zeige ich euch euer L{D}and.\nDort d{h}roben hab ich geschuftet am Hang, als i{A}ch ein Kind noch war.\nBei der C{G}hristmette mit G{D}lockenklang hing E{fis}is von Rock und {A}Haar, hing {G}Eis von Rock und {D}Haar.\nDie {D}Bergknappen kamen vom Lindenwirt und {h}flüsterten heimlich mit List,\ndass {fis}sich in der Welt was {G}ändern wird,\nnichts {h}bleiben muss wie es {A}ist; nichts bleiben muss, wie es {D}ist.\n\nVerschw{d}iegene Bäume, verschw{B}orener Wa{d}ld\nund d{F}rei rote Pfiffe, d{a7}rei rote Pfiffe, d{B}rei rote P{g}fiffe im Wa{D}ld.\n\nDie Drau hinunter trieb Mond um Mond, es brach der Faschistenkrieg aus.\nDa hatte ich dann einen Mann an der Front\nund hatte drei Kinder im Haus, und hatte drei Kinder im Haus.\n\nWie tönte da markiger Nazigesang von deutschem Boden und Blut.\nManch ein Bursch in die Berge entsprang. Ich trug Flugblätter unter dem Hut, trug Flugblätter unter dem Hut.\n\nDer Gestapo war kalt und der Gauleiter schalt:\nPartisanen im eigenen Land! Ich trug Geflüster und Brot in den Wald.\nSie haben mich Jelka genannt, sie haben mich Jelka genannt.\n\nVerschwiegene Bäume ...\n\nDer Winter war nass und uns wärmte der Hass, viele sind's, die die Erde heut' birgt.\nWir haben gefochten, dort oben am Pass,\nan unsrer Befreiung gewirkt, an unsrer Befreiung gewirkt.\n\n   Der Krieg war vorbei, da war Stille im Land, da waren die Lautesten leis.\n   Sie nahmen das Hitlerbild von der Wand. Ihre Westen, die wuschen sie weiß, ihre Westen, die wuschen sie weiß.\n\nIhr, meine Enkel, was hört ihr so stumm die alten, die kalten Berichte?\nJetzt trampeln sie auf euren Rechten herum, erinnert euch\nmeiner Geschichte, erinnert euch meiner Geschichte.\n\nVerschwiegene Bäume ... ",
   "title": "Drei Rote Pfiffe",
   "words": [
     {
@@ -8,7 +8,7 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1979"
     }
   ],
   "tune": [
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "6/8",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "",
+  "info": "Geschichte der Patisanin Helena K. (Jelka“)",
   "changes": [
     {
       "date": 1673440378266,
@@ -32,6 +32,28 @@
       "mail": "melina.spu@web.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1697095498900,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Quellen, Design - hoffe es ist nun besser - muss auf jeden Fall noch jemadn drüber schauen"
+    },
+    {
+      "date": 1706964862004,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706985409422,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "D"
 }

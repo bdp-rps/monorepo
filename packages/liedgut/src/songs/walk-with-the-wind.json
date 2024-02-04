@@ -1,6 +1,6 @@
 {
   "notation": "\"C\"CC2C2C2|\"G\"B,4A,2G,2|\"a\"A,8|\"F\"F,8|\nw:Com-ing from a town in the we-st\n\"C\"CC2C2C2|\"G\"B,4A,2,G,2|\"a\"A,8|\"F\"C8|\nw:I'm looking for a place for to re-st\n\"C\"CC2C2C2|\"G\"D4C2D2|\"a\"E2DC2B,|\"F\"C4,z3C|\nw:Go-ing down the streets all a a-l-o-n-e There\n\"C\"C2C2C2C2|\"G\"z2B,2A,2G,2|\"a\"A,4C4|\"F\"zA,2B,2|\nw: is no place that i would call ho-me. Ref:So I\n\"C\"C8|\"G\"D4C2D2|\"a\"E2DC2B,2|\"F\"C4z2C2D2|\nw:walk on, i'm a fea-ther in the wind. I-i\n\"C\"E8|\"G\"D6E2|\"a\"C8|\"F\"z8|\nw:walk with the wind",
-  "content": "{C}Coming from a {G}town in the {a}we{F}st, I'm {C}looking for a {G}place for to {a}re{F}st.\n{C}Going down the {G}street all {a}alo{F}ne, there {C}is no place that {G}I would call {a}ho{F}me.\n\n/: So I {C}walk {G}on, I'm a {a}feather in the {F}wind. I {C}walk {G}with the {a}wind{F} :/\n\nRemember all the places I have been\nthe rivers, mountains, valleys that I've seen.\nThinking of the friends that I've made,\nI had to leave them, I couldn't wait.\n\nPeople say it's time to come round,\nI've got to find a place to settle down.\nPoor folks, they just don't understand,\nI've got to ramble round till the end.",
+  "content": "{C}Coming from a {G}town in the {a}we{F}st, I'm {C}looking for a {G}place for to {a}re{F}st.\n{C}Going down the {G}streets all {a}alo{F}ne, there {C}is no place that {G}I would call {a}ho{F}me.\n\n/: So I {C}walk {G}on, I'm a {a}feather in the {F}wind. I {C}walk {G}with the {a}wind{F} :/\n\nRemember all the places I've been. The rivers, mountains, valleys that I've seen.\nThinking of the friends that I've made, I had to leave them, I couldn't wait.\n\nPeople say it's time to come round, I've got to find a place to settle down.\nPoor folks, they just don't understand, I've got to ramble round till the end.",
   "title": "Walk with the wind",
   "words": [
     {
@@ -41,6 +41,13 @@
     },
     {
       "date": 1690800370035,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1697124962824,
       "name": "ko",
       "mail": "",
       "type": "update",

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Well, I l{a}ive down the road from the c{G}olliery gate,\nand the s{a}iren of the shift is the s{G}ound I hate,\nd{C}on't be sick and d{G}on't be late;\nthere is n{a}o other w{G}ork in the v{a}illage.\n\nWhen the dust and the grime make a man retire,\nand the son comes up for the chance of hire,\nworking in the dark just to feed your fire;\nthere is no other work in the village.\n\nThough Bilston is better than most they say,\nI would do anything to keep my son away.\nJobs like that don't come each day,\nthere is no other work in the village.",
+  "content": "Well, I live down the road from the colliery gate,\nand the siren of the shift is the sound I hate,\ndon't be sick and don't be late. There is no other work in the village.\n\nWhen the dust and the grime make a man retire,\nthen the son comes up for the chance of hire,\nworking in the dark just to feed your fire. There is no other work in the village.\n\nThough Bilston is better than most they say,\nI will do anything to keep my son away.\nJobs like that don't come each day. There is no other work in the village.\n\nNo, you {a}won't get me {C}down under{G}ground in your {a}mines, \n{F}away from the {C}trees and the {G}flowers so {C}fine,\n{F}down in the {C}dark where the {G}sun never {E}shines. No, you {a}won't get me {G}down in your {a}mines.\n\nWell, they work in the dark for the most of their lives,\naway from their children, away from their wives,\nto make others rich, in the heat and the dark.\nAh, but who's going to care when you're too old to work?\n\nThere's many a miner has died underground.\nDied all alone when the roof tumbled down\nor choked out his life underneath the great beams,\nor buried and gassed in that lousy coal seam.\n\nI've worked in your factories, I've worked on your farms,\nuntil all the muscles stood out on me arms.\nI've been in your armies and I've been out to sea.\nBut by Christ you won't make a coalminer of me.",
   "title": "The Colliery Gate",
   "words": [
     {
@@ -8,7 +8,7 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": "1986"
+      "year": "1963/1986"
     }
   ],
   "tune": [
@@ -17,7 +17,7 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": "1986"
+      "year": "1963/1986"
     }
   ],
   "translation": [],
@@ -25,13 +25,20 @@
   "alternativeTitle": "Colliery Gate",
   "tempo": 60,
   "musicalKey": "Am",
-  "info": "",
+  "info": "Geschrieben nach dem Minenunglück 1963 in Lengede.",
   "changes": [
     {
       "date": 1687888846553,
       "name": "hutmann",
       "mail": "hutmann.schwarzer.milan@gmail.com",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706982754716,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

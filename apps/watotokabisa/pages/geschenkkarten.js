@@ -102,7 +102,7 @@ function OrderForm() {
     (parseInt(amountMeal.value) || 0) * 10 +
     (parseInt(amountGarden.value) || 0) * 20 +
     (parseInt(amountGoat.value) || 0) * 30 +
-    (porto.value === true ? 1.55 : 0)
+    (porto.value === true ? 1.6 : 0)
 
   return (
     <>
@@ -186,7 +186,7 @@ function OrderForm() {
             {...amountGoat.props}
           />
           <Checkbox
-            label="Ich möchte zusätzlich das Porto von 1,55 € bezahlen"
+            label="Ich möchte zusätzlich das Porto von 1,60 € bezahlen"
             {...porto.props}
           />
           {totalAmount > 0 && (
@@ -244,13 +244,12 @@ export default function Page() {
   return (
     <Template image={image} title="Geschenkkarten!">
       <Head>
-        <title>Geschenkkarten - Watoto Kabisa</title>
-        <Head>
-          <meta
-            type="description"
-            content="Hier findet ihr Infos zu unserer Geschenkkarten Aktion."
-          />
-        </Head>
+        <title>Watoto Kabisa - Geschenkkarten</title>
+        <meta name="title" content="Watoto Kabisa - Geschenkkarten" />
+        <meta
+          name="description"
+          content="Verschenke eine Karte und tue dabei noch etwas Gutes mit unserer Auswahl an Geschenkkarten."
+        />
       </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingTop={15} paddingBottom={25}>

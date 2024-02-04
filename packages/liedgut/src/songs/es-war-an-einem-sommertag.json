@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Es {C}war an {G7}einem {C}Sommer{G7}tag,\nirgend{a}wann und {E}irgend{a}wo,\nda {C}tönte {G7}plötzlich {C}Trommel{G7}schlag\nund {a}Flöten{E}spiel klang {a}froh.\nEs {G7}war eine muntre, {C}bunte Schar,\ndie {G}machte vor dem Rathaus {C}halt,\nden {G}Grund, weshalb sie ge{C}kommen war,\ner{a}fuhren die {E}Leute {a}bald.\n\n/: C G C G a E a :/\n\nEin Mann mit einem Federhut\nrief: \"Männer hört mir zu!\nIch versprech' euch Geld und Gut\nund Ehre noch dazu:\nDer Kaiser braucht euch, reiht euch ein!\nHängt nicht an Weib und Haus.\nEs muss ja nicht für lange sein,\nzieht mit ins Feld hinaus.\"\n\nIm Wirtshaus war das Trinken frei,\nbezahlt mit des Kaisers Gold.\nUnd während dieser Zecherei\ntrat mancher in des Kaisers Sold.\nGab seiner Braut den Abschiedskuss,\nversuchte als Soldat sein Glück,\nsah nicht des Werbers Pferdefuß\nund kam nie mehr zurück.\n\nMit Flötenspiel und Trommelschlag\nging's früh am Morgen fort.\nDie Schar ward  größer,\ndenn es lag am Weg noch so mancher Ort.\nDer Werber mit dem Federhut\nmacht sein Geschäft nicht schlecht,\nversprach noch vielen Geld und Gut,\ndem Kaiser, dem war's Recht.\n\nDie Jahre gingen in das Land\nund von der großen Schar,\ngab's keinen der nach Hause fand,\nwie er gegangen war.\nDer eine ließ sein Bein im Feld,\nblind kam ein And'rer an,\ndie meisten hatte der Tod gefällt,\nder jede Schlacht gewann.\n\nDie letzten Tränen waren kaum\ngeweint, da waren sie\nauch schon vergessen wie ein Traum,\ndie Menschen lernen nie.\nUnd dann an einem Sommertag,\nirgendwann und irgendwo,\nda tönte plötzlich Trommelschlag\nund Flötenspiel klang froh.",
+  "content": "Es {C}war an {G7}einem {C}Sommer{G7}tag, irgend{a}wann und {E}irgend{a}wo,\nda {C}tönte {G7}plötzlich {C}Trommel{G7}schlag und {a}Flöten{E}spiel klang {a}froh.\nEs {G7}war eine muntre, {C}bunte Schar, die {G}machte vor dem Rathaus {C}halt.\nDen {G}Grund, weshalb sie ge{C}kommen war, er{a}fuhren die {E}Leute {a}bald.\n\n/: C G C G a E a :/\n\nEin Mann mit einem Federhut rief: \"Männer hört mir zu!\nIch verspreche euch Geld und Gut und Ehre noch dazu:\nDer Kaiser braucht euch, reiht euch ein! Hängt nicht an Weib und Haus.\nEs muss ja nicht für lange sein, zieht mit ins Feld hinaus.\"\n\nIm Wirtshaus war das Trinken frei, bezahlt mit Kaisers Gold.\nUnd während dieser Zecherei trat mancher in des Kaisers Sold.\nGab seiner Braut den Abschiedskuss, versuchte als Soldat sein Glück,\nsah nicht des Werbers Pferdefuß und kam nie mehr zurück.\n\nMit Flötenspiel und Trommelschlag ging's früh am Morgen fort.\nDie Schar ward  größer, denn es lag am Weg noch mancher Ort.\nDer Werber mit dem Federhut macht sein Geschäft nicht schlecht,\nversprach noch vielen Geld und Gut, dem Kaiser, dem war's Recht.\n\nDie Jahre gingen in das Land und von der großen Schar,\ngab's keinen der nach Hause fand, wie er gegangen war.\nDer eine ließ sein Bein im Feld, blind kam ein andrer an,\ndie meisten hatte der Tod gefällt, der jede Schlacht gewann.\n\nDie letzten Tränen waren kaum geweint, da waren sie\nauch schon vergessen wie ein Traum, die Menschen lernen nie.\nUnd dann an einem Sommertag, irgendwann und irgendwo,\nda tönte plötzlich Trommelschlag und Flötenspiel klang froh.",
   "title": "Es war an einem Sommertag",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1696954167339,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

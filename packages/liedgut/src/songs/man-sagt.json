@@ -1,9 +1,25 @@
 {
   "notation": "",
-  "content": "Man {d}sagt, im {C}Winter ist es {d}kalt, und jeder {C}Mensch wird einmal {F}alt.\nwir {g}woll'n bei {A}Mutter {d}Erde bleiben, {A}ist es auch mal kalt.\nZwölf {d}Sterne {A}sind auf eurem {d}Schein. Sein Wert ist {C}für uns wirklich {F}klein.\nWir {g}bauen {A}unsre {d}Häuser selber. {A}Jedes stürzt mal ein.\n\nWir {g}reiten oder laufen, unsre {d}Felder sind nicht klein \nund wir {A}wissen selber, wie er ist, der {d}helle Sonnenschein,\nund wir {A}leben selber weiter, weiter, {d}weiter.\nWir {g}haben unsre eignen Lieder, {d}eigene Gravur,\npfeifen {g}lebensfroh auf eure Ehre, {d}Treue, Pflicht und Schwur,\nnur der {g}Mond ist unser einziger {d}Leiter. Unser {A}Herz sei immer {d}heiter.\n\nDer Frühling blüht, ihr Leut', heraus! Ein kleines Fest in Saus und Braus.\nWir machen's so, wie's uns gefällt, und sterben niemals aus.\nVerdammt, ihr Spießer, seid so gut, lasst uns in Frieden, nehmt den Hut!\nWir stehn nicht links, nicht rechts, nicht liberal, wir haben Mut.\n\nVersammelt euch, ihr Leut', zuhauf! Ein jedes Land steht einmal auf.\nMit Recht zu Recht, was richtig ist, einhundertfünfundachtzig Mann, steht auf!\nWir sind als kleines Volk vereint. Ob Liebe, Hass, ob Lust, ob Streit.\nWir wollen nicht die alte Ordnung. Hoch die neue Zeit.",
+  "content": "Man {d}sagt, im {C}Winter ist es {d}kalt, und jeder {C}Mensch wird einmal {F}alt.\nwir {g}woll'n bei {A}Mutter {d}Erde bleiben, {A}ist es auch mal kalt.\nZwölf Sterne sind auf eurem Schein. Sein Wert ist für uns wirklich klein.\nWir bauen unsre Häuser selber, jedes stürzt mal ein.\nWir {g}reiten oder laufen, unsre {d}Felder sind nicht klein \nund wir {A}wissen selber, wie er ist, der {d}helle Sonnenschein,\nund wir {A}leben selber weiter, weiter, {d}weiter.\nWir {g}haben unsre eignen Lieder, {d}eigene Gravur,\npfeifen {g}lebensfroh auf eure Ehre, {d}Treue, Pflicht und Schwur,\nnur der {g}Mond ist unser einzig treuer {d}Leiter. Unser {A}Herz sei immer {d}heiter.\n\nDer Frühling blüht, ihr Leut', heraus! Ein kleines Fest in Saus und Braus.\nWir machen's so, wie's uns gefällt, und sterben niemals aus.\nVerdammt, ihr Spießer, seid so gut, lasst uns in Frieden, nehmt den Hut!\nWir stehn nicht links, nicht rechts, nicht liberal, wir haben Mut.\n\nVersammelt euch, ihr Leut', zuhauf! Ein jedes Land steht einmal auf.\nMit Recht zu Recht, was richtig ist, einhundertfünfundachtzig Mann, steht auf!\nWir sind als kleines Volk vereint. Ob Liebe, Hass, ob Lust, ob Streit.\nWir wollen nicht die alte Ordnung. Hoch die neue Zeit.",
   "title": "Man sagt",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Robert Welti",
+      "nickname": "rökan",
+      "group": "",
+      "organisation": "Piratenschaft Stormann",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robert Welti",
+      "nickname": "rökan",
+      "group": "",
+      "organisation": "Piratenschaft Stormann",
+      "year": ""
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "tempo": 60,
@@ -15,7 +31,15 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1696958758838,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Dm"
 }

@@ -7,6 +7,8 @@ import Text from '../text'
 const style = ({ valid, theme }) => ({
   display: 'flex',
   borderRadius: 0,
+  boxSizing: 'border-box',
+  height: 48,
   appearance: 'none',
   borderWidth: 2,
   borderStyle: 'solid',
@@ -59,7 +61,7 @@ export default function SelectInput({
   const { css } = useFela(styleProps)
 
   return (
-    <Box space={1} shrink={1}>
+    <Box space={1} shrink={1} width="100%">
       <Text
         as="label"
         htmlFor={name}

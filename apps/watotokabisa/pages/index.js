@@ -28,9 +28,10 @@ export default function () {
   return (
     <Template title="Karibu" subTitle="auf der Webseite von Watoto Kabisa">
       <Head>
-        <title>Startseite - Watoto Kabisa</title>
+        <title>Watoto Kabisa - Startseite</title>
+        <meta name="title" content="Watoto Kabisa - Startseite" />
         <meta
-          type="description"
+          name="description"
           content="Watoto Kabisa ist ein Förderverein der es sich zur Aufgabe gemacht hat Kinder in Kenia zu unterstützen."
         />
       </Head>

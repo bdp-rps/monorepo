@@ -64,7 +64,7 @@ const TextArea = forwardRef(
     const { css } = useFela(styleProps)
 
     return (
-      <Box extend={extend} space={1}>
+      <Box extend={extend} space={1} width="100%">
         <Text
           as="label"
           htmlFor={name}

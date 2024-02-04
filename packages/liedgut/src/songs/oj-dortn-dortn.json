@@ -1,6 +1,6 @@
 {
-  "notation": "",
-  "content": "Oj {a}dortn, dortn, ibern Wasserl,\noj {C}dortn, {F}dortn, i{G}bern {C}Brik.\nFart{e}ribn hoostu {F}mich in di {C}wajtene Len{F}der,\nun be{a}nken, {C}benk {d}ich noch {a}dir {E}zur{a}ik.\n\nOy, vifil ovntlech, tsusamen gesesn\nOy, vifil ovntlech, schpet in der nacht\nOy, vifil trerelech, mir hobn fargosn\nOy, bis mir hobn di libe tsusamengebracht\n\nOy, helf mir, Gotenu, oy Got in himl\nOy, helf mir, Gotenu, s'is mir nisht gut\nShoyn tsayt dray yorelech vi mir shpiln a libe\nUn oysshpiln di libe konen mir nit\n\nOy, dayne oygelech, vi di shwartse karschelech\nOy, dayne lipelech, vi rosene papir\nUn dayne fingerlech, vi tint un vi feyder\nOy, schraybn solstu ofte briv tsu mir",
+  "notation": "K:F\nD1| AG AF | D3 (3F/F/F/| AG AF  | D3 A  |\nc c c2 d2 | c/B/A/G/ A3 A/B/| c3/ c/cA  |\n|F3 A/B/ c/B/ A/G/ |A d d3 C | F A (3 cAA BG| (3 FFE D3\n",
+  "content": "Oj {a}dortn, dortn, ibern wasserle, oj {C}dortn, dor{F}tn, i{G}bern {C}brik.\nFart{e}ribn hostu {F}mich in di {C}wajtene len{F}der, un be{a}nken, {C}benk {d}ich noch {a}dir {E}zur{a}ik.\n\nOj, wifil owntlech, zusamen gesesn, oj, wifil owntlech, schpet in der nacht.\nOj, wifil trenelech mir hobn fargosn, oj, bis mir hobn di libe zusamengebracht.\n\nOj, helf mir, gotenju, oj, got in himl, oj, helf mir, gotenju, s'is mir nischt gut.\nSchon sajt draj jorelech wi mir schpiln a libe, un ojsshpiln di libe konen mir nit.\n\nOj, dajne ojgelech, wi di schwartse karschelech, oj, dajne lipelech, wi rosewe papir.\nUn dajne fingerlech, wi tint un wi feder, oj, schrajbn solstu ofte briw zu mir.",
   "title": "Oj dortn, dortn",
   "words": [
     {
@@ -13,9 +13,9 @@
   ],
   "tune": [
     {
-      "name": "",
+      "name": "traditionell jiddisch",
       "nickname": "",
-      "group": "Zupfgeigenhansel",
+      "group": "",
       "organisation": "",
       "year": ""
     }
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,27 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1701297942690,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1701957938887,
+      "name": "Timon",
+      "mail": "timonflick@outlook.com",
+      "type": "update",
+      "content": "andere tonart und melodie"
+    },
+    {
+      "date": 1702329571939,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

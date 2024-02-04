@@ -1,6 +1,6 @@
 {
   "notation": "\"e\"E2B,2|E2GF|E2B,2|E2E2|\"a\"A2F2|\"e\"G2E2|\"H7\"F2B,2|\"e\"E4|\"G\"G2D2|G2BA|G2D2|G2G2|\"a\"A2F2|\"e\"G2E2|\"H7\"F2B,2|\"e\"E4-|E2\n\"D\"D2|\"G\"B3B|B2G2|\"a\"A4|A2A2|\"e\"G3G|G2E2|\"H7\"F4|F2B,2|\"e\"E4-|E\n\"D\"D2|\"G\"B3B|B2d2|\"a\"d2c2|B2A2|\"e\"G3G|G2B2|\"H7\"B2A2|G2F2|\"e\"E4-|E",
-  "content": "{e}Wohin auch das Auge blicket. {a}Moor und {e}Heide {H7}ringshe{e}rum.\n{G}Vogelsang uns nicht erquicket, {a}Eichen {e}stehn {H7}kahl und {e}krumm.\n/: {D}Wir {G}sind die Moorsol{D}daten und {e}ziehen mit dem {H7}Spaten ins {e}Moor! :/\n\nHier in dieser öden Heide ist das Lager aufgebaut,\nwo wir fern von jeder Freude hinter Stacheldraht verstaut.\n\nMorgens ziehen die Kolonnen in das Moor zur Arbeit hin,\ngraben bei dem Brand der Sonne, doch zur Heimat steht der Sinn.\n\nHeimwärts, heimwärts! Jeder sehnet sich nach Eltern, Weib und Kind. Manche Brust ein Seufzer dehnet, weil wir hier gefangen sind.\n\nAuf und nieder geh'n die Posten, keiner, keiner kann hindurch, Flucht wird nur das Leben kosten, vierfach ist umzäunt die Burg.\n\nDoch für uns gibt es kein Klagen, ewig kann's nicht Winter sein,\nEinmal werden froh wir sagen: Heimat, Du bist wieder mein!\n/: Dann ziehn die Moorsoldaten nicht mehr mit dem Spaten in's Moor! :/\n",
+  "content": "{e}Wohin auch das Auge blicket. {a}Moor und {e}Heide {H7}ringshe{e}rum.\n{G}Vogelsang uns nicht erquicket, {a}Eichen {e}stehn {H7}kahl und {e}krumm.\n/: {D}Wir {G}sind die Moorsol{D}daten und {e}ziehen mit dem {H7}Spaten ins {e}Moor! :/\n\nHier in dieser öden Heide ist das Lager aufgebaut,\nwo wir fern von jeder Freude hinter Stacheldraht verstaut.\n\nMorgens ziehen die Kolonnen in das Moor zur Arbeit hin,\ngraben bei dem Brand der Sonne, doch zur Heimat steht der Sinn.\n\nHeimwärts, heimwärts! Jeder sehnet sich nach Eltern, Weib und Kind.\nManche Brust ein Seufzer dehnet, weil wir hier gefangen sind.\n\nAuf und nieder geh'n die Posten, keiner, keiner kann hindurch. \nFlucht wird nur das Leben kosten, vierfach ist umzäunt die Burg.\n\nDoch für uns gibt es kein Klagen, ewig kann's nicht Winter sein.\nEinmal werden froh wir sagen: Heimat, Du bist wieder mein!\n/: Dann zieh'n die Moorsoldaten nicht mehr mit dem Spaten in's Moor! :/\n",
   "title": "Die Moorsoldaten",
   "words": [
     {
@@ -29,8 +29,8 @@
   ],
   "translation": [],
   "beat": "2/4",
-  "tempo": "90",
-  "info": "",
+  "tempo": "80",
+  "info": "Das Lied entstand 1933 im Konzentrationslager Börgermoor bei Papenburg (das besonders berüchtigt war, da SA und SS die Aufsicht übernommen hatten). Es wurde erstmals auf einer Kulturveranstaltung unter dem Motto „Zirkus Konzentrazani gesungen, die von der illegalen - Häftlingsvertretung als Protest organisiert worden war, nachdem einige SS-Leute des Nachts eine Häftlingsbaracke überfallen\" hatten (Nacht der langen Latten\"). \n\nRudi Goguel, der übrigens 1945 auf der Cap Arcona war und überlebte, beschreibt diesen Moment so: Die sechzehn Sänger [...] marschierten in ihren grünen Polizeiuniformen (unsere damalige Häftlingskleidung) mit geschultertem Spaten in die Arena, ich selbst an der Spitze in blauem Trainingsanzug mit einem abgebrochenen Spatenstiel als Taktstock. Wir sangen, und bereits bei der zweiten Strophe begannen die fast 1000 Gefangenen den Refrain mitzusummen. Von Strophe zu Strophe steigerte sich der Refrain, und bei der letzten Strophe sangen auch die SS-Leute, die mit ihrem Kommandanten erschienen waren, einträchtig mit uns mit, offenbar, weil sie sich selbst als Moorsoldaten' angesprochen fühlten. Bei den Worten,Dann ziehn die Moorsoldaten nicht mehr mit dem Spaten ins Moor' stießen die sechzehn Sänger die Spaten in den Sand und marschierten aus der Arena, die Spaten zurücklassend, die nun, in der Moorerde steckend, als Grabkreuze wirkten.\"\n\nHunderte singende Häftlinge setzten damit Musik gegen Gewalt, Kultur gegen Barbarei. Zwei Tage später wurde das Lied verboten. Es setzte sich aber auf vielen Wegen fort und war schließlich in vielen Konzentrationslagern bekannt. Die ursprüngliche Melodiefassung des Liedes bearbeitete Hanns Eisler, der es 1935 in London von einem Ex-Moorsoldaten gelernt hatte, für Ernst Busch. Durch dessen Auftritte fand es während des Spanischen Bürgerkriegs (1936-38) bei den Internationalen Brigaden Verbreitung.\n",
   "musicalKey": "Em",
   "changes": [
     {
@@ -38,6 +38,13 @@
       "name": "cätch",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1696944267878,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ],

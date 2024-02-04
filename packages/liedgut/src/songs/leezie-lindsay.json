@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Will {C}ye gang to the highlands, Leezie {A}Lindsay?\nWill ye {C}gang to the highlands with {F}me?\n{G}Will ye {C}gang to the highlands, Leezie {a}Lindsay?\nMe {F}bride and me {G}darling to {C}be?\n\nIf I gang to the highlands with you, Sir,\nI don't think that ever could be!\nFor I know not the land that you live in,\nnor knowing the name you go with.\n\nO lass, I think you know a little\nif you say that you don't know me.\nFor me name is Lord Ronald McDonald,\na chieftain of high degree.\n\nSo she's kilted up her skirts of green satin\nand she's kilted them up around her knee.\nAnd she's gone with Lord Ronald McDonald\nhis bride and his darling to be.",
+  "content": "Will {C}ye gang to the highlands, Leezie {a}Lindsay?\nWill ye {C}gang to the highlands with {F}me?\n{G}Will ye {C}gang to the highlands, Leezie {a}Lindsay?\nMe {F}bride and me {G}darling to {C}be?\n\nIf I gang to the highlands with you, Sir, I don't think that ever could be!\nFor I know not the land that you live in, nor knowing the name you go with.\n\nO lass, I think you know a little if you say that you don't know me.\nFor me name is Lord Ronald McDonald, a chieftain of high degree.\n\nSo she's kilted her skirts of green satin and she's kilted them up around her knee.\nAnd she's gone with Lord Ronald McDonald his bride and his darling to be.",
   "title": "Leezie Lindsay",
   "words": [
     {
@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "",
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1696958029603,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
