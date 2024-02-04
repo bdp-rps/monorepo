@@ -1,6 +1,6 @@
 {
   "notation": "\"a\"A2AAABA2|AAAB ccBA|\"G\"GGAG \"F\"FFGF|\"E\"E E-E4z2:|\n|:\"F\"FF3/2F3/2E D3-|D FF3/2F3/2ED2-|D2\"F\"FF2ED2|FE2^GB4:|\n|:\"a\"A2e2dc\"G\"B2|d2cB\"F\"A2c2|BA\"E\"^G2EE3:|",
-  "content": "/: {a}CČhajorije šukarije, maphir urde palamande,\n{G}Maphir urde {F}palamande {E}čaje! (Čaje!) :/\n/: {F}Haljam pekljanman (čaje šukarije!)\n{F}Movochi diljan (čaje šukarije!)\n{F}Irin dikh man {E}čaje!: /\n\n{a}Noo noo noo no no {G}noo noo noo no no\n{F}Noo noo noo no no {E}noo noo noo",
+  "content": "/: {a}Chajorije šukarije, naphirunde palamande,\n{G}Naphir unde {F}palamande {E}chaje! (Chaje!) :/\n/: {F}Haljam pekljanman (chaje šukarije!)\n{F}oOvochi diljan (chaje šukarije!)\n{F}Ava dikh man {E}chaje!: /\n\n{a}Noo noo noo no no {G}noo noo noo no no\n{F}Noo noo noo no no {E}noo noo noo",
   "title": "Čaje Šukarije",
   "words": [
     {
@@ -47,12 +47,13 @@
       "content": "Melodie auf Takt angepasst"
     },
     {
-      "date": 1696792086434,
+      "date": 1700765587524,
       "name": "cätch",
       "mail": "",
       "type": "update",
       "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }
