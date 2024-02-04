@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "Am",
-  "info": "",
+  "info": "Übersetzung:\n\nEin junger Bursche steht und denkt,\nDenkt die ganze Nacht hindurch,\nWen soll er nehmen und nicht beschämen,\nWen soll er nehmen und nicht beschämen.\n\nTumbala, Tumbala, Tumbalalaika,\nTumbala, Tumbala, Tumbalalaika,\nTumbalalaika, spiel Balalaika,\nTumbalalaika, mögen wir glücklich sein.\n\nMädchen, Mädchen, ich möchte dich fragen,\nWas kann wachsen, wachsen ohne Regen?\nWas kann brennen und niemals enden?\nWas kann sehnen, ohne Tränen zu weinen?\n\nTörichter Bursche, warum musst du fragen?\nVerstehen  kann wachsen, wachsen ohne Regen.\nLiebe kann brennen und niemals enden.\nEin Herz kann sehnen, ohne Tränen zu weinen.",
   "changes": [
     {
       "date": 1696965173862,
@@ -36,6 +36,13 @@
     },
     {
       "date": 1702329853890,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707055529761,
       "name": "ko",
       "mail": "",
       "type": "update",
