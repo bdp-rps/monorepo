@@ -25,13 +25,20 @@
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "Am",
-  "info": "",
+  "info": "Übersetzung:\n\nWir leben ewig. Es brennt eine Welt.\nWir leben ewig ohne einen Groschen Geld.\nAllen Feinden zum Trotz.\nDie uns anschwärzen.\nWir leben ewig, wir sind da.\nWir leben ewig in jeder Stunde.\nWir wollen leben und erleben.\nUnd schlechte Zeiten überleben.\nWir leben ewig, wir sind da.",
   "changes": [
     {
       "date": 1701376924790,
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1707055352874,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
