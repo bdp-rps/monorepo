@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "Am",
-  "info": "",
+  "info": "Übersetzung:\n\nO dort, dort über das Wasser\nO dort, dort, über die Brücke\nVertrieben hast du mich in die fernen Länder\nUnd ich sehne, sehne mich nach dir zurück\n\nO wieviele Abende haben wir beisammen gesessen\nO wieviele Abende, spät in der Nacht\nO wieviele Tränen haben wir vergossen\nO bis wir die Liebe zusammengebracht haben\n\nO hilf mir, lieber Gott, o Gott im Himmel\nO hilf mir, lieber Gott, mir geht es nicht gut\nSchon seit drei Jahren wollen wir uns lieben \nUnd wir können uns nicht lieben \n\nO deine Augen, wie schwarze Kirschen\nO deine Lippen, wie rosa Papier\nUnd deine Finger, wie Tinte und wie Feder\nO schreiben sollst du mir oft einen Brief",
   "changes": [
     {
       "date": 1680003073786,
@@ -50,6 +50,13 @@
     },
     {
       "date": 1702329571939,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707055412761,
       "name": "ko",
       "mail": "",
       "type": "update",
