@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "C",
-  "info": "1931 wurde Werner Helwig wegen Verstoßes gegen § 176 StGB (Unzucht mit Kindern) in Untersuchungshaft genommen und verbüßte 1932 unter Anrechnung dieser Haft noch sechs Monate Gefängnisstrafe.",
+  "info": "Hussa (Werner Helwig, 1905 - 1985) war Schriftsteller und aktives Mitglied im Nerother Wandervogel. 1931 wurde er wegen \"Unzucht mit Kindern\" zu einer Gefängnisstrafe verurteilt.",
   "changes": [
     {
       "date": 1679514182296,
@@ -44,6 +44,13 @@
     {
       "date": 1687439994953,
       "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706971629724,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""

@@ -28,6 +28,9 @@ function CarForm({ onSubmit }) {
   const kilometer = useBaseField({
     name: 'kilometer',
     required: true,
+    validation: {
+      'Bitte nur Zahlen eingeben': (value) => value.match(/^\d+$/) !== null,
+    },
   })
   const count = useBaseField({
     name: 'personen',

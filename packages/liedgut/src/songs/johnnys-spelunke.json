@@ -1,19 +1,19 @@
 {
   "notation": "EF|GG2GEE2F|GG3z2F2|\"F\"E2C2C2A,2|C4\nG2|\"G\"GG2GGG2A|BB3z2A2|\"C\"G2G2G2A2|G4:|\n|:\"G\"zEEF|\"C\"G2G2GGEG|c2c2cccB|A2A2ABcA\n|\"C\"G2G2GEEF|\"G\"EDD2D2E|1\"C\"D2C2C2zE|\"G\"D4z2F|\"C\"E4:|\n|2\"C\"D2CCCCD|E2E2\"G\"D2D2|\"C\"C8",
-  "content": "{C}Wir saßen in Johnny's Spelunke bei {F}Kartenspiel und Schnaps.\nJim {G}Baker der alte Halunke und {C}Jo der gelbe Japs.\nSie erzählten von Himmel und Hölle und {F}von der Heimat Schoß\nund {G}Ivan, der russische Lümmel, der {C}brüllt auf einmal {G7}los{F}{G7}.\n\nIn Nischini {C}Nowgorod, in Nischini {G7}Nowgorod, da gibt es {F}Salz aufs Brot,\ndas macht die {C}Wangen rot. Und einen {G}Rostow Gin, stellt man vor {C}jeden hin,\nman {G}singt - und {C}trinkt. In Nischini Nowgorod, in Nischini {G7}Nowgorod, da gibt's kein {F}Kussverbot und keine {C}Hungersnot, und es wird {G}Abendrot und es wird {C}Morgenrot\nund alle Welt schläft {G}ein wie {C}tot.\n\nEs dröhnt an der Mole die Kneipe, vom Lachen weit und breit. Jim Baker, der rollt die Pfeife und flucht \"Goddam allright\"! Das hört der gelbe Japaner und plötzlich holt hervor,\nsein Banjo, der braune Kubaner, und alles singt im Chor:\n\nUnd als in der Früh zu den Schiffen, die Jungens heimgekehrt, da sangen sie und pfiffen, das Lied das sie gehört.\nSo kam das Lied auf die Reise, von Frisco bis Schanghai\nund stehen wir beisammen, dann tönt es über den Kai.",
+  "content": "{C}Wir saßen in Johnny's Spelunke bei {F}Kartenspiel und Schnaps.\nJim {G}Baker der alte Halunke und {C}Jo die schwarze Katz.\nSie erzählten von Himmel und Hölle und {F}von der Heimat Schoß\nund {G}Ivan, der russische Lümmel, der {C}brüllt auf einmal {G7}los.{F}{G7}\nIn Nischini {C}Nowgorod, in Nischini {G7}Nowgorod, da gibt es {F}Salz aufs Brot,\ndas macht die {C}Wangen rot. Und einen {G}Rostow Gin, stellt man vor {C}jeden hin,\nman {G}singt - und {C}trinkt. In Nischini Nowgorod, in Nischini {G7}Nowgorod, da gibt's kein \n{F}Kussverbot und keine {C}Hungersnot, und es wird {G}Abendrot und es wird {C}Morgenrot\nund alle Welt schläft {G}ein wie {C}tot.\n\nEs dröhnt an der Mole die Kneipe, vom Lachen weit und breit. \nJim Baker, der rollt die Pfeife und flucht \"Goddam allright\"! \nDas hört der hübsche Japaner und plötzlich holt hervor,\nsein Banjo, der schicke Kubaner, und alles singt im Chor:\n\nUnd als in der Früh zu den Schiffen, die Jungens heimgekehrt, \nda sangen sie und pfiffen, das Lied das sie gehört.\nSo kam das Lied auf die Reise, von Frisco bis Schanghai\nund stehen wir beisammen, dann tönt es über den Kai:",
   "title": "Johnnys Spelunke",
   "words": [
     {
-      "name": "Bedřich Lowy (Fritz Löhner)",
-      "nickname": "Beda",
+      "name": "Beda",
+      "nickname": "Fritz Löhner",
       "group": "",
       "organisation": "",
-      "year": "etwa 1932"
+      "year": ""
     }
   ],
   "tune": [
     {
-      "name": "Richard oder Leo Fall",
+      "name": "Richard Fall",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -23,13 +23,20 @@
   "translation": [],
   "beat": "4/4",
   "tempo": "90",
-  "info": "",
+  "info": "Nach: \"Sie saßen in Bobbys Spelunke\".",
   "changes": [
     {
       "date": 1586192107814,
       "name": "cätch",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706992878229,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ],

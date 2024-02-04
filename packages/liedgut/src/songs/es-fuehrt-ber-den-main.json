@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{(a)}  Es {e}führt {a}über den {e}Main eine {F}Brücke von {e}Stein.\nWer da{F}rüber will {G}geh'n, muss im {C}Tanze sich {a}dreh'n.\nFalalala-{C}la, fala-{G}la-{a}la.\n\nKommt ein Fuhrmann daher, hat geladen gar schwer.\nSeine Rösser sind drei und sie tanzen vorbei.\n\nUnd ein Bursch ohne Schuh' und in Lumpen dazu.\nAls die Brücke er sah, ei, wie tanzte er da.\n\nKommt ein Mädchen allein auf die Brücke von Stein.\nFasst ihr Röcklein geschwind, und sie tanzt wie der Wind.\n\nHört, der König in Person steigt herab von seinem Thron.\nKaum betritt er das Brett, tanzt er gleich Menuett.\n\nLiebe Leute, herbei, schlagt die Brücke in entzwei!\nUnd sie schwangen das Beil, und sie tanzten derweil.\n\nAlle Leute im Land kommen eilig gerannt,\nBleibt der Brücke doch fern, denn wir tanzen so gern.",
+  "content": "{a}Es {e}führt {a}über den {e}Main eine {F}Brücke von {e}Stein.\nWer da{F}rüber will {G}geh'n, muss im {C}Tanze sich {a}dreh'n.\nFalalala-{C}la, fala-{G}la-{a}la.\n\nKommt ein Fuhrmann daher, hat geladen gar schwer.\nSeine Rösser sind drei und sie tanzen vorbei.\n\nUnd ein Bursch ohne Schuh' und in Lumpen dazu.\nAls die Brücke er sah, ei, wie tanzte er da.\n\nKommt ein Mädchen allein auf die Brücke von Stein.\nFasst ihr Röcklein geschwind, und sie tanzt wie der Wind.\n\nHört, der König in Person steigt herab von seinem Thron.\nKaum betritt er das Brett, tanzt er gleich Menuett.\n\nLiebe Leute, herbei, schlagt die Brücke in entzwei!\nUnd sie schwangen das Beil, und sie tanzten derweil.\n\nAlle Leute im Land kommen eilig gerannt,\nBleibt der Brücke doch fern, denn wir tanzen so gern.",
   "title": "Es führt über den Main",
   "words": [
     {
@@ -38,7 +38,15 @@
       "mail": "robin@weser.io",
       "type": "create",
       "content": "Verse ergänzt"
+    },
+    {
+      "date": 1706966167891,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }

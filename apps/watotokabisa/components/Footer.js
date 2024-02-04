@@ -62,7 +62,8 @@ export default function Footer() {
               height={50}
               width={50}>
               <IconButton
-                icon={props => <IconInstagrem fill="white" {...props} />}
+                label="Instagram"
+                icon={(props) => <IconInstagrem fill="white" {...props} />}
                 iconSize={25}
                 href="https://instagram.com/watotokabisa/"
               />
@@ -75,6 +76,7 @@ export default function Footer() {
 
         <Box paddingTop={5}>
           <a
+            aria-label="Vercel"
             href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"
             style={{ textDecoration: 'none' }}>
             <svg

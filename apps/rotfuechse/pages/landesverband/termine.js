@@ -24,7 +24,7 @@ export default function Page({ events }) {
   return (
     <Template>
       <Layout paddingTop={10} paddingBottom={10}>
-        <Termine groupedEvents />
+        <Termine groupedEvents={groupedEvents} />
       </Layout>
     </Template>
   )

@@ -1,35 +1,36 @@
 {
   "notation": "",
-  "content": "            {a}                {C}            {G}                              {a}\n To the east, to the east, the road beneath my feet\n                                {C}       {G}                        {a}\n To the west, to the west, I haven't got there yet\n                   {C}                  {G}       {Fmaj7}          {C}\n And to the north, to the north, never to be caught\n           {Fmaj7}            {C}              {G}                   {a}\n To the south, to the south, my time is running out\n\n{a}                     {e}                            {Fmaj7}                    {G}\nEver since my childhood I've been scared, I've been afraid\n     {C}                          {G}                        {Fmaj7}              {D/F#}\nOf being trapped by circumstance and staying in one place\n       {a}                     {e}                       {Fmaj7}                {G}\nSo I always keep a small bag full of clothes carefully stored\n                    {C}                          {G}                             {Fmaj7}   {E}      {a}\nSomewhere secret, somewhere safe and somewhere close to the door\n\nWell I've travelled many countries, washed my feet in many seas\nI've drunk with drifters in Vienna and with punks in old D.C.\nAnd I've driven across deserts driven by the irony\nThat only being shackled to the the road could ever I be free\n\nI've felt old before my time, but nnow I keep the age away\nBy burning up the miles and yeah by filling up my days\nAnd the nights a thousand nights I've played, and a thousand more to go\nBefore I take a breath and steal myself for the next one thousand shows\n\n           {a}                     {G}                       {F}                            {G} \nYes so saddle up your horses now and keep your powder dry\n                {C}                         {G}                            {F}                             {G}\nCause the truth is: you wont be here long, yeah soon you're gonna die\n            {a}                 {G}                       {F}                      {G} \nTo the heart, to the heart, there's no time for you to waste,\n                {C}                           {G}                      {Fmaj7}             {D}                    {Fmaj7} \nYou wont find your precious answers now by staying in one place, yeah by giving \n              {D}\nup the chase\n\n\n     {F}              {C}         {G}                  {a}   {F}                {C}                  {G}                 {a}\n/: I face the horizon everywhere I go I face the horizon, the horizon is my home ://\n",
-  "title": "The Road",
+  "content": "Vor- und Zwischenspiel: /: h e G D e :/\nWell it's {h}headlights, white lines, black tar rivers,\nthey {e}dragging me ar{G}ound this {d}country as it {e}withers.\nThe {h}billboards, signposts, standing in the way,\ntell {e}of the state of {G}nations {D}that we find to{e}day.\nAnd we'll {G}play, and we'll {D}play and we'll {C}play.\nTo every {G}day, every {D}day, every day{C}, to every {G}day.\n\nAnd in the front rooms of old towns far from the city\nwith beaten up guitars and hearts full of pity.\nThe people gather round singing songs from everywhere.\nTorn from the nation, left without a care.\n\nAnd we'll {e}rid this bloody {D}world for a {C}moment in a {G}word.\nAnd we'll {e}rid this bloody {D}world cause:\n/: the {C}words that you heard when you were {G}young will always stay,\nthe {D}one's that always stay make the {C}world go away. :/\nGo {G}away.\n\nWarm night, clear sky, European town.\nOutside the bars singing their hearts out to a crowd.\nWith open boots, violin, banjo and a voice,\nexiled buskers, happy with their choice.\n",
+  "title": "The road",
   "words": [
     {
-      "name": "Frank Turner",
+      "name": "Levellers",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1991"
     }
   ],
   "tune": [
     {
-      "name": "Frank Turner",
+      "name": "Levellers",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1991"
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
   "tempo": 60,
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
-      "date": 1673369613785,
-      "name": "Ronja Ley",
-      "mail": "ronja.ley@gmx.de",
+      "date": 1706975880142,
+      "name": "ko",
+      "mail": "",
       "type": "create",
       "content": ""
     }

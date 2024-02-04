@@ -46,6 +46,7 @@ const subNavs = {
   },
   '/stamm': {
     '/blog': 'Blog',
+    '/termine': 'Termine',
   },
 }
 

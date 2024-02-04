@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Ejnss, {A}zwej, {d}draj, fir, {A}arbetlose {d}senen mir,\n{B}nischt gehert cho{F}doschim lang {g}in farbrik dem {F}hammerklang,\n's {g}lign kejlim {F}kalt, fagessn, 's {A}nemt der sschawer {d}sej schoj fressn,\n{A}gejen mir a{d}rum in gas, {g}wi di gwirim {d}pustunpas,\n{A}wi di gwirim {d}pust-{A}un-{d}pas.\n\nEjnss, zwej, draj, fir, arbetlose senen mir,\non a beged, on a hejm, undser bet is erd un lejm,\nhat noch wer wos zu genissn, tejlt men sich mit jedn bissn,\nwasser wi di gwirim wajn, gissn mir in sich arajn,\ngissn mir in sich arajn.\n\nEjnss, zwej, draj, fir, arbetlose senen mir,\njorn lang gearbet schwer, un geschaft alz mer un mer,\nhajser, schlesser, schtet un lender, far a hajfele farschwender.\nUnser lojn derfar is woss? Hunger, nojt un arbetlos,\nhunger, nojt un arbetlos.\n\nEjnss, zwej, draj, fir, ot asoj marschiren mir,\narbetlose, trit noch trit, un mir singen sich a lid,\nfun a land, a welt a naje, wu es lebn mentschn fraje,\narbetlos is kejn schum hant, in dem najen frajen land,\nin dem najen frajen land.",
+  "content": "{d}Ejnss, {A}zwej, {d}draj, fir, {A}arbetlose {d}senen mir,\n{B}nischt gehert cho{F}doschim lang {g}in farbrik dem {F}hammerklang,\n's {g}lign kejlim {F}kalt, fagessn, 's {A}nemt der schawer {d}sej schoj fressn,\n{A}gejen mir a{d}rum in gass, {g}wi di gwirim {d}pustunpas,\n{A}wi di gwirim {d}pust-{A}un-{d}pas.\n\nEjnss, zwej, draj, fir, arbetlose senen mir,\non a beged, on a hejm, undser bet is erd un lejm,\nhat noch wer wos zu genissn, tejlt men sich mit jedn bissn,\nwasser wi di gwirim wajn, gissn mir in sich arajn,\ngissn mir in sich arajn.\n\nEjnss, zwej, draj, fir, arbetlose senen mir,\njorn lang gearbet schwer, un geschaft als mer un mer,\nhajser, schlesser, schtet un lender, far a hajfele farschwender.\nUnser lojn derfar is woss? Hunger, nojt un arbetlos,\nhunger, nojt un arbetlos.\n\nEjnss, zwej, draj, fir, ot asoj marschiren mir,\narbetlose, trit noch trit, un mir singen sich a lid,\nfun a land, a welt a naje, wu es lebn mentschn fraje,\narbetlos is kejn schum hant, in dem najen frajen land,\nin dem najen frajen land.",
   "title": "Arbetlosemarsch",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1702331047845,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Sog nischt {E}kejnmol as du gejst dem letstn {a}wejg, himlen {G}blajene farschteln bloje {C}teg.\nKumen {A}wet noch undser ojsgebenkte {d}schoh, 's wet a {a}pojkton undser {d}trot – mir {E}sejnen {a}do!\n\nFun grinen palmenland bis wajtn land fun schnej, mir kumen on mit undser pejn, mit undser wej,\nun wu gefaln is a schprits fun undser blut, schprotsn wet dort undser g'wure, undser mut.\n\nS'wet di morgnsun bagildn unds dem hajnt, un der necht wet farschwindn mitn fajnt.\nNor ob farsamen wet di sun in dem kajor, wi a parol sol gejn dos lid fun dor tsu dor.\n\nDos lid geschribn is mit blut un nischt mit blej, s’is nit kejn lidl fun a fojgl ojf der fraj,\ndos hot a folk tswischn falndike went dos lid gesungen mit naganess in die hent.\n\nSog nischt kejnmol as du gejst dem letstn weg, himlen blajene farschteln bloje teg.\nKumen wet noch undser ojsgebenkte schoh, ’s wet a pojk ton undser trot – mir sejnen do!",
+  "content": "{a}Sog nischt {E}kejnmol as du gejst dem letstn {a}wejg, himlen {G}blajene farschteln bloje {C}teg.\n|: Kumen {A}wet noch undser ojsgebenkte {d}schoh, \n's wet a {a}pojkton undser {d}trot mir {E}sejnen {a}do! :|\n\nFun grinen palmenland bis wajtn land fun schnej, mir kumen on mit undser pejn, mit undser wej,\nun wu gefaln is a schprits fun undser blut, schprotsn wet dort undser g'wure, undser mut.\n\nS'wet di morgnsun bagildn unds dem hajnt, un der necht wet farschwindn mitn fajnt.\nNor ob farsamen wet di sun in dem kajor, wi a parol sol gejn dos lid fun dor tsu dor.\n\nDos lid geschribn is mit blut un nischt mit blej, s'is nit kejn lidl fun a fojgl ojf der fraj,\ndos hot a folk tswischn falndike went dos lid gesungen mit naganess in die hent.\n\nLetzte wie erste",
   "title": "Sog nischt kejnmol",
   "words": [
     {
@@ -32,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1702330445291,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

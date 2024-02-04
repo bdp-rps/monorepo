@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "tempo": 60,
-  "info": "",
+  "info": "Ye Jacobites By Name ist ein traditionelles schottisches Volkslied. Die ursprüngliche Version geht zurück auf die Jakobiterkriege in der ersten Hälfte des 18. Jahrhunderts. Breiter popularisiert wurde es in der Textversion von Robert Burns aus dem Jahr 1791. Als Folksong-Traditional sowie Scottish Rebel Song ist das Stück fester Bestandteil des angelsächsisch-irischen Folksong-Repertoires. Aufgegriffen von Folk-, Punk- und Pop-Formationen, geht die Anzahl eingespielter Versionen in die Hunderte.",
   "changes": [
     {
       "date": 1586340568048,
@@ -34,6 +34,13 @@
     },
     {
       "date": 1697033363986,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706985283838,
       "name": "ko",
       "mail": "",
       "type": "update",

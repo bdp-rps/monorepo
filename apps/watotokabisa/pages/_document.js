@@ -22,12 +22,12 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="de">
         <Head>
           <meta httpEquiv="content-type" content="text/html; charset=utf-8" />
           <meta
             name="viewport"
-            content="width=device-width,height=device-height,initial-scale=1, viewport-fit=cover"
+            content="width=device-width,height=device-height,initial-scale=1,viewport-fit=cover"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
