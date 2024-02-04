@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "",
-  "info": "",
+  "info": "Übersetzung:\n\nJachne Dwosche geht in die Stadt\nSie nimmt ein Paket,\nSie braucht Mehl für Purim\nUm Hamantaschen zu backen.\n\nHop, meine Hamantaschen, hop meine weissen!\nHop, mit meinen Hamantaschen ist ein Missgeschick passiert.\n\nEs regnet, es schneit,\nes schüttet von den Dächern,\nJache füllt das Roggenmehl\nin einem Sack mit Löchern.\n\nKeine Butter, kein Mohn,\nUnd vergessen die Hefe,\nJente macht schon ihre Hamantaschen,\nSie kochen schon im Ofen.\n\nJachne bringt Purim Geschenke\nZu ihrer Tante Jente\nZwei, drei, schwarze Hamantashen\nHalb roh, halb verbrannt.",
   "changes": [
     {
       "date": 1701789167561,
@@ -36,6 +36,13 @@
     },
     {
       "date": 1702329396044,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707055274928,
       "name": "ko",
       "mail": "",
       "type": "update",
