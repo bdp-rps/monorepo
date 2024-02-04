@@ -1,6 +1,6 @@
 {
   "notation": "\"a\"A2AAABA2|AAAB ccBA|\"G\"GGAG \"F\"FFGF|\"E\"E E-E4z2:|\n|:\"F\"FF3/2F3/2E D3-|D FF3/2F3/2ED2-|D2\"F\"FF2ED2|FE2^GB4:|\n|:\"a\"A2e2dc\"G\"B2|d2cB\"F\"A2c2|BA\"E\"^G2EE3:|",
-  "content": "/: {a}CČhajorije šukarije, maphir urde palamande,\n{G}Maphir urde {F}palamande {E}čaje! (Čaje!) :/\n/: {F}Haljam pekljanman (čaje šukarije!)\n{F}Movochi diljan (čaje šukarije!)\n{F}Irin dikh man {E}čaje!: /\n\n{a}Noo noo noo no no {G}noo noo noo no no\n{F}Noo noo noo no no {E}noo noo noo",
+  "content": "/: {a}Čhajorije šukarije, maphir ude palamande,\n{G}maphir ude {F}palamande {E}čaje! (Čaje!) :/\n\n/: {F}Haljam pekljanman (čaje šukarije!)\n{F}movodži diljan (čaje šukarije!)\n{F}irin dikh man {E}čaje!: /\n\n{a}Noo noo noo no {G}noo noo noo no \n{F}Noo noo noo no {E}noo",
   "title": "Čaje Šukarije",
   "words": [
     {
@@ -52,7 +52,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1707050294633,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }
