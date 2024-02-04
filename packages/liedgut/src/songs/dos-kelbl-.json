@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "Donnaj Donnaj\nDonna Donna\nDona Dona",
   "tempo": 60,
-  "info": "",
+  "info": "Übersetzung:\n\nAuf dem Wagen liegt ein Kälbchen,\nliegt da, gefesselt mit einem Strick.\nHoch im Himmel fliegt ein Vogel,\nfliegt und flitzt hin und zurück.\n\nDa lacht der Wind im Kornfeld,\nlacht und lacht und lacht,\nlacht den ganzen Tag über\nund noch die halbe Nacht.\n\nDas Kälbchen schreit, der Bauer sagt:\n\"Wer hat dich geheißen, ein Kalb zu sein?\nDu hättest doch auch ein Vogel werden können!\nDu hättest doch auch eine Schwalbe werden können!\"\n\nDie armen Kälblein - sie werden gefesselt\nund geschleift und geschlachtet. -\nWer Flügel hat, fliegt aufwärts,\nmacht sich bei Keinem zum Knecht!",
   "changes": [
     {
       "date": 1649511417734,
@@ -49,6 +49,13 @@
     },
     {
       "date": 1702329786578,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707055479180,
       "name": "ko",
       "mail": "",
       "type": "update",
