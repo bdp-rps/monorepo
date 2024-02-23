@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Makedonsko devojče, {g}kitka šare{d}na, vo gradina nabrana, {A}dar poda{d}rena.\n{d}Da{g}li ima n'ov{C}oj beli {F}svet {Es}poubavo {d}devoj{A}če od {d}Makedonče?\n{d}Nema, {g}nema {C}nek'e se {F}rodi {Es}poubavo {d}devojce {A}od Makedon{d}če.\n\nNema zvezdi polični od trojte oči, da se nokje na nebo den kje razdeni.\n\nKoga kosi raspletiš kako koprina, lična si i polična od samovila.\n\nKoga pesna zape-e, slavej nadpe-e, koga oro zaigra srce razigra.",
+  "content": "{d}Makedonsko devojče, {g}kitka šare{d}na, vo gradina nabrana, {A}dar poda{d}rena.\n{d}Da{g}li ima n'ov{C}oj beli {F}svet {Dis}poubavo {d}devoj{A}če od {d}Makedonče?\n{d}Nema, {g}nema {C}nek'e se {F}rodi {Es}poubavo {d}devojce {A}od Makedon{d}če.\n\nNema zvezdi polični od trojte oči, da se nokje na nebo den kje razdeni.\n\nKoga kosi raspletiš kako koprina, lična si i polična od samovila.\n\nKoga pesna zape-e, slavej nadpe-e, koga oro zaigra srce razigra.",
   "title": "Makedonsko Devojce",
   "words": [
     {
@@ -36,6 +36,13 @@
     },
     {
       "date": 1690734229261,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1708702477642,
       "name": "ko",
       "mail": "",
       "type": "update",
