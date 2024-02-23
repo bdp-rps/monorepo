@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "6/8",
+  "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "80",
   "info": "",
@@ -42,6 +42,13 @@
     },
     {
       "date": 1706986270643,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1708706988494,
       "name": "ko",
       "mail": "",
       "type": "update",
