@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "Dm",
-  "info": "",
+  "info": "Übersetzung:\n\nEins, zwei, drei, vier Arbeitslose das sind wir.\nNicht gehört Monate lang, In der Fabrik den Hammerklang.\nWerkzeug das liegt kalt, vergessen, Es wird wohl der Rost schon fressen.\nGehen wir herum auf der Gasse, wie die Reichen, ohne Beschäftigung\n\nEins, zwei, drei, vier Arbeitslose das sind wir. \nOhne Kleider, ohne He'm, unser Bett ist Erd' und Lehm. \nHat noch jemand was zu essen, teilt man sich hier jeden Bissen. \nWasser, wie die Reichen Wein schütten wir in uns herein \n\nEins, zwei, drei, vier Arbeitslose das sind wir.\nJahrelang gearbeit' schwer und geschafft als mehr und mehr\nHäuser, Schlösser, Städte und Länder für 'nen Haufen von Verschwendern.\nUnser Lohn der ist nicht gross: Hunger, Not und arbeitslos.\n\nEins, zwei, drei, vier Ja, all so marschieren wir\nArbeitslose Schritt um Schritt und wir singen unser Lied\nVon 'nem Land, 'ner Welt 'ner neuen wo sich freie Menschen freuen\nArbeitslos ist niemand dort, In dem neuen freien Ort.",
   "changes": [
     {
       "date": 1701377894528,
@@ -36,6 +36,13 @@
     },
     {
       "date": 1702331047845,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707055027035,
       "name": "ko",
       "mail": "",
       "type": "update",
