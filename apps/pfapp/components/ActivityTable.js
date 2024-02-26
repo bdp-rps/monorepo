@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { El, Box, Text, IconButton, IconTrash } from '@bdp-rps/ui'
+import { El, Box, Text, IconButton, IconTrash, Card } from '@bdp-rps/ui'
 
 const DataPoint = ({ data }) => {
   return (
@@ -66,7 +66,15 @@ const Table = ({ children, onDelete }) => {
   )
 }
 export default ({ data, onDelete }) => {
-  return (
+  return data.length === 0 || !data ? (
+    <Card>
+      <Box alignItems="center">
+        <Text variant="note">
+          Es gibt noch keine Zeitblöcke, füge doch welche hinzu!
+        </Text>
+      </Box>
+    </Card>
+  ) : (
     <Table onDelete={onDelete}>
       {data.map((data, key) => (
         <DataRow data={data} key={key} onDelete={onDelete} />

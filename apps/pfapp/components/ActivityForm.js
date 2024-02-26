@@ -114,7 +114,7 @@ const TimeSlotForm = ({ onAdd }) => {
           <Box flex={1}>
             <SelectInput
               type="number"
-              label="Dauer des Zeitblocks"
+              label="Dauer des Zeitblocks (in min)"
               {...duration.props}>
               <option value={' '}> </option>
               {Duration.values.map((duration) => (
@@ -372,16 +372,15 @@ export default () => {
             }
           />
         </Card>
-        {!timeSlots.length == 0 && (
-          <ActivityTable
-            data={timeSlots}
-            onDelete={(id) =>
-              setTimeSlots((timeSlots) =>
-                timeSlots.filter((timeSlot) => timeSlot.id !== id)
-              )
-            }
-          />
-        )}
+
+        <ActivityTable
+          data={timeSlots}
+          onDelete={(id) =>
+            setTimeSlots((timeSlots) =>
+              timeSlots.filter((timeSlot) => timeSlot.id !== id)
+            )
+          }
+        />
       </Box>
     </Box>
   )
