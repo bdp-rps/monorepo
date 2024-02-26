@@ -105,23 +105,11 @@ const TimeSlotForm = ({ onAdd }) => {
             }
           })
         }}>
-        <TextArea
-          label="Beschreibung"
-          placeholder="Eine flotte Beschreiung was hier passiert"
-          {...description.props}
-        />
-        <TextArea
-          label="Materialien"
-          placeholder="Welche Materialien werden hier benötigt?"
-          {...materials.props}
-        />
+        <TextArea label="Beschreibung" {...description.props} />
+        <TextArea label="Materialien" {...materials.props} />
         <Box direction="row" space={2}>
           <Box flex={2}>
-            <TextInput
-              label="Verantwortlichkeit"
-              placeholder="wer ist hier verantwortlich?"
-              {...responsibility.props}
-            />
+            <TextInput label="Verantwortlichkeit" {...responsibility.props} />
           </Box>
           <Box flex={1}>
             <SelectInput
@@ -291,16 +279,8 @@ export default () => {
             }
           })
         }}>
-        <TextInput
-          label="Titel"
-          placeholder="Gib deiner Gruppenstunde einen coolen namen"
-          {...title.props}
-        />
-        <TextArea
-          label="Beschreibung"
-          placeholder="Einmal flott um was es geht"
-          {...description.props}
-        />
+        <TextInput label="Titel" {...title.props} />
+        <TextArea label="Beschreibung" {...description.props} />
         <Box direction="row" space={2}>
           <SelectInput label="Ort" {...location.props}>
             <option value={undefined}>keine Angabe</option>
@@ -340,15 +320,10 @@ export default () => {
             })}
           </SelectInput>
         </Box>
-        <TextArea
-          label="Notizen"
-          placeholder="Falls es ein paar Besonderheiten gibt pack diese gerne hier rein"
-          {...notes.props}
-        />
+        <TextArea label="Notizen" {...notes.props} />
         <TextInput
           label="Vorbereitungszeit (Minuten)"
           type="number"
-          placeholder="Die Minuten die es etwa braucht um die Gruppenstunde vorzubereiten"
           {...preperation.props}
         />
         <Box flex={1}>
@@ -358,16 +333,11 @@ export default () => {
           <Box flex={1}>
             <TextInput
               label="Wer ist so nett und erstellt diese Gruppenstunde?"
-              placeholder="Die Minuten die es etwa braucht um die Gruppenstunde vorzubereiten"
               {...uploadedBy.props}
             />
           </Box>
           <Box flex={1}>
-            <TextInput
-              label="Von wem ist die Idee?"
-              placeholder="Falls nicht der ersteller dafür verantwortlich ist :)"
-              {...creator.props}
-            />
+            <TextInput label="Von wem ist die Idee?" {...creator.props} />
           </Box>
         </Box>
         <Box direction="row" space={6} justifyContent="space-between">
