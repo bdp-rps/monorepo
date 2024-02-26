@@ -13,6 +13,8 @@ import {
   El,
   IconButton,
   IconTrash,
+  useScrollBlockingOverlay,
+  Modal,
   Radio,
 } from '@bdp-rps/ui'
 
@@ -25,6 +27,7 @@ import ActivityTable from './ActivityTable'
 import postActivity from '../api/postActivity'
 import postActivitySlots from '../api/postActivitySlots'
 import axios from 'axios'
+import { IconPlus } from '@bdp-rps/ui/lib/components/icons'
 
 const FileInput = ({ handleFileChange }) => {
   return (
@@ -36,9 +39,7 @@ const FileInput = ({ handleFileChange }) => {
   )
 }
 
-const InfoBox = ({ label, value }) => {
-  const string = `${label} ${value}`
-
+const InfoBox = ({ info }) => {
   const show =
     typeof value === 'string'
       ? value
@@ -59,10 +60,48 @@ const InfoBox = ({ label, value }) => {
           }}
           paddingVertical={1}
           padding={2}>
-          <Text color="white">{string}</Text>
+          <Text color="white">{info}</Text>
         </Box>
       </Box>
     )
+  )
+}
+
+const MaterialInput = ({ field }) => {
+  const [materials, setMaterials] = React.useState((_) => null)
+  const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+
+  return (
+    <>
+      <Modal
+        title="Material hinzufügen"
+        visible={modalVisible}
+        zIndex={10}
+        onClose={() => setModalVisible(false)}>
+        <Box space={2} padding={2} minWidth={350}>
+          <TextInput />
+          <Box>
+            <Button>Hinzufügen</Button>
+          </Box>
+        </Box>
+      </Modal>
+      <Box alignItems="start" justifyContent="space-between" space={2}>
+        <Text variant="label">Materialien</Text>
+        <Box direction="row" alignItems="center" space={2}>
+          <Box>
+            <Button
+              variant="secondary"
+              onClick={() => setModalVisible(true)}
+              icon={(props) => <IconPlus {...props} />}>
+              Hinzufügen
+            </Button>
+          </Box>
+          {materials?.map((material) => {
+            return <InfoBox info={material} />
+          })}
+        </Box>
+      </Box>
+    </>
   )
 }
 
@@ -106,6 +145,7 @@ const TimeSlotForm = ({ onAdd }) => {
           })
         }}>
         <TextArea label="Beschreibung" {...description.props} />
+        <MaterialInput />
         <TextArea label="Materialien" {...materials.props} />
         <Box direction="row" space={2}>
           <Box flex={2}>
@@ -348,14 +388,14 @@ export default () => {
           </Box>
           <Box space={1} alignItems="start">
             <InfoBox
-              value={`${timeSlots.reduce((prev, current) => {
+              info={`Dauer: ${timeSlots.reduce((prev, current) => {
                 return prev + parseInt(current.duration)
               }, 0)} min`}
-              label="Dauer:"
             />
             <InfoBox
-              value={timeSlots.map((timeSlot) => timeSlot.materials).join(',')}
-              label="Material:"
+              info={`Material: ${timeSlots
+                .map((timeSlot) => timeSlot.materials)
+                .join(',')}`}
             />
           </Box>
         </Box>
