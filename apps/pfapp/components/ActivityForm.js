@@ -27,7 +27,7 @@ import ActivityTable from './ActivityTable'
 import postActivity from '../api/postActivity'
 import postActivitySlots from '../api/postActivitySlots'
 import axios from 'axios'
-import { IconPlus } from '@bdp-rps/ui/lib/components/icons'
+import { IconMinus, IconPlus } from '@bdp-rps/ui/lib/components/icons'
 
 const FileInput = ({ handleFileChange }) => {
   return (
@@ -39,37 +39,39 @@ const FileInput = ({ handleFileChange }) => {
   )
 }
 
-const InfoBox = ({ info }) => {
-  const show =
-    typeof value === 'string'
-      ? value
-      : typeof value === 'number'
-      ? value > 0
-      : true
-
+const InfoBox = ({ children }) => {
   return (
-    show && (
-      <Box alignItems="center" justifyContent="center">
-        <Box
-          border="1 px solid"
-          bg="blueLight"
-          extend={{
-            boxShadow: '0 0 4px rgba(0,0,0,0.2)',
-            flex: '0 0 auto',
-            borderRadius: 22,
-          }}
-          paddingVertical={1}
-          padding={2}>
-          <Text color="white">{info}</Text>
-        </Box>
+    <Box alignItems="center" justifyContent="center">
+      <Box
+        border="1 px solid"
+        bg="blueLight"
+        extend={{
+          boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+          flex: '0 0 auto',
+          borderRadius: 22,
+        }}
+        paddingVertical={1}
+        padding={2}>
+        {children}
       </Box>
-    )
+    </Box>
   )
 }
 
-const MaterialInput = ({ field }) => {
-  const [materials, setMaterials] = React.useState((_) => null)
+const MaterialInput = ({ field, materials, setMaterials }) => {
+  const [currentMaterialInput, setCurrentMaterialInput] = React.useState('')
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+
+  const handleAddMaterial = () => {
+    setMaterials((prev) => {
+      return [...prev, currentMaterialInput]
+    })
+    setModalVisible(false)
+  }
+
+  React.useEffect(() => {
+    field.update({ value: materials?.join(', ') })
+  }, [materials])
 
   return (
     <>
@@ -77,14 +79,24 @@ const MaterialInput = ({ field }) => {
         title="Material hinzufügen"
         visible={modalVisible}
         zIndex={10}
-        onClose={() => setModalVisible(false)}>
+        onClose={() =>
+          setModalVisible((_) => {
+            false
+            setCurrentMaterialInput(null)
+          })
+        }>
         <Box space={2} padding={2} minWidth={350}>
-          <TextInput />
+          <TextInput
+            onChange={(e) => setCurrentMaterialInput(e.target.value)}
+          />
           <Box>
-            <Button>Hinzufügen</Button>
+            <Button onClick={(_) => handleAddMaterial()}>Hinzufügen</Button>
           </Box>
         </Box>
       </Modal>
+      <Box display="none">
+        <TextArea label="Materialien" {...field.props} />
+      </Box>
       <Box alignItems="start" justifyContent="space-between" space={2}>
         <Text variant="label">Materialien</Text>
         <Box direction="row" alignItems="center" space={2}>
@@ -96,8 +108,27 @@ const MaterialInput = ({ field }) => {
               Hinzufügen
             </Button>
           </Box>
-          {materials?.map((material) => {
-            return <InfoBox info={material} />
+          {materials?.map((material, indexForDelete) => {
+            return (
+              <InfoBox key={indexForDelete}>
+                <Box direction="row" space={1} alignItems="center">
+                  <Text color="white">{material}</Text>
+                  <Box margin={-4}>
+                    <IconButton
+                      color="white"
+                      onClick={(_) =>
+                        setMaterials((materials) =>
+                          materials.filter((_, index) => {
+                            return index != indexForDelete
+                          })
+                        )
+                      }
+                      icon={(props) => <IconMinus {...props} />}
+                    />
+                  </Box>
+                </Box>
+              </InfoBox>
+            )
           })}
         </Box>
       </Box>
@@ -127,6 +158,7 @@ const TimeSlotForm = ({ onAdd }) => {
     materials,
     responsibility
   )
+  const [materialsData, setMaterialsData] = React.useState([])
 
   return (
     <Box space={4}>
@@ -135,18 +167,26 @@ const TimeSlotForm = ({ onAdd }) => {
         as="form"
         noValidate
         space={4}
+        onReset={(_) => {
+          setMaterialsData([])
+          reset()
+        }}
         onSubmit={(e) => {
           e.preventDefault()
           submit((isValid, data) => {
             if (isValid) {
               onAdd(data)
+              setMaterialsData([])
               reset()
             }
           })
         }}>
         <TextArea label="Beschreibung" {...description.props} />
-        <MaterialInput />
-        <TextArea label="Materialien" {...materials.props} />
+        <MaterialInput
+          field={materials}
+          materials={materialsData}
+          setMaterials={setMaterialsData}
+        />
         <Box direction="row" space={2}>
           <Box flex={2}>
             <TextInput label="Verantwortlichkeit" {...responsibility.props} />
@@ -254,6 +294,8 @@ export default () => {
     }
   }
 
+  let material = timeSlots.map((timeSlot) => timeSlot.materials)
+
   return (
     <Box paddingVertical={4}>
       <Box
@@ -268,9 +310,9 @@ export default () => {
               //TODO: Separate the different uploads
               //in functions to make it more readable and maintainable
 
-              const fileResponse = await handleFileUpload()
+              const fileResponse = file ? await handleFileUpload() : null
 
-              const fileId = fileResponse.data[0].id
+              const fileId = fileResponse?.data[0].id
 
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
                 const { duration, description, materials, responsibility } =
@@ -381,22 +423,33 @@ export default () => {
           </Box>
         </Box>
         <Box direction="row" space={6} justifyContent="space-between">
-          <Box alignSelf="flex-start">
-            <Button type="submit" loading={isLoading}>
+          <Box alignSelf="flex-start" space={2}>
+            <Button
+              type="submit"
+              loading={isLoading}
+              disabled={timeSlots.length == 0}>
               Gruppenstunde erstellen
             </Button>
+            {timeSlots.length == 0 && (
+              <Text variant="note">Füge erst noch Zeitblöcke hinzu!</Text>
+            )}
           </Box>
           <Box space={1} alignItems="start">
-            <InfoBox
-              info={`Dauer: ${timeSlots.reduce((prev, current) => {
-                return prev + parseInt(current.duration)
-              }, 0)} min`}
-            />
-            <InfoBox
-              info={`Material: ${timeSlots
-                .map((timeSlot) => timeSlot.materials)
-                .join(',')}`}
-            />
+            <InfoBox>
+              <Text color="white">{`Dauer: ${timeSlots.reduce(
+                (prev, current) => {
+                  return prev + parseInt(current.duration)
+                },
+                0
+              )} min`}</Text>
+            </InfoBox>
+            {material.length > 0 && (
+              <InfoBox>
+                <Text color="white">{`Material: ${timeSlots
+                  .map((timeSlot) => timeSlot.materials)
+                  .join(', ')}`}</Text>
+              </InfoBox>
+            )}
           </Box>
         </Box>
       </Box>
@@ -412,7 +465,6 @@ export default () => {
             }
           />
         </Card>
-
         <ActivityTable
           data={timeSlots}
           onDelete={(id) =>
