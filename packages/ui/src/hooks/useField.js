@@ -33,7 +33,6 @@ export default function useField({
   requiredErrorMessage = 'Det här fältet är obligatoriskt',
   validation = {},
 }) {
-  const valueType = typeof value
   // add a special validation for required fields where the browser doesn't auto catch
   if (required) {
     validation[requiredErrorMessage] = (value) =>

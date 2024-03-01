@@ -15,7 +15,6 @@ export default function Menu({ menuVisible, hideMenu, children, ...props }) {
       extend={{
         background: theme.tokens.primary,
         position: 'fixed',
-
         top: 0,
         left: 0,
         bottom: 0,
@@ -24,7 +23,7 @@ export default function Menu({ menuVisible, hideMenu, children, ...props }) {
       }}>
       <Box padding={4}>
         <IconButton
-          icon={props => <IconCancel fill="white" {...props} />}
+          icon={(props) => <IconCancel fill="white" {...props} />}
           iconSize={40}
           onClick={hideMenu}
         />

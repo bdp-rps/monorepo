@@ -27,6 +27,8 @@ const staticStyle = [
 const clientRenderer = createStyleRenderer()
 
 export default function AppWrapper({ renderer = clientRenderer, children }) {
+  const [activeOverlayCount, setActiveOverlayCount] = React.useState(0)
+
   if (renderer) {
     arrayEach(staticStyle, ({ selector, style }) =>
       renderer.renderStatic(style, selector)
@@ -56,7 +58,9 @@ export default function AppWrapper({ renderer = clientRenderer, children }) {
   }
 
   return (
-    <Provider theme="bdp" renderer={renderer}>
+    <Provider
+      theme="bdp"
+      config={{ activeOverlayCount, setActiveOverlayCount }}>
       {children}
     </Provider>
   )
