@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Buter káj egy berseszki szán, {C}Móri drágo piko séj,\n{a}Vorbisz mánge káki-koki, {C}Móri drágo piko séj.\n\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, Móri drágo piko séj, Lá lumáko szomnákáj, Móri drágo piko séj.\n\nÁldin dévlá murá sá,Mura cina pikonya, Mura cina pikonya,Murá sukár szábiná.\n",
+  "content": "{a}Buter káj egy berseszki szán, {C}móri drágo piko séj,\n{a}vorbisz mánge káki-koki, {C}móri drágo piko séj.\n\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, móri drágo piko séj, lá lumáko szomnákáj, móri drágo piko séj.\n\nÁldin dévlá murá sá, mura cina pikonya, mura cina pikonya, murá sukár szábiná.",
   "title": "Mori shej",
   "words": [
     {
@@ -21,9 +21,9 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "tempo": 60,
-  "info": "",
+  "info": "Übersetzung:\n\nDu bist gerade ein Jahr alt, kleine, winzige, liebe Tochter.\nDu plapperst mit mir, kleine, winzige, liebe Tochter.\n\nAj Tochter, meine kleine Liebe.\n\nIch werde dir goldenen Schmuck kaufen, allen Goldschmuck auf der Welt.\n\nGott segne meine Tochter, meine schöne Sabina.",
   "changes": [
     {
       "date": 1596176050329,
@@ -41,6 +41,13 @@
     },
     {
       "date": 1706998227103,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1710016173860,
       "name": "ko",
       "mail": "",
       "type": "update",
