@@ -19,7 +19,6 @@ import {
 } from '@bdp-rps/ui'
 
 import Location from '../utils/location'
-import Duration from '../utils/duration'
 import GroupType from '../utils/groupType'
 import Size from '../utils/size'
 import Season from '../utils/season'
@@ -137,10 +136,6 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
 }
 
 const TimeSlotForm = ({ onAdd }) => {
-  const duration = useField({
-    name: 'duration',
-    required: true,
-  })
   const description = useField({
     name: 'description',
     required: true,
@@ -152,12 +147,7 @@ const TimeSlotForm = ({ onAdd }) => {
     name: 'responsibility',
   })
 
-  const { submit, reset } = useForm(
-    duration,
-    description,
-    materials,
-    responsibility
-  )
+  const { submit, reset } = useForm(description, materials, responsibility)
   const [materialsData, setMaterialsData] = React.useState([])
 
   return (
@@ -190,19 +180,6 @@ const TimeSlotForm = ({ onAdd }) => {
         <Box direction="row" space={2}>
           <Box flex={2}>
             <TextInput label="Verantwortlichkeit" {...responsibility.props} />
-          </Box>
-          <Box flex={1}>
-            <SelectInput
-              type="number"
-              label="Dauer des Zeitblocks (in min)"
-              {...duration.props}>
-              <option value={' '}> </option>
-              {Duration.values.map((duration) => (
-                <option value={duration} key={duration}>
-                  {duration}
-                </option>
-              ))}
-            </SelectInput>
           </Box>
         </Box>
         <Box alignSelf="flex-start" space={2} direction="row">
@@ -239,18 +216,13 @@ export default () => {
   const season = useField({
     name: 'season',
   })
-  const notes = useField({
-    name: 'notes',
-  })
+
   const preperation = useField({
     name: 'preperation',
     default: 0,
   })
   const uploadedBy = useField({
     name: 'uploadedBy',
-  })
-  const creator = useField({
-    name: 'creator',
   })
 
   const { submit, reset } = useForm(
@@ -261,9 +233,7 @@ export default () => {
     groupType,
     size,
     preperation,
-    creator,
-    uploadedBy,
-    notes
+    uploadedBy
   )
 
   const [timeSlots, setTimeSlots] = React.useState([])
@@ -315,10 +285,8 @@ export default () => {
               const fileId = fileResponse?.data[0].id
 
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
-                const { duration, description, materials, responsibility } =
-                  timeSlot
+                const { description, materials, responsibility } = timeSlot
                 return postActivitySlots({
-                  duration,
                   description,
                   materials,
                   responsibility,
@@ -328,11 +296,10 @@ export default () => {
               const activitySlotIds = activitySlots.map((res) => res.data.id)
 
               const {
-                creator,
                 description,
                 groupType,
                 location,
-                notes,
+
                 preperation,
                 size,
                 title,
@@ -342,13 +309,12 @@ export default () => {
               //TODO: Try catch for error handling
               //TODO maybe move the whole logic of not sending stuff if its empty to the api file
               const result = await postActivity({
-                creator,
                 description,
                 groupType,
                 location: location != '' ? location : undefined,
                 size: size != '' ? size : undefined,
                 season: season != '' ? season : undefined,
-                notes,
+
                 attachment: fileId ? [fileId] : undefined,
                 preperation: preperation != '' ? preperation : undefined,
                 title,
@@ -402,7 +368,6 @@ export default () => {
             })}
           </SelectInput>
         </Box>
-        <TextArea label="Notizen" {...notes.props} />
         <TextInput
           label="Vorbereitungszeit (Minuten)"
           type="number"
@@ -418,9 +383,6 @@ export default () => {
               {...uploadedBy.props}
             />
           </Box>
-          <Box flex={1}>
-            <TextInput label="Von wem ist die Idee?" {...creator.props} />
-          </Box>
         </Box>
         <Box direction="row" space={6} justifyContent="space-between">
           <Box alignSelf="flex-start" space={2}>
@@ -435,14 +397,6 @@ export default () => {
             )}
           </Box>
           <Box space={1} alignItems="start">
-            <InfoBox>
-              <Text color="white">{`Dauer: ${timeSlots.reduce(
-                (prev, current) => {
-                  return prev + parseInt(current.duration)
-                },
-                0
-              )} min`}</Text>
-            </InfoBox>
             {material.length > 0 && (
               <InfoBox>
                 <Text color="white">{`Material: ${timeSlots
