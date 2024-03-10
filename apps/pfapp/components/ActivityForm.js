@@ -140,15 +140,12 @@ const TimeSlotForm = ({ onAdd }) => {
     name: 'description',
     required: true,
   })
-  const materials = useField({
-    name: 'materials',
-  })
-  const responsibility = useField({
-    name: 'responsibility',
+
+  const timeSlotTitle = useField({
+    name: 'title',
   })
 
-  const { submit, reset } = useForm(description, materials, responsibility)
-  const [materialsData, setMaterialsData] = React.useState([])
+  const { submit, reset } = useForm(description, timeSlotTitle)
 
   return (
     <Box space={4}>
@@ -171,17 +168,11 @@ const TimeSlotForm = ({ onAdd }) => {
             }
           })
         }}>
-        <TextArea label="Beschreibung" {...description.props} />
-        <MaterialInput
-          field={materials}
-          materials={materialsData}
-          setMaterials={setMaterialsData}
-        />
-        <Box direction="row" space={2}>
-          <Box flex={2}>
-            <TextInput label="Verantwortlichkeit" {...responsibility.props} />
-          </Box>
+        <Box flex={2}>
+          <TextInput label="Titel" {...timeSlotTitle.props} />
         </Box>
+        <TextArea label="Beschreibung" {...description.props} />
+
         <Box alignSelf="flex-start" space={2} direction="row">
           <Button type="submit">Hinzufügen</Button>
           <Button type="reset" variant="secondary">
@@ -224,6 +215,9 @@ export default () => {
   const uploadedBy = useField({
     name: 'uploadedBy',
   })
+  const materials = useField({
+    name: 'materials',
+  })
 
   const { submit, reset } = useForm(
     title,
@@ -264,7 +258,8 @@ export default () => {
     }
   }
 
-  let material = timeSlots.map((timeSlot) => timeSlot.materials)
+  const material = timeSlots.map((timeSlot) => timeSlot.materials)
+  const [materialsData, setMaterialsData] = React.useState([])
 
   return (
     <Box paddingVertical={4}>
@@ -285,11 +280,9 @@ export default () => {
               const fileId = fileResponse?.data[0].id
 
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
-                const { description, materials, responsibility } = timeSlot
+                const { description } = timeSlot
                 return postActivitySlots({
                   description,
-                  materials,
-                  responsibility,
                 }).then((res) => res.json())
               })
               const activitySlots = await Promise.all(postActivitySlotsPromises)
@@ -372,6 +365,11 @@ export default () => {
           label="Vorbereitungszeit (Minuten)"
           type="number"
           {...preperation.props}
+        />
+        <MaterialInput
+          field={materials}
+          materials={materialsData}
+          setMaterials={setMaterialsData}
         />
         <Box flex={1}>
           <FileInput handleFileChange={handleFileChange} />
