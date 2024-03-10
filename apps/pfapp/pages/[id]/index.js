@@ -41,27 +41,20 @@ const DataRow = ({ lable, value }) => {
   )
 }
 
-export default function Page({
-  title,
-  description,
-  location,
-  season,
-  groupType,
-  size,
-  preperation,
-  creator,
-  uploadedBy,
-  notes,
-  activity_slots,
-  attachment,
-}) {
-  const activitySlots = activity_slots.data
-  const data = activitySlots.map((activitySlot) => activitySlot.attributes)
-  const materials = data.map((timeSlot) => timeSlot.materials).join(',')
-  const time = data.reduce((prev, current) => {
-    return prev + parseInt(current.duration)
-  }, 0)
-
+export default function Page({ activitySlots, activity }) {
+  // const activitySlots = activity_slots.data
+  // const materials = data.map((timeSlot) => timeSlot.materials).join(',')
+  const {
+    attachment,
+    title,
+    description,
+    location,
+    season,
+    groupType,
+    size,
+    preperation,
+    uploadedBy,
+  } = activity
   return (
     <>
       <Header />
@@ -78,7 +71,7 @@ export default function Page({
             <Card>
               <Box space={2}>
                 <Text variant="category">Zeitplan:</Text>
-                <ActivityTable data={data} />
+                {/* <ActivityTable data={data} /> */}
               </Box>
             </Card>
             <Box direction={['column', 'row']} space={2}>
@@ -89,13 +82,11 @@ export default function Page({
                     <Grid columns={['1fr', '1fr 1fr']} gap={2}>
                       <DataRow lable="Größe" value={Size.toText(size)} />
                       <DataRow lable="Ort" value={Location.toText(location)} />
-                      <DataRow lable="Gesamtdauer" value={time} />
                       <DataRow lable="Vorbereitungsdauer" value={preperation} />
                       <DataRow
                         lable="Jahreszeit"
                         value={Season.toText(season)}
                       />
-                      <DataRow lable="Idee" value={creator} />
                       <DataRow lable="Hochgeladen von" value={uploadedBy} />
                     </Grid>
                   </Box>
@@ -103,7 +94,8 @@ export default function Page({
               </Box>
 
               <Box flex={1} space={2}>
-                {materials && (
+                {/* TODO: */}
+                {/* {materials && (
                   <Card>
                     <Box space={2}>
                       <Text variant="category">Materialien:</Text>
@@ -112,7 +104,7 @@ export default function Page({
                       </Box>
                     </Box>
                   </Card>
-                )}
+                )} */}
 
                 {attachment.data != null && (
                   <Card>
@@ -127,16 +119,6 @@ export default function Page({
                         href={`https://docs.bdp-rps.de${attachment.data[0].attributes.url}`}>
                         Anhang öffnen
                       </Button>
-                    </Box>
-                  </Card>
-                )}
-                {notes != '' && (
-                  <Card>
-                    <Box space={2}>
-                      <Text variant="category">Notizen:</Text>
-                      <Box alignItems="start">
-                        <Text>{notes}</Text>
-                      </Box>
                     </Box>
                   </Card>
                 )}
@@ -164,10 +146,27 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const activity = await getActivity(params.id)
-  const data = activity.data.attributes
+  const activityData = await getActivity(params.id)
+  const activity = activityData.data.attributes
+
+  const activitySlots = activity.activity_slots.data.map(
+    ({ id, attributes }) => {
+      return {
+        id: id,
+        title: attributes.title || '',
+        description: attributes.description,
+      }
+    }
+  )
+
+  const props = {
+    activity,
+    activitySlots,
+  }
+
+  console.log(props)
 
   return {
-    props: data,
+    props,
   }
 }
