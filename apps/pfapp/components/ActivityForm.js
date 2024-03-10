@@ -72,18 +72,14 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
     field.update({ value: materials?.join(', ') })
   }, [materials])
 
+  // setCurrentMaterialInput(null)
   return (
     <>
       <Modal
         title="Material hinzufügen"
         visible={modalVisible}
         zIndex={10}
-        onClose={() =>
-          setModalVisible((_) => {
-            false
-            setCurrentMaterialInput(null)
-          })
-        }>
+        onClose={() => setModalVisible(false)}>
         <Box space={2} padding={2} minWidth={350}>
           <TextInput
             onChange={(e) => setCurrentMaterialInput(e.target.value)}
@@ -149,13 +145,11 @@ const TimeSlotForm = ({ onAdd }) => {
 
   return (
     <Box space={4}>
-      <Text variant="category">Zeitblock hinzufügen</Text>
       <Box
         as="form"
         noValidate
         space={4}
         onReset={(_) => {
-          setMaterialsData([])
           reset()
         }}
         onSubmit={(e) => {
@@ -163,7 +157,6 @@ const TimeSlotForm = ({ onAdd }) => {
           submit((isValid, data) => {
             if (isValid) {
               onAdd(data)
-              setMaterialsData([])
               reset()
             }
           })
@@ -260,6 +253,7 @@ export default () => {
 
   const material = timeSlots.map((timeSlot) => timeSlot.materials)
   const [materialsData, setMaterialsData] = React.useState([])
+  const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
 
   return (
     <Box paddingVertical={4}>
@@ -394,20 +388,16 @@ export default () => {
               <Text variant="note">Füge erst noch Zeitblöcke hinzu!</Text>
             )}
           </Box>
-          <Box space={1} alignItems="start">
-            {material.length > 0 && (
-              <InfoBox>
-                <Text color="white">{`Material: ${timeSlots
-                  .map((timeSlot) => timeSlot.materials)
-                  .join(', ')}`}</Text>
-              </InfoBox>
-            )}
-          </Box>
         </Box>
       </Box>
       <Spacer size={10} />
       <Box space={4}>
-        <Card>
+        {/* TODO: Modal */}
+        <Modal
+          title="Zeitblock hinzufügen"
+          visible={modalVisible}
+          zIndex={10}
+          onClose={() => setModalVisible(false)}>
           <TimeSlotForm
             onAdd={(data) =>
               setTimeSlots((timeSlots) => [
@@ -416,15 +406,19 @@ export default () => {
               ])
             }
           />
-        </Card>
-        <ActivityTable
+        </Modal>
+        <Box>
+          <Button onClick={(_) => setModalVisible(true)}> Test</Button>
+        </Box>
+
+        {/* <ActivityTable
           data={timeSlots}
           onDelete={(id) =>
             setTimeSlots((timeSlots) =>
               timeSlots.filter((timeSlot) => timeSlot.id !== id)
             )
           }
-        />
+        /> */}
       </Box>
     </Box>
   )
