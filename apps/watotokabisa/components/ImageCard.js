@@ -22,9 +22,9 @@ export default function ImageCard({ image, children, ...props }) {
       }}>
       <El
         as={Image}
-        priority
         layout="fill"
         objectFit="cover"
+        sizes="(max-width: 800px) 90vw, 50vw"
         src={image}
         extend={{ zIndex: 0, borderRadius: theme.tokens.borderRadius }}
       />

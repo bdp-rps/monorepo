@@ -1,4 +1,5 @@
 import { Box, Grid } from '@bdp-rps/ui'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
@@ -11,6 +12,14 @@ import image from '../public/images/verkehr.jpg'
 export default () => {
   return (
     <Template title="Unsere Fahrtenchronik" image={image}>
+      <Head>
+        <title>Watoto Kabisa - Chronik</title>
+        <meta name="title" content="Watoto Kabisa - Chronik" />
+        <meta
+          name="description"
+          content="Aktuelle Erfahrungen und Berichte direkt aus Kenia."
+        />
+      </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingVertical={20}>
           <Grid gap={5} columns={['1fr', , '1fr 1fr']}>

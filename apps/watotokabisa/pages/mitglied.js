@@ -246,10 +246,11 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Mitglied werden - Watoto Kabisa</title>
+        <title>Watoto Kabisa - Mitglied werden</title>
+        <meta name="title" content="Watoto Kabisa - Mitglied werden" />
         <meta
-          type="description"
-          content="Alle Infos wie ihr Mitglied bei Watoto Kabisa werden könnt."
+          name="description"
+          content="Werde Mitglied und unterstützte unsere Arbeit vor Ort."
         />
       </Head>
       <Template image={image} title="Mitglied werden!">

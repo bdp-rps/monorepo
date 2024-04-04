@@ -1,0 +1,52 @@
+{
+  "notation": "",
+  "content": "{C}Jachne {G7}Dwosche {C}fort in {G7}schtot, si {C}holt sich {G7}in ejn {C}pa{F}kn,\n{C}fort ojf {G7}purim {C}kojfn {G7}mel, homen{G7}taschn {C}bakn.\n\n/: {F}Hop, majne homentaschn, {C}hop, majne wajsse!\n{G7}Hop, mit majne homentaschn, {C}is pas{G7}sirt a {C}majsse. :/\n\n'S gejt a regn, 's falt a schnej, 's kapet fun di decher,\nJachne firt schojn di kornmel, in a sak mit lecher.\n\nNit kajn puter, nit kajn mon, ojch fargessn hejwn.\nJachne macht schojn homentaschn, 's bakt sich schojn on ojwn.\n\nJachne trogt schojn schalechmoness zu der bobe Jente,\nzwej, drai schwarze homentaschn, halb roj, halb farbrente.",
+  "title": "Hop majne homentaschn",
+  "words": [
+    {
+      "name": "traditionell jiddisch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "traditionell jiddisch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Übersetzung:\n\nJachne Dwosche geht in die Stadt\nSie nimmt ein Paket,\nSie braucht Mehl für Purim\nUm Hamantaschen zu backen.\n\nHop, meine Hamantaschen, hop meine weissen!\nHop, mit meinen Hamantaschen ist ein Missgeschick passiert.\n\nEs regnet, es schneit,\nes schüttet von den Dächern,\nJache füllt das Roggenmehl\nin einem Sack mit Löchern.\n\nKeine Butter, kein Mohn,\nUnd vergessen die Hefe,\nJente macht schon ihre Hamantaschen,\nSie kochen schon im Ofen.\n\nJachne bringt Purim Geschenke\nZu ihrer Tante Jente\nZwei, drei, schwarze Hamantashen\nHalb roh, halb verbrannt.",
+  "changes": [
+    {
+      "date": 1701789167561,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1702329396044,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707055274928,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}

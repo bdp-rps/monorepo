@@ -157,5 +157,5 @@ TextInput.propTypes = {
   /** Additional description information display beneath the input. */
   description: PropTypes.string,
   /** The input type. */
-  type: PropTypes.oneOf(['text', 'number', 'tel', 'email']),
+  type: PropTypes.oneOf(['text', 'number', 'tel', 'email', 'file']),
 }

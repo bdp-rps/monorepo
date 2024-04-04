@@ -1,11 +1,26 @@
 {
   "notation": "",
-  "content": "{D}Ro mitt barn til {A}fugleskjære {h} - mange måker {D}fant vi {A}der.\n{D} - De som bringer  {A}oss i gave {h}– drøm om ha{A}vet.\n{D} - Hele dagen {H}vil vi være{G} - der hvor alle {D}må{A}ker {D}er.\n\nRo mitt barn. Det tapte riket skjenker havet oss igjen.\nFølg den flyvende hollender! Havlegender...\nToner gjenom måkeskriket, en atlantisfugl er den.\n\nRo mitt barn i blonde dage under solens lykkehjul.\nMåken bringer oss i gave – drøm om havet.\nMåken det er bølgeslaget som har skapt seg om til fugl.",
+  "content": "{D}Ro mitt barn til {A}fugleskjæret, {h}mange måker {D}fant vi {A}der.\n{D}De som bringer {A}oss i gave, {h}drøm om {D}ha{A}vet.\n{D}Hele dagen {H7}vil vi være, {G}der hvor alle {D}må{A}ker {D}er.\n\nRo, mitt barn før dagen ender, dit hvor alle måker flyr.\nSe vår lengsels fabelskute, går der ute.\nUnder seil mot fjerne strender, og mot Sinbads eventyr.\n\nRo mitt barn det tapte riket skjenker havet oss igjen.\nFølg den flyvende hollender! Havlegender.\nToner gjenom måkeskriket, en atlantis fugl er den.\n\nRo mitt barn i blonde dage under solens lykkehjul.\nMåken bringer oss i gave, drøm om havet.\nMåken det er bølgeslaget som har skapt seg om til fugl.",
   "title": "Måker",
-  "words": [],
+  "words": [
+    {
+      "name": "André Bjerke",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
   "tune": [
     {
       "name": "Finn Kalvik",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    },
+    {
+      "name": "André Bjerke",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -16,14 +31,28 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
-  "info": "",
+  "musicalKey": "D",
+  "info": "Norwegisch",
   "changes": [
     {
       "date": 1678728187746,
       "name": "cätch",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706981227655,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707146568117,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

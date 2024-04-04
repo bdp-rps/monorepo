@@ -1,22 +1,30 @@
 {
   "notation": "",
-  "content": "/:{e}Wir zogen in das Feld, :/\nda hätten wir weder Säckl noch Geld.\n\nStrampe{H7}de mi\n/:{e}a la mi pres{a}ente al {e}vostra {H7}signor{e}i.:/\n\n/:Wir kamn vor Siebentod, :/\nDa hätten wir weder Wein noch Brot.\n\n/:Wir kamen vor Friaul, :/\nda hätten wir allesamt voll Maul.\n\n/:Wir kamn vor Benevent, :/\nda hätte all unsre Not ein End.\n\n/:Wir kamen vor Triest, :/\nda hätten wir allesamt die Pest.\n\n/:Wir kamen auch nach Rom, :/\nda sperrten wir die Pferde in den Petersdom.\n\n/:Wir kamn nochmal nach Rom, :/\nda schossen wir des Papstes Sohn.",
+  "content": "{d}Wir zogen in das Feld. {F}Wir zogen in das Feld,\nda hätten wir weder Säckl noch Geld.\n\n{d}Stram-{A}pe-{d}de-{A}mi, /: {d}a la mi presen{g}te al {d}vostra {A}signor{d}i. :/\n\n/: Wir kam'n vor Siebentod :/ da hätten wir weder Wein noch Brot.\n\n/: Wir kamen vor Friaul :/ da hätten wir allesamt voll Maul.\n\n/: Wir kam'n vor Benevent :/ da hätt all uns're Not ein End.",
   "title": "Wir zogen in das Feld",
   "words": [
     {
-      "name": "Landsknechtmarsch",
+      "name": "Georg Forster",
       "nickname": "",
-      "group": "Georg Forster(1514-1568)",
+      "group": "",
       "organisation": "",
       "year": "1540"
     }
   ],
-  "tune": [],
+  "tune": [
+    {
+      "name": "Georg Forster",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1540"
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Dm",
   "info": "Eines der ältesten noch bekannten Landsknechtlieder. Überliefert von 1509 aus den italienischen Feldzühen Kaiser Karls V. Der italienisch klingende Teil ist Landsknecht-Umgangssprache, die unterschiedlich gedeutet wird. Es heißt in etwa: An die Waffen, ihr Herren!",
   "changes": [
     {
@@ -24,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706978313740,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

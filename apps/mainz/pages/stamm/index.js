@@ -27,11 +27,6 @@ export default () => (
           Neue Gesichter sind hier herzlich willkommen!
         </Text>{' '}
         <br />
-        Unsere nächste offene Gruppenstunde zum Reinschnuppern findet am 1. März
-        von 17 bis 18:30 Uhr in unserem Gruppenraum in der Gemeinde Liebfrauen
-        statt (Moselstraße 30).
-        <br />
-        <br />
         Der Name Tilia Tilia ist der lateinische Name für Linde. Linden wurden
         früher in vielen Dörfern auf dem Marktplatz, also in der Dorfmitte
         gepflanzt. Sie waren ein wichtiger Treffpunkt, ein Ort der versammelten

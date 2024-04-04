@@ -1,0 +1,45 @@
+{
+  "notation": "",
+  "content": "{a}Mir lebn ejbik, es brent a {E}welt. Mir lebn ejbik, on a groschn {a}gelt.\nUn ojf {G}tsepukenis di {C}ale sonim, wos wiln {H7}undz farschwartsn {E}undzer ponim.\nMir lebn {a}ejbik, mir zenen {E}do. Mir lebn ejbik, in jeder {a}scho.\nMir weln {G}lebn und {C}erlebn, schlechte {d}zajtn ariber{E}lebn.\nMir lebn ejbik, mir zenen {a}do.",
+  "title": "Mir lebn ejbik",
+  "words": [
+    {
+      "name": "Lejb Rosenthal",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1943"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Lejb Rosenthal",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1943"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "Übersetzung:\n\nWir leben ewig. Es brennt eine Welt.\nWir leben ewig ohne einen Groschen Geld.\nAllen Feinden zum Trotz.\nDie uns anschwärzen.\nWir leben ewig, wir sind da.\nWir leben ewig in jeder Stunde.\nWir wollen leben und erleben.\nUnd schlechte Zeiten überleben.\nWir leben ewig, wir sind da.",
+  "changes": [
+    {
+      "date": 1701376924790,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1707055352874,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}

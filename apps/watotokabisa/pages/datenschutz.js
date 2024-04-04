@@ -19,11 +19,9 @@ export default () => {
   return (
     <Template heroHeight="60vh">
       <Head>
-        <title>Datenschutz - Watoto Kabisa </title>
-        <meta
-          type="description"
-          content="Hier findet ihr die Datenschutzrichtlinie von Watoto Kabisa"
-        />
+        <title>Watoto Kabisa - Datenschutz</title>
+        <meta name="title" content="Watoto Kabisa - Datenschutz" />
+        <meta name="description" content="Unsere Datenschutzklärung." />
       </Head>
       <Box bg="background.primary">
         <Layout space={15} paddingTop={15} paddingBottom={25}>

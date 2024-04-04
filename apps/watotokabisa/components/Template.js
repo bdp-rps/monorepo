@@ -75,21 +75,22 @@ export default function Template({
 
       <Box height={heroHeight} width="100%" bg="rgba(0,0,0,0.3)">
         <Box
+          role="presentation"
           extend={{
             zIndex: -1,
             pointerEvents: 'none',
             position: 'fixed',
             width: '100vw',
             height: '100vh',
-            filter: 'contrast(0.9)',
+            filter: 'contrast(0.9) brightness(0.9)',
           }}>
           <El
             as={Image}
             src={image || defaultImage}
-            priority
+            alt=""
             layout="fill"
             objectFit="cover"
-            placeholder="blur"
+            placeholder={typeof image === 'string' ? undefined : 'blur'}
           />
         </Box>
         <Box
@@ -99,6 +100,7 @@ export default function Template({
           display={['flex', , , 'none']}>
           <Logo />
           <IconButton
+            label="Menü öffnen"
             icon={(props) => <IconMenu fill="white" {...props} />}
             iconSize={40}
             onClick={() => setMenuVisible(true)}

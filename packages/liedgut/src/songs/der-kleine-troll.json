@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{D}Steigt so ein kleiner {h}Troll von dem Fjäll, {A}nähert sich {D}leis',\n//: {G}hat in der Hand {D}Hexenkraut, {A}was niemand {D}weiß. ://\n\n{D}Sitzt du am {G}Feuer und die {e}Lieder sind ver{A}weht, {D}dann {G}bleib' {A}ganz {D}stumm.\nDenn in dem {G}Land, das dich um{e}gibt, ist was er{A}wacht {D}und sch{G}leicht {A}her{D}um.\n\nPlötzlich in deinem Nacken spürst du eiskalten Hauch,\n//: Atem des Trolls trifft dich wie giftiger Rauch. ://\n\nDu führst den Becher Tee nun zum Mund. Was zauderst du?\n//: Blütenstaub im Zaubertrank raubt dir die Ruh'. ://\n\nWenn du in dieser Nacht deinen Schlaf findest nicht mehr:\n//: Der kleine Troll macht deine Träume so schwer. ://",
+  "content": "{D}Steigt so ein kleiner {h}Troll von dem Fjäll, {A}nähert sich {D}leis',\n/: {G}hat in der Hand {D}Hexenkraut, {A}was niemand {D}weiß. :/\n\n{D}Sitzt du am {G}Feuer und die {e}Lieder sind ver{A}weht, {D}dann {G}bleib' {A}ganz {D}stumm.\nDenn in dem {G}Land, das dich um{e}gibt, ist was er{A}wacht {D}und sch{G}leicht {A}her{D}um.\n\nPlötzlich in deinem Nacken spürst du eiskalten Hauch,\n/: Atem des Trolls trifft dich wie giftiger Rauch. :/\n\nDu führst den Becher Tee nun zum Mund. Was zauderst du?\n/: Blütenstaub im Zaubertrank raubt dir die Ruh'. :/\n\nWenn du in dieser Nacht deinen Schlaf findest nicht mehr:\n/: Der kleine Troll macht deine Träume so schwer. :/",
   "title": "Der kleine Troll",
   "words": [
     {
@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "D",
-  "info": "",
+  "info": "Mac erzählt die Entstehungsgeschichte des Liedes folgendermaßen:\n\n\"Mit meinen Gruppen war ich einige Male in Norwegen. Unsere schönsten Wanderungen waren die über die weiten Fjell-Flächen der Hardangervidda. Da gibt es unzählige Bäche, deren Wasser wir zum Teckochen benutzten. Selten mundete uns Tee so gut wie wenn wir ihn dort mit Quellwasser zubereiteten. Eines Abends, an einem Feuer, das wir mit krüppeligem Zwergbirkenholz mühsam unterhielten, erzählte ich Geschichten. Ich erfand eine märchenhafte Fantasy-Story, in der natürlich, dem Land angepasst, Trolle eine Hauptrolle spielten. Später, als die Gruppe schlief und ich noch am verglimmenden Feuer saß, improvisierte ich beiläufig leise auf der Gitarre, zumal ich bemerkte, dass der Schlaf der anderen sehr unruhig war. Vielleicht hatten wir zuviel Tee getrunken. Am folgenden Morgen erzählten mir die jungen von ihren unruhigen Träumen. Einer hatte überhaupt zum ersten Mal geträumt. Er hätte überhaupt noch nie in seinem Leben einen Traum gehabt, behauptete er. Ob da vielleicht ein kleiner Troll ein Spielchen mit uns trieb? Am nächsten Abend, spät in der Feuerrunde, meinte einer, er hätte etwas vorbeihuschen gesehen. Vielleicht ein Troll? Es wurde mucksmäuschenstill. Einer glaubte, Schleichgeräusche zu hören. Es war eine seltsame Stimmung zwischen Wirklichkeit und Unwirklichkeit. In dieser Nacht entstand das Lied. Der kleine Troll\".\"",
   "changes": [
     {
       "date": 1679406266253,
@@ -40,6 +40,13 @@
       "mail": "chrissistaudt@googlemail.com",
       "type": "update",
       "content": "1. Die Akkorde im Refrain etwas umgesetzt und ergänzt, Insbesondere den DGAD-Lauf am Versende (Wobei ich für die ergänzten Akkorde im Moment keine saubere Quelle habe, die hatte ich von irgendeiner Kopie mal in eigene Liederbücher übernommen, die Kopie finde ich aber gerade nicht).\n2. Einige Zeilenumbrüche weg genommen, um auf einer Seite zu bleiben.\n3. Tonart hinzugefügt und Takt angepasst (Allerdings gibt es auch einige Versionen in C-Dur, entsprechend transponiert)"
+    },
+    {
+      "date": 1706985757618,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ]
 }

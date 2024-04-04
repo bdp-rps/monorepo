@@ -8,11 +8,14 @@ const fonts = {
 const colors = {
   yellow: 'rgb(255, 203, 4)',
   yellowLight: 'rgb(245, 193, 0)',
+  yellowLighter: 'rgb(255, 215, 80)',
   blue: 'rgb(29, 72, 153)',
   blueLight: 'rgb(39, 82, 163)',
+  blueLighter: 'rgb(82, 129, 200)',
   brown: 'rgb(107, 92, 72)',
   red: 'rgb(211, 0, 20)',
   redLight: 'rgb(221, 10, 30)',
+  redLighter: 'rgb(240, 71, 80)',
 }
 
 export default {

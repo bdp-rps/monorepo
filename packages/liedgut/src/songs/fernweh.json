@@ -25,13 +25,20 @@
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "D",
-  "info": "",
+  "info": "Hussa (Werner Helwig, 1905 - 1985) war Schriftsteller und aktives Mitglied im Nerother Wandervogel. 1931 wurde er wegen \"Unzucht mit Kindern\" zu einer Gefängnisstrafe verurteilt.",
   "changes": [
     {
       "date": 1681417161070,
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706971623562,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

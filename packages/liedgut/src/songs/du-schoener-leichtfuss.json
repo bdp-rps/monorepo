@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Du schöner {a}Leichtfuß, mit diesen Augen.\nIch {F}würde dich so {G}gern ganz bald mal {C}wiederseh'n,\nmich {d}selbst nicht mehr versteh'n, denn dich {a}brauch ich, um den {F}Sommer anzuhalten, \nda{C}mit nicht so bald wieder {G}Winter wird. Kalter {a}Winter wird, einsamer {E}Winter wird.\n\n{F}Mit dir wär jeden Tag Markt {C}unter meinem Fenster,\n{d}du wärst der, über den ich {a}schimpfen kann,\nmit dem Ge{G}müsemann oder der {E}Blumenfrau!\nUnd viel{F}leicht hängt sie dann mal einen {C}Mistelzweig über {E}uns?\n\nDas was in mir ist, es würde nie wieder leise,\nbeim Bier auf'm Platz wär ich nicht mehr allein.\nWir {F}zwei würden uns {C}- nie verraten,\nund ich {d}könnte jede Nacht ganz {E}real bei dir {E7}sein!\n\nIm alten Sommerregen würden wir tanzen im Hof,\nder Biergarten könnte das Hauptquartier sein.\nIch glaub fast für dich fänd' ich nie die besten Worte,\ndoch ich weiß, es könnte großartig sein.",
+  "content": "Du schöner {a}Leichtfuß, mit diesen Augen.\nIch {F}würde dich so {G}gern ganz bald mal {C}wiederseh'n,\nmich {d}selbst nicht mehr versteh'n, denn dich {a}brauch ich, um den {F}Sommer anzuhalten, \nda{C}mit nicht so bald wieder {G}Winter wird. Kalter {a}Winter wird, einsamer {E}Winter wird.\n\nMit {F}dir wär jeden Tag Markt {C}unter meinem Fenster,\n{d}du wärst der, über den ich {a}schimpfen kann,\nmit dem Ge{G}müsemann oder der {E}Blumenfrau.\nUnd viel{F}leicht hängt sie dann mal einen {C}Mistelzweig über {E}uns?\n\nDas was in mir ist, es würde nie wieder leise,\nbeim Bier aufm Platz wär ich nicht mehr allein.\nWir {F}zwei würden uns {C}nie verraten,\nund ich {d}könnte jede Nacht ganz {E}real bei dir {E7}sein.\n\nIm alten Sommerregen würden wir tanzen im Hof,\nder Biergarten könnte das Hauptquartier sein?\nIch glaub fast für dich find ich nie die besten Worte,\ndoch ich weiß, es könnte großartig sein.",
   "title": "Du schöner Leichtfuß",
   "words": [
     {
@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
   "tempo": "80",
   "musicalKey": "Am",
@@ -37,6 +37,20 @@
     {
       "date": 1687433371317,
       "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706989422529,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1708706976884,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""

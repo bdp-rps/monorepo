@@ -1,9 +1,25 @@
 {
   "notation": "",
-  "content": "{e}Wir sind das {a}Bauvolk der {H7}kommenden {e}Welt.\n{a}Wir sind der {e}Sämann, die {H7}Saat und das {e}Feld.\nWir sind die Schnitter der kommenden Mahd.\nWir sind die Zukunft und wir sind die Tat.\n\nSo flieg' du {H7}flammende, du rote {e}Fahne,\nvoran dem {D}Wege den wir {G}zieh'n.\nWir sind der {a}Zukunft getreue {e}Kämpfer,\nwir sind die {a}Arbei{H7}ter von {e}Wien.\n\nHerrn der Fabriken, ihr Herren der Welt,\nendlich wird eure Herrschaft gefällt.\nWir, die Armee, die die Zukunft erschafft\nsprengen der Fesseln engende Haft.\n\nWie auch die Lüge uns schmähend umkreist.\nAlles besiegend erhebt sich der Geist.\nKerker und Eisen zerbricht seine Macht.\nWenn wir uns rüsten zur letzten Schlacht.",
+  "content": "{e}Wir sind das {a}Bauvolk der {H7}kommenden {e}Welt.\n{a}Wir sind der {e}Sämann, die {H7}Saat und das {e}Feld.\nWir sind die Schnitter der kommenden Mahd.\nWir sind die Zukunft und wir sind die Tat.\n\nSo flieg' du {H7}flammende, du rote {e}Fahne, voran dem {D}Wege den wir {G}zieh'n.\nWir sind der {a}Zukunft getreue {e}Kämpfer, wir sind die {a}Arbei{H7}ter von {e}Wien.\n\nHerrn der Fabriken, ihr Herren der Welt, endlich wird eure Herrschaft gefällt.\nWir, die Armee, die die Zukunft erschafft sprengen der Fesseln engende Haft.\n\nWie auch die Lüge uns schmähend umkreist. Alles besiegend erhebt sich der Geist.\nKerker und Eisen zerbricht seine Macht. Wenn wir uns rüsten zur letzten Schlacht.",
   "title": "Die Arbeiter von Wien",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Fritz Brügel",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Samuel Pokrass",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
@@ -16,6 +32,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1707003452628,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
