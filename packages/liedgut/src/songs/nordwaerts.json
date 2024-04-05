@@ -44,5 +44,21 @@
   ],
   "translation": [],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 0.9
+        }
+      },
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1.1
+        }
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Gospodar, dein {d}Großgut {a}birgt heut {E}uns're {a}Band. {C}Unsre guten Flinten {G}lehnen an der {C}Wand. \n/: {a}Frost knarrt in den {d}Ästen, {G7}Wind pfeift durch die {C}Ritz. {a}Gute Wärme {d}gibst du, {a}Bruder {E7}Sliwo{a}witz. :/\n\nTrieben wir die Fremden übers Jahr erst aus, Gospodar, wer glaubst du, bleibt im Herrschaftshaus?\n/: Werd' ich knechtisch aufsteh'n, wo ich mächtig sitz? Sind nicht solche Tölpel, Bruder Sliwowitz. :/\n\nHaben unser Herzblut nicht für nichts vertan, alles für die Seinen will der Partisan.\n/: Mutterschaf und Lämmer, Gänse, Geiß und Kitz, Kürbis und Melone, Mais und Sliwowitz. :/\n\nSind die wilden Schweine aus dem Land verjagt, die verkohlten Hütten aufgebaut und ragt\n/: blank im Dorf der Maibaum, Flattern und Geflitz. Oh, wie wird das schön sein Bruder Sliwowitz. :/",
+  "content": "{a}Gospodar, dein {d}Großgut {a}birgt heut {E}uns're {a}Band.\n{C}Unsre guten Flinten {G}lehnen an der {C}Wand. \n/: {a}Frost knarrt in den {d}Ästen, {G7}Wind pfeift durch die {C}Ritz.\n{a}Gute Wärme {d}gibst du, {a}Bruder {E7}Sliwo{a}witz. :/\n\nTrieben wir die Fremden übers Jahr erst aus, Gospodar,\nwer glaubst du, bleibt im Herrschaftshaus?\n/: Werd' ich knechtisch aufsteh'n, wo ich mächtig sitz?\nSind nicht solche Tölpel, Bruder Sliwowitz. :/\n\nHaben unser Herzblut nicht für nichts vertan,\nalles für die Seinen will der Partisan.\n/: Mutterschaf und Lämmer, Gänse, Geiß und Kitz,\nKürbis und Melone, Mais und Sliwowitz. :/\n\nSind die wilden Schweine aus dem Land verjagt,\ndie verkohlten Hütten aufgebaut und ragt\n/: blank im Dorf der Maibaum, Flattern und Geflitz.\nOh, wie wird das schön sein Bruder Sliwowitz. :/",
   "title": "Gospodar",
   "words": [
     {
@@ -41,5 +41,24 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1.05
+        }
+      },
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 0.7
+        }
+      },
+      {
+        "type": "authors_single_line"
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Fern hallt {a}Musik, doch hier ist stille Nacht, mit {e}Schlummerduft anhauchen mich die \nPflanzen. Ich habe {d}immer, immer dein gedacht; ich möchte {E}schlafen, aber du musst \ntanzen, aber du musst {a}tanzen, aber du musst {F}tanzen, aber du musst\n{E}tanzen, aber du musst {a}tanzen. /: La-la-la-lei {F}la-la-la-la-lei, {E}la-la-la-lei {a}la-la-la-la-lei :/\n\nEs hört nicht auf, es rast ohn' Unterlass; die Kerzen brennen und die Geigen schreien,\nes teilen und es schließen sich die Reihen und alle glühen, aber du bist blass...\n\nUnd du musst tanzen, fremde Arme schmiegen sich an dein Herz, o leide nicht Gewalt.\nIch seh' dein weißes Kleid vorüberfliegen und deine leichte, zärtliche Gestalt. \nAber du musst tanzen...\n\nUnd süßer strömend quillt der Duft der Nacht und träumerischer aus dem Kelch der Pflanze. Ich habe immer, immer dein gedacht, ich möchte schlafen, aber du musst tanzen..",
+  "content": "Fern hallt {a}Musik, doch hier ist stille Nacht, mit {e}Schlummerduft anhauchen mich die \nPflanzen. Ich habe {d}immer, immer dein gedacht; ich möchte {E}schlafen, aber du musst \ntanzen, aber du musst {a}tanzen, aber du musst {F}tanzen, aber du musst\n{E}tanzen, aber du musst {a}tanzen. /: La-la-la-lei, la-la-la-la-{F}lei, la-la-la-{E}lei la-la-la-la-{a}lei :/\n\nEs hört nicht auf, es rast ohn' Unterlass; die Kerzen brennen und die Geigen schreien,\nes teilen und es schließen sich die Reihen und alle glühen, aber du bist blass...\n\nUnd du musst tanzen, fremde Arme schmiegen sich an dein Herz, o leide nicht Gewalt.\nIch seh' dein weißes Kleid vorüberfliegen und deine leichte, zärtliche Gestalt. \nAber du musst tanzen...\n\nUnd süßer strömend quillt der Duft der Nacht und träumerischer aus dem Kelch der Pflanze. Ich habe immer, immer dein gedacht, ich möchte schlafen, aber du musst tanzen..",
   "title": "Hyazinthen",
   "words": [
     {
@@ -48,5 +48,6 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

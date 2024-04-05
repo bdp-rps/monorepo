@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Von {a}Sonn und Kessel schwarzgebrannt, und auch vom scharfen {E}Wind,\nsteht Jalava am Führerstand, wo Dampf und Flammen {a}sind.\nSein {d}neuer Heizer ist dabei, der {a}ihm das Feuer nährt,\nauf der {E}Lokomotive zwei-neun-drei, die {a}heut nach Russland {E}fährt.\nEin {a}kleiner Mann von schmalem Bau, der werkt dort auf der {E}Brücke,\nRuß im Gesicht, das Haar ist grau, es war eine {a}Perücke.\n{d}Jalava, Jalava, du Finne, was {a}lachst du gegen den Wind?\nIch {E}lache, weil meine Sinne alle beisammen sind,\nund {d}weil wir weiter kamen, und {a}weil die Welt sich dreht,\n\nund {E}weil mein Heizer von Flammen und von {a}Dampfkesseln {E}was {a}versteht.\n\nSie dampfen ein in Beloostrow, wo Schocks von Offizieren\ndie Züge auf dem Grenzbahnhof penibel kontrollieren.\nSie prüfen jegliches Gesicht bei ihrer Inspizierung,\ndoch sehen sie am Kessel nicht den Staatsfeind der Regierung.\nJalava weiß, worum es geht, und langsam dampft vorbei\nam letzten Posten, der dort steht, die Lokomotive zwei-neun-drei.\n\nDa saust die Grenzstation vorbei, die Birken stehen nackt,\ndie Lokomotive zwei-neun-drei schnauft in erhöhtem Takt.\nUnd Jalava lacht in den Wind, in den Oktoberregen.\nHeizer, wenn wir drüben sind, dann wird sich was bewegen.\nJetzt schneidet der Oktoberwind die letzten Äpfel an,\ndie an den kahlen Bäumen sind an der finnischen Eisenbahn.\n\n... und weil die Fahrt in den Bahnhof hinter die Grenze führt,\nund Wladimir Iljitsch Uljanow, mein Heizer, die Flammen schürt.",
+  "content": "Von {a}Sonn und Kessel schwarzgebrannt, und auch vom scharfen {E}Wind,\nsteht Jalava am Führerstand, wo Dampf und Flammen {a}sind.\nSein {d}neuer Heizer ist dabei, der {a}ihm das Feuer nährt,\nauf der {E}Lokomotive zwei-neun-drei, die {a}heut nach Russland {E}fährt.\nEin {a}kleiner Mann von schmalem Bau, der werkt dort auf der {E}Brücke,\nRuß im Gesicht, das Haar ist grau, es war eine {a}Perücke.\n\n{d}Jalava, Jalava, du Finne, was {a}lachst du gegen den Wind?\nIch {E}lache, weil meine Sinne alle beisammen sind,\nund {d}weil wir weiter kamen, und {a}weil die Welt sich dreht,\nund {E}weil mein Heizer von Flammen und von {a}Dampfkesseln {E}was {a}versteht.\n\nSie dampfen ein in Beloostrow, wo Schocks von Offizieren\ndie Züge auf dem Grenzbahnhof penibel kontrollieren.\nSie prüfen jegliches Gesicht bei ihrer Inspizierung,\ndoch sehen sie am Kessel nicht den Staatsfeind der Regierung.\nJalava weiß, worum es geht, und langsam dampft vorbei\nam letzten Posten, der dort steht, die Lokomotive zwei-neun-drei.\n\nDa saust die Grenzstation vorbei, die Birken stehen nackt,\ndie Lokomotive zwei-neun-drei schnauft in erhöhtem Takt.\nUnd Jalava lacht in den Wind, in den Oktoberregen.\nHeizer, wenn wir drüben sind, dann wird sich was bewegen.\nJetzt schneidet der Oktoberwind die letzten Äpfel an,\ndie an den kahlen Bäumen sind an der finnischen Eisenbahn.\n\n... und weil die Fahrt in den Bahnhof hinter die Grenze führt,\nund Wladimir Iljitsch Uljanow, mein Heizer, die Flammen schürt.",
   "title": "Jalava",
   "words": [
     {
@@ -48,5 +48,28 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "blocks": [
+          1
+        ],
+        "style": {
+          "lineHeight": 0.98
+        }
+      },
+      {
+        "type": "block",
+        "blocks": [
+          1,
+          2
+        ],
+        "style": {
+          "lineHeight": 0.98
+        }
+      }
+    ]
+  }
 }

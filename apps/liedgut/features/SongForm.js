@@ -30,6 +30,7 @@ import Song from '../components/Song'
 import ListItem from '../components/ListItem'
 
 import normalizeChord from '../utils/normalizeChord'
+import { useRouter } from 'next/router'
 
 const defaultSong = {
   notation: '',
@@ -43,6 +44,7 @@ const defaultSong = {
   tempo: 60,
   musicalKey: '',
   info: '',
+  specialSettings: {},
 }
 
 const TabNavContext = createContext()
@@ -136,10 +138,14 @@ function debounce(func, duration) {
 }
 
 export default function SongForm({ initialSong = defaultSong, onSubmit }) {
+  const router = useRouter()
   const [isMounted, setMounted] = useState(false)
 
   const textAreaRef = useRef()
-  const [song, setSong] = useState(initialSong)
+  const [song, setSong] = useState(() => ({
+    ...initialSong,
+    specialSettings: JSON.stringify(initialSong.specialSettings, null, 2),
+  }))
   const [author, setAuthor] = useState(defaultAuthor)
   const [submitter, setSubmitter] = useState(defaultSubmitter)
   const [tab, setTab] = useState('details')
@@ -180,6 +186,11 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
     }
   }, [song, author])
 
+  let specialSettings = {}
+  try {
+    specialSettings = JSON.parse(song.specialSettings)
+  } catch (e) {}
+
   return (
     <Box
       direction={['column', , , 'row']}
@@ -196,6 +207,9 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
           </TabNavItem>
           <TabNavItem active={tab === 'melody'} id="melody">
             Melodie
+          </TabNavItem>
+          <TabNavItem active={tab === 'settings'} id="settings">
+            Settings
           </TabNavItem>
         </TabNav>
         <Box
@@ -506,7 +520,49 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               }
             />
           </Box>
+          <Box
+            grow={1}
+            space={3}
+            padding={5}
+            display={tab === 'settings' ? 'flex' : 'none'}>
+            <Button
+              size="small"
+              onClick={() => {
+                // Create a new link
+                const data = JSON.stringify({ ...song, specialSettings })
+                const blob = new Blob([data], { type: 'application/json' })
+                const url = URL.createObjectURL(blob)
+
+                const anchor = document.createElement('a')
+                anchor.href = url
+                anchor.download = router.query.id + '.json'
+
+                // Append to the DOM
+                document.body.appendChild(anchor)
+
+                // Trigger `click` event
+                anchor.click()
+
+                // Remove element from DOM
+                document.body.removeChild(anchor)
+              }}>
+              Raw Download
+            </Button>
+            <TextArea
+              extend={{ minHeight: 400, flexGrow: 1 }}
+              name="settings"
+              description="Spezielle Settings für die Liederbücher. Bitte nur anfassen, wer Ahnung hat!"
+              value={song.specialSettings}
+              onChange={(e) =>
+                setSong({
+                  ...song,
+                  specialSettings: e.target.value,
+                })
+              }
+            />
+          </Box>
         </Box>
+
         <Box
           padding={2}
           space={2}
@@ -556,7 +612,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               <Box height={500}>
                 <PDFViewer key={previewRefresh} width="100%" height="100%">
                   <Document>
-                    <PDFSong {...song} />
+                    <PDFSong {...song} specialSettings={specialSettings} />
                   </Document>
                 </PDFViewer>
               </Box>

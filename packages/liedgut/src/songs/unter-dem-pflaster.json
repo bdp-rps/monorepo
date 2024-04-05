@@ -69,5 +69,15 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 1
+        }
+      }
+    ]
+  }
 }

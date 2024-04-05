@@ -55,5 +55,12 @@
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {
+    "holzwurm": [
+      { "type": "authors_single_line" },
+      { "type": "block", "blocks": [2, 3], "style": { "lineHeight": 1.15 } },
+      { "type": "space", "style": { "lineHeight": 1.1 } }
+    ]
+  }
 }

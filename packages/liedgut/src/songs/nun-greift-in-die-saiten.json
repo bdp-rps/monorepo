@@ -41,5 +41,21 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 1
+        }
+      },
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1.15
+        }
+      }
+    ]
+  }
 }

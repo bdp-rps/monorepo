@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Noch {e}liegt sie ruhig {D}am {G}Hafen{D}kai, heave a{e}way, Santi{D}ano.\n{a}Sechzig Mann, ich bin {D}auch dabei, auf dem {C}Dreimast{D}kahn Sant{e}iano.\nLet's go for Ca{D}lif{G}orn{D}io, heave a{e}way, Sant{D}iano.\nSie {a}jagt vor dem Wind vorwärts {D}hin, pfeilgeschwind, bis zum {C}gold'nen {D}Port von {e}Frisco.\n\nIch lasse die Margot zurück, hisset et oh, Santiano.  Denk' ich an sie, was mich sehr bedrückt, sail ich längst auf der Santiano. On y va a Californio, hisset et oh, Santiano.\n\nMan sagt vor Sacramento, zijl omhog, Santiano,  liegt Gold und Geld in der neuen Welt, so viel wie nirgend sonst wo. Laat gaan naar Californio, zijl omhog, Santiano.\n\nKehr' ich dann heim zu der Margot, iza la, Santiano, ist von Gold der Ring, den ich dann für sie bring und er kommt auf der Santiano. Vamos a Californio, irza la, Santiano.\n\nLet's go for Californio, on y va a Californio, laat gaan naar Californio, vamos a Californio,\nirza la, Santiano, sie jagt vor dem Wind...",
+  "content": "Noch {e}liegt sie ruhig {D}am {G}Hafen{D}kai, heave a{e}way, Santi{D}ano.\n{a}Sechzig Mann, ich bin {D}auch dabei, auf dem {C}Dreimast{D}kahn Sant{e}iano.\nLet's go for Ca{D}lif{G}orn{D}io, heave a{e}way, Sant{D}iano.\nSie {a}jagt vor dem Wind vorwärts {D}hin, pfeilgeschwind, bis zum {C}gold'nen {D}Port von {e}Frisco.\n\nIch lasse die Margot zurück, hisset et oh, Santiano. Denk' ich an sie, was mich sehr bedrückt, sail ich längst auf der Santiano. On y va a Californio, hisset et oh, Santiano.\n\nMan sagt vor Sacramento, zijl omhog, Santiano, liegt Gold und Geld in der neuen Welt, so viel wie nirgend sonst wo. Laat gaan naar Californio, zijl omhog, Santiano.\n\nKehr' ich dann heim zu der Margot, iza la, Santiano, ist von Gold der Ring, den ich dann für sie bring und er kommt auf der Santiano. Vamos a Californio, irza la, Santiano.\n\nLet's go for Californio, on y va a Californio, laat gaan naar Californio, vamos a Californio,\nirza la, Santiano, sie jagt vor dem Wind...",
   "title": "Santiano",
   "words": [
     {
@@ -48,5 +48,21 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 1
+        }
+      },
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1.15
+        }
+      }
+    ]
+  }
 }
