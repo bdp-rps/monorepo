@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Seit {d}Tagen schon wandern wir {B}im Schein der südlichen {F}Sonne durch felsiges {C}Land.\nAuf {d}Wegen nach Süden, durch {B}Wälder und Täler am {F}Fiume Isarco {C}entlang.\n/: {B}Rechts und Links des {F}Weges auf dem wir nun {C}unserm Ziele zu {d}zieh'n,\nsah ich, {B}wachsend kriechend, er{F}klimmend und duftend und {A}strahlend weiße Jas{d}min. :/\n\nDer Weg führt uns weiter auf jenen fernen Gipfel, auf dem uns'rer Freunde Zelte steh'n. \nWo am Abend beim Feuer die Lieder und Becher uns allen in der Runde geh'n. \n/: Ach, ich wünschte, ihr hättet gesehen, Freunde, was ich heut sah, \nmeine Wunderblume so freundlich, so zart und so liebreizend schön und so nah. :/\n\nSo wahr' ich die Erinnerung'n an diese schönen Tage, Wälder und Täler in mir, \nso dass ich vielleicht ja eines fernen Tages wieder hier sein werde, bei dir. \n/: Ach, du Blume meines Herzens, ich wünschte nur, ich könnte dich mit mir nehm', \ndenn ich könnte dich Tag und Nacht, still und stumm zwar, doch auf ewig nur anseh'n :/",
+  "content": "Seit {d}Tagen schon wandern wir {B}im Schein der südlichen {F}Sonne durch felsiges {C}Land.\nAuf {d}Wegen nach Süden, durch {B}Wälder und Täler am {F}Fiume Isarco {C}entlang.\n/: {B}Rechts und Links des {F}Weges auf dem wir nun {C}unserm Ziele zu {d}ziehn,\nsah ich, {B}wachsend kriechend, er{F}klimmend und duftend und {A}strahlend weiße Jas{d}min. :/\n\nDer Weg führt uns weiter auf jenen fernen Gipfel, auf dem unsrer Freunde Zelte stehn. \nWo am Abend beim Feuer die Lieder und Becher uns allen in der Runde gehn. \n/: Ach, ich wünschte, ihr hättet gesehen, Freunde, was ich heut sah, \nmeine Wunderblume so freundlich, so zart und so liebreizend schön und so nah. :/\n\nSo wahr ich die Erinnerung'n an diese schönen Tage, Wälder und Täler in mir, \nso dass ich vielleicht ja eines fernen Tages wieder hier sein werde, bei dir. \n/: Ach, du Blume meines Herzens, ich wünschte nur, ich könnte dich mit mir nehm, \ndenn ich könnte dich Tag und Nacht, still und stumm zwar, doch auf ewig nur ansehn :/",
   "title": "Jasmin",
   "words": [
     {
@@ -53,7 +53,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712525134613,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "Dm"
+  "musicalKey": "Dm",
+  "specialSettings": {}
 }
