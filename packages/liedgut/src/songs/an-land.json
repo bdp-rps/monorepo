@@ -21,7 +21,7 @@
   "beat": "6/8",
   "tempo": "130",
   "info": "",
-  "content": "{D}Heute wird wohl kein {h}Schiff mehr gehen und {e}keiner geht vor die {A}Tür.\n{D}Alle sind heute ver{h}schüchtert, nur {e}ich bin es nicht, und {A}das liegt an dir.\nAm {fis}Fenster fliegt eine {h}Kuh vorbei, da kommt {G}jede Hilfe zu {g}spät.\n{D}Ein {h}Glas auf die {e}Kuh, und {A}eins auf die {D}See  {A}\n\nIch liebe die See, und sie liebt mich auch. Hörst du, wie sie nach mir brüllt.\nIch hätte sie niemals verlassen sollen, das ist, was sie mir klarmachen will.\nWenn hinter uns nicht der Deich wär, käm jede Hilfe zu spät.\nEin Glas auf den Deich, und eins auf die See.\n\nHier wurd' ich an Land gespült. Hier setz ich mich fest.\nVon dir weht mich kein Sturm mehr fort, bei dir werd ich bleiben, solang du mich lässt.\nDeine Hand kommt in meine und jede Hilfe zu spät.\nEin Glas auf uns, und eins auf die See.",
+  "content": "{D}Heute wird wohl kein {h}Schiff mehr gehen und {e}keiner geht vor die {A}Tür.\n{D}Alle sind heute ver{h}schüchtert, nur {e}ich bin es nicht, und {A}das liegt an dir.\nAm {fis}Fenster fliegt eine {h}Kuh vorbei, da kommt {G}jede Hilfe zu {g}spät.\n{D}Ein {h}Glas auf die {e}Kuh, und {A}eins auf die {D}See  {A}\n\nIch liebe die See, und sie liebt mich auch, hörst du, wie sie nach mir brüllt?\nIch hätte sie niemals verlassen soll'n, das ist, was sie mir klarmachen will.\nWenn hinter uns nicht der Deich wär, käm jede Hilfe zu spät.\nEin Glas auf den Deich, und eins auf die See.\n\nHier wurd' ich an Land gespült. Hier setz ich mich fest.\nVon dir weht mich kein Sturm mehr fort, bei dir werd ich bleiben, solang du mich lässt.\nDeine Hand kommt in meine und jede Hilfe zu spät.\nEin Glas auf uns, und eins auf die See.",
   "changes": [
     {
       "name": "Robin Weser",
@@ -32,6 +32,13 @@
     {
       "date": 1687428284657,
       "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712497994050,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""
