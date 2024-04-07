@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "/: {e}Dire-gelt un {H7}oj, oj, oj, {e}dire-gelt un {H7}bosche moj!\n{e}Dire-gelt un gr{a}adjewoj, {H7}dire-gelt mus men ts{e}oln :/\n\n{e}Kumt arajn der schtr{a}usch, {e}nemt er arop dos {a}hitl,\nun {e}as men tsolt im nit kejn {a}dire-gelt, {H7}hengt er arojs a {e}kw{D}itl.\n\n{G}Dire-gelt un {D}oj, oj, oj, {e}dire-gelt un {H7}bosche moj ...\n\nKumt arajn der schontse mit dem grobn schtekn,\nun as men git im net kejn dire-gelt, schtelt er arojs di betn.\n\nOj, farwos sol ich ajch gebn dire-gelt, as di kich is tserbrochn?\nOj, farwos sol ich ajch tsoln dire-gelt, as ich hob nischt ojf wos tsu kochn?",
+  "content": "/: {e}Dire-gelt un {H7}oj, oj, oj, {e}dire-gelt un {H7}bosche moj!\n{e}Dire-gelt un {a}gradjewoj, {H7}dire-gelt mus men {e}tsoln :/\n\n{e}Kumt arajn der schtr{a}usch, {e}nemt er arop dos {a}hitl,\nun {e}as men tsolt im nit kejn {a}dire-gelt, {H7}hengt er arojs a {e}kw{D}itl.\n\n{G}Dire-gelt un {D}oj, oj, oj, {e}dire-gelt un {H7}bosche moj ...\n\nKumt arajn der schontse mit dem grobn schtekn,\nun as men git im net kejn dire-gelt, schtelt er arojs di betn.\n\nOj, farwos sol ich ajch gebn dire-gelt, as di kich is tserbrochn?\nOj, farwos sol ich ajch tsoln dire-gelt, as ich hob nischt ojf wos tsu kochn?",
   "title": "Dire-gelt",
   "words": [
     {
@@ -42,6 +42,13 @@
     },
     {
       "date": 1707050618813,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712481673036,
       "name": "ko",
       "mail": "",
       "type": "update",
