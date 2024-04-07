@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "|:\"e\"EEE\"H7\"FEF|\"e\"G2E2BBBB|AG\"H7\"A4|\n|\"e\"EEE\"H7\"FEF|\"e\"G2E2EEE\"H7\"^D|^C^D\"e\"E4:|\n|G3F3|E3\"H7\"^D2E|F2G\"e\"E3|GFE\"H7\"^D2E|F2G\"e\"E3|\n|EFG\"a\"A2F|z2AF\"e\"G2|EGFE\"H7\"^D2E|F2GE3\n|GFE\"H7\"^D2E|F2G\"e\"E3|GFE\"H7\"^D2E|F2G\"e\"E3|\n|EFG\"a\"A2F|z2AF\"e\"G2|EGFE\"H7\"^D2E|F2GE3\n",
   "content": "{e}Sonnig beg{H7}ann es zu {e}tagen, ich stand ganz früh vor der {H7}Tür,\n{a}sah auf die {H7}fahrenden {e}Wagen, da sprach Alt-{H7}Siset zu {e}mir:\n\"Siehst du den b{H7}rüchigen {e}Pfahl dort, mit unsern Fesseln umschn{H7}ürt?\n{a}Schaffen wir {H7}doch diese {e}Qual fort, ran an ihn, {H7}dass er sich {e}rührt.\"\n\nIch drücke {H7}hier und du ziehst {e}weg, so kriegen {H7}wir den Pfahl vom {e}Fleck,\nwerden ihn {a}fällen, fällen, {e}fällen, werfen ihn {H7}morsch und faul zum {e}Dreck.\nErst wenn die {H7}Eintracht uns {e}bewegt, haben wir {H7}ihn bald um{e}gelegt,\nund er wird {a}fallen, fallen, {e}fallen, wenn sich ein {H7}jeder von uns {e}regt.\n\nAch, Siset, noch ist es nicht geschafft, an meiner Hand platzt die Haut.\nLangsam auch schwindet schon meine Kraft, er ist zu mächtig gebaut.\nWird es uns jemals gelingen? Siset, es fällt mir so schwer!\nWenn wir das Lied nochmal singen, geht es viel besser, komm her.\n\nDer alte Siset sagt nichts mehr, böser Wind hat ihn verweht.\nKeiner weiß von seiner Heimkehr, oder gar wie es ihm geht.\nAlt-Siset sagte uns allen, hör es auch du, krieg es mit:\n\"Der morsche Pfahl wird schon fallen, wie es geschieht in dem Lied.\"",
   "title": "Der Pfahl",
   "words": [
@@ -30,7 +30,7 @@
   "translation": [],
   "beat": "6/8",
   "alternativeTitle": "",
-  "tempo": "100",
+  "tempo": "80",
   "musicalKey": "Em",
   "info": "Der katalanische Liedermacher Lluís Llach komponierte das Lied 1968 im französischen Exil als Aufruf zum Sturz des Franco- Regimes. General Franco (1892-1975; voller Name: Francisco Paulino Hermenegildo Teódulo Franco y Bahamonde Salgado Pardo) war Chef der Junta, die 1936 den Spanischen Bürgerkrieg anzettelte (wer mag: For Whom The Bell Tolls, Hemingway). Nach seinem Sieg über die Republik 1939 errichtete er eine faschistische Diktatur in Spanien und herrschte bis zu seinem Tod im Jahr 1975.\n\nWie in totalitären Systemen üblich, begegneten die Herrschenden offener Regimekritik mit wenig Humor. Da es auch viele Spitzel gab, wurden Kritik und Spott in Wort, Schrift und Gesang oft durch Andeutungen, Doppeldeutigkeiten und Metaphern ver- schlüsselt ausgedrückt. Hier ist es ein Umsturz-Wortspiel: Im Katalan sind die Wörter Pfahl\" (estaca\") und Staat\" (estat\") sehr ähnlich... (im Spanischen funktioniert's nicht, weil dort Staat\" estado\" heißt). Lluís Llach wurde mit diesem und anderen Liedern zur Ikone des katalanischen Widerstands und populärster Vertreter der als „Nova Canço Catalana\" bekannten politischen Lieder- macherszene (katalanische Texte zu singen war an sich schon eine Provokation). Dementsprechend wurde er drangsaliert und mit Auftrittsverboten belegt.\n\nSiset ist ein Vorname (Kurzform von „Narcis\"). Den alten Siset\" im Lied gab es wirklich: Er hieß Narcís Llansa Tubau und war ein Barbier, mit dem Lluís Llach in seiner Jugend oft zum Angeln ging.",
   "changes": [
@@ -47,6 +47,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1692363092974,
+      "name": "chris fieker",
+      "mail": "chris@fieker.de",
+      "type": "update",
+      "content": "Ganze melodie gemacht und das tempo verlangsamt, idk wie die gitarre funktioniert sorry"
     }
   ]
 }
