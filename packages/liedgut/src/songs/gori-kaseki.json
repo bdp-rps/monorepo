@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "In {d}Gori Kaseki, am Rande der Straße,\nliegt {A}einsam ein Knabe, der regt sich nimmer{d}mehr.\nGefährliche Straße, unheimliche Weite,\ndar{A}über die Wolken sind wie ein Geister{d}heer.\n\n/: {g}Zweitausend {d}Reiter {A}fegen her{d}an.\n{g}Was sind da{d}gegen einhundert{A}fünfundachtzig {d}Mann? :/\n\nIn Gori Kaseki sind nur noch Ruinen\nvon Hütten, die blieben, kein Laut, sie stehen leer.\nGeflohen die Dörfler, die Hunde, die Katzen,\nes blieben nur Ratten bei dem geschmolz'nen Heer.\n\nIn Gori Kaseki verbrannt ist die Erde,\nvergiftet die Brunnen, hier fängt die Hölle an.\nGefrorene Brote, mit Beilen sie teilen,\nund Schneewasser nur für den todgeweihten Mann.\n\nErst schickten sie Frauen, dann Kinder, dann Greise,\nsie liegen im Eise, ein schneebedeckter Wall.\nUnd darüber springen mit wilden Gesängen\nund Unrast die Reiter; des Todes Vasall.\n\nIn Gori Kaseki sind alle geblieben:\nzweitausendeinhundertundfünfundachtzig Mann.\nVom Himmel kam Feuer und hat sie verschlungen:\nzweitausendeinhundertundfünfundachtzig Mann.",
+  "content": "In {d}Gori Kaseki am Rande der Straße\nliegt {A}einsam ein Knabe der regt sich nimmer{d}mehr.\nGefährliche Straße, unheimliche Weite,\ndar{A}über die Wolken sind wie ein Geister{d}heer.\n\n/: {g}Zweitausend {d}Reiter {A}jagen her{d}an.\n{g}Was sind da{d}gegen einhundert{A}fünfundachtzig {d}Mann? :/\n\nIn Gori Kaseki sind nur noch Ruinen\nvon Hütten, die blieben, kein Laut - sie stehen leer.\nGeflohen die Dörfler, die Hunde, die Katzen,\nes blieben nur Ratten bei dem geschmolz'nen Heer.\n\nIn Gori Kaseki verbrannt ist die Erde,\nvergiftet die Brunnen, hier fängt die Hölle an.\nGefrorene Brote mit Beilen sie teilen\nund Schneewasser nur für den todgeweihten Mann.\n\nErst schickten sie Frauen, dann Kinder, dann Greise,\nsie liegen im Eise, ein schneebedeckter Wall.\nUnd darüber springen mit wilden Gesängen\nund Unrast die Reiter; des Todes Vasall.\n\nIn Gori Kaseki sind alle geblieben:\nzweitausendeinhundertundfünfundachtzig Mann.\nVom Himmel kam Feuer und hat sie verschlungen:\nzweitausendeinhundertundfünfundachtzig Mann.",
   "title": "Gori Kaseki",
   "words": [
     {
@@ -36,6 +36,13 @@
     },
     {
       "date": 1696955932299,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712493607613,
       "name": "ko",
       "mail": "",
       "type": "update",
