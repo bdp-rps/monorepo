@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Die {E}Klampfen erklingen, wir {H7}wandern und singen durchs Frankenland zum {E}Rhein.\nDie Bocksbeutel winken und {H7}lassen sich trinken, weil sie bezahlet {E}sein.\n{H7}Scholaren auf {E}Reisen, {H7}fahrende {E}Leut', {H7}ja L{E}eut',\n/: {A}singen ganz {E}leise: Wo {H7}bleiben wir {E}heut? :/\n\nAm Besten gefallen hat uns von allen der heil'ge Nepomuk.\nUnd wenn wir ihn sehen, dann bleiben wir stehen, zu Würzburg auf der Bruck.\nScholaren auf Reisen, fahrende Leut', ja Leut', \n/: singen ganz leise: Beschütze uns heut. :/\n\nDie Klampfen erklingen, wir wandern und singen durchs Frankenland zum Rhein.\nDie Bocksbeutel winken und lassen sich trinken, weil sie bezahlet sein.\nScholaren auf Reisen, fahrende Leut', ja Leut', \n/: singen ganz leise: Hier bleiben wir heut. :/",
+  "content": "Die {E}Klampfen erklingen, wir {H7}wandern und singen durchs Frankenland zum {E}Rhein.\nDie Bocksbeutel winken und {H7}lassen sich trinken, weil sie bezahlet {E}sein.\n{H7}Scholaren auf {E}Reisen, {H7}fahrende {E}Leut, {H7}ja L{E}eut,\n/: {A}singen ganz {E}leise: Wo {H7}bleiben wir {E}heut? :/\n\nAm Besten gefallen hat uns von allen der heilge Nepomuk.\nUnd wenn wir ihn sehen, dann bleiben wir stehen, zu Würzburg auf der Bruck.\nScholaren auf Reisen, fahrende Leut, ja Leut, \n/: singen ganz leise: Beschütze uns heut. :/\n\nDie Klampfen erklingen, wir wandern und singen durchs Frankenland zum Rhein.\nDie Bocksbeutel winken und lassen sich trinken, weil sie bezahlet sein.\nScholaren auf Reisen, fahrende Leut, ja Leut, \n/: singen ganz leise: Hier bleiben wir heut. :/",
   "title": "Die Klampfen erklingen",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712525412073,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
