@@ -18,7 +18,7 @@
   "tempo": "110",
   "musicalKey": "Dm",
   "info": "",
-  "content": "{d}Abends gehen die {C}Liebespaare, {d}langsam {C}durch das {d}Feld,\nFrauen lösen {C}ihre Haare, {d}Händler {C}zählen {d}Geld,\n{F}Bürger lesen {C}bang das Neuste {d}in dem {C}Abend{d}blatt,\n{F}Kinder ballen {C}kleine Fäuste, {d}schlafen {C}tief und {d}satt.\n{B}Jeder tut das {F}einzig Wahre, {C}folgt erhab'ner {d}Pflicht,\n{B}Säugling, Bürger, {F}Liebespaare - {C}und ich {d}sel{C}ber {d}nicht?\n\n/: {B}Leider, {F}Leider, {C}la- la {d}Leider; {B}la - {F}la {d}L{C}ei{d}der :/\n\nDoch! Auch meine Abendtaten, deren Sklav' ich bin,\nkann der Weltgeist nicht entraten, sie auch haben Sinn.\nUnd so geh ich auf und nieder, tanze innerlich,\nsumme dumme Gassenlieder, lobe Gott und mich, \ntrinke Wein und phantasiere, dass ich Pascha wär,\nfühle Sorgen an der Niere, lächle - trinke mehr.\n\n/: Weiter, weiter, immer weiter; wa - wa weiter :/\n\nSage ja zu meinem Herzen, morgens geht es nicht,\nspinne aus vergang'nen Schmerzen, spielend ein Gedicht,\nsehe Mond und Sterne kreisen, ahne ihren Sinn,\nfühle mich mit ihnen reisen, einerlei wohin.\n\n/: Leider, Leider, la- la Leider; la – la Leider :/",
+  "content": "{d}Abends gehn die {C}Liebespaare, {d}langsam {C}durch das {d}Feld,\nFrauen lösen {C}ihre Haare, {d}Händler {C}zählen {d}Geld.\n{F}Bürger lesen {C}bang das Neuste {d}in dem {C}Abend{d}blatt,\n{F}Kinder ballen {C}kleine Fäuste, {d}schlafen {C}tief und {d}satt.\n{B}Jeder tut das {F}einzig Wahre, {C}folgt erhabner {d}Pflicht,\n{B}Säugling, Bürger, {F}Liebespaare - {C}und ich {d}sel{C}ber {d}nicht?\n\n/: {B}Leider, {F}leider, {C}la la {d}leider; {B}la {F}la {d}le{C}id{d}er :/\n\nDoch! Auch meine Abendtaten, deren Sklav ich bin,\nkann der Weltgeist nicht entraten, sie auch haben Sinn.\nUnd so geh ich auf und nieder, tanze innerlich,\nsumme dumme Gassenlieder, lobe Gott und mich.\nTrinke Wein und phantasiere, dass ich Pascha wär,\nfühle Sorgen an der Niere, lächle - trinke mehr!\n\n/: Weiter, weiter, immer weiter; wa wa weiter :/\n\nSage ja zu meinem Herzen, morgens geht es nicht,\nspinne aus vergangnen Schmerzen, spielend ein Gedicht.\nSehe Mond und Sterne kreisen, ahne ihren Sinn,\nfühle mich mit ihnen reisen, einerlei wohin.\n\n/: Leider, leider, la la leider; la la leider :/",
   "changes": [
     {
       "name": "Robin Weser",
@@ -53,6 +53,13 @@
       "mail": "robin@weser.io",
       "type": "update",
       "content": "Groß- und Kleinschreibung"
+    },
+    {
+      "date": 1712499246329,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
