@@ -45,7 +45,15 @@
       "mail": "robin@weser.io",
       "type": "update",
       "content": "Layout"
+    },
+    {
+      "date": 1706964654889,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Am"
 }

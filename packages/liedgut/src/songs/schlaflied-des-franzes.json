@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "                 {C}          {G}               {C}\nWenn das Bier die Augenlieder schließt, \n               {F}                 {a}                     {G}\nman den Wein beim Einschenken vergießt.\n               {C}                         {G}                 {F}                     {a}\nWenn man nicht mehr grade geht, das Gesagte nicht versteht…\n                     {C}         {G}            {C}    {G}\n…dann wird's Zeit ins Bett zu geh´n.\n\nHeute war ein schöner Tag,\nganz genauso wie ich ihn mag.\nViel gesungen, gelacht, Quatsch gemacht…\n…jetzt wird's Zeit ins Bett zu geh´n. \n\nZwischenspiel: {C} {G} {C}   {F} {a} {G}    {C} {G} {F} {a}   {C} {G} {C}\n\nLetzte wie 1. Strophe\n",
+  "content": "Wenn das {C}Bier die {G}Augenlieder {C}schließt, \nman den {F}Wein beim Ein{a}schenken ver{G}gießt.\nWenn man {C}nicht mehr grade {G}geht, das {d}Gesagte nicht {a}versteht,\n/: dann wird's {C}Zeit ins {G}Bett zu {C}geh'n. :/\n\nHeute war ein schöner Tag, \nganz genauso wie ich ihn mag.\nViel gesungen, gelacht, Quatsch gemacht,\n/: jetzt wird's Zeit ins Bett zu geh'n. :/\n\nZwischenspiel: \n{C} {G} {C}   {F} {a} {G}    {C} {G} {d} {a}   {C} {G} {C}\nWenn das Bier ...",
   "title": "Schlaflied des Franzes",
   "words": [
     {
@@ -31,6 +31,20 @@
       "name": "Ronja Ley",
       "mail": "ronja.ley@gmx.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706971003216,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712504792925,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

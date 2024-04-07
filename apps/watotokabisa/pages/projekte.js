@@ -29,10 +29,11 @@ export default function Page() {
   return (
     <Template image={image} title="Unsere Projekte!">
       <Head>
-        <title>Projekte - Watoto Kabisa</title>
+        <title>Watoto Kabisa - Projekte</title>
+        <meta name="title" content="Watoto Kabisa - Projekte" />
         <meta
-          type="description"
-          content="Hier findet ihr Infos zu unsereren Projekten in Kenia."
+          name="description"
+          content="Unsere Projekte in Kenia auf einen Blick."
         />
       </Head>
       <Box bg="background.primary">

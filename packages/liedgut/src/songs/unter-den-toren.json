@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Unter den Toren im {G}Schatten der Stadt schläft man {F}gut, wenn man sonst keine {E}Schlafstelle hat\n{a}Keiner der fragt nach wo{G}her und wo{C}hin und zu {E}kalt ist die {a}Nacht für Gendarme\n\n/: {C}He {G}ho, ein {C}Feuerlein {G}brennt {a}kalt ist die {E}Nacht für Gen{a}darme :/\n\nSilberne Löffel und Ketten im Sack, legst Du besser beim Schlafen dir unters Genack\nZeig nichts und sag nichts, die Messer sind stumm und zu kalt ist die Nacht für Gendarme\n\nGreif nach der Flasche, doch trink nicht zu viel deine Würfel sind gut, aber falsch ist das Spiel\nSpuck in die Asche und schau lieber zu denn zu kalt ist die Nacht für Gendarme\n\nRückt dir die freundliche Schwester zu nah das ist nur für die Wärme, mal hier und mal da\nKeiner im Dunkeln verliert sein Gesicht und zu kalt ist die Nacht für Gendarme\n\nGeh mit der Nacht eh der Frühnebel steigt nur das Feuer glimmt stumm und das Steinpflaster schweigt\nlass nichts zurück und vergiß was du sahst denn die Sonne bringt bald die Gendarme",
+  "content": "{a}Unter den Toren im {G}Schatten der Stadt \nschläft man {F}gut, wenn man sonst keine {E}Schlafstelle hat.\n{a}Keiner der fragt nach Wo{G}her und Wo{C}hin \nund zu {E}kalt ist die {a}Nacht für Gendarmen.\n\n/: {C}He {G}ho, ein {C}Feuerlein {G}brennt, {a}kalt ist es {E}für Gen{a}darmen. :/\n\nSilberne Löffel und Ketten im Sack, \nlegst du besser beim Schlafen dir unters Genack.\nZeig nichts und sag nichts, die Messer sind stumm \nund zu kalt ist die Nacht für Gendarmen.\n\nGreif nach der Flasche, doch trink nicht zu viel \ndeine Würfel sind gut, aber falsch ist das Spiel.\nSpuck in die Asche und schau lieber zu, \ndenn zu kalt ist die Nacht für Gendarmen.\n\nRückt dir die freundliche Schwester zu nah, \ndas ist gut für die Wärme, mal hier und mal da.\nKeiner im Dunkeln verrät sein Gesicht \nund zu kalt ist die Nacht für Gendarmen.\n\nGeh mit der Nacht eh der Frühnebel steigt \nnur das Feuer bleibt stumm und das Steinpflaster schweigt.\nLass nichts zurück und vergiss was du sahst, \ndenn die Sonne bringt bald die Gendarmen.\n\n/: He, ho, das Feuer ist aus, bald kommen die Gendarmen. :/",
   "title": "Unter den Toren",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "timonflick@outlook.com",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1704489215047,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "musicalKey": "Am"
 }

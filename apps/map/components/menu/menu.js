@@ -11,7 +11,6 @@ import {
   useForm,
 } from '@bdp-rps/ui'
 
-import postPlaces from '../../api/postPlaces'
 import PlaceForm from './placeForm'
 import PlaceInfo from './placeInfo'
 import PlaceList from './placeList'

@@ -2,7 +2,6 @@ import React from 'react'
 import { Box, Text } from '@bdp-rps/ui'
 import BlogLayout from '../../../../components/BlogLayout'
 
-import { getBlogposts } from '../../../../api/getBlogposts'
 import { getBlogpostMainz } from '../../../../api/getBlogPost'
 
 export default function Page({ blogpost }) {

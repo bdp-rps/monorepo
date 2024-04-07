@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wir {G}drei, wir {C}gehn jetzt auf die {G}Walze,\nheijo, wohl {D}in die weite {G}Welt.\nDie Tippel{C}ei, ja Gott er{G}halt' se,\nweil {D}uns das {A}Wandern so ge{D}fällt!\nEin Schuster und ein {G}Schneider\nund {D}auch ein Stadtrats{G}schreiber.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}r{C}ie.\nGute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\nFalscher Schritt, die {D}ganze Kompanie,\nfalscher Schritt, die {G}ganze Kompanie,\nUnd {C}auch vom Hund die {G}Beine,\ndie {C}laufen, laufen, laufen ganz {G}alleine.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}r{C}ie.\nGute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\n\nUnd kommen wir an einen Flecken,\nheijo, dann fängt das Fechten an.\nSchnell schultern wir den Wanderstecken\nund klopfen an bei Jedermann,\ndenn hier steh'n drei verbannte,\ndrei abgebaute Staatsbeamte.\nGute Nacht, auf Wiedersehn, Marie.\nGute Nacht, auf Wiedersehn, Marie!\nWir können nachts nicht schlafen,\nvor Wanzen Flöhen und vor Paragraphen.\nGute Nacht, auf Wiedersehn, Marie.\nGute Nacht, auf Wiedersehn, Marie!\n\nAm Rhein, am Main und auch am Bober,\nda sieht uns manchmal ein Gendarm.\nSchnell krauchen wir in einen Schober,\nsonst packt er uns wohl noch am Arm.\nDenn er schwört stets aufs Neue,\ndem Staate seine Treue.\nGute Nacht, auf Wiedersehn, Marie.\nGute Nacht, auf Wiedersehn, Marie!\nWir können nachts nicht schlafen,\nvor Wanzen Flöhen und vor Paragraphen.\nGute Nacht, auf Wiedersehn, Marie.\nGute Nacht, auf Wiedersehn, Marie!\n\nUnd blüh'n am Hain die wilden Schlehen,\ndann klopft auch mal die Liebe an.\nFür die, die morgen weiterziehen,\nsteht hier und da ein Fenster an.\nUnd schlagen früh die Finken,\ndann tun wir auch mal winken.\nGute Nacht, auf Wiedersehn, Marie.\nGute Nacht, auf Wiedersehn, Marie!\nBekanntlich sind die Sterne,\nam aller-, allerschönsten aus der Ferne.\nGute Nacht, auf Wiedersehn, Marie.\nGute Nacht, auf Wiedersehn, Marie!\n\n{G}Mar{D}ie, Maaaar{G}iiieeeeeeee!",
+  "content": "Wir {G}drei, wir {C}gehn jetzt auf die {G}Walze, heijo, wohl {D}in die weite {G}Welt.\nDie Tippel{C}ei, ja Gott er{G}halt' se, weil {D}uns das {A}Wandern so ge{D}fällt!\nEin Schuster und ein {G}Schneider und {D}auch ein Stadtrats{G}schreiber.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, M{G}ari{C}e. Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\nFalscher Schritt, die {D}ganze Kompanie, falscher Schritt, die {G}ganze Kompanie.\nUnd {C}auch vom Hund die {G}Beine, die {C}laufen, laufen, laufen ganz {G}alleine.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, M{G}ari{C}e. Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\n\nUnd kommen wir an einen Flecken, heijo, dann fängt das Fechten an.\nSchnell schultern wir den Wanderstecken und klopfen an bei jedermann,\ndenn hier steh'n drei verbannte, drei abgebaute Staatsbeamte. Gute Nacht... \nWir können nachts nicht schlafen, vor Wanzen Flöhen und vor Paragraphen.\n\nAm Rhein, am Main und auch am Bober, da sieht uns manchmal ein Gendarm.\nSchnell krauchen wir in einen Schober, sonst packt er uns wohl noch am Arm.\nDenn er schwört stets aufs neue, dem Staate seine Treue. Gute Nacht...\nWir können nachts nicht schlafen, vor Wanzen Flöhen und vor Paragraphen.\n\nUnd blüh'n am Hain die wilden Schlehen, dann klopft auch mal die Liebe an.\nFür die, die morgen weiterziehen, steht hier und da ein Fenster an.\nUnd schlagen früh die Finken, dann tun wir auch mal winken. Gute Nacht...\nBekanntlich sind die Sterne, am aller-, allerschönsten aus der Ferne.\n\nMar{D}ie, Maaaar{G}iiieeeeeeee!",
   "title": "Wir drei, wir gehn jetzt auf die Walze",
   "words": [
     {
@@ -24,14 +24,21 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
-  "info": "Fechten: betteln",
+  "musicalKey": "G",
+  "info": "Fechten: betteln\n\nPeter Rohland veröffentlichte dieses Lied auf seiner LP „Landstreicherballaden“ Ende der sechziger Jahre und schrieb dazu, der Text und die Musik wären aus rheinischen Kundenkreisen überliefert.",
   "changes": [
     {
       "date": 1680020109478,
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706984321915,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

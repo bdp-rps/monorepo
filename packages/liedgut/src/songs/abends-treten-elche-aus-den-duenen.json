@@ -13,8 +13,8 @@
   ],
   "beat": "4/4",
   "tempo": "120",
-  "info": "Haff: Lakune, die durch einen Landstreifen fast vollständig vom Meer abgeschlossen ist\nPalve: ostpreußische Bezeichnung für dürres Heideland",
-  "content": "{a}Abends treten {d}Elche aus den {a}Dünen,\nziehen von der {E}Palve an den {a}Strand.\n/: {d}Wenn die {a}Nacht wie {d}eine gute {a}Mutter leise deckt ihr {d}Tuch {E}auf Haff und {a}Land. :/\n\nRuhig trinken sie vom große Wasser,\ndarin Sterne wie am Himmel stehn.\n/: Und sie heben ihre starken Köpfe, lautlos in des Sommerwindes Weh'n. :/\n\nLangsam schreiten wieder sie von dannen,\nTiere einer längst vergang'nen Zeit.\n/: Und sie schwinden in der Ferne Nebel, wie im hohen Tor der Ewigkeit. :/",
+  "info": "Haff: Lakune, die durch einen Landstreifen fast vollständig vom Meer abgeschlossen ist\nPalve: ostpreußische Bezeichnung für dürres Heideland\n\nH.E. kritischer Autor",
+  "content": "{a}Abends treten {d}Elche aus den {a}Dünen,\nziehen von der {E}Palve an den {a}Strand.\n/: {d}Wenn die {a}Nacht wie {d}eine gute {a}Mutter leise deckt ihr {E}Tuch auf Haff und {a}Land. :/\n\nRuhig trinken sie vom große Wasser,\ndarin Sterne wie am Himmel stehn.\n/: Und sie heben ihre starken Köpfe, lautlos in des Sommerwindes Weh'n. :/\n\nLangsam schreiten wieder sie von dannen,\nTiere einer längst vergang'nen Zeit.\n/: Und sie schwinden in der Ferne Nebel, wie im hohen Tor der Ewigkeit. :/",
   "changes": [
     {
       "name": "Robin Weser",
@@ -39,6 +39,20 @@
     {
       "date": 1687681070215,
       "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1709044007165,
+      "name": "cätch",
+      "mail": "",
+      "type": "update",
+      "content": "Heinrich Eichen war pädo"
+    },
+    {
+      "date": 1712482387296,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""

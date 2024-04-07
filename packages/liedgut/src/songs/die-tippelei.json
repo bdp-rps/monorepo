@@ -36,7 +36,7 @@
   "tempo": "110",
   "info": "",
   "musicalKey": "D",
-  "content": "{D}Endlich {G}ist es {A}wieder so{D}weit,\nder Rucksack ge{G}packt, die {A}Klampfe be{D}reit,\ndie {h}Stiefel ge{A}schnürt, die {G}Karte zur {D}Hand,\nbald tippeln wir {G}los, weit {A}durch das {D}Land.  {G}  {A}\n\n{h}Heute {G}wollen wir {A}fah{D}ren,\n{h}über {G}Berge und {A}Höhen,\ndurch {h}tiefe {A}Täler, {G}grüne {D}Auen,\n{D}fahren {A}wir da{D}hin.\n\nMal prasselt der Regen, mal gleiset die Sonn',\nmal flüsternder Wind, mal tosender Sturm,\nmal funkeln die Sterne am Firmanent,\nmal dichtester Nebel, die Sicht uns hemmt.\n\nWeiter wollen wir ...\n\nDes Abends kehrt die Dunkelheit ein,\ndie Horte ruht am Feuerschein,\nsie singen und träumen von ihrer Fahrt,\nmorgen schon - ein neuer Tag.\n\nEndlos wollen wir ...",
+  "content": "{D}Endlich {G}ist es {A}wieder so{D}weit, der Rucksack ge{G}packt, die {A}Klampfe be{D}reit,\ndie {h}Stiefel ge{A}schnürt, die {G}Karte zur {D}Hand, bald tippeln wir {G}los, weit {A}durch das {D}Land.{G} {A}\n\n{h}Heute {G}wollen wir {A}fah{D}ren, {h}über {G}Berge und {A}Höhen,\ndurch {h}tiefe {A}Täler, {G}grüne {D}Auen, {D}fahren {A}wir da{D}hin.\n\nMal prasselt der Regen, mal gleißet die Sonn, mal flüsternder Wind, mal tosender Sturm,\nmal funkeln die Sterne am Firmament, mal dichtester Nebel, die Sicht uns hemmt.\nWeiter wollen wir ...\n\nDes Abends kehrt die Dunkelheit ein, die Horte ruht am Feuerschein,\nsie singen und träumen von ihrer Fahrt, morgen schon - ein neuer Tag.\nEndlos wollen wir ...",
   "changes": [
     {
       "name": "Robin Weser",
@@ -69,6 +69,20 @@
       "date": 1687728354472,
       "name": "Robin Weser",
       "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706997238387,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712501678341,
+      "name": "ko",
+      "mail": "",
       "type": "update",
       "content": ""
     }

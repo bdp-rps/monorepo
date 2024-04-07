@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{D}Sing {G}Ho! for a brave and a gallant ship\nwith a fair and a favourin' {C}breeze,\nwith a {G}bully crew and a {e}captain, too,\n{a}to carry me over the {D7}seas,\nto {G}carry me over the seas, my boys,\nTo my true love far a{C}way.\nFor I'm {G}takin' a trip on a {e}government ship\nten {a}thousand {D}miles a{G}way.\n\nSo blow the winds, heigh-ho!\nA roving I will {C}go,\nI'll {G}stay no more on {e}England's shore\nto {a}hear the music {D7}play.\nI'm {G}off on the morning train and\nI won't be back {C}again.\nFor I'm {G}takin' a trip on a {e}government ship\nten {a}thousand {D}miles a{G}way.  \n\nMy true love, she was beautiful,\nmy true love she was young;\nHer eyes were like two diamonds bright\nand silvery was her tongue\nand silvery was her tongue, me boys,\nas the big ship sailed away \nAnd she said: \"Will you remember me\nten thousand miles away?\"\n\nOh, dark and dismal was the day\nwhen last I saw me Meg.\nShe'd a government band around each hand\nand another one 'round her leg.\nAnd another one 'round her leg, me boys,\nas the big ship left the bay\n\"Farewell\" said she, \"remember me,\nten thousand miles away.\" \n\nWell, I wish I was bosun bold\nor even a bombadier,\nI'd build a boat and away I'd float\nand straight to my true love steer\nAnd straight to my true love steer, me boys,\nwhere the dancing dolphins play,\nwhere the whales and sharks have all their larks,\nten thousand miles away.\n\nOh, the sun may shine through the London fog\nor the river run quite clear,\nor the ocean's brine turn into wine\nor I forget my beer\nOr I forget my beer, me boys,\nor the landlord's quarter-day;\nBut I'll never forget my own true love,\nten thousand miles away!  ",
+  "content": "Sing {A}ho for a brave and a gallant ship with a fair and a favoring {D}breeze,\nwith a {A}bully crew and a {fis}captain, too, {h}to carry me over the {E7}seas.\nTo {A}carry me over the seas, me boys, to my true love far a{D}way.\nI'm {A}takin' a trip on a {fis}government ship ten {h}thousand {E}miles a{A}way.\n\nThen blow your winds, hey-ho! And a roving I will {D}go,\nI'll {A}stay no more on {fis}England's shore to {h}hear the music {E7}play.\nI'm {A}off on the morning train and I won't be back {D}again.\nI'm {A}takin' a trip on a {fis}government ship ten {h}thousand {E}miles a{A}way.\n\nMy true love, she was beautiful, my true love she was young;\nher eyes were like the diamonds bright and silvery was her tongue.\nAnd silvery was her tongue, me boys, as the big ship sailed away.\nAnd she said: \"Will you remember me ten thousand miles away?\"\n\nOh, dark and dismal was the day when last I saw me Meg.\nShe'd a government band around each hand and another one 'round her leg.\nAnd another one 'round her leg, me boys, as the big ship sailed away.\n\"Farewell\" said she, \"remember me, ten thousand miles away.\"\n\nOh, the sun may shine through the London fog or the river run quite clear,\nor the ocean's brine turn into wine or I forget my beer\nOr I forget my beer, me boys, or the landlord's quarter-day.\nBut I'll never forget my own true love, ten thousand miles away! ",
   "title": "Ten thousand miles away",
   "words": [
     {
@@ -8,7 +8,7 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "18. Jahrhundert"
     }
   ],
   "tune": [
@@ -17,14 +17,14 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "18. Jahrhundert"
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
-  "tempo": 60,
-  "musicalKey": "",
+  "tempo": "90",
+  "musicalKey": "A",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706972782455,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

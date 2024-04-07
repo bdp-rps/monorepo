@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Lustig, {D}lustig ihr lieben Brüder,\nnun leget all eure Arbeit {G}nieder\nund trinkt ein {D}Glas Champagner{A}we{A7}in,\nund trinkt ein {D}Glas Cham{A}pagner{D}wein.\n\nDenn unser Orden, der ist verdorben,\ndie letzten Saufbrüder sind gestorben,\n/:es lebet keiner mehr als ich und du; :/\n\nDenn auch in Polen ist nichts zu holen,\nman kommt davon nicht unbestohlen,\n/:bei Danzig fängt die See schon an; :/\n\nSchifflein, Schifflein, nun tu dich wenden\nund lass dich hin nach Riga senden,\n/:wohl zu der russ'chen Seekaufshandelsstadt; :/\n\nDann wollen wir es noch einmal wagen\nund wollen fahren nach Kopenhagen,\n/:wohl zu der dänischen Residenz; :/\n\nDann geht es heim, wohl an den Main,\nganz Frankfurt liegt voll Äppelwein,\n/:der letzte Heller muss versoffen sein; :/\n\nDenn unser Orden, der ist verdorben,\ndie letzten Saufbrüder sind gestorben,\n/:es lebet keiner mehr als ich und du; :/",
+  "content": "Lustig, {D}lustig ihr lieben Brüder, nun leget all eure Arbeit {G}nieder\nund trinkt ein {D}Glas Champagner{A}we{A7}in, und trinkt ein {D}Glas Cham{A}pagner{D}wein.\n\nDenn unser Orden, der ist verdorben, die letzten Saufbrüder sind gestorben,\n/: es lebet keiner mehr als ich und du. :/\n\nDenn auch in Polen ist nichts zu holen, man kommt davon nicht unbestohlen,\n/: bei Danzig fängt die See schon an. :/\n\nSchifflein, Schifflein, nun tu dich wenden und lass dich hin nach Riga lenken,\n/: wohl zu der russ'chen Seekaufshandelsstadt. :/\n\nDann wollen wir es noch einmal wagen und wollen fahren nach Kopenhagen,\n/: wohl zu der dänischen Residenz. :/\n\nDann geht es heim, wohl an den Main, ganz Frankfurt ist voll Äppelwein,\n/: der letzte Heller muss versoffen sein. :/",
   "title": "Lustig, lustig",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "6/8",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "D",
   "info": "Heller war bis zur Einführung der Mark in Deutschland 1873 die kleinste Münzeneinheit.",
   "changes": [
     {
@@ -32,6 +32,13 @@
       "name": "Torben",
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1706968160481,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]

@@ -24,8 +24,12 @@ export default () => {
       title="Mandazi"
       subTitle="Eine kenianische Teigspezialität!">
       <Head>
-        <title>Mandazi, eine kenianische Spezialität!</title>
-        <meta type="description" content="Rezept für Mandazis" />
+        <title>Watoto Kabisa - Mandazi</title>
+        <meta name="title" content="Watoto Kabisa - Mandazi" />
+        <meta
+          name="description"
+          content="Das Rezept für eine kenianische Spezialität - Mandazi."
+        />
       </Head>
 
       <Box bg="background.accent">

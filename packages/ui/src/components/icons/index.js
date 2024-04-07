@@ -152,6 +152,7 @@ import IconLevelUp from "./js/level-up"
 import IconLifebuoy from "./js/lifebuoy"
 import IconLightDown from "./js/light-down"
 import IconLightUp from "./js/light-up"
+import IconLilie from "./js/lilie"
 import IconLink from "./js/link"
 import IconLinkedinCircled from "./js/linkedin-circled"
 import IconLinkedin from "./js/linkedin"
@@ -225,6 +226,7 @@ import IconRightOpen from "./js/right-open"
 import IconRightThin from "./js/right-thin"
 import IconRight from "./js/right"
 import IconRocket from "./js/rocket"
+import IconRr from "./js/rr"
 import IconRss from "./js/rss"
 import IconSearch from "./js/search"
 import IconShare from "./js/share"
@@ -285,6 +287,7 @@ import IconVkontakte from "./js/vkontakte"
 import IconVolume from "./js/volume"
 import IconWater from "./js/water"
 import IconWindow from "./js/window"
+import IconWolfskopf from "./js/wolfskopf"
 
 export {
   IconAddress,
@@ -441,6 +444,7 @@ export {
   IconLifebuoy,
   IconLightDown,
   IconLightUp,
+  IconLilie,
   IconLink,
   IconLinkedinCircled,
   IconLinkedin,
@@ -514,6 +518,7 @@ export {
   IconRightThin,
   IconRight,
   IconRocket,
+  IconRr,
   IconRss,
   IconSearch,
   IconShare,
@@ -573,5 +578,6 @@ export {
   IconVkontakte,
   IconVolume,
   IconWater,
-  IconWindow
+  IconWindow,
+  IconWolfskopf
 }

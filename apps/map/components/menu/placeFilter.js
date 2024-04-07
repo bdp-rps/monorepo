@@ -9,8 +9,6 @@ import {
   Checkbox,
 } from '@bdp-rps/ui'
 
-import postPlaces from '../../api/postPlaces'
-
 const PlaceFilter = ({ setFilters, filters }) => {
   return (
     <Box space={3}>

@@ -7,71 +7,63 @@ import {
   Button,
   useTheme,
   useField,
+  IconLilie,
 } from '@bdp-rps/ui'
 
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Template from '../components/Template'
+import GroupType from '../utils/groupType'
 
-function ModuleListItem({ name, title, summary }) {
+import { getActivities } from '../api/getActivities'
+
+function ActivityListItem({ id, title, description, groupType }) {
   return (
-    <ListItem key={name} href={'/' + name}>
+    <ListItem href={'/' + id}>
       <Box>
-        <Text color="blue">{title}</Text>
-        <Text>{summary}</Text>
+        <Box direction="row" space={2}>
+          <Text color="blue">{title}</Text>
+          {GroupType.toIcon(groupType, 24)}
+        </Box>
+        <Text>{description}</Text>
       </Box>
     </ListItem>
   )
 }
 
-function ModuleList({ modules }) {
-  const theme = useTheme()
-
+function ActivityList({ activities }) {
   return (
     <Box minHeight="95vh" paddingTop={4} paddingBottom={15} space={2}>
       <Box>
-        {Object.keys(modules).map((name) => {
-          const data = modules[name]
-
-          return <ModuleListItem key={name} {...data} name={name} />
-        })}
+        {activities.map((activity) => (
+          <ActivityListItem
+            key={activity.id}
+            id={activity.id}
+            {...activity.attributes}
+            name={activity.id}
+          />
+        ))}
       </Box>
     </Box>
   )
 }
 
-export default function Page({ modules }) {
+export default function Page({ activities }) {
   return (
-    <>
-      <Header />
-      <Box grow={1}>
-        <Layout>
-          <ModuleList modules={modules} />
-        </Layout>
-      </Box>
-      <Footer />
-    </>
+    <Template>
+      <ActivityList activities={activities} />
+    </Template>
   )
 }
 
-export async function getStaticProps({ params }) {
-  const { promises: fs } = require('fs')
-  const { join } = require('path')
-
-  const dataPath = join(process.cwd(), 'data')
-
-  const modules = {}
-  const files = await fs.readdir(dataPath)
-
-  for (const file of files) {
-    const data = await fs.readFile(join(dataPath, file), { encoding: 'utf-8' })
-    modules[file.replace('.json', '')] = JSON.parse(data)
-  }
+export async function getStaticProps() {
+  const activities = await getActivities()
 
   return {
+    // alle 5 minuten
+    revalidate: 300,
     props: {
-      modules,
+      activities: activities.data,
     },
   }
 }

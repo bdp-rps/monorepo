@@ -48,5 +48,21 @@
       "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 1
+        }
+      },
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1
+        }
+      }
+    ]
+  }
 }

@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { Box, Click, Button, Text, NavBar, NavBarItem } from '@bdp-rps/ui'
+import {
+  Box,
+  Click,
+  Button,
+  Text,
+  NavBar,
+  NavBarItem,
+  IconPlus,
+} from '@bdp-rps/ui'
 
 import Layout from './Layout'
 
@@ -11,8 +19,16 @@ export default function Header() {
   return (
     <NavBar>
       <Layout>
-        <Box direction={['column', , 'row']}>
+        <Box
+          direction={['column', , 'row']}
+          justifyContent="space-between"
+          alignItems="center">
           <NavBarItem href="/">PfApp Store</NavBarItem>
+          <NavBarItem href="/create">
+            <Box direction="row" alignItems="center" space={1}>
+              <IconPlus size={32} /> Hinzufügen
+            </Box>
+          </NavBarItem>
           {!title ? null : (
             <Box
               alignItems="center"

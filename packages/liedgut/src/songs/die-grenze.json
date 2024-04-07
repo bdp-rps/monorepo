@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{H7}Der {e}Wind er{h}stickt der {e}Schritte {h}Laut, der {C}Regen {G}wäscht {D7}uns so {G}blank.  \n{H7}Die {e}Sonne {h}trocknet {e}unsere {h}Haut, der {C}Wald ist uns {G}Ku{D7}gel{G}fang.\n\n\n{G7}Die {C}Grenze {G}füllt uns un{D7}ser {e}Glas, die {C}Grenze {G}gibt {D7}uns {G}Brot.\nDie {C}Grenze {e}kleidet {C}uns {D7}nach {G}Maß, sie {C}lindert {G}al{D7}le {G}Not.\n\nAch, die Jungs sind fortgegangen, die Nacht ist so schwarz und so stumm.\nda müssen die Mädchen sich bangen: Bringt die Grenze den Liebsten um?\n\nLiebster, mir ist so Bang, lass ab vom gefährlichen Gang!\nDie Nacht ist so schwarz wie die Not, Du gehst im Arm mit dem Tod.\n",
+  "content": "{A7}Der {d}Wind er{a}stickt der {d}Schritte {a}Laut, der {B}Regen {F}wäscht {C}uns so {F}blank.  {A7}\nDie {d}Sonne {a}trocknet {d}unsere {a}Haut, der {B}Wald ist uns {F}Ku{C}gel{F}fang.\n\nDie {B}Grenze {F}füllt uns un{C}ser {d}Glas, die {B}Grenze {F}gibt {C}uns {F}Brot.\nDie {B}Grenze {d}kleidet {B}uns {C}nach {F}Maß, sie {B}lindert{F} al{C}le {F}Not.\n\nAch, die Jungs sind fortgegangen, die Nacht ist so schwarz und so stumm.\nDa müssen die Mädchen sich bangen: Bringt die Grenze den Liebsten um?\n\nLiebster, mir ist so bang, lass ab vom gefährlichen Gang!\nDie Nacht ist so schwarz wie die Not, du gehst im Arm mit dem Tod.",
   "title": "Die Grenze",
   "words": [
     {
@@ -45,7 +45,22 @@
       "mail": "",
       "type": "update",
       "content": "\"Worte\" neu hinzugefügt, da dort blanko Jahreszahl drin war (gibt Eckige Klammern im pDF)"
+    },
+    {
+      "date": 1701872677673,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712509600396,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "musicalKey": "Dm"
 }

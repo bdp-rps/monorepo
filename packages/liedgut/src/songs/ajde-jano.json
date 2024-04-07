@@ -1,0 +1,38 @@
+{
+  "notation": "",
+  "content": "{e}Ajde Jano, kolo da i{D}gramo! \n{G}Ajde Jano, {a}ajde dušo, {D}kolo da i{e}gramo.\n{G}Ajde Jano, {a}ajde dušo, {D}kolo da i{e}gr{F}am{e}o.\n\nAjde Jano, konja da prodamo!\n/: Ajde Jano, ajde dušo, konja da prodamo. :/\n\nDa prodamo, samo da igramo!\n/: Da prodamo, Jano dušo, samo da igramo. :/\n\nAjde Jano kuću da prodamo!\n/: Ajde Jano, ajde dušo, kuću da prodamo. :/\n\nDe prodamo, samo da igramo!\n/: Da prodamo, Jano dušo, samo da igramo. :/",
+  "title": "Ajde Jano",
+  "words": [
+    {
+      "name": "aus Serbien",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "aus Serbien",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "7/8",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Em",
+  "info": "Übersetzung:\nLos, Jana, lass uns den Kolo tanzen, los, meine Seele!\nLass uns das Pferd verkaufen, lass es uns verkaufen und nur tanzen, Jana, meine Seele.\nLass uns das Haus verkaufen, lass uns nur tanzen, Jana, meine Seele!",
+  "changes": [
+    {
+      "date": 1707002973546,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

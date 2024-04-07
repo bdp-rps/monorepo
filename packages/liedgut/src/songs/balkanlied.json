@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Und wir {e}kauern wie{D}der {G}um die {D}heiße {e}Glut\nund er{C}zählen vom {D}Aben{e}teuer.\nUnd der wilde Bal{D}kan {G}ist ger{D}ad noch {e}gut,\nund wir {C}schwören's beim {D}Lager{e}feuer,\n/:dass die {G}Neider ver{D}dammt und die {e}Spießer ver{H7}flucht,\n{e}die uns gehemmt viel {H7}tausend {e}Male!:/\n\nDoch sehr bald wird es wahr, ja dass wir steh'n am Meer\nund gedenken der fernen Heimat,\nund der kleine Trupp, er rüstet gar sehr\nzu verlassen die grauen Mauern.\n/:Und es hält uns nichts mehr und wir freuen uns sehr,\nbald flattern Segel gegen Osten.:/\n\nUnd der Silberfalke flattert uns voran,\nin der rot - grauen Fahne am Maste,\nund ein wildes Lied schwingt sich von Kahn zu Kahn,\ndas verweg'ne, das viel gehasste,\n/:dass die Neider verdammt und die Spießer verflucht,\ndie uns gehemmt viel tausend Male!:/",
+  "content": "Und wir {e}kauern wie{D}der {G}um die hei{D}ße {e}Glut und er{C}zählen vom {D}Aben{e}teuer.\nUnd der wilde Bal{D}kan {G}ist ger{D}ad' noch {e}gut, und wir {C}schwören's beim {D}Lager{e}feuer:\n/: dass die {G}Neider ver{D}dammt und die {e}Spießer ver{H7}flucht,\n{e}die uns gehemmt viel {H7}tausend {e}Male! :/\n\nDoch sehr bald wird es wahr, ja dass wir steh'n am Meer und gedenken der fernen Heimat,\nund der kleine Trupp, er rüstet gar sehr zu verlassen die grauen Mauern.\n/: Und es hält uns nichts mehr und wir freuen uns sehr, bald flattern Segel gegen Osten. :/\n\nUnd der Silberfalke flattert uns voran, in der rotgrauen Fahne am Maste,\nund ein wildes Lied schwingt sich von Kahn zu Kahn, das verweg'ne, das viel gehasste:\n/: dass die Neider verdammt und die Spießer verflucht, \ndie uns gehemmt viel tausend Male! :/",
   "title": "Balkanlied",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "Das Lied ist aus der späten bündischen Phase und war in der Verbotszeit ein Erkennungslied von Bündischen.",
   "changes": [
     {
@@ -40,6 +40,13 @@
       "mail": "hutmann.schwarzer.milan@gmail.com",
       "type": "update",
       "content": "Ergänzung der Organisation des Autoren"
+    },
+    {
+      "date": 1706964390046,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ]
 }

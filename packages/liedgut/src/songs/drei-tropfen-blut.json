@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Drei {C}Tropfen Blut im {F}weißen {C}Schnee, und {a}träumend steht der {d}reine {a}Tor\nge{G}bannt in {d}seinem {a}Weh.\n/: O {e}manda liet, o {G}manda liet, {e}min ges{G}elle {D}chumet {e}niet. :/\n\nWo immer suchet er den Gral, da endet jeder Weg im Nichts;\nes bleibt Anfortas' Qual.\n\nUnd Burgen stehen stolz aus Stein, jedoch von Leben nur erfüllt, \ngibt ihnen Sinn ihr Sein.\n\nDrum wachet und seid nicht verträumt, damit euch nicht die Zeit enteilt, \nschnell habt ihr sie versäumt.\n\nWenn kühne Taten sind zu tun, braucht es der vielen Worte nicht; \nlasst euern Mut nicht ruh'n.",
+  "content": "Drei {C}Tropfen Blut im {F}weißen {C}Schnee und {a}träumend steht der {d}reine {a}Tor,\nge{G}bannt in {d}seinem {a}Weh.\n/: O {e}manda liet, o {G}manda liet, {e}min ge{G}selle {D}chumet {e}niet. :/\n\nWo immer suchet er den Gral, da endet jeder Weg im Nichts;\nes bleibt Anfortas' Qual.\n\nUnd Burgen stehen stolz aus Stein, jedoch mit Leben nur erfüllt, \ngibt ihnen Sinn ihr Sein.\n\nDrum wachet und seid nicht verträumt, damit euch nicht die Zeit enteilt, \nschnell habt ihr sie versäumt.\n\nWenn kühne Taten sind zu tun, braucht es der vielen Worte nicht; \nlasst euren Mut nicht ruh'n.",
   "title": "Drei Tropfen Blut",
   "words": [
     {
@@ -41,6 +41,13 @@
     },
     {
       "date": 1696952901139,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712500466430,
       "name": "ko",
       "mail": "",
       "type": "update",

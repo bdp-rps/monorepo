@@ -4,6 +4,8 @@ import {
   Link,
   TextInput,
   Text,
+  Card,
+  Grid,
   Button,
   useTheme,
   useField,
@@ -12,29 +14,134 @@ import {
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import ActivityTable from '../../components/ActivityTable'
+
+import { getActivities } from '../../api/getActivities'
+import { getActivity } from '../../api/getActivity'
+
+import Location from '../../utils/location'
+import GroupType from '../../utils/groupType'
+import Season from '../../utils/season'
+import Size from '../../utils/size'
+
+const DataRow = ({ lable, value }) => {
+  return (
+    <Box
+      direction="row"
+      justifyContent="space-between"
+      bg="blueLighter"
+      padding={2}>
+      <Box alignSelf="center">
+        <Text variant="note" color="white">
+          {lable}:{' '}
+        </Text>
+      </Box>
+      <Text color="white">{value != undefined ? value : '-'}</Text>
+    </Box>
+  )
+}
 
 export default function Page({
   title,
-  summary,
   description,
-  age,
-  size,
-  material,
-  notes,
-  type,
   location,
-  duration,
-  preparation,
-  author,
+  season,
+  groupType,
+  size,
+  preperation,
+  creator,
+  uploadedBy,
+  notes,
+  activity_slots,
+  attachment,
 }) {
+  const activitySlots = activity_slots.data
+  const data = activitySlots.map((activitySlot) => activitySlot.attributes)
+  const materials = data.map((timeSlot) => timeSlot.materials).join(',')
+  const time = data.reduce((prev, current) => {
+    return prev + parseInt(current.duration)
+  }, 0)
+
   return (
     <>
       <Header />
       <Box grow={1}>
         <Layout>
-          <Box minHeight="95vh" paddingTop={6} paddingBottom={25} space={2}>
-            <Text variant="category">{title}</Text>
-            <Text>{summary}</Text>
+          <Box minHeight="95vh" paddingTop={6} paddingBottom={25} space={6}>
+            <Box direction="row" space={4}>
+              <Text variant="title">{title}</Text>
+              {GroupType.toIcon(groupType, 36)}
+            </Box>
+            <Card>
+              <Text>{description}</Text>
+            </Card>
+            <Card>
+              <Box space={2}>
+                <Text variant="category">Zeitplan:</Text>
+                <ActivityTable data={data} />
+              </Box>
+            </Card>
+            <Box direction={['column', 'row']} space={2}>
+              <Box flex={1}>
+                <Card>
+                  <Box space={2}>
+                    <Text variant="category">Mehr Informationen:</Text>
+                    <Grid columns={['1fr', '1fr 1fr']} gap={2}>
+                      <DataRow lable="Größe" value={Size.toText(size)} />
+                      <DataRow lable="Ort" value={Location.toText(location)} />
+                      <DataRow lable="Gesamtdauer" value={time} />
+                      <DataRow lable="Vorbereitungsdauer" value={preperation} />
+                      <DataRow
+                        lable="Jahreszeit"
+                        value={Season.toText(season)}
+                      />
+                      <DataRow lable="Idee" value={creator} />
+                      <DataRow lable="Hochgeladen von" value={uploadedBy} />
+                    </Grid>
+                  </Box>
+                </Card>
+              </Box>
+
+              <Box flex={1} space={2}>
+                {materials && (
+                  <Card>
+                    <Box space={2}>
+                      <Text variant="category">Materialien:</Text>
+                      <Box alignItems="start">
+                        <Text>{materials}</Text>
+                      </Box>
+                    </Box>
+                  </Card>
+                )}
+
+                {attachment.data != null && (
+                  <Card>
+                    <Box space={2}>
+                      <Text>
+                        Diese Gruppenstunde hat wohl ein paar Dateien angehängt.
+                        Das können Bilder, pdfs oder sonst was sein. Klick auf
+                        den Button um sie zu öffnen.
+                      </Text>
+                      <Button
+                        target="_blank"
+                        href={`https://docs.bdp-rps.de${attachment.data[0].attributes.url}`}>
+                        Anhang öffnen
+                      </Button>
+                    </Box>
+                  </Card>
+                )}
+                {notes != '' && (
+                  <Card>
+                    <Box space={2}>
+                      <Text variant="category">Notizen:</Text>
+                      <Box alignItems="start">
+                        <Text>{notes}</Text>
+                      </Box>
+                    </Box>
+                  </Card>
+                )}
+              </Box>
+            </Box>
           </Box>
         </Layout>
       </Box>
@@ -43,33 +150,22 @@ export default function Page({
   )
 }
 
-export async function getStaticPaths({ params }) {
-  const { promises: fs } = require('fs')
-  const { join } = require('path')
-
-  const dataPath = join(process.cwd(), 'data')
-  const files = await fs.readdir(dataPath)
-
+export async function getStaticPaths() {
+  const activities = await getActivities()
+  const ids = activities.data.map((activity) => activity.id)
   return {
     fallback: false,
-    paths: files.map((file) => ({
+    paths: ids.map((id) => ({
       params: {
-        id: file.replace('.json', ''),
+        id: id.toString(),
       },
     })),
   }
 }
 
 export async function getStaticProps({ params }) {
-  const { promises: fs } = require('fs')
-  const { join } = require('path')
-
-  const dataPath = join(process.cwd(), 'data')
-  const content = await fs.readFile(join(dataPath, params.id + '.json'), {
-    encoding: 'utf-8',
-  })
-
-  const data = JSON.parse(content)
+  const activity = await getActivity(params.id)
+  const data = activity.data.attributes
 
   return {
     props: data,

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wir {a}tanzen mit Tarnkappen, {F}und wir gehen trinken\n{C}mit falschen {e}Bärten. \nBis der {a}Himmel brennt auf dem Nach{F}hauseweg,\nund stehlen {C}Obst aus verbote {e}Gärten. \nMein {a}Herz ist ein Campmobil, {F}und ich will segeln gehen,\n{C}und jeden Tag {e}ist alles neu. \nUnd {a}alles ist gut, {F}nichts macht mir Angst, \nund {C}ich bin dir immer noch {e}treu.\n\n{a}Nur dein {F}liebes Ges{C}icht, macht mich zu{e}hause auf der {a}Welt.{F}{C}{e}\n\nDafür bleib ich hier und dafür komm ich wieder, \nund dafür könnt ihr mir alle gestohlen sein. \nIch hab verlorenes Gepäck, \nes ist irgendwo, aber immer noch mein - und \n\nEin Rundfunkmast funkt rund und ich hab meinen Raketenrucksack auf. \nIch muss wieder fort, ich muss ganz hoch hinauf. \nIch geb mir viel Mühe allein zufrieden zu sein, und vielleicht sieht es so aus. \nDann bin ich am Ende zufrieden aber eben nicht zuhaus', denn ",
+  "content": "Wir {a}tanzen mit Tarnkappen, {F}und wir gehen trinken mit {C}falschen {E}Bärten. \nBis der Himmel brennt auf dem Nachhauseweg, und stehlen Obst aus verbotenen Gärten. \n\nMein Herz ist ein Campmobil, und ich will segeln gehen, und jeden Tag ist alles neu. \nUnd alles ist gut, nichts macht mir Angst, und ich bin dir immer noch treu.\n\nNur dein liebes Gesicht, macht mich zuhause auf der Welt.\n\nDafür bleib ich hier und dafür komm ich wieder und dafür könnt ihr mir alle gestohlen sein. \nIch hab verlorenes Gepäck, es ist irgendwo, aber immer noch mein und nur... \n\nEin Rundfunkmast funkt rund und ich hab meinen Raketenrucksack auf. \nIch muss wieder fort, ich muss ganz hoch hinauf. \n\nIch geb mir viel Mühe allein zufrieden zu sein, und vielleicht sieht es so aus. \nDann bin ich am Ende zufrieden aber eben nicht zuhaus, denn nur...",
   "title": "Zuhause",
   "words": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -38,6 +38,27 @@
       "date": 1681727315383,
       "name": "Robin Weser",
       "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706211718834,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Rechtschreibung"
+    },
+    {
+      "date": 1706978900922,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1708702414050,
+      "name": "ko",
+      "mail": "",
       "type": "update",
       "content": ""
     }

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Box,
   El,
@@ -9,9 +9,9 @@ import {
   Tile,
   IconMenu,
   IconButton,
-  useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
 import Image from 'next/image'
+import { useLayerWithSizeConstraints } from 'react-scroll-blocking-layers'
 
 import NavBarItem from './NavBarItem'
 import NavBar from './NavBar'
@@ -41,11 +41,19 @@ export default function Template({
 }) {
   const router = useRouter()
   const theme = useTheme()
-  const [menuVisible, setMenuVisible] = useScrollBlockingOverlay(false, 1024)
+  const [menuVisible, setMenuVisible] = useLayerWithSizeConstraints(1024)
 
-  const hideMenu = () => {
-    setMenuVisible(false)
-  }
+  useEffect(() => {
+    function handleRouteChange() {
+      setMenuVisible(false)
+    }
+
+    router.events.on('beforeHistoryChange', handleRouteChange)
+
+    return () => {
+      router.events.off('beforeHistoryChange', handleRouteChange)
+    }
+  }, [])
 
   const navBarItems = Object.keys(nav).map((path) => (
     <NavBarItem
@@ -61,27 +69,28 @@ export default function Template({
 
   return (
     <Box grow={1}>
-      <Menu menuVisible={menuVisible} hideMenu={hideMenu}>
+      <Menu menuVisible={menuVisible} hideMenu={() => setMenuVisible(false)}>
         {navBarItems}
       </Menu>
 
       <Box height={heroHeight} width="100%" bg="rgba(0,0,0,0.3)">
         <Box
+          role="presentation"
           extend={{
             zIndex: -1,
             pointerEvents: 'none',
             position: 'fixed',
-            width: '100%',
-            height: '100%',
-            filter: 'contrast(0.9)',
+            width: '100vw',
+            height: '100vh',
+            filter: 'contrast(0.9) brightness(0.9)',
           }}>
           <El
             as={Image}
             src={image || defaultImage}
-            priority
+            alt=""
             layout="fill"
             objectFit="cover"
-            placeholder="blur"
+            placeholder={typeof image === 'string' ? undefined : 'blur'}
           />
         </Box>
         <Box
@@ -91,6 +100,7 @@ export default function Template({
           display={['flex', , , 'none']}>
           <Logo />
           <IconButton
+            label="Menü öffnen"
             icon={(props) => <IconMenu fill="white" {...props} />}
             iconSize={40}
             onClick={() => setMenuVisible(true)}

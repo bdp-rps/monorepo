@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "",
+  "info": "Übersetzung:\nMein Sohn\n1. Mein Herz ist verzückt, wenn er redet, wenn er mit seinen Händen wedelt. Du bist wunderbar mein Sohn, du bist meine Freude. \nIch küsse dein Herz, ich schau dich an, ich singe ein Lied \n2. Was für ein prächtiger Junge ist er, oh ich soll sterben. Schau er sing für mich, er tanzt für mich, oh ich muss sterben. Oh helft ihm ihr Götter!\n3. Stampfe deine Füße auf, so wie ich es zeige. Schau, Vater, schau wie ich tanze und meine Beine schwinge. Um dich zu entzücken, um dich zu entzücken.",
   "changes": [
     {
       "date": 1673369151756,
@@ -35,6 +35,13 @@
     },
     {
       "date": 1690734902576,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1707001637010,
       "name": "ko",
       "mail": "",
       "type": "update",

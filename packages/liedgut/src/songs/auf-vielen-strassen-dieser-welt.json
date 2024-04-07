@@ -19,7 +19,7 @@
   "tempo": "60",
   "info": "",
   "musicalKey": "Em",
-  "content": "Auf vielen {e}Straßen dieser {H7}Welt, habt ihr euch {a}sorglos {H7}rumge{e}trieben,\n  /: so ohne {a}Zelt und ohne {e}Geld, der Tippe{H7}lei ver{e}schrieben :/\n\nWas galt euch Armut, was Gefahr? Ihr habt, verachtet und zerschunden\n/: da draußen treibend Jahr für Jahr, doch euer Glück gefunden :/\n\nHabt manches Lied der Einsamkeit wohl in die Nacht hinausgesungen.\n/: Auf fremden Meeren fern der Zeit, ist euer Sang verklungen :/",
+  "content": "Auf vielen {e}Straßen dieser {H7}Welt, habt ihr euch {a}sorglos {H7}rumge{e}trieben,\n/: so ohne {a}Zelt und ohne {e}Geld der Tippe{H7}lei ver{e}schrieben. :/\n\nWas galt euch Armut, was Gefahr? Ihr habt verachtet und zerschunden.\n/: Da draußen treibend Jahr für Jahr doch euer Glück gefunden. :/\n\nHabt manches Lied der Einsamkeit wohl in die Nacht hinausgesungen.\n/: Auf fremden Meeren fern der Zeit ist euer Sang verklungen. :/",
   "changes": [
     {
       "name": "Robin Weser",
@@ -47,6 +47,20 @@
       "mail": "chris@fieker.de",
       "type": "update",
       "content": "Ich hab den refrain so umnotiert, bis es sich so anhörte wie wenn wir es singen, die takte haben jetzt alle gleich viele schläge und ich hab den takt auf 2/4 geändert weil es so im ohrwurm steht(habe dehalb das tempo verlangsamt. P.S.: habe die letzte note von der ersten zeile von einer achtel und einer achtelpause zu einer viertel geändert"
+    },
+    {
+      "date": 1707043939625,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712499861231,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "notation": "zEEF|\"e\"G3E|G3E|\"H7\"F4|zFFG|\"a\"A2A2|\"H7\"G2F2|\"e\"GFE2\n|:zBBB|\"a\"c3A|c3A|\"e\"G2A2|BBAG|\"H7\"F4|1: z2A2|\"e\"GAB2:|2 z2B2|\"e\"GFE2||",

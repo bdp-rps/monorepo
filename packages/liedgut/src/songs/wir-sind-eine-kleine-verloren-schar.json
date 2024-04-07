@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "tempo": "80",
-  "info": "",
+  "info": "Entstand Anfang der 30er Jahre, im Kreis des Nerother Wandervogel, vermutlich in Verbindung mit brecht in der Gegend um Wiesbaden, als die Nationalsozialisten nach und nach alle Bündischen und Pfadfinder in die HJ überführten. In diesem Zusammenhang ist dieses Lied als eines aus dem Widerstand erkennbar und gibt das Empfinden der illegalen Gruppen gegen den totalitären Staat wieder. Text und Melodie kommen wahrscheinlich aus dem Kreis um Alfred Zschiesche und sind vermutlich an das Lied „Wir sind eine wild, verwegene Schar“ angelehnt, welches im Bund der Reichspfadfinder um 1930 entstanden ist.\nEinige der bedeutungsschwangeren Stellen lassen sich selbst heute noch mühelos erklären. Am auffälligsten ist wohl der zerbrochene Speer. Damit ist der Wimpelspeer gemeint, der zerbrochen wurde, wenn ein Übertritt in die HJ nicht mehr abzuwenden war. Dem bündischen Gedanken entsprechend, verlässt und damit verrät niemand seine Gruppe, was an der Stelle …für immer sich zu uns gesellt entnehmen kann. Der Satz Wir haben die Spießer ängstlich gemacht gewinnt an Bedeutung, wenn man das Verbot der bündischen Jugend kennt. Manche, die die Ernsthaftigkeit heutiger Sänger in Frage stellen, behaupten, das Lied hieße Wir sind eine kleine verlogene Schar.",
   "musicalKey": "Em",
   "changes": [
     {
@@ -42,6 +42,13 @@
     },
     {
       "date": 1697126565452,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1706985233209,
       "name": "ko",
       "mail": "",
       "type": "update",
