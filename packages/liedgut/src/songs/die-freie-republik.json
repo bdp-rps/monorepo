@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}In dem Kerker saßen zu {G7}Frankfurt an dem {C}Main,\nschon seit vielen Jahren {G7}sechs Studenten {C}ein,\n/: die {F}für die Freiheit fochten und für das Bürger{C}glück\nund für die Menschenrechte der {G7}freien Repub{C}lik. :/\n\nUnd der Kerkermeister sprach es täglich aus:\n\"Sie, Herr Bürgermeister es reißt mir keiner aus!\"\n/: Aber doch sind sie verschwunden abends aus dem Turm,\nwohl um die zwölfte Stunde bei dem großen Sturm. :/\n\nUnd am andern Morgen hört man den Alarm.\nOh, es war entsetzlich der Soldatenschwarm!\n/: Sie suchten auf und nieder, sie suchten hin und her\nsie suchten sechs Studenten und fanden sie nicht mehr. :/\n\nDoch sie kamen wieder mit Schwertern in der Hand\nAuf, ihr deutschen Brüder, jetzt geht's für's Vaterland\n/: Jetzt geht's für Menschenrechte und für das Bürgerglück,\nwir sind doch keine Knechte der freien Republik! :/\n\nWenn euch die Leute fragen: \"Wo ist Absalom?\"\nSo dürfet ihr wohl sagen: \"Ja, der hänget schon.\"\n/: Er hängt an keinem Baume, er hängt an keinem Strick,\nsondern an dem Glauben der freien Republik. :/\n",
+  "content": "{C}In dem Kerker saßen zu {G7}Frankfurt an dem {C}Main,\nschon seit vielen Jahren {G7}sechs Studenten {C}ein,\n/: die {F}für die Freiheit fochten und für das Bürger{C}glück\nund für die Menschenrechte der {G7}freien Repub{C}lik. :/\n\nUnd der Kerkermeister sprach es täglich aus:\n\"Sie, Herr Bürgermeister es reißt mir keiner aus!\"\n/: Aber doch sind sie verschwunden abends aus dem Turm,\nwohl um die zwölfte Stunde bei dem großen Sturm. :/\n\nUnd am andern Morgen hört man den Alarm.\nOh, es war entsetzlich der Soldatenschwarm!\n/: Sie suchten auf und nieder, sie suchten hin und her,\nsie suchten sechs Studenten und fanden sie nicht mehr. :/\n\nDoch sie kamen wieder mit Schwertern in der Hand.\nAuf, ihr deutschen Brüder, jetzt gehts fürs Vaterland.\n/: Jetzt gehts für Menschenrechte und für das Bürgerglück,\nwir sind doch keine Knechte der freien Republik! :/\n\nWenn euch die Leute fragen: \"Wo ist Absalom?\"\nSo dürfet ihr wohl sagen: \"Ja, der hänget schon.\"\n/: Er hängt an keinem Baume, er hängt an keinem Strick,\nsondern an dem Glauben der freien Republik. :/\n",
   "title": "Die freie Republik",
   "words": [
     {
@@ -37,6 +37,13 @@
     {
       "date": 1690400409094,
       "name": "Ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712494148651,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""
