@@ -21,12 +21,14 @@ export default () => (
         <Link href={'mailto:intakt@bdp-rps.de'}>intakt[at]bdp-rps.de</Link>.
       </Text>
     </Box>
+    <Spacer size={6} />
     <Box space={8}>
       <Box direction="row" wrap="wrap" space={4}>
         {intakt.map(({ name, group, contact, position }) => (
           <Box
             marginBottom={4}
-            basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
+            basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}
+            key={name}>
             <Tile title={name}>
               <Box>
                 <Text>{position}</Text>
