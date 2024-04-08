@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "/: Wir {G}kamen {D}einst von Pie{G}mont und wollten {C}weiter {D}nach {G}Lyon. :/\nAch im Beutel, da herrschte {D}Leere, sans dessus dessous et sans devant derr{G}ière.\nBurschen waren wir drei, {D}doch nur ein {G}Sous!\n\n/: {C}Sans devant derr{G}ière, sans des{D}sus des{G}sous. :/\n\n/: Herr Wirt, bring uns ein Essen her, der Magen ist so lang schon leer. :/\nHab noch Fleisch von der alten Mähre, sens dessus dessous et sens devant derrière.\nHei, bringt es her und Wein dazu!\n\n/: Herr Wirt, wir woll'n nun weiterzieh'n, das Essen war gewiss sehr schön. :/\nNehmt den Sou, hab'n nichts mehr auf Ehre, sens dessus dessous et sens devant derrière.\nWir aber stoben fort im Nu!",
+  "content": "/: Wir {G}kamen {D}einst von Pie{G}mont und wollten {C}weiter {D}nach {G}Lyon. :/\nAch im Beutel, da herrschte {D}Leere, sans dessus dessous et sans devant derr{G}ière.\nBurschen waren wir drei, doch nur ein Sous!\n\n/: {C}Sans devant derr{G}ière, sans des{D}sus des{G}sous. :/\n\n/: Herr Wirt, bring uns ein Essen her, der Magen ist so lang schon leer. :/\nHab noch Fleisch von der alten Mähre, sens dessus dessous et sens devant derrière.\nHei, bringt es her und Wein dazu!\n\n/: Herr Wirt, wir wolln nun weiterziehn, das Essen war gewiss sehr schön. :/\nNehmt den Sou, hab'n nichts mehr auf Ehre, sens dessus dessous et sens devant derrière.\nWir aber stoben fort im Nu!",
   "title": "Wir kamen einst von Piemont",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712575547197,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
