@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{A}Eisch ha' gehoat. Loo is ääna, der kimmt {D}beigeflu{fis} {E}\n{E}Eisch fròò'en nur: {A}'Watt hascht dann dau om Buckel, dau bischt doch kään {E}Eul?' {fis} {E}\n{E}Do lòuder nur unn {h}säät datt sinn Flit{G}schen, die sinn {fis}fia se fléin. {D}\nUnn doo {G}lòuen eisch en aan. \"Ah\", seed'a, {D}\"fahn's mò draan\".\nUnn datt {A}machen eisch unn saan: {G}\n\"Eisch maan'a {F}sellwa gea {A}hann!\"\n\nUnn dofür, {E}ohhhh, kaafen eisch ma {fis}Flitschen. Do kann nimmes meisch ver{D}witschen,\nDoo fléin eisch ääfach {A}fott.\nEisch fléien bis off Ha{E}waii, unn nimmes kann meisch {fis}kréien,\nwenn meisch mei Flitschen {D}trejen an einen ander'n {A}Ort.\nDoch eisch muss {h}sehen, uhuhuhuh, {G}Es ist wohl {D}nummen ein Traum. {A}\n\nEisch woa kaafen gang, in de Edeka, eisch hott kää mee Woscht.\nDer Weech woa lang, fier se Fouß se gehn hott eisch kää me Loscht,\nWie vil Zeit kennt ma spaan, wemmer Engel wär, weil dann\nhätt mer Flitschen hennen dran.\nEisch maana bitte gea hann.\n\nUnn dofür, ohhhh, kaafen eisch ma Flitschen. Do kann nimmes meisch verwitschen,\nDoo fléin eisch ääfach fott.\nEisch fléien bis off Hawaii, unn nimmes kann meisch kréien,\nwenn meisch mei Flitschen trejen an einen ander'n Ort.\nDoch eisch muss sehen, uhuhuhuh, Es ist wohl nummen ein Traum.\n\n /: E Bm A A :/\n /: E Bm A A :/\n\nUnn dofür, ohhhh, kaafen eisch ma Flitschen. Do kann nimmes meisch verwitschen,\nDoo fléin eisch ääfach fott.\nEisch fléien bis off Hawaii, unn nimmes kann meisch kréien,\nwenn meisch mei Flitschen trejen an einen ander'n Ort.\nDoch eisch muss sehen, uhuhuhuh, Es ist wohl nummen ein Traum.\n",
+  "content": "{A}Eisch ha gehoat, loo is ääna, der kimmt {D}beigeflu.{fis}{ E}\nEisch frooen nur: {A}\"Watt hascht dann dau om Buckel, dau bischt doch kään {D}Eul?\" {fis}{ E}\nDo louder nur unn {h}säät: \"Datt sinn Flit{D}schen, die sinn {fis}fia se flein.\" {D}\nUnn doo {G}louen eisch en aan. \"Ah\", seeda, {D}\"fahns mo draan\"\nUnn datt {A}machen eisch unn saan: {G}\"Eisch maana {D}sellwa gea {A}hann!\"\n\nUnn dofür, {E}ohhhh, kaafen eisch ma {fis}Flitschen. Do kann nimmes meisch ver{D}witschen,\ndoo flein eisch ääfach {A}fott. Eisch fleien bis off Ha{E}waii, unn nimmes kann meisch {fis}kreien,\nwenn meisch mei Flitschen {D}trejen an einen andern {A}Ort.\nDoch eisch muss {h}sehen, uhuhuhuh, {G}es ist wohl {D}nummen ein Traum. {A}\n\n{A}Eisch woa kaafen gang, in de Edeka, eisch hott {D}kää mee Woscht.{fis}{ E}\nDer Weech woa {A}lang, fier se Fouß se gehn hott eisch {D}kää me Loscht, {fis}{ E}\nWie vil {G}Zeit kennt ma spaan, wemmer {D}Engel wär, weil dann\nhätt mer {A}Flitschen hennen dran. {G}Eisch maana {D}bitte gea {A}hann.\n\nUnn dofür ...\n\n/: E D A :/\n\nUnn dofür ...",
   "title": "Flitschen",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "musicalKey": "",
+  "musicalKey": "A",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1712579061843,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
