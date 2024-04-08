@@ -47,25 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712559243534,
+      "name": "robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "test"
     }
   ],
-  "specialSettings": {
-    "holzwurm": [
-      {
-        "type": "block",
-        "style": {
-          "lineHeight": 1.05
-        }
-      },
-      {
-        "type": "space",
-        "style": {
-          "lineHeight": 0.7
-        }
-      },
-      {
-        "type": "authors_single_line"
-      }
-    ]
-  }
+  "specialSettings": {}
 }
