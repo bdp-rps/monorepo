@@ -49,5 +49,23 @@
       "content": ""
     }
   ],
-  "specialSettings": {}
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1.05
+        }
+      },
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 0.7
+        }
+      },
+      {
+        "type": "authors_single_line"
+      }
+    ]
+  }
 }
