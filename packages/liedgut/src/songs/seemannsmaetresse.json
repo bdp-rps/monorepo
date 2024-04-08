@@ -60,21 +60,33 @@
     "holzwurm": [
       {
         "type": "block",
-        "blocks": [4, 5, 6, 7, 8],
+        "blocks": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
         "style": {
           "lineHeight": 1.11
         }
       },
       {
         "type": "space",
-        "blocks": [4, 7],
+        "blocks": [
+          4,
+          7
+        ],
         "style": {
           "lineHeight": 0.7
         }
       },
       {
         "type": "space",
-        "blocks": [5, 6],
+        "blocks": [
+          5,
+          6
+        ],
         "style": {
           "lineHeight": 1.15
         }

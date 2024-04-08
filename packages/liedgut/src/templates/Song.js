@@ -36,7 +36,6 @@ export default function Song({
           (blocks === undefined || blocks.includes(block)) &&
           lines === undefined
         ) {
-          console.log('block', block, settings)
           return true
         }
 

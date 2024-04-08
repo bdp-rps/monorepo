@@ -39,12 +39,6 @@ async function addSong(
   const fileName = escapeSongName(song.title)
   const submitDate = Date.now()
 
-  try {
-    song.specialSettings = JSON.parse(specialSettings)
-  } catch (e) {
-    song.specialSettings = {}
-  }
-
   const { changes, ...songData } = song
   const branchName =
     fileName +

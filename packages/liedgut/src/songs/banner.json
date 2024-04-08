@@ -59,8 +59,12 @@
     "holzwurm": [
       {
         "type": "line",
-        "blocks": [1],
-        "lines": [2],
+        "blocks": [
+          1
+        ],
+        "lines": [
+          2
+        ],
         "style": {
           "letterSpacing": -0.1
         }

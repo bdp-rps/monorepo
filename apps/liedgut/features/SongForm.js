@@ -687,11 +687,20 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               disabled={isLoading}
               onClick={async () => {
                 setLoading(true)
-                const res = await onSubmit(song, {
-                  submitter: submitter.name,
-                  submitterMail: submitter.mail,
-                  submitterContent: submitter.content,
-                })
+
+                let specialSettings = {}
+                try {
+                  specialSettings = JSON.parse(song.specialSettings)
+                } catch (e) {}
+
+                const res = await onSubmit(
+                  { ...song, specialSettings },
+                  {
+                    submitter: submitter.name,
+                    submitterMail: submitter.mail,
+                    submitterContent: submitter.content,
+                  }
+                )
 
                 const json = await res.json()
 
