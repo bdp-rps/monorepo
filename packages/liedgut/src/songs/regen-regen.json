@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Regen, Regen {D}nichts als Regen {G}und die Nässe {D}überall.\n{e}Wasser fließt auf {H7}allen Wegen, {e}Wolken {D}sind um {e}Berg und Tal.\n\n{e}Tropfen {C}fallen {e}auf die {C}Haare, {G}Wind der {D}peitscht uns {G}ins Ges{D}icht.\n{e}Regen, {C}Regen - {e}tausend {C}Jahre {G}und kein {D}bisschen {G}Sonnenlicht.\n\nFluch der Nässe, Biss der Kälte treibt uns weiter durch das Land.\nSchwer und nass sind unsre Zelte, Feuer qualmen ohne Brand.\n\nFasst nun Hoffnung, all ihr Brüder, denn am Horizont wird's heiter.\nSonne lacht uns immer wieder, unser Leben geht doch weiter.",
+  "content": "{G}Regen, Regen {D}nichts als Regen {G}und die Nässe {D}überall.\n{e}Wasser fließt auf {H7}allen Wegen, {e}Wolken {D}sind um {e}Berg und Tal.\n\n{e}Tropfen {C}fallen {e}auf die {C}Haare, {G}Wind der {D}peitscht uns {G}ins Ges{D}icht.\n{e}Regen, {C}Regen - {e}tausend {C}Jahre {G}und kein {D}bisschen {G}Sonnenlicht.\n\nFluch der Nässe, Biss der Kälte treibt uns weiter durch das Land.\nSchwer und nass sind unsre Zelte, Feuer qualmen ohne Brand.\n\nFasst nun Hoffnung, all ihr Brüder, denn am Horizont wirds heiter.\nSonne lacht uns immer wieder, unser Leben geht doch weiter.",
   "title": "Regen, Regen",
   "words": [
     {
@@ -53,7 +53,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712753062888,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "G"
+  "musicalKey": "G",
+  "specialSettings": {}
 }
