@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Welle wogte {C}an den {e}Strand, griff nach eines {C}Mädchens {D}Hand,\n{G}das in Abend{D}sonnen{e}gl{h}ut, {e}heimwärts wandert {C}durch die {e}Flut.\n\nZarte Brust und schlanker Fuß, wahrt euch vor des Schmeichlers Gruß:\n\"Höre, Kind, mein sanft Gebot, warte, bleib, ich bin der Tod.\"\n\n\"Drüben ruft der liebe Glück. Schmachvoll wär's, blieb ich zurück.\"\nDort im Fluss, der helle Klang. War's ein Fisch der spielend sprang?\n\nSchlanker Fuß und zartes Herz harrt der Fähre heimatwärts.\n\"Hör auf mich\" die Welle droht, \"warte, Kind, ich bin der Tod.\"\n\n\"Liebster ruft, da muss ich eilen. Schande träf' mich, wollte ich weilen.\"\nWelle, Welle wogt und ringt, mächtig ihren Leib umschlingt.\n\nTöricht Herze, treue Hand, kleiner Fuß trat nie ans Land.\nWelle wandert, Welle rot, wogt hinab und trägt den Tod.",
+  "content": "{e}Welle wogte {C}an den {e}Strand, griff nach eines {C}Mädchens {D}Hand,\n{G}das in Abend{D}sonnen{e}gl{h}ut, {e}heimwärts wandert {C}durch die {e}Flut.\n\nZarte Brust und schlanker Fuß, wahrt euch vor des Schmeichlers Gruß:\n\"Höre, Kind, mein sanft Gebot, warte, bleib, ich bin der Tod.\"\n\n\"Drüben ruft der liebe Glück. Schmachvoll wärs, blieb ich zurück.\"\nDort im Fluss, der helle Klang. Wars ein Fisch der spielend sprang?\n\nSchlanker Fuß und zartes Herz harrt der Fähre heimatwärts.\n\"Hör auf mich\" die Welle droht, \"warte, Kind, ich bin der Tod.\"\n\n\"Liebster ruft, da muss ich eilen. Schande träf' mich, wollte ich weilen.\"\nWelle, Welle wogt und ringt, mächtig ihren Leib umschlingt.\n\nTöricht Herze, treue Hand, kleiner Fuß trat nie ans Land.\nWelle wandert, Welle rot, wogt hinab und trägt den Tod.",
   "title": "Welle wogte",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712739830746,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
