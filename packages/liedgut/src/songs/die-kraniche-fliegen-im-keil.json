@@ -1,6 +1,6 @@
 {
   "notation": "A,|\"a\"A,B,C\"E7\"DCB,|\"a\"A,4zA,|CCC\"G\"DCD|\"C\"EE4\"E\"z|\nE|\"d\"DEF\"G7\"FED|\"C\"EDC\"a\"A,2C|\"d\"DEF\"E\"FED|\"a\"AED\"C\"CDD\n\"d\"D2DDCD|B,\"E\"B,5|",
-  "content": "Die {a}Kraniche {E7}fliegen im {a}Keil, so trotzen sie {G}besser den {C}Winden{E},\nso {d}teilen sie {G7}besser die {C}Kräfte {a}weil die {d}Stärkeren {E}fliegen im {a}vorderen {C}Teil\nund die {d}Schwachen, die fliegen {E}hinten.\n\nUnd kommen die Kraniche an am Ziel ihrer Reise, dann haben\ndie Stärkeren größere Arbeit getan und loben die Schwächeren hinten an, \ndie doch auch ihr Bestes gaben.\n\nDann essen die Kraniche Fisch. Soviel wie die Mägen verlangen.\nDie Starken, die haben nicht mehr für den Tisch, als die Schwachen vom guten, silbernen Fisch\nin den Teichen am Ziel sich gefangen.\n\nLasst uns wie die Kraniche sein und jeder sein Möglichstes geben:\nDie Starken in groß und die Schwachen in klein und trinken am Abend den gleich teuren Wein\nauf ein noch viel besseres Leben.",
+  "content": "Die {a}Kraniche {E7}fliegen im {a}Keil, so trotzen sie {G}besser den {C}Winden{E},\nso {d}teilen sie {G7}besser die {C}Kräfte {a}weil die {d}Stärkeren {E}fliegen im {a}vorderen {C}Teil\nund die {d}Schwächeren, die fliegen {E}hinten.\n\nUnd kommen die Kraniche an am Ziel ihrer Reise, dann haben\ndie Stärkeren größere Arbeit getan und loben die Schwächeren hinten an, \ndie doch auch ihr Bestes gaben.\n\nDann essen die Kraniche Fisch. Soviel wie die Mägen verlangen.\nDie Starken, die haben nicht mehr für den Tisch, als die Schwachen vom guten, silbernen Fisch\nin den Teichen am Ziel sich gefangen.\n\nLasst uns wie die Kraniche sein und jeder sein Möglichstes geben:\nDie Starken im Groß und die Schwachen im Klein und trinken am Abend den gleich teuren Wein\nauf ein noch viel besseres Leben.",
   "title": "Die Kraniche fliegen im Keil",
   "words": [
     {
@@ -66,6 +66,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712851044383,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
@@ -93,7 +100,7 @@
           2
         ],
         "style": {
-          "letterSpacing": -0.17
+          "letterSpacing": -0.268
         }
       }
     ]
