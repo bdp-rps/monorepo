@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Der {G}lang ge{C}nug mit {G}viel Be{D}dacht des {e}Hauses {D}Haft er{G}tra{D}gen,\n/: hat {G}über {D}Nacht sich {e}aufge{H7}macht die {C}große {G}Fahrt zu {D}wa{G}gen. :/\n\nDer sich im Dunkeln abgemüht, ihn konnt' kein Zwang mehr halten, \n/: mit allem, was da grünt und blüht im Licht sich zu entfalten. :/\n\nGleich Vogel, Falter, Baum und Strauch, befreit von Winters Banden\n/: ist er zu neuem Leben auch erwacht und auferstanden. :/\n\nUnd wenn er seiner Straße zieht, wie es ihm will gefallen,\n/: lässt er sein junges Wanderlied hell in die Weite schallen. :/",
+  "content": "Der {G}lang ge{C}nug mit {G}viel Be{D}dacht des {e}Hauses {D}Haft er{G}tra{D}gen,\n/: hat {G}über {D}Nacht sich {e}aufge{H7}macht die {C}große {G}Fahrt zu {D}wa{G}gen. :/\n\nDer sich im Dunkeln abgemüht, ihn konnt kein Zwang mehr halten, \n/: mit allem, was da grünt und blüht im Licht sich zu entfalten. :/\n\nGleich Vogel, Falter, Baum und Strauch, befreit von Winters Banden\n/: ist er zu neuem Leben auch erwacht und auferstanden. :/\n\nUnd wenn er seiner Straße zieht, wie es ihm will gefallen,\n/: lässt er sein junges Wanderlied hell in die Weite schallen. :/",
   "title": "Ein junges Lied",
   "words": [
     {
@@ -45,8 +45,16 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712850338736,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "G"
+  "musicalKey": "G",
+  "specialSettings": {}
 }
