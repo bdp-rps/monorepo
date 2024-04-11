@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{A7}Der {d}Wind er{a}stickt der {d}Schritte {a}Laut, der {B}Regen {F}wäscht {C}uns so {F}blank.  {A7}\nDie {d}Sonne {a}trocknet {d}unsere {a}Haut, der {B}Wald ist uns {F}Ku{C}gel{F}fang.\n\nDie {B}Grenze {F}füllt uns un{C}ser {d}Glas, die {B}Grenze {F}gibt {C}uns {F}Brot.\nDie {B}Grenze {d}kleidet {B}uns {C}nach {F}Maß, sie {B}lindert{F} al{C}le {F}Not.\n\nAch, die Jungs sind fortgegangen, die Nacht ist so schwarz und so stumm.\nDa müssen die Mädchen sich bangen: Bringt die Grenze den Liebsten um?\n\nLiebster, mir ist so bang, lass ab vom gefährlichen Gang!\nDie Nacht ist so schwarz wie die Not, du gehst im Arm mit dem Tod.",
+  "content": "{A7}Der {d}Wind er{a}stickt der {d}Schritte {a}Laut, der {B}Regen {F}wäscht {C}uns so {F}blank.  {A7}\nDie {d}Sonne {a}trocknet {d}unsere {a}Haut, der {B}Wald ist uns {F}Ku{C}gel{F}fang.\n\nDie {B}Grenze {F}füllt uns un{C}ser {d}Glas, die {B}Grenze {F}gibt {C}uns {F}Brot.\nDie {B}Grenze {d}kleidet {B}uns {C}nach {F}Maß, sie {B}linder{F}t al{C}le {F}Not.\n\nAch, die Jungs sind fortgegangen, die Nacht ist so schwarz und so stumm.\nDa müssen die Mädchen sich bangen: Bringt die Grenze den Liebsten um?\n\nLiebster, mir ist so bang, lass ab vom gefährlichen Gang!\nDie Nacht ist so schwarz wie die Not, du gehst im Arm mit dem Tod.",
   "title": "Die Grenze",
   "words": [
     {
@@ -59,8 +59,16 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712850455922,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Dm"
+  "musicalKey": "Dm",
+  "specialSettings": {}
 }
