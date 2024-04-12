@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Sie saßen {G}oft beim Märchen{F}see am Lager{C}feuer,{a} sie wollten {F}leben, wie es {G}ihnen ge{C}fiel. \nDer neue {G}Kurs im deutschen {F}Land war nicht ge{C}heuer.{a} \nSie wollten {F}frei sein, mit Ge{G}sang, Gitarren{C}spiel. \n{G}Mit ihrer {F}Kleidung nahmen {C}sie's nicht so ge{G}nau,\nganz offen {F}trugen sie das {C}Edelweiß zu {G}Schau. Und das war {F}gut, sie hatten {C}Mut. \n\nSie hatten nichts im Sinn mit braunen Nazihorden,\nsie hielten nichts von dem Geschrei nach \"Heil und Sieg\". \nWas war denn nur aus ihrem Vaterland geworden?\nMan schürte offen den verbrecherischen Krieg. \nDa gab's nur eins zu tun: befrei'n wir dieses Land.\nDa durfte keiner ruh'n: wir leisten Widerstand!  Sie hatten Mut und das war gut. \n\n{C}Vielleicht wird {G}morgen schon {F}eine neue {G}Zeit anfangen, \n{C}vielleicht ist {G}morgen schon {d}der Spuk vor{A}bei. \n{C}Vielleicht wird {G}morgen schon {F}eine neue {G}Zeit anfangen, \n{C}vielleicht ist {G}morgen schon {F}der Spuk {C}vorbei. \n\nDa gab's nen Güterzug mit Kriegsnachschub und Waffen\nund was man sonst noch braucht für einen Völkermord. \nDa machten sie sich an den Gleisen kurz zu schaffen,\nder Zug erreichte niemals den Bestimmungsort. \nUnd Essensmarken vom Parteibüro der Stadt\nwar'n plötzlich weg und Zwangsarbeiter wurden satt. Sie hatten Mut, sie hatten Mut. \n\nSie glaubten fest daran, dass sie den Sieg erringen.\nSie glaubten fest daran, aus Schaden wird man klug.\nSie glaubten fest daran als sie zum Galgen gingen.\nSie glaubten fest daran als man sie vorher schlug. \nUnd diese Angst, die hinter jeder Folter steht,\ndie ist so groß, dass man den besten Freund verrät. Versteht man gut, versteht man gut. \n\nVielleicht wird morgen schon...\n\nSie stehen heute noch auf manchen schwarzen Listen. \nIch möchte' fast sagen, heut ist's wieder mal soweit.\nIn Amt und Würden sitzen wieder mal Faschisten \nund zum totalen Krieg ist mancher schon bereit.\nNur seh ich Tausende - und das beruhigt mich sehr - \ndie zeigen offen das zerbrochene Gewehr. Denn das macht Mut, denn das macht Mut. \n\nUnd dann wird morgen schon...",
+  "content": "{C}Sie saßen {G}oft beim Märchen{F}see am Lager{C}feuer,{a} \nsie wollten {F}leben, wie es {G}ihnen ge{C}fiel. \nDer neue {G}Kurs im deutschen {F}Land war nicht ge{C}heuer.{a} \nSie wollten {F}frei sein, mit Ge{G}sang, Gitarren{C}spiel. \n{G}Mit ihrer {F}Kleidung nahmen {C}sies nicht so ge{G}nau,\nganz offen {F}trugen sie das {C}Edelweiß zu {G}Schau. Und das war {F}gut, sie hatten {C}Mut. \n\nSie hatten nichts im Sinn mit braunen Nazihorden,\nsie hielten nichts von dem Geschrei nach \"Heil und Sieg\". \nWas war denn nur aus ihrem Vaterland geworden?\nMan schürte offen den verbrecherischen Krieg. \nDa gabs nur eins zu tun: befrei'n wir dieses Land.\nDa durfte keiner ruhn: wir leisten Widerstand!  Sie hatten Mut und das war gut. \n\n{C}Vielleicht wird {G}morgen schon {F}eine neue {G}Zeit anfangen, \n{C}vielleicht ist {G}morgen schon {d}der Spuk vor{A}bei. \n{C}Vielleicht wird {G}morgen schon {F}eine neue {G}Zeit anfangen, \n{C}vielleicht ist {G}morgen schon {F}der Spuk {C}vorbei. \n\nDa gabs nen Güterzug mit Kriegsnachschub und Waffen\nund was man sonst noch braucht für einen Völkermord. \nDa machten sie sich an den Gleisen kurz zu schaffen,\nder Zug erreichte niemals den Bestimmungsort. \nUnd Essensmarken vom Parteibüro der Stadt\nwarn plötzlich weg und Zwangsarbeiter wurden satt. Sie hatten Mut, sie hatten Mut. \n\nSie glaubten fest daran, dass sie den Sieg erringen.\nSie glaubten fest daran, aus Schaden wird man klug.\nSie glaubten fest daran als sie zum Galgen gingen.\nSie glaubten fest daran als man sie vorher schlug. \nUnd diese Angst, die hinter jeder Folter steht,\ndie ist so groß, dass man den besten Freund verrät. Versteht man gut, versteht man gut. \n\nVielleicht wird morgen schon...\n\nSie stehen heute noch auf manchen schwarzen Listen. \nIch möchte fast sagen, heut ists wieder mal soweit.\nIn Amt und Würden sitzen wieder mal Faschisten \nund zum totalen Krieg ist mancher schon bereit.\nNur seh ich Tausende - und das beruhigt mich sehr - \ndie zeigen offen das zerbrochene Gewehr. Denn das macht Mut, denn das macht Mut. \n\nUnd dann wird morgen schon...",
   "title": "Edelweißpiraten",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712947150628,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
