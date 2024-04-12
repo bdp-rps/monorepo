@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Siehst du dort das Feuer brennen {A}und kannst Du die {d}Männer seh'n,\n{d}die im Licht der glüh'nden Kohlen {A}an der Schmiede{d}esse steh'n.\n{g}Unterm Hammer fliegen Funken {d}Schwefeldampf entsteigt der Glut.\n{g}Ja sie riechen wie die Teufel {A}und sie schmieden auch so gut.\n\n{d}Hammer tanz im Rhythmus meines {A}Armes schwer und {d}gut.\n{d}Bruder blas die Esse an, denn {A}lodern soll die {d}Glut.\n/: {g}Stahl auf Stahl, {d}Stahl auf Stahl. {A}Lied der Schmiede klinge durch das {d}Tal. :/\n\nIn der Schmiede Augen spiegelt sich der Esse lodernd Glut.\nUnd ihr Herzschlag gibt den Rhythmus für das Eisen rot wie Blut.\nUnd die angefachten Kohlen glühen rot und glühen heiß.\nStarke Arme halten Zangen und auf Männerhaut glänzt Schweiß.\n\nGroße Hände formen Dinge, die so wundersam und fein.\nUnd doch, wenn sie einmal zornig, möcht' ich nicht der Gegner sein.\nDenn der Narr, der sie verärgert, war die längste Zeit ein Held,\nund mit Sicherheit herrscht Ruhe wenn erst dieser Hammer fällt.\n\nSchließlich sind wir ja Kollegen, darum nehmt vom Verseschmied\nvoller Dankbarkeit entgegen und in Freundschaft dieses Lied.\n",
+  "content": "{d}Siehst du dort das Feuer brennen {A}und kannst Du die {d}Männer sehn,\n{d}die im Licht der glüh'nden Kohlen {A}an der Schmiede{d}esse stehn.\n{g}Unterm Hammer fliegen Funken {d}Schwefeldampf entsteigt der Glut.\n{g}Ja sie riechen wie die Teufel {A}und sie schmieden auch so gut.\n\n{d}Hammer tanz im Rhythmus meines {A}Armes schwer und {d}gut.\n{d}Bruder blas die Esse an, denn {A}lodern soll die {d}Glut.\n/: {g}Stahl auf Stahl, {d}Stahl auf Stahl. {A}Lied der Schmiede klinge durch das {d}Tal. :/\n\nIn der Schmiede Augen spiegelt sich der Esse lodernd Glut.\nUnd ihr Herzschlag gibt den Rhythmus für das Eisen rot wie Blut.\nUnd die angefachten Kohlen glühen rot und glühen heiß.\nStarke Arme halten Zangen und auf Männerhaut glänzt Schweiß.\n\nGroße Hände formen Dinge, die so wundersam und fein.\nUnd doch, wenn sie einmal zornig, möcht ich nicht der Gegner sein.\nDenn der Narr, der sie verärgert, war die längste Zeit ein Held,\nund mit Sicherheit herrscht Ruhe wenn erst dieser Hammer fällt.\n\nSchließlich sind wir ja Kollegen, darum nehmt vom Verseschmied\nvoller Dankbarkeit entgegen und in Freundschaft dieses Lied.\n",
   "title": "Lied der Schmiede",
   "words": [
     {
@@ -46,7 +46,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712947216452,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "Dm"
+  "musicalKey": "Dm",
+  "specialSettings": {}
 }
