@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Was bin ich n{a}ur so j{G}äh erw{C}acht? So fr{G}üh? Es {a}ist noch l{e}ang nicht T{a}ag.\nFahl liegt die K{C}ammer, d{G}urch die N{C}acht hallt eines Kr{a}ampens d{e}umpfer Schl{a}ag.\nVorm Fenster st{F}eht ein Mann und schw{C}ingt den Schaft und br{F}icht das Pflaster a{C}uf;\nder scharfe H{d}auch der Erde dr{a}ingt mit jedem Schl{G}ag zu mir her{F}auf.\n\nVor Schwäche dreht es mich zur Wand; lang ist es her, schon viel zu lang,\ndass auf dem Steig gespreizt ich stand bei Nacht und selbst den Krampen schwang.\nDie Funken stoben und wie Wein roch scharf der Grund; das ist vorbei.\nEin andrer lockert Stein um Stein und weckt mich vor dem Hahnenschrei.\n\nDer du vorm Fenster stehst: vielleicht hab ich vor Jahren dich gekannt\nund dir die Schaufel zugereicht und hab dich meinen Freund genannt.\nDas ist vorbei. Lang hungert mich. Ich tät dein Werk genau so gut.\nUnd säh ich auf der Straße dich, ich zöge nicht vor dir den Hut.\n\nWeißt du, Gesell, was Hunger ist? Und weißt du's auch, was gilt es mir!\nDen Karren, der die Erde frisst, das Scheit, den Krampen neid' ich dir.\nIch ließ' dich nicht herein zur Tür; du reißt mit jedem neuen Schlag,\nkannst du auch zehnmal nichts dafür, mehr als das Pflaster auf vor Tag.\n\nDen tiefen Riss, du schüttest nicht solang du lebst, mit nichts ihn zu.\nAm Barren schwingt das rote Licht, die fahlen Sterne geh'n zur Ruh.\nEin Zug geht, draußen auf dem Steig verhallt der letzte Krampenschlag;\nans Fenster schlägt ein schwarzer Zweig. Mich friert. Es ist noch lang nicht Tag.  ",
+  "content": "Was bin ich n{a}ur so {G}jäh er{C}wacht? So {G}früh? Es {a}ist noch {e}lang nicht {a}Tag.\nFahl liegt die {C}Kammer, {G}durch die {C}Nacht hallt eines {a}Krampens {e}dumpfer {a}Schlag.\nVorm Fenster {F}steht ein Mann und {C}schwingt den Schaft und {F}bricht das Pflaster {C}auf;\nder scharfe {d}Hauch der Erde {a}dringt mit jedem {G}Schlag zu mir her{F}auf.\n\nVor Schwäche dreht es mich zur Wand; lang ist es her, schon viel zu lang,\ndass auf dem Steig gespreizt ich stand bei Nacht und selbst den Krampen schwang.\nDie Funken stoben und wie Wein roch scharf der Grund; das ist vorbei.\nEin andrer lockert Stein um Stein und weckt mich vor dem Hahnenschrei.\n\nDer du vorm Fenster stehst: vielleicht hab ich vor Jahren dich gekannt\nund dir die Schaufel zugereicht und hab dich meinen Freund genannt.\nDas ist vorbei. Lang hungert mich. Ich tät dein Werk genau so gut.\nUnd säh ich auf der Straße dich, ich zöge nicht vor dir den Hut.\n\nWeißt du, Gesell, was Hunger ist? Und weißt dus auch, was gilt es mir!\nDen Karren, der die Erde frisst, das Scheit, den Krampen neid ich dir.\nIch ließ dich nicht herein zur Tür; du reißt mit jedem neuen Schlag,\nkannst du auch zehnmal nichts dafür, mehr als das Pflaster auf vor Tag.\n\nDen tiefen Riss, du schüttest nicht solang du lebst, mit nichts ihn zu.\nAm Barren schwingt das rote Licht, die fahlen Sterne gehn zur Ruh.\nEin Zug geht, draußen auf dem Steig verhallt der letzte Krampenschlag;\nans Fenster schlägt ein schwarzer Zweig. Mich friert. Es ist noch lang nicht Tag.  ",
   "title": "Ein Krampenschlag vor Tag",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712951718529,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
