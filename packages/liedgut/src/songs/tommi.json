@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Ich will mal {G}wieder am {a}Rhein steh'n,\neinfach hin{e}einseh'n, {F}zuschau'n, wie {e}Schiffe vorb{d}eizieh'n.\n\n{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Vielleicht {G}liegt es am {a}Licht und wie's \nsich grade {e}bricht. {F}Oder da{e}ran, dass {d}man hier in der {F}Bahn die {e}Spree seh'n {d}kann.\n\n{C}Tommi, vielleicht ruf' ich {e}an, {F}damit du {G}sagst: 'Irgend{a}wann, irgendwann, \nirgend{e}wann. Fang' wir {F}hier zum letzten {G}Mal von vorne {C}an'.\n\n/: Da wo mer zu{F}sammen {d}groß jeworde {G}sin, da {C}zieh'n mer {F}alle {d}irgend{G}wann wieder {C}hin,\ndamit die {F}Kinder, die mer {d}krieje {G}könn'n, {C}alle in {F}Kölle {d}jebore {G}sin. :/\n/: {F}Jeb{d}o-o-{G}ore {C}sin. :/\n\nIn der Stadt, in der wir jung und dumm war'n, und unverwundbar, \nweil alles so bunt war. Und es war immer klar, irgendwann kommt der Tag \nan dem wir beide geh'n.\n\nWir wollten immer was seh'n, So viel, wie es geht und überall auf der Welt,\nAlle Wege führ'n nach Rom und irgendwann zurück nach Köln.",
+  "content": "{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Ich will mal {G}wieder am {a}Rhein stehn,\neinfach hin{e}einsehn, {F}zuschaun, wie {e}Schiffe vorb{d}eiziehn.\n\n{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Vielleicht {G}liegt es am {a}Licht und wies \nsich grade {e}bricht. {F}Oder da{e}ran, dass {d}man hier in der {F}Bahn die {e}Spree sehn {d}kann.\n\n{C}Tommi, vielleicht ruf ich {e}an, {F}damit du {G}sagst: \"Irgend{a}wann, irgendwann, \nirgend{e}wann. Fang wir {F}hier zum letzten {G}Mal von vorne {C}an.\"\n\n/: Da wo mer zu{F}sammen {d}groß jeworde {G}sin, da {C}ziehn mer {F}alle {d}irgend{G}wann wieder {C}hin,\ndamit die {F}Kinder, die mer {d}krieje {G}könn'n, {C}alle in {F}Kölle {d}jebore {G}sin. {(C)}:/\n/: {F}Jeb{d}o-o-{G}ore {C}sin. :/\n\nIn der Stadt, in der wir jung und dumm warn, und unverwundbar, \nweil alles so bunt war. Und es war immer klar, irgendwann kommt der Tag \nan dem wir beide gehn.\n\nWir wollten immer was sehn. So viel, wie es geht und überall auf der Welt.\nAlle Wege führen nach Rom und irgendwann zurück nach Köln.",
   "title": "Tommi",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1712949053342,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
