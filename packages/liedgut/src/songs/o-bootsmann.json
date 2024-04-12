@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "O {E}Bootsmann, Bootsmann, {H7}sag uns doch, wann {E}gehen {A}wir in {E}See? \nWenn hoch am Mast die {H7}Flaggen weh'n, die {E}Mädchen all am {H7}Ufer steh'n, \ndann {E}gehen {H7}wir in {E}See.\nHeioho, heioho! Ja das {H7}Meer das ist groß und der {E}Himmel ist frei\nund der {H7}Bootsmann hat recht, ja was {E}ist denn dabei?\nWir sind {A}frei und {H7}fahren zur {E}See, ahoi, wir sind frei und {H7}fahren zur {E}See!\n\nO Bootsmann, Bootsmann, sag uns doch, wo geht die Reise hin?\nDas Ruder hält der Steuermann, der Käpt'n gibt den Kurs uns an, da geht die Reise hin!\n\nO Bootsmann, Bootsmann, sag uns doch, wie weit ist's bis nach Haus?\nFür den einen nah, für den andern fern, am Himmel leuchtet ein heller Stern,\nso weit ist's bis nach Haus!",
+  "content": "O {E}Bootsmann, Bootsmann, {H7}sag uns doch, wann {E}gehen {A}wir in {E}See? \nWenn hoch am Mast die {H7}Flaggen wehn, die {E}Mädchen all am {H7}Ufer stehn, \ndann {E}gehen {H7}wir in {E}See.\nHeioho, heioho! Ja das {H7}Meer das ist groß und der {E}Himmel ist frei\nund der {H7}Bootsmann hat recht, ja was {E}ist denn dabei?\nWir sind {A}frei und {H7}fahren zur {E}See, ahoi, wir sind frei und {H7}fahren zur {E}See!\n\nO Bootsmann, Bootsmann, sag uns doch, wo geht die Reise hin?\nDas Ruder hält der Steuermann, der Käpt'n gibt den Kurs uns an, da geht die Reise hin!\n\nO Bootsmann, Bootsmann, sag uns doch, wie weit ists bis nach Haus?\nFür den einen nah, für den andern fern, am Himmel leuchtet ein heller Stern,\nso weit ists bis nach Haus!",
   "title": "O Bootsmann",
   "words": [
     {
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712943647635,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
