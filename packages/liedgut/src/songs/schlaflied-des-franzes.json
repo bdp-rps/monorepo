@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wenn das {C}Bier die {G}Augenlieder {C}schließt, \nman den {F}Wein beim Ein{a}schenken ver{G}gießt.\nWenn man {C}nicht mehr grade {G}geht, das {d}Gesagte nicht {a}versteht,\n/: dann wird's {C}Zeit ins {G}Bett zu {C}geh'n. :/\n\nHeute war ein schöner Tag, \nganz genauso wie ich ihn mag.\nViel gesungen, gelacht, Quatsch gemacht,\n/: jetzt wird's Zeit ins Bett zu geh'n. :/\n\nZwischenspiel: \n{C} {G} {C}   {F} {a} {G}    {C} {G} {d} {a}   {C} {G} {C}\nWenn das Bier ...",
+  "content": "Wenn das {C}Bier die {G}Augenlieder {C}schließt, \nman den {F}Wein beim Ein{a}schenken ver{G}gießt.\nWenn man {C}nicht mehr grade {G}geht, das {d}Gesagte nicht {a}versteht,\n/: dann wirds {C}Zeit ins {G}Bett zu {C}gehn. :/\n\nHeute war ein schöner Tag, \nganz genauso wie ich ihn mag.\nViel gesungen, gelacht, Quatsch gemacht,\n/: jetzt wirds Zeit ins Bett zu gehn. :/\n\nZwischenspiel: \n{C} {G} {C}   {F} {a} {G}    {C} {G} {d} {a}   {C} {G} {C}\nWenn das Bier ...",
   "title": "Schlaflied des Franzes",
   "words": [
     {
@@ -46,6 +46,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712952409154,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
