@@ -61,6 +61,29 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712952819976,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "line",
+        "blocks": [
+          4
+        ],
+        "lines": [
+          1
+        ],
+        "style": {
+          "letterSpacing": -0.052
+        }
+      }
+    ]
+  }
 }
