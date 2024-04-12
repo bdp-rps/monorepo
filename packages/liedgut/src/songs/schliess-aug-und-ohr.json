@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Schließ {d}Aug' und Ohr für {A}eine Weil' vor {g}dem Getös' {A}der {d}Zeit.\n/: Du {F}heilst es nicht und {C}hast kein {A}Heil als {d}wo dein {A}Herz sich {d}weiht. :/\n\n\nDein Amt ist hüten, harren, sehen im Tag die Ewigkeit.\n/: Du bist schon so im Weltgeschehen befangen und befreit. :/\n\nDie Stunde kommt da man dich braucht, dann sei du ganz bereit.\n/: Und in das Feuer das verraucht, wirf dich als letztes Scheit. :/",
+  "content": "Schließ {d}Aug und Ohr für {A}eine Weil vor {g}dem Getös {A}der {d}Zeit.\n/: Du {F}heilst es nicht und {C}hast kein {A}Heil als {d}wo dein {A}Herz sich {d}weiht. :/\n\n\nDein Amt ist hüten, harren, sehen im Tag die Ewigkeit.\n/: Du bist schon so im Weltgeschehen befangen und befreit. :/\n\nDie Stunde kommt da man dich braucht, dann sei du ganz bereit.\n/: Und in das Feuer das verraucht, wirf dich als letztes Scheit. :/",
   "title": "Schließ Aug' und Ohr",
   "words": [
     {
@@ -11,7 +11,15 @@
       "year": "1931"
     }
   ],
-  "tune": [],
+  "tune": [
+    {
+      "name": "aus dem Tahoe-Ring",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "Lied der Weißen Rose",
@@ -39,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712944252477,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
