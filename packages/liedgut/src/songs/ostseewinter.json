@@ -1,6 +1,6 @@
 {
   "notation": "\"Intro\"\"C\"g3/2f/e \"D\"dec & C3B,2A,|\"G\"BBA \"e\"G3/2A/B & G,2F,E,3|\"a\"cde \"H7\"^def & A,3B,3|\"e\"eBGE3 & E,6| eBGE3&E,6| \n\"e\"E3/2E/ E\"H7\"^D2D|^DEF\"e\"E3|\"a\"G3/2F/ E \"H7\"FE ^D|\n\"e\"E3z2\"D\"D|\"G\"B2B\"D\"A2A|\"D7\"AB c\"G\"B3|\"C\"GGG \"D\"ADC|\"G\"B,3z2\"H7\"z|\n\"e\"EE E \"E\"E E E|\"E7\"EB,D\"a\"C3|\"D\"D DD DDD|\"D7\"DA, C \"G\"B,3|\n\"a\"C3/2 D/ E \"H7\"^DEF|\"e\"G3\"C\"z3|\"a\"G3/2 F/ E \"H7\"FE^D|\"e\"E3z3||\n",
-  "content": "Vor- und Zwischenspiel: C D G e a H7 e\n\n{e}Hinter den {H7}Dünen schmeckt man die {e}Gischt,\n{a}salzig und {H7}trübe und {e}nass.\n{D}Durch {G}graue {D}Wolken, {D7}müde und {G}blass,\n{C}schiebt sich ein {D}schummriges {G}Licht.{H7}\n{e}Über den {E}Sand, wo sonst {E7}Strandkörbe {a}steh'n,\n{D}hört manche sprühende {D7}Böe man {G}geh'n,\n{a}peitscht durch das {H7}strähnige {e}Gras,{C}\n{a}peitscht durch das {H7}strähnige {e}Gras.\n\nUnten am Hafen riecht es nach Fisch,\nnach Seetang, nach Öl und nach Rauch.\nWurden frühmorgens die Netze getaucht,\nliegt nun der Fang auf dem Tisch.\nMöwengezeter hängt über dem Meer\nund alle Schiffe verlassen und leer\n/: schaukeln an Pier Bauch an Bauch. :/\n\nHin zu den Kneipen, die Mole entlang,\nFusel steht schon auf dem Tisch.\nMit flinker Hand werden Karten gemischt,\nQualmen und Suff und Gesang.\nBlinzelnd nur kann durch die Schwaden man seh'n,\nwir riechen, wenn früh zu den Schiffen wir geh'n,\n/: herb, wie geräucherter Fisch. :/",
+  "content": "Vor- und Zwischenspiel: C D G e a H7 e\n\n{e}Hinter den {H7}Dünen schmeckt man die {e}Gischt,\n{a}salzig und {H7}trübe und {e}nass.\n{D}Durch {G}graue {D}Wolken, {D7}müde und {G}blass,\n{C}schiebt sich ein {D}schummriges {G}Licht.{H7}\n{e}Über den {E}Sand, wo sonst {E7}Strandkörbe {a}stehn,\n{D}hört manche sprühende {D7}Böe man {G}gehn,\n{a}peitscht durch das {H7}strähnige {e}Gras,{C}\n{a}peitscht durch das {H7}strähnige {e}Gras.\n\nUnten am Hafen riecht es nach Fisch,\nnach Seetang, nach Öl und nach Rauch.\nWurden frühmorgens die Netze getaucht,\nliegt nun der Fang auf dem Tisch.\nMöwengezeter hängt über dem Meer\nund alle Schiffe verlassen und leer\n/: schaukeln an Pier Bauch an Bauch. :/\n\nHin zu den Kneipen, die Mole entlang,\nFusel steht schon auf dem Tisch.\nMit flinker Hand werden Karten gemischt,\nQualmen und Suff und Gesang.\nBlinzelnd nur kann durch die Schwaden man sehn,\nwir riechen, wenn früh zu den Schiffen wir gehn,\n/: herb, wie geräucherter Fisch. :/",
   "title": "Ostseewinter",
   "words": [
     {
@@ -68,6 +68,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1713016058619,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
