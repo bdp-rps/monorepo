@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Eines {d}Morgens ging ich so {F}für mich {C}hin, im {d}Julisonnensch{C}ein.\nDen {d}Wiesenpfad, den {F}Hang hin{C}ab, kam ein sch{d}önes {(B)}Mäg{C}del{d}ein.\nUnd sie {F}lacht mich an und ich fr{C}eu' mich daran\nund bew{d}und're ihr nussbraunes {C}Haar.\nEiner {d}lockenden Fee kam ich {F}kaum in die {C}Näh,\nganz verw{d}irrt von dem {(B)}nuss{C}braunen {d}Haar.\n\n/: Oh, from {F}Bantry bay up to {C}Derry Quay and from {d}Galway to Dublin {C}Town,\nno maid {d}I have seen like this {F}brown Coll{C}een that I {d}met in the {(B)}Coun{C}ty {d}Down. :/\n\nDoch sie ging unbeirrt ihres Weges, verwirrt,\nstand ich da, und nur eins war mir klar.\nAls ein Bauer kam, sprach ich: \"Guter Mann,\nwer ist die mit dem nussbraunen Haar?\"\nUnd der Mann lacht mich an, und mit Stolz sagt er dann:\n\"Sie ist die Perle von Irlands Kron',\nunsre Rosie McCann von den Ufern des Bann\nist der Stern der Landschaft dort!\"\n\nDoch ich sah sie beim Tanz unterm Erntekranz\neines Abends im Sonntagskleid.\nDann mit schmeichelndem Blick versucht´ ich mein Glück\num das Herz meiner nussbraunen Maid.\nGeb' mein Wort dafür, keinen Pflug ich führ,\nwird das Eisen vom Rost auch braun.\nSitzt an meinem Herd die, die ich begehrt',\nstrahlt der Stern von County Down.",
+  "content": "Eines {d}Morgens ging ich so {F}für mich {C}hin, im {d}Julisonnensch{C}ein.\nDen {d}Wiesenpfad, den {F}Hang hin{C}ab, kam ein sch{d}önes {(B)}Mäg{C}del{d}ein.\nUnd sie {F}lacht mich an und ich fr{C}eu mich daran\nund bew{d}undre ihr nussbraunes {C}Haar.\nEiner {d}lockenden Fee kam ich {F}kaum in die {C}Näh,\nganz verw{d}irrt von dem {(B)}nuss{C}braunen {d}Haar.\n\n/: Oh, from {F}Bantry bay up to {C}Derry Quay and from {d}Galway to Dublin {C}Town,\nno maid {d}I have seen like this {F}brown Coll{C}een that I {d}met in the {(B)}Coun{C}ty {d}Down. :/\n\nDoch sie ging unbeirrt ihres Weges, verwirrt,\nstand ich da, und nur eins war mir klar.\nAls ein Bauer kam, sprach ich: \"Guter Mann,\nwer ist die mit dem nussbraunen Haar?\"\nUnd der Mann lacht mich an, und mit Stolz sagt er dann:\n\"Sie ist die Perle von Irlands Kron,\nunsre Rosie McCann von den Ufern des Bann\nist der Stern der Landschaft dort!\"\n\nDoch ich sah sie beim Tanz unterm Erntekranz\neines Abends im Sonntagskleid.\nDann mit schmeichelndem Blick versucht´ ich mein Glück\num das Herz meiner nussbraunen Maid.\nGeb mein Wort dafür, keinen Pflug ich führ,\nwird das Eisen vom Rost auch braun.\nSitzt an meinem Herd die, die ich begehrt,\nstrahlt der Stern von County Down.",
   "title": "Die nussbraune Maid",
   "words": [
     {
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1713023956324,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
