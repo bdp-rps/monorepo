@@ -21,7 +21,7 @@
   "beat": "4/4",
   "tempo": 100,
   "info": "",
-  "content": "Im {a}Sommer war das {d}Gras so tief, dass jeder {G}Wind daran vorüber{C}lief.\nIch habe {a}da dein {e}Blut ge{G}spürt, und wie es {F}heiß zu mir herüber{a}rann.\nDu {a}hast nur mein Ge{d}sicht berührt, da starb er {G}einfach hin der harte {C}Mann.\nWeils solche {a}Liebe {e}nicht mehr {G}gibt: Ich hab mich {F}in dein rotes Haar ver{a}liebt.\n\nIm Feld den ganzen Sommer war der rote Mohn so rot nicht wie dein Haar.\nJetzt wird es abgemäht das Gras, die bunten Blumen welken auch dahin.\nUnd wenn der rote Mond so blass geworden ist, dann hat es keinen Sinn,\ndass es noch weiße Wolken gibt: Ich hab mich in dein rotes Haar verliebt.\n\nDu sagst, dass es bald Kinder gibt, wenn man sich in dein rotes Haar verliebt.\nSo rot wie Mohn, so weiß wie Schnee; im Herbst da kehren viele Wunder ein.\nWarum solls auch bei uns nicht sein, du bleibst im Winter doch mein rotes Reh.\nUnd wenn es tausend Schön're gibt: Ich hab mich in dein rotes Haar verliebt.",
+  "content": "Im {a}Sommer war das {d}Gras so tief, dass jeder {G}Wind daran vorüber{C}lief.\nIch habe {a}da dein {e}Blut ge{G}spürt, und wie es {F}heiß zu mir herüber{a}rann.\nDu {a}hast nur mein Ge{d}sicht berührt, da starb er {G}einfach hin der harte {C}Mann.\nWeils solche {a}Liebe {e}nicht mehr {G}gibt: Ich hab mich {F}in dein rotes Haar ver{a}liebt.\n\nIm Feld den ganzen Sommer war der rote Mohn so rot nicht wie dein Haar.\nJetzt wird es abgemäht das Gras, die bunten Blumen welken auch dahin.\nUnd wenn der rote Mond so blass geworden ist, dann hat es keinen Sinn,\ndass es noch weiße Wolken gibt: Ich hab mich in dein rotes Haar verliebt.\n\nDu sagst, dass es bald Kinder gibt, wenn man sich in dein rotes Haar verliebt.\nSo rot wie Mohn, so weiß wie Schnee; im Herbst da kehren viele Wunder ein.\nWarum solls auch bei uns nicht sein, du bleibst im Winter doch mein rotes Reh.\nUnd wenn es tausend Schönre gibt: Ich hab mich in dein rotes Haar verliebt.",
   "changes": [
     {
       "name": "Robin Weser",
@@ -38,6 +38,13 @@
     },
     {
       "date": 1712857908675,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1713023869331,
       "name": "ko",
       "mail": "",
       "type": "update",
