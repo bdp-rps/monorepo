@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}All diese {A7}Wellen, ja diese {d}Wellen, die sollen {C}bloß zur Hölle {F}fahr'n,{D7}\n/: und keine {g}Karten von diesen {d}Stellen{B}, ich treibe {g}vorwärts {A7}ohne {d}Plan.{(D7)} :/\n\nIrgendwo leben die tollen Weiber, sitzt mancher Freund beim Wodkaglas,\ndoch hier beherrschen der Wind, die Steine mein Boot voll Löcher, Moos und Gras.\n\nAm großen Fluss bin ich am Morgen, der Sommer ist dann längst vorbei,\num mich da macht euch mal keine Sorgen, denn bald schon wieder ist es Mai.\n\nAber vielleicht gibts dich und solang du mich nicht quälst mit deinem Leid,\nich liebe dich doch nur bis zur Sandbank, was dann kommt bringt uns schon die Zeit.\n\nLalala ...\n\nAber vielleicht gibts ... ",
+  "content": "{d}All diese {A7}Wellen, ja diese {d}Wellen, die sollen {C}bloß zur Hölle {F}fahrn,{D7}\n/: und keine {g}Karten von diesen {d}Stellen{B}, ich treibe {g}vorwärts {A7}ohne {d}Plan.{(D7)} :/\n\nIrgendwo leben die tollen Weiber, sitzt mancher Freund beim Wodkaglas,\ndoch hier beherrschen der Wind, die Steine mein Boot voll Löcher, Moos und Gras.\n\nAm großen Fluss bin ich am Morgen, der Sommer ist dann längst vorbei,\num mich da macht euch mal keine Sorgen, denn bald schon wieder ist es Mai.\n\nAber vielleicht gibts dich und solang du mich nicht quälst mit deinem Leid,\nich liebe dich doch nur bis zur Sandbank, was dann kommt bringt uns schon die Zeit.\n\nLalala ...\n\nAber vielleicht gibts ... ",
   "title": "Die Sandbank",
   "words": [
     {
@@ -45,8 +45,16 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1713023827907,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {}
 }
