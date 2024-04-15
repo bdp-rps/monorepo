@@ -41,7 +41,7 @@ const DataRow = ({ lable, value }) => {
   )
 }
 
-export default function Page({ activitySlots, activity }) {
+export default function Page({ activitySlots, activity, materials }) {
   // const activitySlots = activity_slots.data
   // const materials = data.map((timeSlot) => timeSlot.materials).join(',')
   const {

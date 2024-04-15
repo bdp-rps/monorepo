@@ -22,7 +22,7 @@ import Location from '../utils/location'
 import GroupType from '../utils/groupType'
 import Size from '../utils/size'
 import Season from '../utils/season'
-import ActivityTable from './ActivityTable'
+import TimeSlotCard from './TimeSlotCard'
 import postActivity from '../api/postActivity'
 import postActivitySlots from '../api/postActivitySlots'
 import axios from 'axios'
@@ -157,6 +157,7 @@ const TimeSlotForm = ({ onAdd }) => {
           submit((isValid, data) => {
             if (isValid) {
               onAdd(data)
+
               reset()
             }
           })
@@ -218,6 +219,7 @@ export default () => {
     location,
     season,
     groupType,
+    materials,
     size,
     preperation,
     uploadedBy
@@ -251,7 +253,6 @@ export default () => {
     }
   }
 
-  const material = timeSlots.map((timeSlot) => timeSlot.materials)
   const [materialsData, setMaterialsData] = React.useState([])
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
 
@@ -277,6 +278,7 @@ export default () => {
                 const { description } = timeSlot
                 return postActivitySlots({
                   description,
+                  title,
                 }).then((res) => res.json())
               })
               const activitySlots = await Promise.all(postActivitySlotsPromises)
@@ -286,7 +288,6 @@ export default () => {
                 description,
                 groupType,
                 location,
-
                 preperation,
                 size,
                 title,
@@ -301,7 +302,6 @@ export default () => {
                 location: location != '' ? location : undefined,
                 size: size != '' ? size : undefined,
                 season: season != '' ? season : undefined,
-
                 attachment: fileId ? [fileId] : undefined,
                 preperation: preperation != '' ? preperation : undefined,
                 title,
@@ -389,37 +389,37 @@ export default () => {
             )}
           </Box>
         </Box>
-      </Box>
-      <Spacer size={10} />
-      <Box space={4}>
-        {/* TODO: Modal */}
-        <Modal
-          title="Zeitblock hinzufügen"
-          visible={modalVisible}
-          zIndex={10}
-          onClose={() => setModalVisible(false)}>
-          <TimeSlotForm
-            onAdd={(data) =>
-              setTimeSlots((timeSlots) => [
-                ...timeSlots,
-                { ...data, id: timeSlots.length + 1 },
-              ])
-            }
-          />
-        </Modal>
-        <Box>
-          <Button onClick={(_) => setModalVisible(true)}> Test</Button>
-        </Box>
-
-        {/* <ActivityTable
-          data={timeSlots}
-          onDelete={(id) =>
-            setTimeSlots((timeSlots) =>
-              timeSlots.filter((timeSlot) => timeSlot.id !== id)
+        <Spacer size={10} />
+        <Box direction={['column', 'row']} space={8}>
+          {timeSlots.map(({ title, description }) => {
+            return (
+              <TimeSlotCard
+                title={title}
+                description={description}
+                onClick={(_) => console.log(' asdasd')}
+              />
             )
-          }
-        /> */}
+          })}
+          <Box>
+            <Button onClick={(_) => setModalVisible(true)}>Hinzufügen</Button>
+          </Box>
+        </Box>
       </Box>
+      <Modal
+        title="Zeitblock hinzufügen"
+        visible={modalVisible}
+        zIndex={10}
+        onClose={() => setModalVisible(false)}>
+        <TimeSlotForm
+          onAdd={(data) => {
+            setTimeSlots((timeSlots) => [
+              ...timeSlots,
+              { ...data, id: timeSlots.length + 1 },
+            ])
+            setModalVisible(false)
+          }}
+        />
+      </Modal>
     </Box>
   )
 }
