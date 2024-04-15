@@ -58,7 +58,7 @@ export default () => {
             <br />
             <b>Timon Flick</b>
             <br />
-            Josefsstraße 18
+            Boppstrasse 10
             <br />
             55118 Mainz
             <br />
@@ -70,8 +70,6 @@ export default () => {
           <Text>
             <b>Gesetzliche Vertreter*innen:</b>
             <br />
-            <br />
-            Wiebke Spieß
             <br />
             Konstantin Iland
             <br />
