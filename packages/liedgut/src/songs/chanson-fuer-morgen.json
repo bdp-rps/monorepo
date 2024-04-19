@@ -15,8 +15,8 @@
     {
       "name": "Ko",
       "nickname": "",
-      "group": "",
-      "organisation": "",
+      "group": "BdP LV RPS",
+      "organisation": "Stamm Tilia",
       "year": ""
     }
   ],
@@ -33,6 +33,13 @@
       "name": "ko",
       "mail": "",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1713524657114,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
