@@ -1,0 +1,39 @@
+{
+  "notation": "A, | \"d\"D3/2 F/ \"A\"E3/2 G/ \"d\"F \"A\"E \"d\"D3/2 C/ |\"F\"F E/ F/ \"C\"G F/ G/ \"F\"A2 A3/2 A/| \n\"g\"G3/2 ^A/ \"A\"=A3/2 G/ \"d\"F \"A\"E \"d\"D3/2 F/ |  \"A\"E3/2 G/ F3/2 E/ \"d\"D \"A\"E \"d\"F3/2 A/ | \n\"B\"^A =A/ G/ \"d\"A G/ F/ \"A\"E2 \"d\"F3/2 A/|  \"g\"^A =A/ G/ \"d\"A G/ F/ \"A\"E2 \"d\"D2 ||",
+  "content": "Wir {d}wissen {A}nicht, was {d}mor{A}gen {d}wird. Wir {F}sind keine {C}klugen {F}Leute.\nDer {g}Spaten {A}klirrt, die {d}Sen{A}se {d}sirrt. Wir {A}wissen nicht, was {d}mor{A}gen {d}wird.\nWir {B}ackern und {d}pflügen das {A}Heu{d}te. Wir {g}ackern und {d}pflügen das {A}Heu{d}te.\n\nWir wissen wohl was gestern war. Und hoffen es nie zu vergessen.\nWir wissen wohl was gestern war, und säh'n das Brot und das Brot ist rar.\n/: Und hoffen es auch noch zu essen. :/\n\nWir wissen nicht was morgen wird, ob der Kampf uns harrt oder Frieden.\nOb Sense sirrt oder Säbel klirrt. Wir wissen nur, dass es morgen wird,\n/: wenn Schwerter zu Pflügen wir schmieden. :/",
+  "title": "Chanson für Morgen",
+  "words": [
+    {
+      "name": "Mascha Kaléko",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Ko",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1713518206405,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
