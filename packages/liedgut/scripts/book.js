@@ -3,6 +3,6 @@ import { render } from '@bdp-rps/react-pdf-renderer'
 
 import '../src/utils/init'
 
-import Ohrwurm from '../src/templates/Ohrwurm'
+import Holzwurm from '../src/templates/Holzwurm'
 
-render(<Ohrwurm />, `${__dirname}/../dist/Ohrwurm.pdf`)
+render(<Holzwurm />, `${__dirname}/../dist/Holzwurm.pdf`)

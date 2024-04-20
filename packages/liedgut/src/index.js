@@ -6,6 +6,6 @@ import songs from './songs/index.json'
 import chords from './utils/chords'
 
 import Song from './templates/Song'
-import Ohrwurm from './templates/Ohrwurm'
+import Holzwurm from './templates/Holzwurm'
 
-export { escapeSongName, renderAuthors, songs, chords, Song, Ohrwurm }
+export { escapeSongName, renderAuthors, songs, chords, Song, Holzwurm }

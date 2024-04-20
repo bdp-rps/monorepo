@@ -17,7 +17,7 @@ export default function NavBarItem({ href, active, onClick, children }) {
       paddingBottom={[3, , 2, 4]}
       paddingRight={[1.5, , 2]}
       paddingLeft={[1.5, , 2]}
-      width={['100%', , 'auto']}
+      width="auto"
       minWidth={50}
       extend={{
         textDecoration: 'none',

@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Click, Button, Text, NavBar, NavBarItem } from '@bdp-rps/ui'
+import { songs } from '@bdp-rps/liedgut'
 
 import Layout from './Layout'
 
 export default function Header({ id, title }) {
+  const count = songs.length
+  const index = Math.max(0, Math.floor(Math.random() * count))
+  const shuffle = songs[index]
+
   return (
     <NavBar>
       <Layout>
@@ -26,8 +31,11 @@ export default function Header({ id, title }) {
               </NavBarItem>
             </Box>
           )}
-          <Box alignItems="flex-end" grow={1} extend={{ textAlign: 'right' }}>
-            <NavBarItem href="/neu">Lied hinzufügen</NavBarItem>
+          <Box alignItems="flex-end" space={2} grow={1}>
+            <Box alignSelf="flex-end" direction="row" space={2}>
+              <NavBarItem href={'/' + shuffle}>Shuffle</NavBarItem>
+              <NavBarItem href="/neu">Lied hinzufügen</NavBarItem>
+            </Box>
           </Box>
         </Box>
       </Layout>
