@@ -33,7 +33,9 @@ export default function Header({ id, title }) {
           )}
           <Box alignItems="flex-end" space={2} grow={1}>
             <Box alignSelf="flex-end" direction="row" space={2}>
-              <NavBarItem href={'/' + shuffle}>Shuffle</NavBarItem>
+              <Box onClick={() => window.sa_event('shuffle')}>
+                <NavBarItem href={'/' + shuffle}>Shuffle</NavBarItem>
+              </Box>
               <NavBarItem href="/neu">Lied hinzufügen</NavBarItem>
             </Box>
           </Box>
