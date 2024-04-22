@@ -57,7 +57,7 @@ const DistributionForm = () => {
   })
   const groupField = useField({
     name: 'group',
-    required: true,
+    //required: true,
   })
 
   const { submit, reset } = useForm(
@@ -81,51 +81,48 @@ const DistributionForm = () => {
         e.preventDefault()
         submit(async (isValid, data) => {
           if (isValid) {
-            const {
-              liedgut,
-              moderatorinnen,
-              rr,
-              ringe,
-              stafues,
-              pfadis,
-              group,
-              type,
-            } = data
+            // Filter out unselected distribution items
+            const selectedDistributions = [
+              {
+                name: liedgutField.name,
+                val: liedgutField.value,
+                label: 'Liedgut',
+              },
+              {
+                name: moderatorinnenField.name,
+                val: moderatorinnenField.value,
+                label: 'Moderatorinnen',
+              },
+              {
+                name: rrField.name,
+                val: rrField.value,
+                label: 'Ranger Rover',
+              },
+              {
+                name: ringeField.name,
+                val: ringeField.value,
+                label: 'Ringe',
+              },
+              {
+                name: stafuesField.name,
+                val: stafuesField.value,
+                label: 'Stafues',
+              },
+              {
+                name: pfadisField.name,
+                val: pfadisField.value,
+                label: 'Pfadis',
+              },
+            ].filter((distribution) => distribution.val) // Keep only selected items
+
             const response = await postDistributors({
               ...data,
-              distributions: [
-                {
-                  name: liedgutField.name,
-                  val: liedgutField.value,
-                  label: 'Liedgut',
-                },
-                {
-                  name: moderatorinnenField.name,
-                  val: moderatorinnenField.value,
-                  label: 'Moderatorinnen',
-                },
-                {
-                  name: rrField.name,
-                  val: rrField.value,
-                  label: 'Ranger Rover',
-                },
-                {
-                  name: ringeField.name,
-                  val: ringeField.value,
-                  label: 'Ringe',
-                },
-                {
-                  name: stafuesField.name,
-                  val: stafuesField.value,
-                  label: 'Stafues',
-                },
-                {
-                  name: pfadisField.name,
-                  val: pfadisField.value,
-                  label: 'Pfadis',
-                },
-              ],
+              distributors: selectedDistributions.map(({ name, label }) => ({
+                name,
+                label,
+              })),
             })
+
             if (response?.status === 200) {
               reset()
             }
@@ -168,4 +165,5 @@ const DistributionForm = () => {
     </Box>
   )
 }
+
 export default DistributionForm

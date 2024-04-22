@@ -4,7 +4,7 @@ import { Box, Text, Tile } from '@bdp-rps/ui'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
-import DistributionForm from '../../components/distributionForm.js'
+import DistributionForm from '../../components/MailDistribution.js'
 
 export default () => (
   <Template>
