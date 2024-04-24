@@ -1,5 +1,15 @@
 import React from 'react'
-import { Box, Text, Card, useTheme, IconTrash, IconButton } from '@bdp-rps/ui'
+import {
+  Box,
+  Text,
+  Card,
+  useTheme,
+  IconTrash,
+  IconButton,
+  IconPencil,
+  Button,
+  Icon,
+} from '@bdp-rps/ui'
 
 // const style = ({ theme }) => ({
 //   textDecoration: 'none',
@@ -24,8 +34,9 @@ export default function TimeSlotCard({
   onDelete,
 }) {
   const theme = useTheme()
+  const [isEditing, setIsEditing] = React.useState(false)
   return (
-    <Box>
+    <Box flex="1">
       <Card
         extend={{
           border: '1px solid',
@@ -37,21 +48,47 @@ export default function TimeSlotCard({
               }
             : {},
         }}>
-        <Box alignItems="flex-end" marginHorizontal={-6}>
-          <IconButton
-            icon={(props) => <IconTrash f {...props} />}
-            onClick={onDelete}
-          />
-        </Box>
         <Box space={4}>
-          <Box>
-            <Text variant="category">Titel</Text>
-            <Text>{title}</Text>
+          <Box
+            alignItems="center"
+            direction="row"
+            justifyContent="space-between">
+            <Box
+              alignItems="center"
+              direction="row"
+              justifyContent="space-between">
+              <Text variant="category">{title}</Text>
+              {!isEditing && (
+                <IconButton
+                  icon={(props) => <IconPencil {...props} />}
+                  onClick={(_) => setIsEditing((prev) => !prev)}
+                />
+              )}
+            </Box>
+            <IconButton
+              icon={(props) => <IconTrash {...props} />}
+              onClick={onDelete}
+            />
           </Box>
-          <Box>
+          <Box space="2">
             <Text variant="category">Beschreibung</Text>
-            <Text>{description}</Text>
+            {isEditing ? (
+              <Box>
+                <Text>asdsa</Text>
+              </Box>
+            ) : (
+              <Box>
+                <Text>{description}</Text>
+              </Box>
+            )}
           </Box>
+          {isEditing && (
+            <Box alignSelf="flex-start">
+              <Button onClick={(_) => setIsEditing((prev) => !prev)}>
+                Speichern
+              </Button>
+            </Box>
+          )}
         </Box>
       </Card>
     </Box>

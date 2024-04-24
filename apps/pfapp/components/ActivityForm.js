@@ -18,6 +18,8 @@ import {
   Radio,
 } from '@bdp-rps/ui'
 
+import TimeSlotForm from './TimeSlotForm'
+
 import Location from '../utils/location'
 import GroupType from '../utils/groupType'
 import Size from '../utils/size'
@@ -131,53 +133,6 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
   )
 }
 
-const TimeSlotForm = ({ onAdd }) => {
-  const description = useField({
-    name: 'description',
-    required: true,
-  })
-
-  const timeSlotTitle = useField({
-    name: 'title',
-  })
-
-  const { submit, reset } = useForm(description, timeSlotTitle)
-
-  return (
-    <Box space={4}>
-      <Box
-        as="form"
-        noValidate
-        space={4}
-        onReset={(_) => {
-          reset()
-        }}
-        onSubmit={(e) => {
-          e.preventDefault()
-          submit((isValid, data) => {
-            if (isValid) {
-              onAdd(data)
-
-              reset()
-            }
-          })
-        }}>
-        <Box flex={2}>
-          <TextInput label="Titel" {...timeSlotTitle.props} />
-        </Box>
-        <TextArea label="Beschreibung" {...description.props} />
-
-        <Box alignSelf="flex-start" space={2} direction="row">
-          <Button type="submit">Hinzufügen</Button>
-          <Button type="reset" variant="secondary">
-            Zurücksetzen
-          </Button>
-        </Box>
-      </Box>
-    </Box>
-  )
-}
-
 export default () => {
   const title = useField({
     name: 'title',
@@ -225,7 +180,13 @@ export default () => {
     uploadedBy
   )
 
-  const [timeSlots, setTimeSlots] = React.useState([])
+  const [timeSlots, setTimeSlots] = React.useState([
+    {
+      title: 'Loremo Ipsum',
+      description:
+        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+    },
+  ])
 
   //TODO: move this to useForm somehow the changes are not applied for me
   // too stupid
@@ -405,12 +366,23 @@ export default () => {
           </Box>
         </Box>
       </Box>
+      {/* TODO: Make this hiding with button */}
       <Modal
         title="Zeitblock hinzufügen"
         visible={modalVisible}
         zIndex={10}
         onClose={() => setModalVisible(false)}>
         <TimeSlotForm
+          onEdit={(data) => {
+            setTimeSlots((timeSlots) => [
+              ...timeSlots.map((slot) => {
+                if (slot.id === data.id) {
+                  return data
+                }
+                return slot
+              }),
+            ])
+          }}
           onAdd={(data) => {
             setTimeSlots((timeSlots) => [
               ...timeSlots,
