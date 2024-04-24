@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Nane tsocha, {G}nane {C}gad, {F}me kinel man{C}ge jo {A7}dad,\n{d}syrvydzava {a}palerom, {E7}me kinel man{a}ge {E}jo {a}rom.\n\nLailailai...\n\nDade, kin mange tschinja, o tschinja somnakune.\nNakinessa o tschinja, nabeschava dro taschaja!\n\nZagejom me der sado, sriskerdiom man sveto.\nPrikerdiom les ke schero, te kames miro ilo.\n\n(Letzte wie erste)",
+  "content": "{a}Nane tsocha, {G}nane {C}gad, {F}me kinel man{C}ge jo {A7}dad,\n{d}syrvydzava {a}palerom, {E7}me kinel man{a}ge {E}jo {a}rom.\n\nLailailai ...\n\nDade, kin mange tschinja, o tschinja somnakune.\nNakinessa o tschinja, nabeschava dro taschaja!\n\nZagejom me der sado, sriskerdiom man sveto.\nPrikerdiom les ke schero, te kames miro ilo.\n\nNane tsocha ...",
   "title": "Nane tsocha",
   "words": [
     {
@@ -41,6 +41,13 @@
     },
     {
       "date": 1707001709774,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712507037488,
       "name": "ko",
       "mail": "",
       "type": "update",

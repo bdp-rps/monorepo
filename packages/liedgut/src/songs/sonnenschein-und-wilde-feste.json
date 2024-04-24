@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Draußen warten Abenteuer, {G}uns're Seelen brennen heiß.\n{e}In die Kälte steigt das Feuer, {G}manche volle Flasche kreist.\n/: {a}Keiner kann zu Hause bleiben, {e}draußen nur sich rumzutreiben,\n{a}ist es, was uns {H7}immer noch am {e}Leben hält! :/\n{e}Sonnenschein und {D}wilde Feste {D7}sind im Leben {H7}doch das Beste\n{G}und der {D}Henker {G}kriegt die {a}Reste, {H7}was vom Lumpen {e}üb{H7}rig {e}blieb.\n\nMorgens brummt so mancher Schädel, aber das geht auch vorbei.\nZu Hause wartet manches Mädel, meinet noch wir wären treu.\n/: Wer wollt uns was übel nehmen? Wofür sollten wir uns schämen?\nNur hier draußen auf der Straße sind wir frei. :/\n\nLumpenpack und Pferdewagen, Pfeifendunst, Gesang und Wein.\nSoweit uns die Füße tragen fahren wir jahraus, jahrein.\n/: Fremde Länder zu gewinnen, neues Leben zu beginnen,\nwas auf dieser Erde kann denn schöner sein? :/",
+  "content": "{e}Draußen warten Abenteuer, {G}unsre Seelen brennen heiß.\n{e}In die Kälte steigt das Feuer, {G}manche volle Flasche kreist.\n/: {a}Keiner kann zu Hause bleiben, {e}draußen nur sich rumzutreiben,\n{a}ist es, was uns {H7}immer noch am {e}Leben hält! :/\n{e}Sonnenschein und {D}wilde Feste {D7}sind im Leben {H7}doch das Beste\n{G}und der {D}Henker {G}kriegt die {a}Reste, {H7}was vom Lumpen {e}üb{H7}rig {e}blieb.\n\nMorgens brummt so mancher Schädel, aber das geht auch vorbei.\nZu Hause wartet manches Mädel, meinet noch wir wären treu.\n/: Wer wollt uns was übel nehmen? Wofür sollten wir uns schämen?\nNur hier draußen auf der Straße sind wir frei. :/\n\nLumpenpack und Pferdewagen, Pfeifendunst, Gesang und Wein.\nSoweit uns die Füße tragen fahren wir jahraus, jahrein.\n/: Fremde Länder zu gewinnen, neues Leben zu beginnen,\nwas auf dieser Erde kann denn schöner sein? :/",
   "title": "Sonnenschein und wilde Feste",
   "words": [
     {
@@ -54,6 +54,29 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712851760600,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 0.9
+        }
+      },
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1.05
+        }
+      }
+    ]
+  }
 }

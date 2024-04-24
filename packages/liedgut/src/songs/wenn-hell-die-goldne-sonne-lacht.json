@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wenn {A}hell die gold'ne Sonne lacht, muss {E}in die Welt ich {A}zieh'n,\ndenn irgendwo muss voller Pracht die {E}blaue Blume {A}blüh'n.\n/: So {E}wandre ich land{A}auf, landab, such {D}dieses Blüme{E}lein,\nund {A}erst wenn ich's gefunden hab, stell {E}ich das Wandern {A}ein. :/\n\nIm Wald die kleinen Vögelein hab ich umsonst gefragt:\n\"Wo find ich dieses Blümelein?\" - man hat's mir nicht gesagt.\n/: Ich such's auf weiter grüner Au und werde nicht mehr froh;\ndas einzig schöne Blümlein blau, es blüht doch irgendwo. :/\n\nUnd lacht mir einst das große Glück im Auge einer Maid;\nLeb wohl, mein Schatz, ich kehr zurück, noch hab ich keine Zeit.\n/: Wenn hell die gold'ne Sonne lacht, muss in die Welt ich zieh'n,\ndenn irgendwo muss voller Pracht die blaue Blume blüh'n. :/",
+  "content": "Wenn {A}hell die goldne Sonne lacht, muss {E}in die Welt ich {A}ziehn,\ndenn irgendwo muss voller Pracht die {E}blaue Blume {A}blühn.\n/: So {E}wandre ich land{A}auf, landab, such {D}dieses Blüme{E}lein,\nund {A}erst wenn ichs gefunden hab, stell {E}ich das Wandern {A}ein. :/\n\nIm Wald die kleinen Vögelein hab ich umsonst gefragt:\n\"Wo find ich dieses Blümelein?\" - man hats mir nicht gesagt.\n/: Ich suchs auf weiter grüner Au und werde nicht mehr froh;\ndas einzig schöne Blümlein blau, es blüht doch irgendwo. :/\n\nUnd lacht mir einst das große Glück im Auge einer Maid;\nLeb wohl, mein Schatz, ich kehr zurück, noch hab ich keine Zeit.\n/: Wenn hell die goldne Sonne lacht, muss in die Welt ich ziehn,\ndenn irgendwo muss voller Pracht die blaue Blume blühn. :/",
   "title": "Wenn hell die goldne Sonne lacht",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712845809886,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

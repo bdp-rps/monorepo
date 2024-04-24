@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Du machst {G}Kleinholz, {a}ich such' {E}Rinde, {F}soll ein {C}Feuer {G}hier ent{C}steh'n.\nDass ich {G}Harz und {a}Späne {E}finde, {F}möge {C}bald und {G}schnell ge{C}scheh'n.\n\n/: Ist die Horte schon im {F}Kommen, eilt da{C}her auf steilem {G}Pfad,\nwird ihr {C}wohl ein {G}Essen {C}frommen, {F}nach dem {C}langen, {G}vollen {C}Tag. :/\n\nIch hol' Wasser, du suchst Schwämme, leuchten gelb und riechen kalt.\nDass uns nicht die Faulheit hemme, geht ein Regen durch den Wald.\n\nSind das Stimmen, hörst du Rufen? Halt die Ohren in den Wind!\nRaunt ein Bach um Felsenstufen, ob das wohl die Uns'ren sind?",
+  "content": "{C}Du machst {G}Kleinholz, {a}ich such {E}Rinde, {F}soll ein {C}Feuer {G}hier ent{C}stehn.\nDass ich {G}Harz und {a}Späne {E}finde, {F}möge {C}bald und {G}schnell ge{C}schehn.\n\n/: Ist die Horte schon im {F}Kommen, eilt da{C}her auf steilem {G}Pfad,\nwird ihr {C}wohl ein {G}Essen {C}frommen, {F}nach dem {C}langen, {G}vollen {C}Tag. :/\n\nIch hol Wasser, du suchst Schwämme, leuchten gelb und riechen kalt.\nDass uns nicht die Faulheit hemme, geht ein Regen durch den Wald.\n\nSind das Stimmen, hörst du Rufen? Halt die Ohren in den Wind!\nRaunt ein Bach um Felsenstufen, ob das wohl die Unsren sind?",
   "title": "Die Horte kommt",
   "words": [
     {
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712525436033,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

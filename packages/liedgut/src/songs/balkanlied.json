@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Und wir {e}kauern wie{D}der {G}um die hei{D}ße {e}Glut und er{C}zählen vom {D}Aben{e}teuer.\nUnd der wilde Bal{D}kan {G}ist ger{D}ad' noch {e}gut, und wir {C}schwören's beim {D}Lager{e}feuer:\n/: dass die {G}Neider ver{D}dammt und die {e}Spießer ver{H7}flucht,\n{e}die uns gehemmt viel {H7}tausend {e}Male! :/\n\nDoch sehr bald wird es wahr, ja dass wir steh'n am Meer und gedenken der fernen Heimat,\nund der kleine Trupp, er rüstet gar sehr zu verlassen die grauen Mauern.\n/: Und es hält uns nichts mehr und wir freuen uns sehr, bald flattern Segel gegen Osten. :/\n\nUnd der Silberfalke flattert uns voran, in der rotgrauen Fahne am Maste,\nund ein wildes Lied schwingt sich von Kahn zu Kahn, das verweg'ne, das viel gehasste:\n/: dass die Neider verdammt und die Spießer verflucht, \ndie uns gehemmt viel tausend Male! :/",
+  "content": "Und wir {e}kauern wie{D}der {G}um die hei{D}ße {e}Glut und er{C}zählen vom {D}Aben{e}teuer.\nUnd der wilde Bal{D}kan {G}ist ger{D}ad noch {e}gut, und wir {C}schwörens beim {D}Lager{e}feuer:\n/: dass die {G}Neider ver{D}dammt und die {e}Spießer ver{H7}flucht,\n{e}die uns gehemmt viel {H7}tausend {e}Male! :/\n\nDoch sehr bald wird es wahr, ja dass wir stehn am Meer und gedenken der fernen Heimat,\nund der kleine Trupp, er rüstet gar sehr zu verlassen die grauen Mauern.\n/: Und es hält uns nichts mehr und wir freuen uns sehr, bald flattern Segel gegen Osten. :/\n\nUnd der Silberfalke flattert uns voran, in der rotgrauen Fahne am Maste,\nund ein wildes Lied schwingt sich von Kahn zu Kahn, das verweg'ne, das viel gehasste:\n/: dass die Neider verdammt und die Spießer verflucht, \ndie uns gehemmt viel tausend Male! :/",
   "title": "Balkanlied",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712567799484,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

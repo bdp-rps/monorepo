@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wild {a}tosend bedrohlich greift der {E}Sturm nach dem {a}Heck,\ndas {d}bärtige Pack schleppt sich {a}seekrank zur {B}Reling.\nNicht die {a}schmutzigsten Ratten rühr'n sich {E}heute vom {a}Fleck.\nDoch {B}oben am Mast, wo der Kla{A}bautermann {a}haust,\nwo der {B}Wind pfeift und braust, es die {d}Männer vor {a}graust,\ndort {a}oben fühlt Kat{d}rina sich {E}frei. {E7}\n\n{a}Sie war das, sie war das, sie war das einzige {E}Weib an Deck, \ndrum po{F}lierten sie ihr das {C}Silberbesteck und des {d}Nachts, wenn sie {B}schliefen auf {F}knarrenden {C}Matten, {d}träumten sie {B}wild von den {F}größten Fre{A7}gatten. \nUnd {d}an ihrer {C}Seite so {F}stürmisch ver{E}traut Ka{a}trina, die {E}schönste Piraten{a}braut.\n\nZahm und blind tanzt die Gischt dir ins lockende Netz,\nzarte Hand fasst das Tau auch in luftiger Höh'.\nRauer Klang ihrer Stimme macht das Wort zum Gesetz.\nDoch drunten an Deck, wo der Rum nur so fließt,\nwo du vor lauter Wellen das Meer nicht mehr siehst,\nvon dort wandert Sehnsucht hinauf.\n\nJeder Seemann, der sein Glück auf die Waagschale legt,\nwird vom Käpt'n der Crew in die Wogen verbannt,\nKatrina, sein Goldstück, ist das Kind, das er hegt.\nDoch in den Kajüten, wo der Kerzenschein irrt,\nwo der weibische Duft ihre Sinne verwirrt,\nbring Begehr das Pack um den Verstand.",
+  "content": "Wild {a}tosend bedrohlich greift der {E}Sturm nach dem {a}Heck,\ndas {d}bärtige Pack schleppt sich {a}seekrank zur {B}Reling.\nNicht die {a}schmutzigsten Ratten rührn sich {E}heute vom {a}Fleck.\nDoch {B}oben am Mast, wo der Kla{A}bautermann {a}haust,\nwo der {B}Wind pfeift und braust, es die {d}Männer vor {a}graust,\ndort {a}oben fühlt Kat{d}rina sich {E}frei. {E7}\n\n{a}Sie war das, sie war das, sie war das einzige {E}Weib an Deck, \ndrum po{F}lierten sie ihr das {C}Silberbesteck und des {d}Nachts, wenn sie {B}schliefen auf {F}knarrenden {C}Matten, {d}träumten sie {B}wild von den {F}größten Fre{A7}gatten. \nUnd {d}an ihrer {C}Seite so {F}stürmisch ver{E}traut Ka{a}trina, die {E}schönste Piraten{a}braut.\n\nZahm und blind tanzt die Gischt dir ins lockende Netz,\nzarte Hand fasst das Tau auch in luftiger Höh.\nRauer Klang ihrer Stimme macht das Wort zum Gesetz.\nDoch drunten an Deck, wo der Rum nur so fließt,\nwo du vor lauter Wellen das Meer nicht mehr siehst,\nvon dort wandert Sehnsucht hinauf.\n\nJeder Seemann, der sein Glück auf die Waagschale legt,\nwird vom Käptn der Crew in die Wogen verbannt,\nKatrina, sein Goldstück, ist das Kind, das er hegt.\nDoch in den Kajüten, wo der Kerzenschein irrt,\nwo der weibische Duft ihre Sinne verwirrt,\nbring Begehr das Pack um den Verstand.",
   "title": "Piratenbraut",
   "words": [
     {
@@ -59,8 +59,29 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1713020983538,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "block",
+        "blocks": [
+          1,
+          2
+        ],
+        "style": {
+          "lineHeight": 1.05
+        }
+      }
+    ]
+  }
 }

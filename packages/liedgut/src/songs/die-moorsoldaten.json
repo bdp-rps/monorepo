@@ -1,6 +1,6 @@
 {
   "notation": "\"e\"E2B,2|E2GF|E2B,2|E2E2|\"a\"A2F2|\"e\"G2E2|\"H7\"F2B,2|\"e\"E4|\"G\"G2D2|G2BA|G2D2|G2G2|\"a\"A2F2|\"e\"G2E2|\"H7\"F2B,2|\"e\"E4-|E2\n\"D\"D2|\"G\"B3B|B2G2|\"a\"A4|A2A2|\"e\"G3G|G2E2|\"H7\"F4|F2B,2|\"e\"E4-|E\n\"D\"D2|\"G\"B3B|B2d2|\"a\"d2c2|B2A2|\"e\"G3G|G2B2|\"H7\"B2A2|G2F2|\"e\"E4-|E",
-  "content": "{e}Wohin auch das Auge blicket. {a}Moor und {e}Heide {H7}ringshe{e}rum.\n{G}Vogelsang uns nicht erquicket, {a}Eichen {e}stehn {H7}kahl und {e}krumm.\n/: {D}Wir {G}sind die Moorsol{D}daten und {e}ziehen mit dem {H7}Spaten ins {e}Moor! :/\n\nHier in dieser öden Heide ist das Lager aufgebaut,\nwo wir fern von jeder Freude hinter Stacheldraht verstaut.\n\nMorgens ziehen die Kolonnen in das Moor zur Arbeit hin,\ngraben bei dem Brand der Sonne, doch zur Heimat steht der Sinn.\n\nHeimwärts, heimwärts! Jeder sehnet sich nach Eltern, Weib und Kind.\nManche Brust ein Seufzer dehnet, weil wir hier gefangen sind.\n\nAuf und nieder geh'n die Posten, keiner, keiner kann hindurch. \nFlucht wird nur das Leben kosten, vierfach ist umzäunt die Burg.\n\nDoch für uns gibt es kein Klagen, ewig kann's nicht Winter sein.\nEinmal werden froh wir sagen: Heimat, Du bist wieder mein!\n/: Dann zieh'n die Moorsoldaten nicht mehr mit dem Spaten in's Moor! :/\n",
+  "content": "{e}Wohin auch das Auge blicket. {a}Moor und {e}Heide {H7}ringshe{e}rum.\n{G}Vogelsang uns nicht erquicket, {a}Eichen {e}stehen {H7}kahl und {e}krumm.\n/: {D}Wir {G}sind die Moorsol{D}daten und {e}ziehen mit dem {H7}Spaten ins {e}Moor! :/\n\nHier in dieser öden Heide ist das Lager aufgebaut,\nwo wir fern von jeder Freude hinter Stacheldraht verstaut.\n\nMorgens ziehen die Kolonnen in das Moor zur Arbeit hin,\ngraben bei dem Brand der Sonne, doch zur Heimat steht der Sinn.\n\nHeimwärts, heimwärts! Jeder sehnet sich nach Eltern, Weib und Kind.\nManche Brust ein Seufzer dehnet, weil wir hier gefangen sind.\n\nAuf und nieder gehn die Posten, keiner, keiner kann hindurch. \nFlucht wird nur das Leben kosten, vierfach ist umzäunt die Burg.\n\nDoch für uns gibt es kein Klagen, ewig kanns nicht Winter sein.\nEinmal werden froh wir sagen: Heimat, Du bist wieder mein!\n/: Dann ziehn die Moorsoldaten nicht mehr mit dem Spaten ins Moor! :/",
   "title": "Die Moorsoldaten",
   "words": [
     {
@@ -46,7 +46,30 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712515169745,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 1
+        }
+      },
+      {
+        "type": "block",
+        "style": {
+          "lineHeight": 1
+        }
+      }
+    ]
+  }
 }

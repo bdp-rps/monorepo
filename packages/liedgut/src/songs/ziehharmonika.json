@@ -17,7 +17,7 @@
   "beat": "7/8",
   "tempo": 100,
   "info": "",
-  "content": "{a}Nicht für's {F}Süße, {C}nur fürs {G}Scharfe {a}und für's {F}Bitt're {C}bin ich {G}da.\n{G}Schlagt, ihr {E}Leute, {a}nicht die Harfe, {F}spielt die {G}Ziehhar{e}moni{a}ka!\n\n{a}Lai la {F}lai lai, {G}lai la {C}lai lai, {a}lai la {F}lai lai, {G}lai la {a}la,\n{F}schlagt, ihr {G}Leute, {a}nicht die Harfe, {F}spielt die {G}Ziehhar{e}moni{a}ka.\n\nLeer, verfilzt ist meine Tasche und durchlöchert ist der Hut.\nDass ich leb', das Herz aus Asche, macht: Aus Branntwein ist mein Blut.\n\nLieß' das Salz der Tränen Spuren, wären meine Gucker blind.\nMeine Liebsten sind die Huren, mir Gesellen Staub und Wind.\n\nDas Falsett, das möcht umarmen, doch das Ganze trägt der Bass.\nHab Erbarmen, brauch Erbarmen, doch zuinnerst haust der Hass.\n\nWeiß zuviel und möcht doch träumen wie der Echs im Sonnenschein.\nLeeres Brausen in den Bäumen, braus' für mich, nick' träg ich ein.\n\nDarf nicht ruh'n, muss Straßen weiter, denn bald bin ich nicht mehr da.\nUnd es spielt die Stadt kein zweiter so die Ziehharmonika!",
+  "content": "{a}Nicht fürs {F}Süße, {C}nur fürs {G}Scharfe {a}und fürs {F}Bitt're {C}bin ich {G}da.\n{C}Schlagt, ihr {E}Leute, {a}nicht die Harfe, {F}spielt die {G}Ziehhar{e}moni{a}ka!\n\n{a}Lai la {F}lai lai, {G}lai la {C}lai lai, {a}lai la {F}lai lai, {G}lai la {a}la,\n{F}schlagt, ihr {G}Leute, {a}nicht die Harfe, {F}spielt die {G}Ziehhar{e}moni{a}ka.\n\nLeer, verfilzt ist meine Tasche und durchlöchert ist der Hut.\nDass ich leb, das Herz aus Asche, macht: Aus Branntwein ist mein Blut.\n\nLieß das Salz der Tränen Spuren, wären meine Gucker blind.\nMeine Liebsten sind die Huren, mir Gesellen Staub und Wind.\n\nDas Falsett, das möcht umarmen, doch das Ganze trägt der Bass.\nHab Erbarmen, brauch Erbarmen, doch zuinnerst haust der Hass.\n\nWeiß zuviel und möcht doch träumen wie der Echs im Sonnenschein.\nLeeres Brausen in den Bäumen, braus für mich, nick träg ich ein.\n\nDarf nicht ruhn, muss Straßen weiter, denn bald bin ich nicht mehr da.\nUnd es spielt die Stadt kein zweiter so die Ziehharmonika!",
   "changes": [
     {
       "name": "Robin Weser",
@@ -31,9 +31,31 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1710524502825,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712487691594,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712516480038,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {}
 }

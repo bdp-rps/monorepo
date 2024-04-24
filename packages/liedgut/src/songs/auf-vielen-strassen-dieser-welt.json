@@ -19,7 +19,7 @@
   "tempo": "60",
   "info": "",
   "musicalKey": "Em",
-  "content": "Auf vielen {e}Straßen dieser {H7}Welt, habt ihr euch {a}sorglos {H7}rumge{e}trieben,\n/: so ohne {a}Zelt und ohne {e}Geld, der Tippe{H7}lei ver{e}schrieben. :/\n\nWas galt euch Armut, was Gefahr? Ihr habt, verachtet und zerschunden.\n/: Da draußen treibend Jahr für Jahr, doch euer Glück gefunden. :/\n\nHabt manches Lied der Einsamkeit wohl in die Nacht hinausgesungen.\n/: Auf fremden Meeren fern der Zeit, ist euer Sang verklungen. :/",
+  "content": "Auf vielen {e}Straßen dieser {H7}Welt, habt ihr euch {a}sorglos {H7}rumge{e}trieben,\n/: so ohne {a}Zelt und ohne {e}Geld der Tippe{H7}lei ver{e}schrieben. :/\n\nWas galt euch Armut, was Gefahr? Ihr habt verachtet und zerschunden.\n/: Da draußen treibend Jahr für Jahr doch euer Glück gefunden. :/\n\nHabt manches Lied der Einsamkeit wohl in die Nacht hinausgesungen.\n/: Auf fremden Meeren fern der Zeit ist euer Sang verklungen. :/",
   "changes": [
     {
       "name": "Robin Weser",
@@ -50,6 +50,13 @@
     },
     {
       "date": 1707043939625,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712499861231,
       "name": "ko",
       "mail": "",
       "type": "update",

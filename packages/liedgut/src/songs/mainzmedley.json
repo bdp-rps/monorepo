@@ -1,0 +1,66 @@
+{
+  "notation": "",
+  "content": "{C}Am Rosenmontag bin ich ge{G}boren, am Rosenmontag, in Mainz am {C}Rhein. \nBis Aschermittwoch bin ich ver{G}loren, denn Rosenmontagskinder müssen närrisch {C}sein.\nMein Papa sein Wahlspruch war {G}Spaß an der Freud, und gestern war gestern und {C}heute ist heut. Und dann hat er um meine {G}Mutter gefreit, was {D}daraus dann wurde steht {G}vor euch ihr Leut.\n\n/: {C}Rucki Zucki, rucki {G}zucki, rucki {F}zucki das {C}ist der {G}neuste {C}Tanz. :/\n/: Wir sind nur ein {G}Karnevalsverein, Karnevalsverein, {C}Karnevalsverein. :/\n/: Humba humba humba tätärä tätä{G}rä tätä{C}rä. :/\n/: Wir feiern {C}Fassenacht in {G}Meenz, {a}Fassenacht in {F}Meenz.\n{C}Hier bleibt keiner {G}alleen bei der {a}Fassenacht in {F}Meenz. :/\n\nHalt den {C}Narren{e}spiegel {F}dir vors {C}Gesicht. \n{F}Bist du das {a}wirklich ist {F}das denn noch dein {G}ich?\nBunt {C}bemalt mit {e}Farben so {F}funkelnd und {C}schön. \n{F}Einmal im Jahr kann {G}sich ein Narr so {C}sehn.\n\nWir alle wir leben im Schatten des Doms und Gott Jokus singt mit {a}uns ein Halle{F}lu{G}ja.\nWir {F}halten unsere {G}Fahnen schwenkend {C}hoch in den {a}Wind und {F}danken dass wir {G}Gast auf Erden {C}sind.\n\nDoch der Narrenspiegel zeigt nicht nur dich, \nspiegelt der Welt oft das wahre Gesicht.\nGraue Schatten, Bilder auch die kann man sehen, \nvon Narren die so vieles nicht verstehen\n\nWir alle wir leben ...",
+  "title": "Mainz-Medley",
+  "words": [
+    {
+      "name": "Schwätzer",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Macher",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "authors_single_line"
+      },
+      {
+        "type": "block",
+        "blocks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "style": {
+          "lineHeight": 0.9
+        }
+      },
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 1.1
+        }
+      }
+    ]
+  },
+  "changes": [
+    {
+      "date": 1712659328822,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

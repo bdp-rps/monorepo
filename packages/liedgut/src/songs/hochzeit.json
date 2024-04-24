@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Dieses kleine Winzorchester, gönnt euch Ruhe etwas später,\n{g}also, Geiger, {A}fröhlich soll es {d}sein! {g}Hej, {A}hej! {d}Leute, macht nun Platz zum Tanzen, \nMusikanten quält die Tasten, {g}singt für eure {A}Gäste, haut mal {d}rein! {C}\n{F}Draußen, da {C}dunkelt's lange {F}schon, {A}oh, {d}nach Hause {C}will noch keiner {F}geh'n, {C}ach!\n{F}Ein leeres {C}Weinfass ist der {F}Lohn, {A}oh, {g}irgendeiner {d}wird nach {A}Neuem {d}seh'n.\nUnd jetzt kommt's:\n\n{d}Hochzeit, Hochzeit, im {C}Leben nur ein{F}mal! {g}Manche machen's {d}öfter, doch {A}ist das nicht nor{d}mal. Und nochmal: Hochzeit, Hochzeit, im {C}Leben nur ein{F}mal, {g}manche machen's {d}öfter doch {A}ist das nicht {d}normal.\n\nAlso, Kinder, noch mehr lustig, Saiten, Finger, sind schon blutig,\nKavaliere zieh'n die Sakkos aus. Hej, hej!\nNicht für Groschen, nur für Freunde tanzt der Bräutigam 'ne Runde -\nschaut die Braut auf Zehenspitzen zu.\nLass doch den eis'gen Winterwind, oj, schaukeln ein trübes Lampenlicht, ach.\nSchenket ein noch heut geschwind, oj, Lieder dreh'n sich mir im Kopf danach.\n\nHeda, Mama, darf man das denn, tanzen will nun mal gelernt sein,\ndoch ich bitte dich, tu dir nicht weh! Hej, hej!\nAusgelassen spielet Kinder, diese Welt, sie zeigt mir wieder:\nSolang ich noch lache, lebe ich!\nLass doch den eis'gen Winterwind, oj, schaukeln ein trübes Lampenlicht, ach.\nSchenket ein noch heut geschwind, oj, Lieder dreh'n sich mir im Kopf danach.",
+  "content": "{d}Dieses kleine Winzorchester, gönnt euch Ruhe etwas später,\n{g}also, Geiger, {A}fröhlich soll es {d}sein! {g}Hej, {A}hej! {d}Leute, macht nun Platz zum Tanzen, \nMusikanten quält die Tasten, {g}singt für eure {A}Gäste, haut mal {d}rein! {C}\n{F}Draußen, da {C}dunkelts lange {F}schon, {A}oh, {d}nach Hause {C}will noch keiner {F}gehn, {C}ach!\n{F}Ein leeres {C}Weinfass ist der {F}Lohn, {A}oh, {g}irgendeiner {d}wird nach {A}Neuem {d}sehn.\nUnd jetzt kommts:\n\n{d}Hochzeit, Hochzeit, im {C}Leben nur ein{F}mal! {g}Manche machens {d}öfter, doch {A}ist das nicht nor{d}mal. Und nochmal: Hochzeit, Hochzeit, im {C}Leben nur ein{F}mal, {g}manche machens {d}öfter doch {A}ist das nicht {d}normal.\n\nAlso, Kinder, noch mehr lustig, Saiten, Finger, sind schon blutig,\nKavaliere ziehn die Sakkos aus. Hej, hej!\nNicht für Groschen, nur für Freunde tanzt der Bräutigam 'ne Runde -\nschaut die Braut auf Zehenspitzen zu.\nLass doch den eis'gen Winterwind, oj, schaukeln ein trübes Lampenlicht, ach.\nSchenket ein noch heut geschwind, oj, Lieder drehn sich mir im Kopf danach.\n\nHeda, Mama, darf man das denn, tanzen will nun mal gelernt sein,\ndoch ich bitte dich, tu dir nicht weh! Hej, hej!\nAusgelassen spielet Kinder, diese Welt, sie zeigt mir wieder:\nSolang ich noch lache, lebe ich!\nLass doch den eis'gen Winterwind, oj, schaukeln ein trübes Lampenlicht, ach.\nSchenket ein noch heut geschwind, oj, Lieder drehn sich mir im Kopf danach.",
   "title": "Hochzeit",
   "words": [
     {
@@ -53,7 +53,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712525235225,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "Dm"
+  "musicalKey": "Dm",
+  "specialSettings": {}
 }

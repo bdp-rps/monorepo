@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Roter Wein im Becher, der {D7}beste Reben{G}saft.\nWir {D7}sind ein Haufen {G}Zech{a}er und {e}geh'n auf {H7}Wander{e}schaft.\n/: Radi, radi, ra- di {C}ra la {G}la, {D7}radi, radi, {e}ra- di {H7}radi ra la {e}la :/\n\nMorgens bricht die Runde zu neuen Fahrten auf.\nEs klingt in aller Munde ein frohes Liedchen auf.\n\nSteine, Staub und Dornen, ist schwerlich Tippelei.\nWir müssen uns anspornen, die Qual ist bald vorbei.\n\nTreffen wir uns wieder, der Zufall nennt den Ort,\nso schallen uns're Lieder in weite Fernen fort.",
+  "content": "{e}Roter Wein im Becher, der {D7}beste Reben{G}saft.\nWir {D7}sind ein Haufen {G}Zech{a}er und {e}gehn auf {H7}Wander{e}schaft.\n/: Radi, radi, ra- di {C}ra la {G}la, {D7}radi, radi, {e}ra- di {H7}radi ra la {e}la :/\n\nMorgens bricht die Runde zu neuen Fahrten auf.\nEs klingt in aller Munde ein frohes Liedchen auf.\n\nSteine, Staub und Dornen, ist schwerlich Tippelei.\nWir müssen uns anspornen, die Qual ist bald vorbei.\n\nTreffen wir uns wieder, der Zufall nennt den Ort,\nso schallen unsre Lieder in weite Fernen fort.\n\nStehen an der Straße, den Daumen in der Luft.\nVorbei die Autos rasen: \"Halt an, du alter Schuft!\"",
   "title": "Roter Wein im Becher",
   "words": [
     {
@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "Em",
-  "info": "Weitere Strophen:\nSteh'n wir an der Straße, den Daumen in der Luft,\nvorbei die Wagen rasen, halt an, du alter Schuft!\n\nLeben an den Straßen, die Ferne unser Ziel.\nAuch wenn wir oft festsaßen, gewinnen doch das Spiel.\n\nWeggefährten stehen, denn Kameradschaft hält,\ndir bei, wenn Stürme wehen dich durch die weite Welt.",
+  "info": "Weitere Strophen:\n\nLeben an den Straßen, die Ferne unser Ziel.\nAuch wenn wir oft festsaßen, gewinnen doch das Spiel.\n\nWeggefährten stehen, denn Kameradschaft hält,\ndir bei, wenn Stürme wehen dich durch die weite Welt.",
   "changes": [
     {
       "date": 1680013449942,
@@ -40,6 +40,21 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712753047509,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712846218952,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

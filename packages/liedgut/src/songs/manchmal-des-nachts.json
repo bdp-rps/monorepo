@@ -1,6 +1,6 @@
 {
   "notation": "\"G\"DD2B,D2D|\"C\"EEEE|\"G\"DDDD|\"D\"CCDC|\"G\"B,B,B,4|\n\"C\"EEEE|\"D\"FFFF|\"G\"GDDD|\"C\"E2\"D\"D2\"G\"B,4|\nD2\"G\"G3G|\"D\"A3A|\"G\"B2G2|\"C\"[G3c3][Gc]|\"G\"[G2B2][D2G2]|\"D\"[D2A2][C2F2]|\"G\"[B,2G2]",
-  "content": "{G}Manchmal des Nachts, wenn {C}ich aus meiner {G}Kneipe komm, im {D}Sturmschritt durch die {G}Straßen zieh'. {C}Oder ich nicht {D}schlafen kann und {G}trommelnd an dem {C}Fen{D}ster {G}steh'.\n\n/: Dann seh' ich {D}die, die {G}andern, {C}die viel{G}leicht nicht {D}anders {G}sind :/\n\nSie stehen rum wie die Tiere vor den Augen der Besucher eines Sonntagszoos. \nUnd hören sie den Stiefelschritt der Ordnung rennen sie gleich los.\n/: Und schimpfen auf die andern, die vielleicht nicht anders sind. :/\n\nManchmal des Nachts, dann steigen sie in Autos ein und fahr'n für eine Stunde weg. \nDann kommen sie zurück und spucken dreimal in den Dreck.\n/: Und meinen die, die andern, die vielleicht nicht anders sind. :/\n\nManchmal des Nachts, dann ziehen sie die Schuhe aus und träumen an der Häuserwand. \nVom Ehemann von Kindern, von nem Häuschen auf dem Land.\n/: Vom Leben jener andern, die vielleicht nicht anders sind :/\n\nManchmal des Nachts, dann sprechen sie mich an und eine kenn' ich ganz genau. \nSie hat mit mir im Sand gespielt und manchmal Mann und Frau.\n/: Heute geht sie mit den andern, die vielleicht nicht anders sind. :/\n\nManchmal des Nachts, wenn ich aus meiner Kneipe komm im Sturmschritt durch die Straßen zieh'. Oder ich nicht schlafen kann und trommelnd an dem Fenster steh'.\n/: Dann seh' ich die, die andern, die vielleicht nicht anders sind. :/",
+  "content": "{G}Manchmal des Nachts, wenn {C}ich aus meiner {G}Kneipe komm, im {D}Sturmschritt durch die\n {G}Straßen zieh. {C}Oder ich nicht {D}schlafen kann und {G}trommelnd an dem {C}Fen{D}ster {G}steh.\n/: Dann seh ich {D}die, die {G}andern, {C}die viel{G}leicht nicht {D}anders {G}sind :/\n\nSie stehen rum wie Tiere vor den Augen der Besucher eines Sonntagszoos. \nUnd hören sie den Stiefelschritt der Ordnung rennen sie gleich los.\n/: Und schimpfen auf die andern, die vielleicht nicht anders sind. :/\n\nManchmal des Nachts, dann steigen sie in Autos ein und fahrn für eine Stunde weg. \nDann kommen sie zurück und spucken dreimal in den Dreck.\n/: Und meinen die, die andern, die vielleicht nicht anders sind. :/\n\nManchmal des Nachts, dann ziehen sie die Schuhe aus und träumen an der Häuserwand. \nVom Ehemann von Kindern, von nem Häuschen auf dem Land.\n/: Vom Leben jener andern, die vielleicht nicht anders sind :/\n\nManchmal des Nachts, dann sprechen sie mich an und eine kenn ich ganz genau. \nSie hat mit mir im Sand gespielt und manchmal Mann und Frau.\n/: Heute geht sie mit den andern, die vielleicht nicht anders sind. :/\n\nManchmal des Nachts, wenn ich aus meiner Kneipe komm im Sturmschritt durch die Straßen zieh. Oder ich nicht schlafen kann und trommelnd an dem Fenster steh.\n/: Dann seh ich die, die andern, die vielleicht nicht anders sind. :/",
   "title": "Manchmal des Nachts",
   "words": [
     {
@@ -39,7 +39,22 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712489049290,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712943082496,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {}
 }

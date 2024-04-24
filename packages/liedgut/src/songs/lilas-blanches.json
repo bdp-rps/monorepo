@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Meine {C}Sonne will ich {G}fra{a}gen, meine {e}Sterne, meine {C}Nacht:\nHat ein Sturm ihn f{G}ortgetra{a}gen, hat ein {e}Krieg ihn umge{G}bracht?\nUnterm {e}Fliederbaum ver{G}lassen, fortge{d}weht aus leeren {C}Gassen,\nlilas {e}blanches, {F}lilas {C}bleues, {d}ô mon {C}coeur, ô {G}mon {C}Dieu.\n\nHergeweht von seinen Fahrten, unbekannt dem Müdesein,\nstand er still vor meinem Garten, und ich bot ihm ein Glas Wein.\nUnd ich prüft aus jenen Tagen unterm Fliederbaum die Fragen,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nWarb ein königlicher Reiter durch das schöne Perigord.\nDoch er lächelte ihm heiter, dass er hier sein Herz verlor,\nwollte lieber unterm Flieder Lautenspiel und leichte Lieder,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nAndern Tages beim Erwachen tat man winken übern Zaun.\nUnd er hört die Burschen lachen, Zähne weiß und Augen braun,\nsah sie schwarze Rosse strählen, Bandelier und Degen wählen,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nHat mich zögernd angesehen und er strich mir übers Haar,\nwollte bleiben, wollte gehen, nur paar Wochen, kaum ein Jahr.\nWollte kommen mit dem Flieder, nur im Traume kehrt er wieder,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.",
+  "content": "Meine {C}Sonne will ich {G}fra{a}gen, meine {e}Sterne, meine {C}Nacht:\nHat ein Sturm ihn fortge{G}tra{a}gen, hat ein {e}Krieg ihn umge{G}bracht?\nUnterm {e}Fliederbaum ver{G}lassen, fortge{d}weht aus leeren {C}Gassen,\nlilas {e}blanches, {F}lilas {C}bleues, {d}ô mon {C}coeur, ô {G}mon {C}Dieu.\n\nHergeweht von seinen Fahrten, unbekannt dem Müdesein,\nstand er still vor meinem Garten, und ich bot ihm ein Glas Wein.\nUnd ich prüft aus jenen Tagen unterm Fliederbaum die Fragen,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nWarb ein königlicher Reiter durch das schöne Périgord.\nDoch er lächelte ihm heiter, dass er hier sein Herz verlor,\nwollte lieber unterm Flieder Lautenspiel und leichte Lieder,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nAndern Tages beim Erwachen tat man winken übern Zaun.\nUnd er hört die Burschen lachen, Zähne weiß und Augen braun,\nsah sie schwarze Rosse strählen, Bandelier und Degen wählen,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nHat mich zögernd angesehen und er strich mir übers Haar,\nwollte bleiben, wollte gehen, nur paar Wochen, kaum ein Jahr.\nWollte kommen mit dem Flieder, nur im Traume kehrt er wieder,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.",
   "title": "Lilas Blanches",
   "words": [
     {
@@ -36,6 +36,13 @@
     },
     {
       "date": 1706968601699,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712488709352,
       "name": "ko",
       "mail": "",
       "type": "update",

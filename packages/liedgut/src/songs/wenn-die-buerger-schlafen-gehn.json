@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Wenn die Bürger {H7}schlafen gehn, {a}in der {D}Zipfel{G}mütze {a}und zu ihrem {e}Herrgott flehn, \n{H7}dass er sie beschütze. {e}Ziehn wir festlich {H7}angetan {a}hin zu {D}den Ta{G}vernen.\n{a}Schlendrian, {e}Schlendrian, {H7}unter den Laternen.\n\nDie {A}Nacht ist {H7}nicht allein zum {E}Schlafen da, die {A}Nacht ist {H7}alles was gesch{e}ieht.\nEin {A}Schiff ist {H7}nicht nur für den Hafen da, es muss hin{H7}aus, hinaus auf hohe See!\nBe{e}rauscht euch Freunde, singt und trinkt und lacht, genießt den schönsten Augen{H7}blick.\nDenn eine {A}Nacht, die {H7}man in einem {E}Rausch verbracht\n/: bedeutet {A}Selig{H7}keit und {E}Glück. :/\n\nIn den Gläsern perlt der Sekt unter roten Ampeln. Und die Mädels süß erschreckt\nauf dem Schoß uns trampeln. Küssen wir die Prüderie von den roten Mündern.\nAmnestie, Amnestie, all den armen Sündern.\n\nWenn die Abenddämmerung fällt hinter Fensterscheiben, und die Männer ohne Braut\nbeieinander bleiben. Schmieden sie im Flüsterton aus Gesprächen Bomben.\nRebellion, Rebellion in den Katakomben.\n\nLasst den alten Narren flieh'n, der sich selbst gerichtet. In die Zukunft woll'n wir zieh'n,\ndie auf ihn verzichtet. Doch wir woll'n im Siegeslauf immer memorieren:\nAugen auf, Augen auf! Dann kann nichts passieren.",
+  "content": "{e}Wenn die Bürger {H7}schlafen gehn, {a}in der {D}Zipfel{G}mütze {a}und zu ihrem {e}Herrgott flehn, \n{H7}dass er sie beschütze. {e}Ziehn wir festlich {H7}angetan {a}hin zu {D}den Ta{G}vernen.\n{a}Schlendrian, {e}Schlendrian, {H7}unter den Laternen.\n\nDie {A}Nacht ist {H7}nicht allein zum {E}Schlafen da, die {A}Nacht ist {H7}alles was gesch{e}ieht.\nEin {A}Schiff ist {H7}nicht nur für den Hafen da, es muss hin{H7}aus, hinaus auf hohe See!\nBe{e}rauscht euch Freunde, singt und trinkt und lacht, genießt den schönsten Augen{H7}blick.\nDenn eine {A}Nacht, die {H7}man in einem {E}Rausch verbracht\n/: bedeutet {A}Selig{H7}keit und {E}Glück. :/\n\nWenn die Abenddämmerung fällt hinter Fensterscheiben, und die Männer ohne Braut\nbeieinander bleiben. Schmieden sie im Flüsterton aus Gesprächen Bomben.\nRebellion, Rebellion in den Katakomben.\n\nLasst den alten Narren fliehn, der sich selbst gerichtet. In die Zukunft wolln wir ziehn,\ndie auf ihn verzichtet. Doch wir wolln im Siegeslauf immer memorieren:\nAugen auf, Augen auf! Dann kann nichts passieren.",
   "title": "Wenn die Bürger schlafen gehn",
   "words": [
     {
@@ -25,7 +25,7 @@
   "alternativeTitle": "Die Nacht ist nicht allein zum Schlafen da\n",
   "tempo": 60,
   "musicalKey": "Em",
-  "info": "Aus dem Film \"Tanz auf dem Vulkan\".",
+  "info": "Aus dem Film \"Tanz auf dem Vulkan\".\n\nWeitere Strophe:\nIn den Gläsern perlt der Sekt unter roten Ampeln. Und die Mädels süß erschreckt\nauf dem Schoß uns trampeln. Küssen wir die Prüderie von den roten Mündern.\nAmnestie, Amnestie, all den armen Sündern.",
   "changes": [
     {
       "date": 1706976908082,
@@ -33,6 +33,21 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1710015830312,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712739766415,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Schon {C}wird uns oft um's Herz zu {e}eng, es {F}lässt uns niemals {C}ruh'n;\nwir konnten manchmal im Ge{e}dräng nicht {F}ganz das Rechte {C}tun.\nLasst {a}in der Runde geh'n den {G}Wein, horcht, {F}wie die Zeit ver{C}rinnt;\ndie {F}Menschen werden kleiner {e}sein, {a}wenn {G}wir, {F}wenn {C}wir ge{G}gangen {C}sind.\n\nUns wäre eingereiht, behaust und vorbetreut nicht wohl:\nwir konnten noch in unsrer Faust vereinen Pol und Pol.\nLasst in der Runde geh'n den Wein, horcht wie die Zeit verrinnt;\ndie Menschen werden schwächer sein, wenn wir, wenn wir gegangen sind.\n\nOb altes Maß, ob neues Maß, wir müssen bald vergeh'n;\nwas schadet's, bleibt nur dies und das von uns als Zeichen stehn.\nLasst in der Runde geh'n den Wein horcht wie die Zeit verrinnt;\ndie Menschen werden freier sein, wenn wir, wenn wir gegangen sind.",
+  "content": "Schon {C}wird uns oft ums Herz zu {e}eng, es {F}lässt uns niemals {C}ruhn;\nwir konnten manchmal im Ge{e}dräng nicht {F}ganz das Rechte {C}tun.\nLasst {a}in der Runde gehn den {G}Wein, horcht, {F}wie die Zeit ver{C}rinnt;\ndie {F}Menschen werden kleiner {e}sein, {a}wenn {G}wir, {F}wenn {C}wir ge{G}gangen {C}sind.\n\nUns wäre eingereiht, behaust und vorbetreut nicht wohl:\nwir konnten noch in unsrer Faust vereinen Pol und Pol.\nLasst in der Runde gehn den Wein, horcht wie die Zeit verrinnt;\ndie Menschen werden schwächer sein, wenn wir, wenn wir gegangen sind.\n\nOb altes Maß, ob neues Maß, wir müssen bald vergehn;\nwas schadet's, bleibt nur dies und das von uns als Zeichen stehn.\nLasst in der Runde gehn den Wein horcht wie die Zeit verrinnt;\ndie Menschen werden freier sein, wenn wir, wenn wir gegangen sind.",
   "title": "Trinklied vorm Abgang",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712944440319,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

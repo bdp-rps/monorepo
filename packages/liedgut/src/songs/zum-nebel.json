@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Du, verst{e}ehst du, das ist seltsam, ja so {a}seltsam, \naber {H7}ich bin so was wie man sagt ein {e}Kauz.{H7}\nDenn ich {e}haste, hin zum Nebel nur zum {a}Nebel, \nund manch{H7}mal halte ich's selbst mit mir nicht {e}aus.\nLeute {E7}haben viele Laster, Leute {a}brauchen ihren Zaster, \nflüchten {D}vor der Kränkung und vor ihrem {G}Leid.{H7}\n\n/: Doch ich {e}fahre, doch ich fahre zu den {a}Träumen,\nhin zum {H7}Nebel und dem Ruch von nassem {e}Wald. :/\n\nDu, verstehst du, das ist einfach, ja ganz einfach\nfür den, der eines Tages weit weg fährt.\nStell dir vor, das ist schon heftig, ja sehr heftig,\nBerge, Sonne, Fichten, Lieder und ein Zelt.\nUnd überall am Straßenrand ein Koffer der zu mir gehört,\nGedanken an ne Rechnung, die noch nicht bezahlt.\nDoch ich fahre, doch ich fahre zu den Träumen,\nhin zum Nebel und dem Ruch von nassem Wald.",
+  "content": "Du, verst{e}ehst du, das ist seltsam, ja so {a}seltsam,\naber {H7}ich bin so was wie man sagt ein {e}Kauz.{H7}\nDenn ich {e}haste, hin zum Nebel nur zum {a}Nebel,\nund manch{H7}mal halte ichs selbst mit mir nicht {e}aus.\nLeute {E7}haben viele Laster, Leute {a}brauchen ihren Zaster,\nflüchten {D}vor der Kränkung und vor ihrem {G}Leid.{H7}\n\n/: Doch ich {e}fahre, doch ich fahre zu den {a}Träumen,\nhin zum {H7}Nebel und dem Ruch von nassem {e}Wald. :/\n\nDu, verstehst du, das ist einfach, ja ganz einfach\nfür den, der eines Tages weit weg fährt.\nStell dir vor, das ist schon heftig, ja sehr heftig,\nBerge, Sonne, Fichten, Lieder und ein Zelt.\nUnd überall am Straßenrand ein Koffer der zu mir gehört,\nGedanken an ne Rechnung, die noch nicht bezahlt.\n\n/: Doch ich fahre, doch ich fahre zu den Träumen,\nhin zum Nebel und dem Ruch von nassem Wald. :/",
   "title": "Zum Nebel",
   "words": [
     {
@@ -39,7 +39,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712516938283,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "Em"
+  "musicalKey": "Em",
+  "specialSettings": {}
 }

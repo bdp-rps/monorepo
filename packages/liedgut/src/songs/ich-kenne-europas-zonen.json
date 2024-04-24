@@ -48,5 +48,21 @@
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "line",
+        "blocks": [
+          2
+        ],
+        "lines": [
+          4
+        ],
+        "style": {
+          "letterSpacing": -0.04
+        }
+      }
+    ]
+  }
 }

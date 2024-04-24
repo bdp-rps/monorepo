@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Ich wankte {h}völlig betrunken aus einer Hafenspelunke. \nGriff nach dem {Fis}Kompass in meiner Tasche, dort {D7}fand ich nur 'ne {Fis}Flasche \n{h}Rum, die ich auch gleich trank als sie plötzlich vor mir stand: \nDu hast das {Fis}Land doch langsam satt, komm {D}mit; der {Fis}Captain legt gleich {h}ab.\n\nWir betraten das Schiff und ich ahnte noch nicht, was nachts in dunklen Kajüten \nMatrosen und Gemüter umtreibt und Affen, die sich Rum-Flaschen schnappen,\ndie der Captain zum Steuern, zum in den Sternen lesen braucht.\n\nDas {A}Schiff legte ab. \"Siehst du dein {h}Land verschwinden?\", {A}sprach sie leise in mein {h}Ohr.\nDu {A}kommst nicht zurück, ich werd dich {h}an mich binden. {A}Nichts ist jetzt mehr wie zu{Fis}vor.\n\nMan sagt auf dem Schiff bringen Frauen kein Glück. \nSie bringen Gemüter zum Wanken und Matrosen zum Zanken.\nWurd' einer von ihnen, ich begann ihr zu dienen. \nDafür war sie manchmal da, wenn ich des Nachts einsam war.\n\nHai{h}hoheiohey, Haihoheiohey, Haiho Hai{Fis}hoheiohey {D}Haihohei{Fis}...\n\nWenn sie auf den Tischen tanzt, Wahnsinn in Seemänner verpflanzt,\nwird sich geschlagen und zerstört wie's selbst auf See sich nicht gehört.\nDas Meer, das birgt 'nen Schoß, wohin das Schiff auch zieht. \nDrum geh'n wir niemals an Land und singen segelnd dieses Lied.\n\nDas Schiff legte ab...\n\nh, Fis, D / cis, Gis, E, / dis, B, Fis\nHaihoheiohey, Haihoheiohey...",
+  "content": "Ich wankte {h}völlig betrunken aus einer Hafenspelunke. \nGriff nach dem {Fis}Kompass in meiner Tasche, dort {D7}fand ich nur 'ne {Fis}Flasche \n{h}Rum, die ich auch gleich trank als sie plötzlich vor mir stand: \nDu hast das {Fis}Land doch langsam satt, komm {D}mit; der {Fis}Captain legt gleich {h}ab.\n\nWir betraten das Schiff und ich ahnte noch nicht, \nwas nachts in dunklen Kajüten Matrosen und Gemüter \numtreibt und Affen, die sich Rum-Flaschen schnappen,\ndie der Captain zum Steuern, zum in den Sternen lesen braucht.\n\nDas {A}Schiff legte ab. \"Siehst du dein {h}Land verschwinden?\", {A}sprach sie leise in mein {h}Ohr.\nDu {A}kommst nicht zurück, ich werd dich {h}an mich binden. {A}Nichts ist jetzt mehr wie zu{Fis}vor.\n\nMan sagt auf dem Schiff bringen Frauen kein Glück. \nSie bringen Gemüter zum Wanken und Matrosen zum Zanken.\nWurd einer von ihnen, ich begann ihr zu dienen. \nDafür war sie manchmal da, wenn ich des Nachts einsam war.\n\n/: Hai{h}hoheiohey, Haihoheiohey, Haiho Hai{Fis}hoheiohey {D}Haihohei{Fis} :/  {(h)}\n\nWenn sie auf den Tischen tanzt, Wahnsinn in Seemänner verpflanzt,\nwird sich geschlagen und zerstört wies selbst auf See sich nicht gehört.\nDas Meer, das birgt 'nen Schoß, wohin das Schiff auch zieht. \nDrum gehn wir niemals an Land und singen segelnd dieses Lied.\n\nDas Schiff legte ab ...\n\n/: Hai{h}hoheiohey, Haihoheiohey, Haiho Hai{Fis}hoheiohey {D}Haihohei{Fis} :/\n/: Hai{cis}hoheiohey, Haihoheiohey, Haiho Hai{Gis}hoheiohey {E}Haihohei{Gis} :/\n/: Hai{dis}hoheiohey, Haihoheiohey, Haiho Hai{B}hoheiohey {Fis}Haihohei{B} :/",
   "title": "Seemannsmätresse",
   "words": [
     {
@@ -47,6 +47,50 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712515508100,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "block",
+        "blocks": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "style": {
+          "lineHeight": 1.11
+        }
+      },
+      {
+        "type": "space",
+        "blocks": [
+          4,
+          7
+        ],
+        "style": {
+          "lineHeight": 0.7
+        }
+      },
+      {
+        "type": "space",
+        "blocks": [
+          5,
+          6
+        ],
+        "style": {
+          "lineHeight": 1.15
+        }
+      }
+    ]
+  }
 }

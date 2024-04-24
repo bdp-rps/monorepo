@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Auf den {a}Leitplanken stehen die {d}Geschichten drauf,\nwer hier {G}stand auf seiner Reise schrieb sie auf.{C}{E}\nAuf dem {a}nassen Asphalt ein weißes {d}Taschentuch,\nso {E}nass und grau verschmiert steh' ich hier {a}auch.{E}{a}\n\nNur einen {F}Schritt, dann {G}bin ich auf der {a}Reise, im ersten {F}Auto {G}bin ich schon am {a}Ziel.\nEin Ziel das {F}ich, so {G}hoff' ich, nie er{C}reich{a}e, nur das {d}Brennen wird dann {a}leichter,\nich {d}merke es geht {a}weiter, {d}dam deram da da dada{E}dah{E7}.\n\nZwischenspiel:\n{a }{F }{E }{a }{F }{G }{F }{E }{a }{F }{E }{a }{G }{F }{E }{a }{E }{a}\n\nWas dann hält, das ist ein rosa Blümchenbus, mit einer Aura von baldigem KO.\nOb der Onkel, der ihn fährt, vielleicht 'ne Tante ist, \nweiß er selbst nicht genau, mal so, mal so.\n\nIch weiß nicht, warum ich immer weg muss, \ner weiß nicht, wer er, sie, es, er ist.\nOb wir auf unsrer Suche was erreichen?\nNur das Fahren macht es leichter, wir merken, es geht weiter, dam deram ...\n\nIst es die Angst das Leben zu verpassen, oder ist es nur die Sehnsucht nach dem Meer?\nManchmal kann ich meine Freiheit kaum fassen, \nmanchmal ist mir dieser Rucksack viel zu schwer.\n\nIch kann die Straße nur in eine Richtung gehen, \nauch wenn die Straße sich groß und breit verflicht.\nTrotz Weg und Wagnis kann ich nicht widerstehen, \ndenn die Sehnsucht wird dann leichter, ich merke es geht weiter, dam deram ...\n",
+  "content": "Auf den {a}Leitplanken stehen die {d}Geschichten drauf,\nwer hier {G}stand auf seiner Reise schrieb sie auf.{C}{E}\nAuf dem {a}nassen Asphalt ein weißes {d}Taschentuch,\nso {E}nass und grau verschmiert steh ich hier {a}auch.{E}{a}\n\nNur einen {F}Schritt, dann {G}bin ich auf der {a}Reise, im ersten {F}Auto {G}bin ich schon am {a}Ziel.\nEin Ziel das {F}ich, so {G}hoff ich, nie er{C}reich{a}e, nur das {d}Brennen wird dann {a}leichter,\nich {d}merke es geht {a}weiter, {d}dam deram da da dada{E}dah{E7}.\n\nZwischenspiel:\n{a }{F }{E }{a }{F }{G }{F }{E }{a }{F }{E }{a }{G }{F }{E }{a }{E }{a}\n\nWas dann hält, das ist ein rosa Blümchenbus, mit einer Aura von baldigem KO.\nOb der Onkel, der ihn fährt, vielleicht 'ne Tante ist, \nweiß er selbst nicht genau, mal so, mal so.\n\nIch weiß nicht, warum ich immer weg muss, \ner weiß nicht, wer er, sie, es, er ist.\nOb wir auf unsrer Suche was erreichen?\nNur das Fahren macht es leichter, wir merken, es geht weiter, dam deram ...\n\nIst es die Angst das Leben zu verpassen, oder ist es nur die Sehnsucht nach dem Meer?\nManchmal kann ich meine Freiheit kaum fassen, \nmanchmal ist mir dieser Rucksack viel zu schwer.\n\nIch kann die Straße nur in eine Richtung gehen, \nauch wenn die Straße sich groß und breit verflicht.\nTrotz Weg und Wagnis kann ich nicht widerstehen, \ndenn die Sehnsucht wird dann leichter, ich merke es geht weiter, dam deram ...\n",
   "title": "Bobbys Fernweh",
   "words": [
     {
@@ -60,7 +60,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712567874950,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {}
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{E}Die Lappen hoch, wir {H7}wollen {E}sailen, hol {A}an die {E}Schot, {H7}ohe!\nSind {E}viele {H7}tausend {E}Meilen zu {A}segeln {E}über {H7}See.\n\nDie Lappen {E}hoch, die Anker {A}fort, heute {E}hier und {H7}morgen {E}dort.\n/: Po morjam, po wol{A}nam, nyinsche {E}sdjes a {H7}savtra {E}tam. :/\n\nWenn einst am Lagunenstrande im Lee liegt unser Boot,\nlacht uns das Glück am Strande, am Strande hell und rot.\n\nUnd nie würdest weiter du ziehen, ja ewig bliebest du dann,\nJa, wenn nicht wäre das Segeln, der Wind und der Ozean.\n",
+  "content": "{E}Die Lappen hoch, wir {H7}wollen {E}seilen, hol {A}an die {E}Schot, {H7}ohe!\nSind {E}viele {H7}tausend {E}Meilen zu {A}segeln {E}über {H7}See.\n\nDie Lappen {E}hoch, die Anker {A}fort, heute {E}hier und {H7}morgen {E}dort.\n/: Po morjam, po wol{A}nam, nyinsche {E}sdjes a {H7}savtra {E}tam. :/\n\nWenn einst am Lagunenstrande im Lee liegt unser Boot,\nlacht uns das Glück am Strande, am Strande hell und rot.\n\nUnd nie würdest weiter du ziehen, ja ewig bliebest du dann,\nJa, wenn nicht wäre das Segeln, der Wind und der Ozean.\n",
   "title": "Die Lappen hoch",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1712844867809,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
