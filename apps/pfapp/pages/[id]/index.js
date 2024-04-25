@@ -23,27 +23,21 @@ import Location from '../../utils/location'
 import GroupType from '../../utils/groupType'
 import Season from '../../utils/season'
 import Size from '../../utils/size'
+import TimeSlotCard from '../../components/TimeSlotCard'
 
 const DataRow = ({ lable, value }) => {
   return (
-    <Box
-      direction="row"
-      justifyContent="space-between"
-      bg="blueLighter"
-      padding={2}>
-      <Box alignSelf="center">
-        <Text variant="note" color="white">
-          {lable}:{' '}
-        </Text>
+    <Box>
+      <Box>
+        <Text variant="note">{lable} </Text>
       </Box>
-      <Text color="white">{value != undefined ? value : '-'}</Text>
+      <Text>{value != undefined ? value : '-'}</Text>
     </Box>
   )
 }
 
 export default function Page({ activitySlots, activity, materials }) {
-  // const activitySlots = activity_slots.data
-  // const materials = data.map((timeSlot) => timeSlot.materials).join(',')
+  console.log(activity, activitySlots, materials)
   const {
     attachment,
     title,
@@ -68,12 +62,19 @@ export default function Page({ activitySlots, activity, materials }) {
             <Card>
               <Text>{description}</Text>
             </Card>
-            <Card>
-              <Box space={2}>
-                <Text variant="category">Zeitplan:</Text>
-                {/* <ActivityTable data={data} /> */}
+            <Box space={2}>
+              <Text variant="category">Zeitplan:</Text>
+              <Box
+                direction={['column', 'row']}
+                wrap="wrap"
+                extend={{ gap: 8 }}>
+                {activitySlots.map((slot, index) => (
+                  <Box flex="1" key={index}>
+                    <TimeSlotCard position={index + 1} {...slot} />
+                  </Box>
+                ))}
               </Box>
-            </Card>
+            </Box>
             <Box direction={['column', 'row']} space={2}>
               <Box flex={1}>
                 <Card>
@@ -159,12 +160,16 @@ export async function getStaticProps({ params }) {
     }
   )
 
+  //TODO: MATERIALIEN!!
+
+  // const materials = activity
+  //   .map((timeSlot) => timeSlot.materials)
+  //   .join(',')
+
   const props = {
     activity,
     activitySlots,
   }
-
-  console.log(props)
 
   return {
     props,

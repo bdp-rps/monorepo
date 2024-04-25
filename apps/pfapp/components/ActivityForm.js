@@ -250,7 +250,7 @@ export default () => {
               const fileId = fileResponse?.data[0].id
 
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
-                const { description } = timeSlot
+                const { description, title } = timeSlot
                 return postActivitySlots({
                   description,
                   title,
@@ -289,69 +289,86 @@ export default () => {
             }
           })
         }}>
-        <TextInput label="Titel" {...title.props} />
-        <TextArea label="Beschreibung" {...description.props} />
-        <Box direction="row" space={2}>
-          <SelectInput label="Ort" {...location.props}>
-            <option value={undefined}>keine Angabe</option>
-            {Location.values.map((location) => (
-              <option value={location} key={location}>
-                {Location.toText(location)}
-              </option>
-            ))}
-          </SelectInput>
-          <SelectInput label="Stufe" {...groupType.props}>
-            {GroupType.values.map((type) => {
-              return (
-                <option value={type} key={type}>
-                  {GroupType.toText(type)}
-                </option>
-              )
-            })}
-          </SelectInput>
-          <SelectInput label="Gruppengröße" {...size.props}>
-            <option value={undefined}>keine Angabe</option>
-            {Size.values.map((size) => {
-              return (
-                <option key={size} value={size}>
-                  {Size.toText(size)}
-                </option>
-              )
-            })}
-          </SelectInput>
-          <SelectInput label="Jahreszeit" {...season.props}>
-            <option value={undefined}>keine Angabe</option>
-            {Season.values.map((season) => {
-              return (
-                <option value={season} key={season}>
-                  {Season.toText(season)}
-                </option>
-              )
-            })}
-          </SelectInput>
+        <Box flex="1">
+          <TextInput label="Titel" {...title.props} />
         </Box>
-        <TextInput
-          label="Vorbereitungszeit (Minuten)"
-          type="number"
-          {...preperation.props}
-        />
+        <TextArea label="Beschreibung" {...description.props} />
+        <Box
+          direction="row"
+          wrap="wrap"
+          extend={{ gap: 8 }}
+          justifyContent="space-between">
+          <Box flex="1">
+            <SelectInput label="Ort" {...location.props}>
+              <option value={undefined}>keine Angabe</option>
+              {Location.values.map((location) => (
+                <option value={location} key={location}>
+                  {Location.toText(location)}
+                </option>
+              ))}
+            </SelectInput>
+          </Box>
+          <Box flex="1">
+            <SelectInput label="Stufe" {...groupType.props}>
+              {GroupType.values.map((type) => {
+                return (
+                  <option value={type} key={type}>
+                    {GroupType.toText(type)}
+                  </option>
+                )
+              })}
+            </SelectInput>
+          </Box>
+          <Box flex="1">
+            <SelectInput label="Gruppengröße" {...size.props}>
+              <option value={undefined}>keine Angabe</option>
+              {Size.values.map((size) => {
+                return (
+                  <option key={size} value={size}>
+                    {Size.toText(size)}
+                  </option>
+                )
+              })}
+            </SelectInput>
+          </Box>
+          <Box flex="1">
+            <SelectInput label="Jahreszeit" {...season.props}>
+              <option value={undefined}>keine Angabe</option>
+              {Season.values.map((season) => {
+                return (
+                  <option value={season} key={season}>
+                    {Season.toText(season)}
+                  </option>
+                )
+              })}
+            </SelectInput>
+          </Box>
+          <Box>
+            <TextInput
+              label="Vorbereitungszeit (Minuten)"
+              type="number"
+              {...preperation.props}
+            />
+          </Box>
+        </Box>
+
+        <Box>
+          <FileInput handleFileChange={handleFileChange} />
+        </Box>
+
         <MaterialInput
           field={materials}
           materials={materialsData}
           setMaterials={setMaterialsData}
         />
-        <Box flex={1}>
-          <FileInput handleFileChange={handleFileChange} />
-        </Box>
-        <Box direction="row" width="100%" space={2}>
-          <Box flex={1}>
+
+        <Box direction="row" space={6} justifyContent="space-between">
+          <Box>
             <TextInput
               label="Wer ist so nett und erstellt diese Gruppenstunde?"
               {...uploadedBy.props}
             />
           </Box>
-        </Box>
-        <Box direction="row" space={6} justifyContent="space-between">
           <Box alignSelf="flex-start" space={2}>
             <Button
               type="submit"
@@ -364,25 +381,30 @@ export default () => {
             )}
           </Box>
         </Box>
-        <Spacer size={10} />
-        <Box direction={['column', 'row']} space={8}>
+        <Spacer size={2} />
+        <Box direction={['column', 'row']} wrap="wrap" extend={{ gap: 32 }}>
           {timeSlots.map(({ title, description }, index) => {
             return (
-              <TimeSlotCard
-                title={title}
-                description={description}
-                onEdit={(data) =>
-                  setTimeSlots((prev) => {
-                    return prev.map((timeSlot, editIndex) => {
-                      return index == editIndex ? data : timeSlot
+              <Box flex="1" key={index}>
+                <TimeSlotCard
+                  position={index + 1}
+                  title={title}
+                  description={description}
+                  onEdit={(data) =>
+                    setTimeSlots((prev) => {
+                      return prev.map((timeSlot, editIndex) => {
+                        return index == editIndex ? data : timeSlot
+                      })
                     })
-                  })
-                }
-              />
+                  }
+                />
+              </Box>
             )
           })}
           <Box>
-            <Button onClick={(_) => setModalVisible(true)}>Hinzufügen</Button>
+            <Button onClick={(_) => setModalVisible(true)}>
+              Zeitblock hinzufügen
+            </Button>
           </Box>
         </Box>
       </Box>
