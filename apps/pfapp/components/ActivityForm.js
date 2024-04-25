@@ -192,6 +192,7 @@ export default () => {
   // too stupid
   const [isLoading, setIsLoading] = React.useState(false)
   // const [attachmentId, setAttachmentId] = React.useState(null)
+  const timeslotsAreEmpty = timeSlots.length == 0
 
   const [file, setFile] = React.useState()
   const handleFileChange = (e) => {
@@ -342,10 +343,10 @@ export default () => {
             <Button
               type="submit"
               loading={isLoading}
-              disabled={timeSlots.length == 0}>
+              disabled={timeslotsAreEmpty}>
               Gruppenstunde erstellen
             </Button>
-            {timeSlots.length == 0 && (
+            {timeslotsAreEmpty && (
               <Text variant="note">Füge erst noch Zeitblöcke hinzu!</Text>
             )}
           </Box>
