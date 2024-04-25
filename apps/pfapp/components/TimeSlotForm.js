@@ -9,14 +9,21 @@ import {
   SelectInput,
 } from '@bdp-rps/ui'
 
-export default function TimeSlotForm({ onAdd }) {
+export default function TimeSlotForm({
+  onSave,
+  onCancel,
+  defaultValues = { title: '', description: '' },
+}) {
   const description = useField({
     name: 'description',
     required: true,
+    value: defaultValues.description,
   })
 
   const timeSlotTitle = useField({
     name: 'title',
+    required: true,
+    value: defaultValues.title,
   })
 
   const { submit, reset } = useForm(description, timeSlotTitle)
@@ -24,31 +31,29 @@ export default function TimeSlotForm({ onAdd }) {
   return (
     <Box space={4}>
       <Box
-        as="form"
         noValidate
         space={4}
         onReset={(_) => {
           reset()
-        }}
-        onSubmit={(e) => {
-          e.preventDefault()
-          submit((isValid, data) => {
-            if (isValid) {
-              onAdd(data)
-
-              reset()
-            }
-          })
         }}>
         <Box flex={2}>
           <TextInput label="Titel" {...timeSlotTitle.props} />
         </Box>
         <TextArea label="Beschreibung" {...description.props} />
-
         <Box alignSelf="flex-start" space={2} direction="row">
-          <Button type="submit">Speichern</Button>
-          <Button type="reset" variant="secondary">
-            Zurücksetzen
+          <Button
+            onClick={(e) => {
+              submit((isValid, data) => {
+                if (isValid) {
+                  onSave(data)
+                  reset()
+                }
+              })
+            }}>
+            Speichern
+          </Button>
+          <Button variant="secondary" onClick={onCancel}>
+            Abbrechen
           </Button>
         </Box>
       </Box>

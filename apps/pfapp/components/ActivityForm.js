@@ -74,7 +74,6 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
     field.update({ value: materials?.join(', ') })
   }, [materials])
 
-  // setCurrentMaterialInput(null)
   return (
     <>
       <Modal
@@ -105,28 +104,36 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
               Hinzufügen
             </Button>
           </Box>
-          {materials?.map((material, indexForDelete) => {
-            return (
-              <InfoBox key={indexForDelete}>
-                <Box direction="row" space={1} alignItems="center">
-                  <Text color="white">{material}</Text>
-                  <Box margin={-4}>
-                    <IconButton
-                      color="white"
-                      onClick={(_) =>
-                        setMaterials((materials) =>
-                          materials.filter((_, index) => {
-                            return index != indexForDelete
-                          })
-                        )
-                      }
-                      icon={(props) => <IconMinus {...props} />}
-                    />
+          <Box
+            direction="row"
+            wrap="wrap"
+            flex="1"
+            extend={{
+              gap: 4,
+            }}>
+            {materials?.map((material, indexForDelete) => {
+              return (
+                <InfoBox key={indexForDelete}>
+                  <Box direction="row" space={1} alignItems="center">
+                    <Text color="white">{material}</Text>
+                    <Box margin={-4}>
+                      <IconButton
+                        color="white"
+                        onClick={(_) =>
+                          setMaterials((materials) =>
+                            materials.filter((_, index) => {
+                              return index != indexForDelete
+                            })
+                          )
+                        }
+                        icon={(props) => <IconMinus {...props} />}
+                      />
+                    </Box>
                   </Box>
-                </Box>
-              </InfoBox>
-            )
-          })}
+                </InfoBox>
+              )
+            })}
+          </Box>
         </Box>
       </Box>
     </>
@@ -180,18 +187,21 @@ export default () => {
     uploadedBy
   )
 
-  const [timeSlots, setTimeSlots] = React.useState([
+  const defaultForTest = [
     {
       title: 'Loremo Ipsum',
       description:
         'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
     },
-  ])
+  ]
+
+  const [timeSlots, setTimeSlots] = React.useState((_) => [])
 
   //TODO: move this to useForm somehow the changes are not applied for me
   // too stupid
   const [isLoading, setIsLoading] = React.useState(false)
   // const [attachmentId, setAttachmentId] = React.useState(null)
+
   const timeslotsAreEmpty = timeSlots.length == 0
 
   const [file, setFile] = React.useState()
@@ -202,7 +212,6 @@ export default () => {
     if (file) {
       const formData = new FormData()
       formData.append('files', file)
-
       return axios
         .post('https://docs.bdp-rps.de/api/upload', formData)
         .then((response) => {
@@ -353,12 +362,18 @@ export default () => {
         </Box>
         <Spacer size={10} />
         <Box direction={['column', 'row']} space={8}>
-          {timeSlots.map(({ title, description }) => {
+          {timeSlots.map(({ title, description }, index) => {
             return (
               <TimeSlotCard
                 title={title}
                 description={description}
-                onClick={(_) => console.log(' asdasd')}
+                onEdit={(data) =>
+                  setTimeSlots((prev) => {
+                    return prev.map((timeSlot, editIndex) => {
+                      return index == editIndex ? data : timeSlot
+                    })
+                  })
+                }
               />
             )
           })}
@@ -374,17 +389,8 @@ export default () => {
         zIndex={10}
         onClose={() => setModalVisible(false)}>
         <TimeSlotForm
-          onEdit={(data) => {
-            setTimeSlots((timeSlots) => [
-              ...timeSlots.map((slot) => {
-                if (slot.id === data.id) {
-                  return data
-                }
-                return slot
-              }),
-            ])
-          }}
-          onAdd={(data) => {
+          onCancel={(_) => setModalVisible(false)}
+          onSave={(data) => {
             setTimeSlots((timeSlots) => [
               ...timeSlots,
               { ...data, id: timeSlots.length + 1 },

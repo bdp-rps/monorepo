@@ -11,28 +11,9 @@ import {
   Icon,
 } from '@bdp-rps/ui'
 
-// const style = ({ theme }) => ({
-//   textDecoration: 'none',
-//   outline: 0,
-//   paddingTop: 8,
-//   paddingRight: 8,
-//   paddingBottom: 8,
-//   paddingLeft: 0,
-//   flexGrow: 1,
-//   borderBottomWidth: 1,
-//   borderBottomStyle: 'solid',
-//   borderBottomColor: theme.colors.grey7,
-//   ':last-child': {
-//     borderBottomWidth: 0,
-//   },
-// })
+import TimeSlotForm from './TimeSlotForm'
 
-export default function TimeSlotCard({
-  onClick,
-  title,
-  description,
-  onDelete,
-}) {
+export default function TimeSlotCard({ onEdit, title, description, onDelete }) {
   const theme = useTheme()
   const [isEditing, setIsEditing] = React.useState(false)
   return (
@@ -41,55 +22,58 @@ export default function TimeSlotCard({
         extend={{
           border: '1px solid',
           borderColor: theme.tokens.inputBorder,
-          ':hover': onClick
-            ? {
-                cursor: 'pointer',
-                borderColor: theme.colors.blueLight,
-              }
-            : {},
         }}>
-        <Box space={4}>
-          <Box
-            alignItems="center"
-            direction="row"
-            justifyContent="space-between">
+        {isEditing ? (
+          <TimeSlotForm
+            onCancel={() => setIsEditing(false)}
+            onSave={(data) => {
+              console.log(data)
+              onEdit(data)
+              setIsEditing(false)
+            }}
+            defaultValues={{ title, description }}
+          />
+        ) : (
+          <Box space={4}>
             <Box
               alignItems="center"
               direction="row"
               justifyContent="space-between">
-              <Text variant="category">{title}</Text>
-              {!isEditing && (
-                <IconButton
-                  icon={(props) => <IconPencil {...props} />}
-                  onClick={(_) => setIsEditing((prev) => !prev)}
-                />
-              )}
-            </Box>
-            <IconButton
-              icon={(props) => <IconTrash {...props} />}
-              onClick={onDelete}
-            />
-          </Box>
-          <Box space="2">
-            <Text variant="category">Beschreibung</Text>
-            {isEditing ? (
-              <Box>
-                <Text>asdsa</Text>
+              <Box
+                alignItems="center"
+                direction="row"
+                justifyContent="space-between">
+                <Box width="200">
+                  <Text
+                    extend={{
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                      whiteSpace: 'nowrap',
+                    }}
+                    variant="category">
+                    {title}
+                  </Text>
+                </Box>
+                {!isEditing && (
+                  <IconButton
+                    icon={(props) => <IconPencil {...props} />}
+                    onClick={(_) => setIsEditing((prev) => !prev)}
+                  />
+                )}
               </Box>
-            ) : (
+              <IconButton
+                icon={(props) => <IconTrash {...props} />}
+                onClick={onDelete}
+              />
+            </Box>
+            <Box space="2">
+              <Text variant="category">Beschreibung</Text>
               <Box>
                 <Text>{description}</Text>
               </Box>
-            )}
-          </Box>
-          {isEditing && (
-            <Box alignSelf="flex-start">
-              <Button onClick={(_) => setIsEditing((prev) => !prev)}>
-                Speichern
-              </Button>
             </Box>
-          )}
-        </Box>
+          </Box>
+        )}
       </Card>
     </Box>
   )
