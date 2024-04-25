@@ -60,13 +60,14 @@ const InfoBox = ({ children }) => {
 }
 
 const MaterialInput = ({ field, materials, setMaterials }) => {
-  const [currentMaterialInput, setCurrentMaterialInput] = React.useState('')
+  const [currentMaterialInput, setCurrentMaterialInput] = React.useState(null)
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
 
   const handleAddMaterial = () => {
     setMaterials((prev) => {
-      return [...prev, currentMaterialInput]
+      return currentMaterialInput ? [...prev, currentMaterialInput] : prev
     })
+    setCurrentMaterialInput(null)
     setModalVisible(false)
   }
 
@@ -85,8 +86,11 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
           <TextInput
             onChange={(e) => setCurrentMaterialInput(e.target.value)}
           />
-          <Box>
-            <Button onClick={(_) => handleAddMaterial()}>Hinzufügen</Button>
+          <Box direction="row" justifyContent="space-between" space={2}>
+            <Button onClick={(_) => handleAddMaterial()}>Speichern</Button>
+            <Button onClick={(_) => setModalVisible(false)} variant="secondary">
+              Abbrechen
+            </Button>
           </Box>
         </Box>
       </Modal>
