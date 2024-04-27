@@ -390,6 +390,9 @@ export default () => {
                   position={index + 1}
                   title={title}
                   description={description}
+                  onDelete={(index) =>
+                    setTimeSlots((prev) => prev.filter((_, i) => i != index))
+                  }
                   onEdit={(data) =>
                     setTimeSlots((prev) => {
                       return prev.map((timeSlot, editIndex) => {

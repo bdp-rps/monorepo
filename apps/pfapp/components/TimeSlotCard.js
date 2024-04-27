@@ -66,7 +66,7 @@ export default function TimeSlotCard({
             {onDelete && (
               <IconButton
                 icon={(props) => <IconTrash {...props} />}
-                onClick={onDelete}
+                onClick={(_) => onDelete(position - 1)}
               />
             )}
           </Box>
