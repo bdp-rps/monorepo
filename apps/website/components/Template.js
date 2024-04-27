@@ -45,6 +45,7 @@ const subNavs = {
     '/intakt': 'Intakt',
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
+    '/mailverteiler': 'Mailverteiler',
     // '/geschichte': 'Geschichte',
   },
 }

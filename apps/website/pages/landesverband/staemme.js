@@ -4,8 +4,6 @@ import { Staemme } from '@bdp-rps/shared'
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-import staemme from '../../data/staemme.json'
-
 export default () => (
   <Template>
     <Layout
