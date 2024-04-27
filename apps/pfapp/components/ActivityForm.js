@@ -18,12 +18,13 @@ import {
   Radio,
 } from '@bdp-rps/ui'
 
+import TimeSlotForm from './TimeSlotForm'
+
 import Location from '../utils/location'
-import Duration from '../utils/duration'
 import GroupType from '../utils/groupType'
 import Size from '../utils/size'
 import Season from '../utils/season'
-import ActivityTable from './ActivityTable'
+import TimeSlotCard from './TimeSlotCard'
 import postActivity from '../api/postActivity'
 import postActivitySlots from '../api/postActivitySlots'
 import axios from 'axios'
@@ -59,13 +60,14 @@ const InfoBox = ({ children }) => {
 }
 
 const MaterialInput = ({ field, materials, setMaterials }) => {
-  const [currentMaterialInput, setCurrentMaterialInput] = React.useState('')
+  const [currentMaterialInput, setCurrentMaterialInput] = React.useState(null)
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
 
   const handleAddMaterial = () => {
     setMaterials((prev) => {
-      return [...prev, currentMaterialInput]
+      return currentMaterialInput ? [...prev, currentMaterialInput] : prev
     })
+    setCurrentMaterialInput(null)
     setModalVisible(false)
   }
 
@@ -79,18 +81,16 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
         title="Material hinzufügen"
         visible={modalVisible}
         zIndex={10}
-        onClose={() =>
-          setModalVisible((_) => {
-            false
-            setCurrentMaterialInput(null)
-          })
-        }>
+        onClose={() => setModalVisible(false)}>
         <Box space={2} padding={2} minWidth={350}>
           <TextInput
             onChange={(e) => setCurrentMaterialInput(e.target.value)}
           />
-          <Box>
-            <Button onClick={(_) => handleAddMaterial()}>Hinzufügen</Button>
+          <Box direction="row" justifyContent="space-between" space={2}>
+            <Button onClick={(_) => handleAddMaterial()}>Speichern</Button>
+            <Button onClick={(_) => setModalVisible(false)} variant="secondary">
+              Abbrechen
+            </Button>
           </Box>
         </Box>
       </Modal>
@@ -108,111 +108,39 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
               Hinzufügen
             </Button>
           </Box>
-          {materials?.map((material, indexForDelete) => {
-            return (
-              <InfoBox key={indexForDelete}>
-                <Box direction="row" space={1} alignItems="center">
-                  <Text color="white">{material}</Text>
-                  <Box margin={-4}>
-                    <IconButton
-                      color="white"
-                      onClick={(_) =>
-                        setMaterials((materials) =>
-                          materials.filter((_, index) => {
-                            return index != indexForDelete
-                          })
-                        )
-                      }
-                      icon={(props) => <IconMinus {...props} />}
-                    />
+          <Box
+            direction="row"
+            wrap="wrap"
+            flex="1"
+            extend={{
+              gap: 4,
+            }}>
+            {materials?.map((material, indexForDelete) => {
+              return (
+                <InfoBox key={indexForDelete}>
+                  <Box direction="row" space={1} alignItems="center">
+                    <Text color="white">{material}</Text>
+                    <Box margin={-4}>
+                      <IconButton
+                        color="white"
+                        onClick={(_) =>
+                          setMaterials((materials) =>
+                            materials.filter((_, index) => {
+                              return index != indexForDelete
+                            })
+                          )
+                        }
+                        icon={(props) => <IconMinus {...props} />}
+                      />
+                    </Box>
                   </Box>
-                </Box>
-              </InfoBox>
-            )
-          })}
+                </InfoBox>
+              )
+            })}
+          </Box>
         </Box>
       </Box>
     </>
-  )
-}
-
-const TimeSlotForm = ({ onAdd }) => {
-  const duration = useField({
-    name: 'duration',
-    required: true,
-  })
-  const description = useField({
-    name: 'description',
-    required: true,
-  })
-  const materials = useField({
-    name: 'materials',
-  })
-  const responsibility = useField({
-    name: 'responsibility',
-  })
-
-  const { submit, reset } = useForm(
-    duration,
-    description,
-    materials,
-    responsibility
-  )
-  const [materialsData, setMaterialsData] = React.useState([])
-
-  return (
-    <Box space={4}>
-      <Text variant="category">Zeitblock hinzufügen</Text>
-      <Box
-        as="form"
-        noValidate
-        space={4}
-        onReset={(_) => {
-          setMaterialsData([])
-          reset()
-        }}
-        onSubmit={(e) => {
-          e.preventDefault()
-          submit((isValid, data) => {
-            if (isValid) {
-              onAdd(data)
-              setMaterialsData([])
-              reset()
-            }
-          })
-        }}>
-        <TextArea label="Beschreibung" {...description.props} />
-        <MaterialInput
-          field={materials}
-          materials={materialsData}
-          setMaterials={setMaterialsData}
-        />
-        <Box direction="row" space={2}>
-          <Box flex={2}>
-            <TextInput label="Verantwortlichkeit" {...responsibility.props} />
-          </Box>
-          <Box flex={1}>
-            <SelectInput
-              type="number"
-              label="Dauer des Zeitblocks (in min)"
-              {...duration.props}>
-              <option value={' '}> </option>
-              {Duration.values.map((duration) => (
-                <option value={duration} key={duration}>
-                  {duration}
-                </option>
-              ))}
-            </SelectInput>
-          </Box>
-        </Box>
-        <Box alignSelf="flex-start" space={2} direction="row">
-          <Button type="submit">Hinzufügen</Button>
-          <Button type="reset" variant="secondary">
-            Zurücksetzen
-          </Button>
-        </Box>
-      </Box>
-    </Box>
   )
 }
 
@@ -239,9 +167,7 @@ export default () => {
   const season = useField({
     name: 'season',
   })
-  const notes = useField({
-    name: 'notes',
-  })
+
   const preperation = useField({
     name: 'preperation',
     default: 0,
@@ -249,8 +175,8 @@ export default () => {
   const uploadedBy = useField({
     name: 'uploadedBy',
   })
-  const creator = useField({
-    name: 'creator',
+  const materials = useField({
+    name: 'materials',
   })
 
   const { submit, reset } = useForm(
@@ -259,19 +185,28 @@ export default () => {
     location,
     season,
     groupType,
+    materials,
     size,
     preperation,
-    creator,
-    uploadedBy,
-    notes
+    uploadedBy
   )
 
-  const [timeSlots, setTimeSlots] = React.useState([])
+  const defaultForTest = [
+    {
+      title: 'Loremo Ipsum',
+      description:
+        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+    },
+  ]
+
+  const [timeSlots, setTimeSlots] = React.useState((_) => [])
 
   //TODO: move this to useForm somehow the changes are not applied for me
   // too stupid
   const [isLoading, setIsLoading] = React.useState(false)
   // const [attachmentId, setAttachmentId] = React.useState(null)
+
+  const timeslotsAreEmpty = timeSlots.length == 0
 
   const [file, setFile] = React.useState()
   const handleFileChange = (e) => {
@@ -281,7 +216,6 @@ export default () => {
     if (file) {
       const formData = new FormData()
       formData.append('files', file)
-
       return axios
         .post('https://docs.bdp-rps.de/api/upload', formData)
         .then((response) => {
@@ -294,7 +228,8 @@ export default () => {
     }
   }
 
-  let material = timeSlots.map((timeSlot) => timeSlot.materials)
+  const [materialsData, setMaterialsData] = React.useState([])
+  const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
 
   return (
     <Box paddingVertical={4}>
@@ -315,24 +250,19 @@ export default () => {
               const fileId = fileResponse?.data[0].id
 
               const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
-                const { duration, description, materials, responsibility } =
-                  timeSlot
+                const { description, title } = timeSlot
                 return postActivitySlots({
-                  duration,
                   description,
-                  materials,
-                  responsibility,
+                  title,
                 }).then((res) => res.json())
               })
               const activitySlots = await Promise.all(postActivitySlotsPromises)
               const activitySlotIds = activitySlots.map((res) => res.data.id)
 
               const {
-                creator,
                 description,
                 groupType,
                 location,
-                notes,
                 preperation,
                 size,
                 title,
@@ -342,13 +272,11 @@ export default () => {
               //TODO: Try catch for error handling
               //TODO maybe move the whole logic of not sending stuff if its empty to the api file
               const result = await postActivity({
-                creator,
                 description,
                 groupType,
                 location: location != '' ? location : undefined,
                 size: size != '' ? size : undefined,
                 season: season != '' ? season : undefined,
-                notes,
                 attachment: fileId ? [fileId] : undefined,
                 preperation: preperation != '' ? preperation : undefined,
                 title,
@@ -361,119 +289,145 @@ export default () => {
             }
           })
         }}>
-        <TextInput label="Titel" {...title.props} />
-        <TextArea label="Beschreibung" {...description.props} />
-        <Box direction="row" space={2}>
-          <SelectInput label="Ort" {...location.props}>
-            <option value={undefined}>keine Angabe</option>
-            {Location.values.map((location) => (
-              <option value={location} key={location}>
-                {Location.toText(location)}
-              </option>
-            ))}
-          </SelectInput>
-          <SelectInput label="Stufe" {...groupType.props}>
-            {GroupType.values.map((type) => {
-              return (
-                <option value={type} key={type}>
-                  {GroupType.toText(type)}
-                </option>
-              )
-            })}
-          </SelectInput>
-          <SelectInput label="Gruppengröße" {...size.props}>
-            <option value={undefined}>keine Angabe</option>
-            {Size.values.map((size) => {
-              return (
-                <option key={size} value={size}>
-                  {Size.toText(size)}
-                </option>
-              )
-            })}
-          </SelectInput>
-          <SelectInput label="Jahreszeit" {...season.props}>
-            <option value={undefined}>keine Angabe</option>
-            {Season.values.map((season) => {
-              return (
-                <option value={season} key={season}>
-                  {Season.toText(season)}
-                </option>
-              )
-            })}
-          </SelectInput>
+        <Box flex="1">
+          <TextInput label="Titel" {...title.props} />
         </Box>
-        <TextArea label="Notizen" {...notes.props} />
-        <TextInput
-          label="Vorbereitungszeit (Minuten)"
-          type="number"
-          {...preperation.props}
-        />
-        <Box flex={1}>
+        <TextArea label="Beschreibung" {...description.props} />
+        <Box
+          direction="row"
+          wrap="wrap"
+          extend={{ gap: 8 }}
+          justifyContent="space-between">
+          <Box flex="1">
+            <SelectInput label="Ort" {...location.props}>
+              <option value={undefined}>keine Angabe</option>
+              {Location.values.map((location) => (
+                <option value={location} key={location}>
+                  {Location.toText(location)}
+                </option>
+              ))}
+            </SelectInput>
+          </Box>
+          <Box flex="1">
+            <SelectInput label="Stufe" {...groupType.props}>
+              {GroupType.values.map((type) => {
+                return (
+                  <option value={type} key={type}>
+                    {GroupType.toText(type)}
+                  </option>
+                )
+              })}
+            </SelectInput>
+          </Box>
+          <Box flex="1">
+            <SelectInput label="Gruppengröße" {...size.props}>
+              <option value={undefined}>keine Angabe</option>
+              {Size.values.map((size) => {
+                return (
+                  <option key={size} value={size}>
+                    {Size.toText(size)}
+                  </option>
+                )
+              })}
+            </SelectInput>
+          </Box>
+          <Box flex="1">
+            <SelectInput label="Jahreszeit" {...season.props}>
+              <option value={undefined}>keine Angabe</option>
+              {Season.values.map((season) => {
+                return (
+                  <option value={season} key={season}>
+                    {Season.toText(season)}
+                  </option>
+                )
+              })}
+            </SelectInput>
+          </Box>
+          <Box>
+            <TextInput
+              label="Vorbereitungszeit (Minuten)"
+              type="number"
+              {...preperation.props}
+            />
+          </Box>
+        </Box>
+
+        <Box>
           <FileInput handleFileChange={handleFileChange} />
         </Box>
-        <Box direction="row" width="100%" space={2}>
-          <Box flex={1}>
+
+        <MaterialInput
+          field={materials}
+          materials={materialsData}
+          setMaterials={setMaterialsData}
+        />
+
+        <Box direction="row" space={6} justifyContent="space-between">
+          <Box>
             <TextInput
               label="Wer ist so nett und erstellt diese Gruppenstunde?"
               {...uploadedBy.props}
             />
           </Box>
-          <Box flex={1}>
-            <TextInput label="Von wem ist die Idee?" {...creator.props} />
-          </Box>
-        </Box>
-        <Box direction="row" space={6} justifyContent="space-between">
           <Box alignSelf="flex-start" space={2}>
             <Button
               type="submit"
               loading={isLoading}
-              disabled={timeSlots.length == 0}>
+              disabled={timeslotsAreEmpty}>
               Gruppenstunde erstellen
             </Button>
-            {timeSlots.length == 0 && (
+            {timeslotsAreEmpty && (
               <Text variant="note">Füge erst noch Zeitblöcke hinzu!</Text>
             )}
           </Box>
-          <Box space={1} alignItems="start">
-            <InfoBox>
-              <Text color="white">{`Dauer: ${timeSlots.reduce(
-                (prev, current) => {
-                  return prev + parseInt(current.duration)
-                },
-                0
-              )} min`}</Text>
-            </InfoBox>
-            {material.length > 0 && (
-              <InfoBox>
-                <Text color="white">{`Material: ${timeSlots
-                  .map((timeSlot) => timeSlot.materials)
-                  .join(', ')}`}</Text>
-              </InfoBox>
-            )}
+        </Box>
+        <Spacer size={2} />
+        <Box direction={['column', 'row']} wrap="wrap" extend={{ gap: 32 }}>
+          {timeSlots.map(({ title, description }, index) => {
+            return (
+              <Box flex="1" key={index}>
+                <TimeSlotCard
+                  position={index + 1}
+                  title={title}
+                  description={description}
+                  onDelete={(index) =>
+                    setTimeSlots((prev) => prev.filter((_, i) => i != index))
+                  }
+                  onEdit={(data) =>
+                    setTimeSlots((prev) => {
+                      return prev.map((timeSlot, editIndex) => {
+                        return index == editIndex ? data : timeSlot
+                      })
+                    })
+                  }
+                />
+              </Box>
+            )
+          })}
+          <Box>
+            <Button onClick={(_) => setModalVisible(true)}>
+              Zeitblock hinzufügen
+            </Button>
           </Box>
         </Box>
       </Box>
-      <Spacer size={10} />
-      <Box space={4}>
-        <Card>
-          <TimeSlotForm
-            onAdd={(data) =>
-              setTimeSlots((timeSlots) => [
-                ...timeSlots,
-                { ...data, id: timeSlots.length + 1 },
-              ])
-            }
-          />
-        </Card>
-        <ActivityTable
-          data={timeSlots}
-          onDelete={(id) =>
-            setTimeSlots((timeSlots) =>
-              timeSlots.filter((timeSlot) => timeSlot.id !== id)
-            )
-          }
+      {/* TODO: Make this hiding with button */}
+      <Modal
+        title="Zeitblock hinzufügen"
+        visible={modalVisible}
+        zIndex={10}
+        onClose={() => setModalVisible(false)}>
+        <TimeSlotForm
+          onCancel={(_) => setModalVisible(false)}
+          onSave={(data) => {
+            setTimeSlots((timeSlots) => [
+              ...timeSlots,
+              { ...data, id: timeSlots.length + 1 },
+            ])
+            setModalVisible(false)
+          }}
         />
-      </Box>
+      </Modal>
     </Box>
   )
 }

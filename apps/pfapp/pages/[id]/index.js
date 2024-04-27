@@ -23,45 +23,32 @@ import Location from '../../utils/location'
 import GroupType from '../../utils/groupType'
 import Season from '../../utils/season'
 import Size from '../../utils/size'
+import TimeSlotCard from '../../components/TimeSlotCard'
 
 const DataRow = ({ lable, value }) => {
   return (
-    <Box
-      direction="row"
-      justifyContent="space-between"
-      bg="blueLighter"
-      padding={2}>
-      <Box alignSelf="center">
-        <Text variant="note" color="white">
-          {lable}:{' '}
-        </Text>
+    <Box>
+      <Box>
+        <Text variant="note">{lable} </Text>
       </Box>
-      <Text color="white">{value != undefined ? value : '-'}</Text>
+      <Text>{value != undefined ? value : '-'}</Text>
     </Box>
   )
 }
 
-export default function Page({
-  title,
-  description,
-  location,
-  season,
-  groupType,
-  size,
-  preperation,
-  creator,
-  uploadedBy,
-  notes,
-  activity_slots,
-  attachment,
-}) {
-  const activitySlots = activity_slots.data
-  const data = activitySlots.map((activitySlot) => activitySlot.attributes)
-  const materials = data.map((timeSlot) => timeSlot.materials).join(',')
-  const time = data.reduce((prev, current) => {
-    return prev + parseInt(current.duration)
-  }, 0)
-
+export default function Page({ activitySlots, activity, materials }) {
+  console.log(activity, activitySlots, materials)
+  const {
+    attachment,
+    title,
+    description,
+    location,
+    season,
+    groupType,
+    size,
+    preperation,
+    uploadedBy,
+  } = activity
   return (
     <>
       <Header />
@@ -75,12 +62,19 @@ export default function Page({
             <Card>
               <Text>{description}</Text>
             </Card>
-            <Card>
-              <Box space={2}>
-                <Text variant="category">Zeitplan:</Text>
-                <ActivityTable data={data} />
+            <Box space={2}>
+              <Text variant="category">Zeitplan:</Text>
+              <Box
+                direction={['column', 'row']}
+                wrap="wrap"
+                extend={{ gap: 8 }}>
+                {activitySlots.map((slot, index) => (
+                  <Box flex="1" key={index}>
+                    <TimeSlotCard position={index + 1} {...slot} />
+                  </Box>
+                ))}
               </Box>
-            </Card>
+            </Box>
             <Box direction={['column', 'row']} space={2}>
               <Box flex={1}>
                 <Card>
@@ -89,13 +83,11 @@ export default function Page({
                     <Grid columns={['1fr', '1fr 1fr']} gap={2}>
                       <DataRow lable="Größe" value={Size.toText(size)} />
                       <DataRow lable="Ort" value={Location.toText(location)} />
-                      <DataRow lable="Gesamtdauer" value={time} />
                       <DataRow lable="Vorbereitungsdauer" value={preperation} />
                       <DataRow
                         lable="Jahreszeit"
                         value={Season.toText(season)}
                       />
-                      <DataRow lable="Idee" value={creator} />
                       <DataRow lable="Hochgeladen von" value={uploadedBy} />
                     </Grid>
                   </Box>
@@ -103,7 +95,8 @@ export default function Page({
               </Box>
 
               <Box flex={1} space={2}>
-                {materials && (
+                {/* TODO: */}
+                {/* {materials && (
                   <Card>
                     <Box space={2}>
                       <Text variant="category">Materialien:</Text>
@@ -112,7 +105,7 @@ export default function Page({
                       </Box>
                     </Box>
                   </Card>
-                )}
+                )} */}
 
                 {attachment.data != null && (
                   <Card>
@@ -127,16 +120,6 @@ export default function Page({
                         href={`https://docs.bdp-rps.de${attachment.data[0].attributes.url}`}>
                         Anhang öffnen
                       </Button>
-                    </Box>
-                  </Card>
-                )}
-                {notes != '' && (
-                  <Card>
-                    <Box space={2}>
-                      <Text variant="category">Notizen:</Text>
-                      <Box alignItems="start">
-                        <Text>{notes}</Text>
-                      </Box>
                     </Box>
                   </Card>
                 )}
@@ -164,10 +147,31 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const activity = await getActivity(params.id)
-  const data = activity.data.attributes
+  const activityData = await getActivity(params.id)
+  const activity = activityData.data.attributes
+
+  const activitySlots = activity.activity_slots.data.map(
+    ({ id, attributes }) => {
+      return {
+        id: id,
+        title: attributes.title || '',
+        description: attributes.description,
+      }
+    }
+  )
+
+  //TODO: MATERIALIEN!!
+
+  // const materials = activity
+  //   .map((timeSlot) => timeSlot.materials)
+  //   .join(',')
+
+  const props = {
+    activity,
+    activitySlots,
+  }
 
   return {
-    props: data,
+    props,
   }
 }
