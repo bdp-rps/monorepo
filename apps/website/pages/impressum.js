@@ -67,8 +67,6 @@ export default () => {
             <br />
             Philipp Winicker
             <br />
-            Lukas Ebel
-            <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
             befugt.
