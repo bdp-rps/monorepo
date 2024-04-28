@@ -75,19 +75,6 @@
   },
 
   {
-    "part": "Landesbeauftragte Stämme",
-    "name": "Torben Pötter",
-    "contact": "torben@bdp-rps.de",
-    "group": "von Helfenstein"
-  },
-  {
-    "part": "Landesbeauftragte Stämme",
-    "name": "Sandro Mähringer-Kunz",
-    "contact": "sandro@bdp-rps.de",
-    "group": "Raugrafen"
-  },
-
-  {
     "part": "Landesbeauftragte Ausbildung",
     "name": "Annalena Kretschmer (anna)",
     "contact": "anna@bdp-rps.de",
@@ -98,6 +85,19 @@
     "name": "Lilli Heimes",
     "contact": "lilli@bdp-rps.de",
     "group": "Robin Hood"
+  },
+
+  {
+    "part": "Landesbeauftragte Stämme",
+    "name": "Torben Pötter",
+    "contact": "torben@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Stämme",
+    "name": "Sandro Mähringer-Kunz",
+    "contact": "sandro@bdp-rps.de",
+    "group": "Raugrafen"
   },
 
   {
@@ -127,15 +127,22 @@
   },
 
   {
-    "part": "Landesbeauftragter Material",
+    "part": "Landesbeauftragte Material",
     "name": "Philipp Ohler",
     "contact": "philipp.ohler@bdp-rps.de",
     "group": "Bundschuh"
   },
   {
-    "part": "Landesbeauftragter Material",
+    "part": "Landesbeauftragte Material",
     "name": "Lucas Dillmann (ludi)",
     "contact": "ludi@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+
+  {
+    "part": "Landesbeauftragte Intakt",
+    "name": "Luisa Schneider (lulu)",
+    "contact": "lulu@bdp-rps.de",
     "group": "Raugrafen"
   },
 
