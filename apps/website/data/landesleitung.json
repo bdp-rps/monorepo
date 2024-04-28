@@ -1,0 +1,185 @@
+[
+  {
+    "part": "Vorstand",
+    "name": "Robin Weser",
+    "position": "Landesvorsitzender",
+    "contact": "robin@bdp-rps.de",
+    "group": "Luchs"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Marisa Keul",
+    "position": "Landesvorsitzende",
+    "contact": "marisa@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Leona Hinterwälder",
+    "position": "Stellv. Landesvorsitzende",
+    "contact": "leona@bdp-rps.de",
+    "group": "Pilgrim Falkoni"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Philipp Winicker",
+    "position": "Stellv. Landesvorsitzender",
+    "contact": "philipp@bdp-rps.de",
+    "group": "Goten"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Carina Bochynek (cätch)",
+    "position": "Landeschatzmeisterin",
+    "contact": "caetch@bdp-rps.de",
+    "group": "Luchs"
+  },
+
+  {
+    "part": "Landesbeauftragte Wölflinge",
+    "name": "Julius Schneider",
+    "contact": "julius@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+  {
+    "part": "Landesbeauftragte Wölflinge",
+    "name": "Johanna Polz",
+    "contact": "johanna@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+
+  {
+    "part": "Landesbeauftragte Pfadfinder",
+    "name": "Medea Courbier (medi)",
+    "contact": "medi@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Pfadfinder",
+    "name": "Marie Fesser",
+    "contact": "marie@bdp-rps.de",
+    "group": "Robin Hood"
+  },
+
+  {
+    "part": "Landesbeauftragte R*R",
+    "name": "Amina Courbier",
+    "contact": "amina@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte R*R",
+    "name": "Xenia Wolf",
+    "contact": "xenia@bdp-rps.de",
+    "group": "Franz von Sickingen"
+  },
+
+  {
+    "part": "Landesbeauftragte Stämme",
+    "name": "Torben Pötter",
+    "contact": "torben@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Stämme",
+    "name": "Sandro Mähringer-Kunz",
+    "contact": "sandro@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+
+  {
+    "part": "Landesbeauftragte Ausbildung",
+    "name": "Annalena Kretschmer (anna)",
+    "contact": "anna@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Ausbildung",
+    "name": "Lilli Heimes",
+    "contact": "lilli@bdp-rps.de",
+    "group": "Robin Hood"
+  },
+
+  {
+    "part": "Landesbeauftragte Medien",
+    "name": "Gina Marie Hoffmann",
+    "contact": "gina@bdp-rps.de",
+    "group": "Tscherkessen"
+  },
+  {
+    "part": "Landesbeauftragte Medien",
+    "name": "Sophia Plato",
+    "contact": "sophia@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+
+  {
+    "part": "Landesbeauftragte Mitglieder",
+    "name": "Maren Raskob",
+    "contact": "maren@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Landesbeauftragte Mitglieder",
+    "name": "Phil Nachtigall",
+    "contact": "phil@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+
+  {
+    "part": "Landesbeauftragter Material",
+    "name": "Philipp Ohler",
+    "contact": "philipp.ohler@bdp-rps.de",
+    "group": "Bundschuh"
+  },
+  {
+    "part": "Landesbeauftragter Material",
+    "name": "Lucas Dillmann (ludi)",
+    "contact": "ludi@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+
+  {
+    "part": "Landesjugendring Rheinland-Pfalz",
+    "name": "Peter Krietemeyer (charly)",
+    "contact": "charly@bdp-rps.de",
+    "group": "Goten"
+  },
+  {
+    "part": "Landesjugendring Rheinland-Pfalz",
+    "name": "Johanna Bonert",
+    "contact": "johanna.bonert@bdp-rps.de",
+    "group": "Bundschuh"
+  },
+  {
+    "part": "Landesjugendring Rheinland-Pfalz",
+    "name": "Hannah Wagner",
+    "contact": "hannah@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+
+  {
+    "part": "Landesjugendring Saarland",
+    "name": "Jan Zill",
+    "contact": "jan@bdp-rps.de",
+    "group": "Tscherkessen"
+  },
+
+  {
+    "part": "AK Ehemalige",
+    "name": "Gabi Zimmer (rapunzel)",
+    "contact": "rapunzel@bdp-rps.de"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Martina Schleich (tina)"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Sabine Gall"
+  },
+  {
+    "part": "AK Ehemalige",
+    "name": "Frank Bernhard (fränki)"
+  }
+]
