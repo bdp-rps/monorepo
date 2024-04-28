@@ -1,7 +1,13 @@
 [
   {
     "part": "Intaktteam",
-    "name": "Annalena Kretschmer (Anna)",
+    "name": "Luisa Schneider (lulu)",
+    "contact": "lulu@bdp-rps.de",
+    "group": "Raugrafen"
+  },
+  {
+    "part": "Intaktteam",
+    "name": "Annalena Kretschmer (anna)",
     "contact": "anna@bdp-rps.de",
     "group": "von Helfenstein"
   },
@@ -13,22 +19,20 @@
   },
   {
     "part": "Intaktteam",
-    "name": "Luisa Schneider",
-    "group": "Raugrafen"
-  },
-  {
-    "part": "Intaktteam",
     "name": "Trevell Raiser",
+    "contact": "trevell@bdp-rps.de",
     "group": "Goten"
   },
   {
     "part": "Intaktteam",
     "name": "Marius Müller",
+    "contact": "marius@bdp-rps.de",
     "group": "Franz von Sickingen"
   },
   {
     "part": "Intaktteam",
     "name": "Xenia Wolf",
+    "contact": "xenia@bdp-rps.de",
     "group": "Franz von Sickingen"
   },
   {
@@ -47,6 +51,12 @@
     "part": "Intaktteam",
     "name": "Victoria Ehl",
     "contact": "victoria@bdp-rps.de",
+    "group": "Falke"
+  },
+  {
+    "part": "Intaktteam",
+    "name": "Melina Spurzem",
+    "contact": "melina@bdp-rps.de",
     "group": "Falke"
   }
 ]

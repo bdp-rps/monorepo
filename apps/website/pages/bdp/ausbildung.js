@@ -4,7 +4,11 @@ import Template from '../../components/Template'
 import { Ausbildung } from '@bdp-rps/shared'
 export default () => (
   <Template>
-    <Layout paddingTop={10} paddingBottom={15}>
+    <Layout
+      paddingTop={10}
+      paddingBottom={15}
+      grow={1}
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Ausbildung />
     </Layout>
   </Template>
