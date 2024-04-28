@@ -36,7 +36,7 @@ export default function page({ events, posts }) {
             Der Bund der Pfadfinderinnen und Pfadfinder ist der größte
             interkonfessionelle Pfadfinderbund in Deutschland.
             <br />
-            In Rheinland-Pfalz und im Saarland sind wir mit 20 Gruppen präsent.
+            In Rheinland-Pfalz und im Saarland sind wir mit 22 Gruppen präsent.
           </Text>
         </Box>
       </Layout>

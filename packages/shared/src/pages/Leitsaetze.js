@@ -1,22 +1,21 @@
 import * as React from 'react'
 
-import { Box, Tile, Text } from '@bdp-rps/ui'
+import { Box, Grid, Tile, Text } from '@bdp-rps/ui'
 
 export default () => (
-  <React.Fragment>
-    <Box>
-      <Text>
-        Wie sich Seeleute an den Sternen orientierten, so braucht auch eine
-        Gemeinschaft feste Richtwerte, die von dauerhafter Gültigkeit sind. Wir,
-        die Stämme im Landesverband Rheinland-Pfalz / Saar im Bund der
-        Pfadfinderinnen und Pfadfinder, haben uns die folgenden Leitsätze
-        gegeben, um die Freundschaft und Verbundenheit zwischen unseren Stämme
-        zu fördern. Sie halten fest, was das Wesen unseres Landesverbandes
-        ausmacht. Sie sind Ziel und Anspruch zugleich.
-      </Text>
-    </Box>
+  <Box space={4}>
+    <Text>
+      Wie sich Seeleute an den Sternen orientierten, so braucht auch eine
+      Gemeinschaft feste Richtwerte, die von dauerhafter Gültigkeit sind. Wir,
+      die Stämme im Landesverband Rheinland-Pfalz / Saar im Bund der
+      Pfadfinderinnen und Pfadfinder, haben uns die folgenden Leitsätze gegeben,
+      um die Freundschaft und Verbundenheit zwischen unseren Stämme zu fördern.
+      Sie halten fest, was das Wesen unseres Landesverbandes ausmacht. Sie sind
+      Ziel und Anspruch zugleich.
+    </Text>
+
     <Text variant="subtitle">Wir wollen...</Text>
-    <Box paddingTop={2} direction={'column'} space={4}>
+    <Grid gap={4} columns={['1fr', , '1fr 1fr']}>
       <Tile
         title="1. einen Beitrag zur Persönlichkeitsbildung junger Menschen leisten"
         image="/images/bula_2.jpg"
@@ -315,6 +314,6 @@ export default () => (
         Wo immer möglich, beteiligen sich alle Stämme an der Vorbereitung von
         Landesaktionen und Ausbildungskursen.
       </Tile>
-    </Box>
-  </React.Fragment>
+    </Grid>
+  </Box>
 )

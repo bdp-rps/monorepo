@@ -45,13 +45,13 @@ export default () => {
             <b>Landesverband Rheinland-Pfalz/Saar</b>
             <br />
             <br />
-            <b>Stefan Schmidt</b>
+            <b>Robin Weser</b>
             <br />
-            Obere Zahlbacher Straße 14
+            Rintheimer Hauptstraße 25
             <br />
-            55131 Mainz
+            76131 Karlsruhe
             <br />
-            <Link href="mailto:mefan@bdp-rps.de">mefan@bdp-rps.de</Link>
+            <Link href="mailto:robin@bdp-rps.de">robin@bdp-rps.de</Link>
             <br />
             <br />
             Jugendverband
@@ -59,19 +59,15 @@ export default () => {
           <Text>
             <b>Gesetzliche Vertreter:</b>
             <br />
-            Stefan Schmidt
+            Robin Weser
             <br />
             Marisa Keul
             <br />
-            Anne Wendel
+            Leona Hinterwälder
             <br />
-            Robin Weser
+            Philipp Winicker
             <br />
             Lukas Ebel
-            <br />
-            Michelle Büttner
-            <br />
-            Victoria Schilde
             <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
@@ -79,18 +75,19 @@ export default () => {
             <br />
             <br />
             Der BdP Rheinland-Pfalz/Saar ist ein nichtrechtsfähiger Verein mit
-            Sitz in Mainz. Er ist eine selbständige Untergliederung des Bundes
-            der Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in
-            Immenhausen.
+            Sitz in Karlsruhe.
+            <br />
+            Er ist eine selbständige Untergliederung des Bundes der
+            Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in Immenhausen.
           </Text>
           <Text>
             <b>
               Verantwortlicher Redakteur für die Inhalte dieser Internetseite:
             </b>
             <br />
-            Timon Flick
+            Robin Weser
             <br />
-            <Link href="mailto:timon@bdp-rps.de">timon@bdp-rps.de</Link>
+            <Link href="mailto:robin@bdp-rps.de">robin@bdp-rps.de</Link>
             <br />
           </Text>
           <Text>

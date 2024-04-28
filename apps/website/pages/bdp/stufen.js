@@ -7,7 +7,11 @@ import Template from '../../components/Template'
 
 export default () => (
   <Template>
-    <Layout paddingTop={6} paddingBottom={6}>
+    <Layout
+      paddingTop={10}
+      paddingBottom={15}
+      grow={1}
+      extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
       <Stufen />
     </Layout>
   </Template>

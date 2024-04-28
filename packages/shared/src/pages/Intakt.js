@@ -5,7 +5,7 @@ import { Box, Text, Spacer, Link, Tile } from '@bdp-rps/ui'
 import intakt from '../data/intakt.json'
 
 export default () => (
-  <React.Fragment>
+  <Box space={2}>
     <Text variant="subtitle">INTAKTOPUS</Text>
     <Box space={2}>
       <Text variant="category">Das Intakt Team</Text>
@@ -18,10 +18,10 @@ export default () => (
         zu verstärken und auf Kursen wie auch in euren Stämmen präsenter zu
         machen. Auch wollen wir dafür sorgen dass ihr immer wisst wen ihr bei
         Problemen ansprechen könnt. Ihr erreicht uns unter{' '}
-        <Link href={'mailto:intakt@bdp-rps.de'}>intakt[at]bdp-rps.de</Link>.
+        <Link href={'mailto:intakt@bdp-rps.de'}>intakt@bdp-rps.de</Link>.
       </Text>
     </Box>
-    <Spacer size={6} />
+    <Spacer size={2} />
     <Box space={8}>
       <Box direction="row" wrap="wrap" space={4}>
         {intakt.map(({ name, group, contact, position }) => (
@@ -50,5 +50,5 @@ export default () => (
         ))}
       </Box>
     </Box>
-  </React.Fragment>
+  </Box>
 )

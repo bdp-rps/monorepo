@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-import { Box, Text, Tile } from '@bdp-rps/ui'
+import { Box, Grid, Text, Tile } from '@bdp-rps/ui'
 
 export default () => (
-  <React.Fragment>
+  <Box space={6}>
     <Box>
       <Text>
         <Text variant="category">Die Stufen Gruppeneinteilung im BdP</Text>
@@ -14,7 +14,7 @@ export default () => (
         <br />
       </Text>
     </Box>
-    <Box paddingTop={2} direction={'column'} space={4}>
+    <Grid gap={4} columns={['1fr', , '1fr 1fr']}>
       <Tile
         title="Wölflinge (6 - 10 Jahre)"
         image="/images/wasserbomben.jpg"
@@ -84,6 +84,6 @@ export default () => (
         <br />
         angegliedert sind.
       </Tile>
-    </Box>
-  </React.Fragment>
+    </Grid>
+  </Box>
 )

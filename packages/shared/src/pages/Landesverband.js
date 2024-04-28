@@ -6,9 +6,9 @@ export default () => (
     <Text variant="subtitle">Der Landesverband</Text>
     <Spacer size={2} />
     <Text>
-      Unser Landesverband besteht aus derzeit rund 20 Stämmen und Aufbaugruppen
-      in Rheinland-Pfalz und dem Saarland. In diesen örtlichen Gruppen findet
-      der größte Teil unserer Pfadfinderarbeit statt. Hier trifft man sich zu
+      Unser Landesverband besteht derzeit aus 22 Stämmen und Aufbaugruppen in
+      Rheinland-Pfalz und dem Saarland. In diesen örtlichen Gruppen findet der
+      größte Teil unserer Pfadfinderarbeit statt. Hier trifft man sich zu
       regelmäßigen Gruppenstunden oder bricht zu gemeinsamen Fahrten und
       Abenteuern auf.
       <br />
