@@ -4,7 +4,7 @@
   "title": "Der Tramper",
   "words": [
     {
-      "name": "Juri Shevtschuk",
+      "name": "Juri Schewtschuk",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -13,7 +13,7 @@
   ],
   "tune": [
     {
-      "name": "Juri Shevtschuk",
+      "name": "Juri Schewtschuk",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -50,6 +50,13 @@
     },
     {
       "date": 1713021014512,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1714315260333,
       "name": "ko",
       "mail": "",
       "type": "update",

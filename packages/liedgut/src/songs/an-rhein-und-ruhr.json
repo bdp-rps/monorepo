@@ -1,0 +1,46 @@
+{
+  "notation": "",
+  "content": "An {e}Rhein und {C}Ruhr marsch{G}ieren{D} wir, für {e}unsere F{C}reiheit kä{G}mpfen{D} wir,\nden S{e}treifendie{C}nst, schlagt i{G}hn ent{D}zwei, Ede{e}lweiß mars{C}chiert, Achtung die S{G}traße{D} frei\n\nMeister gib uns die Papiere, Meister gib uns unser Geld,\ndenn die Freiheit ist uns lieber, als die Schufterei auf dieser Welt.\n\nUnser Edelweißpiratenlager liegt in Österreich auf einem Berg\nsollte es nur einer wagen, zu uns zu kommen auf den Berg.\nWir werden sie herunterschlagen ob Gestapo oder Streifendienst,\ndenn unsere Edelweißpiraten kennen keine feige List.\n\nHöre, was wir Dir jetzt sagen, unsere Heimat ist nicht mehr frei,\nschwingt die Keule wie in alten Zeiten, schlagt HJ., SA. entzwei.\n\nAn Rhein und Ruhr marschieren wir, für Räte-Deutschland kämpfen wir,\ndie Reaktion, schlagt sie entzwei, Rot-Front marschiert, Achtung Straße frei!",
+  "title": "An Rhein und Ruhr",
+  "words": [
+    {
+      "name": "unbekannt",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "unbekannt",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Em",
+  "info": "Melodie vom Argonnerwaldlied. Text aus der Zeit des Ruhraufstands\nDiese Version ist nochmal leicht abgeändert, statt \"Frauen sind uns lieber\" Freiheit ist uns lieber...\nUnd \"schlagt HJ SA entzwei\" statt schlagt HJ SA den Schädel entzwei",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1714346915765,
+      "name": "Mira",
+      "mail": "mira.kube@bdp.org",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1714734055820,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    }
+  ]
+}
