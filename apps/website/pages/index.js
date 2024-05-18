@@ -28,13 +28,18 @@ export default function page({ events, posts }) {
   const [firstPost, ...otherPosts] = posts
 
   return (
-    <Template>
+    <Template
+      description="Wir sind der Landesverband Rheinland-Pfalz/Saarland im Bund der
+    Pfadfinderinnen und Pfadfinder">
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text variant="category">Willkommen bei den Pfadfindern.</Text>
           <Text>
-            Der Bund der Pfadfinderinnen und Pfadfinder ist der größte
-            interkonfessionelle Pfadfinderbund in Deutschland.
+            Wir sind der Landesverband Rheinland-Pfalz/Saarland im Bund der
+            Pfadfinderinnen und Pfadfinder.
+            <br />
+            Unser Bund ist der größte interkonfessionelle Pfadfinderbund in
+            Deutschland.
             <br />
             In Rheinland-Pfalz und im Saarland sind wir mit 22 Gruppen präsent.
           </Text>
