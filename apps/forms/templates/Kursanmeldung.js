@@ -61,18 +61,15 @@ function Row({ values, isLast }) {
   )
 }
 
-export default function Reisekosten({
+export default function Kursanmeldung({
   name,
-  event,
-  location,
+  pfadiname,
+  landesverband,
   startDate,
   endDate,
-  destination,
-  place,
   date,
   iban,
   note,
-  routes,
 }) {
   const totalPrice = routes.reduce(
     (total, { kilometer, personen }) => total + kilometer * rates[personen],
@@ -96,7 +93,7 @@ export default function Reisekosten({
       </Box>
       <Box alignSelf="center" paddingTop={10} paddingBottom={10}>
         <Text subStyle="emphasis" style={{ fontSize: 18 }}>
-          Reisekostenabrechnung - Auto
+          Kursanmeldung
         </Text>
       </Box>
       <Box
@@ -108,44 +105,10 @@ export default function Reisekosten({
           borderBottomWidth: 1,
         }}>
         <DataDisplay label="Name">{name}</DataDisplay>
-        <DataDisplay label="Veranstaltung">{event}</DataDisplay>
-        <DataDisplay label="Veranstaltungsort">{location}</DataDisplay>
-        <DataDisplay label="Veranstaltungstermin">
-          <DateTime format="dd.MM.yyyy">{startDate}</DateTime> -{' '}
-          <DateTime format="dd.MM.yyyy">{endDate}</DateTime>
-        </DataDisplay>
-        <DataDisplay label="Reiseweg">{destination}</DataDisplay>
-        {note && <DataDisplay label="Kommentar">{note}</DataDisplay>}
-        <DataDisplay label="IBAN">
-          {iban.length > 0 ? iban.replace(/ /g, '') : 'bekannt'}
-        </DataDisplay>
+        <DataDisplay label="Pfadiname">{pfadiname}</DataDisplay>
+        <DataDisplay label="Landesverband">{landesverband}</DataDisplay>
       </Box>
-      <Box paddingTop={5} paddingBottom={5}>
-        <Box paddingBottom={2}>
-          <Text style={{ fontSize: 12 }}>
-            1 = 0,17€ • 2 = 0,18€ • 3 = 0,20€ • 4 = 0,22€ • 5 = 0,25€ • 6+ =
-            0,28€
-          </Text>
-        </Box>
-        <Box>
-          <Row values={['Kilometer', 'Anzahl', 'Betrag']} isLast />
-          {routes.map(({ kilometer, personen }, index) => (
-            <Row
-              values={[
-                kilometer + ' km',
-                personen,
-                toEuro(kilometer * rates[personen]),
-              ]}
-              isLast={index === routes.length - 1}
-            />
-          ))}
-        </Box>
-        <Box alignItems="flex-end" padding={2} paddingRight={2.25}>
-          <Text subStyle="emphasis" style={{ fontSize: 16 }}>
-            {toEuro(totalPrice)}
-          </Text>
-        </Box>
-      </Box>
+      <Box paddingTop={5} paddingBottom={5}></Box>
       <Box
         fixed
         position="absolute"

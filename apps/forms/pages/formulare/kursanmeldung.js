@@ -21,7 +21,10 @@ import { toEuro } from '../../utils/currency'
 import rates from '../../utils/rates'
 
 import Wrapper from '../../templates/Wrapper'
-import Reisekosten from '../../templates/Reisekosten'
+import Kursanmeldung from '../../templates/Kursanmeldung.js'
+import landesverbaende from '../../../../packages/shared/src/data/landesverbaende.json'
+import staemme from '../../../../packages/shared/src/data/staemme.json'
+import calculateAge from '../../utils/calculateAge.js'
 
 function CarForm({ onSubmit }) {
   const kilometer = useBaseField({
@@ -41,15 +44,6 @@ function CarForm({ onSubmit }) {
 
   return (
     <Box space={3}>
-      <TextInput label="Kilometer" {...kilometer.props} />
-      <SelectInput label="Personen" {...count.props}>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6+">6+</option>
-      </SelectInput>
       <Box>
         <Button
           onClick={(e) => {
@@ -89,14 +83,47 @@ export default function Page({ defaultData, defaultGenerated }) {
     name: 'name',
     required: true,
   })
-  const event = useField({
-    name: 'event',
+  const pfadiname = useField({
+    name: 'pfadiname',
+  })
+  const landesverband = useField({
+    name: 'landesverband',
+    required: true,
+  })
+  const stamm = useField({
+    name: 'stamm',
+  })
+  const mail = useField({
+    name: 'mail',
+  })
+  const phone = useField({
+    name: 'phone',
+  })
+  const street = useField({
+    name: 'street',
+    required: true,
+  })
+  const housenumber = useField({
+    name: 'housenumber',
+    required: true,
+  })
+  const zipcode = useField({
+    name: 'zipcode',
     required: true,
   })
   const location = useField({
     name: 'location',
     required: true,
   })
+  const birthday = useField({
+    name: 'birthday',
+    required: true,
+  })
+  const event = useField({
+    name: 'event',
+    required: true,
+  })
+
   const startDate = useField({
     name: 'startDate',
     required: true,
@@ -118,10 +145,18 @@ export default function Page({ defaultData, defaultGenerated }) {
   const place = useField({ name: 'place', required: true })
   const date = useField({ name: 'date', required: true })
 
+  console.log(birthday?.value, 'BD')
+  const lowerEighteen = calculateAge(new Date(1995, 5, 23))
+
   const { submit, reset } = useForm(
     name,
+    pfadiname,
+    landesverband,
+    mail,
+    phone,
     event,
     location,
+    birthday,
     startDate,
     endDate,
     destination,
@@ -146,8 +181,16 @@ export default function Page({ defaultData, defaultGenerated }) {
   useEffect(() => {
     const query = {
       name: name.value,
-      event: event.value,
+      pfadiname: pfadiname.value,
+      landesverband: landesverband.value,
+      mail: mail.value,
+      phone: phone.value,
+      street: street.value,
+      housenumber: housenumber.value,
+      zipcode: zipcode.value,
       location: location.value,
+      birthday: birthday.value,
+      event: event.value,
       startDate: startDate.value,
       endDate: endDate.value,
       destination: destination.value,
@@ -160,7 +203,7 @@ export default function Page({ defaultData, defaultGenerated }) {
 
     router.replace(
       {
-        pathname: '/formulare/reisekosten',
+        pathname: '/formulare/kursanmeldung',
         query: {
           data: btoa(JSON.stringify(query)),
         },
@@ -172,8 +215,16 @@ export default function Page({ defaultData, defaultGenerated }) {
     )
   }, [
     name.value,
-    event.value,
+    pfadiname.value,
+    landesverband.value,
+    mail.value,
+    phone.value,
+    street.value,
+    housenumber.value,
+    zipcode.value,
     location.value,
+    birthday.value,
+    event.value,
     startDate.value,
     endDate.value,
     destination.value,
@@ -191,9 +242,15 @@ export default function Page({ defaultData, defaultGenerated }) {
   if (generated) {
     const data = [
       ['Name', name.value],
-      ['Veranstaltung', event.value],
+      ['Pfadiname', pfadiname.value],
+      ['Landesverband', landesverband.value],
+      ['Email', mail.value],
+      ['Telefon-/Mobilnummer', phone.value],
+      ['Straße', street.value],
+      ['Haus Nr.', housenumber.value],
+      ['PLZ', zipcode.value],
       ['Ort', location.value],
-      ['Reiseweg', destination.value],
+      ['Geburtsdatum', birthday.value],
     ]
 
     const body = [
@@ -214,7 +271,7 @@ export default function Page({ defaultData, defaultGenerated }) {
     return (
       <Template>
         <Layout paddingTop={10} paddingBottom={20} space={8} grow={1}>
-          <Text variant="title">Reisekostenabrechung - Auto</Text>
+          <Text variant="title">Kursanmeldung</Text>
           <Box space={4} alignItems="flex-start">
             <Box>
               <Button
@@ -231,18 +288,12 @@ export default function Page({ defaultData, defaultGenerated }) {
               document={
                 <Wrapper>
                   <Document>
-                    <Reisekosten
+                    <Kursanmeldung
                       name={name.value}
-                      event={event.value}
-                      location={location.value}
-                      startDate={startDate.value}
-                      endDate={endDate.value}
-                      destination={destination.value}
-                      iban={iban.value}
-                      place={place.value}
+                      pfadiname={pfadiname.value}
+                      //event={event.value}
                       date={date.value}
                       note={note.value}
-                      routes={routes}
                     />
                   </Document>
                 </Wrapper>
@@ -278,7 +329,9 @@ export default function Page({ defaultData, defaultGenerated }) {
       </Modal>
       <Template>
         <Layout paddingTop={10} paddingBottom={20} space={8}>
-          <Text variant="title">Kursanmeldung </Text>
+          <Text variant="title">
+            Anmeldung für den Kurs für Ranger*Rover (KfR*R) 2024
+          </Text>
           <Box
             as="form"
             noValidate
@@ -302,25 +355,78 @@ export default function Page({ defaultData, defaultGenerated }) {
                 }
               })
             }}>
+            <Text variant="category">Teilnehmer*in</Text>
             <TextInput
               label="Name"
               placeholder="Vor- und Nachname"
               {...name.props}
             />
             <TextInput
-              label="Veranstaltung"
-              placeholder="z.B. Herbst-SST 2023"
-              {...event.props}
+              label="Pfadiname"
+              placeholder="Pfadiname"
+              {...pfadiname.props}
             />
-            <TextInput label="Veranstaltungsort" {...location.props} />
-            <TextInput label="Start-Datum" type="date" {...startDate.props} />
-            <TextInput label="End-Datum" type="date" {...endDate.props} />
-            <TextInput label="Reiseweg" {...destination.props} />
-            <TextArea
-              label="Kommentar"
-              placeholder="z.B. inkl. Materialtransport, daher so viel"
-              {...note.props}
-            />
+            <SelectInput label="Landesverband" {...landesverband.props}>
+              <option value=""></option>
+              {landesverbaende.map((landesverband, index) => (
+                <option key={index} value={landesverband.name}>
+                  {landesverband.name}
+                </option>
+              ))}
+            </SelectInput>
+            {landesverband.value === 'Landesverband Rheinland-Pfalz & Saar' && (
+              <SelectInput label="Stamm" {...stamm.props}>
+                <option value=""></option>
+                {staemme
+                  .sort((a, b) =>
+                    a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+                  )
+                  .map(({ name }) => (
+                    <option key={name} value={name}>
+                      {name}
+                    </option>
+                  ))}
+              </SelectInput>
+            )}
+            <Box direction={['column', , , 'row']} space={4}>
+              <TextInput
+                label="Name"
+                placeholder="Vor- und Nachname"
+                {...name.props}
+              />
+            </Box>
+            <Box direction={['column', , , 'row']} space={4}>
+              <TextInput label="Telefon-/Mobilnummer" {...phone.props} />
+              <TextInput label="Mailadresse" {...mail.props} />
+            </Box>
+            <Box direction={['column', , , 'row']} space={4}>
+              <TextInput label="Straße" {...street.props} />
+              <TextInput label="Hausnummer" {...housenumber.props} />
+            </Box>
+            <Box direction={['column', , , 'row']} space={4}>
+              <TextInput label="PLZ" {...zipcode.props} />
+              <TextInput label="Ort" {...location.props} />
+            </Box>
+            <TextInput label="Geburtsdatum" type="date" {...birthday.props} />
+
+            {lowerEighteen <= 18 && (
+              <Box space={4}>
+                <Text variant="category">Erziehungsberechtigte*r</Text>
+                <Box direction={['column', , , 'row']} space={4}>
+                  <TextInput label="Telefon-/Mobilnummer" {...phone.props} />
+                  <TextInput label="Mailadresse" {...mail.props} />
+                </Box>
+                <Box direction={['column', , , 'row']} space={4}>
+                  <TextInput label="Straße" {...street.props} />
+                  <TextInput label="Hausnummer" {...housenumber.props} />
+                </Box>
+                <Box direction={['column', , , 'row']} space={4}>
+                  <TextInput label="PLZ" {...zipcode.props} />
+                  <TextInput label="Ort" {...location.props} />
+                </Box>
+              </Box>
+            )}
+
             <span />
             <Box space={1}>
               <Box space={6}>
@@ -366,12 +472,6 @@ export default function Page({ defaultData, defaultGenerated }) {
               )}
             </Box>
             <span />
-
-            <TextInput
-              label="IBAN"
-              description="Falls bereits bekannt, einfach leer lassen!"
-              {...iban.props}
-            />
 
             <Box direction={['column', , 'row']} space={4} alignItems="stretch">
               <TextInput label="Ort" {...place.props} />
