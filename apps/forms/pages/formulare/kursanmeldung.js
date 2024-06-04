@@ -8,7 +8,6 @@ import {
   Text,
   useField as useBaseField,
   useForm,
-  TextArea,
   SelectInput,
   useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
@@ -69,7 +68,7 @@ function CarForm({ onSubmit }) {
 export default function Page({ defaultData, defaultGenerated }) {
   const router = useRouter()
   const [routes, setRoutes] = useState(defaultData.routes || [])
-  const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+  //const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
   const [error, setError] = useState(false)
   const [generated, setGenerated] = useState(defaultGenerated)
 
@@ -81,6 +80,10 @@ export default function Page({ defaultData, defaultGenerated }) {
 
   const name = useField({
     name: 'name',
+    required: true,
+  })
+  const lastname = useField({
+    name: 'lastname',
     required: true,
   })
   const pfadiname = useField({
@@ -139,17 +142,37 @@ export default function Page({ defaultData, defaultGenerated }) {
   const note = useField({
     name: 'note',
   })
-  const iban = useField({
-    name: 'iban',
+  const ezbName = useField({
+    name: 'ezbName',
   })
+  const ezbLastname = useField({
+    name: 'ezbLastname',
+  })
+  const ezbMail = useField({
+    name: 'ezbMail',
+  })
+  const ezbPhone = useField({
+    name: 'ezbPhone',
+  })
+  const ezbStreet = useField({
+    name: 'ezbStreet',
+  })
+  const ezbHousenumber = useField({
+    name: 'ezbHousenumber',
+  })
+  const ezbZipcode = useField({
+    name: 'ezbZipcode',
+  })
+  const ezbLocation = useField({
+    name: 'ezbLocation',
+  })
+
   const place = useField({ name: 'place', required: true })
   const date = useField({ name: 'date', required: true })
 
-  console.log(birthday?.value, 'BD')
-  const lowerEighteen = calculateAge(new Date(1995, 5, 23))
-
   const { submit, reset } = useForm(
     name,
+    lastname,
     pfadiname,
     landesverband,
     mail,
@@ -161,9 +184,16 @@ export default function Page({ defaultData, defaultGenerated }) {
     endDate,
     destination,
     note,
-    iban,
     place,
-    date
+    date,
+    ezbName,
+    ezbLastname,
+    ezbMail,
+    ezbPhone,
+    ezbStreet,
+    ezbHousenumber,
+    ezbZipcode,
+    ezbLocation
   )
 
   const year = new Date(startDate.value).getFullYear()
@@ -181,6 +211,7 @@ export default function Page({ defaultData, defaultGenerated }) {
   useEffect(() => {
     const query = {
       name: name.value,
+      lastname: lastname.value,
       pfadiname: pfadiname.value,
       landesverband: landesverband.value,
       mail: mail.value,
@@ -194,11 +225,18 @@ export default function Page({ defaultData, defaultGenerated }) {
       startDate: startDate.value,
       endDate: endDate.value,
       destination: destination.value,
-      iban: iban.value,
       place: place.value,
       note: note.value,
       date: date.value,
       routes,
+      ezbName: ezbName.value,
+      ezbLastname: ezbLastname.value,
+      ezbMail: ezbMail.value,
+      ezbPhone: ezbPhone.value,
+      ezbStreet: ezbStreet.value,
+      ezbHousenumber: ezbHousenumber.value,
+      ezbZipcode: ezbZipcode.value,
+      ezbLocation: ezbLocation.value,
     }
 
     router.replace(
@@ -215,6 +253,7 @@ export default function Page({ defaultData, defaultGenerated }) {
     )
   }, [
     name.value,
+    lastname.value,
     pfadiname.value,
     landesverband.value,
     mail.value,
@@ -229,10 +268,15 @@ export default function Page({ defaultData, defaultGenerated }) {
     endDate.value,
     destination.value,
     note.value,
-    iban.value,
     place.value,
     date.value,
     routes,
+    ezbMail.value,
+    ezbPhone.value,
+    ezbStreet.value,
+    ezbHousenumber.value,
+    ezbZipcode.value,
+    ezbLocation.value,
   ])
 
   if (!isMounted) {
@@ -251,6 +295,13 @@ export default function Page({ defaultData, defaultGenerated }) {
       ['PLZ', zipcode.value],
       ['Ort', location.value],
       ['Geburtsdatum', birthday.value],
+      ['EzbName', ezbName.value],
+      ['EzbLastname', ezbLastname.value],
+      ['EzbMail', ezbMail.value],
+      ['EzbPhone', ezbPhone.value],
+      ['EzbStraße', ezbStreet.value],
+      ['EzbPLZ', ezbZipcode.value],
+      ['EzbOrt', ezbLocation.value],
     ]
 
     const body = [
@@ -312,21 +363,12 @@ export default function Page({ defaultData, defaultGenerated }) {
     )
   }
 
+  //check age of person
+  const age = birthday.value ? calculateAge(birthday.value) : null
+  const isAdult = age !== null && age >= 18
+
   return (
     <>
-      <Modal
-        title="Strecke hinzufügen"
-        visible={modalVisible}
-        zIndex={10}
-        onClose={() => setModalVisible(false)}>
-        <CarForm
-          onSubmit={(data) => {
-            setError(false)
-            setRoutes([...routes, data])
-            setModalVisible(false)
-          }}
-        />
-      </Modal>
       <Template>
         <Layout paddingTop={10} paddingBottom={20} space={8}>
           <Text variant="title">
@@ -356,10 +398,12 @@ export default function Page({ defaultData, defaultGenerated }) {
               })
             }}>
             <Text variant="category">Teilnehmer*in</Text>
+
+            <TextInput label="Vorname" placeholder="Vorname" {...name.props} />
             <TextInput
-              label="Name"
-              placeholder="Vor- und Nachname"
-              {...name.props}
+              label="Nachname"
+              placeholder="Nachname"
+              {...lastname.props}
             />
             <TextInput
               label="Pfadiname"
@@ -389,13 +433,6 @@ export default function Page({ defaultData, defaultGenerated }) {
               </SelectInput>
             )}
             <Box direction={['column', , , 'row']} space={4}>
-              <TextInput
-                label="Name"
-                placeholder="Vor- und Nachname"
-                {...name.props}
-              />
-            </Box>
-            <Box direction={['column', , , 'row']} space={4}>
               <TextInput label="Telefon-/Mobilnummer" {...phone.props} />
               <TextInput label="Mailadresse" {...mail.props} />
             </Box>
@@ -409,9 +446,23 @@ export default function Page({ defaultData, defaultGenerated }) {
             </Box>
             <TextInput label="Geburtsdatum" type="date" {...birthday.props} />
 
-            {lowerEighteen <= 18 && (
+            {!isAdult && (
               <Box space={4}>
                 <Text variant="category">Erziehungsberechtigte*r</Text>
+                <Box direction={['column', , , 'row']} space={4}>
+                  <TextInput
+                    label="Vorname"
+                    placeholder="Vorname"
+                    {...name.props}
+                  />
+                </Box>
+                <Box direction={['column', , , 'row']} space={4}>
+                  <TextInput
+                    label="Nachname"
+                    placeholder="Nachname"
+                    {...name.props}
+                  />
+                </Box>
                 <Box direction={['column', , , 'row']} space={4}>
                   <TextInput label="Telefon-/Mobilnummer" {...phone.props} />
                   <TextInput label="Mailadresse" {...mail.props} />
@@ -430,11 +481,6 @@ export default function Page({ defaultData, defaultGenerated }) {
             <span />
             <Box space={1}>
               <Box space={6}>
-                <Box alignSelf={['stretch', , 'flex-start']}>
-                  <Button onClick={() => setModalVisible(true)}>
-                    Strecke hinzufügen
-                  </Button>
-                </Box>
                 {routes.length > 0 && (
                   <Box space={2}>
                     {routes.map((route, index) => (
