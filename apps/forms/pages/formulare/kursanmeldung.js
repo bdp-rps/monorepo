@@ -9,7 +9,6 @@ import {
   useField as useBaseField,
   useForm,
   SelectInput,
-  useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
 import { PDFDownloadLink, Document } from '@lorren-js/core'
 
@@ -166,6 +165,39 @@ export default function Page({ defaultData, defaultGenerated }) {
   const ezbLocation = useField({
     name: 'ezbLocation',
   })
+  const foodPreferences = useField({
+    name: 'foodPreferences',
+    value: 'vegan' | 'vegetarisch' | 'pesketarisch' | 'fruktarisch',
+  })
+  const allergies = useField({
+    name: 'allergies',
+  })
+  const drugIncompatibility = useField({
+    name: 'drugIncompatibility',
+  })
+  const neededMedicals = useField({
+    name: 'neededMedicals',
+  })
+  const lastTetanusVaccination = useField({
+    name: 'lastTetanusVaccination',
+  })
+  const healthInsurance = useField({
+    name: 'healthInsurance',
+    required: true,
+  })
+  const insurancePolicyNumber = useField({
+    name: 'insurancePolicyNumber',
+    required: true,
+  })
+  const coInsuredWith = useField({
+    name: 'coInsuredWith',
+    required: insurancePolicyNumber ? false : true,
+  })
+
+  const isBringingInstrument = useField({
+    name: 'isBringingInstrument',
+    value: true | false,
+  })
 
   const place = useField({ name: 'place', required: true })
   const date = useField({ name: 'date', required: true })
@@ -193,7 +225,16 @@ export default function Page({ defaultData, defaultGenerated }) {
     ezbStreet,
     ezbHousenumber,
     ezbZipcode,
-    ezbLocation
+    ezbLocation,
+    foodPreferences,
+    allergies,
+    drugIncompatibility,
+    neededMedicals,
+    lastTetanusVaccination,
+    healthInsurance,
+    insurancePolicyNumber,
+    coInsuredWith,
+    isBringingInstrument
   )
 
   const year = new Date(startDate.value).getFullYear()
@@ -228,7 +269,7 @@ export default function Page({ defaultData, defaultGenerated }) {
       place: place.value,
       note: note.value,
       date: date.value,
-      routes,
+      routes: routes.value,
       ezbName: ezbName.value,
       ezbLastname: ezbLastname.value,
       ezbMail: ezbMail.value,
@@ -237,6 +278,15 @@ export default function Page({ defaultData, defaultGenerated }) {
       ezbHousenumber: ezbHousenumber.value,
       ezbZipcode: ezbZipcode.value,
       ezbLocation: ezbLocation.value,
+      foodPreferences: foodPreferences.value,
+      allergies: allergies.value,
+      drugIncompatibility: drugIncompatibility.value,
+      neededMedicals: neededMedicals.value,
+      lastTetanusVaccination: lastTetanusVaccination.value,
+      healthInsurance: healthInsurance.value,
+      insurancePolicyNumber: insurancePolicyNumber.value,
+      coInsuredWith: coInsuredWith.value,
+      isBringingInstrument: isBringingInstrument.value,
     }
 
     router.replace(
@@ -277,6 +327,15 @@ export default function Page({ defaultData, defaultGenerated }) {
     ezbHousenumber.value,
     ezbZipcode.value,
     ezbLocation.value,
+    foodPreferences.value,
+    allergies.value,
+    drugIncompatibility.value,
+    neededMedicals.value,
+    lastTetanusVaccination.value,
+    healthInsurance.value,
+    insurancePolicyNumber.value,
+    coInsuredWith.value,
+    isBringingInstrument.value,
   ])
 
   if (!isMounted) {
@@ -302,6 +361,15 @@ export default function Page({ defaultData, defaultGenerated }) {
       ['EzbStraße', ezbStreet.value],
       ['EzbPLZ', ezbZipcode.value],
       ['EzbOrt', ezbLocation.value],
+      ['Ernährungsform', foodPreferences.value],
+      ['Allergien', allergies.value],
+      ['Medikamentenunverträglichkeit', drugIncompatibility],
+      ['Benötigte-Medikamenete', neededMedicals],
+      ['Letzte-Tetanus-Impfung', lastTetanusVaccination],
+      ['Krankenversicherung', healthInsurance],
+      ['Krankenversicherungsnummer', insurancePolicyNumber],
+      ['Mitversichert-über', coInsuredWith],
+      ['Instrumentenmitnahme', isBringingInstrument],
     ]
 
     const body = [
@@ -445,7 +513,7 @@ export default function Page({ defaultData, defaultGenerated }) {
               <TextInput label="Ort" {...location.props} />
             </Box>
             <TextInput label="Geburtsdatum" type="date" {...birthday.props} />
-
+            <span />
             {!isAdult && (
               <Box space={4}>
                 <Text variant="category">Erziehungsberechtigte*r</Text>
@@ -477,48 +545,58 @@ export default function Page({ defaultData, defaultGenerated }) {
                 </Box>
               </Box>
             )}
-
             <span />
-            <Box space={1}>
-              <Box space={6}>
-                {routes.length > 0 && (
-                  <Box space={2}>
-                    {routes.map((route, index) => (
-                      <Box
-                        direction="row"
-                        justifyContent="space-between"
-                        space={4}
-                        alignItems="center">
-                        <Box>
-                          <Text>
-                            {route.kilometer}km ({route.personen}P) ={' '}
-                            {toEuro(route.kilometer * rates[route.personen])}
-                          </Text>
-                        </Box>
-                        <Box>
-                          <Button
-                            size="small"
-                            variant="secondary"
-                            intent="negative"
-                            onClick={() =>
-                              setRoutes(routes.filter((_, i) => i !== index))
-                            }>
-                            Löschen
-                          </Button>
-                        </Box>
-                      </Box>
-                    ))}
-                  </Box>
-                )}
+            <Box space={4}>
+              <Text variant="category">Weitere Angaben</Text>
+              <Box direction={['column', , , 'row']} space={4}>
+                <TextInput label="Essgewohnheiten" {...foodPreferences.props} />
+                <TextInput label="Allergien" {...allergies.props} />
               </Box>
-              {error && (
-                <Text variant="note" color="foreground.destructive">
-                  Füge mindestens eine Strecke hinzu.
-                </Text>
-              )}
+              <Box direction={['column', , , 'row']} space={4}>
+                <TextInput
+                  label="Medikamentenunverträglichkeit"
+                  {...drugIncompatibility.props}
+                />
+                <TextInput
+                  label="Benötigte Medikamente"
+                  {...neededMedicals.props}
+                />
+              </Box>
+              <Box direction={['column', , , 'row']} space={4}>
+                <TextInput
+                  label="Medikamentenunverträglichkeit"
+                  {...drugIncompatibility.props}
+                />
+                <TextInput
+                  label="Benötigte Medikamente"
+                  {...neededMedicals.props}
+                />
+              </Box>
+              <Box direction={['column', , , 'row']} space={4}>
+                <TextInput
+                  label="Letzte Tetanusimpfung"
+                  {...lastTetanusVaccination.props}
+                />
+                <TextInput
+                  label="Name der Krankenversicherung"
+                  {...healthInsurance.props}
+                />
+              </Box>
+              <Box direction={['column', , , 'row']} space={4}>
+                <TextInput
+                  label="Krankenversicherungsnummer"
+                  {...insurancePolicyNumber.props}
+                />
+                <TextInput
+                  label="Mitversichert über"
+                  {...coInsuredWith.props}
+                />
+                <TextInput
+                  label="Ich bringe ein Instrument mit"
+                  {...isBringingInstrument.props}
+                />
+              </Box>
             </Box>
-            <span />
-
             <Box direction={['column', , 'row']} space={4} alignItems="stretch">
               <TextInput label="Ort" {...place.props} />
               <TextInput label="Datum" type="date" {...date.props} />
