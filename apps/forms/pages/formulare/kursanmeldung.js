@@ -562,16 +562,7 @@ export default function Page({ defaultData, defaultGenerated }) {
                   {...neededMedicals.props}
                 />
               </Box>
-              <Box direction={['column', , , 'row']} space={4}>
-                <TextInput
-                  label="Medikamentenunverträglichkeit"
-                  {...drugIncompatibility.props}
-                />
-                <TextInput
-                  label="Benötigte Medikamente"
-                  {...neededMedicals.props}
-                />
-              </Box>
+
               <Box direction={['column', , , 'row']} space={4}>
                 <TextInput
                   label="Letzte Tetanusimpfung"
