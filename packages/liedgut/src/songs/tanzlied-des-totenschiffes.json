@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Was gehn euch {e}meine {H7}Lumpen {e}an?\nDa hängen {a}Freud und Tränen {e}dran.\nWas kümmert euch denn {H7}mein Ge{e}sic{H7}ht?{G}\n/: Ich {a}brauche euer {H7}Mitleid {e}nicht. :/\n\nWas kümmert euch, was mir gefällt? Ich liebe mich, nicht euch in dieser Welt.\nIn euren Himmel will ich gar nicht rein, viel lieber in der Hölle sein!\n\nIch brauch gewiss nicht eure Gnaden, und selbst wenn Tote ich geladen,\nwenn Schimpf und Schande wären an mir dran, das geht euch einen Scheißdreck an.\n\nIch pfeife auf das Weltgericht. An Auferstehung glaub ich nicht.\nOb's Götter gibt, das weiß, das weiß ich nicht, und Höllenstrafen fürcht ich nicht.",
+  "content": "Was gehn euch {e}meine {H7}Lumpen {e}an?\nDa hängen {a}Freud und Tränen {e}dran.\nWas kümmert euch denn {H7}mein Ge{e}sic{H7}ht?{G}\n/: Ich {a}brauche euer {H7}Mitleid {e}nicht. :/\n\nWas kümmert euch, was mir gefällt? Ich lebe mich, nicht euch in dieser Welt.\nIn euren Himmel will ich gar nicht rein, viel lieber in der Hölle sein!\n\nIch brauch gewiss nicht eure Gnaden, und selbst wenn Tote ich geladen,\nwenn Schimpf und Schande wären an mir dran, das geht euch einen Scheißdreck an.\n\nIch pfeife auf das Weltgericht. An Auferstehung glaub ich nicht.\nOb's Götter gibt, das weiß, das weiß ich nicht, und Höllenstrafen fürcht ich nicht.",
   "title": "Tanzlied des Totenschiffes",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719071952519,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
