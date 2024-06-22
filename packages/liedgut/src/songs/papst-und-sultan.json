@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Der {G}Papst lebt herrlich in der {D}Welt, es fehlt ihm nie an Ablass{G}geld.\n/: Er trinkt vom aller{D}besten {e}Wein: drum möcht ich {C}auch der {D}Papst wohl {G}sein. :/\n\nDoch nein, er ist ein armer Wicht, ein holdes Mädchen küsst ihn nicht.\n/: Er schläft in seinem Bett allein, drum möchte ich doch der Papst nicht sein. :/\n\nDer Sultan lebt in Saus und Braus, er wohnt in einem Freudenhaus.\n/: Voll wunderschöner Mägdelein, drum möcht ich wohl der Sultan sein. :/\n\nDoch nein, er ist ein armer Mann, denn folgt er seinem Alkoran.\n/: So trinkt er keinen Tropfen Wein: drum möcht ich auch nicht Sultan sein. :/\n\nGeteilt veracht ich beider Glück und kehr in meinen Stand zurück.\n/: Doch das geh' ich mit Freuden ein: halb Sultan und halb Papst zu sein :/\n\nDrum, Mädchen, gib mir einen Kuss, denn jetzt bin ich der Sultanus!\n/: Ihr trauten Brüder, schenket ein, damit ich auch der Papst kann sein! :/",
+  "content": "Der {G}Papst lebt herrlich in der {D}Welt, es fehlt ihm nie an Ablass{G}geld.\n/: Er trinkt vom aller{D}besten {e}Wein, drum möcht ich {C}auch der {D}Papst wohl {G}sein. :/\n\nDoch nein, er ist ein armer Wicht, ein holdes Mädchen küsst ihn nicht.\n/: Er schläft in seinem Bett allein, drum möcht ich doch der Papst nicht sein. :/\n\nDer Sultan lebt in Saus und Braus, er wohnt in einem Freudenhaus.\n/: Voll wunderschöner Mägdelein, drum möcht ich wohl der Sultan sein. :/\n\nDoch nein, er ist ein armer Mann, denn folgt er seinem Alkoran.\n/: So trinkt er keinen Tropfen Wein, drum möcht ich auch nicht Sultan sein. :/\n\nGeteilt veracht ich beider Glück und kehr in meinen Stand zurück.\n/: Doch das geh' ich mit Freuden ein, halb Sultan und halb Papst zu sein :/\n\nDrum, Mädchen, gib mir einen Kuss, denn jetzt bin ich der Sultanus!\n/: Ihr trauten Brüder, schenket ein, damit ich auch der Papst kann sein! :/",
   "title": "Papst und Sultan",
   "words": [
     {
@@ -46,7 +46,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719072077408,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "G"
+  "musicalKey": "G",
+  "specialSettings": {}
 }
