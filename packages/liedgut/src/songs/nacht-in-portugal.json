@@ -1,6 +1,6 @@
 {
   "notation": "\"a\"zABcBA|\"G\"zGABAG|\"F\"zFGAGF|\"E\"EFEFEFE2\nw: Intro",
-  "content": "/: a G F E :/\nWenn die Sonne sich schon {a}senkt, geschieht es ein ums andre {G}Mal,\nwerden Lampen aufg{F}hängt in dem Dorf in Portu{E}gal.\nUnd wie schon in alter Zeit kommt ein Jeder ohne Hatz, \ndie Gitarren sind bereit, schon erfüllt Musik den Platz.\n\nUnd sie beginnen zu tanzen, das Dorf bewegt sich im Ganzen,\nselbst Kinder und Greise auf eigene Weise, sie drehn sich im Kreise.\n\nIn dieser warmen Julinacht zeigen sie ihr Temprament, \nkeine Pause wird gemacht und sie tanzen wie enthemmt.\nSieht ein Fremder dieses Bild, bleibt er nicht sehr lang allein, \nbald tanzt er genauso wild und es wirbeln seine Bein.\n\nUnd so tanzen sie immer, bis der erste Sonnenschimmer\ndie Strahlen aussendet, die Augen schon blendet und den Tanz beendet.",
+  "content": "/: a G F E :/\nWenn die Sonne sich schon {a}senkt, geschieht es ein ums andre {G}Mal,\nwerden Lampen aufge{F}hängt in dem Dorf in Portu{E}gal.\nUnd wie schon in alter Zeit kommt ein Jeder ohne Hatz, \ndie Gitarren sind bereit, schon erfüllt Musik den Platz.\n\nUnd sie beginnen zu tanzen, das Dorf bewegt sich im Ganzen,\nselbst Kinder und Greise auf eigene Weise, sie drehn sich im Kreise.\n\nIn dieser warmen Julinacht zeigen sie ihr Temp'rament, \nkeine Pause wird gemacht und sie tanzen wie enthemmt.\nSieht ein Fremder dieses Bild, bleibt er nicht sehr lang allein, \nbald tanzt er genauso wild und es wirbeln seine Bein.\n\nUnd so tanzen sie immer, bis der erste Sonnenschimmer\ndie Strahlen aussendet, die Augen schon blendet und den Tanz beendet.",
   "title": "Nacht in Portugal",
   "words": [
     {
@@ -48,6 +48,13 @@
     },
     {
       "date": 1713364379029,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1719071394572,
       "name": "ko",
       "mail": "",
       "type": "update",
