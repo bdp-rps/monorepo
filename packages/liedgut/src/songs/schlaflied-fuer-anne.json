@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Schlaf Anne, {d}schlaf nur ein {E}bald kommt die {a}Nacht.\nHat sich aus {G7}Wolken Pantoffeln ge{C}macht.\n/: {d}Kommt von den Bergen, {E7}kommt von ganz {a}weit.\nSchlaf Anne, {E7}schlaf nur ein, 's ist Schlafens{a}zeit. :/\n\nSchlaf Anne, schlaf nur ein, bald kommt der Mond,\nder draußen hinter den Birnbäumen wohnt,\n/: einer davon kitzelt ihn sanft am Kinn.\nLächelt der Mond und zieht leise dahin. :/\n\nSchlaf Anne, schlaf nur ein, bald kommt ein Traum.\nSchlüpft dir zum Ohr hinein, merkst ihn erst kaum.\n/: Fährst auf dem Traumschiff ans Ende der Nacht,\nbis dir der Morgen die Augen aufmacht. :/",
+  "content": "{a}Schlaf Anne, {d}schlaf nur ein, {E}bald kommt die {a}Nacht.\nHat sich aus {G7}Wolken Pantoffeln ge{C}macht.\n/: {d}Kommt von den Bergen, {E7}kommt von ganz {a}weit.\nSchlaf Anne, {E7}schlaf nur ein, 's ist Schlafens{a}zeit. :/\n\nSchlaf Anne, schlaf nur ein, bald kommt der Mond,\nder draußen hinter den Birnbäumen wohnt,\n/: einer davon kitzelt ihn sanft am Kinn.\nLächelt der Mond und zieht leise dahin. :/\n\nSchlaf Anne, schlaf nur ein, bald kommt ein Traum.\nSchlüpft dir zum Ohr hinein, merkst ihn erst kaum.\n/: Fährst auf dem Traumschiff ans Ende der Nacht,\nbis dir der Morgen die Augen aufmacht. :/",
   "title": "Schlaflied für Anne",
   "words": [
     {
@@ -60,7 +60,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719071553613,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {}
 }
