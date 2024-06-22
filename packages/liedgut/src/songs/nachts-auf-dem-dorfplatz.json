@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Nachts auf dem Dorfplatz, {F}vor der {C}Schenke, {G7}schwirren klirren Tam{C}bourine.\nFidel, Cimbal und {F}Flöte {C}klingen, {G7}tanzt und wirbelt Sera{C}fina.\nTiri {a}tom, tom, tom, tiri, tom, tom, tom, {e}schmetternde Schlägel und {F}Trommel{C}ton,\n{F}tom, {C}tom, {G}tom, tom, {C}tom, schmetternde Schlägel und {G7}Trommel{C}ton.\n\nHer mit dem Weinkrug voll zum Rande, trinkt zur Neige durstge Zecher.\nManusch, spielst du die Sarabande, lockt als Lohn ein goldner Becher.\n\nKnöcherne Finger alter Vetteln lesen Zukunft aus den Händen;\nPfeife rauchend und Tabak bettelnd - dürre Beine, feiste Lenden.\n\nSegelt des Mondes stille Barke über Pinien und Platanen.\nMitternacht wird zur Wendemarke, lässt den jungen Tag schon ahnen.\nTiri tom, tom, tom ... leis werden Schlägel und Trommelton.",
+  "content": "{C}Nachts auf dem Dorfplatz, {F}vor der {C}Schenke, {G7}schwirren, klirren Tam{C}bourine.\nFidel, Cimbal und {F}Flöte {C}klingen, {G7}tanzt und wirbelt Sera{C}fina.\nTiri {a}tom, tom, tom, tiri, tom, tom, tom, {e}schmetternde Schlägel und {F}Trommel{C}ton,\n{F}tom, {C}tom, {G}tom, tom, {C}tom, schmetternde Schlägel und {G7}Trommel{C}ton.\n\nHer mit dem Weinkrug voll zum Rande, trinkt zur Neige durstge Zecher.\nManusch, spielst du die Sarabande, lockt als Lohn ein goldner Becher.\n\nKnöcherne Finger alter Vetteln lesen Zukunft aus den Händen;\nPfeife rauchend und Tabak bettelnd - dürre Beine, feiste Lenden.\n\nSegelt des Mondes stille Barke über Pinien und Platanen.\nMitternacht wird zur Wendemarke, lässt den jungen Tag schon ahnen.\nTiri tom, tom, tom ... leis werden Schlägel und Trommelton.",
   "title": "Nachts auf dem Dorfplatz",
   "words": [
     {
@@ -50,6 +50,13 @@
     },
     {
       "date": 1713019847898,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1719071416448,
       "name": "ko",
       "mail": "",
       "type": "update",
