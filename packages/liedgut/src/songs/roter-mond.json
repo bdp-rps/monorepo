@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Roter Mond {D}überm Silbersee, {e}Feuerglut {D}wärmt den kalten Tee. \n/: {G}Kiefernwald {D}in der Nacht und {a}noch ist der neue {e}Tag nicht erwacht. :/\n\nSterne stehn hell am Firmament, solche Nacht findet nie ein End. \n/: Dieses Land wild und schön, und wir dürfen seine Herrlichkeit sehn. :/\n\nRauer Fels, Moos und Heidekraut, weit entfernt schon der Morgen graut. \n/: Fahne weht, weiß und grau, das Gras schimmert unterm Morgentau. :/\n\nFahrt vorbei, morgen geht es fort, kommen wir wieder an den Ort. \nNorden ist unser Glück und in uns bleibt nur die Erinnerung zurück. \nNorden ist unser Glück und wir schwören uns ein neues Zurück.",
+  "content": "{e}Roter Mond {D}überm Silbersee, {e}Feuerglut {D}wärmt den kalten Tee. \n/: {G}Kiefernwald {D}in der Nacht und {a}noch ist der neue {e}Tag nicht erwacht. :/\n\nSterne stehn hell am Firmament, solche Nacht findet nie ein End. \n/: Dieses Land wild und schön und wir dürfen seine Herrlichkeit sehn. :/\n\nRauer Fels, Moos und Heidekraut, weit entfernt schon der Morgen graut. \n/: Fahne weht, weiß und grau, das Gras schimmert unterm Morgentau. :/\n\nFahrt vorbei, morgen geht es fort, kommen wir wieder an den Ort. \nNorden ist unser Glück und in uns bleibt nur die Erinnerung zurück. \nNorden ist unser Glück und wir schwören uns ein neues Zurück.",
   "title": "Roter Mond",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719071469635,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
