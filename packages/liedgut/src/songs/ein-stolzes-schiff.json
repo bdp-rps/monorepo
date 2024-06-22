@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Ein stolzes {C}Schiff zieht {G7}einsam durch die {C}Wellen\nund führt uns {d}unsre {G}deutschen Brüder {C}fort.\nDie Fahne weht, die {G7}weißen Segel {C}schwellen,\nAmeri{d}ka ist {G}ihr Bestimmungs{C}ort.\nSeht auf {a}dem Verdeck sie {F}stehen,\nsich noch {a}einmal umzu{F}sehen,\nins Vater{C}land, ins heimatliche {G}Grün.\n{C}Seht, wie sie übers {F}große {G}Weltmeer {C}ziehn.\n\nSie ziehn dahin auf blauen Meereswogen.\nWarum verlassen sie ihr Heimatland?\nMan hat sie um ihr Leben schwer betrogen,\ndie Armut trieb sie aus dem Vaterland.\nSchauet auf, ihr Unterdrücker,\nschauet auf, ihr Volksbetrüger!\nSeht, eure besten Arbeitskräfte fliehn.\nSeht, wie sie übers große Weltmeer ziehn.\n\nSie ziehn dahin, wer wagt sie noch zu fragen?\nWarum verlassen sie ihr Heimatland?\nOh, armes Deutschland, wie kannst du es ertragen,\ndass deine Brüder werden so verbannt?\nWas sie hofften, hier zu gründen,\nsuchen sie dort drüben zu finden.\nDrum ziehen sie von deutschem Boden ab\nund finden in Amerika ihr Grab.\n\nEin stolzes Schiff ...",
+  "content": "Ein stolzes {C}Schiff streicht {G7}einsam durch die {C}Wellen\nund führt uns {d}unsre {G}deutschen Brüder {C}fort.\nDie Fahne weht, die {G7}weißen Segel {C}schwellen,\nAmeri{d}ka ist {G}ihr Bestimmungs{C}ort.\nSeht auf {a}dem Verdeck sie {F}stehen,\nsich noch {a}einmal umzu{F}sehen,\nins Vater{C}land, ins heimatliche {G}Grün.\n{C}Seht, wie sie übers {F}große {G}Weltmeer {C}ziehn.\n\nSie ziehn dahin auf blauen Meereswogen.\nWarum verlassen sie ihr Heimatland?\nMan hat sie um ihr Leben schwer betrogen,\ndie Armut trieb sie aus dem Vaterland.\nSchauet auf, ihr Unterdrücker,\nschauet auf, ihr Volksbetrüger!\nSeht, eure besten Arbeitskräfte fliehn.\nSeht, wie sie übers große Weltmeer ziehn.\n\nSie ziehn dahin, wer wagt sie noch zu fragen?\nWarum verlassen sie ihr Heimatland?\nOh, armes Deutschland, wie kannst du es ertragen,\ndass deine Brüder werden so verbannt?\nWas sie hofften, hier zu gründen,\nsuchen sie dort drüben zu finden.\nDrum ziehen sie von deutschem Boden ab\nund finden in Amerika ihr Grab.\n\nEin stolzes Schiff ...",
   "title": "Ein stolzes Schiff",
   "words": [
     {
@@ -50,6 +50,13 @@
     },
     {
       "date": 1712853169787,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1719071306828,
       "name": "ko",
       "mail": "",
       "type": "update",
