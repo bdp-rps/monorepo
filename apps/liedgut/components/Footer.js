@@ -22,8 +22,8 @@ export default function Footer() {
           <Box space={2} direction="row">
             <Link href="https://bdp-rps.app">Website</Link>
             <Link href="https://bdp-rps.app/impressum">Impressum</Link>
-            <Link href="https//bdp-rps.app/datenschutz">Datenschutz</Link>
-            <Link href="https//bdp-rps.app/kontakt">Kontakt</Link>
+            <Link href="https://bdp-rps.app/datenschutz">Datenschutz</Link>
+            <Link href="https://bdp-rps.app/kontakt">Kontakt</Link>
           </Box>
 
           <Text>
@@ -37,6 +37,10 @@ export default function Footer() {
             Die auf diesen Seiten vorgestellten Lieder unterliegen teilweise dem
             Copyright und bleiben auch weiterhin das geistige Eigentum der
             ausgewiesenen Urheber.
+            <br />
+            <br />
+            Bugs und Feedback:{' '}
+            <Link href="mailto:robin@bdp-rps.de">robin@bdp-rps.de</Link>
           </Text>
           <a
             href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"
