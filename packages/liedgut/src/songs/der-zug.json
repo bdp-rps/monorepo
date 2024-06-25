@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "4/4",
-  "alternativeTitle": "",
+  "alternativeTitle": "Lied aus dem fahrenden Zug zu singen",
   "tempo": "100",
   "musicalKey": "Em",
   "info": "Kurt Demmler (1943 - 2009) war ein sehr bekannter und erfolgreicher Liedermacher in der DDR. Aufgrund einiger DDR-kritischer Texte wurden zeitweise Auftrittsverbote gegen ihn verhängt. Im Jahr 2002 wurde er wegen sexuellen Missbrauchs von Kindern zu einer Geldstrafe verurteilt. 2008 wurde Kurt Demmler erneut wegen sexuellen Missbrauchs in über 50 Fällen angeklagt und nahm sich vor dem zweiten Verhandlungstag im Gefängnis das Leben.",
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719252709469,
+      "name": "Robin",
+      "mail": "",
+      "type": "update",
+      "content": "Alternativ-Titel"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
