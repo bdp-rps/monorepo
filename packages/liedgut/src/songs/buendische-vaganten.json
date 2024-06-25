@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Hei wie vorn der {H7}Fetzen fliegt, hei {e}wie er sich im {H7}Winde wiegt, {a}ohne {e}Rast und {H7}ohne {e}Ruh.\nSo ziehen wir mit {H7}freiem Sinn, wohl {e}über tausend {H7}Straßen hin, {a}ohne {e}Ende {H7}immer{e}zu.\n\n{C}Bündische Va{G}ganten, {D7}tippeln in die Welt, hei {G}tippeln in die Welt,\n{C}bündische Va{G}ganten, {D7}tippeln in die Welt, he jo {G}ayen. {D}{e}{D}{e}\n\nTreiben wir dem Süden zu, lässt uns der Norden keine Ruh'! Überall zu Haus' sind wir.\nMal rüber nach Amerika, mal runter bis nach Afrika, heia, heia, das sind wir!\n\nHast du noch ein jung' Gesicht, so zage nicht und fackle nicht, frage niemals nach dem Wie. \nWer nur am Rand der Straße klebt, für seinen dummen Bauch nur lebt, misst der Ferne Zauber nie.",
+  "content": "{e}Hei wie vorn der {H7}Fetzen fliegt, hei {e}wie er sich im {H7}Winde wiegt, {a}ohne {e}Rast und {H7}ohne {e}Ruh.\nSo ziehen wir mit {H7}freiem Sinn, wohl {e}über tausend {H7}Straßen hin, {a}ohne {e}Ende {H7}immer{e}zu.\n\n{C}Bündische Va{G}ganten, {D7}tippeln in die Welt, hei {G}tippeln in die Welt,\n{C}bündische Va{G}ganten, {D7}tippeln in die Welt, he jo {G}ayen. {D}{e}{D}{e}\n\nTreiben wir dem Süden zu, lässt uns der Norden keine Ruh! Überall zu Haus sind wir.\nMal rüber nach Amerika, mal runter bis nach Afrika, heia, heia, das sind wir!\n\nHast du noch ein jung Gesicht, so zage nicht und fackle nicht, frage niemals nach dem Wie. \nWer nur am Rand der Straße klebt, für seinen dummen Bauch nur lebt, misst der Ferne Zauber nie.",
   "title": "Bündische Vaganten",
   "words": [
     {
@@ -40,6 +40,29 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719248516152,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Apostrophe und Settings"
     }
-  ]
+  ],
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "line",
+        "blocks": [
+          4
+        ],
+        "lines": [
+          1
+        ],
+        "style": {
+          "letterSpacing": -0.05
+        }
+      }
+    ]
+  }
 }
