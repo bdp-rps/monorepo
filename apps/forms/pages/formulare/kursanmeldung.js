@@ -1,81 +1,34 @@
 import React, { useState, useEffect } from 'react'
-import { useRouter } from 'next/router'
 import {
   Box,
   Button,
   TextInput,
-  Modal,
   Text,
-  useField as useBaseField,
+  useField,
   useForm,
   SelectInput,
 } from '@bdp-rps/ui'
-import { PDFDownloadLink, Document } from '@lorren-js/core'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-import { toEuro } from '../../utils/currency'
-import rates from '../../utils/rates'
-
-import Wrapper from '../../templates/Wrapper'
-import Kursanmeldung from '../../templates/Kursanmeldung.js'
 import landesverbaende from '../../../../packages/shared/src/data/landesverbaende.json'
 import staemme from '../../../../packages/shared/src/data/staemme.json'
 import calculateAge from '../../utils/calculateAge.js'
+import enrollments from '../../api/enrollments.js'
 
-function CarForm({ onSubmit }) {
-  const kilometer = useBaseField({
-    name: 'kilometer',
-    required: true,
-    validation: {
-      'Bitte nur Zahlen eingeben': (value) => value.match(/^\d+$/) !== null,
-    },
-  })
-  const count = useBaseField({
-    name: 'personen',
-    required: true,
-    value: '1',
-  })
-
-  const { submit, reset } = useForm(kilometer, count)
-
-  return (
-    <Box space={3}>
-      <Box>
-        <Button
-          onClick={(e) => {
-            e.preventDefault()
-
-            submit((isValid, data) => {
-              if (isValid) {
-                onSubmit({
-                  ...data,
-                  rate: rates[data.personen],
-                })
-                reset()
-              }
-            })
-          }}>
-          Hinzufügen
-        </Button>
-      </Box>
-    </Box>
-  )
-}
-
-export default function Page({ defaultData, defaultGenerated }) {
-  const router = useRouter()
-  const [routes, setRoutes] = useState(defaultData.routes || [])
-  //const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+export default function Page() {
   const [error, setError] = useState(false)
-  const [generated, setGenerated] = useState(defaultGenerated)
-
+  const [isAdult, setIsAdult] = useState(false)
+  const [grantPermission, setGrantPermission] = useState(false)
+  const [correctness, setCorrectness] = useState(false)
+  const [photoConsent, setPhotoConsent] = useState(false)
+  const [medicalTreatmentConsent, setMedicalTreatmentConsent] = useState(false)
+  const [medicalConsent, setMedicalConsent] = useState(false)
+  const [privateCarConsent, setPrivateCarConsent] = useState(false)
+  const [sendFee, setSendFee] = useState(false)
+  const [refundConsent, setRefundConsent] = useState(false)
   const isMounted = process.browser
-
-  function useField({ name, ...props }) {
-    return useBaseField({ ...props, value: defaultData[name] })
-  }
 
   const name = useField({
     name: 'name',
@@ -85,15 +38,15 @@ export default function Page({ defaultData, defaultGenerated }) {
     name: 'lastname',
     required: true,
   })
-  const pfadiname = useField({
-    name: 'pfadiname',
+  const scoutname = useField({
+    name: 'scoutname',
   })
-  const landesverband = useField({
+  const nationalAssociation = useField({
     name: 'landesverband',
     required: true,
   })
-  const stamm = useField({
-    name: 'stamm',
+  const group = useField({
+    name: 'group',
   })
   const mail = useField({
     name: 'mail',
@@ -119,23 +72,6 @@ export default function Page({ defaultData, defaultGenerated }) {
   })
   const birthday = useField({
     name: 'birthday',
-    required: true,
-  })
-  const event = useField({
-    name: 'event',
-    required: true,
-  })
-
-  const startDate = useField({
-    name: 'startDate',
-    required: true,
-  })
-  const endDate = useField({
-    name: 'endDate',
-    required: true,
-  })
-  const destination = useField({
-    name: 'destination',
     required: true,
   })
   const note = useField({
@@ -205,16 +141,12 @@ export default function Page({ defaultData, defaultGenerated }) {
   const { submit, reset } = useForm(
     name,
     lastname,
-    pfadiname,
-    landesverband,
+    scoutname,
+    nationalAssociation,
     mail,
     phone,
-    event,
     location,
     birthday,
-    startDate,
-    endDate,
-    destination,
     note,
     place,
     date,
@@ -234,207 +166,25 @@ export default function Page({ defaultData, defaultGenerated }) {
     healthInsurance,
     insurancePolicyNumber,
     coInsuredWith,
-    isBringingInstrument
+    isBringingInstrument,
+    grantPermission,
+    correctness,
+    photoConsent,
+    medicalConsent,
+    medicalTreatmentConsent,
+    privateCarConsent,
+    refundConsent,
+    sendFee
   )
-
-  const year = new Date(startDate.value).getFullYear()
-
-  const totalPrice = routes.reduce(
-    (total, { kilometer, personen }) => total + kilometer * rates[personen],
-    0
-  )
-
-  const totalValue = Math.floor(totalPrice * 100) / 100
-
-  const fileName =
-    year + '__' + name.value + '_' + event.value + '_' + totalValue
 
   useEffect(() => {
-    const query = {
-      name: name.value,
-      lastname: lastname.value,
-      pfadiname: pfadiname.value,
-      landesverband: landesverband.value,
-      mail: mail.value,
-      phone: phone.value,
-      street: street.value,
-      housenumber: housenumber.value,
-      zipcode: zipcode.value,
-      location: location.value,
-      birthday: birthday.value,
-      event: event.value,
-      startDate: startDate.value,
-      endDate: endDate.value,
-      destination: destination.value,
-      place: place.value,
-      note: note.value,
-      date: date.value,
-      routes: routes.value,
-      ezbName: ezbName.value,
-      ezbLastname: ezbLastname.value,
-      ezbMail: ezbMail.value,
-      ezbPhone: ezbPhone.value,
-      ezbStreet: ezbStreet.value,
-      ezbHousenumber: ezbHousenumber.value,
-      ezbZipcode: ezbZipcode.value,
-      ezbLocation: ezbLocation.value,
-      foodPreferences: foodPreferences.value,
-      allergies: allergies.value,
-      drugIncompatibility: drugIncompatibility.value,
-      neededMedicals: neededMedicals.value,
-      lastTetanusVaccination: lastTetanusVaccination.value,
-      healthInsurance: healthInsurance.value,
-      insurancePolicyNumber: insurancePolicyNumber.value,
-      coInsuredWith: coInsuredWith.value,
-      isBringingInstrument: isBringingInstrument.value,
+    if (birthday.value) {
+      const age = calculateAge(birthday.value)
+      setIsAdult(age >= 18)
+    } else {
+      setIsAdult(false)
     }
-
-    router.replace(
-      {
-        pathname: '/formulare/kursanmeldung',
-        query: {
-          data: btoa(JSON.stringify(query)),
-        },
-      },
-      undefined,
-      {
-        shallow: true,
-      }
-    )
-  }, [
-    name.value,
-    lastname.value,
-    pfadiname.value,
-    landesverband.value,
-    mail.value,
-    phone.value,
-    street.value,
-    housenumber.value,
-    zipcode.value,
-    location.value,
-    birthday.value,
-    event.value,
-    startDate.value,
-    endDate.value,
-    destination.value,
-    note.value,
-    place.value,
-    date.value,
-    routes,
-    ezbMail.value,
-    ezbPhone.value,
-    ezbStreet.value,
-    ezbHousenumber.value,
-    ezbZipcode.value,
-    ezbLocation.value,
-    foodPreferences.value,
-    allergies.value,
-    drugIncompatibility.value,
-    neededMedicals.value,
-    lastTetanusVaccination.value,
-    healthInsurance.value,
-    insurancePolicyNumber.value,
-    coInsuredWith.value,
-    isBringingInstrument.value,
-  ])
-
-  if (!isMounted) {
-    return null
-  }
-
-  if (generated) {
-    const data = [
-      ['Name', name.value],
-      ['Pfadiname', pfadiname.value],
-      ['Landesverband', landesverband.value],
-      ['Email', mail.value],
-      ['Telefon-/Mobilnummer', phone.value],
-      ['Straße', street.value],
-      ['Haus Nr.', housenumber.value],
-      ['PLZ', zipcode.value],
-      ['Ort', location.value],
-      ['Geburtsdatum', birthday.value],
-      ['EzbName', ezbName.value],
-      ['EzbLastname', ezbLastname.value],
-      ['EzbMail', ezbMail.value],
-      ['EzbPhone', ezbPhone.value],
-      ['EzbStraße', ezbStreet.value],
-      ['EzbPLZ', ezbZipcode.value],
-      ['EzbOrt', ezbLocation.value],
-      ['Ernährungsform', foodPreferences.value],
-      ['Allergien', allergies.value],
-      ['Medikamentenunverträglichkeit', drugIncompatibility],
-      ['Benötigte-Medikamenete', neededMedicals],
-      ['Letzte-Tetanus-Impfung', lastTetanusVaccination],
-      ['Krankenversicherung', healthInsurance],
-      ['Krankenversicherungsnummer', insurancePolicyNumber],
-      ['Mitversichert-über', coInsuredWith],
-      ['Instrumentenmitnahme', isBringingInstrument],
-    ]
-
-    const body = [
-      'Hey Cätch,',
-      '',
-      'Anbei meine Reisekostenabrechnung mit folgenden Daten:',
-      '',
-      ...data.map((pair) => pair.join(': ')),
-      '',
-      encodeURIComponent(
-        'https://forms.bdp-rps.app' + router.asPath + '&download=true'
-      ),
-      '',
-      'Gut Pfad,',
-      name.value,
-    ]
-
-    return (
-      <Template>
-        <Layout paddingTop={10} paddingBottom={20} space={8} grow={1}>
-          <Text variant="title">Kursanmeldung</Text>
-          <Box space={4} alignItems="flex-start">
-            <Box>
-              <Button
-                href={`mailto:kasse@bdp-rps.de?subject=Fahrtkosten ${
-                  event.value
-                } ${year} - ${name.value}&body=${body.join('%0D%0A')}`}>
-                E-Mail erstellen
-              </Button>
-            </Box>
-            <Box
-              as={PDFDownloadLink}
-              grow={1}
-              extend={{ textDecoration: 'none' }}
-              document={
-                <Wrapper>
-                  <Document>
-                    <Kursanmeldung
-                      name={name.value}
-                      pfadiname={pfadiname.value}
-                      //event={event.value}
-                      date={date.value}
-                      note={note.value}
-                    />
-                  </Document>
-                </Wrapper>
-              }
-              fileName={fileName + '.pdf'}>
-              {({ blob, url, loading, error }) => (
-                <Button loading={loading}>Als PDF herunterladen</Button>
-              )}
-            </Box>
-            <Box>
-              <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
-            </Box>
-          </Box>
-        </Layout>
-      </Template>
-    )
-  }
-
-  //check age of person
-  const age = birthday.value ? calculateAge(birthday.value) : null
-  const isAdult = age !== null && age >= 18
-
+  }, [birthday.value])
   return (
     <>
       <Template>
@@ -446,22 +196,16 @@ export default function Page({ defaultData, defaultGenerated }) {
             as="form"
             noValidate
             space={4}
-            onReset={(e) => {
-              e.preventDefault()
-
-              router.push('/formulare/reisekosten')
-            }}
             onSubmit={(e) => {
               e.preventDefault()
-
-              submit((isValid, data) => {
-                if (routes.length === 0) {
-                  setError(true)
-                  return
-                }
-
+              submit(async (isValid, data) => {
                 if (isValid) {
-                  setGenerated(true)
+                  const response = await enrollments({
+                    ...data,
+                  })
+                  if (response?.status === 200) {
+                    reset()
+                  }
                 }
               })
             }}>
@@ -476,19 +220,20 @@ export default function Page({ defaultData, defaultGenerated }) {
             <TextInput
               label="Pfadiname"
               placeholder="Pfadiname"
-              {...pfadiname.props}
+              {...scoutname.props}
             />
-            <SelectInput label="Landesverband" {...landesverband.props}>
-              <option value=""></option>
+            <SelectInput label="Landesverband">
+              <option value="Landesverband Rheinland-Pfalz & Saar"></option>
               {landesverbaende.map((landesverband, index) => (
-                <option key={index} value={landesverband.name}>
+                <option key={index} value={nationalAssociation.name}>
                   {landesverband.name}
                 </option>
               ))}
             </SelectInput>
-            {landesverband.value === 'Landesverband Rheinland-Pfalz & Saar' && (
-              <SelectInput label="Stamm" {...stamm.props}>
-                <option value=""></option>
+            {nationalAssociation.value ===
+              'Landesverband Rheinland-Pfalz & Saar' && (
+              <SelectInput label="Stamm" {...group.props}>
+                <option value="Landesverband Rheinland-Pfalz & Saar"></option>
                 {staemme
                   .sort((a, b) =>
                     a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
@@ -587,9 +332,146 @@ export default function Page({ defaultData, defaultGenerated }) {
                   {...isBringingInstrument.props}
                 />
               </Box>
+              <Box space={6} paddingTop={8}>
+                <Box
+                  as="input"
+                  type="checkbox"
+                  onClick={() => setGrantPermission(true)}
+                />
+                <Text>
+                  <Text variant="category">Einverständniserklärung:</Text>{' '}
+                  Voraussetzung für die Teilnahme ist die Anwesenheit während
+                  der gesamten Maßnahme. Die Kursleitung ist weisungsbefugt; sie
+                  ist für den Kurszeitraum stellvertretend mit der Aufgabe der
+                  Personensorgeberechtigten beauftragt. Zuwiderhandelnde
+                  Teilnehmende können auf eigene Kosten von der Maßnahme
+                  ausgeschlossen werden. Für selbstverschuldete bzw. durch grob
+                  eigenmächtiges Handeln entstandene Schäden sowie in Fällen
+                  höherer Gewalt ebenso wie für verlorene Gegenstände haftet die
+                  Kursleitung nicht. Bei Abmeldung nach dem Anmeldeschluss kann
+                  eine Ausfallentschädigung eingefordert werden. Im
+                  Krankheitsfall wird der/die Teilnehmende in ärztliche
+                  Behandlung gegeben. Die Teilnehmenden werden üblicherweise in
+                  „gemischten“ Zelten bzw. Unterkünften untergebracht. Während
+                  der Maßnahme unternehmen die Teilnehmenden in Gruppen
+                  Wanderungen und Übernachtung ohne Beaufsichtigung durch die
+                  Kursleitung.
+                </Text>
+                <Box direction="row" space={2}>
+                  <Box
+                    as="input"
+                    type="checkbox"
+                    onClick={() => setCorrectness(true)}
+                  />
+                  <Text>
+                    Die Angaben von mir/meines Kindes sind korrekt; die
+                    Regularien wurden von mir zur Kenntnis genommen und ich
+                    stimme ihnen hiermit zu. Ich erteile der o.g. Person die
+                    Teilnahmeerlaubnis zu der angegebenen Maßnahme. Die
+                    Teilnahmebestätigung erfolgt durch die Kursleitung.
+                  </Text>
+                </Box>
+                <Box direction="row" space={2}>
+                  <Box
+                    as="input"
+                    type="checkbox"
+                    onClick={() => setPhotoConsent(true)}
+                  />
+                  <Text>
+                    <Text variant="category">Fotoerlaubnis:</Text> Während des
+                    KfR*R möchten wir gern Foto-/Videoaufnahmen machen und diese
+                    auf unserer Website und Social Meida veröffentlichen. Es
+                    wäre schön, wenn Sie als Erziehungsberechtigte*r diesen
+                    Aufnahmen und der Verbreitung zustimmen würden.
+                  </Text>
+                </Box>
+                <Box direction="row" space={2}>
+                  <Box
+                    as="input"
+                    type="checkbox"
+                    onClick={() => setMedicalConsent(true)}
+                  />
+                  <Text>
+                    <Text variant="category">Medikamentenvollmacht:</Text> Die
+                    Verantwortlichen des KfR*R dürfen bei Notwendigkeit die
+                    mitgebrachten Medikamente bzw. die im Notfall von einem Arzt
+                    verschriebene Medizin verabreichen.
+                  </Text>
+                </Box>
+                <Box direction="row" space={2}>
+                  <Box
+                    as="input"
+                    type="checkbox"
+                    onClick={() => setMedicalTreatmentConsent(true)}
+                  />
+                  <Text>
+                    <Text variant="category">Ärztliche Behandlungen:</Text> Mit
+                    der Durchführung, ggf. erforderlicher ärztlicher
+                    Akutbehandlung des*r Teilnehmers*in während der Tage bin ich
+                    einverstanden, auch wenn eine vorherige Information an mich
+                    nicht, nur mit unvertretbaren Aufwand oder nur mit
+                    eventuellen zusätzlichen Risiken für Teilnehmer*in, z.B.
+                    durch Zeitverlust, möglich ist.
+                  </Text>
+                </Box>
+                <Box direction="row" space={2}>
+                  <Box
+                    as="input"
+                    type="checkbox"
+                    onClick={() => setPrivateCarConsent(true)}
+                  />
+                  <Text>
+                    Teilnehmer*in darf in erforderlichen Situationen im Kleinbus
+                    bzw. privat im Auto mitfahren.
+                  </Text>
+                </Box>
+                <Box>
+                  <Box direction="row" space={2}>
+                    <Box
+                      as="input"
+                      type="checkbox"
+                      onClick={() => setSendFee(true)}
+                    />
+                    <Text>
+                      Den Kursbeitrag von 100€ überweise ich bis zum 31.08.24
+                      auf das Konto des Landesverbands Rheinland-Pfalz/Saar.
+                      (Verwendungszweck: KfR*R + Name Teilnehmer*in)
+                    </Text>
+                  </Box>
+                  <Box
+                    paddingLeft={[2, 0, 0, 0]}
+                    alignSelf="center"
+                    paddingTop={2}>
+                    <Text>
+                      <Text variant="category">Konto:</Text> BdP LV RPS <br />
+                      <Text variant="category">IBAN:</Text> DE18 5405 0220 0108
+                      8104 25
+                      <br /> <Text variant="category">BIC:</Text> MALADE51KLK
+                    </Text>
+                  </Box>
+                  <Box direction="row" space={2} paddingTop={4}>
+                    <Box
+                      as="input"
+                      type="checkbox"
+                      onClick={() => setRefundConsent(true)}
+                    />
+                    <Text>
+                      Ich nehme zur Kenntnis, dass die Rückerstattung des halben
+                      Teilnahmebeitrages nur bei einer Abmeldung bis 24 Stunden
+                      vor Beginn des Kurses eingefordert werden. Überweisungen
+                      und Zuschussregelungen seitens der Stämme können von den
+                      Kursteams aus nicht berücksichtigt werden!
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
             </Box>
             <Box direction={['column', , 'row']} space={4} alignItems="stretch">
-              <TextInput label="Ort" {...place.props} />
+              <TextInput
+                placeholder="12345, Ort"
+                label="Ort"
+                {...place.props}
+              />
               <TextInput label="Datum" type="date" {...date.props} />
             </Box>
             <span />
@@ -598,7 +480,7 @@ export default function Page({ defaultData, defaultGenerated }) {
               direction={['column', , 'row']}
               space={4}
               alignSelf={['stretch', , 'flex-start']}>
-              <Button type="submit">Generieren</Button>
+              <Button type="submit">Absenden</Button>
               <Button type="reset">Zurücksetzen</Button>
             </Box>
           </Box>
@@ -606,13 +488,4 @@ export default function Page({ defaultData, defaultGenerated }) {
       </Template>
     </>
   )
-}
-
-export async function getServerSideProps({ query }) {
-  return {
-    props: {
-      defaultData: query.data ? JSON.parse(atob(query.data)) : {},
-      defaultGenerated: query.download || false,
-    },
-  }
 }
