@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Im K{D}reis ihrer Enkel die alte Frau, z{h}eigt mit erhobener Hand\nauf die W{fis}älder, die dunklen ü{G}ber der Drau:\nJetzt z{h}eige ich euch euer L{A}and, jetzt zeige ich euch euer L{D}and.\nDort d{h}roben hab ich geschuftet am Hang, als i{A}ch ein Kind noch war.\nBei der C{G}hristmette mit G{D}lockenklang hing E{fis}is von Rock und {A}Haar, hing {G}Eis von Rock und {D}Haar.\nDie {D}Bergknappen kamen vom Lindenwirt und {h}flüsterten heimlich mit List,\ndass {fis}sich in der Welt was {G}ändern wird,\nnichts {h}bleiben muss wie es {A}ist; nichts bleiben muss, wie es {D}ist.\n\nVerschw{d}iegene Bäume, verschw{B}orener Wa{d}ld\nund d{F}rei rote Pfiffe, d{a7}rei rote Pfiffe, d{B}rei rote P{g}fiffe im Wa{D}ld.\n\nDie Drau hinunter trieb Mond um Mond, es brach der Faschistenkrieg aus.\nDa hatte ich dann einen Mann an der Front\nund hatte drei Kinder im Haus, und hatte drei Kinder im Haus.\n\nWie tönte da markiger Nazigesang von deutschem Boden und Blut.\nManch ein Bursch in die Berge entsprang. Ich trug Flugblätter unter dem Hut, trug Flugblätter unter dem Hut.\n\nDer Gestapo war kalt und der Gauleiter schalt:\nPartisanen im eigenen Land! Ich trug Geflüster und Brot in den Wald.\nSie haben mich Jelka genannt, sie haben mich Jelka genannt.\n\nVerschwiegene Bäume ...\n\nDer Winter war nass und uns wärmte der Hass, viele sind's, die die Erde heut' birgt.\nWir haben gefochten, dort oben am Pass,\nan unsrer Befreiung gewirkt, an unsrer Befreiung gewirkt.\n\n   Der Krieg war vorbei, da war Stille im Land, da waren die Lautesten leis.\n   Sie nahmen das Hitlerbild von der Wand. Ihre Westen, die wuschen sie weiß, ihre Westen, die wuschen sie weiß.\n\nIhr, meine Enkel, was hört ihr so stumm die alten, die kalten Berichte?\nJetzt trampeln sie auf euren Rechten herum, erinnert euch\nmeiner Geschichte, erinnert euch meiner Geschichte.\n\nVerschwiegene Bäume ... ",
+  "content": "Im {D}Kreis ihrer Enkel die alte Frau, {h}zeigt mit erhobener Hand\nauf die {fis}Wälder, die dunklen {G}über der Drau:\nJetzt {h}zeige ich euch euer {A}Land, jetzt zeige ich euch euer {D}Land.\nDort {h}droben hab ich geschuftet am Hang, als {A}ich ein Kind noch war.\nBei der {G}Christmette mit {D}Glockenklang hing {fis}Eis von Rock und {A}Haar, hing {G}Eis von Rock und {D}Haar.\nDie Bergknappen kamen vom Lindenwirt und {h}flüsterten heimlich mit List,\ndass {fis}sich in der Welt was {G}ändern wird,\nnichts {h}bleiben muss wie es {A}ist; nichts bleiben muss, wie es {D}ist.\n\nVer{d}schwiegene Bäume, ver{B}schworener {d}Wald\nund {F}drei rote Pfiffe, {a7}drei rote Pfiffe, {B}drei rote {g}Pfiffe im {D}Wald.\n\nDie Drau hinunter trieb Mond um Mond, es brach der Faschistenkrieg aus.\nDa hatte ich dann einen Mann an der Front\nund hatte drei Kinder im Haus, und hatte drei Kinder im Haus.\nWie tönte da markiger Nazigesang von deutschem Boden und Blut.\nManch ein Bursch in die Berge entsprang. Ich trug Flugblätter unter dem Hut, trug Flugblätter unter dem Hut.\nDer Gestapo war kalt und der Gauleiter schalt:\nPartisanen im eigenen Land! Ich trug Geflüster und Brot in den Wald.\nSie haben mich Jelka genannt, sie haben mich Jelka genannt.\n\nVerschwiegene Bäume ...\n\nDer Winter war nass und uns wärmte der Hass, viele sind's, die die Erde heut birgt.\nWir haben gefochten, dort oben am Pass,\nan unsrer Befreiung gewirkt, an unsrer Befreiung gewirkt.\nDer Krieg war vorbei, da war Stille im Land, da waren die Lautesten leis.\nSie nahmen das Hitlerbild von der Wand. Ihre Westen, die wuschen sie weiß, ihre Westen, die wuschen sie weiß.\nIhr, meine Enkel, was hört ihr so stumm die alten, die kalten Berichte?\nJetzt trampeln sie auf euren Rechten herum, erinnert euch\nmeiner Geschichte, erinnert euch meiner Geschichte.\n\nVerschwiegene Bäume ... ",
   "title": "Drei Rote Pfiffe",
   "words": [
     {
@@ -53,7 +53,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719388652860,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Akkorde angepasst"
     }
   ],
-  "musicalKey": "D"
+  "musicalKey": "D",
+  "specialSettings": {}
 }
