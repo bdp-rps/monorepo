@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Am {a}alten Hafen ein {d}Lichtlein noch brennt, die ge{E}sunk'nen Gestalten mit {a}Namen man nicht kennt. Raue Kehle letztes {d}Lied noch nicht sang, am {E}Holztisch der letzte {a}Heller noch nicht sprang.\nUnser Ruf eilt uns {d}voraus: der {E}Tod kann warten auf uns {a}Piraten!\n\nDer ranzige Wirt 'ne Pistole erzählt, die geschundene Dirne der Schnaps am Leben hält. \nKein Pfaffe diesen Ort jemals sah, dafür war'n so ziemlich alle andern Gauner da.\n\nDer alte Schipper, der schläft langsam ein, auf der Schulter 'ne Krähe mit nur einem Bein. \nEine Wespe summt ganz müde herum, durch das Wettergetöse hört man ihr Gebrumm.\n\nPlötzlich wird es totenstill im Raum, man hört der Fremden Schritte erst noch kaum. \nEin jeder schenkt sein Glas noch einmal ein, er weiß, es werden seine letzten Schlücke sein. Denn unser Ruf eilt uns voraus: Der Tod muss warten auf uns Piraten!",
+  "content": "Am {a}alten Hafen ein {d}Lichtlein noch brennt,\ndie ge{E}sunk'nen Gestalten mit {a}Namen man nicht kennt.\nRaue Kehle letztes {d}Lied noch nicht sang,\nam {E}Holztisch der letzte {a}Heller noch nicht sprang.\nUnser Ruf eilt uns {d}voraus: der {E}Tod kann warten auf uns {a}Piraten!\n\nDer ranzige Wirt 'ne Pistole erzählt, die geschundene Dirne der Schnaps am Leben hält. \nKein Pfaffe diesen Ort jemals sah, dafür war'n so ziemlich alle andern Gauner da.\n\nDer alte Schipper, der schläft langsam ein, auf der Schulter 'ne Krähe mit nur einem Bein. \nEine Wespe summt ganz müde herum, durch das Wettergetöse hört man ihr Gebrumm.\n\nPlötzlich wird es totenstill im Raum, man hört der Fremden Schritte erst noch kaum. \nEin jeder schenkt sein Glas noch einmal ein, er weiß, es werden seine letzten Schlücke sein.\nDenn unser Ruf eilt uns voraus: Der Tod muss warten auf uns Piraten!",
   "title": "Piratenhafen",
   "words": [
     {
@@ -45,8 +45,31 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719506363213,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Layout"
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "line",
+        "blocks": [
+          4
+        ],
+        "lines": [
+          2
+        ],
+        "style": {
+          "letterSpacing": -0.1
+        }
+      }
+    ]
+  }
 }
