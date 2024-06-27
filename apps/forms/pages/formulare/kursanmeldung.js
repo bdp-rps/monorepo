@@ -333,6 +333,7 @@ export default function Page() {
                 />
               </Box>
               <Box space={6} paddingTop={8}>
+                  <Box direction="row" space={2}>
                 <Box
                   as="input"
                   type="checkbox"
@@ -357,6 +358,7 @@ export default function Page() {
                   Wanderungen und Übernachtung ohne Beaufsichtigung durch die
                   Kursleitung.
                 </Text>
+                    </Box>
                 <Box direction="row" space={2}>
                   <Box
                     as="input"
