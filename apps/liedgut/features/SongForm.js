@@ -242,6 +242,7 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
               <option value="3/4">3/4</option>
               <option value="4/4">4/4</option>
               <option value="5/4">5/4</option>
+              <option value="3/8">3/8</option>
               <option value="6/8">6/8</option>
               <option value="7/8">7/8</option>
             </SelectInput>
