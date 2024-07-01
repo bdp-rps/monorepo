@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Gute {E}Nacht, Kame{H7}raden, be{E}wahrt euch {H7}diesen {E}Tag.\nDie Sterne rücken aus den {H7}Tannen em{E}por ins {H7}blaue {E}Zelt \nund {A}funkeln auf die {E}Welt, {H7}die {E}Dunkel{H7}heit zu {E}bannen.\n\nGute Nacht, Kameraden, bewahrt ein festes Herz\nund Fröhlichkeit in euren Augen, denn fröhlich kommt der Tag ,\ndaher wie Glockenschlag und für ihn sollt ihr taugen.\n\nGute Nacht, Kameraden, bewahrt euch diesen Tag.\nDie Sterne rücken aus den Tannen empor ins blaue Zelt\nund funkeln auf die Welt, die Dunkelheit zu bannen.",
+  "content": "Gute {E}Nacht, Kame{H7}raden, be{E}wahrt euch {H7}diesen {E}Tag.\nDie Sterne rücken aus den {H7}Tannen em{E}por ins {H7}blaue {E}Zelt \nund {A}funkeln auf die {E}Welt, {H7}die {E}Dunkel{H7}heit zu {E}bannen.\n\nGute Nacht, Kameraden, bewahrt ein festes Herz\nund Fröhlichkeit in euren Augen, denn fröhlich kommt der Tag,\ndaher wie Glockenschlag und für ihn sollt ihr taugen.\n\nGute Nacht, Kameraden, bewahrt euch diesen Tag.\nDie Sterne rücken aus den Tannen empor ins blaue Zelt\nund funkeln auf die Welt, die Dunkelheit zu bannen.",
   "title": "Gute Nacht, Kameraden",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719395062185,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Leerzeichen"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
