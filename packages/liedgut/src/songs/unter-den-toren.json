@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Unter den Toren im {G}Schatten der Stadt \nschläft man {F}gut, wenn man sonst keine {E}Schlafstelle hat.\n{a}Keiner der fragt nach wo{G}her und wo{C}hin \nund zu {E}kalt ist die {a}Nacht für Gendarmen.\n\n/: {C}He {G}ho, ein {C}Feuerlein {G}brennt, {a}kalt ist es {E}für Gen{a}darmen. :/\n\nSilberne Löffel und Ketten im Sack, \nlegst du besser beim Schlafen dir unters Genack.\nZeig nichts und sag nichts, die Messer sind stumm \nund zu kalt ist die Nacht für Gendarmen.\n\nGreif nach der Flasche, doch trink nicht zu viel \ndeine Würfel sind gut, aber falsch ist das Spiel.\nSpuck in die Asche und schau lieber zu, \ndenn zu kalt ist die Nacht für Gendarmen.\n\nRückt dir die freundliche Schwester zu nah, \ndas ist gut für die Wärme, mal hier und mal da.\nKeiner im Dunkeln verrät sein Gesicht \nund zu kalt ist die Nacht für Gendarmen.\n\nGeh mit der Nacht eh der Frühnebel steigt \nnur das Feuer bleibt stumm und das Steinpflaster schweigt.\nLass nichts zurück und vergiss was du sahst, \ndenn die Sonne bringt bald die Gendarmen.\n\n/: He, ho, das Feuer ist aus, bald kommen die Gendarmen. :/",
+  "content": "{a}Unter den Toren im {G}Schatten der Stadt \nschläft man {F}gut, wenn man sonst keine {E}Schlafstelle hat.\n{a}Keiner der fragt nach wo{G}her und wo{C}hin \nund zu {E}kalt ist die Nacht für Gen{a}darmen.\n\n/: {C}He {G}ho, ein {C}Feuerlein {G}brennt, {a}kalt ist es {E}für Gen{a}darmen. :/\n\nSilberne Löffel und Ketten im Sack, \nlegst du besser beim Schlafen dir unters Genack.\nZeig nichts und sag nichts, die Messer sind stumm \nund zu kalt ist die Nacht für Gendarmen.\n\nGreif nach der Flasche, doch trink nicht zu viel \ndeine Würfel sind gut, aber falsch ist das Spiel.\nSpuck in die Asche und schau lieber zu, \ndenn zu kalt ist die Nacht für Gendarmen.\n\nRückt dir die freundliche Schwester zu nah, \ndas ist gut für die Wärme, mal hier und mal da.\nKeiner im Dunkeln verrät sein Gesicht \nund zu kalt ist die Nacht für Gendarmen.\n\nGeh mit der Nacht eh der Frühnebel steigt \nnur das Feuer bleibt stumm und das Steinpflaster schweigt.\nLass nichts zurück und vergiss was du sahst, \ndenn die Sonne bringt bald die Gendarmen.\n\n/: He, ho, das Feuer ist aus, bald kommen die Gendarmen. :/",
   "title": "Unter den Toren",
   "words": [
     {
@@ -46,6 +46,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719850254040,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Akkorde"
     }
   ],
   "musicalKey": "Am",
