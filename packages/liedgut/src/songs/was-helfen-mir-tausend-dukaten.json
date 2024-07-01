@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Was {D}helfen mir {A}tausend Du{D}kat{G}en, wenn {D}sie ver{A}soffen {D}sind?\nDer König hat {A}brave Sol{D}dat{G}en, wenn {D}sie mon{A}tieret {D}sind.\n/: Er {A}gibt ihnen schönes {D}Geld, er {A}macht's, wies ihm ge{D}fällt:\ner lässt sie brav {A}lustig marsch{D}ier{G}en, wohl {D}durch die {A}ganze {D}Welt. :/\n\n\nEi, Bauer, das tu ich dir sagen: \"Wenn mein Quartier ist aus,\nwenn die Trompeter blasen, so wecke du mich bald auf\n/: und sattle mir mein Pferd und rüste mir mein Schwert,\nden Mantel, den tu mir drauf binden, dass ich bald fertig werd'!\" :/\n\nDer Tag fing anzubrechen, der Wirt stand in der Tür,\ntat zu den Reitern sprechen: \"Trompeter sind schon hier,\n/: sie blasen alle frisch auf, ihr Herren Soldaten, steht auf!\nDas Pferd ist schon gesattelt der Mantel gebunden darauf.\" :/\n\n\"Ei, Rösslein, das tu ich dir sagen, den Sporen gebe ich dir,\ndu musst mich heute noch tragen vor meiner Herzliebsten Tür,\n/: wohl vor das hohe Haus, da schaut das Mädel heraus\nmit ihren schwarz-braunen Äugelein, zum Fenster, da schaut sie heraus.\" :/",
+  "content": "Was {D}helfen mir {A}tausend Du{D}ka{G}ten, wenn {D}sie ver{A}soffen {D}sind?\nDer König hat {A}brave Sol{D}da{G}ten, wenn {D}sie mon{A}tieret {D}sind.\n/: Er {A}gibt ihnen schönes {D}Geld, er {A}macht's, wies ihm ge{D}fällt:\ner lässt sie brav {A}lustig mar{D}schie{G}ren, wohl {D}durch die {A}ganze {D}Welt. :/\n\n\nEi, Bauer, das tu ich dir sagen: \"Wenn mein Quartier ist aus,\nwenn die Trompeter blasen, so wecke du mich bald auf\n/: und sattle mir mein Pferd und rüste mir mein Schwert,\nden Mantel, den tu mir drauf binden, dass ich bald fertig werd'!\" :/\n\nDer Tag fing anzubrechen, der Wirt stand in der Tür,\ntat zu den Reitern sprechen: \"Trompeter sind schon hier,\n/: sie blasen alle frisch auf, ihr Herren Soldaten, steht auf!\nDas Pferd ist schon gesattelt der Mantel gebunden darauf.\" :/\n\n\"Ei, Rösslein, das tu ich dir sagen, den Sporen gebe ich dir,\ndu musst mich heute noch tragen vor meiner Herzliebsten Tür,\n/: wohl vor das hohe Haus, da schaut das Mädel heraus\nmit ihren schwarz-braunen Äugelein, zum Fenster, da schaut sie heraus.\" :/",
   "title": "Was helfen mir tausend Dukaten?",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719851013140,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Akkorde"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
