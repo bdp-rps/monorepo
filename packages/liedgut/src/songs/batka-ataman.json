@@ -1,6 +1,6 @@
 {
   "notation": "\"e\"EFG2EFG2EFGF1/2E1/2DFE2\n\"G\"GAB2GAB2GABF1/2E1/2DFE\nE1/2E1/2EDEE1/2E1/2EDEE1/2E1/2EDE2\nB|\"e\"EE1/2EEE3/2BB1/2|\"G\"BAG3/2B|\"a\"AA1/2AAA3/2EF|\"e\"G3/2\"D\"F\"e\"E2z4\nw:Wot pul-ja...\nw:No schasch-ko-ju...\n\"e\"B2|\"G\"BBBB1/2BAG3/2B2|\"a\"A2EF|\"e\"G2| \"D\"F\"e\"E2\"\nw:Hej oj da ...\n\"e\"B2|\"G\"BBBB1/2BAG3/2B2|\"a\"A2EF|\"e\"GG|\"D\"AA\"e\"E2FGG\"D\"AA|\"e\"E2|]\nw:Hej oj da ...\n\"Ending\"EFG3/2G3/2A2A2\"e\"B8|\nw:oj da bat-ka a-ta-man!",
-  "content": "Wot {e}pulja prosvistjella, w grud po{G}pala mnje – {a}spassja ja w stipi na li{e}chom {D}kon{e}je.\nNo schaschkoju menja komis{G}sar dostal – {a}pokatschnulsja ja i s kon{e}ja {D}up{e}al.\n{e}Hej, oj da {G}kon' moj waranoj! aeDe\n{a}Hej, da obr{e}jes {D}stal{e}noj!\n{e}Hej, da gus{G}toj tuman!\n{a}Hej, oj da {e}bat'ka {D}ata{e}man, da bat'ka {D}ata{e}man!\n\nNa odnoij nogje ja prischjol s wojni, priwjasal konja, sjel ja u dschenji.\nNo tschassu nje proschlo – komissar prischjol, otwjasal konja i dschenu uwjol\n\nSpassa sso stenji pad rubachu snjal, chatu podpalil, da obrjes dostal.\nPri ssowjetach dschit' – torgowat swoj krest! Mnogo nas takich uchadilo w ljes.\n",
+  "content": "Wot {e}pulja prosvistjella, w grud po{G}pala mnje – {a}spassja ja w stipi na li{e}chom {D}kon{e}je.\nNo schaschkoju menja komis{G}sar dostal – {a}pokatschnulsja ja i s kon{e}ja {D}up{e}al.\n{e}Hej, oj da {G}kon' moj waranoj!\n{a}Hej, da obr{e}jes {D}stal{e}noj!\n{e}Hej, da gus{G}toj tuman!\n{a}Hej, oj da {e}bat'ka {D}ata{e}man, da bat'ka {D}ata{e}man!\n\nNa odnoij nogje ja prischjol s wojni, priwjasal konja, sjel ja u dschenji.\nNo tschassu nje proschlo – komissar prischjol, otwjasal konja i dschenu uwjol\n\nSpassa sso stenji pad rubachu snjal, chatu podpalil, da obrjes dostal.\nPri ssowjetach dschit' – torgowat swoj krest! Mnogo nas takich uchadilo w ljes.\n",
   "title": "Bat'ka Ataman",
   "words": [
     {
@@ -32,7 +32,15 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1719400852359,
+      "name": "Phil",
+      "mail": "nachtigallphil@gmail.com",
+      "type": "update",
+      "content": "Tippfehler. Ein paar überflüssige Akkorde waren neben dem Text."
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {}
 }
