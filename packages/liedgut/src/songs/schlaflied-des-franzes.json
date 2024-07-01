@@ -7,7 +7,7 @@
       "name": "Lukas Ebel",
       "nickname": "",
       "group": "Stamm Franz von Sickingen",
-      "organisation": "LV RPS, BdP",
+      "organisation": "BdP",
       "year": ""
     }
   ],
@@ -16,7 +16,7 @@
       "name": "Lukas Ebel",
       "nickname": "",
       "group": "Stamm Franz von Sickingen",
-      "organisation": "LV RPS, BdP",
+      "organisation": "BdP",
       "year": ""
     }
   ],
@@ -53,6 +53,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719834752559,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Autor"
     }
   ],
   "specialSettings": {}
