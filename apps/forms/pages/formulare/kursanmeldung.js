@@ -7,6 +7,8 @@ import {
   useField,
   useForm,
   SelectInput,
+  Checkbox,
+  useBoolField,
 } from '@bdp-rps/ui'
 
 import Layout from '../../components/Layout'
@@ -19,6 +21,7 @@ import enrollments from '../../api/enrollments.js'
 
 export default function Page() {
   const [error, setError] = useState(false)
+<<<<<<< Updated upstream
   const [isAdult, setIsAdult] = useState(false)
   const [grantPermission, setGrantPermission] = useState(false)
   const [correctness, setCorrectness] = useState(false)
@@ -28,15 +31,23 @@ export default function Page() {
   const [privateCarConsent, setPrivateCarConsent] = useState(false)
   const [sendFee, setSendFee] = useState(false)
   const [refundConsent, setRefundConsent] = useState(false)
+=======
+<<<<<<< Updated upstream
+  const [generated, setGenerated] = useState(defaultGenerated)
+
+>>>>>>> Stashed changes
   const isMounted = process.browser
+=======
+  const [isAdult, setIsAdult] = useState(false)
+>>>>>>> Stashed changes
 
   const name = useField({
     name: 'name',
-    required: true,
+    //  required: true,
   })
   const lastname = useField({
     name: 'lastname',
-    required: true,
+    // required: true,
   })
   const scoutname = useField({
     name: 'scoutname',
@@ -74,9 +85,33 @@ export default function Page() {
     name: 'birthday',
     required: true,
   })
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+  const event = useField({
+    name: 'event',
+    required: true,
+  })
+
+  const startDate = useField({
+    name: 'startDate',
+    required: true,
+  })
+  const endDate = useField({
+    name: 'endDate',
+    required: true,
+  })
+  const destination = useField({
+    name: 'destination',
+    required: true,
+  })
+>>>>>>> Stashed changes
   const note = useField({
     name: 'note',
   })
+=======
+
+>>>>>>> Stashed changes
   const ezbName = useField({
     name: 'ezbName',
   })
@@ -103,7 +138,6 @@ export default function Page() {
   })
   const foodPreferences = useField({
     name: 'foodPreferences',
-    value: 'vegan' | 'vegetarisch' | 'pesketarisch' | 'fruktarisch',
   })
   const allergies = useField({
     name: 'allergies',
@@ -127,16 +161,52 @@ export default function Page() {
   })
   const coInsuredWith = useField({
     name: 'coInsuredWith',
-    required: insurancePolicyNumber ? false : true,
   })
-
   const isBringingInstrument = useField({
     name: 'isBringingInstrument',
-    value: true | false,
+  })
+  const grantPermission = useBoolField({
+    name: 'grantPermission',
+    value: false,
   })
 
-  const place = useField({ name: 'place', required: true })
-  const date = useField({ name: 'date', required: true })
+  const correctness = useBoolField({
+    name: 'correctness',
+    value: false,
+  })
+
+  const photoConsent = useBoolField({
+    name: 'photoConsent',
+    value: false,
+  })
+
+  const medicalConsent = useBoolField({
+    name: 'medicalConsent',
+    value: false,
+  })
+
+  const medicalTreatmentConsent = useBoolField({
+    name: 'medicalTreatmentConsent',
+    value: false,
+  })
+
+  const privateCarConsent = useBoolField({
+    name: 'privateCarConsent',
+    value: false,
+  })
+
+  const sendFee = useBoolField({
+    name: 'sendFee',
+    value: false,
+  })
+
+  const refundConsent = useBoolField({
+    name: 'refundConsent',
+    value: false,
+  })
+
+  const place = useField({ name: 'place' })
+  const date = useField({ name: 'date' })
 
   const { submit, reset } = useForm(
     name,
@@ -147,8 +217,17 @@ export default function Page() {
     phone,
     location,
     birthday,
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+    startDate,
+    endDate,
+    destination,
+>>>>>>> Stashed changes
     note,
     place,
+=======
+>>>>>>> Stashed changes
     date,
     ezbName,
     ezbLastname,
@@ -184,7 +263,161 @@ export default function Page() {
     } else {
       setIsAdult(false)
     }
+<<<<<<< Updated upstream
   }, [birthday.value])
+=======
+<<<<<<< Updated upstream
+
+    router.replace(
+      {
+        pathname: '/formulare/kursanmeldung',
+        query: {
+          data: btoa(JSON.stringify(query)),
+        },
+      },
+      undefined,
+      {
+        shallow: true,
+      }
+    )
+  }, [
+    name.value,
+    lastname.value,
+    pfadiname.value,
+    landesverband.value,
+    mail.value,
+    phone.value,
+    street.value,
+    housenumber.value,
+    zipcode.value,
+    location.value,
+    birthday.value,
+    event.value,
+    startDate.value,
+    endDate.value,
+    destination.value,
+    note.value,
+    place.value,
+    date.value,
+    routes,
+    ezbMail.value,
+    ezbPhone.value,
+    ezbStreet.value,
+    ezbHousenumber.value,
+    ezbZipcode.value,
+    ezbLocation.value,
+    foodPreferences.value,
+    allergies.value,
+    drugIncompatibility.value,
+    neededMedicals.value,
+    lastTetanusVaccination.value,
+    healthInsurance.value,
+    insurancePolicyNumber.value,
+    coInsuredWith.value,
+    isBringingInstrument.value,
+  ])
+
+  if (!isMounted) {
+    return null
+  }
+
+  if (generated) {
+    const data = [
+      ['Name', name.value],
+      ['Pfadiname', pfadiname.value],
+      ['Landesverband', landesverband.value],
+      ['Email', mail.value],
+      ['Telefon-/Mobilnummer', phone.value],
+      ['Straße', street.value],
+      ['Haus Nr.', housenumber.value],
+      ['PLZ', zipcode.value],
+      ['Ort', location.value],
+      ['Geburtsdatum', birthday.value],
+      ['EzbName', ezbName.value],
+      ['EzbLastname', ezbLastname.value],
+      ['EzbMail', ezbMail.value],
+      ['EzbPhone', ezbPhone.value],
+      ['EzbStraße', ezbStreet.value],
+      ['EzbPLZ', ezbZipcode.value],
+      ['EzbOrt', ezbLocation.value],
+      ['Ernährungsform', foodPreferences.value],
+      ['Allergien', allergies.value],
+      ['Medikamentenunverträglichkeit', drugIncompatibility],
+      ['Benötigte-Medikamenete', neededMedicals],
+      ['Letzte-Tetanus-Impfung', lastTetanusVaccination],
+      ['Krankenversicherung', healthInsurance],
+      ['Krankenversicherungsnummer', insurancePolicyNumber],
+      ['Mitversichert-über', coInsuredWith],
+      ['Instrumentenmitnahme', isBringingInstrument],
+    ]
+
+    const body = [
+      'Hey Cätch,',
+      '',
+      'Anbei meine Reisekostenabrechnung mit folgenden Daten:',
+      '',
+      ...data.map((pair) => pair.join(': ')),
+      '',
+      encodeURIComponent(
+        'https://forms.bdp-rps.app' + router.asPath + '&download=true'
+      ),
+      '',
+      'Gut Pfad,',
+      name.value,
+    ]
+
+    return (
+      <Template>
+        <Layout paddingTop={10} paddingBottom={20} space={8} grow={1}>
+          <Text variant="title">Kursanmeldung</Text>
+          <Box space={4} alignItems="flex-start">
+            <Box>
+              <Button
+                href={`mailto:kasse@bdp-rps.de?subject=Fahrtkosten ${
+                  event.value
+                } ${year} - ${name.value}&body=${body.join('%0D%0A')}`}>
+                E-Mail erstellen
+              </Button>
+            </Box>
+            <Box
+              as={PDFDownloadLink}
+              grow={1}
+              extend={{ textDecoration: 'none' }}
+              document={
+                <Wrapper>
+                  <Document>
+                    <Kursanmeldung
+                      name={name.value}
+                      pfadiname={pfadiname.value}
+                      //event={event.value}
+                      date={date.value}
+                      note={note.value}
+                    />
+                  </Document>
+                </Wrapper>
+              }
+              fileName={fileName + '.pdf'}>
+              {({ blob, url, loading, error }) => (
+                <Button loading={loading}>Als PDF herunterladen</Button>
+              )}
+            </Box>
+            <Box>
+              <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
+            </Box>
+          </Box>
+        </Layout>
+      </Template>
+    )
+  }
+
+  //check age of person
+  const age = birthday.value ? calculateAge(birthday.value) : null
+  const isAdult = age !== null && age >= 18
+=======
+  }, [birthday.value])
+>>>>>>> Stashed changes
+
+>>>>>>> Stashed changes
   return (
     <>
       <Template>
@@ -266,27 +499,27 @@ export default function Page() {
                   <TextInput
                     label="Vorname"
                     placeholder="Vorname"
-                    {...name.props}
+                    {...ezbName.props}
                   />
                 </Box>
                 <Box direction={['column', , , 'row']} space={4}>
                   <TextInput
                     label="Nachname"
                     placeholder="Nachname"
-                    {...name.props}
+                    {...ezbLastname.props}
                   />
                 </Box>
                 <Box direction={['column', , , 'row']} space={4}>
                   <TextInput label="Telefon-/Mobilnummer" {...phone.props} />
-                  <TextInput label="Mailadresse" {...mail.props} />
+                  <TextInput label="Mailadresse" {...ezbMail.props} />
                 </Box>
                 <Box direction={['column', , , 'row']} space={4}>
-                  <TextInput label="Straße" {...street.props} />
-                  <TextInput label="Hausnummer" {...housenumber.props} />
+                  <TextInput label="Straße" {...ezbStreet.props} />
+                  <TextInput label="Hausnummer" {...ezbHousenumber.props} />
                 </Box>
                 <Box direction={['column', , , 'row']} space={4}>
-                  <TextInput label="PLZ" {...zipcode.props} />
-                  <TextInput label="Ort" {...location.props} />
+                  <TextInput label="PLZ" {...ezbZipcode.props} />
+                  <TextInput label="Ort" {...ezbLocation.props} />
                 </Box>
               </Box>
             )}
@@ -332,6 +565,7 @@ export default function Page() {
                   {...isBringingInstrument.props}
                 />
               </Box>
+<<<<<<< Updated upstream
               <Box space={6} paddingTop={8}>
                   <Box direction="row" space={2}>
                 <Box
@@ -365,6 +599,35 @@ export default function Page() {
                     type="checkbox"
                     onClick={() => setCorrectness(true)}
                   />
+=======
+<<<<<<< Updated upstream
+=======
+              <Box space={6} paddingTop={8}>
+                <Box direction="row" space={2}>
+                  <Checkbox {...grantPermission.props} />
+                  <Text>
+                    <Text variant="category">Einverständniserklärung:</Text>{' '}
+                    Voraussetzung für die Teilnahme ist die Anwesenheit während
+                    der gesamten Maßnahme. Die Kursleitung ist weisungsbefugt;
+                    sie ist für den Kurszeitraum stellvertretend mit der Aufgabe
+                    der Personensorgeberechtigten beauftragt. Zuwiderhandelnde
+                    Teilnehmende können auf eigene Kosten von der Maßnahme
+                    ausgeschlossen werden. Für selbstverschuldete bzw. durch
+                    grob eigenmächtiges Handeln entstandene Schäden sowie in
+                    Fällen höherer Gewalt ebenso wie für verlorene Gegenstände
+                    haftet die Kursleitung nicht. Bei Abmeldung nach dem
+                    Anmeldeschluss kann eine Ausfallentschädigung eingefordert
+                    werden. Im Krankheitsfall wird der/die Teilnehmende in
+                    ärztliche Behandlung gegeben. Die Teilnehmenden werden
+                    üblicherweise in „gemischten“ Zelten bzw. Unterkünften
+                    untergebracht. Während der Maßnahme unternehmen die
+                    Teilnehmenden in Gruppen Wanderungen und Übernachtung ohne
+                    Beaufsichtigung durch die Kursleitung.
+                  </Text>
+                </Box>
+                <Box direction="row" space={2}>
+                  <Checkbox {...correctness.props} />
+>>>>>>> Stashed changes
                   <Text>
                     Die Angaben von mir/meines Kindes sind korrekt; die
                     Regularien wurden von mir zur Kenntnis genommen und ich
@@ -374,11 +637,15 @@ export default function Page() {
                   </Text>
                 </Box>
                 <Box direction="row" space={2}>
+<<<<<<< Updated upstream
                   <Box
                     as="input"
                     type="checkbox"
                     onClick={() => setPhotoConsent(true)}
                   />
+=======
+                  <Checkbox {...photoConsent.props} />
+>>>>>>> Stashed changes
                   <Text>
                     <Text variant="category">Fotoerlaubnis:</Text> Während des
                     KfR*R möchten wir gern Foto-/Videoaufnahmen machen und diese
@@ -388,11 +655,15 @@ export default function Page() {
                   </Text>
                 </Box>
                 <Box direction="row" space={2}>
+<<<<<<< Updated upstream
                   <Box
                     as="input"
                     type="checkbox"
                     onClick={() => setMedicalConsent(true)}
                   />
+=======
+                  <Checkbox {...medicalConsent.props} />
+>>>>>>> Stashed changes
                   <Text>
                     <Text variant="category">Medikamentenvollmacht:</Text> Die
                     Verantwortlichen des KfR*R dürfen bei Notwendigkeit die
@@ -401,11 +672,15 @@ export default function Page() {
                   </Text>
                 </Box>
                 <Box direction="row" space={2}>
+<<<<<<< Updated upstream
                   <Box
                     as="input"
                     type="checkbox"
                     onClick={() => setMedicalTreatmentConsent(true)}
                   />
+=======
+                  <Checkbox {...medicalTreatmentConsent.props} />
+>>>>>>> Stashed changes
                   <Text>
                     <Text variant="category">Ärztliche Behandlungen:</Text> Mit
                     der Durchführung, ggf. erforderlicher ärztlicher
@@ -417,11 +692,15 @@ export default function Page() {
                   </Text>
                 </Box>
                 <Box direction="row" space={2}>
+<<<<<<< Updated upstream
                   <Box
                     as="input"
                     type="checkbox"
                     onClick={() => setPrivateCarConsent(true)}
                   />
+=======
+                  <Checkbox {...privateCarConsent.props} />
+>>>>>>> Stashed changes
                   <Text>
                     Teilnehmer*in darf in erforderlichen Situationen im Kleinbus
                     bzw. privat im Auto mitfahren.
@@ -429,11 +708,15 @@ export default function Page() {
                 </Box>
                 <Box>
                   <Box direction="row" space={2}>
+<<<<<<< Updated upstream
                     <Box
                       as="input"
                       type="checkbox"
                       onClick={() => setSendFee(true)}
                     />
+=======
+                    <Checkbox {...sendFee.props} />
+>>>>>>> Stashed changes
                     <Text>
                       Den Kursbeitrag von 100€ überweise ich bis zum 31.08.24
                       auf das Konto des Landesverbands Rheinland-Pfalz/Saar.
@@ -452,11 +735,15 @@ export default function Page() {
                     </Text>
                   </Box>
                   <Box direction="row" space={2} paddingTop={4}>
+<<<<<<< Updated upstream
                     <Box
                       as="input"
                       type="checkbox"
                       onClick={() => setRefundConsent(true)}
                     />
+=======
+                    <Checkbox {...refundConsent.props} />
+>>>>>>> Stashed changes
                     <Text>
                       Ich nehme zur Kenntnis, dass die Rückerstattung des halben
                       Teilnahmebeitrages nur bei einer Abmeldung bis 24 Stunden
@@ -467,6 +754,10 @@ export default function Page() {
                   </Box>
                 </Box>
               </Box>
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
             </Box>
             <Box direction={['column', , 'row']} space={4} alignItems="stretch">
               <TextInput

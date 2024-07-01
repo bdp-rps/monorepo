@@ -1,7 +1,7 @@
 const STRAPI_URL = 'https://docs.bdp-rps.de'
 
 export default async function enrollments(req) {
-  return await fetch(STRAPI_URL + '/api/enrollment', {
+  return await fetch(STRAPI_URL + '/api/kursanmeldungs', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
