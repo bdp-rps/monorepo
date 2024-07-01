@@ -13,7 +13,7 @@
   "beat": "3/4",
   "tempo": 100,
   "info": "irisches Volkslied",
-  "content": "In {C}Dublin's fair {a}city where the {d}girls are so {G7}pretty \nI {C}first set my {a}eyes on sweet {d}Molly Ma{G7}lone.\nWhere she {C}wheeled her wheel{a}barrow through {d}streets broad and {G7}narrow,\ncrying: \"{C}Cockles and {a}mussels, a{C}live, a{G7}live {C}oh\"\n\"A{C}live, alive {a}oh, a{d}live, alive {G7}oh\", crying: \"{C}Cockles and {a}mussels, {C}alive, a{G7}live {C}oh\"\n\nShe was a fishmonger and sure 'twas no wonder. For so were her father and mother before.\nAnd they both wheeled their barrows through streets broad and narrow,\ncrying: \"Cockles and mussels, alive, alive oh\"\n\nShe died of a fever and no one could save her and that was the end of sweet Molly Malone.\nBut her ghost wheels her barrow through streets broad and narrow,\ncrying: \"Cockles and mussels, alive, alive oh\"",
+  "content": "In {C}Dublin's fair {a}city where the {d}girls are so {G7}pretty \nI {C}first set my {a}eyes on sweet {d}Molly Ma{G7}lone.\nWhere she {C}wheeled her wheel{a}barrow through {d}streets broad and {G7}narrow,\ncrying: \"{C}Cockles and {a}mussels, a{C}live, a{G7}live {C}oh\"\n\"A{C}live, alive {a}oh, a{d}live, alive {G7}oh\", crying: \"{C}Cockles and {a}mussels, {C}alive, a{G7}live {C}oh\"\n\nShe was a fishmonger and sure 'twas no wonder.\nFor so were her father and mother before.\nAnd they both wheeled their barrows through ...\n\nShe died of a fever and no one could save her\nand that was the end of sweet Molly Malone.\nBut her ghost wheels her barrow through ...",
   "changes": [
     {
       "name": "Robin Weser",
@@ -34,6 +34,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719407847859,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Auslassung"
     }
   ],
   "translation": [],
