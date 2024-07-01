@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Wenn auf {D7}leeren {G}Feldern, {e}die Ul{a}anen {D}reiten.\n/: {G}Mar{C}uschka moja, {G}Mar{C}uschka moja, {G}kommen {D7}schwere {G}Zeiten. :/\n\nHuhn und weißer Ganter, wandern in die Pfanne.\n/: Maruschka moja, Maruschka moja, leer wird Krug und Kanne. :/\n\nVor dem Tor im Schatten, sitzen sie und lachen.\n/: Maruschka moja, Maruschka moja, hüte deine Sachen. :/\n\nPfeife rauchen sie und singen freche Lieder.\n/: Maruschka moja, Maruschka moja, lauf und kehr nie wieder. :/\n\nHaben sie am Ende dich auch noch bestohlen?\n/: Maruschka moja, Maruschka moja, denk es wär für Polen. :/",
+  "content": "{G}Wenn auf {D7}leeren {G}Feldern, {e}die U{a}lanen {D}reiten.\n/: {G}Ma{C}ruschka moja, {G}Ma{C}ruschka moja, {G}kommen {D7}schwere {G}Zeiten. :/\n\nHuhn und weißer Ganter, wandern in die Pfanne.\n/: Maruschka moja, Maruschka moja, leer wird Krug und Kanne. :/\n\nVor dem Tor im Schatten, sitzen sie und lachen.\n/: Maruschka moja, Maruschka moja, hüte deine Sachen. :/\n\nPfeife rauchen sie und singen freche Lieder.\n/: Maruschka moja, Maruschka moja, lauf und kehr nie wieder. :/\n\nHaben sie am Ende dich auch noch bestohlen?\n/: Maruschka moja, Maruschka moja, denk es wär für Polen. :/",
   "title": "Ulanen",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719835226890,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Akkorde"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
