@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Dort an dem {G}Üferchen, {a}entlang dem Fluss Ka{E}sanka, {F}ein grau{G}blauer {C}Ent'rich schwamm.\n{C}Aida {G}ljuli, {a}aida {E}ljuli, {F}ein grau{G}blauer {C}Ent'rich schwamm.\n\nDort an dem Üferchen, entlang dem Fluss Kasanka, ein gar guter Bursche ging.\n\nSieh, da kommt ein Reiter, führt ein ledig Pferd an. Der Bursch behänd hinauf sich schwingt.\n\nBursch, willst du nicht bleiben bei der lieben Mutter und dem greisen Vater dein?\n\nSieh, ich lieb die Mutter und den greisen Vater, doch die bunten Mützen der Kosaken lieb ich mehr.\n\nDort auf der Brücke steht ein Mädchen. Tränen tropfen in den Fluss.\n\nDort an dem Üferchen, entlang dem Fluss Kasanka, reiten zwei junge Kosaken dahin.",
+  "content": "{C}Dort an dem {G}Üferchen, ent{a}lang dem Fluss Ka{E}sanka, {F}ein grau{G}blauer {C}Ent'rich schwamm.\n{C}Aida {G}ljuli, {a}aida {E}ljuli, {F}ein grau{G}blauer {C}Ent'rich schwamm.\n\nDort an dem Üferchen, entlang dem Fluss Kasanka, ein gar guter Bursche ging.\n\nSieh, da kommt ein Reiter, führt ein ledig Pferd an. Der Bursch behänd hinauf sich schwingt.\n\nBursch, willst du nicht bleiben bei der lieben Mutter und dem greisen Vater dein?\n\nSieh, ich lieb die Mutter und den greisen Vater, doch die bunten Mützen der Kosaken lieb ich mehr.\n\nDort auf der Brücke steht ein Mädchen. Tränen tropfen in den Fluss.\n\nDort an dem Üferchen, entlang dem Fluss Kasanka, reiten zwei junge Kosaken dahin.",
   "title": "Dort an dem Üferchen",
   "words": [
     {
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719388267477,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Akkord"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
