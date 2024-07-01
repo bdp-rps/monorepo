@@ -1,11 +1,11 @@
 {
   "notation": "F|\"e\"GE2FGE2G|\"H7\"FG2F\"e\"E2\"D7\"D2|\"G\"GG2G\"D\"Ad2c|\"G\"B6\nw:Wir sind ei-ne ...\n|:B2|\"C\"c2c2c2c2|\"G\"BB2AG2GA|BB2B\"D\"AB2A|\"G\"G6:|\nw:Und je-der ...\nz2|\"e\"B4G3A|B4G4|\"a\"c4A2c2|\"e\"B2A2G2GG|\"H7\"A4F2A2|\"e\"G2F2E2EE|\"H7\"F4B,2GF|\"e\"E6|\nw: Zwi-schen-spiel",
-  "content": "Wir {e}sind eine kleine ver{H7}lorene {e}Schar, {D7}wir {G}stehen für {D}uns auf der {G}Welt\n/: und {C}jeder Kerl der {G}mit uns war, hat für immer sich {D}zu uns ge{G}sellt. :/\n\n{e} {a} {e} {H7} {e} {H7} {e} {H7} {e} {H7} {e}\n\nWir leben in Lumpen, wir lieben die Nacht, unsre Zeit heißt immer das Jetzt. \n/: Wir haben die Spießer ängstlich gemacht, und wir lachen, wenn man uns hetzt. :/\n\nSo ziehen wir weiter, durchs Land, durch die Zeit, wir ändern uns nimmermehr, \n/: lasst uns die Fahne, die Fahrt uns das Scheit und den abgebrochenen Speer. :/",
+  "content": "Wir {e}sind eine kleine ver{H7}lorene {e}Schar, {D7}wir {G}stehen für {D}uns auf der {G}Welt\n/: und {C}jeder Kerl der {G}mit uns war, hat für immer sich {D}zu uns ge{G}sellt. :/\n\nZwischenspiel: e      a   e H7 e   H7   e H7 e  H7  e \n\nWir leben in Lumpen, wir lieben die Nacht, unsre Zeit heißt immer das Jetzt. \n/: Wir haben die Spießer ängstlich gemacht, und wir lachen, wenn man uns hetzt. :/\n\nSo ziehen wir weiter, durchs Land, durch die Zeit, wir ändern uns nimmermehr, \n/: lasst uns die Fahne, die Fahrt uns das Scheit und den abgebrochenen Speer. :/",
   "title": "Wir sind eine kleine verloren Schar",
   "words": [
     {
       "name": "Alfred Zschiesche",
-      "nickname": "alf",
+      "nickname": "",
       "group": "",
       "organisation": "Nerother Wandervogel",
       "year": ""
@@ -14,7 +14,7 @@
   "tune": [
     {
       "name": "Alfred Zschiesche",
-      "nickname": "alf",
+      "nickname": "",
       "group": "",
       "organisation": "Nerother Wandervogel",
       "year": ""
@@ -60,6 +60,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719853002254,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Zwischnespiel"
     }
   ],
   "alternativeTitle": "",
