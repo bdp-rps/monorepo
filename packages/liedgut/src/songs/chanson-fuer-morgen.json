@@ -15,9 +15,9 @@
     {
       "name": "Ko",
       "nickname": "",
-      "group": "BdP LV RPS",
-      "organisation": "Stamm Tilia",
-      "year": ""
+      "group": "Stamm Tilia",
+      "organisation": "BdP",
+      "year": "2024"
     }
   ],
   "translation": [],
@@ -41,6 +41,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719834665658,
+      "name": "Robin",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Weise"
     }
   ]
 }
