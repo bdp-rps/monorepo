@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Wir {G}drei, wir {C}gehn jetzt auf die {G}Walze, heijo, wohl {D}in die weite {G}Welt.\nDie Tippel{C}ei, ja Gott er{G}halt' se, weil {D}uns das {A}Wandern so ge{D}fällt!\nEin Schuster und ein {G}Schneider und {D}auch ein Stadtrats{G}schreiber.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, M{G}ari{C}e. Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\nFalscher Schritt, die {D}ganze Kompanie, falscher Schritt, die {G}ganze Kompanie.\nUnd {C}auch vom Hund die {G}Beine, die {C}laufen, laufen, laufen ganz {G}alleine.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, M{G}ari{C}e. Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\n\nUnd kommen wir in einen Flecken, heijo, dann fängt das Fechten an.\nSchnell schultern wir den Wanderstecken und klopfen an bei jedermann,\ndenn hier stehn drei verbannte, drei abgebaute Staatsbeamte. Gute Nacht... \nWir können nachts nicht schlafen, vor Wanzen, Flöhen und vor Paragraphen.\n\nAm Rhein, am Main und auch am Bober, da sieht uns manchmal ein Gendarm.\nSchnell krauchen wir in einen Schober, sonst packt er uns wohl noch am Arm.\nDenn er schwört stets aufs Neue, dem Staate seine Treue. Gute Nacht...\nWir können nachts nicht schlafen, vor Wanzen, Flöhen und vor Paragraphen.\n\nUnd blühn am Hain die wilden Schlehen, dann klopft auch mal die Liebe an.\nFür die, die morgen weiterziehen, steht hier und da ein Fenster an.\nUnd schlagen früh die Finken, dann tun wir auch mal winken. Gute Nacht...\nBekanntlich sind die Sterne, am aller- allerschönsten aus der Ferne.\n\nMar{D}ie, Maaaar{G}iiieeeeeeee!",
+  "content": "Wir {G}drei, wir {C}gehn jetzt auf die {G}Walze, heijo, wohl {D}in die weite {G}Welt.\nDie Tippe{C}lei, ja Gott er{G}halt' se, weil {D}uns das {A}Wandern so ge{D}fällt!\nEin Schuster und ein {G}Schneider und {D}auch ein Stadtrats{G}schreiber.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie{C}. Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\nFalscher Schritt, die {D}ganze Kompanie, falscher Schritt, die {G}ganze Kompanie.\nUnd {C}auch vom Hund die {G}Beine, die {C}laufen, laufen, laufen ganz {G}alleine.\n{D}Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie{C}. Gute {G}Nacht, auf {D}Wiedersehn, Ma{G}rie!\n\nUnd kommen wir in einen Flecken, heijo, dann fängt das Fechten an.\nSchnell schultern wir den Wanderstecken und klopfen an bei jedermann,\ndenn hier stehn drei verbannte, drei abgebaute Staatsbeamte. Gute Nacht... \nWir können nachts nicht schlafen, vor Wanzen, Flöhen und vor Paragraphen.\n\nAm Rhein, am Main und auch am Bober, da sieht uns manchmal ein Gendarm.\nSchnell krauchen wir in einen Schober, sonst packt er uns wohl noch am Arm.\nDenn er schwört stets aufs Neue, dem Staate seine Treue. Gute Nacht...\nWir können nachts nicht schlafen, vor Wanzen, Flöhen und vor Paragraphen.\n\nUnd blühn am Hain die wilden Schlehen, dann klopft auch mal die Liebe an.\nFür die, die morgen weiterziehen, steht hier und da ein Fenster an.\nUnd schlagen früh die Finken, dann tun wir auch mal winken. Gute Nacht...\nBekanntlich sind die Sterne, am aller- allerschönsten aus der Ferne.\n\nMar{D}ie, Maaaar{G}iiieeeeeeee!",
   "title": "Wir drei, wir gehn jetzt auf die Walze",
   "words": [
     {
@@ -47,6 +47,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719852404109,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Akkorde"
     }
   ],
   "specialSettings": {}
