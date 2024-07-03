@@ -178,8 +178,8 @@ export default function Page() {
     phone,
     location,
     birthday,
-    note,
     date,
+    place,
     ezbName,
     ezbLastname,
     ezbMail,
@@ -235,6 +235,7 @@ export default function Page() {
                   })
                   if (response?.status === 200) {
                     reset()
+                    alert('Anmeldung erfolgreich abgeschlossen!')
                   }
                 }
               })
@@ -296,14 +297,14 @@ export default function Page() {
                   <TextInput
                     label="Vorname"
                     placeholder="Vorname"
-                    {...name.props}
+                    {...ezbName.props}
                   />
                 </Box>
                 <Box direction={['column', , , 'row']} space={4}>
                   <TextInput
                     label="Nachname"
                     placeholder="Nachname"
-                    {...name.props}
+                    {...ezbLastname.props}
                   />
                 </Box>
                 <Box direction={['column', , , 'row']} space={4}>
@@ -479,7 +480,6 @@ export default function Page() {
               space={4}
               alignSelf={['stretch', , 'flex-start']}>
               <Button type="submit">Absenden</Button>
-              <Button type="reset">Zurücksetzen</Button>
             </Box>
           </Box>
         </Layout>
