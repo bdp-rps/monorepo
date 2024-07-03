@@ -19,5 +19,5 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: '/pages/formulare/kursanmeldung'
+  matcher: '/formulare/kursanmeldung',
 }

@@ -13,12 +13,14 @@ import {
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
+import { useRouter } from 'next/router'
 
 import landesverbaende from '../../../../packages/shared/src/data/landesverbaende.json'
 import staemme from '../../../../packages/shared/src/data/staemme.json'
 import calculateAge from '../../utils/calculateAge.js'
 import enrollment from '../../api/enrollment.js'
 export default function Page() {
+  const router = useRouter()
   const [error, setError] = useState(false)
   const [isAdult, setIsAdult] = useState(false)
 
