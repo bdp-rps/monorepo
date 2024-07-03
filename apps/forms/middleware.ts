@@ -15,10 +15,7 @@ export function middleware(req) {
 
   url.pathname = '/api/auth'
 
-  return NextResponse.rewrite(url).headers.set(
-    'Cache-Control',
-    'no-cache, no-store, must-revalidate'
-  )
+  return NextResponse.rewrite(url)
 }
 
 export const config = {
