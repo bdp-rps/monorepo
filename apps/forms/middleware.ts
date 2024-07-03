@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export function middleware(req) {
   const basicAuth = req.headers.get('authorization')
-  const url = req.nextUrl
+  const url = req.nextUrl.clone()
 
   if (basicAuth) {
     const authValue = basicAuth.split(' ')[1]
@@ -15,7 +15,10 @@ export function middleware(req) {
 
   url.pathname = '/api/auth'
 
-  return NextResponse.rewrite(url)
+  return NextResponse.rewrite(url).headers.set(
+    'Cache-Control',
+    'no-cache, no-store, must-revalidate'
+  )
 }
 
 export const config = {
