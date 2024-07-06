@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Nur auf {a}steinigen {d}Pfaden seit {G}Jahren auf {C}Fahrt,\nmit gep{F}einigten {E}Waden, vom {a}Zaren gen{D7}arrt.\nDurch {C}Berge und {a}Täler, durch {C}trockenes {d}Watt,\nmit {H7}Durst und mit {E}Hunger, das K{a}apit{e}al ist {a}satt.\n\nUnd wir {F}suchen in {C}Trümmern, wir {G}suchen im {C}Schutt.\nMüssen {F}uns um uns {C}kümmern, es ist {G}Vieles kap{C}utt.\nSollt man {F}uns einmal {E}fragen, woh{a}in wir denn {D7}ziehn,\nso {F}singen wir gem{C}einsam {G}dieses eine {C}Lied:\n\n{E}Immer {a}westwärts geht die {A7}Reise in den {d}Sonnenuntergang.\nGar nicht {G}klanglos, oder leise und wenns {C}läuft mit reichlich {E}Sang.\nAber {a}vorwärts, immer {A7}weiter, in das {d}Abendrot hinein.\nDie {E}Nacht ist lang und finster und am {a}End ist {e}man all{a}ein.\n\nDer Himmel färbt sich rot, wir ziehen hinweg.\nWir suchen im Dickicht das nächste Versteck.\nWir suchen nach Essen und finden nur Zorn,\nstatt Weizen und Roggen nur Kimme und Korn.\n\nWir suchen so stetig, was die Ahnen gehabt,\nder Pfad war grün, es hat besser geklappt.\nAn Stränden war Sand, es hat alles geblüht\nund nun auf einem Pfad, der hinter uns verglüht.",
+  "content": "Nur auf {a}steinigen {d}Pfaden seit {G}Jahren auf {C}Fahrt,\nmit ge{F}peinigten {E}Waden, vom {a}Zaren ge{D7}narrt.\nDurch {C}Berge und {a}Täler, durch {C}trockenes {d}Watt,\nmit {H7}Durst und mit {E}Hunger, das K{a}apit{e}al ist {a}satt.\n\nUnd wir {F}suchen in {C}Trümmern, wir {G}suchen im {C}Schutt.\nMüssen {F}uns um uns {C}kümmern, es ist {G}Vieles kap{C}utt.\nSollt man {F}uns einmal {E}fragen, woh{a}in wir denn {D7}ziehn,\nso {F}singen wir gem{C}einsam {G}dieses eine {C}Lied:\n\n{E}Immer {a}westwärts geht die {A7}Reise in den {d}Sonnenuntergang.\nGar nicht {G}klanglos, oder leise und wenns {C}läuft mit reichlich {E}Sang.\nAber {a}vorwärts, immer {A7}weiter, in das {d}Abendrot hinein.\nDie {E}Nacht ist lang und finster und am {a}End ist {e}man all{a}ein.\n\nDer Himmel färbt sich rot, wir ziehen hinweg.\nWir suchen im Dickicht das nächste Versteck.\nWir suchen nach Essen und finden nur Zorn,\nstatt Weizen und Roggen nur Kimme und Korn.\n\nWir suchen so stetig, was die Ahnen gehabt,\nder Pfad war grün, es hat besser geklappt.\nAn Stränden war Sand, es hat alles geblüht\nund nun auf einem Pfad, der hinter uns verglüht.",
   "title": "Westwärts",
   "words": [
     {
@@ -50,6 +50,13 @@
     },
     {
       "date": 1712516981972,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1720296612186,
       "name": "ko",
       "mail": "",
       "type": "update",
