@@ -185,8 +185,28 @@ const songs = [
 
 const songData = songs.map((song) => require('../songs/' + song + '.json'))
 
-const normalizeContent = (content) =>
-  content.replace(/{[a-z0-9]}/gi, '').toLowerCase()
+function normalize(str) {
+  return str
+    .replace(/{[a-z0-9]+}|\/:|:\/|(,')/gi, '')
+    .toLowerCase()
+    .trim()
+}
+
+function normalizeContent(content) {
+  const lines = content
+    .split('\n')
+    .filter(Boolean)
+    .filter(
+      (line) =>
+        line.match(/(Vorspiel|Vor- und Zwischenspiel|Zwischenspiel)/) === null
+    )
+
+  return lines
+    .join('')
+    .replace(/{[a-z0-9]+}|\/:|:\/|(,')/gi, '')
+    .toLowerCase()
+    .trim()
+}
 
 export default () => (
   <Document>
@@ -194,6 +214,14 @@ export default () => (
       .sort((a, b) => {
         const tA = normalizeContent(a.content)
         const tB = normalizeContent(b.content)
+
+        if (tA.startsWith('17')) {
+          return 1
+        }
+
+        if (tB.startsWith('17')) {
+          return -1
+        }
 
         return tA > tB ? 1 : -1
       })
