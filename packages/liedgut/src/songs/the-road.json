@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Vor- und Zwischenspiel: /: h e G D e :/\nWell it's {h}headlights, white lines, black tar rivers,\nthey {e}dragging me ar{G}ound this {d}country as it {e}withers.\nThe {h}billboards, signposts, standing in the way,\ntell {e}of the state of {G}nations {D}that we find to{e}day.\nAnd we'll {G}play, and we'll {D}play and we'll {C}play.\nTo every {G}day, every {D}day, every day{C}, to every {G}day.\n\nAnd in the front rooms of old towns far from the city\nwith beaten up guitars and hearts full of pity.\nThe people gather round singing songs from everywhere.\nTorn from the nation, left without a care.\n\nAnd we'll {e}rid this bloody {D}world for a {C}moment in a {G}word.\nAnd we'll {e}rid this bloody {D}world cause:\n/: the {C}words that you heard when you were {G}young will always stay,\nthe {D}one's that always stay make the {C}world go away. :/\nGo {G}away.\n\nWarm night, clear sky, European town.\nOutside the bars singing their hearts out to a crowd.\nWith open boots, violin, banjo and a voice,\nexiled buskers, happy with their choice.\n",
+  "content": "Vor- und Zwischenspiel: /: h     e G D e :/\nWell it's {h}headlights, white lines, black tar rivers,\nthey {e}dragging me a{G}round this {D}country as it {e}withers.\nThe {h}billboards, signposts, standing in the way,\ntell {e}of the state of {G}nations {D}that we find to{e}day.\nAnd we'll {G}play, and we'll {D}play and we'll {C}play.\nTo every {G}day, every {D}day, every {C}day, to every {G}day.\n\nAnd in the front rooms of old towns far from the city\nwith beaten up guitars and hearts full of pity.\nThe people gather round singing songs from everywhere.\nTorn from the nation, left without a care.\n\nAnd we'll {e}rid this bloody {D}world for a {C}moment in a {G}word.\nAnd we'll {e}rid this bloody {D}world cause:\n/: the {C}words that you heard when you were {G}young will always stay,\nthe {D}one's that always stay make the {C}world go away. :/\nGo {G}away.\n\nWarm night, clear sky, European town.\nOutside the bars singing their hearts out to a crowd.\nWith open boots, violin, banjo and a voice,\nexiled buskers, happy with their choice.\n",
   "title": "The road",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1719834369089,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Akkorde"
     }
-  ]
+  ],
+  "specialSettings": {}
 }

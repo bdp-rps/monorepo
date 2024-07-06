@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}True you ride the finest horse {F}I've ever seen, \n{G}standing sixteen, one or two, with {a}eyes wild and green.\nAnd you ride the horse so well, {F}hands light to the touch.\n{G}I could never go with you no matter how I {a}wanted to.\n\n/: Ride on, {F}see you. {G}I could never go with you no matter how I {a}wanted to :/\n\nWhen you ride into the night without a trace behind, \nrun your claw along my gut, one last time. \nI turn to face an empty space, where you used to lie \nand look for the spark that lights the night through a teardrop in my eye.",
+  "content": "{a}True you ride the finest horse {F}I've ever seen, \n{G}standing sixteen, one or two, with {a}eyes wild and green.\nAnd you ride the horse so well, {F}hands light to the touch.\n{G}I could never go with you no matter how I {a}wanted to.\n\n/: Ride on, {F}see you. {G}I could never go with you no matter how I {a}wanted to. :/\n\nWhen you ride into the night without a trace behind, \nrun your claw along my gut, one last time. \nI turn to face an empty space, where you used to lie \nand look for the spark that lights the night through a teardrop in my eye.",
   "title": "Ride on",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719506996794,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Punkt"
     }
-  ]
+  ],
+  "specialSettings": {}
 }

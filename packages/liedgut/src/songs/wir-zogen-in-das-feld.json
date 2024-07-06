@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Wir zogen in das Feld. {F}Wir zogen in das Feld,\nda hätten wir weder Säckl noch Geld.\n\n{d}Stram-{A}pe-{d}de-{A}mi, /: {d}a la mi presen{g}te al {d}vostra {A}signor{d}i. :/\n\n/: Wir kam'n vor Siebentod :/ da hätten wir weder Wein noch Brot.\n\n/: Wir kamen vor Friaul :/ da hätten wir allesamt voll Maul.\n\n/: Wir kam'n vor Benevent :/ da hätt all uns're Not ein End.",
+  "content": "Wir {d}zogen in das Feld. Wir {F}zogen in das Feld,\nda hätten wir weder Säckl noch Geld.\n\n{d}Stram-{A}pe-{d}de-{A}mi, /: {d}a la mi presen{g}te al {d}vostra {A}signo{d}ri. :/\n\n/: Wir kam'n vor Siebentod :/\nda hätten wir weder Wein noch Brot.\n\n/: Wir kamen vor Friaul :/\nda hätten wir allesamt voll Maul.\n\n/: Wir kam'n vor Benevent :/\nda hätt all uns're Not ein End.",
   "title": "Wir zogen in das Feld",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719853133965,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Layout & Akkorde"
     }
-  ]
+  ],
+  "specialSettings": {}
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Buter káj egy berseszki szán, {C}móri drágo piko séj,\n{a}vorbisz mánge káki-koki, {C}móri drágo piko séj.\n\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, móri drágo piko séj, lá lumáko szomnákáj, móri drágo piko séj.\n\nÁldin dévlá murá sá, mura cina pikonya, mura cina pikonya, murá sukár szábiná.",
+  "content": "{a}Buter káj egy berseszki szán, {C}móri drágo piko séj,\n{a}vorbisz mánge káki-koki, {C}móri drágo piko séj.\n\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, móri drágo piko séj,\nlá lumáko szomnákáj, móri drágo piko séj.\n\nÁldin dévlá murá sá, mura cina pikonya,\nmura cina pikonya, murá sukár szábiná.",
   "title": "Mori shej",
   "words": [
     {
@@ -52,8 +52,16 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719407909579,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Layout"
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {}
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Straßen auf und {F}Straßen {a}ab {F}schwirren {a}die Gi{E}tarrenlieder,\n{a}seidne Vögel {F}auf den {a}Lippen {F}der To{a}reros {E}und Land{a}streuner.\n\nZwischenspiel: FE FE aGFE aGFE a\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirr'n die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
+  "content": "{a}Straßen auf und {F}Straßen {a}ab {F}schwirren {a}die Gi{E}tarrenlieder,\n{a}seidne Vögel {F}auf den {a}Lippen {F}der To{a}reros {E}und Land{a}streuner.\n\nZwischenspiel: F E  F E  a G F E  a G F E  a\n\nEbro auf und Ebro ab, in der Stunde der Orangen\nlockt die Sonne Kataloniens zu den Rhythmen der Gitarren.\n\nIn den Höfen der Paläste bröckelt von vergilbten Mauern.\nSchweigen die Gitarrenlieder, klingen nicht in Saragossa.\n\nStraßen auf und Straßen ab schwirr'n die Blicke der Verliebten,\nschwirren die Gitarrenlieder in der Stunde der Orangen.",
   "title": "Stunde der Orangen",
   "words": [
     {
@@ -68,6 +68,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719833476054,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Zwischenspiel"
     }
   ],
   "specialSettings": {}

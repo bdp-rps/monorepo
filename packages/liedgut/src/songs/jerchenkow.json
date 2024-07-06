@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Jeden Abend träumt Jerchenkow, träumt von {E}Nischni {E7}Nowgo{a}rod.{E7}{a}\n{a}Damals, als der Zar noch lebte, vierzig {E}Jahr ist {E7}er schon {a}tot.{E7}{a}\n/: Man {d}müsste wieder {a}zwei Pistolen {E}und ein {E7}Pferdchen {a}haben,\nda{d}zu mit einer R{a}eiterschar nach {E}Nischni {E7}Nowg'rod {a}tra{(E a)}ben. :/\n/: d  a  E  a E a :/\n\nAls der Mond stand nachts am Himmel klopften wir beim Starosten an.\nAlles klauten wir dem Lümmel selbst den roten Sarafan.\n\nDreimal ritt ich nach Odessa, dreimal sah ich Petersburg.\nAls des Zaren Leibkosaken unter Hebnio Saratow.\n\nAn die vielen schönen Feste denk ich sehnsuchtsvoll zurück.\nWodka trinken, tanzen, singen, diese Zeit kehrt nie zurück.",
+  "content": "{a}Jeden Abend träumt Jerchenkow, träumt von {E}Nischni {E7}Nowgo{a}rod.{E7}{a}\n{a}Damals, als der Zar noch lebte, vierzig {E}Jahr ist {E7}er schon {a}tot.{E7}{a}\n/: Man {d}müsste wieder {a}zwei Pistolen {E}und ein {E7}Pferdchen {a}haben,\nda{d}zu mit einer R{a}eiterschar nach {E}Nischni {E7}Nowg'rod {a}tra{(E a)}ben. :/\n\nZwischenspiel: /: d  a  E  a E a :/\n\nAls der Mond stand nachts am Himmel klopften wir beim Starosten an.\nAlles klauten wir dem Lümmel selbst den roten Sarafan.\n\nDreimal ritt ich nach Odessa, dreimal sah ich Petersburg.\nAls des Zaren Leibkosaken unter Hebnio Saratow.\n\nAn die vielen schönen Feste denk ich sehnsuchtsvoll zurück.\nWodka trinken, tanzen, singen, diese Zeit kehrt nie zurück.",
   "title": "Jerchenkow",
   "words": [
     {
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1719397308244,
+      "name": "Robin Weser",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Zwischenspiel"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
