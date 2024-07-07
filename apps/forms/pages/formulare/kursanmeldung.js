@@ -44,9 +44,11 @@ export default function Page() {
   })
   const mail = useField({
     name: 'mail',
+    required: true,
   })
   const phone = useField({
     name: 'phone',
+    required: true,
   })
   const street = useField({
     name: 'street',
@@ -68,32 +70,37 @@ export default function Page() {
     name: 'birthday',
     required: true,
   })
-  const note = useField({
-    name: 'note',
-  })
   const ezbName = useField({
     name: 'ezbName',
+    required: isAdult ? false : true,
   })
   const ezbLastname = useField({
     name: 'ezbLastname',
+    required: isAdult ? false : true,
   })
   const ezbMail = useField({
     name: 'ezbMail',
+    required: isAdult ? false : true,
   })
   const ezbPhone = useField({
     name: 'ezbPhone',
+    required: isAdult ? false : true,
   })
   const ezbStreet = useField({
     name: 'ezbStreet',
+    required: isAdult ? false : true,
   })
   const ezbHousenumber = useField({
     name: 'ezbHousenumber',
+    required: isAdult ? false : true,
   })
   const ezbZipcode = useField({
     name: 'ezbZipcode',
+    required: isAdult ? false : true,
   })
   const ezbLocation = useField({
     name: 'ezbLocation',
+    required: isAdult ? false : true,
   })
   const foodPreferences = useField({
     name: 'foodPreferences',
@@ -109,6 +116,7 @@ export default function Page() {
   })
   const lastTetanusVaccination = useField({
     name: 'lastTetanusVaccination',
+    required: true,
   })
   const healthInsurance = useField({
     name: 'healthInsurance',
@@ -116,7 +124,7 @@ export default function Page() {
   })
   const insurancePolicyNumber = useField({
     name: 'insurancePolicyNumber',
-    required: true,
+    required: isAdult ? true : false,
   })
   const coInsuredWith = useField({
     name: 'coInsuredWith',
