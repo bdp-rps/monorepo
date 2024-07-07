@@ -1,0 +1,39 @@
+{
+  "notation": "",
+  "content": "{C}Klopfet der Regen und {e}tropft von den Steinen, \nF}Klagen die Bäume und {G}jammert der {G7}Wind.\n{C}Wie viele Tränen {a}muss ich noch weinen,\n{F}Bis wir in Frieden bei{G}sammen {C}sind.\n\nSieh, all die Vögel, sie zogen gen Süden,\nFlohen den Winter und wichen dem Frost,\naber uns ist keine Sonne beschieden.\nRuhlos durchwandern wir Nord, West und Ost.\n\nDer du gebietest dem Mond und den Sternen,\nder du die Lilie im Feld nicht verläßt.\nSei du mit uns in der fernsten der Fernen!\nGib deine Hand uns, beschirm unser Nest.",
+  "title": "Herbstliches Lied",
+  "words": [
+    {
+      "name": " Mascha Kaléko",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": ""
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "Luchs",
+      "organisation": "BdP",
+      "year": "2024"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1720382675749,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
