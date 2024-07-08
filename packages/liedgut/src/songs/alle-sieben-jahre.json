@@ -15,7 +15,7 @@
     {
       "name": "Robin Weser",
       "nickname": "",
-      "group": "Luchs",
+      "group": "Stamm Luchs",
       "organisation": "BdP",
       "year": "2023"
     }
@@ -47,6 +47,14 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Groß- und Kleinschreibung"
+    },
+    {
+      "date": 1720420594425,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
