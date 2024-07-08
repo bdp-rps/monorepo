@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Klopfet der Regen und {e}tropft von den Steinen, \nF}Klagen die Bäume und {G}jammert der {G7}Wind.\n{C}Wie viele Tränen {a}muss ich noch weinen,\n{F}Bis wir in Frieden bei{G}sammen {C}sind.\n\nSieh, all die Vögel, sie zogen gen Süden,\nFlohen den Winter und wichen dem Frost,\naber uns ist keine Sonne beschieden.\nRuhlos durchwandern wir Nord und Ost.\n\nDer du gebietest dem Mond und den Sternen,\nder du die Lilie im Feld nicht verläßt.\nSei du mit uns in der fernsten der Fernen!\nGib deine Hand und beschirm unser Nest.",
+  "content": "{A}Klopfet der Regen und {cis}tropft von den Steinen, \n{D}Klagen die Bäume und {E}jammert der {E7}Wind.\n{A}Wie viele Tränen {fis}muss ich noch weinen,\n{D}Bis wir in Frieden bei{E}sammen {A}sind.\n\nSieh, all die Vögel, sie zogen gen Süden,\nFlohen den Winter und wichen dem Frost,\naber uns ist keine Sonne beschieden.\nRuhlos durchwandern wir Nord und Ost.\n\nDer du gebietest dem Mond und den Sternen,\nder du die Lilie im Feld nicht verläßt.\nSei du mit uns in der fernsten der Fernen!\nGib deine Hand und beschirm unser Nest.",
   "title": "Herbstliches Lied",
   "words": [
     {
@@ -15,16 +15,16 @@
     {
       "name": "Robin Weser",
       "nickname": "",
-      "group": "Luchs",
+      "group": "Stamm Luchs",
       "organisation": "BdP",
       "year": "2024"
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "6/8",
   "alternativeTitle": "",
-  "tempo": 60,
-  "musicalKey": "",
+  "tempo": "160",
+  "musicalKey": "A",
   "info": "",
   "specialSettings": {},
   "changes": [
@@ -34,6 +34,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": "Final"
+    },
+    {
+      "date": 1720420495753,
+      "name": "Robin",
+      "mail": "robin",
+      "type": "update",
+      "content": ""
     }
   ]
 }
