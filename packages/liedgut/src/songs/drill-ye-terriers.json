@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Every mornin' 'bout seven o'clock there were {E}twenty terriers a-workin' on the rock.\nThe {a}boss comes along and he says: \"Keep still! And {E}come down heavy on the cast-iron drill!\"\nAnd {a}drill ye {E}terriers, {a}drill! Drill ye {G}terriers, {a}drill! For it's work all day for the sugar in your tay, {E}down behind the railway. And {a}drill, ye {E}terriers, {a}drill! {E}And {a}blast! {E}And {a}fire!\n\n/: G F E :/\n\nOur boss was a fine man to the ground, but he married a lady, six-feet round.\nShe baked good bread and she baked it well, but she baked it hard as the coals in hell.\n\nOur new foreman was Jim McCann. By god, he was a damn mean man.\nLast week a premature blast went off, a mile in the sky went big Jim Goff.\n\nThe next time payday came around, a dollar short Jim Goff was found.\nWhen he asked what for came this reply: \"You're docked for the time you were up in the sky.\"\n",
+  "content": "{a}Every mornin' 'bout seven o'clock there were {E}twenty terriers a-workin' on the rock.\nThe {a}boss comes along and he says: \"Keep still! And {E}come down heavy on the cast-iron drill!\"\nAnd {a}drill ye {E}terriers, {a}drill! Drill ye {G}terriers, {a}drill! For it's work all day for the sugar in your tay,\n{E}down behind the railway. And {a}drill, ye {E}terriers, {a}drill! {E}And {a}blast! {E}And {a}fire!\n\nZwischenspiel: /: G F E :/\n\nOur boss was a fine man to the ground, but he married a lady, six-feet round.\nShe baked good bread and she baked it well, but she baked it hard as the coals in hell.\n\nOur new foreman was Jim McCann. By god, he was a damn mean man.\nLast week a premature blast went off, a mile in the sky went big Jim Goff.\n\nThe next time payday came around, a dollar short Jim Goff was found.\nWhen he asked what for came this reply: \"You're docked for the time you were up in the sky.\"\n",
   "title": "Drill ye terriers",
   "words": [
     {
@@ -46,6 +46,13 @@
       "mail": "nachtigallphil@gmail.com",
       "type": "update",
       "content": "Ein Akkord im Refrain ist falsch gesetzt. Vom Takt her müsste das E über dem \"down\" sein und nicht über dem \"sugar\". Kenn ich so auch aus anderen Liederbüchern."
+    },
+    {
+      "date": 1720429255852,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Layout"
     }
   ],
   "musicalKey": "Am",
@@ -83,7 +90,7 @@
           3
         ],
         "style": {
-          "letterSpacing": -0.18
+          "letterSpacing": -0.33
         }
       }
     ]
