@@ -61,6 +61,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1720429022176,
+      "name": "Robin",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Layout"
     }
   ],
   "specialSettings": {
@@ -96,6 +103,18 @@
         ],
         "style": {
           "lineHeight": 1.15
+        }
+      },
+      {
+        "type": "line",
+        "blocks": [
+          3
+        ],
+        "lines": [
+          2
+        ],
+        "style": {
+          "letterSpacing": -0.05
         }
       }
     ]
