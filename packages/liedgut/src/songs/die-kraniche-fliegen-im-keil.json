@@ -8,7 +8,8 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": true
     }
   ],
   "tune": [
@@ -88,24 +89,16 @@
     "holzwurm": [
       {
         "type": "line",
-        "blocks": [
-          3
-        ],
-        "lines": [
-          2
-        ],
+        "blocks": [3],
+        "lines": [2],
         "style": {
           "letterSpacing": -0.2
         }
       },
       {
         "type": "line",
-        "blocks": [
-          4
-        ],
-        "lines": [
-          2
-        ],
+        "blocks": [4],
+        "lines": [2],
         "style": {
           "letterSpacing": -0.268
         }

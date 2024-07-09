@@ -15,6 +15,7 @@ function clusterOrganisation(authors) {
     authors[author.year][author.organisation][author.group].push({
       name: author.name,
       nickname: author.nickname,
+      critical: author.critical,
     })
 
     return authors
@@ -29,9 +30,12 @@ export default function renderAuthors(authors) {
       name: '',
       group: '',
       year: '',
+      critical: false,
       ...auth,
     }))
   )
+
+  console.log(clustered)
 
   return Object.keys(clustered).map(
     (year) =>
@@ -44,8 +48,13 @@ export default function renderAuthors(authors) {
                   .map((author) =>
                     author.nickname
                       ? author.nickname +
-                        (author.name ? ' (' + author.name + ')' : '')
-                      : author.name
+                        (author.name
+                          ? ' (' +
+                            author.name +
+                            (author.critical ? '*' : '') +
+                            ')'
+                          : '')
+                      : author.name + (author.critical ? '*' : '')
                   )
                   .join(' & ')
 

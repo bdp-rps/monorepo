@@ -5,10 +5,11 @@
   "words": [
     {
       "name": "Erich Scholz",
-      "nickname": "Olka",
+      "nickname": "olka",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": true
     }
   ],
   "tune": [

@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export function middleware(req) {
+export function middleware(req: NextRequest) {
+  if (!req.headers.get('host')?.includes('bdp-rps.app')) {
+    return NextResponse.next()
+  }
+
   const basicAuth = req.headers.get('authorization')
   const url = req.nextUrl
 

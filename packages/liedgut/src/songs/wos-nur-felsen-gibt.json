@@ -8,7 +8,8 @@
       "nickname": "",
       "group": "",
       "organisation": "Nerother Wandervogel",
-      "year": ""
+      "year": "",
+      "critical": true
     }
   ],
   "tune": [

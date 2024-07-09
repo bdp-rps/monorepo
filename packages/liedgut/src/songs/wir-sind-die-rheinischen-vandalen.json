@@ -8,7 +8,8 @@
       "nickname": "hussa",
       "group": "",
       "organisation": "Nerother Wandervogel",
-      "year": "1930"
+      "year": "1930",
+      "critical": true
     }
   ],
   "tune": [
@@ -17,7 +18,8 @@
       "nickname": "hussa",
       "group": "",
       "organisation": "Nerother Wandervogel",
-      "year": "1930"
+      "year": "1930",
+      "critical": true
     }
   ],
   "translation": [],

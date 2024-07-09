@@ -113,6 +113,7 @@ const defaultAuthor = {
   group: '',
   organisation: '',
   year: '',
+  critical: false,
 }
 
 const defaultSubmitter = {
@@ -422,6 +423,14 @@ export default function SongForm({ initialSong = defaultSong, onSubmit }) {
                     setAuthor({ ...author, year: e.target.value })
                   }
                   label="Jahr"
+                />
+                <Checkbox
+                  name="critical"
+                  label="Kritischer Autor"
+                  value={author.critical}
+                  onChange={(e) =>
+                    setAuthor({ ...author, critical: e.target.checked })
+                  }
                 />
                 <Checkbox
                   name="words-and-tune"

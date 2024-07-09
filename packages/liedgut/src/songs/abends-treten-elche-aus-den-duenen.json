@@ -3,7 +3,8 @@
   "words": [
     {
       "name": "Heinrich Eichen",
-      "year": "vor 1933"
+      "year": "vor 1933",
+      "critical": true
     }
   ],
   "tune": [

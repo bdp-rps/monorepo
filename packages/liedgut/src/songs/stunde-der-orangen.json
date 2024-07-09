@@ -4,11 +4,12 @@
   "title": "Stunde der Orangen",
   "words": [
     {
-      "name": "George Forestier (Pseudonym von Karl Emerich Krämer)",
+      "name": "Karl Emerich Krämer",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": true
     }
   ],
   "tune": [
@@ -25,7 +26,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "Am",
-  "info": "Karl Emerich Krämer (1918 - 1987) war ein Dichter und Schriftsteller. Bereits 1932 trat er der Hitlerjugend bei. Bis zum Beginn des Krieges wurden mehrere Werke von ihm veröffentlicht, die wegen ihrer linientreuen nationalsozialistischen Gesinnung ausdrückliche staatliche Förderung erfuhren. ",
+  "info": "Karl Emerich Krämer (1918 - 1987) war ein Dichter und Schriftsteller. Bereits 1932 trat er der Hitlerjugend bei. Bis zum Beginn des Krieges wurden mehrere Werke von ihm veröffentlicht, die wegen ihrer linientreuen nationalsozialistischen Gesinnung ausdrückliche staatliche Förderung erfuhren.\n\nEr veröffentlichte unter anderem auch unter dem Pseudonym \"George Forestier\".",
   "changes": [
     {
       "date": 1680018165110,

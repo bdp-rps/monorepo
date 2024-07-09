@@ -8,7 +8,8 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": "1938"
+      "year": "1938",
+      "critical": true
     }
   ],
   "tune": [
@@ -17,7 +18,8 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": "1938"
+      "year": "1938",
+      "critical": true
     }
   ],
   "translation": [],
