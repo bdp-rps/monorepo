@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 export function middleware(req: NextRequest) {
+  // skip local and previews
   if (!req.headers.get('host')?.includes('bdp-rps.app')) {
     return NextResponse.next()
   }
@@ -12,7 +13,10 @@ export function middleware(req: NextRequest) {
     const authValue = basicAuth.split(' ')[1]
     const [user, pwd] = atob(authValue).split(':')
 
-    if (user === 'lvrps' && pwd === 'besterlv123') {
+    if (
+      (user === 'lvrps' && pwd === 'besterlv123') ||
+      (user === 'streng' && pwd === 'strenggeheim')
+    ) {
       return NextResponse.next()
     }
   }
