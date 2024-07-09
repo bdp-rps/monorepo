@@ -35,8 +35,6 @@ export default function renderAuthors(authors) {
     }))
   )
 
-  console.log(clustered)
-
   return Object.keys(clustered).map(
     (year) =>
       Object.keys(clustered[year])

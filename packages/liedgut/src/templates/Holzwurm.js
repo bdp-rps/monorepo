@@ -231,8 +231,6 @@ function getTableOfContents() {
     }, {})
 }
 
-console.log(getTableOfContents())
-
 export default () => (
   <Document>
     {songData
