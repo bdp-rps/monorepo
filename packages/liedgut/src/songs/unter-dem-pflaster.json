@@ -1,6 +1,6 @@
 {
   "notation": "X:1\nT:Unter dem Pflaster\nM:4/4\nL:1/8\nQ:100\nz C E G F G1/ F3/2 C | z D F A G/ F3/2 E2 | \nz C E G F G1/ F3/2 C| z D F A G3/2 F/ E2 | |\nK:Am\nz E C E D/ B,3/2-B, D | C B,/A,/ G, A,2 z2 | \nz E C E D2 B, D | C A, B,/A,/ G, A,2 z2 ||\n\n ",
-  "content": "{A}Komm lass dich {fis}nicht erweichen, {h}bleib hart an {E}deinem Kern. \n{A}Rutsch nicht in {fis}ihre Weichen, {h}treib dich nicht {E}selbst dir fern. \n{a}Unter dem {G}Pflaster, ja {a}da {e}liegt der {a}Strand. \n{a}Komm reiß auch {G}du ein paar {a}Steine {G}aus dem {a}Sand.\n\nKomm lass die nicht erzählen, was du zu lassen hast.\nDu kannst doch selber wählen, nur langsam, keine Hast.\n\nZieh die Schuhe aus, die schon so lang dich drücken.\nLieber barfuß lauf, aber nicht auf ihren Krücken.\n\nDreh dich und tanz, dann könn'n sie dich nicht packen.\nVerscheuch sie ganz mit deinem lauten Lachen.\n\nDie größte Kraft ist deine Phantasie. Wirf die Ketten weg und schmeiß sie gegen die,\nDie mit ihrer Macht deine Kräfte brechen wollen.",
+  "content": "{A}Komm lass dich {fis}nicht erweichen, {h}bleib hart an {E}deinem Kern. \n{A}Rutsch nicht in {fis}ihre Weichen, {h}treib dich nicht {E}selbst dir fern. \n{a}Unter dem {G}Pflaster, ja {a}da {e}liegt der {a}Strand. \n{a}Komm reiß auch {G}du ein paar {a}Steine {G}aus dem {a}Sand.\n\nKomm lass dir nicht erzählen, was du zu lassen hast.\nDu kannst doch selber wählen, nur langsam, keine Hast.\n\nZieh die Schuhe aus, die schon so lang dich drücken.\nLieber barfuß lauf, aber nicht auf ihren Krücken.\n\nDreh dich und tanz, dann könn' sie dich nicht packen.\nVerscheuch sie ganz mit deinem lauten Lachen.\n\nDie größte Kraft ist deine Phantasie. \nWirf die Ketten weg und schmeiß sie gegen die,\nDie mit ihrer Macht deine Kräfte brechen wollen.",
   "title": "Unter dem Pflaster",
   "words": [
     {
@@ -75,6 +75,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1720726350565,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {
@@ -82,7 +89,7 @@
       {
         "type": "space",
         "style": {
-          "lineHeight": 1
+          "lineHeight": 0.95
         }
       }
     ]
