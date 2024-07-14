@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "CD\"C\"E3E|DE\"G\"D2\"a\"C2|CC\"e\"G3E|ED\"C\"E4|\nCDE3E|DE\"G\"D2\"a\"C2|CC\"e\"B3B|cB\"G\"G4|\nBB\"e\"B3B|cB\"G\"G2F2|FF\"d\"F3F|GF\"C\"E2C2|\nCD\"e\"E4|\"F\"FA\"C\"G4|\"d\"cAG3\"G\"D|E2\"C\"C4|",
   "content": "Meine {C}Sonne will ich {G}fra{a}gen, meine {e}Sterne, meine {C}Nacht:\nHat ein Sturm ihn fortge{G}tra{a}gen, hat ein {e}Krieg ihn umge{G}bracht?\nUnterm {e}Fliederbaum ver{G}lassen, fortge{d}weht aus leeren {C}Gassen,\nlilas {e}blanches, {F}lilas {C}bleues, {d}ô mon {C}coeur, ô {G}mon {C}Dieu.\n\nHergeweht von seinen Fahrten, unbekannt dem Müdesein,\nstand er still vor meinem Garten, und ich bot ihm ein Glas Wein.\nUnd ich prüft aus jenen Tagen unterm Fliederbaum die Fragen,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nWarb ein königlicher Reiter durch das schöne Périgord.\nDoch er lächelte ihm heiter, dass er hier sein Herz verlor,\nwollte lieber unterm Flieder Lautenspiel und leichte Lieder,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nAndern Tages beim Erwachen tat man winken übern Zaun.\nUnd er hört die Burschen lachen, Zähne weiß und Augen braun,\nsah sie schwarze Rosse strählen, Bandelier und Degen wählen,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.\n\nHat mich zögernd angesehen und er strich mir übers Haar,\nwollte bleiben, wollte gehen, nur paar Wochen, kaum ein Jahr.\nWollte kommen mit dem Flieder, nur im Traume kehrt er wieder,\nlilas blanches, lilas bleues, ô mon coeur, ô mon Dieu.",
   "title": "Lilas blanches",
   "words": [
@@ -48,6 +48,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1720460510830,
+      "name": "chris fieker",
+      "mail": "christopher.fieker@gmail.com",
+      "type": "update",
+      "content": "Ich habe eine Melodie eingetippt(passend zum lied), die Akkorde am Schluss sind etwas seltsam, aber 1:1 aus dem ohrwurm. Kein plan wie man die gitarrenbegleitung ändert"
     }
-  ]
+  ],
+  "specialSettings": {}
 }

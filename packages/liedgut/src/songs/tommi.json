@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Ich will mal {G}wieder am {a}Rhein stehn,\neinfach hin{e}einsehn, {F}zuschaun, wie {e}Schiffe vorb{d}eiziehn.\n\n{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Vielleicht {G}liegt es am {a}Licht und wies \nsich grade {e}bricht. {F}Oder da{e}ran, dass {d}man hier in der {F}Bahn die {e}Spree sehn {d}kann.\n\n{C}Tommi, vielleicht ruf ich {e}an, {F}damit du {G}sagst: \"Irgend{a}wann, irgendwann, \nirgend{e}wann. Fang wir {F}hier zum letzten {G}Mal von vorne {C}an.\"\n\n/: Da wo mer zu{F}sammen {d}groß jeworde {G}sin, da {C}ziehn mer {F}alle {d}irgend{G}wann wieder {C}hin,\ndamit die {F}Kinder, die mer {d}krieje {G}könn'n, {C}alle in {F}Kölle {d}jebore {G}sin. {(C)}:/\n/: {F}Jeb{d}o-o-{G}ore {C}sin. :/\n\nIn der Stadt, in der wir jung und dumm warn, und unverwundbar, \nweil alles so bunt war. Und es war immer klar, irgendwann kommt der Tag \nan dem wir beide gehn.\n\nWir wollten immer was sehn. So viel, wie es geht und überall auf der Welt.\nAlle Wege führen nach Rom und irgendwann zurück nach Köln.",
+  "content": "{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Ich will mal {G}wieder am {a}Rhein stehn,\neinfach hin{e}einsehn, {F}zuschaun, wie {e}Schiffe vorb{d}eiziehn.\n\n{C}Tommi, ich glaub, ich hab {e}Heimweh. {F}Vielleicht {G}liegt es am {a}Licht und wies \nsich grade {e}bricht. {F}Oder da{e}ran, dass {d}man hier in der {F}Bahn die {e}Spree sehn {d}kann.\n\n{C}Tommi, vielleicht ruf ich {e}an, {F}damit du {G}sagst: \"Irgend{a}wann, irgendwann, \nirgend{e}wann. Fang wir {F}hier zum letzten {G}Mal von vorne {C}an.\"\n\n/: Da wo mer zu{F}samme {d}groß jeworde {G}sin, da {C}ziehn mer {F}alle {d}irgend{G}wann wieder {C}hin,\ndamit die {F}Kinder, die mer {d}krieje {G}könn'n, {C}alle in {F}Kölle {d}jebore {G}sin. {(C)}:/\n/: {F}Jeb{d}o-o-{G}ore {C}sin. :/\n\n{C}In der Stadt, in der {e}wir jung und dumm warn, {F}und {G}unver{a}wundbar, \nweil alles so {e}bunt war. Und es {F}war immer {e}klar, irgend{d}wann kommt der Tag \n{F}an dem wir {e}beide {d}gehn.\n\n{C}Wir wollten immer was {e}sehn. {F}So {G}viel, wie es {a}geht und überall auf der {e}Welt.\nAlle {F}Wege führen nach Rom und irgend{G}wann zurück nach {C}Köln.\n\nDa wo mer zusamme...",
   "title": "Tommi",
   "words": [
     {
@@ -40,7 +40,23 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1720700506017,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "specialSettings": {}
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "style": {
+          "lineHeight": 0.7
+        }
+      }
+    ]
+  }
 }
