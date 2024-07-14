@@ -106,7 +106,7 @@ const songs = [
   'mker',
   'roter-mond',
   'roter-wein-im-becher',
-  'schilf',
+  'Kiefern in Wind',
   'schlaflied-fuer-anne',
   'schliess-aug-und-ohr',
   'lumpenbruederschaft',

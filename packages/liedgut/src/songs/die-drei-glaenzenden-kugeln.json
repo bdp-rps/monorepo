@@ -1,7 +1,7 @@
 {
   "notation": "",
   "content": "Es {a}liegen drei {G}glänzende {a}Kugeln, ich {d}weiß nicht wo{E}raus sie ge{a}macht.\nIn einer {E}niedrigen {a}Kneipe, neun {d}Meilen {E}hinter der {a}Nacht.\nSie {e}liegen auf {d}grünem {a}Tuch und {E}an der Wand hängt der {E7}Spruch:\n\n{F}Wer die Kugeln {C}rollen lässt, {d}da-ra-da-di-ri-{a}dum di dei,\n{F}den überkomme die {C}schwarze Pest, {d}da-ra-da-da-{E}di-{a}dum.\n\nDer Wirt, der hat nur ein Auge und das trägt er hinter dem Ohr.\nAus seinem gespaltenen Kopfe ragt eine Antenne hervor.\nEr trinkt aus einer Seele und ruft aus roter Kehle:\n\nDie einen sagen, die Kugeln sind die Sonne, die Erde, der Mond.\nDie andern glauben, sie seien das Feuer, die Angst und der Tod.\nUnd wenn sie beisammen sind dann summen sie in den Wind:\n\nUnd dann kam einer geritten, es war in dem Jahr vor der Zeit,\nauf einer gesattelten Wolke, von hinter der Ewigkeit.\nEr nahm von der Wand einen Queue, der Wirt rief krächzend: \"He!\"\n\nDoch jener, der lachte zwei Donner und wachste den knöchernen Stab,\nvisierte und stieß und die Kugeln prallten aneinander ab.\nFäulnis flatterte auf, so nahm alles seinen Lauf.",
-  "title": "Die drei glänzenden Kugeln",
+  "title": "Drei glänzende Kugeln",
   "words": [
     {
       "name": "Franz Josef Degenhardt",
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "6/8",
-  "alternativeTitle": "Drei Kugeln",
+  "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "Am",
   "info": "",
