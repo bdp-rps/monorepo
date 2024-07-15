@@ -215,7 +215,7 @@ import Song213 from "./karrieresong.json"
 import Song214 from "./kawuras-der-krebs.json"
 import Song215 from "./kein-schoener-land.json"
 import Song216 from "./kfrroarrr--lied-der-besten-kursrunde-2023.json"
-import Song217 from "./kiefern-in-wind.json"
+import Song217 from "./kiefern-im-wind.json"
 import Song218 from "./kinder-dieser-welt.json"
 import Song219 from "./komm-flieg-mit-uns-ins-all.json"
 import Song220 from "./komm-lauf-mit-uns-hinaus.json"
@@ -661,7 +661,7 @@ export default {
 "kawuras-der-krebs": Song214,
 "kein-schoener-land": Song215,
 "kfrroarrr--lied-der-besten-kursrunde-2023": Song216,
-"kiefern-in-wind": Song217,
+"kiefern-im-wind": Song217,
 "kinder-dieser-welt": Song218,
 "komm-flieg-mit-uns-ins-all": Song219,
 "komm-lauf-mit-uns-hinaus": Song220,

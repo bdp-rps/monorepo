@@ -4,8 +4,15 @@
   "title": "Paporaki",
   "words": [
     {
-      "name": "Jörg Seyffarth, Rolf Koerber",
-      "nickname": "Plauder, Philo",
+      "name": "Jörg Seyffarth",
+      "nickname": "plauder",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "1993"
+    },
+    {
+      "name": "Rolf Koerber",
+      "nickname": "philo",
       "group": "",
       "organisation": "Zugvogel",
       "year": "1993"
@@ -13,11 +20,11 @@
   ],
   "tune": [
     {
-      "name": "",
-      "nickname": "Plauder",
+      "name": "Jörg Seyffarth",
+      "nickname": "plauder",
       "group": "",
-      "organisation": "",
-      "year": ""
+      "organisation": "Zugvogel",
+      "year": "1993"
     }
   ],
   "translation": [],
