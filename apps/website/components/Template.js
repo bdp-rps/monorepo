@@ -33,7 +33,6 @@ const subNavs = {
     '/geschichte': 'Geschichte',
   },
   '/digital': {
-    '/downloads': 'Downloads',
     'https://cloud.bdp-rps.de': 'Cloud',
     '/apps': 'Apps',
   },
