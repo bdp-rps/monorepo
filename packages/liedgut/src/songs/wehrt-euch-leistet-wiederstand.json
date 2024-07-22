@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{Gm}Wehrt {F}euch, {Gm}leistet Wieder{F}stand\n{Gm}Gegen {F}den Fa{Gm}schismus hier im {F}Land\n{Gm}Auf die Barri{F}kaden, {Gm}auf die Barri{F}kaden ",
+  "title": "Wehrt euch, leistet Wiederstand",
+  "words": [
+    {
+      "name": "Unbekannt",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Englisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "16. Jhd.",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "116",
+  "musicalKey": "Gm",
+  "info": "Kanon; zur Melodie von \"Spann den Wagen an\" ",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1721642160607,
+      "name": "",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
