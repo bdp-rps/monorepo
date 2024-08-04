@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Lustig, {D}lustig ihr lieben Brüder, nun leget all eure Arbeit {G}nieder\nund trinkt ein {D}Glas Champagner{A}we{A7}in, und trinkt ein {D}Glas Cham{A}pagner{D}wein.\n\nDenn unser Orden, der ist verdorben, die letzten Saufbrüder sind gestorben,\n/: es lebet keiner mehr als ich und du. :/\n\nDenn auch in Polen ist nichts zu holen, man kommt davon nicht unbestohlen,\n/: bei Danzig fängt die See schon an. :/\n\nSchifflein, Schifflein, nun tu dich wenden und lass dich hin nach Riga lenken,\n/: wohl zu der russ'chen Seekaufshandelsstadt. :/\n\nDann wollen wir es noch einmal wagen und wollen fahren nach Kopenhagen,\n/: wohl zu der dänischen Residenz. :/\n\nDann geht es heim, wohl an den Main, ganz Frankfurt ist voll Äppelwein,\n/: der letzte Heller muss versoffen sein. :/",
+  "content": "Lustig, {D}lustig ihr lieben Brüder, nun leget all eure Arbeit {G}nieder\nund trinkt ein {D}Glas Champagner{A}we{A7}in, und trinkt ein {D}Glas Cham{A}pagner{D}wein.\n\nDenn unser Orden, der ist verdorben, die letzten Saufbrüder sind gestorben,\n/: es lebet keiner mehr als ich und du. :/\n\nDenn auch in Polen ist nichts zu holen, man kommt davon nicht unbestohlen,\n/: bei Danzig fängt die See schon an. :/\n\nSchifflein, Schifflein, nun tu dich wenden und lass dich hin nach Riga lenken,\n/: wohl zu der russ'chen Seekaufshandelsstadt. :/\n\nDann wollen wir es noch einmal wagen und wollen fahren nach Kopenhagen,\n/: wohl zu der dänischen Residenz. :/\n\nDann geht es heim, wohl an den Main, ganz Frankfurt ist voll Äppelwein,\n/: der letzte Heller muss versoffen sein. :/\n\nDenn unser Orden, der ist verdorben, die letzten Saufbrüder sind gestorben,\n/: es lebet keiner mehr als ich allein. :/",
   "title": "Lustig, lustig",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1722773687843,
+      "name": "Torben",
+      "mail": "torben@bdp-rps.de",
+      "type": "update",
+      "content": "letzte Strophe ergänzt"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
