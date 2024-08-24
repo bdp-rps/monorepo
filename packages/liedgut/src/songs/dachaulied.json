@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{g}Stacheldraht, mit{b} Tod geladen, \nist{c} um uns{D}'re Welt gespan{g}nt. \n{Bbm}D'rauf ein Himmel{Dbm} ohne Gnaden \nsen{f}det Frost und Sonn{D}enbrand. \nF{c}ern von uns{A} sind{D} alle Freuden, \nfe{c}rn die Heimat, fern die Fr{A}au'n, \nw{g}enn wir stumm zur{b} Arbeit schreiten, \nT{c}ausende im{D} Morgengrau'n. {g}\n\n\nRefrain: \nD{G}och wir haben d{D}ie Losung von Dachau ge{e}lernt \nund wurden s{G}tahlhart dabei.{D7} \nS{G}ei ein Mann, Kame{e}rad. \nBleib ein M{G}ensch, Kamerad. \nMach{e} ganze Arb{G}eit, pack{e} an Kamerad. \n{G}Denn Arbeit, {D}Arbeit macht fr{G}ei.\n\nVor der Mündung der Gewehre \nleben wir bei Tag und Nacht. \nLeben wird uns hier zu Lehre, \nschwerer als wir's je gedacht. \nKeiner mehr zählt Tag' und Wochen, \nmancher schon die Jahre nicht. \nUnd so viele sind zerbrochen \nund verloren ihr Gesicht.\n\nSchlepp den Stein und zieh den Wagen, \nkeine Last sei dir zu schwer. \nDer du warst in fernen Tagen, \nbist du heut' schon längst nicht mehr. \nStich den Spaten in die Erde, \ngrab dein Mitleid tief hinein, \nund im eig'nen Schweiße werde \nselber du zu Stahl und Stein.\n\nEinst wird die Sirene künden; \nauf zum letzten Zählappell. \nDraußen dann, wo wir uns finden \nbist du, Kamerad zur Stell'.\nHell wird uns die Freiheit lachen, \nvorwärts geht's mit frischem Mut. \nUnd die Arbeit, die wir machen, \ndiese Arbeit, sie wird gut.",
+  "title": "Dachau-Lied",
+  "words": [
+    {
+      "name": "Jura Soyder",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1938",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Herbert Zipper",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1724508144556,
+      "name": "Mira",
+      "mail": "mira.kube@bdp.org",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
