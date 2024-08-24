@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Mein Va{e}ter wird gesu{B7}cht,\ner kommt nicht mehr nach H{e}aus.\nSie {a}hetzen ihn mit Hu{e}nden,\nviell{a}eicht ist er gef{a}unden –\nund kommt nicht mehr {a}nach {e}Haus\n\nOft kam zu uns SA\nund fragte, wo er sei.\nWir konnten es nicht sagen,\nsie haben uns geschlagen,\nwir schrien nicht dabei.\n\nDie Mutter aber weint,\nwir lasen im Bericht,\nder Vater sei gefangen\nund hätt‘ sich aufgehangen –\ndas glaub‘ ich aber nicht.\n\nEr hat uns doch gesagt,\nso etwas tät‘ er nicht.\nEs sagten die Genossen,\nSA hätt‘ ihn erschossen –\nganz ohne ein Gericht.\n\nHeut‘ weiß ich ganz genau,\nwarum sie das getan.\nWir werden doch vollenden,\nwas er nicht konnt‘ beenden –\nund Vater geht voran!",
+  "title": "Mein Vater wird gesucht",
+  "words": [
+    {
+      "name": "Hans Drach",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1934",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Gerda Kohlmey",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1935",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1724510052991,
+      "name": "Mira",
+      "mail": "mira.kube@bdp.org",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
