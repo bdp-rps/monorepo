@@ -8,7 +8,8 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": true
     }
   ],
   "tune": [
@@ -17,7 +18,8 @@
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": true
     }
   ],
   "translation": [],
@@ -25,7 +27,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "E",
-  "info": "",
+  "info": "Der Liedtexter und Germanist Hannes Kraft wurde am 19. Februar 1909 geboren, er starb am 8. Januar 1983. Er war Mitglied der Hitlerjugend und der NSDAP. Seine 1939 mit Hubert Iven verfasste Schrift „Jungvolk erlebt seine Heimat: ein Tag aus einem Zeltlager“, wurde nach Ende der nationalsozialistischen Herrschaft in der sowjetischen Besatzungszone auf die Liste der auszusondernden Literatur gesetzt. 1943 gab er – gemeinsam mit Christian Jenssen – im Auftrag des Oberkommandos der Kriegsmarine die Anthologie „Die Schiffsglocke“ heraus.",
   "changes": [
     {
       "date": 1680002817287,
@@ -68,6 +70,13 @@
       "mail": "robin@weser.io",
       "type": "update",
       "content": "Layout"
+    },
+    {
+      "date": 1724754767385,
+      "name": "Mira",
+      "mail": "mira.kube@bdp.org",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {
