@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{a}{E}{F}{C}\n{a}{E}{F}{C}\n\n{a}Ich steige e{E}in,{F} die Tür geht {C}zu\n{a}Jemand dreht sich n{E}och ein Stückchen w{F}eg\n{a}Ich fang an zu s{E}ingen,{F} mach meine R{C}unde\n{a}Jemand wirft mir G{E}eld in Hut wie'n Klumpen D{F}reck.\n\nDas Licht geht an, die Grenzen klar\nMüde Menschen sitzen grübelnd auf ner Rennbahn\nNicht froh, nicht traurig, trotz Anti-Kummer-Bierchen\nUnd freun sich nicht an Apple und Bananen\n\n{d}Manchmal steh ich{Dsus4} Tage{d} la{Dsus2}ng a{d}uf Bühnen rum u{F/E}nd spiel\nUnd {C}weiß beim besten Willn nicht mehr w{E}ofür\nOder sch{d}limmer noch: ich lieg {Dsus4}zu Hau{d}se r{Dsus2}um\nUnd {F/E}stell dann einfach fest, ich war seit {C}Tagen nicht vor meiner Tü{E}r\n\nJa, is schon klar, mach das doch besser wenn du willst\nLass mich in Ruh!\nIch hab die Hoffnung nich verlor'n, die kommt schon wieder\nMit Geduld\nIch geh den Bahnsteig lang, flankiert von Polizei\nAls Musikant biste nich besser als'n Dieb\nDoch du läufst nebenher, und schreist die Bullen an\nIch kenn dich nich, doch danke dir dafür...\n\nManchmal wart ich Wochen lang, auf Momente so wie den\nUnd Tränen tropfen nass von meiner Wange\nIch denk an dich, du alte Frau, und denk an deine Wut\nBis ich so mutig bin wie du brauch ich noch lange\n\nJa, is schon klar, wenn ich nur einmal so mutig wär wie du\nWenn ich nur mach, was ich schon kann, ey, da gehört doch nix dazu\nJetz biste wieder da, in meinem Kopf\nIch seh dein graues Haar, die Tasche und den Rock\nDu grinst mich lustig an, während du mir auf die Schultern klopfst\nWährend du mir auf die Schultern klopfst\n\nManchmal lauf ich Wochen lang herum und habe Lust\nAn Grundfesten zu rütteln und zu tanzen\nUnd dann will ich nich ein Stück vom Kuchen, sondern die ganze Bäckerei\nUnd wir backen uns ein neues großes Ganzes\n\nWenn mich jemand fragt, ob ich damit ernsthaft die Welt verändern will\n/:Sag ich na klar, was denkst denn du, weswegen ich hier steh und spiel\nDu Arschloch! :/",
+  "title": "U-Bahn",
+  "words": [
+    {
+      "name": "Konny Kleinkunstpunk",
+      "nickname": "",
+      "group": "",
+      "organisation": "BDP",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Konny Kleinkunstpunk",
+      "nickname": "",
+      "group": "",
+      "organisation": "BDP",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1724704552605,
+      "name": "Mira",
+      "mail": "mir.kube@bdp.org",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
