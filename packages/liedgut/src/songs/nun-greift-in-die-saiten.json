@@ -26,7 +26,7 @@
   "alternativeTitle": "Ein strahlender Tag",
   "tempo": "100",
   "musicalKey": "G",
-  "info": "",
+  "info": "Gehrke zögerte den Eintritt in die HJ soweit wie möglich, und meldete sich direkt zur Waffen-SS. Zum Krieg eingezogen wurde er 1943 direkt in die Eliteinheit der 1. Panzerdivision Leibstandarte Adolf Hitler.",
   "changes": [
     {
       "date": 1679515539982,
@@ -48,6 +48,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1724707376674,
+      "name": "Mira",
+      "mail": "mira.kube@bdp.org",
+      "type": "update",
+      "content": "Ergänzung, da das Sternchen ohne Erläuterung nicht so aussagekräftig ist"
     }
   ],
   "specialSettings": {
