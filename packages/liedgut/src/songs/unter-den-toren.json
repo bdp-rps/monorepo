@@ -25,7 +25,7 @@
   "beat": "3/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "",
+  "info": "Erich Scholz war, nach eigenen Angaben, 1933-1936 teilweise hauptamtlich Führer in der Hitlerjugend. 1938-1945 war er Teil der SS. 1941 meldete er sich freiwillig zur Waffen-SS. 1945 führte Scholz 700 KZ-Häftlinge auf einen Todesmarsch.",
   "changes": [
     {
       "date": 1649588713401,
@@ -54,6 +54,13 @@
       "mail": "robin@weser.io",
       "type": "update",
       "content": "Akkorde"
+    },
+    {
+      "date": 1724706202781,
+      "name": "Mira",
+      "mail": "mira.kube@bdp.org",
+      "type": "update",
+      "content": "Ergänzung"
     }
   ],
   "musicalKey": "Am",
