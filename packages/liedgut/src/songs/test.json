@@ -1,0 +1,23 @@
+{
+  "notation": "",
+  "content": "Blablabla",
+  "title": "Test",
+  "words": [],
+  "tune": [],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1725649327871,
+      "name": "Test",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
