@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Die {A}Affen rasen durch den Wald,\nder {A}eine macht den andern kalt.\n\nDie ganze {E7}Affenbande {A}brüllt:{A7}\n/:\"Wo ist die {D}Kokosnuss, wo ist die {A}Kokosnuss,\nwer hat die {E7}Kokusnuss ge{A}klaut?\" :/\n\nDie Affenmama sitzt am Fluss\nUnd angelt nach der Kokosnuss.\n\nDer Affenonkel, welch ein Graus,\nReißt ganze Urwaldbäume aus.\n\nDie Affentante kommt von fern,\nsie isst die Kokosnuss so gern.\n\nDer Affenmilchmann, dieser Knilch,\nder wartet auf die Kokosmilch.\n\nDer Affenschutzmann schreit: \"Verrat!\nDie Kokusnuss gehört dem Staat!\"\n\nDas Affenbaby voll Genuss\nHält in der Hand die Kokosnuss.\nDie ganze Affenbande brüllt:\n/:\"Hier ist die Kokosnuss! Hier ist die Kokosnuss!\nEs hat die Kokosnuss geklaut\" :/\n\nDie Affenoma schreit \"Hurra!\nDie Kokosnuss ist wieder da!\"\nDie ganze Affenbande brüllt:\n/:\"Hier ist die Kokosnuss! Hier ist die Kokosnuss!\nEs hat die Kokosnuss geklaut\" :/\n\nUnd die Moral von der Geschicht',\nKlau keine Kokosnüsse nicht,\nWeil sonst die ganze Bande brüllt:\n/:\"Wo ist die Kokosnuss, wo ist die Kokosnuss,\nwer hat die Kokusnuss geklaut?\" :/",
+  "content": "Die {A}Affen rasen durch den Wald, der eine macht den andern kalt.\nDie ganze {E7}Affenbande {A}brüllt:{A7}\n/: \"Wo ist die {D}Kokosnuss, wo ist die {A}Kokosnuss, wer hat die {E7}Kokusnuss ge{A}klaut?\" :/\n\nDie Affenmama sitzt am Fluss und angelt nach der Kokosnuss.\n\nDer Affenonkel, welch ein Graus, reißt ganze Urwaldbäume aus.\n\nDie Affentante kommt von fern, sie isst die Kokosnuss so gern.\n\nDer Affenmilchmann, dieser Knilch, der wartet auf die Kokosmilch.\n\nDer Affenschutzmann schreit: \"Verrat! Die Kokusnuss gehört dem Staat!\"\n\nDas Affenbaby voll Genuss Hält in der Hand die Kokosnuss.\nDie ganze Affenbande brüllt:\n/: \"Hier ist die Kokosnuss! Hier ist die Kokosnuss! Es hat die Kokosnuss geklaut\" :/\n\nDie Affenoma schreit \"Hurra! Die Kokosnuss ist wieder da!\"\nDie ganze Affenbande brüllt:\n/: \"Hier ist die Kokosnuss! Hier ist die Kokosnuss! Es hat die Kokosnuss geklaut\" :/\n\nUnd die Moral von der Geschicht, klau keine Kokosnüsse nicht,\nWeil sonst die ganze Bande brüllt:\n/: \"Wo ist die Kokosnuss, wo ist die Kokosnuss, wer hat die Kokusnuss geklaut?\" :/",
   "title": "Die Affen rasen durch den Wald",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "A",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726003882728,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
