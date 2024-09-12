@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/8\n| \"A\" c d e e d c |  \"cis\" c d e e2 c | \"D\" f f f f e d |[M:3/8] \"E\" e e f | [M:6/8] \"E7\" e2 z4 |\n\"A\" c d e e2 c |  \"fis\" c b, a, a,2 c | \"D\" d d d d c b,  | \"E\" c2 b, \"A\" a,2 z | ",
   "content": "{A}Klopfet der Regen und {cis}tropft von den Steinen, \n{D}Klagen die Bäume und {E}jammert der {E7}Wind.\n{A}Wie viele Tränen {fis}muss ich noch weinen,\n{D}Bis wir in Frieden bei{E}sammen {A}sind.\n\nSieh, all die Vögel, sie zogen gen Süden,\nFlohen den Winter und wichen dem Frost,\naber uns ist keine Sonne beschieden.\nRuhlos durchwandern wir Nord und Ost.\n\nDer du gebietest dem Mond und den Sternen,\nder du die Lilie im Feld nicht verläßt.\nSei du mit uns in der fernsten der Fernen!\nGib deine Hand und beschirm unser Nest.",
   "title": "Herbstliches Lied",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "6/8",
   "alternativeTitle": "",
-  "tempo": "160",
+  "tempo": "95",
   "musicalKey": "A",
   "info": "",
   "specialSettings": {},
@@ -41,6 +41,13 @@
       "mail": "robin",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1726164823105,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
   ]
 }
