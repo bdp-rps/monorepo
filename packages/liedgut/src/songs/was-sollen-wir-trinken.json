@@ -1,14 +1,15 @@
 {
   "notation": "",
-  "content": "/:Was sollen wir {e}trinken sieben Tage {D}lang,\nwas sollen wir {e}trinken, wir {D}haben {e}Durst. :/\n/:Es ist ge{G}nug für {D7}alle {G}da,\nda{H7}rum lasset uns {e}trinken, rollt das Fass her{D}ein,\nwir trinken {e}zusammen, {D}nicht {e}allein. :/\n\n/:Dann wollen wir schaffen sieben Tage lang,\ndann wollen wir schaffen, komm, fass an! :/\n/:Und das wir keine Plackerei.\nWir schaffen zusammen sieben Tage lang,\nja schaffen zusammen, nicht allein. :/\n\n/:Jetzt müssen wir streiten, keiner weiß wie lang,\nja für ein Leben ohne Zwang. :/\n/:Dann kriegt der Frust uns nicht mehr klein,\nwir halten zusammen, keiner kämpft allein,\nwir gehen zusammen, nicht allein. :/\n\n/:Dann wollen wir trinken sieben Tage lang,\ndann wollen wir trinken, wir haben Durst. :/\n/:Es ist genug für alle da!\nDarum lasset uns trinken, rollt das Fass herein,\nwir trinken zusammen, nicht allein. :/",
+  "content": "/: Was sollen wir {e}trinken sieben Tage {D}lang, was sollen wir {e}trinken, wir {D}haben {e}Durst. :/\n/: Es ist ge{G}nug für {D7}alle {G}da, da{H7}rum lasset uns {e}trinken, rollt das Fass her{D}ein,\nwir trinken {e}zusammen, {D}nicht {e}allein. :/\n\n/: Dann wollen wir schaffen sieben Tage lang, dann wollen wir schaffen, komm fass an! :/\n/: Und das wird keine Plackerei. Wir schaffen zusammen sieben Tage lang,\nja schaffen zusammen, nicht allein. :/\n\n/: Jetzt müssen wir streiten, keiner weiß wie lang, ja für ein Leben ohne Zwang. :/\n/: Dann kriegt der Frust uns nicht mehr klein, wir halten zusammen, keiner kämpft allein,\nwir gehen zusammen, nicht allein. :/\n\n/: Dann wollen wir trinken sieben Tage lang, dann wollen wir trinken, wir haben Durst. :/\n/: Es ist genug für alle da! Darum lasset uns trinken, rollt das Fass herein,\nwir trinken zusammen, nicht allein. :/",
   "title": "Was sollen wir trinken",
   "words": [
     {
       "name": "",
       "nickname": "",
-      "group": "",
-      "organisation": "Bots",
-      "year": ""
+      "group": "Bots",
+      "organisation": "",
+      "year": "",
+      "critical": false
     }
   ],
   "tune": [
@@ -21,10 +22,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "6/8",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +34,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726248415008,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
