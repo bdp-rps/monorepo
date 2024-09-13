@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Auf einem {a}Spielplatz ruft ein Kind nach seiner {C}Mutter\nDamit die {a}sieht, wie hoch das Kind schon schaukeln {C}kann\nUnd es wirft die {e}Beine vor und hoch zum {d}Himmel\nBis ein {G}Schuh davonfliegt {C}und der landet dann\n\nAuf einem Auto, das am Straßenrand geparkt ist\nAuf dessen Windschutzscheibe \"Schwein\" geschrieben steht\nUnd das metallic-braun und glatt wie deine Haare\nGenau wie du sein wahres Alter nicht verrät\n\n/:{d}Ganz egal, {G}woran ich grade {C}denke\nAm {d}Ende denk ich {G}immer nur an {C}dich:/\n\n\nDie deutsche Mutter stürmt nach vorn in heller Panik\nUnd übersieht dabei ein Kindesbein im Sand\nUnd schlägt lang hin, da lacht der Kindesbeinbesitzer\nDer hat ein Erdbeereis in seiner rechten Hand\n\nDas hängt bedenklich schräg nach vorn in seiner Waffel\nUnd tropft sich selbst verschwendend auf die Haute Couture\nAm Leib des ganzen Stolzes seiner schönen Eltern\nUnd wird zu Dreck dort, genau wie ich bei dir\n\n\nWarum blutet Mutter aus der Nase?\nWarum ist ihr Kind so dumm wie klein?\nDarf ein metallic-braunes Auto denn da parken?\nUnd warum kann ich ohne dich nicht glücklich sein?\n\nWie viele Erdbeereise muss der Mensch noch essen\nBevor er endlich einmal sagt: \"Ich bin dafür\nDie böse Tat des Beinestellens zu unterlassen\"?\nUnd darf ich irgendwann nochmal zurück zu dir?",
+  "content": "Auf einem {a}Spielplatz ruft ein Kind nach seiner {C}Mutter,\ndamit die {a}sieht, wie hoch das Kind schon schaukeln {C}kann.\nUnd es wirft die {e}Beine vor und hoch zum {d}Himmel\nbis ein {G}Schuh davonfliegt {C}und der landet dann;\n\nAuf einem Auto, das am Straßenrand geparkt ist,\nauf dessen Windschutzscheibe \"Schwein\" geschrieben steht.\nUnd das metallic-braun und glatt wie deine Haare\ngenau wie du sein wahres Alter nicht verrät.\n\n/: {d}Ganz egal, {G}woran ich grade {C}denke, \nam {d}Ende denk ich {G}immer nur an {C}dich :/\n\nDie deutsche Mutter stürmt nach vorn in heller Panik\nund übersieht dabei ein Kindesbein im Sand.\nUnd schlägt lang hin, da lacht der Kindesbeinbesitzer,\nder hat ein Erdbeereis in seiner rechten Hand.\n\nDas hängt bedenklich schräg nach vorn in seiner Waffel,\nund tropft sich selbst verschwendend auf die Haute Couture,\nam Leib des ganzen Stolzes seiner schönen Eltern,\nund wird zu Dreck dort, genau wie ich bei dir.\n\nWarum blutet Mutter aus der Nase?\nWarum ist ihr Kind so dumm wie klein?\nDarf ein metallic-braunes Auto denn da parken?\nUnd warum kann ich ohne dich nicht glücklich sein?\n\nWie viele Erdbeereise muss der Mensch noch essen\nBevor er endlich einmal sagt: \"Ich bin dafür\ndie böse Tat des Beinestellens zu unterlassen\"?\nUnd darf ich irgendwann nochmal zurück zu dir?",
   "title": "Am Ende denk ich immer nur an dich",
   "words": [
     {
@@ -32,6 +32,15 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726250071909,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "Am"
 }
