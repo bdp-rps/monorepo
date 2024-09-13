@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{e}Wenn die Stern am Himmel steigen,\nüber {H7}unserm kleinen {e}Dom.\nBricht der Jeduschka sein Schweigen,\nBala{H7}laika spielt der {e}Sohn.\n{G}Ehja Ta{D}mara {G}tan{D}ze, {G}tanze!\nEhja Ta{D}mara {G}tan{D}ze, {G}Kind!\nEhja Ta{D}mara {G}tan{D}ze, {G}tanze!\nEhja Ta{D}mara {G}tan{D}ze, {G}tanz' gesch{e}wind.\n\nDie Babuschka dreht die Mühle,\ndreht die Mühle mit dem Mohn.\nDoch beim Balalaika-Spiele\nlässt sie Mühle steh'n und Mohn.\n\nPaare drehen ihre Reigen\num den hellen Feuerschein.\nFeurig sind die alten Weisen,\nfeurig ist der dunkle Wein.",
+  "content": "{e}Wenn die Stern am Himmel steigen, über {H7}unserm kleinen {e}Dom.\nBricht der Jeduschka sein Schweigen, Bala{H7}laika spielt der {e}Sohn.\n\n{G}Ehja Ta{D}mara {G}tan{D}ze, {G}tanze! Ehja Ta{D}mara {G}tan{D}ze, {G}Kind!\nEhja Ta{D}mara {G}tan{D}ze, {G}tanze! Ehja Ta{D}mara {G}tan{D}ze, {G}tanz gesch{e}wind.\n\nDie Babuschka dreht die Mühle, dreht die Mühle mit dem Mohn.\nDoch beim Balalaika-Spiele lässt sie Mühle steh'n und Mohn.\n\nPaare drehen ihre Reigen um den hellen Feuerschein.\nFeurig sind die alten Weisen, feurig ist der dunkle Wein.",
   "title": "Tanze Tamara",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726251423252,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
