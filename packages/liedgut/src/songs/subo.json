@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Ne{a}boja{G}lo {a}sevro {G}sa{a}ho,{G}{a}\n{G}Ma{a}jora {G}na {a}sola {G}la{a}ho,{G}{a}\n/: A {F}versi sia {D}gura do{a}lo {G}su{a}bo, {G}su{a}bo. :/{G}{a}\n\nLahena moi thri stetoko,\nMijano jo rando dolo,\nA versi sia gura dolo subo, subo.\n\nDorant je she doranaka,\nDa thruvo moi sakes danja,\nA versi sia gura dolo subo, subo.\n",
+  "content": "{G}Ne{a}boja{G}lo {a}sevro {G}sa{a}ho,{G}{a}\n{G}Ma{a}jora {G}na {a}sola {G}la{a}ho,{G}{a}\n/: A {F}versi sia {D}gura do{a}lo {G}su{a}bo, {G}su{a}bo. :/{G}{a}\n\nLahena moi thri stetoko,\nMijano jo rando dolo,\nA versi sia gura dolo subo, subo.\n\nDorant je she doranaka,\nDa thruvo moi sakes danja,\nA versi sia gura dolo subo, subo.",
   "title": "Subo",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726249019344,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
