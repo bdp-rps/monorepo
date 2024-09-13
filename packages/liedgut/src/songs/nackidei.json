@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Der {C}Eber sagt zu seiner Frau:\n\"Hör zu, du süße {G7}kleine Sau.\nWir {G7}machen heut 'ne Schweinerei\nund {G7}gehen mal wieder {C}nackidei!\"\n\n{C}Nackidei, nackidei, alle sind heut' {G7}nackidei.\n{G7}Nackidei, nackidei und keiner findet {C}was dabei!\n\nDem Scaf wird in der Wolle heiß\nund von der Stirn rinnt ihm der Schweiß.\nDoch nach der Schur sagt es: \"Ja mei,\ndös is fantastisch, nackidei!\"\n\nDas Küken hält es nicht mehr aus,\nwill endlich aus dem Ei heraus.\nZerpickt die Schale eins, zwei, drei.\nPlumps - da liegt es nackidei.\n\nDem Karpfen fallen die Schuppen ab,\ner guckt und guckt und lacht sich schlapp.\nWas schwebt da an der Schnur vorbei?\nEin Wurm und dann noch nackidei!\n\nFrau Müller sitzt vor ihrem Haus\nund hölt die Hitze kaum noch aus.\nNach kurzer Zeit ein spitzer Schrei:\n\"Ein Frosch und völlig nackidei!\"",
+  "content": "Der {C}Eber sagt zu seiner Frau: \"Hör zu, du süße {G7}kleine Sau.\nWir machen heut ne Schweinerei und gehen mal wieder {C}nackidei!\"\nNackidei, nackidei, alle sind heut {G7}nackidei. \nNackidei, nackidei und keiner findet {C}was dabei!\n\nDem Schaf wird in der Wolle heiß und von der Stirn rinnt ihm der Schweiß.\nDoch nach der Schur sagt es: \"Ja mei, dös is fantastisch, nackidei!\"\n\nDas Küken hält es nicht mehr aus, will endlich aus dem Ei heraus.\nZerpickt die Schale eins, zwei, drei. Plumps - da liegt es nackidei.\n\nDem Karpfen fallen die Schuppen ab, er guckt und guckt und lacht sich schlapp.\nWas schwebt da an der Schnur vorbei? Ein Wurm und dann noch nackidei!\n\nFrau Müller sitzt vor ihrem Haus und hält die Hitze kaum noch aus.\nNach kurzer Zeit ein spitzer Schrei: \"Ein Frosch und völlig nackidei!\"",
   "title": "Nackidei",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726250912308,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
