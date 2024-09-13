@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "             {e}                   {C}                     {D}                        {e}\nDass die Sonne sich verdunkelt, hatte man schon oft gesehen.\n              {e}                         {C}                  {D}                           {e}\nDass die Vögel nicht mehr flogen, war vielleicht noch zu verstehn.\n             {G}                    {D}                  {C}                      {e}\nDass es plötzlich kälter wurde, lag gewiss am Abendlicht;\n                {G}                             {D}                  {C}               {a}            {H7}\nDoch das dumpfe Beben, das näher kam, verstand man einfach nicht.\n\nMan verkroch sich in den Häusern, niemand schlief in dieser Nacht.\nNur die Kinder wurden eilig mit einem Trunk zur Ruh gebracht.\nDoch man hatte eins vergessen, und als keine Zeit mehr blieb, \nHörte man es singen am Straßenrand, und es sang sein Lieblingslied.\n\n    {A}         {H7}         {E}                   {fis}       {H7}     {E}\n    Riesen sind nur halb so groß, sind ja lange Zwerge bloß.\n    {A}         {H7}        {E}               {D}               {A}       {H7}                {e}\n    Riesen haben Riesenangst, wenn man ihnen auf der Nase tanzt.\n\nDa erzitterte die Erde, und es zog ein Sturm herauf\nUnd die Menschen in den Häusern gaben alle Hoffnung auf.\nDieses Kind war längst verloren. das war nun für alle klar, \nDenn es ahnte niemand in der Not, was da draußen geschehen war.\n\nUnd dann trat er aus den Wäldern, der gefürchtete Gigant\nEinen Baum von hundert Jahren knickte er mit einer Hand\nUnd er sah das kleine Wesen, das ihn nicht zu fürchten schien\nLangsam kniete er sich zu dem Kind (hinab) und es sang sein Lied für ihn\n\n    Riesen sind …\n",
+  "content": "Dass die {e}Sonne sich ver{C}dunkelt, hatte {D}man schon oft ge{e}sehen.\nDass die {e}Vögel nicht mehr {C}flogen, war viel{D}leicht noch zu ver{e}stehn.\nDass es {G}plötzlich kälter {D}wurde, lag {C}gewiss am {e}Abendlicht;\nDoch das {G}dumpfe Beben, das {D}näher kam, {C}verstand man {a}einfach {H7nicht.\n\nMan verkroch sich in den Häusern, niemand schlief in dieser Nacht.\nNur die Kinder wurden eilig mit einem Trunk zur Ruh gebracht.\nDoch man hatte eins vergessen, und als keine Zeit mehr blieb, \nhörte man es singen am Straßenrand, und es sang sein Lieblingslied.\n\n{A}Riesen sind nur {H7}halb so {E}groß, {fis}sind ja {H7}lange {E}Zwerge bloß.\n{A}Riesen haben {H7}Riesen{E}angst, {D}wenn man {A}ihnen {H7}auf der Nase {e}tanzt.\n\nDa erzitterte die Erde, und es zog ein Sturm herauf\nund die Menschen in den Häusern gaben alle Hoffnung auf.\nDieses Kind war längst verloren. das war nun für alle klar, \nDenn es ahnte niemand in der Not, was da draußen geschehen war.\n\nUnd dann trat er aus den Wäldern, der gefürchtete Gigant.\nEinen Baum von hundert Jahren knickte er mit einer Hand.\nUnd er sah das kleine Wesen, das ihn nicht zu fürchten schien.\nLangsam kniete er sich zu dem Kind und es sang sein Lied für ihn.\n\nRiesen sind …\n",
   "title": "Riesenglück",
   "words": [
     {
@@ -32,6 +32,15 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726249408653,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "Em"
 }
