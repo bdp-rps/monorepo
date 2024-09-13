@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{D}Oh, the summer{G}time is {D}coming\nand the {G}leaves are sweetly {D}blooming,\nand the {G}wild {A}mountain {h}thyme\ngrows ar{G}ound the bloomin' heather\nWill ye {D}go, {G}lassie, {D}go.\n\nAnd we'll {G}all go to{D}gether to pluck {G}wild {A}mountain {h}thyme, \nall ar{G}ound the bloomin' heather\nWill ye {D}go, {G}lassie, {D}go.\n\nI will build my love a bower\nby yon pure crystal fountain,\nand round it I will pile\nall the flowers o' the mountain,\nWill yo go, lassie, go.\n\nIf my true love she'll not come\nthen I'll surely find another\nto pull wild mountain thyme\nall around the bloomin' heather\nWill ye go, lassie, go.",
+  "content": "{D}Oh, the summer{G}time is {D}coming and the {G}leaves are sweetly {D}blooming,\nand the {G}wild {A}mountain {h}thyme grows ar{G}ound the bloomin' heather\nWill ye {D}go, {G}lassie, {D}go.\n\nAnd we'll {G}all go to{D}gether to pluck {G}wild {A}mountain {h}thyme, \nall ar{G}ound the bloomin' heather Will ye {D}go, {G}lassie, {D}go.\n\nI will build my love a bower by yon pure crystal fountain,\nand round it I will pile all the flowers o' the mountain,\nWill yo go, lassie, go.\n\nIf my true love she'll not come then I'll surely find another\nto pull wild mountain thyme all around the bloomin' heather\nWill ye go, lassie, go.",
   "title": "Wild Mountain Thyme",
   "words": [
     {
@@ -39,6 +39,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Akkorde richtig"
+    },
+    {
+      "date": 1726251578520,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "D"
 }
