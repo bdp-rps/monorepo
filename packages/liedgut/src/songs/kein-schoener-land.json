@@ -1,6 +1,6 @@
 {
   "notation": "z3/2 D D D | \"G\" G2 B2 A G | \"D\" A2 z D D D | \"G\" G2 B2 A G | \"D\" A2 z B G A\n |: \"G\"Bd c B A G |1 \"D\" Ac B A G A | \"G\" B2 z B G A :|2 [M:2/4] \"D\"Ac B A | \"G\" G2 \"D7\" F2 | [M:3/4] \"G\" G2 z |]",
-  "content": "Kein schöner {G}Land in dieser {D}Zeit,\nals hier das {G}unsre weit und {D}breit.\n\nWo wir uns {G}finden wohl unter {D}Linden zur Abend{G}zeit.\nWo wir uns finden wohl unter {D}Linden zur {G}A{D7}bend{G}zeit.\n\nDa haben wir so manche Stund,\ngesessen da in froher Rund,\n/: und taten singen, die Lieder klingen im Eichengrund. :/\n\nDass wir uns hier in diesem Tal,\nnoch treffen soviel hundertmal.\n/: Gott mag es schenken, Gott mag es lenken, er hat die Gnad. :/\n\nNun, Brüder eine gute Nacht,\nder Herr im hohen Himmel wacht,\n/: in seiner Güte uns zu behüten, ist er bedacht. :/",
+  "content": "Kein schöner {G}Land in dieser {D}Zeit, als hier das {G}unsre weit und {D}breit.\nWo wir uns {G}finden wohl unter {D}Linden zur Abend{G}zeit.\nWo wir uns finden wohl unter {D}Linden zur {G}A{D7}bend{G}zeit.\n\nDa haben wir so manche Stund, gesessen da in froher Rund,\n/: und taten singen, die Lieder klingen im Eichengrund. :/\n\nDass wir uns hier in diesem Tal, noch treffen soviel hundertmal.\n/: Gott mag es schenken, Gott mag es lenken, er hat die Gnad. :/\n\nNun, Brüder eine gute Nacht, der Herr im hohen Himmel wacht,\n/: in seiner Güte uns zu behüten, ist er bedacht. :/",
   "title": "Kein schöner Land",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726251205706,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
