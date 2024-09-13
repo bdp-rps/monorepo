@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Der {C} eine isst gern {F}Pudding, der {G}andre trocknes Brot, \nder {F}eine lebt im {H}Hochhaus, der andre auf nem {G}Boot. \nEin {C}anderer schläft im {F}Himmelbett, ein {G}andrer schläft im {a}Zelt, \nund {F}alle wie sie {C}da sind, sind sie {G}Kinder einer {C}Welt. \n\nDer eine geht gern Skifahren, mir geht das zu schnell, \nein andrer fährt gern Straßenbahn und einer Karussell. \nDer Eskimo fährt Schlitten, sein Schlittenhund, der bellt. \nAlle, die ihr da seid, seid ihr Kinder einer Welt. \n\nDie {F}Welt ist für uns {G}alle da, \nfür {a}Jutta, {G}Fritz und {F}Angela, \nNa{C}tascha, Achmed, {a}Silvio, \nNi{C}cole und Pedr{G}o eben{C}so. ",
+  "content": "Der {C}eine isst gern {F}Pudding, der {G}andre trocknes Brot, \nder {F}eine lebt im {H}Hochhaus, der andre auf nem {G}Boot. \nEin {C}anderer schläft im {F}Himmelbett, ein {G}andrer schläft im {a}Zelt, \nund {F}alle wie sie {C}da sind, sind sie {G}Kinder einer {C}Welt. \n\nDer eine geht gern Skifahren, mir geht das zu schnell, \nein andrer fährt gern Straßenbahn und einer Karussell. \nDer Eskimo fährt Schlitten, sein Schlittenhund, der bellt. \nAlle, die ihr da seid, seid ihr Kinder einer Welt. \n\nDie {F}Welt ist für uns {G}alle da, für {a}Jutta, {G}Fritz und {F}Angela, \nNa{C}tascha, Achmed, {a}Silvio, Ni{C}cole und Pedr{G}o eben{C}so. ",
   "title": "Kinder dieser Welt",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726250765631,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
