@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Seeräuberopa {F}Fabian {C}trieb so {a}manchen {D7}Schaber{G}nack, \n{C}kreuz und quer auf dem {F}Ozean, {C}teuer-hadde-{G7}littani{C}ack…\n\nSeeräuberopa Fabian, war bekannt auf der ganzen Welt, \ner raubte Gold von jedem Kahn, teuer-hadde-littandelt.. \n\n{a}Alter Käpt'n Fabian, \n{G}Pippi bleibt dir immer treu! \n{a}Jetzt lass die Kleine auch mal ran! \n{G}Käpt'n, a{D7}hoi a{G7}hoi! \n\nSeeräuberopa Fabian kotzt bei jedem Sturm ins Meer, \nmehr als einer essen kann, teuer-hatte-littander, \n\nSeeräuberopa Fabian, Pippi ist genau wie Du, \nsteuert Taka Tuka an, teuer-hatte-littandu. \n\nSeeräuberopa Fabian, Pippi holt den Papa raus, \nkeiner kann was Pippi kann, teuer-hatte-littandaus. ",
+  "content": "{C}Seeräuberopa {F}Fabian {C}trieb so {a}manchen {D7}Schaber{G}nack, \n{C}kreuz und quer auf dem {F}Ozean, {C}teuer-hadde-{G7}littani{C}ack…\nSeeräuberopa Fabian, war bekannt auf der ganzen Welt, \ner raubte Gold von jedem Kahn, teuer-hadde-littandelt.\n\n{a}Alter Käpt'n Fabian, {G}Pippi bleibt dir immer treu! \n{a}Jetzt lass die Kleine auch mal ran! {G}Käpt'n, a{D7}hoi a{G7}hoi! \n\nSeeräuberopa Fabian kotzt bei jedem Sturm ins Meer, \nmehr als einer essen kann, teuer-hatte-littander.\n\nSeeräuberopa Fabian, Pippi ist genau wie Du, \nsteuert Taka Tuka an, teuer-hatte-littandu. \n\nSeeräuberopa Fabian, Pippi holt den Papa raus, \nkeiner kann was Pippi kann, teuer-hatte-littandaus. ",
   "title": "Seeräuberopa Fabian",
   "words": [
     {
@@ -40,6 +40,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726251351732,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
