@@ -1,11 +1,20 @@
 {
   "notation": "",
-  "content": "Mein {a}Liebster, wo bist du ge{e}wesen die {d}Nacht?\nDu {a}hast dich so {d}heimlich von {C}dannen ge{e}macht.\nUnd {C}aus dem {d}Walde {e}rief es so {a}grell, Halb {d}deine {C}Stimme, halb {e}Wolfs{a}gebell.\n\nNun ist dir verloschen des Auges Glut,\nUm Lippen und Bart eine Spur von Blut;\nWo bist du gewesen? Was hast du getan?\nWas gingen die bellenden Wölfe dich an?\n\nO frage nicht, Liebste, o frage mich nicht,\nDie Nacht ist ja schwarz, und der Wald ist ja dicht.\nLeicht spült sich die Lippe, leicht spült sich der Bart,\nDass Niemand die Spuren des Blutes gewahrt.\n\nErloschen die Augen in Scham und in Reu,\nBald glänzen in eherner Härte sie neu.\nUnd lächelnde Lüge verschleiert so klug\nDie Hölle des Herzens, den Furienfluch.",
+  "content": "Mein {a}Liebster, wo bist du ge{e}wesen die {d}Nacht?\nDu {a}hast dich so {d}heimlich von {C}dannen ge{e}macht.\nUnd {C}aus dem {d}Walde {e}rief es so {a}grell, Halb {d}deine {C}Stimme, halb {e}Wolfs{a}gebell.\n\nNun ist dir verloschen des Auges Glut, um Lippen und Bart eine Spur von Blut;\nWo bist du gewesen? Was hast du getan? Was gingen die bellenden Wölfe dich an?\n\nO frage nicht, Liebste, o frage mich nicht. \nDie Nacht ist ja schwarz, und der Wald ist ja dicht.\nLeicht spült sich die Lippe, leicht spült sich der Bart, \ndass niemand die Spuren des Blutes gewahrt.\n\nErloschen die Augen in Scham und in Reu, bald glänzen in eherner Härte sie neu.\nUnd lächelnde Lüge verschleiert so klug die Hölle des Herzens, den Furienfluch.",
   "title": "Werwölfe",
-  "words": [],
+  "words": [
+    {
+      "name": "Artur Fitger",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
   "tune": [],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "tempo": 60,
   "info": "",
   "changes": [
@@ -15,7 +24,16 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726249000438,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {},
+  "musicalKey": "Am"
 }
