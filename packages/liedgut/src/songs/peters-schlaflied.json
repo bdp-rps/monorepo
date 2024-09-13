@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "\nWenn der A{a}bend vorb{e}ei ist und w{a}ir schlafen ge{e}hen, \nwenn {F}all unsre S{C}orgen in T{E}räumen verw{E7}ehn, \ndann {a}schütz unser {e}Zelt uns vor {a}Wasser und {e}Wind,\nge{F}borgen und s{C}icher im S{E7}chlaf man versinkt.\n\nRef:\nMit Tr{C}äumen von O{G}zeanen, S{a}ommerfahrten, H{E7}eldentaten \nu{F}nd wir k{C}önnen fl{G}iegen. \nK{C}ennen keine G{G}renzblokaden, \ns{a}chweben durch die N{E7}ebelschwaden, \n/:d{F}enn dem S{C}chlaf kann k{G}einer entfli{C}ehen://\n\nEin Knacken ein Rauschen manchmal vernimmt, \nso klingt der Wald wenn er Schlaflieder singt. \nAuch wenn einer sich wehret und dagegen ringt, \nder Wald der singt weiter bis im Schlaf man versinkt.\n\nSo bewacht das Gehölz unsren Schlaf unsren Schlummer, \nentzieht unsren Träumen die Not und den Kummer \nund wenn dann der Frühe das Zelt neu erwacht \nhat der Wald an den Schläfern sein Wunder vollbracht. \n",
+  "content": "Wenn der {a}Abend vor{e}bei ist und {a}wir schlafen ge{e}hen, \nwenn {F}all unsre {C}Sorgen in {E}Träumen ver{E7}wehn, \ndann {a}schütz unser {e}Zelt uns vor {a}Wasser und {e}Wind,\nge{F}borgen und {C}sicher im {E7}Schlaf man versinkt.\n\nMit {C}Träumen von {G}Ozeanen, {a}Sommerfahrten, {E7}Heldentaten \n{F}und wir {C}können fl{G}iegen. \n{C}Kennen keine {G}Grenzblokaden, \n{a}schweben durch die {E7}Nebelschwaden, \n/: {F}denn dem {C}Schlaf kann k{G}einer entfli{C}ehen :/\n\nEin Knacken ein Rauschen manchmal vernimmt, \nso klingt der Wald wenn er Schlaflieder singt. \nAuch wenn einer sich wehret und dagegen ringt, \nder Wald der singt weiter bis im Schlaf man versinkt.\n\nSo bewacht das Gehölz unsren Schlaf unsren Schlummer, \nentzieht unsren Träumen die Not und den Kummer \nund wenn dann der Frühe das Zelt neu erwacht \nhat der Wald an den Schläfern sein Wunder vollbracht. ",
   "title": "Peters Schlaflied",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "melina.spu@web.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1726250328733,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
