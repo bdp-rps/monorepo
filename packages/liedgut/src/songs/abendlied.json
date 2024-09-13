@@ -1,10 +1,10 @@
 {
   "notation": "",
-  "content": "{D} Kein schöner Land wohl {G}unter Linden {A}wo zur Abend{D}zeit,\nman sich vor seine {G}off'ne Türe {A}setzt und sich nur {D}freut,\ndass {h}drüben jetzt der selbe {A}Mond auf{D}geht,\nund {A}dass ein frischer Wind herüber{D}weht.\n\n/: {D}Da bin ich zuhause,{G} da bin {fis}ich zuhause,\n{G/h} wo man dieses {A}Lied ver{(D)}steht. :/\n\nWo man den großen Waagen, der am Himmel zieht, noch sieht,\nund nicht nur den, der protzig vor dem eigenen Hause steht,\nwo man sein Land ganz still am Abend schätzt,\nnicht morgens schon vom Abendlande schwätzt.\n\n/: Da bin ich zuhause, da bin ich zuhause,\nwo man sich beim Trinken setzt. :/\n\nWo eine Sichel nur im Kornfeld rauscht zur Abendstund',\ndie Nachbarn ohne Hammer miteinander reden und,\nwo nur die Nachtigall am Bach leis' klagt,\ndas Jagdhorn schallt nur, wenn man Tiere jagt.\n\n/: Da bin ich zuhause, da bin ich zuhause,\nda wo man zu Lachen wagt. :/\n\nNun, so genannte Brüder, Schwestern, eine gute Nacht,\nich wünsche euch und mir, dass über uns kein Büttel wacht!\nUnd wenn der Mond - er ist nur halb zu seh'n,\nnicht rot, noch braun, noch schwarz, noch blau ist, sondern rund und schön.\n\n/: Dann sind wir zuhause, dann sind wir zuhause\nDann – doch wann wird das gescheh'n? :/",
+  "content": "Der {C}Mond ist {F}aufge{G7}gan{C}gen, die goldnen {F}Sternlein {G7}pran{C}gen\nam Himmel {F}hell und {G}klar; Der {C}Wald steht {F}schwarz und {G7}schwei{C}get,\nund aus den {F}Wiesen {G7}stei{C}get der weiße {F}Nebel {G7}wunder{C}bar.\n\nWie ist die Welt so stille, und in der Dämm'rung Hülle\nso traulich und so hold! Als eine stille Kammer,\nwo ihr des Tages Jammer verschlafen und vergessen sollt.\n\nSeht ihr den Mond dort stehen? er ist nur halb zu sehen,\nund ist doch rund und schön! So sind wohl manche Sachen,\ndie wir getrost belachen, weil unsre Augen sie nicht sehn.\n\nWir stolze Menschenkinder sind eitel arme Sünder\nund wissen gar nicht viel; Wir spinnen Luftgespinste\nund suchen viele Künste und kommen weiter von dem Ziel.\n\nGott, lass uns dein Heil schauen, auf nichts Vergänglich's trauen,\nnicht Eitelkeit uns freun! Nass uns einfältig werden\nund vor dir hier auf Erden wie Kinder fromm und fröhlich sein!\n\nWollst endlich sonder Grämen aus dieser Welt uns nehmen\ndurch einen sanften Tod! Und, wenn du uns genommen,\nlass uns in Himmel kommen, Du unser Herr und unser Gott!\n\nSo legt euch denn, ihr Brüder, in Gottes Namen nieder;\nkalt ist der Abendhauch. Verschon uns, Gott! mit Strafen,\nund lass uns ruhig schlafen! und unsern kranken Nachbar auch!",
   "title": "Abendlied",
   "words": [
     {
-      "name": "Franz Josef Degenhardt",
+      "name": "Matthias Claudius",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -13,7 +13,7 @@
   ],
   "tune": [
     {
-      "name": "Franz Josef Degenhardt",
+      "name": "Johann Abraham Peter Schulz",
       "nickname": "",
       "group": "",
       "organisation": "",
@@ -21,24 +21,26 @@
     }
   ],
   "translation": [],
-  "beat": "2/4",
-  "alternativeTitle": "Da bin ich zuhause",
-  "tempo": "100",
-  "info": "Der erste Satz lehnt an das bekannte Volkslied \"Kein schöner Land\" an.\n\nSpielweise bevorzugt von der Trifels-CD aus dem Jahre 2018 entnehmen",
+  "beat": "4/4",
+  "alternativeTitle": "Der Mond ist aufgegangen",
+  "tempo": "80",
+  "musicalKey": "",
+  "info": "",
   "changes": [
     {
-      "date": 1673172695807,
-      "name": "Robin",
-      "mail": "robin@bdp-rps.de",
+      "date": 1679319743202,
+      "name": "Torben",
+      "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
     },
     {
-      "date": 1673174303352,
-      "name": "",
+      "date": 1726251509992,
+      "name": "ko",
       "mail": "",
       "type": "update",
       "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
