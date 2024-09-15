@@ -1,0 +1,56 @@
+{
+  "notation": "",
+  "content": "Wir wolln den {C}alten Schornstein wieder {G}rauchen sehn.  \nWir wolln, dass {F}Alt und {G}Jung beim Bier zu{C}sammenstehn.\nWir wollen {E}froh und frei und {a}ungezwungen sein \nund laden {D7}Freund und Feind mit uns zum {G}Feiern ein.\n\nDas {C}Leben in der Stadt ist {F}schön, ist interessant. Es {f}läuft und brummt und gibt niemals {E}Ruh.\nTolle {a}Pläne, hippe {A}Szene, immer Spannung in der {d}Luft. \nDoch {D7}sie fragt sich manchmal: \"Wo{G}zu?\"\n\nSo nahm sie's in die Hand, nahm die Kinder, ging aufs Land. Die alte Bäckerei war leer.\nAlles morsch, alles rott. Das Dach völlig Schrott, \ndafür 'n riesen Schornstein. Was willste mehr?\n\nSie traf einen Wirt der von Bier was verstand. Dem hat sie das Herz geklaut.\nDas mit Hopfen und Malz nahm sie selbst in die Hand. \nMit ihm hat sie sich getraut, die Braut!\nDie Braut braut das Bier. Warum grade hier? Hier stehn doch nur Kühe herum.\nWer solln dit saufen und dit allet kaufen? \nNe des is doch wirklich zu dumm.\n\nOle kriecht unter dem Traktor hervor. Clara hängt die Sense an die Wand.\nFlocke kommt mit dem Weinmeisterchor \nund Wolfgang mit seinem Trabant.\nDer Dorfplatz ist voll und es kommen noch mehr. Es wird mehr als ein Fass aufgemacht.\nDie Braut und der Wirt kommen kaum hinterher. \nDas Bier fließt in Strömen heut Nacht.\n\nWir könn'n den alten Schornstein wieder rauchen sehn, wir sehn wir Alt und Jung...",
+  "title": "Die Braut",
+  "words": [
+    {
+      "name": "Florian Krämer",
+      "nickname": "",
+      "group": "FloBêr",
+      "organisation": "",
+      "year": "2020",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Florian Krämer",
+      "nickname": "",
+      "group": "FloBêr",
+      "organisation": "",
+      "year": "2020",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "Das Lied wurde nach einer wahren Begebenheit geschrieben und erzählt, wie eine Berlinerin und ihr Partner in der Brandenburger Provinz eine eigene Brauerei aufmachen: die Dorfbrauerei Stegelitz namens \"Die braut\".\n",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "line",
+        "blocks": [
+          2
+        ],
+        "lines": [
+          1
+        ],
+        "style": {
+          "letterSpacing": -0.224
+        }
+      }
+    ]
+  },
+  "changes": [
+    {
+      "date": 1726427299289,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
