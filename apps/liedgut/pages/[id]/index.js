@@ -51,7 +51,7 @@ export default function Page({ id, songData }) {
               alignSelf={[, 'flex-start']}
               alignItems="flex-start"
               direction={['column', 'row']}>
-              {!isMounted ? null : (
+              {/* {!isMounted ? null : (
                 <Box
                   as={PDFDownloadLink}
                   grow={1}
@@ -63,11 +63,16 @@ export default function Page({ id, songData }) {
                     </Document>
                   }
                   fileName={id + '.pdf'}>
-                  {({ blob, url, loading, error }) => (
-                    <Button loading={loading}>Als PDF herunterladen</Button>
-                  )}
+                  {({ blob, url, loading, error }) => {
+                    {
+                      console.log(blob, url, loading, error)
+                    }
+                    return (
+                      <Button loading={loading}>Als PDF herunterladen</Button>
+                    )
+                  }}
                 </Box>
-              )}
+              )} */}
               <NextLink href={'/' + id + '/bearbeiten'}>
                 <Button variant="secondary">Änderungsvorschlag</Button>
               </NextLink>
