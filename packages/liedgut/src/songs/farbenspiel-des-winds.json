@@ -1,22 +1,62 @@
 {
   "notation": "",
-  "content": "Für {d{dich bin ich nur eine {F}Wilde.\nEs ist {d}klar, daß du so denkst denn du {F}bist sehr viel {A}gereist.\nDoch {B}sehe ich nicht {a}ein, wenn so {B}wild ich dir er{a}schein'\nwie {d}kommt's, daß du so {B}vieles gar nicht {A}weißt? Gar nicht {D}weißt?\n\nDu {D}landest hier und gleich gehört dir {h}alles.\nDas {D}Land ist für dich frei und nur noch {fis}Holz.\nDoch {h}jeder Stein und Baum und jedes {G}Wesen\nhat sein {e}Leben, seine {A}Seele, seinen {h}Stolz.\n\nFür dich sind echte Menschen nur die Menschen,\ndie so denken und so aussehn wie du.\nDoch folge nur den Spuren eines Fremden,\ndann verstehst du, und du lernst noch was dazu.\n\nKannst du {h}hören, wie der Wolf heult unterm {fis}Silber{G}mond?\nUnd {h}weißt du auch, warum der Luchs so {fis}grinst?\nKannst du {G}singen wie die {A}Stimmen in den {h}Bergen?\nKannst du {G}malen wie das Farbenspiel des {A}Winds?\nKannst du {G}malen wie das {A}Farbenspiel des {D}Winds?\n\nKomm', renn' mit mir im Schattenlicht der Wälder!\nProbier' die süßen Beeren dieser Welt.\nKomm', wälze dich in ihrer reichen Vielfalt\nund du merkst, daß im Leben dir nichts fehlt.\n\nDer Regen und der Fluß sind meine Brüder.\nDer Reiher und der Otter, mein Geleit.\nUnd jeder dreht sich mit und ist verbunden\nmit dem Sonnenrad, dem Ring der Ewigkeit.\n\nWie {G}weit wachsen {fis}Bäume hin{h}auf?\nDoch wenn {C}du sie fällst, kriegst du's {A}nie heraus.\n\nUnd vergessen sind die Wölfe und der Silbermond\nund daß wir alle ebenbürtig sind!\nWir müssen singen wie die Stimmen in den Bergen,\nmüssen malen wie das Farbenspiel des Winds.\nFremde Erde ist nur fremd, wenn der Fremde sie nicht kennt.\nDrum gehört sie nur dem Farbenspiel des Winds.\n",
+  "content": "Für {d{dich bin ich nur eine {F}Wilde.\nEs ist {d}klar, dass du so denkst denn du {F}bist sehr viel {A}gereist.\nDoch {B}sehe ich nicht {a}ein, wenn so {B}wild ich dir er{a}schein\nwie {d}kommts, dass du so {B}vieles gar nicht {A}weißt? Gar nicht {D}weißt?\n\nDu {D}landest hier und gleich gehört dir {h}alles. Das {D}Land ist für dich frei und nur noch {fis}Holz.\nDoch {h}jeder Stein und Baum und jedes {G}Wesen hat sein {e}Leben, seine {A}Seele, seinen {h}Stolz.\n\nFür dich sind echte Menschen nur die Menschen,\ndie so denken und so aussehn wie du.\nDoch folge nur den Spuren eines Fremden,\ndann verstehst du, und du lernst noch was dazu.\n\nKannst du {h}hören, wie der Wolf heult unterm {fis}Silber{G}mond?\nUnd {h}weißt du auch, warum der Luchs so {fis}grinst?\nKannst du {G}singen wie die {A}Stimmen in den {h}Bergen?\nKannst du {G}malen wie das Farbenspiel des {A}Winds?\nKannst du {G}malen wie das {A}Farbenspiel des {D}Winds?\n\nKomm, renn mit mir im Schattenlicht der Wälder!\nProbier die süßen Beeren dieser Welt.\nKomm, wälze dich in ihrer reichen Vielfalt\nund du merkst, dass im Leben dir nichts fehlt.\n\nDer Regen und der Fluss sind meine Brüder.\nDer Reiher und der Otter, mein Geleit.\nUnd jeder dreht sich mit und ist verbunden\nmit dem Sonnenrad, dem Ring der Ewigkeit.\n\nWie {G}weit wachsen {fis}Bäume hin{h}auf?\nDoch wenn {C}du sie fällst, kriegst du's {A}nie heraus.\n\nUnd vergessen sind die Wölfe und der Silbermond\nund dass wir alle ebenbürtig sind!\nWir müssen singen wie die Stimmen in den Bergen,\nmüssen malen wie das Farbenspiel des Winds.\nFremde Erde ist nur fremd, wenn der Fremde sie nicht kennt.\nDrum gehört sie nur dem Farbenspiel des Winds.",
   "title": "Farbenspiel des Winds",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Stephen Schwartz",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1995",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Alan Menken",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1995",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "Dm",
-  "info": "",
-  "specialSettings": {},
+  "info": "Aus dem Film \"Pocahontas\"",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "line",
+        "blocks": [
+          2
+        ],
+        "lines": [
+          1
+        ],
+        "style": {
+          "letterSpacing": -0.01
+        }
+      }
+    ]
+  },
   "changes": [
     {
       "date": 1726258234421,
       "name": "Paula ",
       "mail": "dungs.paula@t-online.de",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1726491023083,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
