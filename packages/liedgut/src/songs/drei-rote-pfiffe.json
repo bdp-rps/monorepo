@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "| a,2 |: \"D\" a,f,f, f,f,g, | a,2 f, f,2 z | \"h\" a,f,f, f,f,g, | a,3 z a,a, |\n\"fis\" a,f,f, f,2 f, | \"G\" f,d,d, d,2 d, | \"h\" d,2 b,, b,,b,,a,, | \"A\" a,,3 a,3 | | a,2 f, f,f,e, |1 \"D\" d,4 z f, | \n\"h\" f,2f, f,f,f, | f,f,f, f,2 f, | \"A\" f,2 e, e,2 e, | e,3 z e,f, | \"G\" g,2 g,g,2 g, |\n\"D\" f,d,d,-d,2 f, | \"fis\" f,2 f, f,2a,|a,3 z2 g, | \"G\" f,2 d,d,d,b,, | \"D\" d,4 z2 :|\n|2 [K:F] \"D\" d,4 z f, | \"d\" f,3-f,e,d, | a,2a,2 z f, | \"B\" f,3-f,g,a, | a,3 z2 a, | \n\"F\" a,3-a,g,f, | ca, z4 | \"a\" a,3-a,g,f, | ca, z4 | \"B\"  a,3-a,g,f, | \"g\" a, g,2-g,2 ^f, | \"D\" ^f,6 |",
   "content": "Im {D}Kreis ihrer Enkel die alte Frau, {h}zeigt mit erhobener Hand\nauf die {fis}Wälder, die dunklen {G}über der Drau:\nJetzt {h}zeige ich euch euer {A}Land, jetzt zeige ich euch euer {D}Land.\nDort {h}droben hab ich geschuftet am Hang, als {A}ich ein Kind noch war.\nBei der {G}Christmette mit {D}Glockenklang hing {fis}Eis von Rock und {A}Haar, hing {G}Eis von Rock und {D}Haar.\nDie Bergknappen kamen vom Lindenwirt und {h}flüsterten heimlich mit List,\ndass {fis}sich in der Welt was {G}ändern wird,\nnichts {h}bleiben muss wie es {A}ist; nichts bleiben muss, wie es {D}ist.\n\nVer{d}schwiegene Bäume, ver{B}schworener {d}Wald\nund {F}drei rote Pfiffe, {a7}drei rote Pfiffe, {B}drei rote {g}Pfiffe im {D}Wald.\n\nDie Drau hinunter trieb Mond um Mond, es brach der Faschistenkrieg aus.\nDa hatte ich dann einen Mann an der Front\nund hatte drei Kinder im Haus, und hatte drei Kinder im Haus.\nWie tönte da markiger Nazigesang von deutschem Boden und Blut.\nManch ein Bursch in die Berge entsprang. Ich trug Flugblätter unter dem Hut, trug Flugblätter unter dem Hut.\nDer Gestapo war kalt und der Gauleiter schalt:\nPartisanen im eigenen Land! Ich trug Geflüster und Brot in den Wald.\nSie haben mich Jelka genannt, sie haben mich Jelka genannt.\n\nVerschwiegene Bäume ...\n\nDer Winter war nass und uns wärmte der Hass, viele sind's, die die Erde heut birgt.\nWir haben gefochten, dort oben am Pass,\nan unsrer Befreiung gewirkt, an unsrer Befreiung gewirkt.\nDer Krieg war vorbei, da war Stille im Land, da waren die Lautesten leis.\nSie nahmen das Hitlerbild von der Wand. Ihre Westen, die wuschen sie weiß, ihre Westen, die wuschen sie weiß.\nIhr, meine Enkel, was hört ihr so stumm die alten, die kalten Berichte?\nJetzt trampeln sie auf euren Rechten herum, erinnert euch\nmeiner Geschichte, erinnert euch meiner Geschichte.\n\nVerschwiegene Bäume ... ",
   "title": "Drei rote Pfiffe",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "6/8",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "100",
   "info": "Geschichte der Patisanin Helena K. (Jelka“)",
   "changes": [
     {
@@ -60,6 +60,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Akkorde angepasst"
+    },
+    {
+      "date": 1726496595036,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Melodie"
     }
   ],
   "musicalKey": "D",
