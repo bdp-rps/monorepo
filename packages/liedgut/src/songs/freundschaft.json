@@ -20,7 +20,7 @@
   ],
   "beat": "4/4",
   "info": "",
-  "content": "{D}Wo wären wir nur ohne {A}unsre {h}Freunde,\nim Rad der {D}Zeit, ge{G}fangen ohne {A}Ziel.\nDrum lasst uns {D}heute hier in {A}dieser {h}Runde,\nzusammen {G}teilen Er{A}innerung'n von {D}früher.\n\nAll die von uns, erlebten Abenteuer,\nvon großer Fahrt, vom Segeln über See,\nvon warmen Nächten rund ums Lagerfeuer,\nmit kalten Füßen im Winter durch den Schnee.\n\nDie Zeit steht nie, doch Freunde kein Bedenken,\ndie Zukunft wird gewiss uns ein Kumpan.\nSolang' wir sie gemeinsam bestreiten,\nlächeln wir noch in Gedanken daran.\n\n(Letzte wie erste)",
+  "content": "{D}Wo wären wir nur {A}ohne unsre {h}Freunde,\nim Rad der {D}Zeit, ge{G}fangen ohne {A}Ziel.\nDrum lasst be{D}schwören, {A}hier in dieser {h}Runde,\nErinn'rung, {G}die in {A}uns'ren Herzen {D}glüh'n.\n\nAll die von uns, erlebten Abenteuer,\nvon großer Fahrt, vom Segeln über See,\nvon warmen Nächten rund ums Lagerfeuer,\nmit kalten Füßen im Winter durch den Schnee.\n\nDie Zeit steht nie, doch Freunde kein Bedenken,\ndie Zukunft wird gewiss uns ein Kumpan.\nMit jedem Schritt, den wir gemeinsam wagen,\nWächst unser Bund, stärkt sich auf unsrer Bahn.\n\n(Letzte wie erste)",
   "tempo": "80",
   "changes": [
     {
@@ -76,9 +76,17 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1726770200199,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": ""
     }
   ],
   "notation": "M:4/4\nC: Swing\n C C D | \"C\" E2 z A G E \"G\" D C | \"a\" A, C  C2 z C C D | \"C\" E2 z E \"F\" F2 F E |\n\"G\" D4 z C  C D | \"C\" E2 z A  G E \"G\" D C | \"a\" A, C  C2 z C D E | \"F\" F2 E2 \"G\" D2 C B, | \"C\" C2 z6 |",
   "translation": [],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {}
 }
