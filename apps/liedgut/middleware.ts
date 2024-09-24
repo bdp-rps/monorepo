@@ -15,7 +15,7 @@ export function middleware(req: NextRequest) {
 
     if (
       (user === 'lvrps' && pwd === 'besterlv123') ||
-      (user === 'streng' && pwd === 'strenggeheim')
+      (user === 'streng' && pwd === 'geheim')
     ) {
       return NextResponse.next()
     }
