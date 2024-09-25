@@ -15,7 +15,7 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
-  '/stamm': 'Aufbaugruppe Tilia',
+  '/stamm': 'Stamm Tilia',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
@@ -46,6 +46,7 @@ const subNavs = {
   },
   '/stamm': {
     '/blog': 'Blog',
+    '/mit-machen': 'Mit machen!',
     '/termine': 'Termine',
   },
 }
