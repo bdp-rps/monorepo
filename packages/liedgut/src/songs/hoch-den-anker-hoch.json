@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{d}Hoch, den Anker hoch, wir stehen {g}alle zu{d}sammen \nam {d}An{C}ker{F}tau und {g}ziehn den Anker {A}hoch.\nAm {g}Grunde steckt er {d}noch, doch die {B}schwarzen Kette {d}spannt sich,\ndie {d}Fahrt geht {C}endlich {F}los noch vor dem {g}ersten Tages{A}licht, dem {g}ersten {A}Tages{d}licht.\n\nDes {d}Abends hier im Hafen ziehn wir {g}zu den Kneipen {d}hin. \nLachen, raufen, tanzen, saufen, es fragt keiner nach dem {A}Sinn. \nUnd {g}geht es früh am {d}Morgen schon im {g}ersten Tages{d}licht, \nflucht {d}jeder {C}auf den {F}Käptn, doch {g}meutern wolln wir {A}nicht! Ho, {C}ho, {F}ho, {A}ho!\n\nDer Wind greift in die Segel, als wollt er sie zerreißen.\nWir binden das erste Reff hinein und hoffen auf was zum Beißen.\nDer Smut, der kocht die Ratten, die der Maat hat früh gefangen.\nDoch alle fluchen auf den Fraß: \"Der Smut wird aufgehangen!\" Ho, ho, ho, ho!\n\nGeht es auf die letzte Fahrt, wenn Licht und Schatten tauschen.\nEin jeder flucht auf Davy Jones, hört er die Dutchman rauschen.\nDann gilts den letzten Gang mit zwei Kugeln an den Beinen.\nDie Kameraden stehn an Deck, doch keinem ist zum Weinen. Ho, ho, ho, ho!\n\nHoch, den Anker hoch, wir stehen alle zusammen\nam Ankertau und ziehn den Anker hoch.\nDie schwarzen Segel blähn sich, denn wir steuern durch die Nacht.\nDer Steuermann besäuft sich, denn er hat den Teufel umgebracht, den Teufel umgebracht.",
+  "title": "Hoch, den Anker hoch",
+  "words": [
+    {
+      "name": "Achim Schiel",
+      "nickname": "Hellas",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2013",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Achim Schiel",
+      "nickname": "Hellas",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "2013",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "90",
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1727634812543,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
