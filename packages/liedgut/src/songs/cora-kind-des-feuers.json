@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{d}Cora, Kind des {C}Feuers,\nist überall be{d}kannt,\nwenn {B}sie in ihre {F}Trommel schlägt,\ndann {A}bebt das ganze {d}Land.\n\n{d}Bum bum {C}bum bum bum {d}bum-bum bum {C}bum bum bum.\n{d}bum bum {C}bum bum bum {d}bum-bum {C}bum {d}bum.\n\nSie streift durch Wald und Wiesen,\nlegt ganze Bäche brach,\ndurch Sturm und Wind jagt sie geschwind,\nden Abenteuern nach.\n\nAls Kriegerin der Flammen,\nerhellt sie ihren Pfad,\nNimm dich in Acht, wenn sie erwacht,\nTönt ferner Trommelschlag.",
+  "title": "Cora, Kind des Feuers",
+  "words": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "Stamm Luchs",
+      "organisation": "BdP",
+      "year": "2024",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "Stamm Luchs",
+      "organisation": "BdP",
+      "year": "2024",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "110",
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1727635271091,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
