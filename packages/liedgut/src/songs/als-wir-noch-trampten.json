@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Als {h}wir noch trampten soffen wir nur {D}Wodka, als {G}wir zu Schiffe fuhren war es {D}Gin. {Fis}\nIn {h}China rauchten wir die Blumen{D}kerne, in {G}Afrika gabs Palmwein mit Chi{A}nin.\n\nAuf allen {D}Meeren und Ge{D}sta{G}den, mit {h}Sprit sind wir ge{A}laden.\nAuf allen {D}Meeren und Ge{Fis}stade{h}n, god{G}dam, kommt her und {A}sauft; O{D}le! {E}   {Fis}\n\nIn Tschita gab es Wodka-Samoware. Job twojmatch schrien wir und sangen grell.\nNoch heute denken wir oft an die Jahre, da wir im Suff verheuerten das Fell.\n\nNun hocken wir am Hafen um die Flammen. Wer weiß, wanns nächste Abenteuer wird?\nMags kommen wie es will wir sind beisammen. Die Klampfen gongen und das Banjo klirrt.",
+  "title": "Als wir noch trampten",
+  "words": [
+    {
+      "name": "Karl Gutzmers",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "plauder",
+      "nickname": "Jörg Seyffarth",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "80",
+  "musicalKey": "Bm",
+  "info": "Das Lied stammt aus Karl Gutzmers Liedersammlung und wurde von plauder neu vertont und in gendergerechte Sprache umgedichtet.",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1727633543007,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
