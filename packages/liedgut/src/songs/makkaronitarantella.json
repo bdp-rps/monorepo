@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "/: {d}Ach ich {g}bin ein armer {d}Schlucker hab kein {A7}Pfennig, kein Stück {d}Zucker. :/\n/: Und ich singe {g}mein Can{d}zoni für einen {A7}Teller Makka{d}roni. :/\n/: La la {g}la la la la {d}la, la la {A7}la la la {d}la la. :/\n\nIch wär gern bei den Soldaten, schösse man da mit Tomaten.\nSchössen Flinten und Canoni nur mit Ketchup und Makkaroni.\n\nMeine Tante Pulcinella starb vorm vollen Nudelteller.\nUnd sie sprach: \"Mein lieber Jonny, so nimm denn meine Makkaroni!\"\n\nEinmal gaben zwei Sergeanten ihre Orden und Brillianten\neiner Köchin namens Moni für einen Teller Makkaroni.\n\nDieses Liedchen war mir nütze, jetzt liegt Geld in meiner Mütze.\nIch kauf mir ein Stück Meloni und einen Teller Makkaroni.",
+  "title": "Makkaroni-Tarantella",
+  "words": [
+    {
+      "name": "Gerhard Schöne",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1988",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Gerhard Schöne",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1988",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1727636837383,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
