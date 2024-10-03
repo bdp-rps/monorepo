@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{D}Wenn ich des Morgens {A}früh auf{D}steh und muss zur {G}Ar{D}beit {A}ge{D}hen.\nDann kocht mir meine {A}Mutter {D}Tee, von dem ich {G}kei{D}nen {A}neh{D}me.\n\n/: Ich müsst ein Schnäpschen han, wär das nicht fein! \n{G}Nur noch {A}Feuerwasser, Branntewein, nur noch {D}Schnaps! :/\n\nUnd wenn ich krank geworden bin und muss zum Doktor gehen.\nSo schreibt mir dieser Pillen auf von den ich keine nehme.\n\nUnd wenn ich dann gestorben bin, so sollt ihr mich begraben.\nIn einem Fass voll Branntewein, darin sollt ihr mich lagern.\n\nUnd komm ich dann zur Himmelstür, so tät der Petrus fragen:\n\"Was willst du: Schnaps, Wein oder Bier?\" So tät ich Branntwein sagen.",
+  "title": "Der Trunkenbold",
+  "words": [
+    {
+      "name": "mündlich überliefert",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "mündlich überliefert",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Das Schnäpschen",
+  "tempo": 60,
+  "musicalKey": "D",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1727964563592,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
