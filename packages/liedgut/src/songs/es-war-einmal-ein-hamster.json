@@ -2,8 +2,26 @@
   "notation": "",
   "content": "/: Es {C}war einmal ein Hamster der {G}hatte Frauen vier. :/\n{C}Polygamie, Polygamo, Polyga{G}miamia{C}mo\n{C}Polygamie, Polygamo, Polyga{G}miea{C}mo\n\nDa kam ein heißer Sommer und nahm ihm Frauen zwei. Bigamie …\nDa kam ein strenger Winter und nahm ihm noch ne Frau. Monogamie …\nDa kam ein fremder Hamster und nahm ihm die letzte Frau. Onanie …\nDa kam ein schwuler Hamster und tröstete den einen. Homononie …\nDa kam ein schwedischer Hamster, der fotografiert die zwei. Pornographie …\nDa kam ein Pflug gefahren und schnitt ihm ab das -krk-. Philosophie …\nDa kam ne Dampfwalze gefahren und fuhr den Hamster platt. Philatelie …\nDa kam ne Studentenbrigade und las das auf. Ökonomie …\nDa kam ein fleißger Koch und kochte den Hamster gar. Gastronomie …",
   "title": "Es war einmal ein Hamster",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Klaus-Dieter Kohnert",
+      "nickname": "Timmy",
+      "group": "",
+      "organisation": "",
+      "year": "1978",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Klaus-Dieter Kohnert",
+      "nickname": "Timmy",
+      "group": "",
+      "organisation": "",
+      "year": "1978",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "Hamsterlied",
@@ -17,6 +35,13 @@
       "name": "Sophia Sulewski (Chila) ASH",
       "mail": "sophiasulewski@gmail.com",
       "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1726496499244,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
       "content": ""
     }
   ]
