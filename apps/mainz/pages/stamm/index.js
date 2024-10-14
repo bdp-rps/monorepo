@@ -17,9 +17,9 @@ export default () => (
     </Head>
     <Layout paddingTop={10} paddingBottom={10}>
       <Text>
-        Als Aufbaugruppe Tilia bestehen wir zurzeit aus einer Meute mit 15
-        Kindern im Alter von 7 bis 12 und einer Runde von etwa zehn Rangern und
-        Rovern, der ältesten Stufe im BdP.
+        Als Stamm Tilia bestehen wir zurzeit aus einer Meute mit 15 Kindern im
+        Alter von 7 bis 12 und einer Runde von etwa zehn Rangern und Rovern, der
+        ältesten Stufe im BdP.
         <br /> In den Gruppenstunden mit der Meute wird jede Woche ganz viel
         gespielt, gelacht, gesungen, gebaut und gebastelt.
         <br /> <br />{' '}
