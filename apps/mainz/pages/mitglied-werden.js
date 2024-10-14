@@ -19,11 +19,11 @@ export default () => (
         <Text>
           Der folgende Button leitet dich weiter auf unseren digitalen
           Mitgliedsantrag. Nicht erschrecken, diese Anwendung liegt auf unserer
-          Bundesseite! Bitte fülle diesen aus, um Mitglied zu werden. Wir werden
-          den Antrag in den nächsten Tagen prüfen und schalten ihn frei oder
-          kommen gegebenenfalls bei Nachfragen auf dich zurück! Bei Fragen
-          kannst du auch jederzeit in der Gruppenstunde auf uns zu kommen oder
-          eine Mail an{' '}
+          Bundesseite! Bitte fülle diesen aus, um Mitglied zu werden oder dein
+          Kind bei uns anzumelden. Wir werden den Antrag in den nächsten Tagen
+          prüfen und schalten ihn frei oder kommen gegebenenfalls bei Nachfragen
+          auf dich zurück! Bei Fragen kannst du auch jederzeit in der
+          Gruppenstunde auf uns zu kommen oder eine Mail an{' '}
           <Link href="mailTo:pfadfinden@bdp-mainz.de">
             pfadfinden[at]bdp-mainz.de
           </Link>{' '}
