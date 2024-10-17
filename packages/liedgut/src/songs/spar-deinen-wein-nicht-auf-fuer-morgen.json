@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Spar deinen {D}Wein nicht auf für {G}morgen.\nSind Freunde {D}da, so schenke {G}ein!\n{e} Leg, was du {D}hast, in ihre {C}Mit{G.}te\nDurchs Schenken {D}wird man reich al{G}lein.\n\nSpar nicht mit deinen guten Worten.\nWo man was totschweigt, schweige nicht.\nUnd wo nur leeres Stroh gedroschen,\nda hat dein gutes Wort Gewicht!\n\nSpar deine Liebe nicht am Tage,\nfür paar Minuten in der Nacht.\nHol sie aus ihrer Dunkelkammer,\ndann zeigt sie ihre Blütenpracht.\n\nSpar deinen Mut nicht auf für später,\nwenn du mal \"was ganz Großes\" bist.\nDein kleiner Mut hilft allen weiter,\nweil täglich Mut vonnöten ist.\n \n(Letzte wie 1. Strophe)\n",
+  "content": "{G}Spar deinen {D}Wein nicht auf für {G}morgen. Sind Freunde {D}da, so schenke {G}ein!\n{e}Leg, was du {D}hast, in ihre {C}Mit{G}te, durchs Schenken {D}wird man reich al{G}lein.\n\nSpar nicht mit deinen guten Worten. Wo man was totschweigt, schweige nicht.\nUnd wo nur leeres Stroh gedroschen, da hat dein gutes Wort Gewicht!\n\nSpar deine Liebe nicht am Tage, für paar Minuten in der Nacht.\nHol sie aus ihrer Dunkelkammer, dann zeigt sie ihre Blütenpracht.\n\nSpar deinen Mut nicht auf für später, wenn du mal \"was ganz Großes\" bist.\nDein kleiner Mut hilft allen weiter, weil täglich Mut vonnöten ist.\n \nSpar deinen Wein...",
   "title": "Spar deinen Wein nicht auf für morgen",
   "words": [
     {
@@ -32,6 +32,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729197399733,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "G"
 }
