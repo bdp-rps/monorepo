@@ -1,9 +1,27 @@
 {
   "notation": "",
-  "content": "Ich {e}komme schon durch {H7}manches {e}Land\n{H7}avec que {G}la mar{e}motte,\nund {e}immer was zu {H7}Essen {e}fand,\n{H7}avec que la mar{e}motte.\n\n/:Av{G}ec que {D}si, av{G}ec que {a}la, av{e}ec que la mar{D}motte{e}. :/\n\nIch hab gesehen gar manchen Herrn,\navec que la marmotte,\nder hat die Jungraun gar zu gern,\navec que la marmotte.\n\nHab auch gesehen die Jungfrau schön,\navec que la marmotte,\ndie täte nach mir Kleinen sehn,\navec que la marmotte.\n\nNun lasst mich nicht so gehn, ihr Herrn,\navec que la marmottem\ndie Burschen essen und trinken gern,\navec que la marmotte.",
+  "content": "Ich {e}komme schon durch {H7}manches {e}Land {H7}avec que {G}la mar{e}motte,\nund {e}immer was zu {H7}Essen {e}fand, {H7}avec que la mar{e}motte.\n\n/: {G}Avec que {D}si, {G}avec que {a}la, {e}avec que la mar{D}motte{e}. :/\n\nIch hab gesehen gar manchen Herrn, avec que la marmotte,\nder hat die Jungraun gar zu gern, avec que la marmotte.\n\nHab auch gesehen die Jungfrau schön, avec que la marmotte,\ndie täte nach mir Kleinen sehn, avec que la marmotte.\n\nNun lasst mich nicht so gehn, ihr Herrn, avec que la marmottem\ndie Burschen essen und trinken gern, avec que la marmotte.",
   "title": "La marmotte",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Johann Wolfgang von Goethe",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Ludwig van Beethoven",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
@@ -17,6 +35,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729194216930,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
