@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{a}Hankie war ein Dockarbeiter, konnte rackern wie kein Zweiter.\n{G}Seine Heimat war der Kai, {a}Lieblingslied Palomaoe, ohé.\nHankies Job war das Verladen, und er hatte schon Milliarden\n{G}Tonnen Fracht an Land gebracht, {a}bis zu dieser einen Nacht, ohé.\n\n/: Man {G}sagt, es macht nur lungenkrank und {a}lasch,\naber {G}Hank starb an ner Überdosis {a}Hasch. :/\n\nEr rauchte grad ne Zigarette, da riss über ihm ne Kette.\nViernhalb Tonnen guter Roter und Hankie war ein Drogentoter, ohé.\n\n{G}Übrig blieben {a}Frau und Kind, {G}die jetzt ohne {a}Vater sind.\n{G}Würd man Hasch le{a}galisieren, {G}könnt mans sich'rer transportieren, o{a}hé.",
+  "title": "Hank starb an ner Überdosis Hasch",
+  "words": [
+    {
+      "name": "Simon Kleinti & Götz Widmann",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Simon Kleinti & Götz Widmann",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1729165075836,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
