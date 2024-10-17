@@ -1,6 +1,6 @@
 {
   "notation": "\"a\"A,B,C E A c B A|\"F\"F4\"C\"E4|\"a\"CCCC \"G\"DDDD|\n\"C\"E8 \"E\" |\"a\"A cB G\"G\" A cB G|\"F\"F4\"C\"G4|\"G\"BBBBBB c B|\n\"F\"A4\"E\"^G2^F G|\"a\"A3 A\"G\" GG E G|\"F\"A8|]",
-  "content": "{a}Woher soll das Brot für heute {F}kom{E}men,\n{a}wenn ich keine {G}Arbeit finden {C}kann?{E}\n{a}Andre wissen {G}nicht, wie davon {F}ess{C}en,\n{G}doch ich darf mich nicht einmal ver{F}mes{E}sen,\nsie zu {a}suchen {G}wie ein andrer {F}Mann. {(d)}\n\nWoher soll die Ruh zum Abend kommen,\nwenn man jederzeit sie stören kann?\nJede Stunde können sie mich holen\nund mir krümmen sich im Bett die Sohlen,\nläutet es, und ists nur nebenan.\n\nWoher soll der Mut für morgen kommen,\nwenn ich ihn mir gar nicht denken kann?\nGegen nichts vermag ich mich zu wehren,\ndenn seit Langem leb ich ganz im Leeren\nund ich streif nur an den Möbeln an.\n\nWoher soll aus mir die Liebe kommen,\nwenn ich doch zu keinem gut sein kann?\nBrot und Ruhe sind zum Leben wichtig\nund mein eignes ist seit Langem nichtig,\naber Liebe not tut jedermann.",
+  "content": "{a}Woher soll das Brot für heute {F}kom{E}men, {a}wenn ich keine {G}Arbeit finden {C}kann?{E}\n{a}Andre wissen {G}nicht, wie davon {F}ess{C}en, {G}doch ich darf mich nicht einmal ver{F}mes{E}sen,\nsie zu {a}suchen {G}wie ein andrer {F}Mann. {(d)}\n\nWoher soll die Ruh zum Abend kommen, wenn man jederzeit sie stören kann?\nJede Stunde können sie mich holen und mir krümmen sich im Bett die Sohlen,\nläutet es, und ists nur nebenan.\n\nWoher soll der Mut für morgen kommen, wenn ich ihn mir gar nicht denken kann?\nGegen nichts vermag ich mich zu wehren, denn seit Langem leb ich ganz im Leeren\nund ich streif nur an den Möbeln an.\n\nWoher soll aus mir die Liebe kommen, wenn ich doch zu keinem gut sein kann?\nBrot und Ruhe sind zum Leben wichtig und mein eignes ist seit Langem nichtig,\naber Liebe not tut jedermann.",
   "title": "Woher soll das Brot für heute kommen",
   "words": [
     {
@@ -39,7 +39,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729197459171,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "specialSettings": {}
+  "specialSettings": {},
+  "musicalKey": "Am"
 }
