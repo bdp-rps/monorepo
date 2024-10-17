@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "                        {a}                           {e}\nLeise weht der Wind über grünen Bäumen.\n                                      {F}                              {G}                    {a}\nDer Berg grüßt uns von fern, wir mochten alle gern mit ihm träumen\n                                                     {e}                                        {F}\nLeise weht der Wind über grünen Bäumen, vor uns liegt der Pfad\n                        {G}                                         {a}\ner führt auf den Grad, von wo die Wasser schäumen.\n\n                            {G}                                          {a}\n  Vor uns läuft ein Schweigen auf dem Weg davon.\n                                        {G}                                         {a}\n  Und man gab ihm einen Namen, man nannte es Belldonne\n                                {G}                                      {a}\n  Der Berg ist wie ein König, die Krone ganz aus Eis,\n                                 {G}                                          {a}\n  eine Schleppe voller Blumen - jung und doch ein Greis.\n\nLeise weht der Wind über kahlen Steinen.\nEin letzter Blick zurück, dort liegt nicht das Glück, das wir meinen\nLeise weht der Wind über kahlen Steinen, nur wer den Berg versteht,\nUnd auf den Gipfel geht, denn Grenzen gibt es keine. \n\nLeise weht der Wind über Gletscherseen.\nWie weit werden wir noch kommen, die Kraft ist uns genommen,\ndoch die Fahrt wird weitergehen.\nLeise weht der Wind über Gletscherseen, unser Ziel erreicht, wir\nscherzen vergessen uns're Schmerzen, wenn wir über allem stehen.\n\n\nLeise weht der Wind übers Alltagsleben.\nVor uns liegt die Stadt, die keine Seele hat, was ist der Berg daneben\nLeise weht der Wind übers Alltagsleben.\nAb und zu dreh'n wir uns um, doch jene Gipfel bleiben stumm;\nwir möchten gern mit ihnen reden.\n\nVor uns liegt die Eile der Zivilisation.\nDoch wir kehren gerne wieder zu unseren Freund Belldonne\nEr ist wie ein König, die Krone ganz aus Eis,\neine Schleppe voller Blumen, und der Wind weht leis.\n",
+  "content": "Leise weht der {a}Wind über grünen {e}Bäumen.\nDer Berg grüßt uns von {F}fern, wir mochten alle {G}gern mit ihm {a}träumen.\nLeise weht der Wind über grünen {e}Bäumen, vor uns liegt der {F}Pfad,\ner führt auf den {G}Grad, von wo die Wasser {a}schäumen.\n\nVor uns läuft ein {G}Schweigen auf dem Weg da{a}von. Und man gab ihm einen {G}Namen, man nannte es Belle{a}donne. Der Berg ist wie ein {G}König, die Krone ganz aus {a}Eis, eine Schleppe voller {G}Blumen - jung und doch ein {a}Greis.\n\nLeise weht der Wind über kahlen Steinen.\nEin letzter Blick zurück, dort liegt nicht das Glück, das wir meinen.\nLeise weht der Wind über kahlen Steinen, nur wer den Berg versteht,\nUnd auf den Gipfel geht, denn Grenzen gibt es keine. \n\nLeise weht der Wind über Gletscherseen.\nWie weit werden wir noch kommen, die Kraft ist uns genommen, doch die Fahrt wird weitergehen.\nLeise weht der Wind über Gletscherseen, unser Ziel erreicht, wir scherzen \nvergessen unsre Schmerzen, wenn wir über allem stehen.\n\nLeise weht der Wind übers Alltagsleben.\nVor uns liegt die Stadt, die keine Seele hat, was ist der Berg daneben\nLeise weht der Wind übers Alltagsleben. Ab und zu drehn wir uns um, doch jene Gipfel bleiben stumm; wir möchten gern mit ihnen reden.\n\nVor uns liegt die Eile der Zivilisation.\nDoch wir kehren gerne wieder zu unseren Freund Belledonne\nEr ist wie ein König, die Krone ganz aus Eis,\neine Schleppe voller Blumen, und der Wind weht leis.",
   "title": "Leise weht der Wind",
   "words": [
     {
@@ -39,6 +39,15 @@
       "mail": "nermax03@gmail.com",
       "type": "update",
       "content": "Ergaenzen des Autors\n"
+    },
+    {
+      "date": 1729197900440,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "Am"
 }
