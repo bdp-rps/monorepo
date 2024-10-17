@@ -1,30 +1,31 @@
 {
   "notation": "",
-  "content": "{h}Nachts steht Hunger {e}starr in unserm {h}Traum,\n{e}Tags die Schüsse {h}knallen {Fis}her vom {h}Waldessaum.       \nElend hält mit {A}den Kolonnen {D}Schritt\n{e}Und in Frost und {h}Nebel {Fis}ziehn die Wölfe {h}mit.\n\n     \n{h}Noch fliegt Russlands {fis}heiliger Adler,       \n{G}Mütterchen, unser {D}Blut gehört nur dir,\n{e}Mag das rote {h}Heer uns auch jagen,            \n{Fis}Leuchtend steht noch {h}immer das Panier.\n--\nAch, dahin ist stolze Macht,\nKeine Glocken klingen durch die rote Nacht.\nPostenschritte, keine Freiheit mehr,\nHinter Stacheldraht steht stumm ein müdes Heer.\n\nEiner singt die alten Lieder,\nLockt uns Schwermut und Sehnsucht aus der Brust,\nWild und trotzig klingt es wieder,\nIm Vergess'nen liegt die alte Lust.\n--\nUnd als Heer, das keine Heimat hat\nZiehn wir ausgewiesen nun von Stadt zu Stadt.\nMenschen kommen, hören unser Lied,\nWeiter geht die Fahrt, der Ruhm uns sinnlos blüht.\n\n\"Heimat, Heimat!\", summen die Chöre,\nTausendfältig entsteht uns neu dein Bild.\nGlocken läuten unsrer Tenöre, \nOrgelbässe klingen dumpf und wild:\n--\nNoch fliegt Russlands...\n\n",
+  "content": "{h}Nachts steht Hunger {e}starr in unserm {h}Traum, \n{e}tags die Schüsse {h}knallen {Fis}her vom Waldes{h}saum.       \nElend hält mit {A}den Kolonnen {D}Schritt \n{e}und in Frost und {h}Nebel {Fis}ziehn die Wölfe {h}mit.\n     \n{h}Noch fliegt Russlands {fis}heiliger Adler, {G}Mütterchen, unser {D}Blut gehört nur dir.\n{e}Mag das rote {h}Heer uns auch jagen, {Fis}leuchtend steht noch {h}immer das Panier.\n\nAch, dahin ist stolze Macht, keine Glocken klingen durch die rote Nacht.\nPostenschritte, keine Freiheit mehr, hinter Stacheldraht steht stumm ein müdes Heer.\n\nEiner singt die alten Lieder, lockt uns Schwermut und Sehnsucht aus der Brust,\nWild und trotzig klingt es wieder, im Vergessnen liegt die alte Lust.\n\nUnd als Heer, das keine Heimat hat ziehn wir ausgewiesen nun von Stadt zu Stadt.\nMenschen kommen, hören unser Lied, weiter geht die Fahrt, der Ruhm uns sinnlos blüht.\n\n\"Heimat, Heimat!\", summen die Chöre, Tausendfältig entsteht uns neu dein Bild.\nGlocken läuten unsrer Tenöre,  Orgelbässe klingen dumpf und wild:",
   "title": "Nachts steht Hunger",
   "words": [
     {
-      "name": "Erich Scholz?",
-      "nickname": "olka?",
+      "name": "Erich Scholz",
+      "nickname": "olka",
       "group": "",
       "organisation": "",
-      "year": "",
+      "year": "1934",
       "critical": true
     }
   ],
   "tune": [
     {
-      "name": "aus Russland?",
-      "nickname": "",
+      "name": "Erich Scholz",
+      "nickname": "olka",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "1934",
+      "critical": true
     }
   ],
   "translation": [],
   "beat": "4/4",
   "tempo": 60,
-  "info": "",
+  "info": "Das Lied versetzt in die Lage \"weißer\" Kosaken, die durch den Sieg der Revolution ihre russische Heimat verloren haben und, in der letzten Strophe, in der Fremde sich singend ihren Lebensunterhalt verdienen müssen. (aus \"Lieder gegen den Strom\")",
   "changes": [
     {
       "date": 1585339222278,
@@ -32,7 +33,16 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729197125388,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {},
+  "musicalKey": "Bm"
 }
