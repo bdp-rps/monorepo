@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Es {D}wollt ein Bauer früh aufsteh'n,\nes wollt ein Bauer {A}früh aufsteh'n,\nhinaus auf seinen {D}Acker gehn.\n\n{A}Falteri tira{D}llala, {A}falteri {D}tara.\n\n/:Und als der Bauer nach Hause kam, :/\nda wollt er was zu Fressen ham.\n\n/:Ach Lieschen koch mir Hirsebrei :/\nmit Bratkartoffeln, Spiegelei\n\n/:Und als der Bauer saß und fraß, :/\nda rumpelt in der Kammer was.\n\n/:Ach liebe Frau, was ist denn das? :/\nDa rumpelt in der Kammer was.\n\n/:Ach lieber Mann, das ist der Wind, :/\nder raschelt da im Küchenspind.\n\n/:Der Bauer sprach: \"Will selber sehn, :/\nwill selber 'naus in Kammer gehn!\"\n\n/:Und als der Bauer in'd Kammer kam, :/\nstand der Pfaff da, zog sei Hosen an.\n\n/:\"Ei Pfaff, was machst in meinem Haus? :/\nIch werf' dich ja sogleich hinaus!\"\n\n/:Der Pfaff der sprach: \"Was ich verricht', :/\ndein Frau die kann die Beicht' noch nicht!\" \n\n/:Da nahm der Bauer ein Ofenscheit :/\nund schlug den Pfaffen dass er schreit\n\n/:Der Pfaffe schrie oh Schreck, oh Graus :/\nund hielt den Arsch zum Fenster raus\n\n/:Da kam die Leut' von nah und fern :/\nund dachten, es sei der Morgenstern\n\n/:Der Morgenstern der war es nicht, :/\nnein, es war des Pfaffen Arschgesicht\n\n/:So soll es allen Pfaffen gehn, :/\ndie nachts zu fremden Weibern gehn\n\n/:Und die Moral von der Geschicht': :/\nTrau nicht des Pfaffen Arschgesicht!",
+  "content": "Es {D}wollt ein Bauer früh aufsteh'n, \nes wollt ein Bauer {A}früh aufsteh'n,\nhinaus auf seinen {D}Acker gehn.\n\n{A}Falteri tira{D}llala, {A}falteri ta{D}ra.\n\n/: Und als der Bauer nach Hause kam, :/ da wollt er was zu Fressen ham.\n\n/: Ach Lieschen koch mir Hirsebrei :/ mit Bratkartoffeln, Spiegelei.\n\n/: Und als der Bauer saß und fraß, :/ da rumpelt in der Kammer was.\n\n/: Ach liebe Frau, was ist denn das? :/ Da rumpelt in der Kammer was.\n\n/: Ach lieber Mann, das ist der Wind, :/ der raschelt da im Küchenspind.\n\n/: Der Bauer sprach: \"Will selber sehn, :/ will selber 'naus in Kammer gehn!\"\n\n/: Und als der Bauer in'd Kammer kam, :/ stand der Pfaff da, zog sei Hosen an.\n\n/: \"Ei Pfaff, was machst in meinem Haus? :/ Ich werf' dich ja sogleich hinaus!\"\n\n/: Der Pfaff der sprach: \"Was ich verricht', :/ dein Frau die kann die Beicht' noch nicht!\" \n\n/: Da nahm der Bauer ein Ofenscheit :/ und schlug den Pfaffen dass er schreit.\n\n/: Der Pfaffe schrie oh Schreck, oh Graus :/ und hielt den Arsch zum Fenster raus.\n\n/: Da kam die Leut von nah und fern :/ und dachten, es sei der Morgenstern.\n\n/: Der Morgenstern der war es nicht, :/ nein, es war des Pfaffen Arschgesicht.\n\n/: So soll es allen Pfaffen gehn, :/die nachts zu fremden Weibern gehn.\n\n/: Und die Moral von der Geschicht: :/ Trau nicht des Pfaffen Arschgesicht!",
   "title": "Es wollt ein Bauer früh aufsteh'n",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "D",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729197282687,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
