@@ -1,9 +1,27 @@
 {
   "notation": "",
-  "content": "Wenn {C}sich die Igel {F}küssen,\ndann {G}müssen, müssen, {C}müssen,\nsie {F}ganz, ganz {C}fein, be{G}hutsam {C}sein.\n\nWenn sich die Störche küssen,\ndann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.\n\nWenn Stachelschweine küssen,\ndann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.\n\nWenn Elefanten küssen,\ndann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.\n\nWenn sich die Menschen küssen,\ndann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.",
+  "content": "Wenn {C}sich die Igel {F}küssen, dann {G}müssen, müssen, {C}müssen, \nsie {F}ganz, ganz {C}fein, be{G}hutsam {C}sein.\n\nWenn sich die Störche küssen, dann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.\n\nWenn Stachelschweine küssen, dann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.\n\nWenn Elefanten küssen, dann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.\n\nWenn sich die Menschen küssen, dann müssen, müssen, müssen,\nsie ganz, ganz fein, behutsam sein.",
   "title": "Wenn sich die Igel küssen",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Johannes Kuhnen",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Johannes Kuhnen",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
@@ -17,6 +35,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729194044861,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
