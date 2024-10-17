@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Mein{e}e Klampfe {F}ist {C}mein kleines Boot,\nträgt mich fort {G}an jeden Ort.\nWo {C}das Feuer loht, {F}wo {C}der Sturmwind tobt,\nund kein {G}Teufel {C}ist an Bord.\n\nEs gleitet mein {C}Boot unbeschwert durch die Flut.\nKüh{G}ner Traum {C}bläht se{G}ine Segel\n{C}fahr {F}zu, {C}mein {G}kleines {C}tapferes Boot.\n\nTreibe immerzu, ganz ohne Plag,\nbin ein freier Fahrtenmann.\nMeiner Klampfe Spiel ist der Ruderschlag\nund mein Lied der Ozean.\n\nFahr in Dur und Moll so wie es grad\nmir und meinem Boot gefällt.\nMeine Klampfe, du bist mein Kamerad\nund Gefährte meiner Welt",
+  "content": "Meine {C}Klampfe ist mein {F}kleines {C}Boot, trägt mich fort an jeden {G}Ort.\nWo das {C}Feuer loht, wo der {F}Sturmwind {C}tobt, und kein Teufel {F}ist {G}an {C}Bord.\n\nEs {F}gleitet mein Boot unbe{C}schwert durch die Flut. \nKühner {G}Traum bläht seine {C}Se{G}gel.\n/: {C}Fahr {F}zu, mein {C}kleines {G}tapferes {C}Boot. :/\n\nTreibe immerzu, ganz ohne Plag, bin ein freier Fahrtenmann.\nMeiner Klampfe Spiel ist der Ruderschlag und mein Lied der Ozean.\n\nFahr in Dur und Moll so wie es grad mir und meinem Boot gefällt.\nMeine Klampfe, du bist mein Kamerad und Gefährte meiner Welt",
   "title": "Meine Klampfe ist mein kleines Boot",
   "words": [
     {
@@ -40,6 +40,13 @@
       "mail": "torben@bdp-rps.de",
       "type": "update",
       "content": "Silben in letzter Strophe korrigiert"
+    },
+    {
+      "date": 1729195113220,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {}
