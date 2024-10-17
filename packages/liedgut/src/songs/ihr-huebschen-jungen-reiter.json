@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Ihr {e}hübschen jungen Rei{H7}ter,\n{e}wenn ihr zu {D}Fel{C}de {H7}zieht,\n/:ich {E}bitt euch nehmet {A}meinem Fr{E}eund\neinen Ros{H7}enzweig  {E}mit. :/\n\nWie sollen wir ihn finden,\ndenn Frankreichs Reich ist groß,\n/:sein Wappen ist ein Rosenzweig,\nsilberweiß ist sein Ross. :/\n\nAch könnte ich euch sagen,\nwie er zu kennen ist,\n/:die Spitze seiner Lanze,\nwie goldhell sie blitzt :/\n\nAch Schönste dort am Fenster,\nden Reiter kennen wir,\n/:er fiel in der Bretagne,\ndas ist weit, weit von hier :/\n\nVier arme Franziskaner,\ndie sangen in der Nacht,\n/:es war am Rand der Heide,\nwo sein Grab sie gemacht :/\n\nIhr hübschen jungen Reiter,\nwenn ihr zu Felde zieht,\n/:ich bitt euch nehmet auf sein Grab\neinen Rosenzweig mit :/",
+  "content": "Ihr {e}hübschen jungen {H7}Rei{e}ter, wenn {a}ihr zu {D}Fel{C}de {H7}zieht,\n/: ich {E}bitt euch nehmet {A}meinem {E}Freund einen Ro{H7}senzweig {E}mit. :/\n\nWie sollen wir ihn finden, denn Frankreichs Reich ist groß,\n/: sein Wappen ist ein Rosenzweig, silberweiß ist sein Ross. :/\n\nAch könnte ich euch sagen, wie er zu kennen ist,\n/: die Spitze seiner Lanze, wie goldhell sie blitzt :/\n\nAch Schönste dort am Fenster, den Reiter kennen wir,\n/: er fiel in der Bretagne, das ist weit, weit von hier :/\n\nVier arme Franziskaner, die sangen in der Nacht,\n/: es war am Rand der Heide, wo sein Grab sie gemacht :/\n\nIhr hübschen jungen Reiter, wenn ihr zu Felde zieht,\n/: ich bitt euch nehmet auf sein Grab einen Rosenzweig mit :/",
   "title": "Ihr hübschen jungen Reiter",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729196172595,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
