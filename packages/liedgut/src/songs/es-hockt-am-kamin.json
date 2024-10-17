@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}Es hockt am Kamin um {G7}Mitter{C}nacht\nder bündischen {G7}reisigen {C}Schar.\n/:Sie {F}kehrten zu{C}rück von {G7}großer {C}Fahrt,\nnun erzählen {G7}sie, wie es {C}war. :/\n\nUnd einer, der blond, der hebt die Hand,\nbeginnt mit seinem Bericht:\n/:Ich habe gesehen so manches Land,\naber eines vergesse ich nicht. :/\n\nIm Frühjahr folgte ich der Schwäne Flug\nhinauf ein den hohen Norden,\n/:die Sehnsucht mich immer weitertrug,\nwär fast ein Wildschwan geworden. :/\n\nBei Rentierjägern war ich zu Gast,\nwir jagten in Lapplands Weiten.\n/:Wir machten am nächtlichen Feuer Rast\nund ruhten Seite an Seite. :/\n\nVon südlicher Sonne braun gebrannt\nkam Juli aus Algier zurück.\n/:Er fasste den Becher mit fester Hand\nund leerte ihn auf Fatima Glück. :/\n\nSo geht es weiter, Stunde um Stund,\nim Osten der Morgen anbricht.\n/:Der feurige Wein, er macht die Rund,\nbis die letzte Flamme erlischt. :/",
+  "content": "{a}Es hockt am Kamin um {G7}Mitter{C}nacht der bündischen {G7}reisigen {C}Schar.\n/: Sie {F}kehrten zu{C}rück von {G7}großer {C}Fahrt, nun erzählen {G7}sie, wie es {C}war. :/\n\nUnd einer, der blond, der hebt die Hand, beginnt mit seinem Bericht:\n/: Ich habe gesehen so manches Land, aber eines vergesse ich nicht. :/\n\nIm Frühjahr folgte ich der Schwäne Flug hinauf ein den hohen Norden,\n/: die Sehnsucht mich immer weitertrug, wär fast ein Wildschwan geworden. :/\n\nBei Rentierjägern war ich zu Gast, wir jagten in Lapplands Weiten.\n/: Wir machten am nächtlichen Feuer Rast und ruhten Seite an Seite. :/\n\nVon südlicher Sonne braun gebrannt kam Juli aus Algier zurück.\n/: Er fasste den Becher mit fester Hand und leerte ihn auf Fatima Glück. :/\n\nSo geht es weiter, Stunde um Stund, im Osten der Morgen anbricht.\n/: Der feurige Wein, er macht die Rund, bis die letzte Flamme erlischt. :/",
   "title": "Es hockt am Kamin",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729194856636,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
