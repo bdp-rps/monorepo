@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nV:2\nE2^F^GA2A2^CEA^cB2B2|EABd^c2^c2AB^cee4-|e4d2B^c^F2B2^cB^cB|E2A2AE^FE^CEA^cB3A|\nA8||",
   "content": "{D}Durch die {G}morgenro{D}ten Sch{G}eiben\n{e}lacht der blanke {D}Mai ins Haus,\n/:{D}Lämmer{G}wölkchen {D}will er {G}treiben\nin die {G}blaue {(a)}Welt {D}hin{G}aus. :/\n\nSingend strolcht der liebe Junge\nunter meinem Fensterhin,\nwie ich da mit einem Sprunge\nsingend ihm zur Seite bin.\n\nGleich das jüngste seiner Lieder\nsingt er mir im Wanderschritt,\nimmer wieder, immer wieder\nsing ich's frühlingsselig mit.\n\nWeiße Nacht und blaue Frühe\nund ein gold'ner, gold'ner Tag,\nblühe, junge Sonne, blühe,\nbis die Erde blühen mag.",
   "title": "Morgenlied im Mai",
   "words": [
@@ -23,8 +23,8 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "100",
-  "musicalKey": "",
+  "tempo": "80",
+  "musicalKey": "D",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729280465693,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
