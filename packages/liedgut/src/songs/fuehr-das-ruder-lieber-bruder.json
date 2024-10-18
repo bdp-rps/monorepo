@@ -1,6 +1,6 @@
 {
-  "notation": "",
-  "content": "Und der {e}Herbst hat {D}sich er{G}hoben,\n{D}und die {G}wilden {D}Gänse {G}to{D}ben.\n{D7}Führ das {G}Ruder, {C}lieber {G}Bru{D}der,\n{a}eh in {e}Asche {H7}du zer{e}stoben.\n\nLass, oh lass die Chrysanthemen,\nlass, oh lass die blassen Schemen!\nFühr das Ruder lieber Bruder,\nund die Wogen lass uns zähmen.\n\nNimm ein Weib nach deiner Weise\nauf die wilde Wogenrreise.\nFühr das Ruder lieber Bruder,\neh der Kiel zerbarst im Eise.",
+  "notation": "L:1/16\nB,2^C2D4D4^C4|^C4B,4B,6z2|B,2B,2E6E2E4|E4D4^C4B,4-|\nB,2z2D4D4^F4|D4G4G4^F4|D4E4E4E4|^C4D4^F4D4|\nD4D4D4^F4|D4G4G4^F4|D4E4E4E4|^C4D4^F4D4|\nD4||",
+  "content": "Und der {e}Herbst hat {D}sich er{G}hoben,\n{D}und die {G}wilden {D}Gänse {G}tob{D}en.\n/: {D7}Führ das {G}Ruder, {C}lieber {G}Bru{D}der,\n{a}eh in {e}Asche {H7}du zer{e}stoben. :/\n\nLass, oh lass die Chrysanthemen,\nlass, oh lass die blassen Schemen!\nFühr das Ruder lieber Bruder,\nund die Wogen lass uns zähmen.\n\nNimm ein Weib nach deiner Weise\nauf die wilde Wogenrreise.\nFühr das Ruder lieber Bruder,\neh der Kiel zerbarst im Eise.",
   "title": "Führ das Ruder lieber Bruder",
   "words": [
     {
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "6/8",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "110",
   "musicalKey": "Em",
   "info": "",
   "changes": [
@@ -33,6 +33,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729281364807,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
