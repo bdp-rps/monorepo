@@ -1,5 +1,5 @@
 {
-  "notation": "K:D\nV1:\nF3ED2F2|E3DC2E2|z2DDD2D2|F3FE4|z2FED2F2|E3DC2E2|z4D2D2|F4E4|:z2FFF2F2|F3DE2F2|z2GGG2G2|F4E4|D4:|",
+  "notation": "L:1/16\nV:1\n%%MIDI program 0\n|^F6E2D4^F4|E6D2^C4E4|\nz4D2D2D4D4|^F6^F2E8|z4^F2E2D4^F4|E6D2^C4E4|\nz8D4D4|^F8E8|z4^F2^F2^F4^F4|^F6^D2E4^F4|\nz4G2G2G4G4|^F8E8|D4^F2^F2^F4^F4|^F6^D2E4^F4|\nz4G2G2G4G4|^F8E8|D8z4||\nV:2\n%%MIDI program 1\n|A6G2^F4A4|A6B2A4E4|\n^F6^F2^F4^F4|^F4G2A2A8|d6^c2B4A4|A6B2^c4A4|\nB8^F8|B8A8|z4A2A2A4A4|B6B2B4B4|\nB6^c2d4B4|A8G8|^F4A2A2A4A4|B6B2B4B4|\nB6^c2d4B4|A8G8|^F8z4||\nV:3\n%%MIDI program 1\n|D6D2D4D4|^C6B,2A,4^C4|\nB,6B,2B,4B,4|D6D2^C8|D6D2D4D4|^C6B,2A,4^C4|\nB,8B,8|B,8^C8|D8D8|B,8B,8|\nG,12G,4|D12^C4|D8D8|B,8B,8|\nG,12G,4|D12^C4|D8z4||",
   "content": "{D}Fahr, mein Kind, zum {A}Vogelfelsen{h}, dorthin, wo die {D}Möwen {A}sind.\n{D}Möwen bringen {A}uns als Gaben{h}, den Traum, die Sa{A}gen.\n/: {D}Alle Tage {H7}lasst uns fahren{G}, dorthin, wo die {D}Mö{A}wen {D}sind. :/\n\nFahr, mein Kind, ans End der Tage, dorthin, wo die Möwe fliegt.\nVon Legenden und von Sagen, lass dich tragen.\n/: Segle hin zu fernen Stränden, hin zu Sindbads Märchenland. :/\n\nFahr, mein Kind, mit weißem Segel in das Land des Sonnenglücks.\nFolg dem fliegenden Holländer zu den Stränden,\n/: wo die Vögel von Atlantis heute noch zu finden sind. :/",
   "title": "Fahr mein Kind",
   "words": [
@@ -50,6 +50,13 @@
     },
     {
       "date": 1712853753831,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1729281004078,
       "name": "ko",
       "mail": "",
       "type": "update",
