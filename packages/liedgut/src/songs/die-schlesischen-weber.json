@@ -13,7 +13,7 @@
     }
   ],
   "beat": "6/8",
-  "tempo": 100,
+  "tempo": "120",
   "info": "Am 4 Juni 1844 erhoben sich die schlesischen Weber in Peterswaldau und Langenbielau, da sie die Armseligkeit ihres Lebens, den Hunger sowie die Abhängigkeit und die ständige Unterdrückung durch die Verleger (Handelshäuser für die Webwaren, die praktisch den einzigen Vertriebsweg für diese darstellten), die ihnen immer niedrigere Preise aufzwangen, nicht mehr ertragen konnten. Der Preisverfall für Webwaren war nicht zuletzt durch die insbesondere aus England kommenden ersten industriell (auf nt Dampfmaschinen betriebenen Webstühlen) hergestellten billigen Stoffe beschleunigt worden; die Verleger dachten jedoch nicht daran, die Schmälerung der Erträge mitzutragen, sondern wälzten die niedrigeren Preise voll auf die Weber ab. Die Situation soll dann eskaliert sein, als Weber in Peterswaldau dem Verleger Zwanziger klagten, für den niedrigen Lohn könnten sie nicht einmal ein Stück Brot kaufen, und dieser antwortete, dann sollten sie eben Gras fressen es sel doch in diesem Jahr so gut gewachsen (das erinnert doch an das Kuchen-Zitat von Marie-Antoinette, nicht wahr7). Ob er sehr verwundert war, als der Pöbel nächsten Tag seine Villa demontierte? Und das war erst der Anfang und 3000 Weber zerstörten in der Umgebung bei den Verlegern Maschinen und anderes Inventar im Zuge des Aufstands, der jedoch binnen zwei Tagen vom preußischen Militär blutig niedergeschlagen wurde.\n\nDer seit 1831 in Paris Im Exil lebende Heinrich Heine kritisierte gerne die politischen Verhältnisse in Deutschland unverhohlen und ar daher den Deutschnationalen verhaßt, seine Schriften wurden in Deutschland verboten. Wie im übrigen sein Freund Karl Marx in London die Vorfälle in Schlesien kommentierte, kann man sich irgendwie denken.\n\nMit den Strophen 2-4 orientiert sich Heine spöttisch am Motto der preußischen Armee Mit Gott für König und Vaterland, das als inschrift auf dem Koppelschloß der Soldaten stand. Das freute das Volk und machte Heine beim Innenminister und seinen Buddies nicht gerade beliebter.\n\nDus Weber in ihre Stoffe einen Fluch hineinweben konnten, war ein verbreiteter Aberglaube. Er steht im Zusammenhang mit der sozialen Stellung Insbesondere der Leineweber, die, anders als die etwas höhergestellten Wollweber, im gesellschaftlichen Ansehen gleich nach Bettlern, Badern und Totengräbern kamen.\n\nDas Gedicht, das den Originaltitel Die Schlesischen Weber trägt, ist vielfach vertont worden. Die oben wiedergegebene Vertonung von Jörg Ermisch (vom Liederjan-Album Mädchen, Meister, Mönche, 1978) ist in pfadfinderischen und bündischen Kreisen wohl am gängigsten. Unten findet Ihr noch die Vertonung von heim, die nicht ganz so viele Instrumenten-Pausen enthält, und deshalb besser zu singen ist.",
   "content": "{e}Im düstren {D}Auge keine {e}Träne,  {C}  {D}  {e}\nsie sitzen am {D}Webstuhl und fletschen die {e}Zähne:  {C}  {D}  {e}\nDeutschland wir {D}weben dein Leichen{G}tuch,  {D}  {e}\nwir weben hi{D}nein den dreifachen {G}Fluch.\nWir {H7}weben, wir {C}we-{D}e-{G}ben!  {D}  {e}  {C}  {D}  {e}\n\nEin Fluch dem Gotte zu dem wir gebeten\nin Winterskälte und Hungersnöten;\nWir haben vergebens gehofft und geharrt,\ner hat uns geäfft, gefoppt und genarrt.\nWir weben, wir weben!\n\nEin Fluch dem König, dem König der Reichen,\nden unser Elend nicht konnte erweichen,\nden letzten Pfennig von uns erpresst,\nder uns wie Hunde erschießen lässt.\nWir weben, wir weben!\n\nEin Fluch dem falschen Vaterlande,\nwo nur gedeihen Schmach und Schande,\nwo jede Blume früh geknickt,\nwo Fäulnis und Moder den Wurm erquickt.\nWir weben, wir weben!\n\nDas Schiffchen fliegt der Webstuhl kracht,\nwir weben emsig bei Tag und bei Nacht.\nAltdeutschland wir weben dein Leichentuch,\nwir weben hinein den dreifachen Fluch.\nWir weben, wir weben!",
   "changes": [
@@ -36,9 +36,18 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729280118110,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "translation": [],
   "alternativeTitle": "Das Weberlied",
-  "musicalKey": "Em"
+  "musicalKey": "Em",
+  "specialSettings": {},
+  "notation": "L:1/16\nV:1\nE2E4E2D4D2D2-|D2C2B,2B,8-B,2|z16|E2E3EE2D3DD2D2|\nD2C2B,2B,8-B,2|z16|z2E2E2E2^F3^F^F2^F2-|^F2G2G12|\nz16|E3EE2E2A4A2A2-|AG^F2G12|z8z2B2B4-|\nB2B14-|B2A2G12|^F8-^F2G2G4-|G8z8|\nz16|z16|z8||"
 }
