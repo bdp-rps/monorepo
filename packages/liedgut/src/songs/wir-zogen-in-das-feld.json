@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nV:1\nD4D4A4A4|F4D8z4|F4F4F4F4|F4F4F4F2F2|\nF4F4F4F2F2|F4F8z4|z4F8E4|D4E8z4|\nz4D6E2F4|G4A8^A4|^A4A4F4G4|E4D8z4|\nz4D6E2F4|G4A8^A4|^A4A4F4G4|E4D12-|\nD4z8z4||\nV:2\nz16|z16|F4A4A4F4|F4A4A4F2F2|\nF4A4A4F2F2|F4A8z4|z4F8E4|D4[E-]4[Ee]3aa2g2|\nf2e2d6e2f4|g4d6e2f4|g4a8^a4|^a4a4f4g4|\ne4d8z4|z4d6e2f4|g4a8^a4|^a4a4f4g4|\ne4d8z4||\nK:C clef=F4\nV:3\nz16|z16|F,4F,4F,4F,4|F,4F,4F,4F,2F,2|\nF,4F,4F,4F,2F,2|F,4F,8z4|z4F,8E,4|D,4E,8z4|\nz4D,6E,2F,4|G,4A,8^A,4|^A,4A,4F,4G,4|E,4D,8z4|\nz4D,6E,2F,4|G,4A,8^A,4|^A,4A,4F,4G,4|E,4D,12-|\nD,4z8z4||",
   "content": "Wir {d}zogen in das Feld. Wir {F}zogen in das Feld,\nda hätten wir weder Säckl noch Geld.\n\n{d}Stram-{A}pe-{d}de-{A}mi, /: {d}a la mi presen{g}te al {d}vostra {A}signo{d}ri. :/\n\n/: Wir kam'n vor Siebentod :/\nda hätten wir weder Wein noch Brot.\n\n/: Wir kamen vor Friaul :/\nda hätten wir allesamt voll Maul.\n\n/: Wir kam'n vor Benevent :/\nda hätt all uns're Not ein End.",
   "title": "Wir zogen in das Feld",
   "words": [
@@ -47,6 +47,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Layout & Akkorde"
+    },
+    {
+      "date": 1729283753124,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {}
