@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nB,2E4E2E2E4E2|E2E2G2^F2G2E2E2z2|B,2E4E2E2E4E2|E2E2G2^F2G2E2E2z2|\nB2A4B2A2G4B2-|B2^F4G2^F2E2E2z2|B2A4B2A2G4B2-|B2^F4G2^F2E2E2z2|\nz2E8E6|E2E8z4B,2-|B,2E4E4E2G2^F2|G2E8z4E2-|\nE2e8B6-|B2B4A4G4^F2-|^F2E8||",
   "content": "{e}Der Tod reit' {H}auf einem {e}kohlschwarzen Rappen.\nEr trägt ein {H}undurch{e}sichtig Kappen.\n{a}Wenn Lands{e}knec{H}ht' in {e}das Feld einmarschieren\n{a}lässt er {e}sein {H}Ross dane{e}ben galoppieren.\n\n{a}Fland{e}ern in {a}Not, in Fland{e}ern {H}reitet der Tod!\n{e}In Flandern reitet der Tod!\n\nDer Tod reit' auf einem lichten Schimmel,\nso schön wie ein Cherubin im Himmel.\nWenn Mädchen ihren Reigen schreiten will\ner mit ihnen im Tanze gleiten.\n\nDer Tod kann auch die Trommel rühren,\ndu kannst den Wirbel im Herzen spüren.\nEr trommelt lang, er trommelt laut,\ner trommelt auf einer Totenhaut.\n\nAls er den ersten Wirbel geschlagen,\nda hat er das Blut vom herzen getragen.\nAls er den zweiten Wirbel schlug,\nden Landsknecht man zu Grabe trug.\n\nDer dritte Wirbel ist so lang gegangen,\nbis der Landsknecht den Segen  hat empfangen.\nDer vierte Wirbel ist leis und lind,\nals wiegt eine Mutter in Schlaf ihr Kind.\n\nDer Tod kann Rappen und Schimmel reiten.\nDer Tod kann lächelnd im Tanze schreiten.\nEr trommelt lang, er trommelt fein,\ngestorben, gestorben, gestorben muss sein!",
   "title": "Flandern in Not",
   "words": [
@@ -23,8 +23,8 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
-  "musicalKey": "",
+  "tempo": "120",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729279529958,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
