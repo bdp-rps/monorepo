@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nB6A4A2B4-|B4z2B,2E6E2-|E2E2E8z2B,2|E6E6E4-|\nE2^F4^F2G6^F2-|^F2^F2E12|G6A6B4-|B8B6A2-|\nA4E8z2B,2|E2E2E2E4E2E2E2|^F2G4G2^F2^F2^F2G2-|G2G2^F2G2^F2E2E2^F2|\nG6A6B4-|B8B6A2-|A4G6^F4B,2|E12||",
   "content": "{e}Steu{D}ermann {G}ho! Drei {e}Strich nord-west-nord, da liegt ein han{D}sischer {G}Krä{D}mer vor {e}Ort.\nHo {D}ho {G}ho - ho {D}hohoho {e}ho. Heißt Segel, heißt Segel, heia {D}hopp {G}hopp,\nwir {D}führen den {G}Jolly {D}Roger im {e}Top. Hoho ho, {D}ho ho {G}ho - ho {D}hohoho {e}ho, {D}Schiff {e}ahoi.\n\nKäpten ahoi! Schafft Rum uns an Deck, wir schlagen das Fass mit dem Enterbeil leck. \nHo ho ho - ho hohoho ho. Zurrt fester die Tampen, hiev opp, hiev opp! \nWir führen den Jolly Roger im Top. Hoho ho, ho ho ho - ho hohoho ho, Schiff ahoi!\n\nMannschaft klar Deck! Die Klingen zur Hand, vom Mastkorb zum Bugspriet die Wannten bemannt. \nHo ho ho - ho hohoho ho. Die Stückpforten auf, ran an den Pott, \nwir führen den Jolly Roger im Top. Hoho ho, ho ho ho - ho hohoho ho, Schiff ahoi!",
   "title": "Steuermann ho",
   "words": [
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "6/8",
-  "tempo": 60,
+  "tempo": "120",
   "info": "",
   "changes": [
     {
@@ -38,8 +38,16 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729282900656,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
-  "musicalKey": "Em"
+  "musicalKey": "Em",
+  "specialSettings": {}
 }
