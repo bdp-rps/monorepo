@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/8\nB,4|B,3G|^F4|E4|\nB4|AG^FG|E4|z2B2|\nB2B2|d2d2|^c2^c2|B4|\nB2AG|^F3G|E2D2|B,4|\nB,3A,|B4|A3/2B/2dA|B4|\nA3/2B/2dA|B4|A3/2G/2^FG|E4-|\nE2D2|B4|A3/2B/2dA|B4|\nA3/2B/2dA|B4|A3/2G/2^FG|E4||",
   "content": "{e}Hier {G}wächst kein {D}Ah{e}orn, hier {D}wächst kein Pflaumen{e}baum.\nHier wachsen {G}keine {A}Mädchen{e}herzen, {D}keine Mädchen{e}herzen.\n/: {e}La {D}laleralla{e}la {D}laleralla{e}la {D}lalerallal{e}a. :/\n\nHier wächst der Thymian, hier wächst der Ginsterstrauch,\nund Dornen wachsen aus den Steinen, Dornen aus den Steinen.\n\nHier wächst der Handschar, hier wächst der Flintenlauf,\nund blühn wie Lilien, blühn im Mondlicht, Lilien blühn im Mondlicht.\n\nUnd morgen Abend, und wenn der Nachtwind weht, \nkommt unser General geritten, General geritten.\n\nUnd brint uns Raki, hej ho bogami hej,\nund bringt uns tausend Golddukaten, tausend Golddukaten.",
   "title": "Dornen und Steine",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "Hier wächst kein Ahorn",
-  "tempo": "100",
+  "tempo": "120",
   "musicalKey": "Em",
   "info": "",
   "changes": [
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729280246827,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
