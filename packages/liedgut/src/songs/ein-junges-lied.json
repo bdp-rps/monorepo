@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16+\nV:1\nD4G4G4G4|^F2E2D4D4D4|E2^F2G4G4A4|A4B8A4|\nA4B4B2c2d4|A4G4G2A2B4|^F4E4E2^F2G4|B4A8B4|\nA4B4B2c2d4|A4G4G2A2B4|^F4E4E2^F2G4|B4A8G4|\nV:2\nD4B,4C4D4|C4B,4G,4A,4|C4B,4B,4D4|D4G,4B,4D4|\n^F4G4G4^F4|D4E4E4^D4|B,4C4C4B,4|G4D4^F4G4|\n^F4G4G4^F4|D4E4E4^D4|B,4C4C4B,4|G4G4^F4G4|\n",
   "content": "Der {G}lang genug mit {D}viel Bedacht des {e}Hauses {D}Haft er{G}tra{D}gen,\n/: hat {G}über {D}Nacht sich {e}aufge{H7}macht die {C}große {G}Fahrt zu {D}wa{G}gen. :/\n\nDer sich im Dunkeln abgemüht, ihn konnt kein Zwang mehr halten, \n/: mit allem was da grünt und blüht im Licht sich zu entfalten. :/\n\nGleich Vogel, Falter, Baum und Strauch befreit von Winters Banden\n/: ist er zu neuem Leben auch erwacht und auferstanden. :/\n\nUnd wenn er seiner Straße zieht, wie es ihm will gefallen,\n/: lässt er sein junges Wanderlied hell in die Weite schallen. :/",
   "title": "Ein junges Lied",
   "words": [
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "4/4",
-  "tempo": 60,
+  "tempo": "90",
   "info": "",
   "changes": [
     {
@@ -66,6 +66,13 @@
       "mail": "torben@bdp-rps.de",
       "type": "update",
       "content": "Akkorde erste Hälfte, 1. Zeile"
+    },
+    {
+      "date": 1729280620044,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "alternativeTitle": "",
