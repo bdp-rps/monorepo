@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nG4e4e4d4|g4e2e6d4|d2d2c4c4B4|B4A8z4|\nG4e4e4d4|g4e2e6d4|d2d2c4c4B4|B4A8z4|\nz2f2g4g2g2g4-|g2f2e4d2e6-|e2f2g2g2g2g2g4|f4e8z4|\nf4g6g2g4|f2f2e2d6c4-|c2B2c4c2c2B4|B4A8z4|",
   "content": "Es {C}war an {G7}einem {C}Sommer{G7}tag, irgend{a}wann und {E}irgend{a}wo,\nda {C}tönte {G7}plötzlich {C}Trommel{G7}schlag und {a}Flöten{E}spiel klang {a}froh.\nEs {G7}war eine muntre, {C}bunte Schar, die {G}machte vor dem Rathaus {C}halt.\nDen {G}Grund, weshalb sie ge{C}kommen war, er{a}fuhren die {E}Leute {a}bald.\n\n/: C G C G a E a :/\n\nEin Mann mit einem Federhut rief: \"Männer hört mir zu!\nIch verspreche euch Geld und Gut und Ehre noch dazu:\nDer Kaiser braucht euch, reiht euch ein! Hängt nicht an Weib und Haus.\nEs muss ja nicht für lange sein, zieht mit ins Feld hinaus.\"\n\nIm Wirtshaus war das Trinken frei, bezahlt mit Kaisers Gold.\nUnd während dieser Zecherei trat mancher in des Kaisers Sold.\nGab seiner Braut den Abschiedskuss, versuchte als Soldat sein Glück,\nsah nicht des Werbers Pferdefuß und kam nie mehr zurück.\n\nMit Flötenspiel und Trommelschlag ging's früh am Morgen fort.\nDie Schar ward größer, denn es lag am Weg noch mancher Ort.\nDer Werber mit dem Federhut macht sein Geschäft nicht schlecht,\nversprach noch vielen Geld und Gut, dem Kaiser, dem war's Recht.\n\nDie Jahre gingen in das Land und von der großen Schar,\ngab's keinen der nach Hause fand, wie er gegangen war.\nDer eine ließ sein Bein im Feld, blind kam ein andrer an,\ndie meisten hatte der Tod gefällt, der jede Schlacht gewann.\n\nDie letzten Tränen waren kaum geweint, da waren sie\nauch schon vergessen wie ein Traum, die Menschen lernen nie.\nUnd dann an einem Sommertag, irgendwann und irgendwo,\nda tönte plötzlich Trommelschlag und Flötenspiel klang froh.",
   "title": "Es war an einem Sommertag",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "100",
+  "tempo": "120",
   "musicalKey": "",
   "info": "Das Lied handelt von keinem bestimmten und gleichzeitig von allen Kriegen.",
   "changes": [
@@ -40,6 +40,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729279427174,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
