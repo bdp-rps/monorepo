@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/8\nzCEF|G3G|A3/2G/2AB|c2G2|\nzGFE|D3E|F3/2A/2GF|E4|\nzCEF|G3G|A3/2G/2AB|c2G2|\nzGFE|D3E|F3/2A/2GF|E4|\nz2AB|c2c2-|cB2A|A2A2|\nz2AB|c2c2-|cB2A|A2A2|\nzAGE|G3E|G3/2A/2GE|D4-|\nD2z2|E4|EFGA|F2A2|\nG2F2|E4||",
   "content": "Ein stolzes {C}Schiff streicht {G7}einsam durch die {C}Wellen\nund führt uns {d}unsre {G}deutschen Brüder {C}fort.\nDie Fahne weht, die {G7}weißen Segel {C}schwellen,\nAmeri{d}ka ist {G}ihr Bestimmungs{C}ort.\nSeht auf {a}dem Verdeck sie {F}stehen,\nsich noch {a}einmal umzu{F}sehen,\nins Vater{C}land, ins heimatliche {G}Grün.\n{C}Seht, wie sie übers {F}große {G}Weltmeer {C}ziehn.\n\nSie ziehn dahin auf blauen Meereswogen.\nWarum verlassen sie ihr Heimatland?\nMan hat sie um ihr Leben schwer betrogen,\ndie Armut trieb sie aus dem Vaterland.\nSchauet auf, ihr Unterdrücker,\nschauet auf, ihr Volksbetrüger!\nSeht, eure besten Arbeitskräfte fliehn.\nSeht, wie sie übers große Weltmeer ziehn.\n\nSie ziehn dahin, wer wagt sie noch zu fragen?\nWarum verlassen sie ihr Heimatland?\nOh, armes Deutschland, wie kannst du es ertragen,\ndass deine Brüder werden so verbannt?\nWas sie hofften, hier zu gründen,\nsuchen sie dort drüben zu finden.\nDrum ziehen sie von deutschem Boden ab\nund finden in Amerika ihr Grab.\n\nEin stolzes Schiff ...",
   "title": "Ein stolzes Schiff",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "90",
+  "tempo": "100",
   "musicalKey": "",
   "info": "Das Lied erzählt von der Auswanderungswelle, die die politischen und wirtschaftlichen Verhältnisse in Deutschland nach dem Scheitern der Märzrevolution 1848 auslösten. Alle Hoffnung auf ein freiheitliches, demokratisches und vereinigtes Deutschland, und damit die Vision von einem besseren Leben, war geschwunden. Über drei Millionen Menschen verließen wegen bitterer Armut und Unterdrückung in der größten Massenemigration des 19. Jahrhunderts das Land. Anders, als bei der (letztlich vom Ausbruch des indonesischen Vulkans Tambora verursachten) ersten Auswanderungswelle des Jahrhunderts (1816/1817), trieb es diesmal den größten Teil der Emigranten in die Vereinigten Staaten, wo sie sich als Siedler an der Erschließung des \"Wilden Westens\" beteiligten. Wie ein Magnet zog zudem das 1845 entdeckte kalifornische Gold die Glücksritter in den Westen (der berühmte Gold Rush). Die Auswanderergeneration von damals ist auch als Forty-Eighters\" bekannt - die '48er.\n\nErich Schmeckenbecher und Thomas Friz gruben in den 1970er Jahren im Deutschen Volksliedarchiv ein anonymes Flugblatt mit dem teilweise überlieferten Text aus, ergänzten ihn, vertonten ihn neu und machten das Lied in der heutigen Form bekannt. Jochen Wiegandt (von Liederjan, vgl. sein schönes Hamburger Liederbuch\") fand später heraus, daß der Text vom Hamburger Arbeiterdichter Heinrich Schacht stammt und erstmals 1855 veröffentlicht wurde. Schacht schlug bei späteren Abdrucken als Melodie „Die Liebe schlang das heiligste der Bande\" vor, ein Lied von Albert Methfessel (1785-1869) (von dem auch die Hamburg- Hymne ist) aus dem Jahr 1828, das die Befreiung der Stadt von der französischen Besatzung (1814) und die Rolle des Hamburgischen Bürgermilitärs hierbei thematisierte.",
   "changes": [
@@ -57,6 +57,13 @@
     },
     {
       "date": 1719071306828,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1729280707618,
       "name": "ko",
       "mail": "",
       "type": "update",
