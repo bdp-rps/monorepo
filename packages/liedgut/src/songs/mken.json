@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nV:1\n%%MIDI program 0\n|^F6E2D4^F4|E6D2^C4E4|\nz4D2D2D4D4|^F6^F2E8|z4^F2E2D4^F4|E6D2^C4E4|\nz8D4D4|^F8E8|z4^F2^F2^F4^F4|^F6^D2E4^F4|\nz4G2G2G4G4|^F8E8|D4^F2^F2^F4^F4|^F6^D2E4^F4|\nz4G2G2G4G4|^F8E8|D8z4||\nV:2\n%%MIDI program 1\n|A6G2^F4A4|A6B2A4E4|\n^F6^F2^F4^F4|^F4G2A2A8|d6^c2B4A4|A6B2^c4A4|\nB8^F8|B8A8|z4A2A2A4A4|B6B2B4B4|\nB6^c2d4B4|A8G8|^F4A2A2A4A4|B6B2B4B4|\nB6^c2d4B4|A8G8|^F8z4||\nV:3\n%%MIDI program 1\n|D6D2D4D4|^C6B,2A,4^C4|\nB,6B,2B,4B,4|D6D2^C8|D6D2D4D4|^C6B,2A,4^C4|\nB,8B,8|B,8^C8|D8D8|B,8B,8|\nG,12G,4|D12^C4|D8D8|B,8B,8|\nG,12G,4|D12^C4|D8z4||",
   "content": "{D}Ro mitt barn til {A}fugleskjæret, {h}mange måker {D}fant vi {A}der.\n{D}De som bringer {A}oss i gave, {h}drøm om ha{A}vet.\n{D}Hele dagen {H7}vil vi være, {G}der hvor alle {D}må{A}ker {D}er.\n\nRo, mitt barn før dagen ender, dit hvor alle måker flyr.\nSe vår lengsels fabelskute, går der ute.\nUnder seil mot fjerne strender, og mot Sinbads eventyr.\n\nRo mitt barn det tapte riket skjenker havet oss igjen.\nFølg den flyvende hollender! Havlegender.\nToner gjenom måkeskriket, en atlantis fugl er den.\n\nRo mitt barn i blonde dage under solens lykkehjul.\nMåken bringer oss i gave, drøm om havet.\nMåken det er bølgeslaget som har skapt seg om til fugl.",
   "title": "Måken",
   "words": [
@@ -30,7 +30,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "100",
   "musicalKey": "D",
   "info": "Norwegisch",
   "changes": [
@@ -68,6 +68,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Titel"
+    },
+    {
+      "date": 1729281078618,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {}
