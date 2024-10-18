@@ -1,6 +1,6 @@
 {
-  "notation": "",
-  "content": "{D}Trampen {A}wir durch's {D}Land und rasen durch die {G}Wälder {D}hin.\n/: {G}Wer fragt {D}dann noch, {G}wer fragt {D}dann noch {A7}nach des Lebens {D}Sinn? :/\n\nLust und Traurigkeit verweben wir im Kleid der Zeit.\nDunkle Stunden, Becherrunden, wir sind stets bereit.\n\nAlles was uns bannt, verweht im Sand, verweht im Staub.\nAlle Schätze dieser Erde werden uns zum Raub.\n\nGut war uns're Fahrt. Wir maßen aus des Lebens Raum.\nTage, Nächte, Sonnenprächte und der Träume Schaum.\n\nIm Norden und im Süd, in Ost und West das gleiche Lied.\nIn die Ferne, zu den Sternen es uns ewig zieht.",
+  "notation": "L:1/16\n^F4^F4E4E4|D8-D2A,2D2E2|^F4^F4G4B4|A16|\nB4B4A2^F6|B4B4A2^F6|E6A2A6G2|^F8z8|\nB4B4A2^F6|B4B4A2^F6|E6A2A6G2|^F8z8||",
+  "content": "{D}Trampen {A}wir durchs {D}Land und rasen durch die {G}Wälder {D}hin.\n/: {G}Wer fragt {D}dann noch, {G}wer fragt {D}dann noch {A7}nach des Lebens {D}Sinn? :/\n\nLust und Traurigkeit verweben wir im Kleid der Zeit.\nDunkle Stunden, Becherrunden, wir sind stets bereit.\n\nAlles was uns bannt, verweht im Sand, verweht im Staub.\nAlle Schätze dieser Erde werden uns zum Raub.\n\nGut war unsre Fahrt. Wir maßen aus des Lebens Raum.\nTage, Nächte, Sonnenprächte und der Träume Schaum.\n\nIm Norden und im Süd, in Ost und West das gleiche Lied.\nIn die Ferne, zu den Sternen es uns ewig zieht.",
   "title": "Fernweh",
   "words": [
     {
@@ -25,7 +25,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "110",
   "musicalKey": "D",
   "info": "Hussa (Werner Helwig, 1905 - 1985) war Schriftsteller und aktives Mitglied im Nerother Wandervogel. 1931 wurde er wegen \"Unzucht mit Kindern\" zu einer Gefängnisstrafe verurteilt.",
   "changes": [
@@ -42,6 +42,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729281191682,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
