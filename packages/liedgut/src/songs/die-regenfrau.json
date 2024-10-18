@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "Q:1/4=110\nL:1/16\nA,4D4F4E4|A4F4E4D4|A,4D4F4E4|A4F4E4D4|\nC4F4F4G4|G4A12|A4^A6A2G4|F4E4E4D4-|\nD8z4||",
   "content": "Der {d}Nebel {A}dämpft das {d}Mor{A}gen{d}licht\nUnd alles {A}Wesen {d}flüst{A}ernd {d}spricht\n{C}Das {F}Land verh{C}angen {F}grau\nIm {g}Felde singt die {A7}Regen{d}frau.\n\nDer Weg ist lang, der Weg ist Weit\nWir wandern tief im Grund der Zeit\nDer Sommer ist verbannt\nEin fahler Rauch geht durch das Land.\n\nDas Jahr geht aus der Regen fällt\nEin andrer Herr regiert die Welt\nDer Wind ist nass und schwer\nDas Land ertrinkt im Regenmeer",
   "title": "Die Regenfrau",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "110",
   "info": "",
   "changes": [
     {
@@ -32,6 +32,15 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729279117505,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "Dm"
 }
