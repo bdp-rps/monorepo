@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nc4c2c4c4d2-|d2d2d4c4e4|e2e4e4f4f2|f4e4g4g2g2-|\ng2e4f4e2d4-|d4c4G2c4e2-|e2d4B2c8|c4c2c4c4d2-|\nd2d2d4c4e4|e2e4e4f4f2|f4e4g4g2g2-|g2e4f4e2d4-|\nd4c4G2c4e2-|e2d4B2c8|g4g2g4e4f2|e4d4f4e4|\nc2c4e4d4B2|G8g4g2g2-|g2e4f2e4d4|f4e4c2d4B2-|\nB2c8z4z2||",
   "content": "{C}Gestern, Brüder, {G}könnt ihrs glauben? {C}Gestern bei dem {F}Saft der Trauben\n{C}stellt euch mein Ent{F}setzen für: {G}gestern kam der {C}Tod zu mir!\n{C}Drohend schwang er {G}seine Hippe, {C}drohend sprach das {F}Furchtgerippe:\n{C}\"Fort von hier, du {F}Bachusknecht! {G}Fort, du hast {C}genug gezecht!\"\n\nHop, hop, hop, fal{F}lalera, ihr {C}glaubt es nicht, der {G}Tod war da,\n{C}hop, hop, hop, fal{F}lalera, fal{C}lala{G}lala{C}la.\n\n\"Lieber Tod\", sprach ich mit Tränen, \"solltest du dich nach mir sehnen?\nSieh, da stehet Wein für dich! Lieber Tod, verschone mich!\"\nLächelnd greift er nach dem Glase, lächelnd trank er's auf der Base,\nauf der Pest Gesundheit leer, lächelnd setzt er's wieder her.\n\nFröhlich glaubt ich mich befreiet, als er schnell sein Droh'n erneuert:\n\"Narr, für einen Tropfen Wein glaubst du meiner los zu sein?\"\n\"Liebster Tod, ich möcht' auf Erden gern ein Mediziner werden;\nlass mich! Ich verspreche dir meine Kranken halb dafür\"\n\n\"Gut, wenn das ist, magst du leben\", sprach er, \"nur sei mir ergeben.\nLebe, bist du satt geküsst und des Trinkens müde bist.\"\n\"Oh! wie schön klingt dies den Ohren! Tod, du hast mich neu geboren.\nDieses Glas voll Rebensaft, Tod, auf gute Brüderschaft!\"\n\nEwig soll ich also leben, ewig, denn beim Gott der Reben!\nEwig soll mich Lieb' und Wein, ewig Wein und Lieb' erfreu'n!",
   "title": "Tod und Mediziner",
   "words": [
@@ -22,8 +22,8 @@
   ],
   "translation": [],
   "beat": "4/4",
-  "alternativeTitle": "",
-  "tempo": "100",
+  "alternativeTitle": "Zecherbündnis",
+  "tempo": "140",
   "musicalKey": "C",
   "info": "",
   "changes": [
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1729281516631,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
