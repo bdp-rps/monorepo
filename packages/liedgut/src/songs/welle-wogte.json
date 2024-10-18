@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nV:1\n%%MIDI program 0\nE2E2E2E2G4G4|E16|E2E2E2E2G4G4|D16|\nG2G2G2G2A4A4|B16|E2E2E2E2G4G4|E16|\nE2E2E2E2G4G4|E2E2E2E2G4G4|E16||\nV:2\n%%MIDI program 1\nz16|E2E2E2E2G4G4|E16|D2D2D2D2^F4^F4|\nG8^F8|G2G2G2G2^F4^F4|G16|E2E2E2E2G4G4|\nE16|E2E2E2E2G4G4|E16||",
   "content": "{e}Welle wogte {C}an den {e}Strand, griff nach eines {C}Mädchens {D}Hand,\n{G}das in Abend{D}sonnen{e}gl{h}ut, {e}heimwärts wandert {C}durch die {e}Flut.\n\nZarte Brust und schlanker Fuß, wahrt euch vor des Schmeichlers Gruß:\n\"Höre, Kind, mein sanft Gebot, warte, bleib, ich bin der Tod.\"\n\n\"Drüben ruft der liebe Glück. Schmachvoll wärs, blieb ich zurück.\"\nDort im Fluss, der helle Klang. Wars ein Fisch der spielend sprang?\n\nSchlanker Fuß und zartes Herz harrt der Fähre heimatwärts.\n\"Hör auf mich\" die Welle droht, \"warte, Kind, ich bin der Tod.\"\n\n\"Liebster ruft, da muss ich eilen. Schande träf mich, wollte ich weilen.\"\nWelle, Welle wogt und ringt, mächtig ihren Leib umschlingt.\n\nTöricht Herze, treue Hand, kleiner Fuß trat nie ans Land.\nWelle wandert, Welle rot, wogt hinab und trägt den Tod.",
   "title": "Welle wogte",
   "words": [
@@ -24,7 +24,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "80",
   "musicalKey": "Em",
   "info": "",
   "changes": [
@@ -58,6 +58,13 @@
     },
     {
       "date": 1712846719750,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1729283484126,
       "name": "ko",
       "mail": "",
       "type": "update",
