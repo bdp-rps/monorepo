@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nA,6B,2C4A,4|C16|C6B,2C4B,4|A,8A,8|\nA,6B,2C4A,4|C16|C6B,2C4B,4|A,8A,8|\nz8z4G,4|E4E4E6C2|D16|C2C6C4A,4|\nB,16|A,8A,2A,6|E8E2E4E2|E4D4E4G4|\nE16|F8F2F6|F8F2F4F2|F4E4F4G4|\nE16||",
   "content": "{a}Von der Festung {F}dröhnt {a}derbe {E}Männer{a}stimme.\nRauer Kehle {F}Sang, {a}hell die {E}Gläser {a}klingen.\n\n{G}Be{C}herrschen dies {G}Gebiet, {a}singen stolz ihr {E}Lied:\n/: {a}Raubritter, Raubritter, wie weit {G}ist {a}un{G}ser {a}Land?\n{F}Raubritter, Raubritter, wie stark {C}ist {F}uns{G}re {a}Hand? :/\n\nIn unser Knechtschaft Zeit griffen wir zu Waffen,\nschlugen unsre Herrn, Grafen und auch Pfaffen.\n\nGroß ist unsre Macht, solange wir vereint.\nHüten unsre Burg, trotzen jedem Feind.",
   "title": "Raubritter",
   "words": [
@@ -64,6 +64,13 @@
     },
     {
       "date": 1712949702234,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1729282747134,
       "name": "ko",
       "mail": "",
       "type": "update",
