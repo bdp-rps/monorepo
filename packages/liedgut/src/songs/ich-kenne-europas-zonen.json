@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nB,4E2E4E2G4|G4E4E6z2|B,4E2E4E2G2G2-|G2G2E12|\nE4^D2^F4^F2^F2E2-|E2^D2E2G8-G2|E4^D2^F4^F2^F2E2-|E2^D2E2G8-G2|\nE4G2E4G2^F2E2-|E2^D2E8z4|D4D4B,3CD4|D2D2E4G3ED4|\nB,2D2D3DB,2C2D4|C3B,A,12|D2D2G4E3GA4|G2^F2G8z4||\n",
   "content": "Ich {e}kenne Europas Zonen vom Ural bis westlich Paris. Die {H7}Händel der großen {e}Nationen, der {H7}Klassen und Konfess{e}ionen sind für mich nur ein {H7}fauler Be{e}schiss.\n{D}Ich {G}bin ein gemeiner, zer{C}lumpter Land{G}streuner. Ich brauch keine Heimat, kein {D}Geld,\n/: nur mein {G}Pferd und die {D}sonnige {G}Welt. :/\n\nIch streifte von Hollands Grachten bis weit in das russische Reich. \nIch konnte die Menschen betrachten und lernte sie gründlich verachten, \ndenn im Grunde sind alle gleich.\nSie schreien: \"Gemeiner, zerlumpter Landstreuner!\" Sie schätzen unsern Wert nur nach Geld,\n/: mich mein Pferd und die sonnige Welt. :/\n\nSie fragten nach meinen Papieren, ich streckte die Zunge heraus. Sie wollten mich nummerieren, in Listen und Büchern führen, doch ich lachte sie einfach aus.\nIch bin ein gemeiner, zerlumpter Landstreuner, doch Freiheit ist besser als Geld,\n/: für mich, mein Pferd und die sonnige Welt. :/",
   "title": "Ich kenne Europas Zonen",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": "100",
+  "tempo": "120",
   "musicalKey": "Em",
   "info": "Wir haben im Text das diskriminierende \"Z-Wort\" durch \"Landstreuner\" ausgetauscht.",
   "changes": [
@@ -50,6 +50,13 @@
     },
     {
       "date": 1719068753703,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1729281667342,
       "name": "ko",
       "mail": "",
       "type": "update",
