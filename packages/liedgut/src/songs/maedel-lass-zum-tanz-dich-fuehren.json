@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "L:1/16\nB,4E4E4D2E2|^F4D4E4B,4|E4^F4G4E4|A4G4^F8|\nG4A4B8|c8A4G2A2|B4G4G4^F2G2|A4G4^F4^F4|\nE8G4A4|B8c8|A4G2A2B4G4|G4^F2G2A4G4|\n^F4^F4E8||",
   "content": "{e}Mädel lass zum {H7}Tanz dich {e}führen,\nsieh, der Abend {a}kommt her{H7}bei.\n/:Wenn {H7}die Sp{e}iel{a}leut' {D}musi{G}zieren,\n{e}wird das {a}Herz von {H7}Sorgen {e}frei. :/\n\nMädel reich mir deine Hände,\nfrisch, der erste Tanz beginnt.\n/:Rundherum und ohne Ende,\nso wir noch beisammen sind. :/\n\nUnd schon kommt die letzte Runde,\nund es heißt nach Hause gehn.\n/:Horch, es kräht der Hahn die Stunde,\nTanz ist aus, auf Wiedersehen. :/",
   "title": "Mädel lass zum Tanz dich führen",
   "words": [
@@ -23,8 +23,8 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
-  "musicalKey": "",
+  "tempo": "120",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1729282218875,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
