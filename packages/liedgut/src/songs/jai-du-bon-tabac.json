@@ -1,20 +1,38 @@
 {
   "notation": "",
-  "content": "J'ai du bon tabac dans ma tabatière, J'ai du bon tabac, tu n'en auras pas.\nJ'en ai du fin et du bien rapé, Qui ne s'ra pas pour ton fichu nez!\nJ'ai du bon tabac dans ma tabatière, J'ai du bon tabac, tu n'en auras pas.\n",
+  "content": "J'ai du bon tabac dans ma tabatière, J'ai du bon tabac, tu n'en auras pas.\n\nJ'en ai du fin et du bien rapé, Qui ne s'ra pas pour ton fichu nez!\n\nJ'ai du bon tabac dans ma tabatière, J'ai du bon tabac, tu n'en auras pas.",
   "title": "J'ai du bon tabac",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "französisches Kinderlied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "französisches Kinderlied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
   "musicalKey": "G",
-  "info": "Französisches Kinderlied, Kanon",
+  "info": "Französisches Kinderlied",
   "specialSettings": {},
   "changes": [
     {
-      "date": 1729785619634,
-      "name": "Timon",
+      "date": 1729789998807,
+      "name": "Timon ",
       "mail": "timonflick@outlook.com",
       "type": "create",
       "content": ""
