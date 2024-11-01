@@ -82,7 +82,7 @@ export default function Template({
               alignSelf: 'flex-start',
             }}>
             <Text variant="title" height={1} color={theme.colors.blue}>
-              Aufbaugruppe Rotfüchse Herxheim
+              Aufbaugruppe Rotfüchs Herxheim
             </Text>
           </Box>
         </Layout>
