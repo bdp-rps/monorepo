@@ -1,6 +1,6 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "pipelines": {
+  "tasks": {
     "format": {
       "cache": false
     },
