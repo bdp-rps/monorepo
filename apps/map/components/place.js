@@ -6,7 +6,7 @@ export default function Song({ name }) {
     <Box>
       <Text variant="category">{name}</Text>
       <Box>
-        <Text>{' '}</Text>
+        <Text>{'  '}</Text>
       </Box>
     </Box>
   )
