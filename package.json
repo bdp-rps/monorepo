@@ -9,7 +9,7 @@
     "test": "turbo run test",
     "check": "pnpm format && pnpm test && pnpm lint"
   },
-  "packageManager": "pnpm@7.0.0",
+  "packageManager": "pnpm@7.30.0",
   "devDependencies": {
     "eslint": "^8.24.0",
     "eslint-plugin-import": "^2.26.0",
@@ -19,6 +19,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
-    "turbo": "^1.7.0"
+    "turbo": "^2.2.3"
   }
 }
