@@ -23,6 +23,20 @@ export default function Page() {
             <Text variant="category">Reisekosten - Auto</Text>
           </Box>
         </NextLink>
+        <NextLink href="/formulare/segelanmeldung" passHref>
+          <Box
+            padding={5}
+            as="a"
+            extend={{
+              textDecoration: 'none',
+              backgroundColor: 'white',
+
+              boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+              borderRadius: 8,
+            }}>
+            <Text variant="category">Anmeldung Segeln IJsselmeer 2025</Text>
+          </Box>
+        </NextLink>
       </Layout>
     </Template>
   )
