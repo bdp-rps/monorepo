@@ -9,6 +9,7 @@ import {
   useBoolField,
   SelectInput,
   Checkbox,
+  Spacer,
 } from '@bdp-rps/ui'
 
 import Layout from '../../components/Layout'
@@ -32,6 +33,15 @@ export default function Page() {
   const group = useField({
     name: 'group',
   })
+
+  const secondGroup = useField({
+    name: 'secondGroup',
+  })
+
+  const travelPartner = useField({
+    name: 'travelPartner',
+  })
+
   const mail = useField({
     name: 'mail',
     required: true,
@@ -87,26 +97,12 @@ export default function Page() {
     zipcode,
     location,
     groupsize,
+    secondGroup,
+    travelPartner,
     sendFee,
     date,
     place
   )
-
-  useEffect(() => {
-    if (group?.value) {
-      switch (group.value) {
-        case 'von Helfenstein':
-          setLimit(44)
-          break
-        case 'Albert Schweitzer':
-          setLimit(38)
-          break
-        default:
-          setLimit(34)
-          break
-      }
-    }
-  }, [group])
 
   return (
     <>
@@ -176,13 +172,34 @@ export default function Page() {
             </Box>
             <Text variant="category">Teilnehmende</Text>
             <TextInput label="Anzahl der Personen" {...groupsize.props} />
+            <Text variant="category">Sonstige Angaben</Text>
+            <SelectInput label="Wunsch-Stamm" {...secondGroup.props}>
+              <option value=""></option>
+              {staemme
+                .sort((a, b) =>
+                  a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+                )
+                .map(({ name }) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+            </SelectInput>
+            <TextInput
+              label="Anreise geplant mit (falls bereits bekannt)"
+              placeholder="Name des Stammes/der Stämme"
+              {...travelPartner.props}
+            />
+            <Spacer />
+            <Text variant="category">
+              Bestätigung zur Überweisung der 1. Rate
+            </Text>
             <Box>
               <Box direction="row" space={2}>
                 <Checkbox {...sendFee.props} />
                 <Text>
-                  Überweisung der ersten Rate bis zum 31.01.2025 (100€ pro
-                  Person) (Verwendungszweck: Segeln 2025, Stamm, Anzahl
-                  Personen)
+                  Überweisung der ersten Rate bis zum 31.01.2025 (100€ p.P.)
+                  (Verwendungszweck: Segeln 2025, Stamm, Personenanzahl)
                 </Text>
               </Box>
               <Box paddingLeft={[2, 0, 0, 0]} alignSelf="center" paddingTop={2}>
