@@ -227,7 +227,7 @@ export default () => (
             <br /> <br />
             <Text subStyle="emphasis">
               Neue Gesichter sind hier herzlich willkommen!
-            </Text>{' '}
+            </Text>
             <br />
             Der Name Tilia Tilia ist der lateinische Name für Linde. Linden
             wurden früher in vielen Dörfern auf dem Marktplatz, also in der
