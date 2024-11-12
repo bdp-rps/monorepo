@@ -224,7 +224,7 @@ export default () => (
             und Rovern, der ältesten Stufe im BdP.
             <br /> In den Gruppenstunden mit der Meute wird jede Woche ganz viel
             gespielt, gelacht, gesungen, gebaut und gebastelt.
-            <br /> <br />{' '}
+            <br /> <br />
             <Text subStyle="emphasis">
               Neue Gesichter sind hier herzlich willkommen!
             </Text>{' '}
