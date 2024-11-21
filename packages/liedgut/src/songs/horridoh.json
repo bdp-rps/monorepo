@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "Ho{G}rridoh! Horridoh! {e}Wir auf den fernen {H7}Stra{e}ßen\n{a}werden nicht {e}müde, {H7}Schritt zu {e}fassen.\n{D}Wir {G}singen {D}ein {G}Lied, wird auch so mancher er{D}blas{G}sen,\nweint auch so manches {D}Lieb.\n{e}Wir auf den fernen {H7}Straß{e}en,\n/:{D}wir {G}singen {D}ein {G}Lied, singen {D}ein {G}Lied. :/\n\nHorridoh! Horridoh! Wir im Feld und Graben,\nwas auch geschieht, wir Kameraden,\nwir singen ein Lied,\nwollt selbst der Teufel uns fragen,\nwann es wohl Ruhe gibt.\nWir in Feld und Graben,\n/:wir singen ein Lied, singen ein Lied. :/",
+  "content": "Ho{G}rridoh! (Horridoh!  Horridoh!  Horridoh!)\n{e}Wir auf den fernen {H7}Stra{e}ßen\n{a}werden nicht {e}müde, {H7}Schritt zu {e}fassen.\n{D}Wir {G}singen {D}ein {G}Lied, wird auch so mancher er{D}blas{G}sen,\nweint auch so manches {D}Lieb.\n{e}Wir auf den fernen {H7}Straß{e}en,\n/:{D}wir {G}singen {D}ein {G}Lied, singen {D}ein {G}Lied. :/\n\nHorridoh! (Horridoh!  Horridoh!  Horridoh!)\nWir im Feld und Graben,\nwas auch geschieht, wir Kameraden.\nWir singen ein Lied,\nwollt selbst der Teufel uns fragen,\nwann es wohl Ruhe gibt.\nWir in Feld und Graben,\n/:wir singen ein Lied, singen ein Lied. :/\n\nLetzte wie Erste.",
   "title": "Horridoh!",
   "words": [
     {
@@ -21,11 +21,11 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
-  "tempo": 60,
-  "musicalKey": "",
-  "info": "\"Horridoh\" ist ein alter Gruß und Jagdruf aus der Jägersprache. Bei den Wandervögel ersetzte er mit Aufkommen des Nationalsozialismus den zuvor gebräuchlichen Gruß \"Heil\".",
+  "tempo": "126",
+  "musicalKey": "G",
+  "info": "„Horridoh“ ist ein alter Gruß und Jagdruf aus der Jägersprache: Horridoh = Ho, Rüd, ho = Hoch, Rüde, hoch!\nBei den Wandervögel ersetzte er mit Aufkommen des Nationalsozialismus den zuvor gebräuchlichen Gruß „Heil“.\n\nDie Horridoh-Rufe sind im 3/4-Takt, der Rest im 2/4-Takt.\nIst abwechselnd in der G-Dur-Tonart und der e-Moll-Tonart.",
   "changes": [
     {
       "date": 1679517000654,
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1732211216175,
+      "name": "Noah",
+      "mail": "dagobert121@web.de",
+      "type": "update",
+      "content": "- Beim Text Punkt-Setzung und Komma-Setzung der Tonspur übernommen.\n- Horridoh-Rufe erklärt\n- Tonart angeben (mit Erklärung der Wechsel)\n- Takt angeben (mit Erklärung des Wechsels)\n- Tempo angegeben"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
