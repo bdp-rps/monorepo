@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Das {c}Rad der Zeit, es {g}dreht sich schnell und {f}zieht dich immer {G}weiter!\nE{c}gal wie sehr du {g}vorwärts drängst, {f}bleibst nur am untren {G}Teil der Leiter.\nIm {d}Fluss der Welt bleibt {g}keiner stehn, er könnt ja was ver{d}passen,\nstets {c}auf der Suche {Gis}nach dem Glück, doch {f}lässt es sich nicht {G}fassen.\n\nAuf der {c}Bühne der Welt wird The{Gis}ater zu Geld. {c}Spiel einfach mit,\ndann {g}kommt schon das Glück. Sei {f}Größter, Schnellster, {G}Bester!\nUnd {f}ziehe deine {G}Maske fester, sonst {c}zeigt sich darunter dein {G}wahres Ge{e}sicht. {G}\n\nWenn du den Weg ins Leben trittst, wirst du nicht daran denken,\ndass nicht mehr du dein Herr noch bist, sondern feine Fäden dich lenken. \nUnsichtbar in Raum und Zeit, führen sie deine Gedanken.\nUnd mit der Qual von Sinn und Moral, weisen sie Handeln in Schranken.\n\nSpiel deine Rolle fehlerfrei und folge dem Drehbuch der Fäden.\nDas Denken ist doch einerlei, die Freiheit ist nichtig im Leben.\nOb Inszenierung, Performanz, ob Führung, Rolle, ob Skript.\nFolge nicht dem größren Wohl das der Faden dir täglich vorgibt!",
+  "title": "Der Faden",
+  "words": [
+    {
+      "name": "",
+      "nickname": "charlotte",
+      "group": "Stamm Kimbern",
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "",
+      "nickname": "charlotte",
+      "group": "Stamm Kimbern",
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "6/8",
+  "alternativeTitle": "",
+  "tempo": "80",
+  "musicalKey": "Cm",
+  "info": "Im Refrain die ersten 9 Takte in 4/4.",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733167198690,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
