@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Wenn man {G}adipösen {D}Kindern manchmal {a}Zucker schenkt{C},\nwenn man {G}mal sein altes {D}Mofa in nem {a}See ver{C}senkt,\nwenn man {h}Grundschulkindern heimlich etwas {C}Gras zusteckt,\nist zwar der Spaß perfekt, doch ist es {a}nicht korrekt.\n\nDas ist ge{h}mein, und ge{C}mein soll man nicht sein,\ndenn diese Welt{h} verspricht schon mehr {C}als sie dann hält. Oh ja! {D}{C}{h}{D}\nDas {G}Leben ist ein Parallelogram. {G7}Alles läuft gerade {C}irgendwie krumm.\nManchmal {a}bin ich weich und manchmal bin ich stramm.\nUnd manchmal {D}steh ich auf und fall gleich wieder um. {G} Oh-oh-oh. {e}\n\nDas Leben ist kein {h}Ponypuff, auch wenns manchmal so riecht. {D}\nDie Welt sieht völlig {a}anders aus, wenn man auf {D}ihr kriecht.{C}{h}{D}\n\nWenn man Waisenkinder nach dem Job der Eltern fragt,\nwenn man beim Mathetest der Freundin falsche Zahlen sagt,\nwenn man hin und wieder mal ne alte Frau erschreckt,\nist zwar der Spaß perfekt, doch ist es nicht korrekt.",
+  "title": "Das Leben ist ein Parallelogram",
+  "words": [
+    {
+      "name": "Markus Breuer",
+      "nickname": "",
+      "group": "Schlagsaite",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Markus Breuer",
+      "nickname": "",
+      "group": "Schlagsaite",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733166372235,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
