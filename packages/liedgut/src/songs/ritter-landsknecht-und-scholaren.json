@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Ritter, {d}Landsknecht und Scho{B}laren, früher {C}Wandervogel{F}schick.\nWolln nicht {B}fragen was wir waren in die {A}Zukunft geht der {d}Blick.\nWollen {B}uns von Dogmen {d}trennen vor de{B}nen wir uns ver{A}neigt,\n/: werden {g}nie die Wahrheit {F}kennen da sie {A}immer neu sich {d}zeigt. :/\n\nHeut stehn wir auf festem Boden aus Kultur und Tradition,\ndoch die jungen Herzen rufen endlich nach Revolution.\nWollen uns nach vorne wagen nicht die alten Wege gehen,\n/: denn auf ausgetretnen Pfaden kann man selten Neues sehen. :/\n\nMüssen auch nicht alles drehen nur weil es Vergangenheit,\nmanche unserer Ideen haben zeitlos Gültigkeit.\n/: Gutes gilt es zu bewahren aber nicht bedingungslos,\ndenn sonst sind nach 100 Jahren wir ein müder Abklatsch bloß. :/",
+  "title": "Ritter, Landsknecht und Scholaren",
+  "words": [
+    {
+      "name": "Holger Technau",
+      "nickname": "ruski",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Holger Technau",
+      "nickname": "ruski",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "",
+  "tempo": "60",
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733430407387,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
