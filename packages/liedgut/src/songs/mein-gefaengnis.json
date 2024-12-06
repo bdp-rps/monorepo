@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{d}Auf dem Meere tanzt die Welle {A}nach der Freiheit Windmusik. \n{d}Raum zum Tanz hat {B}meine Zelle, {C}siebzehn Meter im Ku{d}bik.\n\nAus dem blauen Himmel zittert Sehnsucht, die die Herzen stillt.\nMeine Luke ist vergittert und ihr dickes Glas gerillt.\n\n{F}Liebe tupft mit bleichen leisen {a}Fingern an ein Bett ihr Mal.\n{B}Meine Pforte ist aus Eisen, {C}meine Pritsche hart und {d}sch{B}mal{d}.\n\nTausend Rätsel, tausend Fragen machen manchen Menschen dumm.\nIch hab eine nur zu fragen: Warum, sitz ihr hier warum?\n\nHinterm Auge wohnt die Träne und sie weint zu ihrer Zeit.\nEingesperrt sind meine Pläne namens der Gerechtigkeit.\n\nWie ein Flaggstock sind Entwürfe, den ein Wind vom Dache warf.\nDenn man meint oft, das man dürfe, was man schließlich doch nicht darf.\n\nAuf dem Meere...",
+  "title": "Mein Gefängnis",
+  "words": [
+    {
+      "name": "Erich Mühsam",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Dreyheit",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "120",
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733493650274,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
