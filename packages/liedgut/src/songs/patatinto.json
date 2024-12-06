@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{d}Lapatato c'lapa{d/C}te c{B}on tas {A7}ta turata{g} y mous o'{F}lo {B}pa'ta{A7}tinto.\n{d}Cab elato sto' {d/C}mate {B}u esbeso {A7}ste clapate {g}el ectri{F}a {B}moni to{A7}ron.\n\n/: {F}Venti la {C}to {d}gra fi {C}cari{d}o {F}venti la {E}to-{A7}o. :/\n\n/: {d}Es capate {g}en tatate {A7}le a tastate {d}nu malate. :/\n/: {F}Venti la {C}to {d}gra fi {C}cari{d}o {F}venti la {E}to-{A7}o. :/\n\n{d}Drug era {g}lasero {A7}pap apiro no tinto.\n{F}Venti la {C}to {d}gra fi {C}cari{d}o {F}venti la {E}to-{A7}o.",
+  "title": "Pa'tatinto",
+  "words": [
+    {
+      "name": "Joan Dosamàcor",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Janphi Dopke und Florian \"flo\" Schön",
+      "nickname": "",
+      "group": "Schmugglerschaft Ursa Major",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "70",
+  "musicalKey": "Dm",
+  "info": "d/C bedeutet hier d-Moll mit C im Bass.",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733482161727,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
