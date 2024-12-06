@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{g}Mama jetzt mach {d}ich Reklame bei {g}dir für meine {c}Herzensdame,\n{g}die macht nicht nur {c}mich glücklich, {A7}sicherlich auch {D7}dich!\n\nOh, Papa, was soll ich tun? Was soll ich den nur tun?\nMein Leben gäb ich für sie hin vom Kopf bis zu den Schuhn.\n\nDikta mamo kibori, kibori dal kibori,\ntaveleske bakhtali, devla bakhtali.\n\nJoj, dade so kerau, dade, so kerau,\npalavla te me merau, devla me merau.\n\nDeshalb füllt mein Portmonee, mein Portmonee mit Vierblatklee,\nmit Vierblatklee das kleinere und das da mit Zaster.\n\nDema, mamo, but love, but love dal, but love,\nkenaj chavo lakeren, devla lakeren.\n\nDenn sie ist so wunderschön, wunderschön anzusehn,\nwie Rosen, Nelken, Lilien, Mohn und Maiglöckchen.\n\nSiman romni prashukar, prashukar dal prashukar,\nsarij lulugja daj bar, lulugja daj bar.",
+  "title": "Kibori",
+  "words": [
+    {
+      "name": "Christian Leimpeters",
+      "nickname": "jock",
+      "group": "Stamm Pilgrim Falkoni",
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "rumänisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "100",
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733492363941,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
