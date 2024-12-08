@@ -27,7 +27,7 @@ export default ({ posts }) => {
         <title>Pfadfinder Stamm Tilia Mainz Blog</title>
         <meta
           name="description"
-          content="Hier befindet sich der Blog für die Pfadfinder Stamm Tilia Mainz Neustadt BdP"
+          content="Hier befindet sich der Blog des Pfadfinder Stammes Tilia Mainz Neustadt BdP"
         />
       </Head>
       <Layout
