@@ -87,7 +87,7 @@ export default function Template({
               alignSelf: 'flex-start',
             }}>
             <Text variant="title" height={1} color={theme.colors.blue}>
-              Aufbaugruppe Tilia Mainz
+              Stamm Tilia Mainz
             </Text>
           </Box>
         </Layout>

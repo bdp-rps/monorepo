@@ -20,10 +20,10 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Mainz Kontakt</title>
+        <title>Pfadfinder Stamm Mainz Kontakt</title>
         <meta
           name="description"
-          content="Kontakt für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP"
+          content="Kontakt für die Pfadfinder Stamm Mainz Neustadt BdP"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>
@@ -31,13 +31,13 @@ export default () => {
           marginBottom={4}
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
           <Tile
-            title="Die Menschen hinter der Aufbaugruppe"
+            title="Die Menschen hinter der Stamm"
             image={`/images/tilia_2023.jpeg`}
             imageHeight={600}>
             <Box>
               <Text>
-                Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktiere
-                uns doch gerne über{' '}
+                Wir sind die Menschen hinter der Stamm Mainz. Kontaktiere uns
+                doch gerne über{' '}
                 <Link href="mailTo:pfadfinden@bdp-mainz.de">
                   pfadfinden[at]bdp-mainz.de
                 </Link>
