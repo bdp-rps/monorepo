@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{h}Der frische {G}Nordwind der {D}lockt uns zu {A}Seen und {h}Wäldern,\n{G}einsame {D}Schären, dem {A}Meere ent{Fis}ragt,\nden {G}endlosen, {D}labenden {A}Blaubeeren{h}feldern,\n{G}Nordlichter{D}leuchten, schier {Fis}endloser {h}Tag.\n\n{G}Vier {D}Winde {A}rufen uns zu {h}folgen, {G}treiben die {D}Sehnsucht der {e}Ferne vo{Fis}ran,\n{G}und in dem {D}Wirbeln und {A}Tanzen und {h}Träumen, {G}fragen sie uns irgend{A}wann:\nmit wem zieht ihr {h}dann?\n\nDer freie Ostwind, er zieht uns zu Bergen und Gipfeln,\nzu Gräsersteppen und auf manchen Grat,\ndurch die Wälder voll Wunder und Wildheit,\nund viele Stunden auf karstigem Pfad.\n\nDer warme Südwind, berauscht von azurblauen Wassern,\nweht durch die Schluchten erzählt uns allein\nvon Glühwürmchenleuchten, dem Klang der Zikade\nund lauen Nächten am Olivenhain.\n\nDer raue Westwind, er kündet von salzigen Wiesen,\nvon wollnen Wesen auf tiefgrüner Flur,\nvon schroffen Klippen und steinernen Riesen,\nHeide, Hochmoor und Legendenkreatur.",
+  "title": "Vier Winde",
+  "words": [
+    {
+      "name": "Philip Chinery",
+      "nickname": "chip",
+      "group": "Stamm Weiße Rose Barmstedt",
+      "organisation": "VCP",
+      "year": "2023",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Philip Chinery",
+      "nickname": "chip",
+      "group": "Stamm Weiße Rose Barmstedt",
+      "organisation": "VCP",
+      "year": "2023",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "80",
+  "musicalKey": "Bm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733753630913,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
