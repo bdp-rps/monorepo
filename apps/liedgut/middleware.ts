@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 export function middleware(req: NextRequest) {
-  // skip local and previews
+  // skip local and previews, no auth
   if (!req.headers.get('host')?.includes('bdp-rps.app')) {
     return NextResponse.next()
   }
