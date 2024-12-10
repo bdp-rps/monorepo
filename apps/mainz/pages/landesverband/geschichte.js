@@ -18,10 +18,10 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Head>
-      <title>Pfadfinder Aufbaugruppe Tilia Mainz Geschichte</title>
+      <title>Pfadfinder Stamm Tilia Mainz Geschichte</title>
       <meta
         name="description"
-        content=" Pfadfinder Aufbaugruppe Tilia Mainz Geschichte der Pfadfinderei"
+        content=" Pfadfinder Stamm Tilia Mainz Geschichte der Pfadfinderei"
       />
     </Head>
     <Layout paddingTop={10} paddingBottom={10}>
