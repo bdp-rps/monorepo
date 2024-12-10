@@ -32,11 +32,15 @@ export default async function handler(req, res) {
         <br>Gib dabei bitte als Verwendungszweck den Kurstitel und deinen Namen an, dann können wir das Geld leichter zuordenen. Bald wird sich die jeweilige Kursleitung bei dir melden. Falls du vorher noch Fragen hast, kannst du uns gerne eine Mail an ausbildung@bdp-rps.de schicken. <br>Wir freuen uns, dass du bei der nächsten Kurssaison dabei bist! <br>Liebe Grüße und gut Pfad <br>Deine Landesbeauftragten für Ausbildung, Anna und Lilli`,
       })
       console.log('Email sent:', info.messageId)
-      res.status(200).json({ success: `Email sent: ${info.messageId}` })
+      return res.status(200).json({ success: `Email sent: ${info.messageId}` })
+    } else {
+      // If the model is not 'kursanmeldung', return a message
+      return res.status(400).json({ error: 'Invalid model, email not sent' })
     }
-    return
   } catch (error) {
     console.error('Error sending email:', error.message)
-    res.status(500).json({ error: `Failed to send email: ${error.message}` })
+    return res
+      .status(500)
+      .json({ error: `Failed to send email: ${error.message}` })
   }
 }
