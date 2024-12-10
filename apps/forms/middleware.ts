@@ -14,8 +14,28 @@ export function middleware(req) {
       }
     }
 
-    if (user === 'rrkurs' && pwd === 'kurs2024') {
-      return NextResponse.next()
+    if (url.pathname === '/formulare/kursanmeldung/1') {
+      if (user == 'fak' && pwd === 'fak2025') {
+        return NextResponse.next()
+      }
+    }
+
+    if (url.pathname === '/formulare/kursanmeldung/2') {
+      if (user == 'sk' && pwd === 'sk2025') {
+        return NextResponse.next()
+      }
+    }
+
+    if (url.pathname === '/formulare/kursanmeldung/3') {
+      if (user == 'sfk' && pwd === 'sfk2025') {
+        return NextResponse.next()
+      }
+    }
+
+    if (url.pathname === '/formulare/kursanmeldung/4') {
+      if (user == 'mfk' && pwd === 'mfk2025') {
+        return NextResponse.next()
+      }
     }
   }
 
