@@ -13,7 +13,6 @@ import {
 
 import Layout from '../../../../components/Layout'
 import Template from '../../../../components/Template'
-import { useRouter } from 'next/router'
 
 import landesverbaende from '../../../../../../packages/shared/src/data/landesverbaende.json'
 import staemme from '../../../../../../packages/shared/src/data/staemme.json'
@@ -23,8 +22,6 @@ import getCourseAnnouncement from '../../../../api/getCourseAnnouncement.js'
 import getCourseAnnouncements from '../../../../api/getCourseAnnouncements.js'
 
 export default function Page({ course }) {
-  const router = useRouter()
-  const [error, setError] = useState(false)
   const [isAdult, setIsAdult] = useState(false)
 
   const {

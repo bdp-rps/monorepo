@@ -1,11 +1,13 @@
 {
   "$schema": "https://turborepo.org/schema.json",
+  "globalDependencies": ["env"],
   "tasks": {
     "format": {
       "cache": false
     },
     "build": {
-      "outputs": [".next/**"]
+      "outputs": [".next/**"],
+      "inputs": [".env", ".env.local"]
     },
     "@bdp-rps/ambrose#build": {
       "outputs": ["lib/**", "es/**"]
