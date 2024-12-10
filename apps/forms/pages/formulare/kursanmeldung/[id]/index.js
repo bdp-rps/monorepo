@@ -9,6 +9,7 @@ import {
   useBoolField,
   SelectInput,
   Checkbox,
+  Link,
 } from '@bdp-rps/ui'
 
 import Layout from '../../../../components/Layout'
@@ -32,6 +33,7 @@ export default function Page({ course }) {
     startDate,
     endDate,
     slug,
+    applicationDeadline,
   } = course.data.attributes || {}
 
   const courseLocation = course.data?.attributes.location || ''
@@ -290,7 +292,9 @@ export default function Page({ course }) {
       <Template>
         <Layout paddingTop={10} paddingBottom={20} space={8}>
           <Text variant="title">Anmeldung für den {courseTitle}</Text>
-          <Text variant="">{descriptionText}</Text>
+          <Text>
+            <span dangerouslySetInnerHTML={{ __html: descriptionText }} />
+          </Text>
           <Box space={2}>
             <Text variant="category">Infos</Text>
             {courseLocation && <Text>Ort: {courseLocation}</Text>}
@@ -305,6 +309,20 @@ export default function Page({ course }) {
               {new Date(endDate).toLocaleString('de', {
                 dateStyle: 'short',
               })}
+            </Text>
+            <Text>
+              Anmeldeschluss: 
+              {new Date(applicationDeadline).toLocaleString('de', {
+                dateStyle: 'short',
+              })}
+            </Text>
+            <br />
+            <Text>
+              Wenn du Fragen zur Anmeldung oder dem Kurs hast, melde dich gerne
+              bei uns unter{' '}
+              <Link href="mailto:ausbildung@bdp-rps.de.">
+                ausbildung@bdp-rps.de.
+              </Link>
             </Text>
           </Box>
           <Box
