@@ -45,5 +45,11 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: ['/formulare/kursanmeldung', '/formulare/segelanmeldung'],
+  matcher: [
+    '/formulare/kursanmeldung/1',
+    '/formulare/kursanmeldung/2',
+    '/formulare/kursanmeldung/3',
+    '/formulare/kursanmeldung/4',
+    '/formulare/segelanmeldung',
+  ],
 }
