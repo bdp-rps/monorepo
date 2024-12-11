@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Stiebt{A} vom {F}Kas{C}bek {F}kalt der Schnee,\ntau{C}send {d}Di{A}a{d}manten\nwir{A}beln {F}auf {C}den {F}Wintersee,\nden {C}vom {d}Eis {A}ge{d}bannten.\n\n{F}Hei, Tscherkesse, {C}sei nicht faul!\n{F}Lass die Troika {a}jagen!\n{d}Unter {g}bleichem Steppen{d}monde\n{g}fern die {A}Wölfe {d}klagen.\n{d}U {F}kaw {g}kas{A}kisch {d}gor!\n\nWildes Land und Peitschenpfiff,\ndas Gebell der Meute,\nSchlittenkufen scharfer Schliff,\nFlintenknall und Beute.\n\nVon den Mäulern flockt der Schaum\nund die Rosse dampfen.\nHeißen Blutes wilder Traum\nzu der Hufe Stampfen.\n\nTschui, so rast vorbei die Fahrt -\nSchlitten, Mann und Pferde,\nHunde, Peitschen, Flintenknall\nbis zum Rand der Erde.",
+  "content": "{d}Stiebt{A} vom {F}Kas{C}bek {F}kalt der Schnee, tau{C}send {d}Di{A}am{d}anten\nwir{A}beln {F}auf {C}den {F}Wintersee, den {C}vom {d}Eis {A}ge{d}bannten.\n\n{F}Hei, Tscherkesse, {C}sei nicht faul! {F}Lass die Troika {a}jagen!\n{d}Unter {g}bleichem Steppen{d}monde {g}fern die {A}Wölfe {d}klagen.\n{d}U {F}kaw {g}kas{A}kisch {d}gor!\n\nWildes Land und Peitschenpfiff, das Gebell der Meute,\nSchlittenkufen scharfer Schliff, Flintenknall und Beute.\n\nVon den Mäulern flockt der Schaum und die Rosse dampfen.\nHeißen Blutes wilder Traum zu der Hufe Stampfen.\n\nTschui, so rast vorbei die Fahrt - Schlitten, Mann und Pferde,\nHunde, Peitschen, Flintenknall bis zum Rand der Erde.",
   "title": "Troika",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Dm",
   "info": "",
   "changes": [
     {
@@ -40,6 +40,13 @@
       "mail": "philipp@bdp-rps.de",
       "type": "update",
       "content": "Dass die Akkorde nicht so sch*** im Lied drin stehn + hat ein Leerzeichen am Anfang gefehlt"
+    },
+    {
+      "date": 1730485634337,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {}

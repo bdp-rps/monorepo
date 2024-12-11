@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Und {e}als be{H7}gann der {e}drit{H7}te {e}Krieg, die {H7}Männer wurden {e}bleich:\n{a}Atome platzten {e}fürchterlich, wir {H7}wurden in den Knien {e}weich.\n\n/: {a}Atom, Atom, {e}Atom, Atom, eine {H7}Burg die steht am Baybach{e}strom. :/\n\nMit Gammastrahlen, Gift und Gas, so kämpft man überall.\nZu Bergen türmt sich schon das Aas der Leichen ohne Zahl.\n\nUnd als der Krieg zu Ende war verödet Stadt und Land.\nUnd nur die Nerother Ritterschaft fand einen Unterstand.\n\nVon Noah haben wirs gelernt, wie man sich schnell vermehert.\nJedoch in einem Knabenbund ist das Problem erschwert.\n\nDa saßen sie und sangen froh am rauschenden Baybachfluss\nund zeugten bei Bier und Branntewein den neuen Homunculus.\n\nDoch sagt, wie wurde der Knabe benannt von der Nerother Aktion?\nSie haben ihn Nerom genannt aus alter Tradition.\n\n/: Nerom, Nerom, Nerom, Nerom, überlebte das Atom. :/",
+  "title": "Atom",
+  "words": [
+    {
+      "name": "Walter Plessner",
+      "nickname": "Wally",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Werner Helwig",
+      "nickname": "",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "",
+      "critical": true
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Em",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733351202515,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

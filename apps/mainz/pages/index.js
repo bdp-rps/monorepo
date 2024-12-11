@@ -33,10 +33,10 @@ export default function page({ events, posts, postsMainz }) {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Tilia Mainz Startseite</title>
+        <title>Pfadfinder Stamm Tilia Mainz Startseite</title>
         <meta
           name="description"
-          content="Startseite für die Pfadfinder Aufbaugruppe Tilia Mainz Neustadt BdP"
+          content="Startseite für die Pfadfinder Stamm Tilia Mainz Neustadt BdP"
         />
       </Head>
       <Layout paddingTop={5} paddingBottom={5}>
@@ -64,12 +64,12 @@ export default function page({ events, posts, postsMainz }) {
         </Box>
         <Spacer size={8} />
         <Tile
-          title="Die Menschen hinter der Aufbaugruppe Tilia"
+          title="Die Menschen hinter der Stamm Tilia"
           image={`/images/tilia_2023.jpeg`}
           imageHeight={600}>
           <Box>
             <Text>
-              Wir sind die Menschen hinter der Aufbaugruppe Tilia Mainz.
+              Wir sind die Menschen hinter der Stamm Tilia Mainz.
               Kontaktier uns doch gerne über{' '}
               <Link href="mailTo:pfadfinden@bdp-mainz.de">
                 pfadfinden[at]bdp-mainz.de

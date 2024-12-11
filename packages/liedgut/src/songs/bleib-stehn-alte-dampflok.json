@@ -1,0 +1,102 @@
+{
+  "notation": "",
+  "content": "Bleib {a}stehn, alte {d}Dampflok, und {E}schlagt nicht, ihr {a}Räder.\nDu, {C}Schaffner, tritt auf die Bremse {E}nun.\n/: Zur {a}Mutter, der Lieben und {A7}mit letztem {d}Gruße\neile {a}ich, dass sie {E}mich noch einmal {a}sieht. :/\n\nWarte nicht, meine Mama, auf das gute Söhnchen.\nDein Sohn ist nicht der, der er einmal war.\nGefährliche Sümpfe haben mich aufgesogen.\nMein Leben, ein ewigliches Spiel.\n\nBleib stehn, alte Dampflok, und schlagt nicht, ihr Räder.\nDie Zeit reicht das Schicksal anzusehn.\nSolange es nicht zu spät ist, hier kurz Halt zu machen:\nDu Schaffner, tritt auf die Bremse nun.\n\nPostoy, parovoz ne stuchite, koljosa,\nKonduktor, nazhmi na tormoza.\nYa k mamen'ke rodnoy s poslednim privetom,\nspeshu pokazat'sya na glaza.",
+  "title": "Bleib stehn, alte Dampflok",
+  "words": [
+    {
+      "name": "Michail Gulko",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "2008"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Michail Gulko",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "2008"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "info": "Aus dem Film \"Operazia bl\", dt. Übersetzung: fotler (Erik Schellhorn) & igor (Igor Plachonin), Zugvogel",
+  "changes": [
+    {
+      "date": 1643737403651,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    },
+    {
+      "date": 1686993922910,
+      "name": "das gute Söhnchen",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1687431108814,
+      "name": "",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1712567840241,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1713018619579,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
+    },
+    {
+      "date": 1719247705297,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Settings"
+    },
+    {
+      "date": 1728589924238,
+      "name": "Torben",
+      "mail": "torben@bdp-rps",
+      "type": "update",
+      "content": "Lok statt Lock"
+    }
+  ],
+  "musicalKey": "Am",
+  "specialSettings": {
+    "holzwurm": [
+      {
+        "type": "space",
+        "blocks": [
+          1
+        ],
+        "style": {
+          "lineHeight": 2
+        }
+      },
+      {
+        "type": "space",
+        "blocks": [
+          2
+        ],
+        "style": {
+          "lineHeight": 3
+        }
+      }
+    ]
+  }
+}

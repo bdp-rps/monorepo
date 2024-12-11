@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{A}Jo{g}van{A}o,{g} {A}Jo{g}van{A}ke \n/:{d}Kraj Vardarot sed{g}ish, mori \n{C}Belo platno bel{F}ish \n{d}Se na gore {g}gledash, dusho \n{A}Srce {g}moje {A}Jo{a}va{A}no{g}{A} :/\n\nJovano, Jovanke \n/:Jas te tebe chekŕxn, mori \nDoma da mi dojdesh \nA ti ne doagash, dusho \nSrce moje Jovano :/\n\nJovano, Jovanke \n/:Tvoojata majka, mori \nTebe ne te pushta \nTi mene da dojdesh, dusho \nSrce moje Jovano :/",
+  "content": "{H7}Jovano, Jovanke,\n/: {e}kraj Vardarot sed{a}iš, mori {D}belo platno bel{G}iš,\n{e}se na gore {a}gledaš dušo, {H7}srce moje joho Jovano. :/\n\nJovano, Jovanke,\n/: troja ta majaka, mori mene te sakama\nati me ne volis dušo, scre moje joho Jovano. :/\n\nJovano, Jovanke,\n/: ja ne tebe čekam, mori doma dami dojdeš\na ti medolazis dušo, srce moje joho Jovano. :/",
   "title": "Jovano, Jovanke",
   "words": [
     {
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Em",
   "info": "Jovana, Jovanke, du sitzt am Vardar, bleichst das weiße Leinen und schaust nach oben.\nJovana, ich warte auf dich, dass du in mein Haus kommst. Aber du darfst nicht, mein Herz, Jovana.\nJovana, deine Mutter lässt dich nicht zu mir kommen, mein Herz, Jovana.",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1733353465584,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }

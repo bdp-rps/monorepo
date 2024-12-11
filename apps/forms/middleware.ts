@@ -8,6 +8,12 @@ export function middleware(req) {
     const authValue = basicAuth.split(' ')[1]
     const [user, pwd] = atob(authValue).split(':')
 
+    if (url.pathname === '/formulare/segelanmeldung') {
+      if (user == 'segeln' && pwd === 'segeln2025') {
+        return NextResponse.next()
+      }
+    }
+
     if (user === 'rrkurs' && pwd === 'kurs2024') {
       return NextResponse.next()
     }
@@ -19,5 +25,5 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: '/formulare/kursanmeldung',
+  matcher: ['/formulare/kursanmeldung', '/formulare/segelanmeldung'],
 }

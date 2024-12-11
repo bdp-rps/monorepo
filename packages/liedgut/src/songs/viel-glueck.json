@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Viel {h}Glück und {Fis}liebe {h}Grüße und {A7}hunderttausend {D}Küsse\nan {H7}alle Hunger{e}leider, an {G}alle {A}Beutel{D}schneider,\nan {H7}alle Mauer{e}springer, an {Fis}alle Fahnen{G}schwinger.\n{e}La, la, {G}lei... { h} { e} { Fis} {h}\n\nViel Glück und wunde Füße und hunderttausend Bisse\nan alle, die wir kennen, an alle, die noch rennen,\nviel Glück und lass dirs gut gehn und lass dir einen Hut stehn.\n\nUnd lass dir einen Bart stehn, einen feinen Ziegenbart stehn.\nAuf, dass wir nie vergessen die Liebe und das Fressen,\nauf dass sich bald der Wind dreht, so gut wies halt eben geht.\n\nViel Glück und bessre Zeiten, beim Laufen und beim Reiten\nund auch beim Diskuswerfen, wir wolln die Messer schärfen\nund leg den Strick jetzt gut weg, denn du, du kennst ja das Versteck.",
+  "title": "Viel Glück",
+  "words": [
+    {
+      "name": "Hans Ulrich Treichel",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jörg Seyffarth",
+      "nickname": "plauder",
+      "group": "",
+      "organisation": "Zugvogel",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Bm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733168045984,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

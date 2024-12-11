@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{a}Reich den Rucksack mir herüber, {F}dass ich {G}ihn ins {C}Tragnetz {E}tu,\n{d}merklich ists im {a}Zug schon trüber {E}und man spürt nun auch die {a}Schuh.\n/: {a}Lehn an mich für eine kleine {G}Stunde ruhig dein Gesicht,\n{F}besser ruhen so die Beine {E}und die Leute stört es nicht. :/\n\nIn den kleinen Haltestellen steigen lauter Leute ein,\ndie wie wir den Tag im Hellen gut verbrachten. Sieh den Schein\n/: aus den schwarzen Wiesen schwinden. Morgen dröhnt das\nKesselhaus. Deine Finger, die mich finden, nähen wieder Litzen aus. :/\n\nEine lange Woche ist es, die uns dumpf entgegenstarrt,\nsei mein Mädel, ja du bist es, in der Werkstatt wieder hart.\n/: Dunkel weht aus deinen Haaren noch das Gras, das wuchs am Rain,\nSonntag, Kind, wird fortgefahren, und es kann auch Samstag sein. :/",
+  "title": "Im Zug",
+  "words": [
+    {
+      "name": "Theodor Kramer",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Bastian Sandberger",
+      "nickname": "basti",
+      "group": "",
+      "organisation": "Pfadfinderbund Horizonte / Singekreis Silberburg",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "7/8",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733165033058,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

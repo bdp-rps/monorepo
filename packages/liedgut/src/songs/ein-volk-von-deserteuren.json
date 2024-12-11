@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Wenn wir {a}Bier und Korn ge{d}trunken {G}flogen wir oft {C}heim.\nhaben {F}Leuten zuge{G7}wunken und {a}ging uns auf den {E}Leim.\n/: Ein {a}Volk von Deserteuren, da{E}zu will ich ge{a}hören.\nEin Land mit Kraut und {E}Rüben, darin will ich dich {a}lieben.\nEin {C}Haus mit offnen {G}Türen, darin will ich dich {C}führen.\nEin {F}Tisch gedeckt mit {E}Sachen, daran wollen wir {a}lachen.\nEin Bett liebend zu {E}sterben, dass wollen wir ver{a}erben. :/\n\nUnd am Morgen sind gestiegen, du und ich mit Mut\naus dem Bett, das war vom Fliegen ungemacht und gut.\n\nZu den Deserteuren werde ich gehören.\nIm Land von Kraut und Rüben werde ich dich lieben.\nDurch offne Türen werde ich dich führen.\nMit vollem Rachen werden wir lachen.\nLiebend zu sterben das wollen wir vererben.\n\nEin {a}Volk von Deserteuren, ein {E}Volk von Deser{a}teuren,\nein Volk von Deser{E}teuren, dazu will ich ge{a}hören.\nEin Volk von Deserteuren, ein Volk von Deserteuren,\nein Volk von Deserteuren, dazu wollen wir gehören.",
+  "title": "Ein Volk von Deserteuren",
+  "words": [
+    {
+      "name": "nach Gedichten von Peter Maiwald",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "",
+      "nickname": "Pirkko",
+      "group": "",
+      "organisation": "Laininger Wandervogel",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "70",
+  "musicalKey": "Am",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1733163806197,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

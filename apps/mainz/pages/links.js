@@ -12,7 +12,7 @@ export default () => {
         <title>Pfadfinderaufbau Gruppe Mainz Links</title>
         <meta
           name="description"
-          content="Links für die Pfadfinderaufbaugruppe Mainz"
+          content="Links für die Pfadfinderstamm Mainz"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>
@@ -31,7 +31,7 @@ export default () => {
             <Button href="/landesverband/blog/">
               Blogbeiträge Landesverband
             </Button>
-            <Button href="/blog/stamm">Blogbeiträge Aufbaugruppe Tilia</Button>
+            <Button href="/blog/stamm">Blogbeiträge Stamm Tilia</Button>
             <Button href="/bdp/ausbildung">Ausbildung</Button>
             <Button href="https://www.watoto-kabisa.de/">Keniaprojekt</Button>
             <Button href="https://www.pfadfinden.de/">

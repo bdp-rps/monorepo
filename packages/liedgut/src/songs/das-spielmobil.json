@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Spielen auf dem Hinter{G}hof\nist oft langweilig und {C}doof, \naber manchmal räumt im {G}Haus\neiner seinen Keller {C}aus.\n\n/:Spielen wir ein neues {F}Spiel,\nbauen uns ein Spielmo{C}bil,\nkommt wir steigen alle {G}ein,\nunsre Fahrt wird lustig {C}sein. :/\n\nSteht der Kram dann draußen rum,\nschau'n die Kinder sich mal um,\nfällt dem Peter gleich was ein:\ndie Matratze muss es sein!\n\nJeder springt nun hoch und lacht,\ndie Matratze quietscht und kracht,\nHopsen, hüpfen, springen, das\nmacht den Kindern mächtig Spaß.\n\nSo ein Fahrrad ist nichts mehr wert,\nwenn es nicht mehr richtig fährt.\nDoch die Kinder sind nicht dumm,\ndreh'n das Fahrrad einfach um.\n\nUnd nun geht die Fahrt erst los,\ndieses Fahrrad ist famos,\nUwe lässt die Räder dreh'n,\nalle Kinder finden's schön.\n\nGaby holt ein Ofenrohr\naus dem alten Kram hervor\nund sie zeigt den andern dann,\nwie man damit hupen kann.\n\nAbends ist das Spiel dann aus,\nalle Kinder gehn nach Haus.\nDoch die Freude ist sehr groß,\nmorgen geht es wieder los\n/:mit dem schönen neuen Spiel,\nmit dem eignen Spielmobil,\nund da steigen alle ein,\ndenn die Fahrt wird lustig sein! :/\n",
+  "content": "{C}Spielen auf dem Hinter{G}hof ist oft langweilig und {C}doof, \naber manchmal räumt im {G}Haus einer seinen Keller {C}aus.\n\n/: Spielen wir ein neues {F}Spiel, bauen uns ein Spielmo{C}bil,\nkommt wir steigen alle {G}ein, unsre Fahrt wird lustig {C}sein. :/\n\nSteht der Kram dann draußen rum, schaun die Kinder sich mal um,\nfällt dem Peter gleich was ein: die Matratze muss es sein!\n\nJeder springt nun hoch und lacht, die Matratze quietscht und kracht,\nHopsen, hüpfen, springen, das macht den Kindern mächtig Spaß.\n\nSo ein Fahrrad ist nichts mehr wert, wenn es nicht mehr richtig fährt.\nDoch die Kinder sind nicht dumm, drehn das Fahrrad einfach um.\n\nUnd nun geht die Fahrt erst los, dieses Fahrrad ist famos,\nUwe lässt die Räder drehn, alle Kinder findens schön.\n\nGaby holt ein Ofenrohr aus dem alten Kram hervor\nund sie zeigt den andern dann, wie man damit hupen kann.\n\nAbends ist das Spiel dann aus, alle Kinder gehn nach Haus.\nDoch die Freude ist sehr groß, morgen geht es wieder los\n\n/: mit dem schönen neuen Spiel, mit dem eignen Spielmobil,\nund da steigen alle ein, denn die Fahrt wird lustig sein! :/",
   "title": "Das Spielmobil",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1730485909564,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
