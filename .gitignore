@@ -16,6 +16,7 @@ Thumbs.db
 *.pyc
 *.rej
 *.vsix
+*.env
 
 *.sass-cache
 *.sw?
@@ -41,3 +42,4 @@ dist
 out
 .vscode
 .turbo
+.env
