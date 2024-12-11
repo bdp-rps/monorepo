@@ -21,6 +21,8 @@ export default async function handler(req, res) {
 
     const userName = req.body.entry?.name ? req.body.entry.name : ''
     const userMail = req.body.entry?.mail || ''
+    const courseName = req.body.entry?.courseIdentifier || ''
+    const courseFee = req.body.entry?.courseFee || '100 Euro'
 
     // Send the email
     if (req.body.model === 'kursanmeldung') {
@@ -28,8 +30,27 @@ export default async function handler(req, res) {
         from: 'no-reply@bdp-rps.de',
         to: userMail,
         subject: 'Bestätigung deiner Kursanmeldung',
-        text: `Hallo ${userName}, hier kommt deine Anmeldebestätigung für den \[Kurstitel\]! Bitte überweise den Kursbeitrag von 100€ bis zum 26.02.2025 auf das LV Konto. <br>BdP LV RPS <br>IBAN: DE18 5405 0220 0108 8104 25 <br>BIC: MALADE51KLK
-        <br>Gib dabei bitte als Verwendungszweck den Kurstitel und deinen Namen an, dann können wir das Geld leichter zuordenen. Bald wird sich die jeweilige Kursleitung bei dir melden. Falls du vorher noch Fragen hast, kannst du uns gerne eine Mail an ausbildung@bdp-rps.de schicken. <br>Wir freuen uns, dass du bei der nächsten Kurssaison dabei bist! <br>Liebe Grüße und gut Pfad <br>Deine Landesbeauftragten für Ausbildung, Anna und Lilli`,
+        html: `
+            <p>Hallo ${userName},</p>
+            <p>hier kommt deine Anmeldebestätigung für den <strong>${courseName.toUpperCase()}</strong>.</p>
+            <p>Bitte überweise den Kursbeitrag von ${courseFee} bis zum <strong>26.02.2025</strong> auf das LV Konto:</p>
+            <p>
+                <strong>BdP LV RPS</strong> <br>
+                IBAN: DE18 5405 0220 0108 8104 25 <br>
+                BIC: MALADE51KLK
+            </p>
+            <p>
+                Gib dabei bitte als Verwendungszweck den Kurstitel und deinen Namen an, 
+                dann können wir das Geld leichter zuordnen.
+            </p>
+            <p>
+                Bald wird sich die jeweilige Kursleitung bei dir melden. Falls du vorher noch Fragen hast, 
+                kannst du uns gerne eine Mail an <a href="mailto:ausbildung@bdp-rps.de">ausbildung@bdp-rps.de</a> schicken.
+            </p>
+            <p>Wir freuen uns, dass du bei der nächsten Kurssaison dabei bist!</p>
+            <p>Liebe Grüße und gut Pfad,</p>
+            <p>Deine Landesbeauftragten für Ausbildung, Anna und Lilli</p>
+        `,
       })
       console.log('Email sent:', info.messageId)
       return res.status(200).json({ success: `Email sent: ${info.messageId}` })
