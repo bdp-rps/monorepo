@@ -8,7 +8,7 @@ export default function BankDetails() {
       <br />
       <Text subStyle="emphasis">DE12 5405 0220 0034 5389 91</Text>
       <br />
-      BIC: MALADE51KLS
+      BIC: MALADE51KLK
       <br />
       Stadtsparkasse Kaiserslautern
     </Text>
