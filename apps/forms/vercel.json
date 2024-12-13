@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/send-notification-mail.js": {
+      "maxDuration": 25
+    }
+  }
+}
