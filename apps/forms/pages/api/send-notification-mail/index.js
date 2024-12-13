@@ -20,7 +20,12 @@ export default async function handler(req, res) {
 
   try {
     const { entry, model } = req.body
-    const { name, mail, courseIdentifier, courseFee = '100 Euro' } = entry || {}
+    const {
+      userName,
+      mail,
+      courseIdentifier,
+      courseFee = '100 Euro',
+    } = entry || {}
 
     if (model === 'kursanmeldung') {
       const info = await transporter.sendMail({
@@ -28,7 +33,7 @@ export default async function handler(req, res) {
         to: mail,
         subject: 'Bestätigung deiner Kursanmeldung',
         html: `
-          <p>Hallo ${name},</p>
+          <p>Hallo ${userName},</p>
           <p>Hier kommt deine Anmeldebestätigung für den <strong>${courseIdentifier.toUpperCase()}</strong>.</p>
           <p>Bitte überweise den Kursbeitrag von ${courseFee} bis zum <strong>26.02.2025</strong> auf das LV Konto:</p>
           <p>
