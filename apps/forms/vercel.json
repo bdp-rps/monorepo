@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/send-notification-mail.js": {
+    "api/send-notification-mail": {
       "maxDuration": 25
     }
   }
