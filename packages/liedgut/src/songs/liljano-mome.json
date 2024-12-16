@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{a}                   {d}        {G}                     {C}\nLiljano mome, Liljano, ja stani rano, prisori,\n{a}                     {d}       {E}              {a}\nja stani rano, prisori, libeto si pregreni.\n{a}                     {d}         {G}                    {C}\nLiljano mome, Liljano, ja stani rano, prisori,\n{a}                     {d}       {E}             {a}\nja stani rano, prisori, libeto si pregreni.\n\nNe mi izlegla Liljana, tuk' e izlegla majka ì,\nluti si kletvi kolneshe i na Gjorgji dumashe:\n\nIdi si, Gjorgji, idi si, Liljana bolna legnala,\nLiljana bolna legnala, i ne mosche da stane.\n\nNe mi go lazhi, mamo ma, jas sum si Gjorgji ljubila,\njas sum si Gjorgji ljubila, za nego ste se oschena.\n",
+  "content": "{a}Liljano mome,{d} Liljano,{G} ja stani rano, {C}prisori,\n{a}ja stani rano, {d}prisori,{E} libeto si {a}pregreni.\n{a}Liljano mome, {d}Liljano, {G}ja stani rano, {C}prisori,\n{a}ja stani rano, {d}prisori, {E}libeto si {a}pregreni.\n\nNe mi izlegla Liljana, tuk' e izlegla majka ì,\nluti si kletvi kolneshe i na Gjorgji dumashe:\n\nIdi si, Gjorgji, idi si, Liljana bolna legnala,\nLiljana bolna legnala, i ne mosche da stane.\n\nNe mi go lazhi, mamo ma, jas sum si Gjorgji ljubila,\njas sum si Gjorgji ljubila, za nego ste se oschena.\n",
   "title": "Liljano mome",
   "words": [
     {
@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "7/8",
   "alternativeTitle": "",
   "tempo": 60,
   "info": "",
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1734384347991,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "ich kenne es in 7/8, aber das ist maybe interpretationssache, habe die akkorde in den text eingebunden, aber sie wiedersprechen sich von der tonart öfters von versionen die ich kenne "
     }
-  ]
+  ],
+  "specialSettings": {}
 }
