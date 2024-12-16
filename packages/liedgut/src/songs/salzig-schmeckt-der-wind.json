@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "       {C}                                     {e}\nDie Messingglocke schellt, der Ruf der weiten Welt\n{G}                                 {D}\nAngstlos stechen wir in See\n      {C}                            {e}\nSo viel vom alten Glück ließest du zurück\n       {h}                           {D}\nAch, Liebeskummer, vergeh!\n\n    Salzig schmeckt der Wind, hol die Buddel aus dem Spind\n    Und auch dein Akkordeon!\n    Singen wir Lieder auf das Meer, auf die Liebe, bittesehr!\n    Doch falln darauf nie wieder rein.\n\nDas was man Liebe nennt, dich nach und nach verbrennt\nWar das deine Opfer wert?\nDie Rettung in der Not ist dein treues Boot\nIn Sturm und Wetter stets bewährt. \n\nNicht nur, dass ich dich mag, auch beim Befreiungsschlag\nAn deiner Seite du mich weißt.\nZu zweit durch schwere Zeit und jederzeit bereit.\nDie wahre Freundschaft nie zerreißt!\n",
+  "content": "Die {C}Messingglocke schellt, der {e}Ruf der weiten Welt\n{G}angstlos stechen wir in {D}See, \nSo{C}viel vom alten Glück {e}ließest du zurück\nAch, {h}Liebeskummer ver{D}geh!\n\n{C}Salzig schmeckt der Wind, hol die {e}Buddel aus dem Spind\nund {G}auch dein {D}Akkordeon!\nSingen wir {C}Lieder auf das Meer, auf die {e}Liebe, bittesehr!\nDoch {G}falln darauf nie wieder {D}rein.   \n\nDas was man Liebe nennt, dich nach und nach verbrennt\nWar das deine Opfer wert?\nDie Rettung in der Not ist dein treues Boot\nIn Sturm und Wetter stets bewährt. \n\nNicht nur, dass ich dich mag, auch beim Befreiungsschlag\nAn deiner Seite du mich weißt.\nZu zweit durch schwere Zeit und jederzeit bereit.\nDie wahre Freundschaft nie zerreißt!\n",
   "title": "Salzig schmeckt der Wind",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1734387022144,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde eingebunden"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
