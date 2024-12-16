@@ -20,11 +20,12 @@
   ],
   "tune": [
     {
-      "name": "Rudolf Garsk",
+      "name": "Rudolf Scholz, geb Garski",
       "nickname": "",
       "group": "Gau Alt-Burgund",
       "organisation": "VCP",
-      "year": ""
+      "year": "",
+      "critical": false
     }
   ],
   "translation": [],
@@ -47,6 +48,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1734386379269,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Nachname des Autors war als Garsk eingetragen, sollte Garski sein, und er heisst jetzt apparently Rudolf Scholz"
     }
   ],
   "specialSettings": {}
