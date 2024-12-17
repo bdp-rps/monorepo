@@ -5,6 +5,7 @@ const URL =
 
 const halfDay = 1000 * 60 * 60 * 12
 
+// random
 function getDate({ value, isAllDay }, isStartDate) {
   const [match, year, month, day] = value.match(
     /([0-9]{4})([0-9]{2})([0-9]{2})/
