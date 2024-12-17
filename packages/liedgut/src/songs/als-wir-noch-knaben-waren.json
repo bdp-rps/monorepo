@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Als {G}wir noch Knaben waren auf {D}Fahrt ging mancher {G}mit.\n/: Wir träumten in den Kohten vom {D}Heldentum der Goten, die {G}Klampfe {D}uns be{G}glitt. :/\n\nDoch eines Tages aber erreichte uns ein Brief,\nworin uns die Regierung zwecks Militarisierung zum Sterben einberief.\n\nJetzt müssen wir marschieren, es bleibt uns keine Wahl.\nMan wird uns massakrieren, paar Bomben explodieren, der Papst der segnet uns.\n\nJetzt tragen wir Gewehre, ein Franzmann führt uns an.\nVielleicht schießen wir schon heute auf deutsche VoPo-Leute, und sie beschießen uns.\n\nNach 52 Wochen dann sind wir wieder frei.\nDann scheißen wir auf die Bundeswehr und alles was dazugehört in alle Ewigkeit.",
+  "title": "Als wir noch Knaben waren",
+  "words": [
+    {
+      "name": "unbekannt",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "vor 1965",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "unbekannt",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "vor 1965",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "80",
+  "musicalKey": "G",
+  "info": "VoPo = Volkspolizei\nDas Lied beschreibt die Wehrpflicht im kalten Krieg.",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734446699817,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
