@@ -9,7 +9,7 @@
     "build:blog-manifest": "babel-node scripts/build-blog-manifest.js",
     "start": "next start",
     "build:deps": "cd ../.. && pnpm exec turbo run build --filter=watoto-kabisa.de^...",
-    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=watoto-kabisa.de --force --no-cache",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=watoto-kabisa.de --cache=local:r,remote:r",
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {

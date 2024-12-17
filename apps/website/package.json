@@ -9,7 +9,7 @@
     "start": "next start",
     "export": "next export",
     "build:deps": "cd ../.. && pnpm exec turbo run build --filter=bdp-rps.de^...",
-    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=bdp-rps.de --force --no-cache",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=bdp-rps.de --cache=local:r,remote:r",
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {

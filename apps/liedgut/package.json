@@ -10,7 +10,7 @@
     "export": "next export",
     "build": "next build",
     "build:deps": "cd ../.. && pnpm exec turbo run build --filter=liedgut.bdp-rps.de^...",
-    "vercel:build": "pnpm build:deps && pnpm exec turbo run build --filter=liedgut.bdp-rps.de --force --no-cache",
+    "vercel:build": "pnpm build:deps && pnpm exec turbo run build --filter=liedgut.bdp-rps.de --cache=local:r,remote:r",
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
