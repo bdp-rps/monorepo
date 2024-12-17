@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Das Feld der Kol{d}chose, {g}Scheune und {A}Hof, \nes spielt die Garmoschka, das Land fällt in {d}Schlaf.\n{D7}Es fragen die {g}Leute, {C}braucht man uns denn {F}noch?\n{B}Wir leben und {g}sterben {A7}und keiner folgt {d}nach.\n\nDas Feld der Koolchose, es wuchert ganz zu\nund in unsrer Scheune Getreide wächst hoch.\nDie Garmoschka spielt leise, doch keiner hört zu,\nverflucht dieses Leben, wir wollen es doch!\n\n{D7}Russische {g}Birken am Weg, {C}Felder und {F}Hof.\n{B}Es wird nur er{g}innern an das{A7} verlassene {d}Dorf.\n\nWarum zerfällt es, Dörfer und Land?\nDies geschah auch nicht bei dem großen Brand.\nKommt alle zusammen, wir gehen zurück!\nMit diesem Leid suchen wir dann unser Glück.\n\nWir säen den Weizen, der die Scheune auffüllt\nund die Garmoschka kommt wieder zurück.\nSie will wieder spielen, ein Tanz und ein Lied,\nfür alle und jeden, der die Heimat hier liebt.\n\nRussische Birken am Weg, Felder und Hof.\nWir werden es feiern bald hier, das alte Dorf.",
+  "title": "Russische Birken am Weg",
+  "words": [
+    {
+      "name": "Jurij Krasnoperov, deutsche Übersetzung: Hellas (Achim Schiel)",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jurij Krasnoperov, deutsche Übersetzung: Hellas (Achim Schiel)",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "6/8",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Dm",
+  "info": "Garmoschka: Knopfakkordeon\nKolchose: genossenschaftlich organisierter landwirtschaftlicher Großbetrieb in der Sowjetunion\ngroßer Brand: gemeint ist der 2. Weltkrieg",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734447300722,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
