@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{D}Über un{A}endliche {D}Wege, {G}über un{D}endliche {G}Stege \ngeht unser {A}müder {D}Schritt. \n{G}Bäume stehen zur {D}Seite, {e}Vögel {A}fliegen ins {D}Wei{A}te,\n{D}unsern Ge{A}danken {D}mit.\n\nEinstmals da warn wir geborgen, brauchten für uns nicht zu sorgen, \neinstmals da warn wir zuhaus. \nKonnten mit Vater scherzen, durften die Mutter herzen; \nnun ist alles aus.\n\nÜber unendliche Wege, über unendliche Stege, \nimmer der gleiche Reim. \nHeut in der Nacht unter Sternen, träumen wir in die Fernen, \nträumen wir wären daheim.",
+  "title": "Landstreicherlied",
+  "words": [
+    {
+      "name": "Rolf Fechter",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Fritz Unger",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "D",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734530343077,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
