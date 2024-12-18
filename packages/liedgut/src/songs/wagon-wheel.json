@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}                                       {D}\nHeading down south to the land of the pines\n{e}                                       {C}\nI'm thumbing my way into North Caroline\n{G}                                              {D}                      {C}\nStaring up the road and pray to God I see headlights\n\nI made it down the coast in seventeen hours\nPicking me a bouquet of dogwood flowers\nAnd I'm a-hoping for Raleigh, I can see my baby tonight\n\t\n{G}                                {D}\nSo rock me, mama, like a wagon wheel\n{e}                                {C}\nRock me, mama, any way you feel\n{G}     {D}                      {C}\nHey, mama, rock me\n\nRock me, mama, like the wind and the rain\nRock me, mama, like a southbound train\nHey, mama, rock me\n\nRunning from the cold up in New England\nI was born to be a fiddler in an old time string band\nMy baby plays a guitar, I pick a banjo now\nOh, north country winters keep a-getting me down\nLost my money playing poker so I had to leave town\nBut I ain't turning back to living that old life no more\n\nWalking to the south out of Roanoke\nI caught a trucker out of Philly had a nice long toke\nBut he's a heading west from the Cumberland gap\nTo Johnson City, Tennessee\nAnd I got to get a move on before the sun\nI hear my baby calling my name and I know that she's the only one\nAnd if I die in Raleigh at least I will die free\n\n",
+  "content": "{G}Heading down south to the {D}land of the pines\n{e}I'm thumbing my way into {C}North Caroline\nSt{G}aring up the road and {D}pray to God I see {C}headlights\n\nI made it down the coast in seventeen hours\nPicking me a bouquet of dogwood flowers\nAnd I'm a-hoping for Raleigh, I can see my baby tonight\n\nSo {G}rock me, mama, like a wa{D}gon wheel\n{e}Rock me, mama, any {C}way you feel\n{G}Hey,{D}mama, {C}rock me\n\nRock me, mama, like the wind and the rain\nRock me, mama, like a southbound train\nHey, mama, rock me\n\nRunning from the cold up in New England\nI was born to be a fiddler in an old time string band\nMy baby plays a guitar, I pick a banjo now\nOh, north country winters keep a-getting me down\nLost my money playing poker so I had to leave town\nBut I ain't turning back to living that old life no more\n\nWalking to the south out of Roanoke\nI caught a trucker out of Philly had a nice long toke\nBut he's a heading west from the Cumberland gap\nTo Johnson City, Tennessee\nAnd I got to get a move on before the sun\nI hear my baby calling my name and I know that she's the only one\nAnd if I die in Raleigh at least I will die free\n\n",
   "title": "Wagon Wheel",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1734385053640,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde eingebunden"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
