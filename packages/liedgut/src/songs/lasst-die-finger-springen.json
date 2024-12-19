@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "4/4",
-  "alternativeTitle": "",
+  "alternativeTitle": "Im Feuerkreis",
   "tempo": "100",
   "musicalKey": "",
   "info": "Ger:Wurfspieß",
@@ -40,6 +40,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1734603033833,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Alternativer Titel hinzugefügt"
     }
   ],
   "specialSettings": {}
