@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Dort {d}stand ich in {F}Weite am {C}endlosen {d}Strand\nund die Wogen um{F}spülten das {C}felsige {d}Band\nund die {F}Brise umfing mich mit {C}salzigem Duft,\nmalte {B}Fernweh in {a}traumschwere {d}Luft\n\n{C}Und der {F}Wind ergriff mein {C}Haar\nund die Welle {d}trug mich schon {B}fort,\nzu {F}segeln üb{C}er das {d}Meer.\n\nDie Kronen in weiß blitzten Wellen so wild,\nbäumt der Wind sich im Segel, ein flatterndes Schild,\ndoch ich lachte, denn kühn stieß der Bug in die Flut\nund ich sah, wie die Welle mich trug.\n/:Und der Wind... :/\n\nDie See mal brausend, mal spiegelnd und still,\njede Windbewegung sah ich im Lichtstrahlenspiel.\nUnd schon wiegten die Wellen mich sanft in den Schlaf\nwar ihr Kind und sie gaben mir Kraft.\n/: Und der Wind... :/\n\nAch so fern sind die Wellen, so fern ist die See,\ndoch erreicht mich ihr Lied, wo auch immer ich steh:\nHör die Möven und flieg in Gedanken dorthin,\nwo die Wogen zum Horizont ziehn.\n\n{C}hm{F}mm{C}...{d}...{B}... zu {F}segeln ü{C}ber das {d}Meer.",
+  "title": "Über das Meer",
+  "words": [
+    {
+      "name": "Arlett Grygar",
+      "nickname": "",
+      "group": "Stamm Goldener Reiter",
+      "organisation": "BdP",
+      "year": "2016",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Arlett Grygar",
+      "nickname": "",
+      "group": "Stamm Goldener Reiter",
+      "organisation": "BdP",
+      "year": "2016",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "2/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "F",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734533436108,
+      "name": "Kichael ",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
