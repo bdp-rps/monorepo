@@ -31,7 +31,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1734603787134,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "nix geändert \n\nLied ist eine Dopplung mit /nane-tsocha, unterschiedliche romanisierung im text, ggf für eine version entscheiden oder in dieser hier aussprache guide hinzufügen maybe?"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {}
 }
