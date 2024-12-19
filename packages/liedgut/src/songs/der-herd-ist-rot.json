@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Der {e}Herd ist rot von Feuers{C}glut,  das Bett steht unterm {e}Dach und gut.\nDoch müde ist noch {C}nicht der Fuß, dort um die {e}Ecke, welch ein Gruß,\nSteht {D}überraschend {C}Baum und {G}Stein, von {D}uns entdeckt, von {C}uns al{e}lein.\n{C}Baum und Blume, {e}Laub und Gras,  {C}was soll {e}das? Was soll das?\n{C}Unterm Himmel {e}Berg und See,\n\nAch, {D}geh nur, geh! Ach, {C}geh nur, {G}geh!\nAch, {D}geh nur, geh! Ach, {C}geh nur, {e}geh!\n\n\nJa, um die Ecke, kommt uns vor, da steht geheimnisvoll ein Tor,\nUnd was wir heute nicht gesehn,  das ruft und morgen, fortzugehn.\nUnd führt uns, fremd und ungewohnt, bis hin zur Sonne, hin zum Mond.\nApfel, Schlehe, Dorn und Nuß, gilt der Gruß, gilt der Gruß!\nSand und Stein und flache Sohl,\n\nAch Lebewohl, ach Lebewohl! \nAch Lebewohl, ach Lebewohl!\n\n\nDaheim verblasst, die Welt rückt nah, mit vielen Pfaden liegt sie da!\nUnd lockt durch Schatten, Trug und Nacht, bis endlich Stern um Stern erwacht. \nDann wiederrum verblasst die Welt. Daheim! Wie mir das Wort gefällt! \nWolke, Zwielicht, Nebeldunst, ohne Gunst! Ohne Gunst!\nFleisch, Brot und Kerze auf dem Brett,\n\nund dann zu Bett, und dann zu Bett, \nund dann zu Bett, und dann zu Bett!",
+  "title": "Der Herd ist Rot",
+  "words": [
+    {
+      "name": "J. R. R. Tolkien, übersetzt von E.-M. von Freymann",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Windstill",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "7/8",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734532661691,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
