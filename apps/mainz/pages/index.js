@@ -26,7 +26,6 @@ import { useState } from 'react'
 export default function page({ events, posts, postsMainz }) {
   const theme = useTheme()
 
-  const [isHover, setIsHover] = useState(false)
   const [firstPost, ...otherPosts] = posts
   const [firstPostsMainz, ...otherPostsMainz] = postsMainz
 
@@ -54,29 +53,58 @@ export default function page({ events, posts, postsMainz }) {
             ermöglichen. Diese Idee soll nun endlich in die Tat umgesetzt
             werden: <br />
           </Text>
-          <Text>
-            Also komm in unsere Gruppenstunde! Immer{' '}
-            <Text subStyle="emphasis">Mittwochs</Text> außerhalb der Schulferien
-            von <Text subStyle="emphasis">17:00 bis 18:30 Uhr</Text> an unserem
-            Gruppenraum in der Liebfrauenkirche{' '}
-            <Text subStyle="emphasis">Moselstraße 30</Text>!
-          </Text>
-        </Box>
-        <Spacer size={8} />
-        <Tile
-          title="Die Menschen hinter der Stamm Tilia"
-          image={`/images/tilia_2023.jpeg`}
-          imageHeight={600}>
-          <Box>
+          <Box
+            backgroundColor="lightBlue"
+            extend={{
+              borderWidth: 1,
+              borderStyle: 'solid',
+              borderColor: 'blue',
+              borderRadius: 8,
+            }}
+            padding={2}>
             <Text>
-              Wir sind die Menschen hinter der Stamm Tilia Mainz.
-              Kontaktier uns doch gerne über{' '}
-              <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                pfadfinden[at]bdp-mainz.de
-              </Link>
+              Also komm in unsere Gruppenstunde! Immer{' '}
+              <Text subStyle="emphasis">Mittwochs</Text> außerhalb der
+              Schulferien von{' '}
+              <Text subStyle="emphasis">17:00 bis 18:30 Uhr</Text> an unserem
+              Gruppenraum in der Liebfrauenkirche{' '}
+              <Text subStyle="emphasis">Moselstraße 30</Text>!
             </Text>
           </Box>
-        </Tile>
+        </Box>
+        <Spacer size={8} />
+        <Box display={['none', , 'block']}>
+          <Tile
+            title="Die Menschen hinter der Stamm Tilia"
+            image="/images/tilia_2023.jpeg"
+            imageHeight={600}>
+            <Box>
+              <Text>
+                Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
+                uns doch gerne über{' '}
+                <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                  pfadfinden[at]bdp-mainz.de
+                </Link>
+              </Text>
+            </Box>
+          </Tile>
+        </Box>
+        <Box display={['block', , 'none']}>
+          <Tile
+            title="Das sind wir!"
+            image="/images/pfila_2024.jpg"
+            imageHeight={600}>
+            <Box>
+              <Text>
+                Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
+                uns doch gerne über{' '}
+                <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                  pfadfinden[at]bdp-mainz.de
+                </Link>
+              </Text>
+            </Box>
+          </Tile>
+        </Box>
       </Layout>
       <Layout
         grow={1}
