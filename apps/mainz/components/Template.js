@@ -15,10 +15,10 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
-  '/stamm': 'Stamm Tilia',
-  '/bdp': 'BdP',
-  '/landesverband': 'Landesverband',
-  '/digital': 'Digital',
+  '/stamm': 'Über uns',
+  '/bdp': 'Unser Bundesverband',
+  '/landesverband': 'Unser Landesverband',
+  '/digital': 'Digitales',
   '/kontakt': 'Kontakt',
 }
 
