@@ -44,10 +44,10 @@ export default (
       backgroundImage={`url("https://docs.bdp-rps.de${image}")`}
       imageHeight={['12vh', , , '80vh']}>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Tilia Mainz Blog Post {meta.title}</title>
+        <title>Pfadfinder Stamm Tilia Mainz Blog Post {meta.title}</title>
         <meta
           name="description"
-          content={`Blog Post ${meta.title} für die Pfadfinder Aufbaugruppe Mainz Neustadt BdP`}
+          content={`Blog Post ${meta.title} für die Pfadfinder Stamm Mainz Neustadt BdP`}
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={20}>

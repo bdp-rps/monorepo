@@ -240,7 +240,6 @@ export default () => (
             miteinander verbringen. Außerdem passt die Linde gut zu unserer
             Naturverbundenheit und Tilia ist einfach ein super schönes Wort :)
           </Text>
-          {''}
         </Box>
         <Box>
           <Text variant="subtitle">Das sind wir:</Text>

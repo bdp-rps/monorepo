@@ -40,12 +40,23 @@ export default function page({ events, posts }) {
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
           <Text variant="category">Ahoi und Hallo!</Text>
-          <Text>HIER SCHÖNEN TEXT WER IHR SEID WANN UND WOGRUPPENSTUNDE</Text>
+          <Text>
+            Wir sind eine bunte Gruppe begeisterter BdP-Pfadfinder*innen, die
+            schon lange davon träumen, einen Stamm in Herxheim zu gründen. Für
+            uns bedeutet Pfadfinden Gemeinschaft, lebenslange Freundschaften,
+            Abenteuer und einen sicheren Ort, an dem wir neue Ideen ausprobieren
+            und einfach wir selbst sein können. Dieses Lebensgefühl wollen wir
+            nicht nur für uns in den Alltag holen, sondern vor allem auch vielen
+            Kindern und Jugendlichen hier in Herxheim ermöglichen. Jetzt ist es
+            endlich soweit, diesen Traum in die Tat umzusetzen: Unser Stamm in
+            Herxheim entsteht!
+          </Text>
           <Text>
             Also komm in unsere Gruppenstunde! Immer{' '}
             <Text subStyle="emphasis">Mittwochs</Text> außerhalb der Schulferien
-            von <Text subStyle="emphasis">WANN</Text> an unserem Gruppenraum in
-            der WO <Text subStyle="emphasis">WO DENN???</Text>!
+            von <Text subStyle="emphasis">17:00 bis 18:30 Uhr</Text> an unserem
+            Gruppenraum in der Liebfrauenkirche{' '}
+            <Text subStyle="emphasis">Moselstraße 30</Text>!
           </Text>
         </Box>
         <Spacer size={8} />
@@ -60,7 +71,7 @@ export default function page({ events, posts }) {
               <Text>
                 Wir sind die Menschen hinter der Pfadfinder Aufbaugruppe
                 Rotfüchse Herxheim. Kontaktier uns doch gerne über{' '}
-                <Link href="mailTo:pfadfinden@bdp-mainz.de">MAILADRESSE</Link>
+                <Link href="mailTo:pfadfinden@bdp-mainz.de">mailadresse</Link>
               </Text>
             </Box>
           </Tile>

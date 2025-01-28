@@ -26,12 +26,12 @@ export default ({ posts }) => {
     <Template>
       <Head>
         <title>
-          Pfadfinder Aufbaugruppe Rotfüchse Herxheim Rheinland Pfalz Saar
-          Landesverband Blog
+          Pfadfinder Stamm Rotfüchse Herxheim Rheinland Pfalz Saar Landesverband
+          Blog
         </title>
         <meta
           name="description"
-          content="Pfadfinder Aufbaugruppe Rotfüchse Herxheim Rheinland Pfalz Saar Landesverband Blog"
+          content="Pfadfinder Stamm Rotfüchse Herxheim Rheinland Pfalz Saar Landesverband Blog"
         />
       </Head>
       <Layout
