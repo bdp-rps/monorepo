@@ -10,6 +10,9 @@ import {
   Button,
   ScrollView,
   Grid,
+  IconCalendar,
+  IconClock,
+  IconCompass,
 } from '@bdp-rps/ui'
 import NextLink from 'next/link'
 import Head from 'next/head'
@@ -22,6 +25,120 @@ import getEvents from '../utils/getEvents'
 
 import { getBlogposts, getBlogpostsMainz } from '../api/getBlogposts'
 import { useState } from 'react'
+
+let gruppenDaten = [
+  {
+    img: 'raueber',
+    name: 'RäubeR/Runde',
+    age: 'von achtzehn bis anfang dreißig',
+    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
+    time: 'ab 19:00 Uhr',
+    day: 'Mittwochs',
+    description: '',
+    since: '2022',
+    groupLeaders: '',
+  },
+  {
+    img: 'raueber',
+    name: 'RäubeR/Runde',
+    age: 'von achtzehn bis anfang dreißig',
+    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
+    time: 'ab 19:00 Uhr',
+    day: 'Mittwochs',
+    description: '',
+    since: '2022',
+    groupLeaders: '',
+  },
+  {
+    img: 'raueber',
+    name: 'RäubeR/Runde',
+    age: 'von achtzehn bis anfang dreißig',
+    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
+    time: 'ab 19:00 Uhr',
+    day: 'Mittwochs',
+    description: '',
+    since: '2022',
+    groupLeaders: '',
+  },
+  {
+    img: 'raueber',
+    name: 'RäubeR/Runde',
+    age: 'von achtzehn bis anfang dreißig',
+    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
+    time: 'ab 19:00 Uhr',
+    day: 'Mittwochs',
+    description: '',
+    since: '2022',
+    groupLeaders: '',
+  },
+]
+
+const InfoPoint = ({ info, title }) => {
+  return (
+    info && (
+      <Box>
+        <Text variant="note">{title}</Text>
+        <Text>{info}</Text>
+      </Box>
+    )
+  )
+}
+
+const GroupComponent = ({ data }) => {
+  const { name, img, age, day, place, description, since, groupLeaders, time } =
+    data
+  return (
+    <Tile
+      title={<Text>{name}</Text>}
+      image={'/images/gruppen/' + img + '.jpg'}
+      imageHeight={400}>
+      <Box space={6}>
+        <Box space={2}>
+          <Box direction="row" space={2}>
+            <Box direction="row" space={1} alignItems="center">
+              <IconCalendar size={18} />
+              <Text variant="note">{day}</Text>
+            </Box>
+            <Box direction="row" space={1} alignItems="center">
+              <IconClock size={18} />
+              <Text variant="note">{time}</Text>
+            </Box>
+          </Box>
+          <Box direction="row" space={1} alignItems="center" flexWrap="wrap">
+            <Box>
+              <IconCompass size={18} />
+            </Box>
+            <Box>
+              <Text variant="note">{place}</Text>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          extend={{
+            borderTop: '1px solid',
+            borderColor: 'grey',
+          }}
+        />
+        <Box space={4}>
+          <Grid columns={['1fr', , '1fr 1fr']}>
+            <InfoPoint
+              title="Unsere Gruppenleitungen sind"
+              info={groupLeaders}
+            />
+            <InfoPoint title="Unsere Alterspanne ist" info={age} />
+            <InfoPoint title="Uns gibt es seit" info={since} />
+          </Grid>
+          <InfoPoint
+            title="Wer wir sind"
+            info={
+              'Wir sind eine engagierte Gruppe von jungen Erwachsenen im Alter von etwa 18 bis Mitte 30, die mit Herz und Leidenschaft das Pfadfinderleben aktiv gestalten. Gemeinsam organisieren wir alles, was die Pfadfindergruppe am Laufen hält – von den wöchentlichen Gruppenstunden über spannende Fahrten bis hin zu unvergesslichen Lagern.Unser Ziel ist es, den jüngeren Generationen spannende und lehrreiche Abenteuer zu ermöglichen, während wir gleichzeitig selbst als Team zusammenwachsen und Verantwortung übernehmen. Wir legen großen Wert auf Zusammenarbeit, Kreativität und Spaß, während wir die Grundlagen der Pfadfinderbewegung in die Praxis umsetzen.'
+            }
+          />
+        </Box>
+      </Box>
+    </Tile>
+  )
+}
 
 export default function page({ events, posts, postsMainz }) {
   const theme = useTheme()
@@ -39,73 +156,65 @@ export default function page({ events, posts, postsMainz }) {
         />
       </Head>
       <Layout paddingTop={5} paddingBottom={5}>
-        <Box space={2}>
-          <Text variant="category">Ahoi und Hallo!</Text>
-          <Text>
-            Wir sind eine bunte Gruppe aus begeisterten BdP Pfadfinder*innen,
-            die schon lange von einem Stamm in Mainz träumen. Pfadfinden
-            bedeutet für uns Gemeinschaft, Freundschaften fürs Leben, Abenteuer
-            und einen sicheren Ort, an dem wir neue Ideen ausprobieren und ganz
-            wir selbst sein können.
-            <br />
-            Das wollen wir nicht nur für uns zurück in den Alltag holen, sondern
-            vor allem vielen Kindern und Jugendlichen hier in der Stadt
-            ermöglichen. Diese Idee soll nun endlich in die Tat umgesetzt
-            werden: <br />
-          </Text>
-          <Box
-            backgroundColor="lightBlue"
-            extend={{
-              borderWidth: 1,
-              borderStyle: 'solid',
-              borderColor: 'blue',
-              borderRadius: 8,
-            }}
-            padding={2}>
+        <Box space={8}>
+          <Box space={2}>
+            <Text variant="category">Ahoi und Hallo!</Text>
             <Text>
-              Also komm in unsere Gruppenstunde! Immer{' '}
-              <Text subStyle="emphasis">Mittwochs</Text> außerhalb der
-              Schulferien von{' '}
-              <Text subStyle="emphasis">17:00 bis 18:30 Uhr</Text> an unserem
-              Gruppenraum in der Liebfrauenkirche{' '}
-              <Text subStyle="emphasis">Moselstraße 30</Text>!
+              Wir sind eine bunte Gruppe aus begeisterten BdP Pfadfinder*innen,
+              die schon lange von einem Stamm in Mainz träumen. Pfadfinden
+              bedeutet für uns Gemeinschaft, Freundschaften fürs Leben,
+              Abenteuer und einen sicheren Ort, an dem wir neue Ideen
+              ausprobieren und ganz wir selbst sein können.
+              <br />
+              Das wollen wir nicht nur für uns zurück in den Alltag holen,
+              sondern vor allem vielen Kindern und Jugendlichen hier in der
+              Stadt ermöglichen. Diese Idee soll nun endlich in die Tat
+              umgesetzt werden: <br />
             </Text>
           </Box>
-        </Box>
-        <Spacer size={8} />
-        <Box display={['none', , 'block']}>
-          <Tile
-            title="Die Menschen hinter der Stamm Tilia"
-            image="/images/tilia_2023.jpeg"
-            imageHeight={600}>
-            <Box>
-              <Text>
-                Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
-                uns doch gerne über{' '}
-                <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                  pfadfinden[at]bdp-mainz.de
-                </Link>
-              </Text>
-            </Box>
-          </Tile>
-        </Box>
-        <Box display={['block', , 'none']}>
-          <Tile
-            title="Das sind wir!"
-            image="/images/pfila_2024.jpg"
-            imageHeight={600}>
-            <Box>
-              <Text>
-                Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
-                uns doch gerne über{' '}
-                <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                  pfadfinden[at]bdp-mainz.de
-                </Link>
-              </Text>
-            </Box>
-          </Tile>
+          <Box>
+            <Text variant="subtitle">Das sind unsere Gruppen:</Text>
+            <Grid gap={5} columns={['1fr', , '1fr 1fr']}>
+              {gruppenDaten.map((data) => (
+                <GroupComponent data={data} key={data.name} />
+              ))}
+            </Grid>
+          </Box>
+          <Box display={['none', , 'block']}>
+            <Tile
+              title="Die Menschen hinter der Stamm Tilia"
+              image="/images/tilia_2023.jpeg"
+              imageHeight={600}>
+              <Box>
+                <Text>
+                  Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
+                  uns doch gerne über{' '}
+                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                    pfadfinden[at]bdp-mainz.de
+                  </Link>
+                </Text>
+              </Box>
+            </Tile>
+          </Box>
+          <Box display={['block', , 'none']}>
+            <Tile
+              title="Das sind wir!"
+              image="/images/pfila_2024.jpg"
+              imageHeight={600}>
+              <Box>
+                <Text>
+                  Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
+                  uns doch gerne über{' '}
+                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
+                    pfadfinden[at]bdp-mainz.de
+                  </Link>
+                </Text>
+              </Box>
+            </Tile>
+          </Box>
         </Box>
       </Layout>
+
       <Layout
         grow={1}
         alignSelf="stretch"

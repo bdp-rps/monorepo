@@ -16,6 +16,8 @@ const colors = {
   red: 'rgb(211, 0, 20)',
   redLight: 'rgb(221, 10, 30)',
   redLighter: 'rgb(240, 71, 80)',
+  green: 'rgb(84, 139, 49)',
+  greenLight: 'rgb(132, 188, 97)',
 }
 
 export default {
@@ -34,6 +36,8 @@ export default {
     primaryLight: colors.blueLight,
     secondary: colors.yellow,
     secondaryLight: colors.yellowLight,
+    tertiary: colors.green,
+    tertiaryLight: colors.greenLight,
     destructive: colors.red,
     destructiveLight: colors.redLight,
     foreground: core.colors.grey1,
