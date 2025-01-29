@@ -13,7 +13,7 @@ import {
   SelectInput,
   useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
-import { PDFDownloadLink, PDFViewer, Document } from '@lorren-js/core'
+import { PDFDownloadLink, Document } from '@lorren-js/core'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
@@ -152,34 +152,34 @@ export default function Page({ defaultData, defaultGenerated }) {
               </Button>
             </Box>
             {localStorage.getItem('show') && (
-              <Box
-                as={PDFDownloadLink}
-                grow={1}
-                extend={{ textDecoration: 'none' }}
-                document={
-                  <Wrapper>
-                    <Document>
-                      {/* <Reisekosten
-                        name={name.value}
-                        event={event.value}
-                        location={location.value}
-                        startDate={startDate.value}
-                        endDate={endDate.value}
-                        destination={destination.value}
-                        iban={iban.value}
-                        place={place.value}
-                        date={date.value}
-                        note={note.value}
-                        routes={routes}
-                      /> */}
-                    </Document>
-                  </Wrapper>
-                }
-                fileName={fileName + '.pdf'}>
-                {({ blob, url, loading, error }) => (
-                  <Button loading={loading}>Als PDF herunterladen</Button>
-                )}
-              </Box>
+              // <Box
+              //   as={PDFDownloadLink}
+              //   grow={1}
+              //   extend={{ textDecoration: 'none' }}
+              //   document={
+              //     <Wrapper>
+              //       <Document>
+              //          <Reisekosten
+              //           name={name.value}
+              //           event={event.value}
+              //           location={location.value}
+              //           startDate={startDate.value}
+              //           endDate={endDate.value}
+              //           destination={destination.value}
+              //           iban={iban.value}
+              //           place={place.value}
+              //           date={date.value}
+              //           note={note.value}
+              //           routes={routes}
+              //         /> 
+              //       </Document>
+              //     </Wrapper>
+              //   }
+              //   fileName={fileName + '.pdf'}>
+              //   {({ blob, url, loading, error }) => (
+              //     <Button loading={loading}>Als PDF herunterladen</Button>
+              //   )}
+              // </Box>
             )}
             <Box>
               <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
