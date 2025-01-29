@@ -31,7 +31,15 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1734629162053,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Alternativtitel hinzugefügt"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "Als wir jüngst verschütt jegangen waren",
+  "specialSettings": {}
 }

@@ -25,7 +25,7 @@
   "alternativeTitle": "Möwen",
   "tempo": "90",
   "musicalKey": "D",
-  "info": "Die deutsche Übersetzung fasst recht frei die 3. und 4. Strophe des Norwegischen Originals zu einer zusammen.",
+  "info": "Original: Måken\nDie deutsche Übersetzung fasst recht frei die 3. und 4. Strophe des Norwegischen Originals zu einer zusammen.",
   "changes": [
     {
       "date": 1678729523920,
@@ -61,6 +61,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1734604189981,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Måken als Titel noch mal explizit mit hingeschrieben in den zusatz informationen"
     }
   ],
   "specialSettings": {}

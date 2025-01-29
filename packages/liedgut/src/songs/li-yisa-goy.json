@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{d}Lo yisa {C}goy el goy che{d}rev\n{d}lo yilm‘e {C}du {a}od milcha{d}ma.",
+  "title": "Li yisa goy",
+  "words": [
+    {
+      "name": "hebr. Kanon",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "hebr. Kanon",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "Dm",
+  "info": "Kanon\n\nÜbersetzung:\nMöge keine Nation gegen eine andere Nation mehr das Schwert erheben.\nMögen wir keinen weiteren Krieg mehr erlernen.  ",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734627746447,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

@@ -21,7 +21,7 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "7/8",
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "Em",
@@ -40,6 +40,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1734382770264,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "lied ist in 7/8"
     }
   ],
   "specialSettings": {}

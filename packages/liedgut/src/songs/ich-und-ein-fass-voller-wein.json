@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{A} {E} / {D} {A} {E}\nWir fuhren mal wieder der Freiheit entgegen,\nzu kunden den Seewind auf meerweiten Wegen.\nBeladen mit gerade errungener Fracht \nHat uns doch Fortuna mit Segen bedacht.\nSo hatten wir ein Dutzend Fass Wein an Bord,\nzu tief war der Seegang, so voll war der Hort,\nda wies uns der Kaptain, den Frachtraum zu leeren \n{D}                               {A}              {E}             {A}\nund uns zu füllen, die freudigen Launen zu mehren.\n\n\n {A}                                {D}\n Ich und ein Fass voller Wein \n               {A}                     {fis}          {D}                   {E}\n und nur morsches Holz zwischen mir und den Fischen!\n {A}                            {D}\n Ich und ein Fass nur allein,\n          {A}              {fis}       {D}                {E}\n dem Himmel entrissen, oh drauf geschissen!\n      {D}               {E}                        {A}\n Es könnte noch viel schlimmer sein!\n\n\nLang war die Nacht und der Durst war so groß \nund bald war denn jedermann Trunkenheit bloß.\nElf Fässer wir löschten in Seemannsmanier.\nVoll war der Mond – und noch voller waren wir!\nDer Kaptain war wieder der strammste von allen,\nbeim Pissen ist er von der Reling gefallen.\nZu retten ihn sprangen noch viele in See,\ndoch bei unsern zwölf Knoten war das keine so gute Idee!\n\n\nWer später dann noch nicht von Bord war gegangen,\nder kroch noch im Suff auf der Reling entlang.\nUnd ich hab mich still in den Frachtraum gestohlen,\ndas zwölfte Fass Wein für uns Zecher zu holen.\nDas war dann die Zeit heitern Himmels, hernach \nder Sturm über unsere Köpfe reinbrach.\nDas Ruder barst, kurz nachdem unser Mast fiel \nund nach wenig der Weil hatten Felsen wir unter dem Kiel.\n\nSo sind allesamt in der Sturmflut ertrunken \nund mit unserm Kahn in die Tiefe gesunken.\nNur ich überlebte im Frachtraum geschlossen \nund hab unser Schicksal in Ehren begossen.\nSo sitze ich hier zwischen Gold, Schmuck und Tuch,\nhab Umtrunk und Luft und auch Ratten genug.\nIch würd' mich wohl fürchten, wär ich hier allein, \ndoch hab ich ein' Krug und ein volles Fass lieblichen Wein.",
+  "content": "Wir {A}fuhren mal wieder der {E}Freiheit entgegen,\nZu {D}kunden den {E7}Seewind auf {A}meerweiten {E}Wegen.\nBe{A}laden mit gerade er{E}rungener Fracht\nHat {D}uns doch For{E7}tuna mit {A}Segen be{E}dacht.\nSo {A}hatten wir ein Dutzend {E}Fass Wein an Bord.\nZu {D}tief war der {E7}Seegang, so {A}voll war der {E}Hort.\nDa {A}wies uns der Kaptain, den {E}Frachtraum zu leeren,\n{D}Und uns zu {E7}füllen, die {A}freudige {E}Laune zu {A}mehrn.\n\n{A}Ich und ein Fass voller {D}Wein,\nUnd nur {A}morsches {fis}Holz zwi{D}schen {E}mir und den Fischen.\n{A}Ich und ein Fass nur all{D}ein,\nDem {A}Himmel {fis}entriss{D}en, {E}oh drauf geschissen!\nEs {D}könnte noch {E}viel schlimmer {A}sein.\n\n\nLang war die Nacht und der Durst war so groß \nund bald war denn jedermann Trunkenheit bloß.\nElf Fässer wir löschten in Seemannsmanier.\nVoll war der Mond – und noch voller waren wir!\nDer Kaptain war wieder der strammste von allen,\nbeim Pissen ist er von der Reling gefallen.\nZu retten ihn sprangen noch viele in See,\ndoch bei unsern zwölf Knoten war das keine so gute Idee!\n\n\nWer später dann noch nicht von Bord war gegangen,\nder kroch noch im Suff auf der Reling entlang.\nUnd ich hab mich still in den Frachtraum gestohlen,\ndas zwölfte Fass Wein für uns Zecher zu holen.\nDas war dann die Zeit heitern Himmels, hernach \nder Sturm über unsere Köpfe reinbrach.\nDas Ruder barst, kurz nachdem unser Mast fiel \nund nach wenig der Weil hatten Felsen wir unter dem Kiel.\n\nSo sind allesamt in der Sturmflut ertrunken \nund mit unserm Kahn in die Tiefe gesunken.\nNur ich überlebte im Frachtraum geschlossen \nund hab unser Schicksal in Ehren begossen.\nSo sitze ich hier zwischen Gold, Schmuck und Tuch,\nhab Umtrunk und Luft und auch Ratten genug.\nIch würd' mich wohl fürchten, wär ich hier allein, \ndoch hab ich ein' Krug und ein volles Fass lieblichen Wein.",
   "title": "Ich und ein Fass voller Wein",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1734382584537,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde in den Text eingebunden E7 ergänzt weil das in meiner version drin steht, aber ist mir relativ egal "
     }
-  ]
+  ],
+  "specialSettings": {}
 }

@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "A {h}wet colored paintbrush and a white house by {A}night.\nA {h}landscape with a ploughman and another house be{A}side.\n{h}Sunflowers and cornfields and an easel down be{A}low.\nA {G}straw hat on a mournful face is {D}all that we {A}know.\n\nOil-colour-canvases and pictures in frames.\nWho asks for paintings of a guy with no name?\nBrother can you help me? I'm stone broke again.\nTomorrow I'll sell it all to an art businessman.\n\n{h}Spot-painted poetry, {G}living in {A}quandary,\n{h}Outside a gallery, {A}derided and {h}chased.\n{h}Life is a lottery {G}without a {A}warranty,\n{h}Dying in beggary, {A}buried in {h}haste.\n\nHard times for an artist with contrary mind\nScaremongers everywhere short-sighted and blind\nNovelty was out of time boundary's effaced\nIt's better to make an end than to live in disgrace\n\nSpot-painted poetry...",
+  "title": "Vincent",
+  "words": [
+    {
+      "name": "Paddy Goes to Holyhead",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Paddy Goes to Holyhead",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": 60,
+  "musicalKey": "",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734533968139,
+      "name": "Kichael ",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

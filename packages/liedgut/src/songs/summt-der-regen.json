@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{e}Summt der Regen am {a}Abend ins {e}Tal, träumt mein Zelt von den {H7}Lom{e}men.\nÜber den Strom, über {a}Klippen und {e}Rohr ist ihr Rufen ge{H7}kom{e}men.\n{G}Jäh aus {D}Wind wie ein {G}heiseres {D}Lied und {G}schrill im {D}pfeifenden {G}We{D}hen.\n{e}Rudern die {a}Lommen der {C}Dämmerung {H7}zu, {e}nachtwärts {C}heim zu den {H7}See{e}n.\n\nSchlaf, mein Zelt, wenn der Schlafregen fällt, Elche ziehen ans Ufer.\nSchlaf, mein Zelt, in der summenden Nacht, hör am Strande den Rufer.\nFriedlos irrt in den Klippen der Schrei und Wellen hör ich in Steinen.\nWind saust im Zeltdach und schwer ist der Schlaf, hör die Mooswälder weinen.\n\nRegen, Regen, die Wache ist lang, singt ertrunkene Sage.\nLauscht mein Herz bis zum Rande der Welt, lauscht in Nächte und Tage.\nLauscht und hört aus den Stunden den Gang, die Füchse klagen und heulen.\nSchlafregen fällt, doch die Wildnis ist wach, draußen jagen die Eulen.\n\nZelt, mein Zelt, bis zum Rande der Welt, zählt der Regen die Stunden.\nFremdheit, Wildnis sind ringsum und nah, Schlaf im Nachtgang geschwunden.\nKeiner weiß, wie der dämmernde Tag dort fahl zum Strand ist gekommen.\nRätselhaft kehren aus Wäldern der Nacht heiser heimwärts die Lommen.",
+  "title": "Summt der Regen",
+  "words": [
+    {
+      "name": "Walter Scherf",
+      "nickname": "tejo",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "altenglisch",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "3/4",
+  "alternativeTitle": "",
+  "tempo": "70",
+  "musicalKey": "Em",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1734445781709,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
