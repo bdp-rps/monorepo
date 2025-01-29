@@ -27,10 +27,10 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Rotfüchse Herxheim Impressum</title>
+        <title>Pfadfinder Stamm Rotfüchse Herxheim Impressum</title>
         <meta
           name="description"
-          content="Impressum für die Pfadfinder Aufbaugruppe  Rotfüchse Herxheim BdP"
+          content="Impressum für die Pfadfinder Stamm  Rotfüchse Herxheim BdP"
         />
       </Head>
       <Layout paddingTop={10} paddingBottom={10}>
@@ -42,7 +42,7 @@ export default () => {
             <b>Landesverband Rheinland-Pfalz/Saar</b>
             <br />
             <br />
-            <b>Aufbaugruppe Rotfüchse Herxheim</b>
+            <b>Stamm Rotfüchse Herxheim</b>
             <br />
             <br />
             <b>EIN NAME VON EUCH</b>
@@ -50,7 +50,7 @@ export default () => {
             STRASSE
             <br />
             PLZ <br />
-            <Link href="mailto:timon@bdp-rps.de">MAIL</Link>
+            <Link href="mailto:timon@bdp-rps.de">mailadresse</Link>
             <br />
             <br />
             Jugendverband
