@@ -33,7 +33,7 @@ export default function Sonderurlaub({
   return (
     <Page size="A4" orientation="portrait" padding="20mm">
       <Box direction="row" space={4} justifyContent="space-between">
-        <Box grow={1} shrink={1} basis={0} space={4} marginTop={0.5}>
+        <Box grow={1} shrink={1} basis={0} space={4} marginTop={0.75}>
           <Text variant="note" color="blue">
             BdP Landesverband Rheinland-Pfalz/Saar • Landesvorstand c/o Robin
             Weser • Rintheimer Hauptstraße 25, 76131 Karlsruhe
@@ -73,8 +73,8 @@ export default function Sonderurlaub({
           <Br />
           <Br />
           Ein wichtiger Bestandteil des Verbandslebens sind die regelmäßigen
-          Lager und Ausbildungskurse. Auch dieses Jahr finden wieder einige
-          davon statt. So auch vom{' '}
+          Lager, Fahrten und Ausbildungskurse. Auch dieses Jahr finden wieder
+          einige davon statt. So auch vom{' '}
           <DateTime format="dd.MM">{startDate}</DateTime> -{' '}
           <DateTime format="dd.MM.yyyy">{endDate}</DateTime> unser {event}.
           <Br />
@@ -103,7 +103,12 @@ export default function Sonderurlaub({
           <Br />
           Mit freundlichen Grüßen
         </Text>
-        <Image src="https://forms.bdp-rps.app/images/unterschrift_robin.png" />
+        <Image
+          src="https://forms.bdp-rps.app/images/unterschrift_robin.png"
+          height={50}
+          style={{ marginLeft: -8, marginTop: 10 }}
+        />
+
         <Text variant="paragraph">
           Robin Weser
           <Br />
@@ -115,6 +120,16 @@ export default function Sonderurlaub({
           <Br />
           +49 0151 64330341
         </Text>
+        <Image
+          src="https://forms.bdp-rps.app/images/stempel.png"
+          height={130}
+          style={{
+            position: 'absolute',
+            bottom: 0,
+            marginBottom: 28,
+            marginLeft: 90,
+          }}
+        />
       </Box>
     </Page>
   )
