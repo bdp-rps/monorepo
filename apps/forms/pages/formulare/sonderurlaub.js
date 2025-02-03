@@ -201,15 +201,6 @@ export default function Page({ defaultData, defaultGenerated }) {
             <Box>
               <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
             </Box>
-            <Box extend={{ width: 1000, height: 1000 }}>
-              <PDFViewer style={{ height: '100%', width: '100%' }}>
-                <Wrapper>
-                  <Document>
-                    <Sonderurlaub {...d} />
-                  </Document>
-                </Wrapper>
-              </PDFViewer>
-            </Box>
           </Box>
         </Layout>
       </Template>
