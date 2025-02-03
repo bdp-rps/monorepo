@@ -24,7 +24,6 @@ export default function Sonderurlaub({
   event,
   gender,
   boss,
-  address,
   birthday,
   group,
   address,
@@ -60,7 +59,7 @@ export default function Sonderurlaub({
           </DateTime>
         </Text>
       </Box>
-      <Box paddingTop={4} paddingBottom={4}>
+      <Box paddingTop={6} paddingBottom={6}>
         <Text subStyle="emphasis" style={{ fontSize: 18 }}>
           Antrag auf Sonderurlaub
         </Text>
@@ -85,11 +84,12 @@ export default function Sonderurlaub({
           <DateTime format="dd.MM.yyyy">{birthday}</DateTime>, ist seit vielen
           Jahren aktives Mitglied in unserem Landesverband und übernimmt seitdem
           ehrenamtlich Verantwortung im BdP Stamm {group}. Als wichtige
-          Führungskraft ist sie für die Planung im Vorfeld sowie die
-          erfolgreiche Durchführung der oben genannten Aktion unentbehrlich.
+          Führungskraft ist {gender === 'female' ? 'sie' : 'er'} für die Planung
+          im Vorfeld sowie die erfolgreiche Durchführung der oben genannten
+          Aktion unentbehrlich.
           <Br />
           <Br />
-          Ich möchte Sie daher herzlich bitten,
+          Ich möchte Sie daher herzlich bitten,{' '}
           {gender === 'female' ? 'Frau' : 'Herrn'} {name} in der Zeit vom{' '}
           <DateTime format="dd.MM">{startDate}</DateTime> -{' '}
           <DateTime format="dd.MM.yyyy">{endDate}</DateTime> Sonderurlaub gemäß

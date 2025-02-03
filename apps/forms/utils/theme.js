@@ -45,7 +45,7 @@ export default {
     paragraph: {
       fontFamily: fonts.ALEO,
       fontSize: 12,
-      lineHeight: 1.2,
+      lineHeight: 1.4,
       variants: {
         standard: {
           fontWeight: 400,
@@ -58,7 +58,7 @@ export default {
     address: {
       fontFamily: fonts.ALEO,
       fontSize: 10,
-      lineHeight: 1.2,
+      lineHeight: 1.3,
       variants: {
         standard: {
           fontWeight: 400,

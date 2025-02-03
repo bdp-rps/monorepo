@@ -57,6 +57,14 @@ export default function Page({ defaultData, defaultGenerated }) {
     name: 'boss',
     required: true,
   })
+  const address = useField({
+    name: 'address',
+    required: true,
+  })
+  const birthday = useField({
+    name: 'birthday',
+    required: true,
+  })
   const startDate = useField({
     name: 'startDate',
     required: true,
@@ -73,6 +81,8 @@ export default function Page({ defaultData, defaultGenerated }) {
     gender,
     startDate,
     endDate,
+    birthday,
+    address,
     boss
   )
 
@@ -87,6 +97,8 @@ export default function Page({ defaultData, defaultGenerated }) {
       group: group.value,
       startDate: startDate.value,
       endDate: endDate.value,
+      birthday: birthday.value,
+      address: address.value,
     }
 
     router.replace(
@@ -110,6 +122,8 @@ export default function Page({ defaultData, defaultGenerated }) {
     boss.value,
     startDate.value,
     endDate.value,
+    birthday.value,
+    address.value,
   ])
 
   if (!isMounted) {
@@ -148,6 +162,8 @@ export default function Page({ defaultData, defaultGenerated }) {
       group: group.value,
       startDate: startDate.value,
       endDate: endDate.value,
+      birthday: birthday.value,
+      address: address.value,
     }
 
     return (
@@ -227,21 +243,32 @@ export default function Page({ defaultData, defaultGenerated }) {
               label="Name"
               placeholder="Vor- und Nachname"
               {...name.props}
+            />{' '}
+            <TextInput
+              label="Anschrift"
+              placeholder="Straße, PLZ und Wohnort"
+              {...address.props}
             />
+            <TextInput label="Geburtsdatum" type="date" {...birthday.props} />
             <SelectInput label="Geschlecht" {...gender.props}>
               <option value=""></option>
               <option value="female">Weiblich</option>
               <option value="male">Männlich</option>
               <option value="divers">Divers</option>
             </SelectInput>
-            <TextInput label="Stamm" {...group.props} />
+            <TextInput
+              label="Stamm"
+              {...group.props}
+              description={'Bitte ohne "Stamm"'}
+            />
             <TextInput
               label="Veranstaltung"
-              placeholder="z.B. Osterkurse"
+              placeholder="z.B. Fahrtenkurs"
               {...event.props}
+              description="Bitte ohne Jahreszahl"
             />
-            <TextInput label="Start-Datum" type="date" {...startDate.props} />
-            <TextInput label="End-Datum" type="date" {...endDate.props} />
+            <TextInput label="Startdatum" type="date" {...startDate.props} />
+            <TextInput label="Enddatum" type="date" {...endDate.props} />
             <TextArea
               label="Anschrift der Ansprechperson"
               placeholder={`z. Hd. Max Mustermann
@@ -255,9 +282,7 @@ Musterstraße 1
                 '> textarea': { resize: 'none', minHeight: '100px !important' },
               }}
             />
-
             <span />
-
             <Box
               direction={['column', , 'row']}
               space={4}
