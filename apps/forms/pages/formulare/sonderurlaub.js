@@ -13,7 +13,7 @@ import {
   SelectInput,
   useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
-import { PDFDownloadLink, Document } from '@lorren-js/core'
+import { PDFDownloadLink, PDFViewer, Document } from '@lorren-js/core'
 
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
@@ -23,6 +23,7 @@ import rates from '../../utils/rates'
 
 import Wrapper from '../../templates/Wrapper'
 import Reisekosten from '../../templates/Reisekosten'
+import Sonderurlaub from '../../templates/Sonderurlaub'
 
 export default function Page({ defaultData, defaultGenerated }) {
   const router = useRouter()
@@ -92,6 +93,7 @@ export default function Page({ defaultData, defaultGenerated }) {
       {
         pathname: '/formulare/sonderurlaub',
         query: {
+          ...router.query,
           data: btoa(JSON.stringify(query)),
         },
       },
@@ -138,6 +140,16 @@ export default function Page({ defaultData, defaultGenerated }) {
       name.value,
     ]
 
+    const data = {
+      name: name.value,
+      event: event.value,
+      gender: gender.value,
+      boss: boss.value,
+      group: group.value,
+      startDate: startDate.value,
+      endDate: endDate.value,
+    }
+
     return (
       <Template>
         <Layout paddingTop={10} paddingBottom={20} space={8} grow={1}>
@@ -151,38 +163,36 @@ export default function Page({ defaultData, defaultGenerated }) {
                 Beantragen
               </Button>
             </Box>
+
             {localStorage.getItem('show') && (
-              // <Box
-              //   as={PDFDownloadLink}
-              //   grow={1}
-              //   extend={{ textDecoration: 'none' }}
-              //   document={
-              //     <Wrapper>
-              //       <Document>
-              //          <Reisekosten
-              //           name={name.value}
-              //           event={event.value}
-              //           location={location.value}
-              //           startDate={startDate.value}
-              //           endDate={endDate.value}
-              //           destination={destination.value}
-              //           iban={iban.value}
-              //           place={place.value}
-              //           date={date.value}
-              //           note={note.value}
-              //           routes={routes}
-              //         /> 
-              //       </Document>
-              //     </Wrapper>
-              //   }
-              //   fileName={fileName + '.pdf'}>
-              //   {({ blob, url, loading, error }) => (
-              //     <Button loading={loading}>Als PDF herunterladen</Button>
-              //   )}
-              // </Box>
+              <Box
+                as={PDFDownloadLink}
+                grow={1}
+                extend={{ textDecoration: 'none' }}
+                document={
+                  <Wrapper>
+                    <Document>
+                      <Sonderurlaub {...data} />
+                    </Document>
+                  </Wrapper>
+                }
+                fileName={fileName + '.pdf'}>
+                {({ blob, url, loading, error }) => (
+                  <Button loading={loading}>Als PDF herunterladen</Button>
+                )}
+              </Box>
             )}
             <Box>
               <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
+            </Box>
+            <Box extend={{ width: 1000, height: 1000 }}>
+              <PDFViewer style={{ height: '100%', width: '100%' }}>
+                <Wrapper>
+                  <Document>
+                    <Sonderurlaub {...data} />
+                  </Document>
+                </Wrapper>
+              </PDFViewer>
             </Box>
           </Box>
         </Layout>
