@@ -140,7 +140,7 @@ export default function Page({ defaultData, defaultGenerated }) {
       name.value,
     ]
 
-    const data = {
+    const d = {
       name: name.value,
       event: event.value,
       gender: gender.value,
@@ -172,7 +172,7 @@ export default function Page({ defaultData, defaultGenerated }) {
                 document={
                   <Wrapper>
                     <Document>
-                      <Sonderurlaub {...data} />
+                      <Sonderurlaub {...d} />
                     </Document>
                   </Wrapper>
                 }
@@ -189,7 +189,7 @@ export default function Page({ defaultData, defaultGenerated }) {
               <PDFViewer style={{ height: '100%', width: '100%' }}>
                 <Wrapper>
                   <Document>
-                    <Sonderurlaub {...data} />
+                    <Sonderurlaub {...d} />
                   </Document>
                 </Wrapper>
               </PDFViewer>
