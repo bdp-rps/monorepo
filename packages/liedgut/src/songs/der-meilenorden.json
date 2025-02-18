@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"C\"C3/2 D/2 E E D C|\"F\" F F F \"C\"E F3/2 G/2| \"G\" D3/2 z3|z5|\n\"C\"E3/2 E/2 E E D C|  \"F\" F/2 F3/2 F \"C\" E F G | \"G\" D3/2 z3|\n\"F\" A3/2 A/2 A A/2 B3/2 c|\"C\" G G G c B A| \"G\" G3/2 z3|\n\"C\" E E/2 E3/2 E D C| \"F\" F F F \"C\" E F3/2 G/2| \"G\" D3/2 z3|\n\"G\" z3 z2 C| \"F\" A2 A A B c |\"C\" G/2 E/2 - E z3| \"G\" D D D D /2 E3/2 F|\n\"C\" G3/2 z2 F| \"a\" E/2 D3/2 C \"F\"F E/2 D3/2|\"C\" E D/2 C3/2 \"G\" D C3/2  B,/2| \"C\" C6/2  z3||\nz3 z2 C| \"F\" A A/2 A3/2 \"C\"G G G |\"G\" G F3/2 F/2 \"C\" E2 D|\n\"a\" E/2  E3/2 E \"d\" E D C |\"G\" D3/2 z3| \"F\" A A/2 A3/2 \"G\" G A B|\n\"C\" c c G \"F\" A2 G| \"d\" A A2 A G A| \"e\" B6| \n\"a\" c c c c/2 c3/2 c|\"F\" c3/2 c/2 B A6/2 |\n\"d\" A A A A/2 A3/2 A| \"F\" A2 G F2 E | \"G\" D12/2|z5|",
   "content": "Refrain:\n\n{C}Hast du den staubigen {F}Reigen der {C}Meilen ge{G}tanzt?\n{C}Oder Dich faul hinter {F}Mauern und {C}Türen ver{G}schanzt?\n{F}Hast du den Himmel gese{C}h'n und das Leben ges{G}pürt?\n{C}Haben Dich Freiheit und {F}Schönheit zu {C}Tränen ger{G}ührt?\n{G} Dann {F}komm in unsere {C}Mitte,  {G}füll' dir  den Becher da{C}zu, \nkomm {a}mit uns im {F}Orden der {C}staubigen {G}Meilen zur {C}Ruh'.\n\nWir {F}haben Dich {C}schon aus der {G}Ferne ges{C}eh'n, Dein {a}Schatten ging {d}lang vor Dir {G}her. \n{F}Scharf wie ein {G}Scherenschnitt {C}dort über'm {F}Grat, die {d}Schritte müde und {e}schwer.\n{a}Tief steht die Sonne bald {F}hinter dem Hang, \n{d}sei uns willkommen, der {F}Abend wird noch {G}lang. \n\n\nSchüttel vom qualmenden Stiefel den Staub, streck' Dich ins nachtkühle Gras. \nWärm' dich am Feuer und schau in die Glut, von allem das richtige Maß. \nLass Dich umhüllen von Rauch und Gesang, \nsei uns willkommen, der Abend wird noch lang. \n\nBlick nach den Sternen im Tiefdunkelblau, spür' der Erinnerung nach: \nWie Meile um Meile im Knochen versank und in den Füßen stach.\nJage den Pfad, der den Träumen entsprang, \nsei uns willkommen, der Abend wird noch lang. \n",
   "title": "Der Meilenorden",
   "words": [
@@ -36,6 +36,13 @@
       "mail": "kilian@wirsing.be",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739887507949,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "man lernt so schnell dazu\nnoten aus dem BGB hnzugefügt"
     }
   ]
 }
