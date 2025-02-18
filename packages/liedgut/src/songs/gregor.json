@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "100",
   "musicalKey": "",
-  "info": "ukrainischer Originaltitel: Oj je chody Hrycju",
+  "info": "ukrainischer Originaltitel: Oj, ne chody, Hrycju",
   "changes": [
     {
       "date": 1679516575520,
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739894553839,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "ukrainischer Originaltitel: Oj, ne chody, Hrycju statt oj je chody Hrycju"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
