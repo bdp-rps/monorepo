@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"a\" (C B,) A, E2 E2 |(C B,) A, E2 E2 |\"F\" A2A \"G7\" G2F2|\"C\"E2 D (\"E\"E D C B,)|\"a\" (C B,) A, E2 E2| (C B,) A, E2 E2|\n\"E7\" B,2C E2 D2|C2 B, \"a\" A,2z2||:\"F\"A3\"G\"G2F2|\"C\"E3-E4|\"F\"A2 A \"G7\" G2 F2|\"C\"E3-E4|\"d\" F2 F E2 D2|\"a\" (C3C2D2)|\"E7\"E2 D C2 B,2|\"a\"A,3-A,4|]",
   "content": "{a}Ako umram il' zaginam {F}Nemoj {G7}da {C}me zha{E7}lite\n{a}Napij{F/G}te se {Fis}s rujno {F}vino {E7}Skarshete gi chas{a}hite\n\n/:{F}E-e-e-{C}e, {F}verni {G7}druga{C}ri {B}Pesna zapej{a}te, mene {E7}spomnej{a}te :/\n\nAko umram il' zaginam Pop nemoj da vikate\nVie na grob da mi dojte Oro da zaigrate\n\nAko umram il' zaginam Ke ostanat spomeni\nShto sam ludo ludovalo Na mladite godini",
   "title": "Ako umram",
   "words": [
@@ -21,10 +21,10 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "7/8",
   "alternativeTitle": "",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "Am",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739909320473,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "habe melodie hinzugefügt, die Akkorde passen nicht an allen Stellen, aber es ist die gleiche Tonart, ich weiß nicht ob man die in der textversion da anpassen sollte oder in melodie keine Ahnung"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
