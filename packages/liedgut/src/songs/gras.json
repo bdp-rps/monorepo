@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"h\"\"_Zwischenspiel\"B,D FD [=cD][BB,]|\"e\"Gzz2z2|[1z2\"D\"AG FE|\"fis\"GF ED C^A,:|[2\"D\"G/A/G/F/ GF|\n\"fis\" ED CD C^A,||\"h\" B, D F D D D |\"e\" E2 E2 E E|\"D\" D2 D2 E2|\n\"fis\" C4-C C|\"h\" B, D F D D D |\"e\" E2 E2 E E |\"D\" D2 D2 E2|\"fis\" C4-C C|\n\"h\"B, D F D D D |\"e\" E2 E2 E E|\"D\" D2 D2 (E D)| \"fis\" C6|\n\"h\" B, D F D D D| \"e\" E-E E2 E2 |\"D\" D2 D2E2| \"fis\" C2 D2 C2| \"h\"B,6| \"e\" z5|\n\"h\" z5|z5|\"G\" B B B2 B2| B4 G2| \"h\" F6|z5| \"A\"E4D2|E4 F2|\n\"G\" D6|z2 B2 B2|B4 G2| B4 G2| \"h\"F6|z5|\"C\"z2E2 E2| E4 G2| \"G\" B,6|\n\"G\" z5| B B B2 B2| B2 d4|\"h\" F6|\"A\" E E E2 D2| E2 F2 z2| \"G\"D6|\n \"G\"z2 B2 B2| B4 G2| B4 G2| \"h\" F6|z5|\"C\" z2 E2 E2| E2 G4|\"G\" B,6|]",
   "content": "{h}Als wir endlich groß ge{e}nug war'n, nahmen {D}wir unsere Sch{fis}uh.\n{h}Die bemalte Kinder{e}zimmertür fiel {D}hinter uns zu{fis}.\n{h}Vater gab uns seinen {e}Mantel und {D}sein' blauen {fis}Hut.\n{h}Mutter gab uns ihre {e}Tränen und {D}machte uns {fis}ein Zucker{h}brot. {e}{h}\n\n{G}Immer wieder wächst das {h}Gras, {A}wild und hoch und {G}grün.\nBis die Sensen ohne {h}Hass {C}ihre Kreise {G}zieh'n.\nImmer wieder wächst das {h}Gras,{A}klammert all die Wunden {G}zu.\nManchmal stark und manchmal {h}blass - {C}so wie ich und {G}du\n\nAls wir endlich alt genug war'n, stopften wir sie in den Schrank.\nDie allzu oft geflickten Flügel und Gott sagte: \"Gott sei Dank\".\nNachts macht diese Stadt über uns die Luken dicht.\nUnd wer den Kopf zu weit oben hat, der find't seine Ruhe nicht.\n\nImmer wieder wächst das Gras, wild und hoch und grün.\nBis die Sensen ohne Hass ihre Kreise zieh'n.\nImmer wieder wächst das Gras, klammert all die Wunden zu.\nManchmal stark und manchmal blass - so wie ich und du.",
   "title": "Gras",
   "words": [
@@ -39,7 +39,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Layout, Tonart, Tempo, Rechtschreibung"
+    },
+    {
+      "date": 1739960167069,
+      "name": "Kichael ",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie gesetzt"
     }
   ],
-  "musicalKey": "Bm"
+  "musicalKey": "Bm",
+  "specialSettings": {}
 }
