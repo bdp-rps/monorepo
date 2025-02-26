@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "     {d}            {C}              {d}                              {C}               {d}\nEs war eine mondhelle Nacht, wir gingen hinunter zum Strand,\n        {G}                        {d}                                             {C}         {d}\ndort lag ein Schiff, mit Segeln so groß der Rumpf war namenlos.\n       {B}                                    {d}                 {B}                              {d}\nDu sagtest komm lass uns versuchen und machtest die Leinen los,\n       {B}                            {d}                                                    {C}       {d}\nder Wind steht gut, die Nacht zieht nach west: los zieht die Segel fest.\n\n        {F}         {G}             {d}              {F}                 {G}                 {d}\n    So weit, weit ist das Meer. Der Wind treibt uns vor sich her.\n            {F}                      {G}                    {C}    {G}             {A}\n    Was zählt ist nur der Rausch, drum lehn dich zurück,\n             {d}           {C}       {C}          {F} {e}      {C}     {d}\n    Wer loslassen kann, kommt irgendwann an.\n\nDann stachen wir in See, beladen mit all uns´rem Sinn.\nDer Bug ging tief, fast unter vor Last, die Segel bogen den Mast.\nErschrocken sah´n wir uns an, den Abgang schon in Blick.\nSchmeiß all´ deine Bilder von Bord, der Traum ist alt und verdorrt.\n\nUnd frag´ nicht, wie lang wird es gehen. So lange der Wind uns trägt.\nKein Hafen im Kopf, das wäre der Tod, Poseidon lenkt unser Boot!\n",
+  "content": "                                                                           \nEs {d}war eine {C}mondhelle {d}Nacht, wir gingen hi{C}nunter zum {d}Strand,\n                                                                                    \ndort {G}lag ein Schiff, mit {d}Segeln so groß der Rumpf war {C}namen{d}los.\n                                                                                          \nDu {B}sagtest komm lass uns ver{d}suchen und {B}machtest die Leinen {d}los,\n                                                                                              \nder {B}Wind steht gut, die {d}Nacht zieht nach west: los zieht die {C}Segel {d}fest.\n\n                                                                             \n    So {F}weit, {G}weit ist das {d}Meer. Der {F}Wind treibt {G}uns vor sich {d}her.\n                                                                       \n    Was {F}zählt ist nur der {G}Rausch, drum {C}lehn {G}dich zu{A}rück,\n                                              \n    Wer l{d}oslassen {C}kann, kommt  {F}irg{A}end{C}wann {d}an.\n\nDann stachen wir in See, beladen mit all uns´rem Sinn.\nDer Bug ging tief, fast unter vor Last, die Segel bogen den Mast.\nErschrocken sah´n wir uns an, den Abgang schon in Blick.\nSchmeiß all´ deine Bilder von Bord, der Traum ist alt und verdorrt.\n\nUnd frag´ nicht, wie lang wird es gehen. So lange der Wind uns trägt.\nKein Hafen im Kopf, das wäre der Tod, Poseidon lenkt unser Boot!\n",
   "title": "Soweit ist das Meer",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1740577443265,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde ordentlich in Text eingebunden"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
