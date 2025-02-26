@@ -17,7 +17,7 @@
     "start": "next start",
     "build": "next build",
     "build:deps": "cd ../.. && pnpm exec turbo run build --filter=forms.bdp-rps.de^...",
-    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=forms.bdp-rps.de --cache=local:r,remote:r",
+    "vercel:build": "pnpm build:deps && cd ../.. && pnpm exec turbo run build --filter=forms.bdp-rps.de --cache=local:r,remote:r  --since=origin/master",
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
