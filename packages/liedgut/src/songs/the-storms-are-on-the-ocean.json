@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "     {D}           {G}           {D}                         {D}          {A}            {D}\nI'm going away to leave you love. I'm going away for a while\n      {D}        {G}        {D}                        {D}          {A}              {D}\nBut I'll return to you sometime, if I go ten thousand miles\n\n    Ref.:\n    The storms are on the ocean, the heavens may cease to be\n    This world may lose it's motion, love, if I prove false to thee\n\nOh who will dress your pretty little feet, who will glove your hand\nWho will kiss your rosy red cheeks, when I'm in the far off land\n\nThe storms are on the ocean, the heavens may cease to be\nThis world may lose it's motion, love, if I prove false to thee\n\nOh have you seen those mournful doves. Flying from pine to pine\nThey're mourning for their own true loves, just like I mourn for mine\n\nOh papa will dress my pretty little feet and mama will glove my hand\nYou can kiss my rosy red cheeks, when you return again\n",
+  "content": "                                                                         \nI'm {D}going a{G} way to {D}leave you love. I'm going a{A}way for a {D}while  \n{D}But I'll re{G}turn to {D} you sometime, if I go ten {A}thousand {D}miles\n\n    Ref.:\n    The storms are on the ocean, the heavens may cease to be\n    This world may lose it's motion, love, if I prove false to thee\n\nOh who will dress your pretty little feet, who will glove your hand\nWho will kiss your rosy red cheeks, when I'm in the far off land\n\nThe storms are on the ocean, the heavens may cease to be\nThis world may lose it's motion, love, if I prove false to thee\n\nOh have you seen those mournful doves. Flying from pine to pine\nThey're mourning for their own true loves, just like I mourn for mine\n\nOh papa will dress my pretty little feet and mama will glove my hand\nYou can kiss my rosy red cheeks, when you return again\n",
   "title": "The storms are on the ocean",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1740576768940,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde ordentlich in Text eingebunden"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
