@@ -1,0 +1,41 @@
+{
+  "notation": "\"H7\"B,2|\"e\"E4 \"H7\"F4|\"e\" (GA) G F E2 E2|\"h\" (FG) F E ^D2 B,2|\"e\"E2 E2z2\nB,2|E4 \"H7\"F4\"e\"(GA) G F E2 E2| \"h\"  F2 F F ^D2 B,2|\"e\"E6\n|:\"e\"G A|\"G\"B3 A B2 G G|\"D\" A3 G A2 F F|\n\"e\" G2 G F G2 E E|\"H7\" F6 B, B,|\"e\" G2 G G \"H7\"F2 F F| \n\"e\"E2  E F G2 G G|\"h\" F2 F G A2 F2|\"e\"E6:|\n",
+  "content": "{H7}Und {e}wie{H7}der, {e}wieder ein Jahr, und {h}wieder ein Jahr ver{e}flogen, \n{H7}und {e}wieder, {e}wieder ein Jahr so {h}schnell wie die Spreu ver{e}weht.\n/:  Und es {G}schneit, es schneit, auf die {D}Felder weit, wirbeln {e}Flocken wie fröhlicher {H7}Sinn. \nAlle Moore im {H7}Eis liegen {e}schweigend und weiß und der {h}Wind geht darüber {e}hin. :/\n\nUnd weiter, weiter das Kreuz, und wieter das Kreuz gebogen, \nund weiter, weiter das Rad, nur immer das Rad gedreht.\n/: Und es schneit, es schneit über Glück und Leid, übers Mahlwerk ein weißes Kleid.\nWeiter dreht sich das Rad, und es klopft und es knarrt, stetig rauscht im Gerinne die Zeit. :/\n\nUnd wieder, wieder ein Jahr und wieder ein Jahr verflogen, \nund wieder, wieder ein Jahr so schnell wie die Spreu verweht.\n/: Doch es schneit, es schneit, wie in Ewigkeit, aus dem Sinken die Stille steigt.\nSanft behütet das Feld tief in weiß seine Welt und die Zeit ist versunken und schweigt. :/",
+  "title": "Krabats Mühlenlied",
+  "words": [
+    {
+      "name": "Till Ungefug",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Cesar Bresgen",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Und wieder, wieder ein Jahr",
+  "tempo": "90",
+  "musicalKey": "Em",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1740650766288,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
