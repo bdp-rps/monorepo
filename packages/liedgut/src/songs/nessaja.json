@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": " {C}                     {G}                          {e}                      {F}         {C}\nIch wollte nie erwachsen sein, hab immer mich zur Wehr gesetzt.\n    {C}                         {G}                            {e}                           {F}      {C}\nVon außen wurd' ich hart wie Stein und doch hat man mich oft verletzt.\n\n \n     {G}                       {F}  {G}                        {F}    {C}\n    Irgendwo tief in mir bin ich ein Kind geblieben.\n           {e}                       {F}                             {C}\n    Erst dann, wenn ich's nicht mehr spüren kann,\n                 {G}                          {a}            {G}         {C}\n    weiß ich es ist für mich zu spät, zu spät, zu spät.\n\n\n Unten auf dem Meeresgrund, wo alles Leben ewig schweigt,\nkann ich noch meine Träume sehn, wie Luft, die aus der Tiefe steigt.\n \n    Irgendwo tief in mir…\n\nIch gleite durch die Dunkelheit, und warte auf das Morgenlicht.\nDann spiel ich mit dem Sonnenstrahl, der silbern sich im Wasser bricht.\n\n    Irgendwo tief in mir …\n",
+  "content": "{C}Ich wollte nie erwachsen {G}sein, hab {e}immer mich zur {F}Wehr ge{C}setzt.\n                                                                                         \nVon {C}außen wurd' ich hart wie {G}Stein und {e}doch hat man mich {F}oft ve{C}rletzt.\n\n \n                                                          \n  {G}Irgendwo tief in {F}mir {G}bin ich ein Kind {F}gebli{C}eben.\n                                                               \n    Erst {e}dann, wenn ich's {F}nicht mehr spüren {C}kann,\n                                                                \n    weiß ich {G}es ist für mich zu  {a}spät, zu {G}spät, zu {C}spät.\n\n\n Unten auf dem Meeresgrund, wo alles Leben ewig schweigt,\nkann ich noch meine Träume sehn, wie Luft, die aus der Tiefe steigt.\n \n    Irgendwo tief in mir…\n\nIch gleite durch die Dunkelheit, und warte auf das Morgenlicht.\nDann spiel ich mit dem Sonnenstrahl, der silbern sich im Wasser bricht.\n\n    Irgendwo tief in mir …\n",
   "title": "Nessaja",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1740569664663,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde richtig in Text eingebunden"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
