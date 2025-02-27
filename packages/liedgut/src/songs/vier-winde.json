@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"h\" z2B,2D2F2|\"G\" G3F3E2|\"D\" F3 E3D2|\"A\"E3D3C2|\"h\"D3 (B,3-B,2)|z8|\n\"G\"z2 B,2 G2 B2|\"D\" A3 G3 F2|\"A\"E3 D3E2|\"Fis\" F8| z6F2|\"G\" B3B3B2|\"D\"A3G3F2|\n\"A\"E3 D3 E2|\"h\" F4 B,4| \"G\" B,3 D3 E2|\"D\"F3 D3 D2|\"Fis\"E3D3C2|\"h\" B,8| z8|\n\"G\" z4 B4|\"D\"A4F4|\"A\"E2 E D3 E2|\"h\"F3B,3-B,2|\"G\" z2 B,2 B,2 D2|\"D\"F3 D3 D2|\n\"e\" E3D3E2|\"Fis\"F8|z8|\"G\"z2B,2 D2B2|\"D\"A3 G3 F2|\"A\"E3 D3 E2|\n\"h\" F3 B,3-B,2|\"G\" B,3 D3 D2|D3 D3 F2|\"A\"E6D2|E3 D3 C2|\"h\" B,8|] ",
   "content": "{h}Der frische {G}Nordwind der {D}lockt uns zu {A}Seen und {h}Wäldern,\n{G}einsame {D}Schären, dem {A}Meere ent{Fis}ragt,\nden {G}endlosen, {D}labenden {A}Blaubeeren{h}feldern,\n{G}Nordlichter{D}leuchten, schier {Fis}endloser {h}Tag.\n\n{G}Vier {D}Winde {A}rufen uns zu {h}folgen, {G}treiben die {D}Sehnsucht der {e}Ferne vo{Fis}ran,\n{G}und in dem {D}Wirbeln und {A}Tanzen und {h}Träumen, {G}fragen sie uns irgend{A}wann:\nmit wem zieht ihr {h}dann?\n\nDer freie Ostwind, er zieht uns zu Bergen und Gipfeln,\nzu Gräsersteppen und auf manchen Grat,\ndurch die Wälder voll Wunder und Wildheit,\nund viele Stunden auf karstigem Pfad.\n\nDer warme Südwind, berauscht von azurblauen Wassern,\nweht durch die Schluchten erzählt uns allein\nvon Glühwürmchenleuchten, dem Klang der Zikade\nund lauen Nächten am Olivenhain.\n\nDer raue Westwind, er kündet von salzigen Wiesen,\nvon wollnen Wesen auf tiefgrüner Flur,\nvon schroffen Klippen und steinernen Riesen,\nHeide, Hochmoor und Legendenkreatur.",
   "title": "Vier Winde",
   "words": [
@@ -36,6 +36,13 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1740652715873,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
   ]
 }
