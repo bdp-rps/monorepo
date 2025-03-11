@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "A A A/2 B  c A A2z/|A G G E E/2 D C2| A A A B c2 (A G)| E4 z4| A A A B c/2 A A A z/|A G G E/2 D C z/ |D D D D E2 E2| A,4 z4||:zA AB cA/2A3/2z|AGGF E/2D3/2 C2z|[1 zAAB c2 AG|E4z4:|][2 DDDD E2 E2 | A,4 z4|]",
   "content": "{F}Muro ilo losharel, {C}kana Devla, dumadel, {F}le vastenca sika{a}vel.\n{F}Shukar san tu, muro shavo, {C}tu san muro {a}kutyaripo. {d}Chumidau tyo {E}ilor{a}o.  \n\nDadadadai…\n\nKana pe leste dikau, gilyi leske me penau, oi si shavo, te merau.\nVorbil mange, kelel mange, si te merau pala leste. Ai, Dewlale, jutile.\n\nKade, kiki, kade malau, sar me tuke sikavau. Sar me tuke sikavau.\nDik chak, tata, sar khelau, le changasa malavau. Tuke voia me kerau.",
   "title": "Muro shavo",
   "words": [
@@ -46,7 +46,15 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1739884467713,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Hab mal die Noten aus dem BGB gesetzt dafür, und dafür Tonart von F--> auf C gesetzt"
     }
   ],
-  "musicalKey": "F"
+  "musicalKey": "C",
+  "specialSettings": {}
 }
