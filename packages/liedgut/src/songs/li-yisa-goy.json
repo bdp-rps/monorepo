@@ -1,6 +1,6 @@
 {
-  "notation": "",
-  "content": "{d}Lo yisa {C}goy el goy che{d}rev\n{d}lo yilm‘e {C}du {a}od milcha{d}ma.",
+  "notation": "\"d\" D6 FD| \"C\"C6 z C| C6 (EC)| \"d\" D8| D6 FA| \"C\" (G2F2E4)| C6 EC| \"d\"D8|\n|: \"d\" A2 AG (FG) (AF)| \"C\" G2 (GF) (E2C2)| G2 GF (EF) (GE)| [1 \"d\" F2 (FG) A4:|[2 \"d\" F2 (FE) D4|]",
+  "content": "{d}Lo yisa {C}goy el goy che{d}rev\n{d}lo yilm'e {C}du {a}od milcha{d}ma.",
   "title": "Li yisa goy",
   "words": [
     {
@@ -25,7 +25,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "90",
   "musicalKey": "Dm",
   "info": "Kanon\n\nÜbersetzung:\nMöge keine Nation gegen eine andere Nation mehr das Schwert erheben.\nMögen wir keinen weiteren Krieg mehr erlernen.  ",
   "specialSettings": {},
@@ -36,6 +36,13 @@
       "mail": "kilian@wirsing.be",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739901006773,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Noten hinzugefügt"
     }
   ]
 }
