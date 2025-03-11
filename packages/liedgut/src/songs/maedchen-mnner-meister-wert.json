@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "V:2\n\"e\"G2 G2 G2 G2| F2 E2 E4|\"D\" D2 E2 F2 D2| \"e\" E4 E4:|\n|:\"e\"E4-EF D2|E8| G4-GA F2| G8|\"G\" B4 A2 G2|\"D\" (A4G2)F2|\"e\"E8:|",
   "content": "{e}Mädchen, Männer, Meister wert {h}kommt in unsre {e}Runde.\nkeinem sei ein Platz verwehrt, {h}wie es Brauch im {e}Bunde.\n\n/:Tandaradei, {G}Tandaradei, schön singt die {D}Nachti{e}gall. :/\n\nVon der Runde frohem Schall hallt das Lager wieder\nund es singt Frau Nachtigall ihre schönsten Lieder.\n\nIst auch dieses Liedes Schall allzu rasch verklungen,\nSommerlust ist überall, freuet euch ihr Jungen.",
   "title": "Mädchen, Männer, Meister wert",
   "words": [
@@ -22,9 +22,9 @@
   ],
   "translation": [],
   "beat": "4/4",
-  "alternativeTitle": "",
-  "tempo": 60,
-  "musicalKey": "",
+  "alternativeTitle": "Tandaradei",
+  "tempo": "120",
+  "musicalKey": "Em",
   "info": "",
   "changes": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739983557193,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie und alternativer Titel ergänzt"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
