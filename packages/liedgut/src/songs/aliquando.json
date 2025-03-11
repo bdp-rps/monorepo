@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"a\" A,3 A,3 A,2| \"h\" B,3 B,3 B,2|\"e\" E8|E8|\"a\"A,3 E3 E2|\"h\"^F3 G3 F2|\"e\"E8|-E4z2 B,2|\"a\"E3 E3 E2 |\n\"D\" D3 E3 ^F2|\"G\"(G4\"D\"^F4)|\"e\" E6B,2|E3 E3 E2| \"D\" ^F3 G3 F2|[1\"e\" E8|-E4z2B,2:|[2\"e\"E8|-E4z4]\nGA|\"G\"B2B2 B2AG|\"D\"B2A2 A2^FG|\"a\"A4A2G2|\"e\"E4z2 GA|\n\"G\" B2B2 B2AG| \"D\"B2A2 A2^F2|\"C\" G4 G4|-G4^F2(ED)|\"e\"E8|]",
   "content": "{a}Schneestaub um{h}glitzert die {e}Hufe,\n{a}Firn zieht der {h}Mond durch die {e}Nacht,\nIm {a}Wald hört {D}niemand die {G}Ruf{De}e\nvom {a}Schlitten mit {D}schneeweißer {e}Fracht.\n\nGedungene Bäume noch wanken\nwerden vergessen bald sein.\nDer Einsame ahnt nicht die Schranken,\nhier draußen ist er nicht allein.\n\nOb der {G}Wind laut heult und der {D}Schnee auch stäubt,\nseinen {a}Weg find't er {e}doch.\nIhn hält {G}nichts mehr auf, denn er {D}spürt den Hauch,\nund {C}Frühling wird es {e}noch.\n\nWeiß nicht und könnte doch wissen,\nDenken an Eltern, an Heim - \nSein Mädchen will er nicht vermissen,\ner kann nicht, doch will er bei ihr sein.\n\nTraurigkeit in seinenAugen,\nwie soll er glücklich so sein?\nWin Pfiff, Schlitten dreht, Pferde schnauben.\nEr weiß jetzt: Er fährt nie mehr heim.",
   "title": "Aliquando",
   "words": [
@@ -21,9 +21,9 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
-  "tempo": "100",
+  "tempo": "66",
   "musicalKey": "Am",
   "info": "",
   "changes": [
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739910559722,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie gesetzt, Tempo geändert"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
