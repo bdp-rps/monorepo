@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "V:1\n B,2|:\"e\"E2 EE \"G\"B2 BB|\"D\"(A2BA)\"e\"G4|\"G\"G2 GG \"D\" d2 dd|\"H7\"B6z2:|\n|:\"G\"G3/G/ GB d2 BG|\"D\"A2de (dc)B2|\"e\"E3/E/ EG B2 GE|\"H\"F2 Bc B2B2|\n\"e\"e2 BB\"H7\" d2 cc|\"e\"BA2 B \"a\"cd2c|\"e\"BA2G \"H7\"A G2F|\"e\"E6z2:|\nV:2\nB,2|:\"e\"E2 EE \"G\"G2 GG|\"D\"(F2GF)\"e\"E4|\"G\"G2 GG \"D\" A2 AA|\"H7\"B6z2:|\n|:\"G\"G3/G/ GB d2 BG|\"D\"A6z2|\"e\"E3/E/ EG B2 GE|\"H\"F6 F2|\n\"e\"E2 EE\"H7\" F2 FF|\"e\"GF2 E \"a\"AG2F|\"e\"GF2E \"H7\"F E2^D|\"e\"E6z2:|",
   "content": "Die {e}Schluchten des {G}Balkans zu {D}zwing{e}en, {G}die die Le{D}gende er{H7}wähnt.\n{e}Mit den Dä{G}monen zu {D}ring{e}en, {G}die diese {D}Felsen ge{H7}zählt.\n\n/: {G}Riefen wir die heimliche {D}Schar, {e}die von Göttern auserwählt {H7}war,\nzu {e}suchen, zu {H7}wägen, zu {e}zweifeln, zu {a}hoffen, zu {e}wissen, was {H7}wirklich, was {e}wahr. :/\n\nDen Ungeist des Menschen zu zwingen, der uns das Schwert gürten heißt.\nGegen den Sturmwind zu ringen, der uns die Fahne zerreißt.\n\nKämpfen, verlieren oder siegen. Wer wird versklavt, wer ein Held?\nZu entscheiden oder zu erliegen fordert uns diese Welt.",
   "title": "Die Schluchten des Balkans",
   "words": [
@@ -47,6 +47,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1742159233916,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
