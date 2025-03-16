@@ -1,6 +1,6 @@
 {
-  "notation": "\"a\"zABcBA|\"G\"zGABAG|\"F\"zFGAGF|\"E\"EFEFEFE2\nw: Intro",
-  "content": "Vor- und Zwischenspiel: /: a G F E :/\nWenn die Sonne sich schon {a}senkt, geschieht es ein ums andre {G}Mal,\nwerden Lampen aufge{F}hängt in dem Dorf in Portu{E}gal.\nUnd wie schon in alter Zeit kommt ein Jeder ohne Hatz, \ndie Gitarren sind bereit, schon erfüllt Musik den Platz.\n\nUnd sie beginnen zu tanzen, das Dorf bewegt sich im Ganzen,\nselbst Kinder und Greise auf eigene Weise, sie drehn sich im Kreise.\n\nIn dieser warmen Julinacht zeigen sie ihr Temp'rament, \nkeine Pause wird gemacht und sie tanzen wie enthemmt.\nSieht ein Fremder dieses Bild, bleibt er nicht sehr lang allein, \nbald tanzt er genauso wild und es wirbeln seine Bein.\n\nUnd so tanzen sie immer, bis der erste Sonnenschimmer\ndie Strahlen aussendet, die Augen schon blendet und den Tanz beendet.",
+  "notation": "|:\"a\"A z AB cB A2|\"G\"G zGA BA G2|\"F\"F zFG AG F2|\"E\"E8:|\nw: Vor- und Zwischenspiel\n|:\"E\" EE ^GE GB|\"a\"A8|zA AA BA GF|\"G\"G8|\nz2GG AG FE|\"F\"F8|z2 FF GF ED| \"E\"E8:|\n|:\"E\"ze ee ed2 c|\"a\"cA-A6|z d dd d c2 A|\"G\" B3/2G/-G6|\nz2B B2B2G|\"F\"FF2F F F2G|A A2 A (3 A2 G2F2|\"E\" E E3z4:|",
+  "content": "Vor- und Zwischenspiel: /: a G F E :/\n{E}Wenn die Sonne sich schon {a}senkt, geschieht es ein ums andre {G}Mal,\nwerden Lampen aufge{F}hängt in dem Dorf in Portu{E}gal.\n{E}Und wie schon in alter {a}Zeit kommt ein Jeder ohne {G}Hatz, \ndie Gitarren sind be{F}reit, schon erfüllt Musik den {E}Platz.\n\nUnd sie beginnen zu tanzen, das Dorf bewegt sich im Ganzen,\nselbst Kinder und Greise auf eigene Weise, sie drehn sich im Kreise.\n\nIn dieser warmen Julinacht zeigen sie ihr Temp'rament, \nkeine Pause wird gemacht und sie tanzen wie enthemmt.\nSieht ein Fremder dieses Bild, bleibt er nicht sehr lang allein, \nbald tanzt er genauso wild und es wirbeln seine Bein.\n\nUnd so tanzen sie immer, bis der erste Sonnenschimmer\ndie Strahlen aussendet, die Augen schon blendet und den Tanz beendet.",
   "title": "Nacht in Portugal",
   "words": [
     {
@@ -66,6 +66,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1742155608037,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde in der ersten Strophe in den zweiten teil ergänzt, melodie neu gesetzt"
     }
   ],
   "alternativeTitle": "",
