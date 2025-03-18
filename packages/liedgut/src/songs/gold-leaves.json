@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{G}Lo! I am come to autumn,\nWhen all the leaves are {C}gold;\n/: Grey {e}hairs and golden leaves cry out\nThe {G}year and I are {C}old. :/    {(D)}\n\nIn youth I sought the prince of men,\nCaptain in cosmic wars,\n/: Our Titan, even the weeds would show\nDefiant, to the stars. :/\n\nBut now a great thing in the street\nSeems any human nod,\n/: Where shift in strange democracy\nThe million masks of God. :/\n\nIn youth I sought the golden flower\nHidden in wood or wold,\n/: But I am come to autumn,\nWhen all the leaves are gold. :/",
+  "content": "{G}Lo! I am come to autumn,\nWhen all the leaves are {C}gold.\n/: Grey {e}hairs and golden leaves cry out\nThe {G}year and I are {C}old. :/    {(D)}\n\nIn youth I sought the prince of men,\nCaptain in cosmic wars.\n/: Our Titan, even the weeds would show\nDefiant, to the stars. :/\n\nBut now a great thing in the street\nSeems any human nod.\n/: Where shift in strange democracy\nThe million masks of God. :/\n\nIn youth I sought the golden flower\nHidden in wood or wold,\n/: But I am come to autumn,\nWhen all the leaves are gold. :/\n\nAnd when my time has finally come,\nI’ll greet death as a friend.\nLike winter’s breath upon the land,\nFor spring to re-ascend.",
   "title": "Gold Leaves",
   "words": [
     {
@@ -9,6 +9,14 @@
       "group": "",
       "organisation": "",
       "year": "1900",
+      "critical": false
+    },
+    {
+      "name": "Robin Weser",
+      "nickname": "",
+      "group": "Stamm Luchs",
+      "organisation": "BdP",
+      "year": "2025 (5. Strophe)",
       "critical": false
     }
   ],
@@ -43,6 +51,13 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1742305251946,
+      "name": "Robin",
+      "mail": "",
+      "type": "update",
+      "content": "5. Strophe"
     }
   ]
 }
