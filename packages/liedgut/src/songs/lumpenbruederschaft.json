@@ -25,7 +25,7 @@
   "alternativeTitle": "",
   "tempo": "120",
   "musicalKey": "Dm",
-  "info": "Melodie nach einem Lied aus der Ostslowakei.",
+  "info": "Melodie nach einem Lied aus der Ostslowakei.\n\nDas Wort Zigeunerkarren wurde zu Landstreunerkarren umgeändert.",
   "changes": [
     {
       "date": 1679561548994,
@@ -54,6 +54,14 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1742386938661,
+      "name": "Sebastian ",
+      "mail": "heschsebastian@gmail.com",
+      "type": "update",
+      "content": "Angabe einer Textänderung, damit die originale Bedeutung des Textes nachvollzogen und interpretiert werden kann.\n\nBei Ablehnung bitte ich um Begründung."
     }
-  ]
+  ],
+  "specialSettings": {}
 }
