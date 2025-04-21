@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{H7}Jovano, Jovanke,\n/: {e}kraj Vardarot sed{a}iš, mori {D}belo platno bel{G}iš,\n{e}se na gore {a}gledaš dušo, {H7}srce moje joho Jovano. :/\n\nJovano, Jovanke,\n/: troja ta majaka, mori mene te sakama\nati me ne volis dušo, scre moje joho Jovano. :/\n\nJovano, Jovanke,\n/: ja ne tebe čekam, mori doma dami dojdeš\na ti medolazis dušo, srce moje joho Jovano. :/",
+  "content": "{H7}Jovano, Jovanke,\n/: {e}kraj Vardarot sed{a}iš, mori {D}belo platno bel{G}iš,\n{e}se na gore {a}gledaš dušo, {H7}srce moje joho Jovano. :/\n\nJovano, Jovanke,\n/: troja ta majaka, mori mene te sakama\nati me ne volis dušo, srce moje joho Jovano. :/\n\nJovano, Jovanke,\n/: ja ne tebe čekam, mori doma dami dojdeš\na ti medolazis dušo, srce moje joho Jovano. :/",
   "title": "Jovano, Jovanke",
   "words": [
     {
@@ -47,6 +47,13 @@
       "mail": "kilian@wirsing.be",
       "type": "update",
       "content": "lied ist in 7/8"
+    },
+    {
+      "date": 1744559494835,
+      "name": "Ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
   "specialSettings": {}
