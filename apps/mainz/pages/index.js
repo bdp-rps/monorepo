@@ -28,25 +28,14 @@ import { useState } from 'react'
 
 let gruppenDaten = [
   {
-    img: 'raueber',
-    name: 'RäubeR/Runde',
-    age: 'von achtzehn bis anfang dreißig',
-    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
-    time: 'ab 19:00 Uhr',
-    day: 'Mittwochs',
-    description:
-      'Wir sind eine engagierte Gruppe von jungen Erwachsenen im Alter von etwa 18 bis Mitte 30, die mit Herz und Leidenschaft das Pfadfinderleben aktiv gestalten. Gemeinsam organisieren wir alles, was die Pfadfindergruppe am Laufen hält – von den wöchentlichen Gruppenstunden über spannende Fahrten bis hin zu unvergesslichen Lagern.Unser Ziel ist es, den jüngeren Generationen spannende und lehrreiche Abenteuer zu ermöglichen, während wir gleichzeitig selbst als Team zusammenwachsen und Verantwortung übernehmen. Wir legen großen Wert auf Zusammenarbeit, Kreativität und Spaß, während wir die Grundlagen der Pfadfinderbewegung in die Praxis umsetzen.',
-    since: '2022',
-    groupLeaders: '',
-  },
-  {
     img: 'schlange',
     name: 'Meute Schlange',
     age: 'von sieben bis elf',
     place: 'Im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Mittwochs',
-    description: '',
+    description:
+      'Wir sind eine fröhliche und neugierige Gruppe von Kindern im Alter von 7 bis 11 Jahren, die gemeinsam die Welt der Pfadfinder entdecken. Bei uns steht das spielerische Lernen und die Entwicklung von Teamgeist im Vordergrund. Wir basteln, singen, spielen und erleben spannende Abenteuer in der Natur. Durch gemeinsame Aktivitäten und kleine Herausforderungen lernen wir, Verantwortung zu übernehmen und uns gegenseitig zu unterstützen. Unsere Gruppenstunden sind geprägt von Kreativität, Bewegung und viel Spaß.',
     since: '2022',
     groupLeaders: 'Anna und Mimi',
   },
@@ -57,7 +46,8 @@ let gruppenDaten = [
     place: 'Im Sommer im Garten und im Winter im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Donnerstags',
-    description: '',
+    description:
+      'Wir sind eine Gruppe von Jugendlichen, die ihre Begeisterung für die Natur, Gemeinschaft und Musik teilt. Bei uns steht das gemeinsame Erleben im Vordergrund - ob beim Wandern, Zelten oder Musizieren. Unsere Fahrt nach Slowenien war dabei nur einer von vielen Höhepunkten. In unseren Gruppenstunden entdecken wir die Natur, lernen neue Lieder und wachsen als Gruppe zusammen.',
     since: '2024',
     groupLeaders: 'Thore und Timon',
   },
@@ -68,8 +58,21 @@ let gruppenDaten = [
     place: 'Im Sommer im Garten und im Winter im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Mittwochs',
-    description: '',
+    description:
+      'Wir sind eine lebendige Gruppe von Jugendlichen, die gemeinsam die Pfadfinderwelt erkundet. Bei uns steht der Spaß an der Gemeinschaft und das Entdecken neuer Fähigkeiten im Mittelpunkt. Ob beim Kochen über dem Feuer, bei Geländespielen oder beim gemeinsamen Musizieren - wir lernen spielerisch, Verantwortung zu übernehmen und als Team zusammenzuarbeiten. Unsere Gruppenstunden sind geprägt von Kreativität, Abenteuer und gegenseitigem Respekt.',
     since: '2023',
+    groupLeaders: '',
+  },
+  {
+    img: 'raueber',
+    name: 'RäubeR/Runde',
+    age: 'von achtzehn bis anfang dreißig',
+    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
+    time: 'ab 19:00 Uhr',
+    day: 'Mittwochs',
+    description:
+      'Wir sind eine engagierte Gruppe von jungen Erwachsenen im Alter von etwa 18 bis Mitte 30, die mit Herz und Leidenschaft das Pfadfinderleben aktiv gestalten. Gemeinsam organisieren wir alles, was die Pfadfindergruppe am Laufen hält – von den wöchentlichen Gruppenstunden über spannende Fahrten bis hin zu unvergesslichen Lagern.Unser Ziel ist es, den jüngeren Generationen spannende und lehrreiche Abenteuer zu ermöglichen, während wir gleichzeitig selbst als Team zusammenwachsen und Verantwortung übernehmen. Wir legen großen Wert auf Zusammenarbeit, Kreativität und Spaß, während wir die Grundlagen der Pfadfinderbewegung in die Praxis umsetzen.',
+    since: '2022',
     groupLeaders: '',
   },
 ]
@@ -126,10 +129,15 @@ const GroupComponent = ({ data }) => {
               title="Unsere Gruppenleitungen sind"
               info={groupLeaders}
             />
-            <InfoPoint title="Unsere Alterspanne ist" info={age} />
+            <InfoPoint title="Unsere Altersspanne ist" info={age} />
             <InfoPoint title="Uns gibt es seit" info={since} />
           </Grid>
           <InfoPoint title="Wer wir sind" info={description} />
+        </Box>
+        <Box alignSelf="flex-start">
+          <Button href="mailto:pfadfinden@bdp-mainz.de" size="small">
+            Kontaktiere uns
+          </Button>
         </Box>
       </Box>
     </Tile>
@@ -175,38 +183,6 @@ export default function page({ events, posts, postsMainz }) {
                 <GroupComponent data={data} key={data.name} />
               ))}
             </Grid>
-          </Box>
-          <Box display={['none', , 'block']}>
-            <Tile
-              title="Die Menschen hinter der Stamm Tilia"
-              image="/images/tilia_2023.jpeg"
-              imageHeight={600}>
-              <Box>
-                <Text>
-                  Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
-                  uns doch gerne über{' '}
-                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                    pfadfinden[at]bdp-mainz.de
-                  </Link>
-                </Text>
-              </Box>
-            </Tile>
-          </Box>
-          <Box display={['block', , 'none']}>
-            <Tile
-              title="Das sind wir!"
-              image="/images/pfila_2024.jpg"
-              imageHeight={600}>
-              <Box>
-                <Text>
-                  Wir sind die Menschen hinter der Stamm Tilia Mainz. Kontaktier
-                  uns doch gerne über{' '}
-                  <Link href="mailTo:pfadfinden@bdp-mainz.de">
-                    pfadfinden[at]bdp-mainz.de
-                  </Link>
-                </Text>
-              </Box>
-            </Tile>
           </Box>
         </Box>
       </Layout>
