@@ -14,8 +14,7 @@ import {
 import Layout from './Layout'
 
 const nav = {
-  '/': 'Startseite',
-  '/stamm': 'Über uns',
+  '/': 'Über uns',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
