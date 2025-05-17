@@ -34,41 +34,42 @@ let gruppenDaten = [
     place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
     time: 'ab 19:00 Uhr',
     day: 'Mittwochs',
-    description: '',
+    description:
+      'Wir sind eine engagierte Gruppe von jungen Erwachsenen im Alter von etwa 18 bis Mitte 30, die mit Herz und Leidenschaft das Pfadfinderleben aktiv gestalten. Gemeinsam organisieren wir alles, was die Pfadfindergruppe am Laufen hält – von den wöchentlichen Gruppenstunden über spannende Fahrten bis hin zu unvergesslichen Lagern.Unser Ziel ist es, den jüngeren Generationen spannende und lehrreiche Abenteuer zu ermöglichen, während wir gleichzeitig selbst als Team zusammenwachsen und Verantwortung übernehmen. Wir legen großen Wert auf Zusammenarbeit, Kreativität und Spaß, während wir die Grundlagen der Pfadfinderbewegung in die Praxis umsetzen.',
     since: '2022',
     groupLeaders: '',
   },
   {
-    img: 'raueber',
-    name: 'RäubeR/Runde',
-    age: 'von achtzehn bis anfang dreißig',
-    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
-    time: 'ab 19:00 Uhr',
+    img: 'schlange',
+    name: 'Meute Schlange',
+    age: 'von sieben bis elf',
+    place: 'Im Stammesheim',
+    time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Mittwochs',
     description: '',
     since: '2022',
-    groupLeaders: '',
+    groupLeaders: 'Anna und Mimi',
   },
   {
-    img: 'raueber',
-    name: 'RäubeR/Runde',
-    age: 'von achtzehn bis anfang dreißig',
-    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
-    time: 'ab 19:00 Uhr',
-    day: 'Mittwochs',
+    img: 'salix-alba',
+    name: 'Salix Alba',
+    age: 'von elf bis vierzehndreizehn',
+    place: 'Im Sommer im Garten und im Winter im Stammesheim',
+    time: 'ab 17:00 Uhr bis 18:30 Uhr',
+    day: 'Donnerstags',
     description: '',
-    since: '2022',
-    groupLeaders: '',
+    since: '2024',
+    groupLeaders: 'Thore und Timon',
   },
   {
-    img: 'raueber',
-    name: 'RäubeR/Runde',
-    age: 'von achtzehn bis anfang dreißig',
-    place: 'Im Garten, im Stammesheim oder manchmal in der Kneipe',
-    time: 'ab 19:00 Uhr',
+    img: 'ignis-hedera',
+    name: 'Ignis Hedera',
+    age: 'von zwölf bis fünfzehn',
+    place: 'Im Sommer im Garten und im Winter im Stammesheim',
+    time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Mittwochs',
     description: '',
-    since: '2022',
+    since: '2023',
     groupLeaders: '',
   },
 ]
@@ -120,7 +121,7 @@ const GroupComponent = ({ data }) => {
           }}
         />
         <Box space={4}>
-          <Grid columns={['1fr', , '1fr 1fr']}>
+          <Grid columns={['1fr', , '1fr 1fr']} gap={4}>
             <InfoPoint
               title="Unsere Gruppenleitungen sind"
               info={groupLeaders}
@@ -128,12 +129,7 @@ const GroupComponent = ({ data }) => {
             <InfoPoint title="Unsere Alterspanne ist" info={age} />
             <InfoPoint title="Uns gibt es seit" info={since} />
           </Grid>
-          <InfoPoint
-            title="Wer wir sind"
-            info={
-              'Wir sind eine engagierte Gruppe von jungen Erwachsenen im Alter von etwa 18 bis Mitte 30, die mit Herz und Leidenschaft das Pfadfinderleben aktiv gestalten. Gemeinsam organisieren wir alles, was die Pfadfindergruppe am Laufen hält – von den wöchentlichen Gruppenstunden über spannende Fahrten bis hin zu unvergesslichen Lagern.Unser Ziel ist es, den jüngeren Generationen spannende und lehrreiche Abenteuer zu ermöglichen, während wir gleichzeitig selbst als Team zusammenwachsen und Verantwortung übernehmen. Wir legen großen Wert auf Zusammenarbeit, Kreativität und Spaß, während wir die Grundlagen der Pfadfinderbewegung in die Praxis umsetzen.'
-            }
-          />
+          <InfoPoint title="Wer wir sind" info={description} />
         </Box>
       </Box>
     </Tile>
