@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "{a}Unaufhörlich nimmt die Sanduhr {d}ihren Gang, {G7}was geschehen ist, liegt schnell zu{C}rück{E7}.\n{a}Sehnsuchtsvoll denkt jeder noch manch{d}mal daran, {a}doch für uns liegt {E}vor uns nur das {a}Glück!\n\n{A7}Weit führt der {d}Zug uns fort, {E7}schlängelt sich {a}durch das Land\n{A7}tischdecken{d}gleich erstreckt {E7}bis zum Hori{a}zont.\nHoffnung und Zuversicht sind hier mit eingespannt.\nDas blaue Zugabteil rollt in einem fort.\n\nVielleicht waren wir nicht immer angepasst, doch auch diese Wunden heilt die Zeit.\nFreunde, lasst uns weiterfahren ohne Last. Heizer, mach die Lok nun schnell bereit!\n\nSchaukelnd fährt der blaue Wagen in die Nacht. Mit der Zeit wächst die Geschwindigkeit.\nSchon wirds dunkel - Tag zu Ende - gut verbracht. Bliebe er doch für die Ewigkeit.",
+  "title": "Der blaue Wagen",
+  "words": [
+    {
+      "name": "Eduard Uspenskij, deutsch Moritz Höpner",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Wladimir Schainskij",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "galuboj wagon",
+  "tempo": 60,
+  "musicalKey": "Am",
+  "info": "Russisches Kinderlied",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1744307915901,
+      "name": "ko",
+      "mail": "",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

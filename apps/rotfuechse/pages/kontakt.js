@@ -20,7 +20,7 @@ export default () => {
   return (
     <Template>
       <Head>
-        <title>Pfadfinder Aufbaugruppe Rotfüchse Herxheim Kontakt</title>
+        <title>Pfadfinder Stamm Rotfüchse Herxheim Kontakt</title>
         <meta
           name="description"
           content="Kontakt für die Pfadfinder Pfadfinder Aufbaugruppe Rotfüchse Herxheim BdP"
@@ -31,13 +31,13 @@ export default () => {
           marginBottom={4}
           basis={['100%', , 'calc(50% - 16px)', 'calc(33.33% - 16px)']}>
           <Tile
-            title="Die Menschen hinter der Aufbaugruppe"
+            title="Die Menschen hinter der Stamm"
             image={`/images/rotfuechse.jpeg`}
             imageHeight={800}>
             <Box>
               <Text>
-                Wir sind die Menschen hinter der Aufbaugruppe Mainz. Kontaktiere
-                uns doch gerne über{' '}
+                Wir sind die Menschen hinter der Stamm Mainz. Kontaktiere uns
+                doch gerne über{' '}
                 <Link href="mailTo:pfadfinden@bdp-mainz.de">MAIL</Link>
               </Text>
             </Box>

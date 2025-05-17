@@ -2,18 +2,22 @@
   "title": "Sturm und Drang",
   "words": [
     {
-      "name": "Heiner Knoch",
+      "name": "Heiner Koch",
       "nickname": "bounty",
       "group": "Stamm Burgund",
-      "organisation": "BdP"
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
     }
   ],
   "tune": [
     {
-      "name": "Heiner Knoch",
+      "name": "Heiner Koch",
       "nickname": "bounty",
       "group": "Stamm Burgund",
-      "organisation": "BdP"
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
     }
   ],
   "beat": "4/4",
@@ -33,9 +37,18 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1739911807458,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "änderung Autor Heiner Knoch -> Heiner Koch, Melodie gesetzt"
     }
   ],
   "translation": [],
   "alternativeTitle": "",
-  "musicalKey": "Am"
+  "musicalKey": "Am",
+  "specialSettings": {},
+  "notation": "\"a\" A2 A2AGFE|\"d\"D3EF2G2|\"a\"E4-ED CD|\"E\"E6z2|:\"a\" A2A2AG FE|\n\"d\"D3EF2G2|\"a\"E C2 C \"E\"B,2 (CB,)|\"a\"A,6z2:||: E4-ED CD|E6z2|\n\"C\" E4-ED CD|E6z2|\"G\" G6A2|B2G2 c B3|\"a\"A6z2:|"
 }

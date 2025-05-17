@@ -18,10 +18,10 @@ import Template from '../../components/Template'
 export default () => (
   <Template>
     <Head>
-      <title>Pfadfinder Aufbaugruppe Rotfüchse Herxheim Geschichte</title>
+      <title>Pfadfinder Stamm Rotfüchse Herxheim Geschichte</title>
       <meta
         name="description"
-        content="Pfadfinder Aufbaugruppe Rotfüchse Herxheim Geschichte der Pfadfinderei"
+        content="Pfadfinder Stamm Rotfüchse Herxheim Geschichte der Pfadfinderei"
       />
     </Head>
     <Layout paddingTop={10} paddingBottom={10}>

@@ -1,6 +1,6 @@
 {
-  "notation": "",
-  "content": "                   {D}                {A}                     {G}                   {D}                {A}                     {G}\nSetz auf die Bank vorm Haus dich, Alte, nieder, für heute Abend ist genug geschafft.\nAm Rand der Vorstadtstraße blüht der Flieder und die Kastanien stehn in vollem Saft.\n                   {H}      {A}                     {G}                               {D}         {G}                       {A}\nDie Motorräder, die aus frischen Fernen die Stadt zubrausen, tragen schon Laternen.\n\nEs ist ein Abend, wie ich viele Jahre schon ihn nicht sah,\nan dem man alles schmeckt:\nden Staub der Stadt, den Ruch der Schlingkrauthaare, \nden grünen Rasen, der den Hang bedeckt,\nden Wurzelgrund der wilden Efeureben,\ndie noch den Paaren an den Tschernken kleben.\n\nWie ist es, sag doch, Alte, zu begreifen,\ndass wir wie nun schon wohnen manches Jahr\nund nie mehr sonntags durch die Wälder streifen\nund dennoch leben ohne Wind im Haar?\nWir stehen auf und schrubben uns und essen –\nund alles andre haben wir vergessen.\n\nGewaltig, Alte, glaub mir, ist das Leben\nin allem, wenn wir es nur richtig tun.\nWenn wir dabei sind, wie wir uns erheben,\nund ganz dabei sind, wenn wir ein wenig ruhn.\nIst lahm das Kreuz auch, eine Hand beschädigt,\nes ist der Mensch damit noch nicht erledigt.\n\nKalt zieht sich's in die Füße aus den Fliesen,\ndie Maiennächte sind noch reichlich frisch.\nWir werden gehen und das Fenster schließen,\nund schmal bestellt ist morgen unser Tisch.\nUnd viel wird's sein, wenn für uns alte Leute\nzuweilen noch ein Abend kommt wie heute.\n\nGewaltig, Alte, glaub mir, ist das Leben.\n",
+  "notation": "z2A,2 D2E2|\"D\"F6F2|\"A\" E2 E2 F2 E2| \"G\" E3 D- D2|\nz2 A,2 D2 E2|\"D\"F6 F2|\"A\"E2 F A -A2 A,2|\"G\"B,8:|\nz4 B2 B2|\"h\"B2 A A-A4|\"A\" A2 A A-A4 A2|\"G\" (A2 G) G-G4|\nz2 d2 c2 B2| \"D\" A4F4|\"G\"D2 D E-E4 F2|\"A\"F3 E-E4|]",
+  "content": "Setz auf die {D}Bank vorm {A}Haus dich, Alte, {G}nieder, \nfür heute {D}Abend {A}ist genug ge{G}schafft.\nAm Rand der {D}Vorstadt{A}straße blüht der {G}Flieder\n und die {D}Kastanien {A}stehn in vollem {G}Saft.\nDie Mo{h}torräder, {A}die aus frischen {G}Fernen\n der Stadt zu{D}brausen, {G}tragen schon La{A}ternen.\n\nEs ist ein Abend, wie ich viele Jahre schon ihn nicht sah,\nan dem man alles schmeckt:\nden Staub der Stadt, den Ruch der Schlingkrauthaare, \nden grünen Rasen, der den Hang bedeckt,\nden Wurzelgrund der wilden Efeureben,\ndie noch den Paaren an den Tschernken kleben.\n\nWie ist es, sag doch, Alte, zu begreifen,\ndass wir wie nun schon wohnen manches Jahr\nund nie mehr sonntags durch die Wälder streifen\nund dennoch leben ohne Wind im Haar?\nWir stehen auf und schrubben uns und essen –\nund alles andre haben wir vergessen.\n\nGewaltig, Alte, glaub mir, ist das Leben\nin allem, wenn wir es nur richtig tun.\nWenn wir dabei sind, wie wir uns erheben,\nund ganz dabei sind, wenn wir ein wenig ruhn.\nIst lahm das Kreuz auch, eine Hand beschädigt,\nes ist der Mensch damit noch nicht erledigt.\n\nKalt zieht sich's in die Füße aus den Fliesen,\ndie Maiennächte sind noch reichlich frisch.\nWir werden gehen und das Fenster schließen,\nund schmal bestellt ist morgen unser Tisch.\nUnd viel wird's sein, wenn für uns alte Leute\nzuweilen noch ein Abend kommt wie heute.\n\nGewaltig, Alte, glaub mir, ist das Leben.\n",
   "title": "Pfingsten für zwei alte Leute",
   "words": [
     {
@@ -13,15 +13,16 @@
   ],
   "tune": [
     {
-      "name": "unbekannt",
+      "name": "Zupfgeigenhansel",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": false
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
   "tempo": 60,
   "info": "",
@@ -32,6 +33,15 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739987432280,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Noten aus dem BGB gesetzt, Akkorde richtig eingebunden, Zupfgeigenhansel zu Weise hinzugefügt\n\nNoten könnten besser sein tbf aber so stehen sie drin"
     }
-  ]
+  ],
+  "specialSettings": {},
+  "musicalKey": "D"
 }

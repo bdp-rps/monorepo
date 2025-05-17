@@ -15,7 +15,7 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
-  '/stamm': 'Aufbaugruppe Rotfüchse',
+  '/stamm': 'Über uns',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
   '/digital': 'Digital',
@@ -82,7 +82,7 @@ export default function Template({
               alignSelf: 'flex-start',
             }}>
             <Text variant="title" height={1} color={theme.colors.blue}>
-              Aufbaugruppe Rotfüchse Herxheim
+              Pfadfinder Rotfüchse Herxheim
             </Text>
           </Box>
         </Layout>

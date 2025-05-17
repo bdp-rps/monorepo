@@ -21,7 +21,7 @@ export default () => {
     <Template>
       <Head>
         <title>
-          Pfadfinder Pfadfinder Aufbaugruppe Rotfüchse Herxheim Datenschutz
+          Pfadfinder Pfadfinder Stamm Rotfüchse Herxheim Datenschutz
         </title>
         <meta
           name="description"

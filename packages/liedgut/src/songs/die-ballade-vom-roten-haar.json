@@ -49,10 +49,18 @@
       "mail": "",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1739999823769,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie ergänzt"
     }
   ],
   "translation": [],
   "alternativeTitle": "",
   "musicalKey": "Am",
-  "specialSettings": {}
+  "specialSettings": {},
+  "notation": "V:1\nA,2|\"a\"A,2 B, C3A,2| \"d\"D2EF2D DD|\"G\" G2 AG2 D EF|\"C\" E4zE EE|\n\"a\" A2 A2 \"e\" G2 E2  |\"G\"D4zD DD|\"F\"D2E C2 A, B,C|\"a\" A,6 A,2|\n\"a\"A,2 B, C3A,2|\"d\"D2E F2D DD|\"G\" G2AG2 D EF|\"C\"E4z E EE|\n\"a\" A2 A2 \"e\"G2 E2|\"G\"D4 z D DD|\"F\" D2E C2 A, B,C|\"a\"A,6|]\nV:2\nE2|E2 D C3 C2|F2 G A2 A AA|G2 G G2 A GD|E4zE EE|\nA2c2 c2 c2| B4zB BB|c2cc2B AB|A6E2|\nE2DC3 C2|F2 G A2 A AA| G2 G G2 A GD|E4zE EE|\nA2 c2 c2 c2|B4zB BB|c2 c c2 B AB|A6|]"
 }

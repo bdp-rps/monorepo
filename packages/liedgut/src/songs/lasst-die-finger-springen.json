@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "DF|:\"d\"A2A2AF GA|\"g\"B2A2G2GF|\"A\"E3EA3A|\n[1\"d\"F2F2z2DF:|[2\"d\"F2D2z2D2] |\"C\"C3c c2B2|\"F\"A2A2A2zA|\"g\"B2G2B2G2|\n\"A\"A2A4zA|\"d\"DD DF AA AA|\"g\"BA GB \"d\"AA AA|\"A\"AG FE \"d\"D D3|\n|:\"d\"d/d/ d3 A/A/ A3|\"g\"Gd cB \"d\"dA3|\"A\"AG FE \"d\"DF A2|\"A\"A3=B^c2A2|\"d\"d4z4:|",
   "content": "Lasst {d}die Finger springen auf dem {g}schwarzen Brett, lasst die {A}Fahrtenlieder {d}klingen.\nSpannt die Trommelfelle, macht die {g}Gluten hell, lasst der {A}Sehnsucht Pferde {d}springen.\nWir {C}sind ein wildes {F}Sturmgespann, ein {g}Blitz auf allen {A}Breiten,\ndie {d}Ferne führt uns rastlos an, wie {g}Meere endlos {A}Tatendrang. Wir singen in die {d}Weiten:\n/: Hehohe, hehohe, {g}Jungen, helle {d}Scharen.\n{A}Großfahrt unser {d}Chorgesang, {A}Jungenhorte {d}ran! :/\n\nSing dein Lied uns, Trotter, wir sind mit dabei, zu erobern letzte Fernen.\nAlle Farben geben heut ein Stelldichein, die Schwarzen, Braunen, Roten, Gelben.\nAm Nordgestad, im Wüstensand brennt unser Lagerfeuer.\nIn Sonnengluten braungebrannt, ein Fahrtenleben nie gekannt - es locken Abenteuer.\n/: Hehohe, hehohe, pocht das Blut im Leibe,\nTrotterking ist unser Mann, Jungenhorte ran! :/\n\nRings im Feuerkreis, es geistern dutzendweis zauberhafte Spukgestalten.\nAus dem Flammenherd aufsteigen ungezählt Pferd, die kein Mann kann halten.\nWeit klingt das chörig hohe Lied von unsrer Ströme Quellen.\nDie Gassen zittern voller Qual beim Klotz der Nagelstiefelschar und Kettenhunde bellen.\n/:Hehohe, hehohe, Ruf der Erde Weiten,\nselbst die Sterne fangen an, Jungenhorte ran! :/\n\nVorwärts drängt der Schritt, was uns das Leben singt, braucht ein mutig großes Wagen.\nJedes Fohlen, das heut in der Koppel springt, morgen wirds den Reiter tragen.\nDann heißt es stehn mit Ger und Schild, nun wählet eure Pferde!\nDes Lebens Kampf ein wildes Gefild, fragt nicht nach einem\nTräumerbild und nach des Träumers Werde.\n/:Hehohe, hehohe, heut noch wolln wirs wagen,\njeder stehe seinen Mann, Jungenhorte ran! :/",
   "title": "Lasst die Finger springen",
   "words": [
@@ -24,7 +24,7 @@
   "beat": "4/4",
   "alternativeTitle": "Im Feuerkreis",
   "tempo": "100",
-  "musicalKey": "",
+  "musicalKey": "F",
   "info": "Ger:Wurfspieß",
   "changes": [
     {
@@ -47,6 +47,13 @@
       "mail": "kilian@wirsing.be",
       "type": "update",
       "content": "Alternativer Titel hinzugefügt"
+    },
+    {
+      "date": 1742156961569,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie ergänzt"
     }
   ],
   "specialSettings": {}

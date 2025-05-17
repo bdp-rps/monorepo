@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"a\"E/EA,/|\"F\" C/C/-C4\"G\" B,/B,/ DB,|\"a\" A,4z E (3 (E G) E|\"F\" A4 \"G\"z G/A/ (B/!fermata!A)G/|\n\"E\"E4z/E/E/E/ (3 (E2G2)E2|\"F\" A4 \"G\"z G/A/ (B/A)G/| \"E\" E4 z E (3 (E2D2)A,2|\"F\"C4 \"G\"zB, DB,|!a!A,8|]",
   "content": "{a}Black is the {F}colour {G}of my true love's {a}hair,\nher lips are {F}like {G}some roses {E}fair.\nShe has the sweetest {F}smile {G}and the gentlest {E}hands\nand I love the {F}ground {G}whereon she {a}stands.\n\nI love my love, and well she knows,\nI love the ground whereon she goes.\nI wish the day, it soon would come,\nwhen she and I could be as one.\n\nI go to the Clyde and I mourn and weep,\nfor satisfied I never can be.\nThen I write her a letter, just a few short lines,\nand suffer death a thousand times.\n\n(Letzte wie erste)",
   "title": "Black is the colour",
   "words": [
@@ -45,6 +45,13 @@
       "mail": "robin@weser.io",
       "type": "update",
       "content": ""
+    },
+    {
+      "date": 1739902578996,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Noten gesetzt"
     }
   ],
   "alternativeTitle": "",
