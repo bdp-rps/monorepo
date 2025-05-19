@@ -13,7 +13,7 @@ const getConstraints = (id, offset = 0, order, cache) => {
       return constraints
     },
     {
-      top: 0,
+      top: 1,
       bottom: 0,
       right: 0,
       left: 0,
