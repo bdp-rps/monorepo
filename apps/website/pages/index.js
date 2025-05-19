@@ -51,8 +51,11 @@ export default function page({ events, posts }) {
         paddingBottom={10}
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
         <Text variant="subtitle">Das läuft bei uns.</Text>
-        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-          <Text>Feed in Kürze wieder verfügbar.</Text>
+        <Box paddingTop={2} space={4}>
+          <Text>Unser Feed ist komplett auf Instagram umgezogen!</Text>
+          <Button href="https://www.instagram.com/pfadfinden_rps/">
+            Instagram aufrufen
+          </Button>
         </Box>
       </Layout>
     </Template>

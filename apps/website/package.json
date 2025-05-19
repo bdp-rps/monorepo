@@ -13,8 +13,8 @@
     "vercel:install": "pnpm i -r"
   },
   "dependencies": {
-    "@bdp-rps/ui": "workspace:*",
     "@bdp-rps/shared": "workspace:*",
+    "@bdp-rps/ui": "workspace:*",
     "fast-loops": "^1.1.3",
     "ical-js-parser": "^0.6.0",
     "next": "^12.0.7",
@@ -27,6 +27,8 @@
   "devDependencies": {
     "@babel/node": "^7.8.7",
     "@next/bundle-analyzer": "9.3.4",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "instagram-scraping": "^1.0.17",
+    "instatouch": "^2.3.22"
   }
 }

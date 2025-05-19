@@ -6,7 +6,9 @@ import { Text, Spacer, Link, Box, Button, Card, useTheme } from '@bdp-rps/ui'
 import Layout from '../../components/Layout'
 import Template from '../../components/Template'
 
-export default () => {
+export default ({ data }) => {
+  console.log(data)
+
   const theme = useTheme()
 
   return (
@@ -50,4 +52,19 @@ export default () => {
       </Layout>
     </Template>
   )
+}
+
+export async function getStaticProps() {
+  const res = await fetch(
+    'https://opensheet.vercel.app/1Ql3GZyPaY8IL8s0JlOTHm2l-_tq5jMrfxJaFS1xTYdY/Sheet1'
+  )
+  const data = await res.text()
+
+  return {
+    // alle 60 minuten
+    revalidate: 60 * 60,
+    props: {
+      data,
+    },
+  }
 }
