@@ -2,7 +2,7 @@
   {
     "part": "Vorstand",
     "name": "Robin Weser",
-    "position": "Landesvorsitzender",
+    "position": "Landesvorsitz",
     "contact": "robin@bdp-rps.de",
     "group": "Luchs"
   },
@@ -29,10 +29,24 @@
   },
   {
     "part": "Vorstand",
+    "name": "Amina Courbier",
+    "position": "Stellv. Landesvorsitzende",
+    "contact": "amina@bdp-rps.de",
+    "group": "von Helfenstein"
+  },
+  {
+    "part": "Vorstand",
     "name": "Carina Bochynek (cätch)",
     "position": "Landeschatzmeisterin",
     "contact": "caetch@bdp-rps.de",
     "group": "Luchs"
+  },
+  {
+    "part": "Vorstand",
+    "name": "Erik Friedek (stratz)",
+    "position": "Landeschatzmeister",
+    "contact": "erik@bdp-rps.de",
+    "group": "Goten"
   },
 
   {
@@ -60,20 +74,18 @@
     "contact": "marie@bdp-rps.de",
     "group": "Robin Hood"
   },
-
-  {
-    "part": "Landesbeauftragte R*R",
-    "name": "Amina Courbier",
-    "contact": "amina@bdp-rps.de",
-    "group": "von Helfenstein"
-  },
   {
     "part": "Landesbeauftragte R*R",
     "name": "Xenia Wolf",
     "contact": "xenia@bdp-rps.de",
     "group": "Franz von Sickingen"
   },
-
+  {
+    "part": "Landesbeauftragte R*R",
+    "name": "Josephine Paris (josi)",
+    "contact": "josi@bdp-rps.de",
+    "group": "Raugrafen"
+  },
   {
     "part": "Landesbeauftragte Ausbildung",
     "name": "Annalena Kretschmer (anna)",
@@ -99,26 +111,19 @@
     "contact": "sandro@bdp-rps.de",
     "group": "Raugrafen"
   },
-
   {
-    "part": "Landesbeauftragte Medien",
+    "part": "Landesbeauftragte Öffentlichkeitsarbeit",
     "name": "Gina Marie Hoffmann",
     "contact": "gina@bdp-rps.de",
     "group": "Falke"
   },
   {
-    "part": "Landesbeauftragte Medien",
+    "part": "Landesbeauftragte Öffentlichkeitsarbeit",
     "name": "Sophia Plato",
     "contact": "sophia@bdp-rps.de",
     "group": "von Helfenstein"
   },
 
-  {
-    "part": "Landesbeauftragte Mitglieder",
-    "name": "Maren Raskob",
-    "contact": "maren@bdp-rps.de",
-    "group": "von Helfenstein"
-  },
   {
     "part": "Landesbeauftragte Mitglieder",
     "name": "Phil Nachtigall",

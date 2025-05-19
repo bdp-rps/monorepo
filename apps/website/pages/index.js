@@ -21,11 +21,10 @@ import PostTile from '../components/PostTile'
 import getEvents from '../utils/getEvents'
 
 import getBlogposts from '../api/getBlogposts'
+import InstaFeed from '../components/InstaFeed'
 
 export default function page({ events, posts }) {
   const theme = useTheme()
-
-  const [firstPost, ...otherPosts] = posts
 
   return (
     <Template
@@ -52,19 +51,10 @@ export default function page({ events, posts }) {
         paddingBottom={10}
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
         <Text variant="subtitle">Das läuft bei uns.</Text>
-        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-          <Box grow={5}>
-            <PostTile highlight {...firstPost} />
-          </Box>
-          <Box grow={1} space={4}>
-            {otherPosts.splice(0, 2).map((post, index) => (
-              <PostTile key={index} {...post} />
-            ))}
-          </Box>
-        </Box>
-        <Box paddingTop={9} alignSelf="flex-start" alignItems="flex-start">
-          <Button href="/blog" size="large">
-            Weitere Beiträge
+        <Box paddingTop={2} space={4}>
+          <Text>Unser Feed ist komplett auf Instagram umgezogen!</Text>
+          <Button href="https://www.instagram.com/pfadfinden_rps/">
+            Instagram aufrufen
           </Button>
         </Box>
       </Layout>
@@ -74,17 +64,12 @@ export default function page({ events, posts }) {
 
 export async function getStaticProps() {
   const events = await getEvents()
-  const posts = await getBlogposts()
 
   return {
     // alle 20 minuten
     revalidate: 1200,
     props: {
       events,
-      posts: posts.data.sort(
-        (a, b) =>
-          new Date(b.attributes.publish) - new Date(a.attributes.publish)
-      ),
     },
   }
 }
