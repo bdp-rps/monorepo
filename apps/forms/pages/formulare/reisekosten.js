@@ -13,6 +13,7 @@ import {
   SelectInput,
   useScrollBlockingOverlay,
 } from '@bdp-rps/ui'
+import { format } from 'small-date'
 import { PDFDownloadLink, PDFViewer, Document } from '@lorren-js/core'
 
 import Layout from '../../components/Layout'
@@ -83,7 +84,7 @@ export default function Page({ defaultData, defaultGenerated }) {
   const isMounted = process.browser
 
   function useField({ name, ...props }) {
-    return useBaseField({ ...props, value: defaultData[name] })
+    return useBaseField({ ...props, value: defaultData[name] || props.value })
   }
 
   const name = useField({
@@ -117,7 +118,13 @@ export default function Page({ defaultData, defaultGenerated }) {
     name: 'iban',
   })
   const place = useField({ name: 'place', required: true })
-  const date = useField({ name: 'date', required: true })
+  const date = useField({
+    name: 'date',
+    required: true,
+    value: format(new Date(), 'yyyy-MM-dd'),
+  })
+
+  console.log(date)
 
   const { submit, reset } = useForm(
     name,
@@ -253,6 +260,27 @@ export default function Page({ defaultData, defaultGenerated }) {
                 <Button loading={loading}>Als PDF herunterladen</Button>
               )}
             </Box>
+            {/* <Box width="100%" height={600}>
+              <PDFViewer style={{ height: '100%' }}>
+                <Wrapper>
+                  <Document>
+                    <Reisekosten
+                      name={name.value}
+                      event={event.value}
+                      location={location.value}
+                      startDate={startDate.value}
+                      endDate={endDate.value}
+                      destination={destination.value}
+                      iban={iban.value}
+                      place={place.value}
+                      date={date.value}
+                      note={note.value}
+                      routes={routes}
+                    />
+                  </Document>
+                </Wrapper>
+              </PDFViewer>
+            </Box> */}
             <Box>
               <Button onClick={() => setGenerated(false)}>Bearbeiten</Button>
             </Box>
@@ -310,18 +338,24 @@ export default function Page({ defaultData, defaultGenerated }) {
             />
             <TextInput
               label="Veranstaltung"
-              placeholder="z.B. Herbst-SST 2023"
+              placeholder="z.B. Herbst-SST"
               {...event.props}
             />
             <TextInput label="Veranstaltungsort" {...location.props} />
             <TextInput label="Start-Datum" type="date" {...startDate.props} />
             <TextInput label="End-Datum" type="date" {...endDate.props} />
             <TextInput label="Reiseweg" {...destination.props} />
-            <TextArea
-              label="Kommentar"
-              placeholder="z.B. inkl. Materialtransport, daher so viel"
-              {...note.props}
-            />
+            <Box space={2}>
+              <TextArea
+                label="Kommentar"
+                placeholder="z.B. inkl. Materialtransport, daher so viel"
+                {...note.props}
+              />
+              <Text>
+                1 = 0,17€ • 2 = 0,18€ • 3 = 0,20€ • 4 = 0,22€ • 5 = 0,25€ • 6+ =
+                0,28€
+              </Text>
+            </Box>
             <span />
             <Box space={1}>
               <Box space={6}>

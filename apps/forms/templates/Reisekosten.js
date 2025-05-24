@@ -14,12 +14,12 @@ const Br = dynamic(() => import('@lorren-js/core').then((p) => p.Br))
 
 function DataDisplay({ label, children }) {
   return (
-    <Box direction="row" space={4}>
-      <Box width={140}>
+    <Box direction="row" space={4} maxWidth="100%">
+      <Box grow={0} shrink={0} basis={145}>
         <Text>{label}:</Text>
       </Box>
-      <Box>
-        <Text>{children}</Text>
+      <Box grow={1} shrink={1} basis={0}>
+        <Text style={{ flexWrap: 'wrap' }}>{children}</Text>
       </Box>
     </Box>
   )
