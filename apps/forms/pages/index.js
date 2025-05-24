@@ -36,6 +36,32 @@ export default function Page() {
             <Text variant="category">Antrag auf Sonderurlaub</Text>
           </Box>
         </NextLink>
+        <NextLink href="/formulare/teilnahme" passHref>
+          <Box
+            padding={5}
+            as="a"
+            extend={{
+              textDecoration: 'none',
+              backgroundColor: 'white',
+              boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+              borderRadius: 8,
+            }}>
+            <Text variant="category">Antrag auf Teilnahmebestätigung</Text>
+          </Box>
+        </NextLink>
+        <NextLink href="/formulare/anmeldung" passHref>
+          <Box
+            padding={5}
+            as="a"
+            extend={{
+              textDecoration: 'none',
+              backgroundColor: 'white',
+              boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+              borderRadius: 8,
+            }}>
+            <Text variant="category">Antrag auf Anmeldebestätigung</Text>
+          </Box>
+        </NextLink>
       </Layout>
     </Template>
   )

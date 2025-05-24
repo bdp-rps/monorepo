@@ -13,13 +13,11 @@ const DateTime = dynamic(() =>
 )
 const Br = dynamic(() => import('@lorren-js/core').then((p) => p.Br))
 
-export default function Sonderurlaub({
+export default function Teilnahme({
   name,
   event,
-  gender,
-  boss,
   birthday,
-  group,
+  role,
   address,
   startDate,
   endDate,
@@ -32,7 +30,6 @@ export default function Sonderurlaub({
             BdP Landesverband Rheinland-Pfalz/Saar • Landesvorstand c/o Robin
             Weser • Rintheimer Hauptstraße 25, 76131 Karlsruhe
           </Text>
-          <Text variant="address">{boss}</Text>
         </Box>
         <Box grow={0} shrink={0} basis={180}>
           <Text align="right" subStyle="emphasis" color="blue">
@@ -55,45 +52,23 @@ export default function Sonderurlaub({
       </Box>
       <Box paddingTop={6} paddingBottom={6}>
         <Text subStyle="emphasis" style={{ fontSize: 18 }}>
-          Antrag auf Sonderurlaub
+          Teilnahmebestätigung
         </Text>
       </Box>
       <Box>
         <Text variant="paragraph">
-          Der Bund der Pfadfinderinnen und Pfadfinder ist mit ca. 30 000
-          Mitgliedern der größte interkonfessionelle Pfadfinderverband in der
-          Bundesrepublik. Mit seiner ehrenamtlichen Jugendarbeit ist der BdP mit
-          seinen Gruppen in allen Bundesländern vertreten.
-          <Br />
-          <Br />
-          Ein wichtiger Bestandteil des Verbandslebens sind die regelmäßigen
-          Lager, Fahrten und Ausbildungskurse. Auch dieses Jahr finden wieder
-          einige davon statt. So auch vom{' '}
-          <DateTime format="dd.MM">{startDate}</DateTime> -{' '}
-          <DateTime format="dd.MM.yyyy">{endDate}</DateTime> unser {event}.
-          <Br />
-          <Br />
-          {gender === 'female' ? 'Ihre Mitarbeiterin' : 'Ihr Mitarbeiter'}{' '}
-          {name}, wohnhaft in {address}, geboren am{' '}
-          <DateTime format="dd.MM.yyyy">{birthday}</DateTime>, ist seit vielen
-          Jahren aktives Mitglied in unserem Landesverband und übernimmt seitdem
-          ehrenamtlich Verantwortung im BdP Stamm {group}. Als wichtige
-          Führungskraft ist {gender === 'female' ? 'sie' : 'er'} für die Planung
-          im Vorfeld sowie die erfolgreiche Durchführung der oben genannten
-          Aktion unentbehrlich.
-          <Br />
-          <Br />
-          Ich möchte Sie daher herzlich bitten,{' '}
-          {gender === 'female' ? 'Frau' : 'Herrn'} {name} in der Zeit vom{' '}
-          <DateTime format="dd.MM">{startDate}</DateTime> -{' '}
-          <DateTime format="dd.MM.yyyy">{endDate}</DateTime> Sonderurlaub gemäß
-          §3 Abs. 3 des Gesetzes Nr. 1412 über Sonderurlaub für ehrenamtliche
-          Mitarbeiterinnen und Mitarbeiter in der Jugendarbeit vom 08. Juli 1998
-          zu gewähren. Sie würden damit einen wichtigen Beitrag zur
-          Unterstützung unserer Jugendarbeit leisten.
+          Hiermit bestätigte ich, dass {name}, geboren am{' '}
+          <DateTime format="dd.MM.yyyy">{birthday}</DateTime> und wohnhaft in{' '}
+          {address}, vom <DateTime format="dd.MM">{startDate}</DateTime> -{' '}
+          <DateTime format="dd.MM.yyyy">{endDate}</DateTime> unsere
+          Veranstaltung
+          {event} als{' '}
+          {role === 'leader' ? 'Veranstaltungsleitung' : 'Teilnehmer*in'}{' '}
+          besucht hat.
           <Br />
           <Br />
           Für weitere Fragen stehe ich gerne zur Verfügung.
+          <Br />
           <Br />
           Mit freundlichen Grüßen
         </Text>
