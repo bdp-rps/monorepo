@@ -20,7 +20,7 @@ export default function Page() {
               boxShadow: '0 0 4px rgba(0,0,0,0.2)',
               borderRadius: 8,
             }}>
-            <Text variant="category">Reisekosten - Auto</Text>
+            <Text variant="category">Reisekostenabrechnung - Auto</Text>
           </Box>
         </NextLink>
         <NextLink href="/formulare/sonderurlaub" passHref>
