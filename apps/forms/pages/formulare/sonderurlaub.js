@@ -25,6 +25,8 @@ import Wrapper from '../../templates/Wrapper'
 import Reisekosten from '../../templates/Reisekosten'
 import Sonderurlaub from '../../templates/Sonderurlaub'
 
+import staemme from '../../../../packages/shared/src/data/staemme.json'
+
 export default function Page({ defaultData, defaultGenerated }) {
   const router = useRouter()
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
@@ -247,11 +249,18 @@ export default function Page({ defaultData, defaultGenerated }) {
               <option value="male">Männlich</option>
               <option value="divers">Divers</option>
             </SelectInput>
-            <TextInput
-              label="Stamm"
-              {...group.props}
-              description={'Bitte ohne "Stamm"'}
-            />
+            <SelectInput label="Stamm" {...group.props}>
+              <option value="" />
+              {staemme
+                .sort((a, b) =>
+                  a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+                )
+                .map(({ name }) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+            </SelectInput>
             <TextInput
               label="Veranstaltung"
               placeholder="z.B. Fahrtenkurs"
@@ -261,7 +270,7 @@ export default function Page({ defaultData, defaultGenerated }) {
             <TextInput label="Startdatum" type="date" {...startDate.props} />
             <TextInput label="Enddatum" type="date" {...endDate.props} />
             <TextArea
-              label="Anschrift der Ansprechperson"
+              label="Anschrift des Arbeitgebenden/Universität"
               placeholder={`z. Hd. Max Mustermann
 Muster GmbH
 Musterstraße 1
