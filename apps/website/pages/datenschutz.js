@@ -58,12 +58,12 @@ export default () => {
               <b>a) Beim Besuch der Website</b>
               <br />
               <br />
-              Beim Aufrufen unserer Website http://bdp-rps.de werden durch den
-              auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch
-              Informationen an den Server unserer Website gesendet. Diese
-              Informationen werden temporär in einem sog. Logfile gespeichert.
-              Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis
-              zur automatisierten Löschung gespeichert:
+              Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät
+              zum Einsatz kommenden Browser automatisch Informationen an den
+              Server unserer Website gesendet. Diese Informationen werden
+              temporär in einem sog. Logfile gespeichert. Folgende Informationen
+              werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten
+              Löschung gespeichert:
               <br />
               <ul>
                 <li>IP-Adresse des anfragenden Rechners</li>
@@ -71,7 +71,7 @@ export default () => {
                 <li>Name und URL der abgerufenen Datei</li>
                 <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
                 <li>
-                  erwendeter Browser und ggf. das Betriebssystem Ihres Rechners
+                  verwendeter Browser und ggf. das Betriebssystem Ihres Rechners
                   sowie der Name Ihres Access-Providers
                 </li>
               </ul>
@@ -90,6 +90,7 @@ export default () => {
                   Auswertung der Systemsicherheit und -stabilität sowie zu
                   weiteren administrativen Zwecken
                 </li>
+                <li>zu weiteren administrativen Zwecken</li>
               </ul>
               <br />
               Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S.
@@ -137,57 +138,9 @@ export default () => {
               </ul>
             </Text>
           </Box>
+
           <Box space={6}>
-            <Text variant="category">4. Cookies</Text>
-            <Text>
-              Wir setzen auf unserer Seite Cookies ein. Hierbei handelt es sich
-              um kleine Dateien, die Ihr Browser automatisch erstellt und die
-              auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert
-              werden, wenn Sie unsere Seite besuchen. Cookies richten auf Ihrem
-              Endgerät keinen Schaden an, enthalten keine Viren, Trojaner oder
-              sonstige Schadsoftware.
-              <br /> <br />
-              In dem Cookie werden Informationen abgelegt, die sich jeweils im
-              Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben.
-              Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis
-              von Ihrer Identität erhalten.
-              <br /> <br />
-              Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres
-              Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte
-              Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten
-              unserer Website bereits besucht haben. Diese werden nach Verlassen
-              unserer Seite automatisch gelöscht.
-              <br /> <br />
-              Darüber hinaus setzen wir ebenfalls zur Optimierung der
-              Benutzerfreundlichkeit temporäre Cookies ein, die für einen
-              bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert
-              werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in
-              Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei
-              uns waren und welche Eingaben und Einstellungen sie getätigt
-              haben, um diese nicht noch einmal eingeben zu müssen.
-              <br /> <br />
-              Zum anderen setzten wir Cookies ein, um die Nutzung unserer
-              Website statistisch zu erfassen und zum Zwecke der Optimierung
-              unseres Angebotes für Sie auszuwerten (siehe Ziff. 5). Diese
-              Cookies ermöglichen es uns, bei einem erneuten Besuch unserer
-              Seite automatisch zu erkennen, dass Sie bereits bei uns waren.
-              Diese Cookies werden nach einer jeweils definierten Zeit
-              automatisch gelöscht.
-              <br /> <br />
-              Die durch Cookies verarbeiteten Daten sind für die genannten
-              Zwecke zur Wahrung unserer berechtigten Interessen sowie der
-              Dritter nach Art. 6 Abs. 1 S. 1 lit. f DSGVO erforderlich.
-              <br /> <br />
-              Die meisten Browser akzeptieren Cookies automatisch. Sie können
-              Ihren Browser jedoch so konfigurieren, dass keine Cookies auf
-              Ihrem Computer gespeichert werden oder stets ein Hinweis
-              erscheint, bevor ein neuer Cookie angelegt wird. Die vollständige
-              Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht
-              alle Funktionen unserer Website nutzen können.
-            </Text>
-          </Box>
-          <Box space={6}>
-            <Text variant="category">5. Betroffenenrechte</Text>
+            <Text variant="category">4. Betroffenenrechte</Text>
             <Text>
               Sie haben das Recht:
               <ul>
@@ -251,7 +204,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text variant="category">6. Widerspruchsrecht</Text>
+            <Text variant="category">5. Widerspruchsrecht</Text>
             <Text>
               Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten
               Interessen gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet
@@ -270,7 +223,7 @@ export default () => {
             </Text>
           </Box>
           <Box space={6}>
-            <Text variant="category">7. Datensicherheit</Text>
+            <Text variant="category">6. Datensicherheit</Text>
             <Text>
               Wir verwenden innerhalb des Website-Besuchs das verbreitete
               SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils
@@ -295,11 +248,11 @@ export default () => {
           </Box>
           <Box space={6}>
             <Text variant="category">
-              8. Aktualität und Änderung dieser Datenschutzerklärung
+              7. Aktualität und Änderung dieser Datenschutzerklärung
             </Text>
             <Text>
               Diese Datenschutzerklärung ist aktuell gültig und hat den Stand
-              Mai 2018.
+              August 2021.
               <br />
               <br />
               Durch die Weiterentwicklung unserer Website und Angebote darüber
