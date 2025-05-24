@@ -49,7 +49,10 @@ export default function Tile({
             }}>
             <Text
               variant={highlight ? 'subtitle' : 'category'}
-              color={theme.tokens.primary}>
+              color={theme.tokens.primary}
+              extend={{
+                textWrap: 'balance',
+              }}>
               {title}
             </Text>
           </Box>
