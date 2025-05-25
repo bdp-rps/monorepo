@@ -11,11 +11,11 @@ export default () => (
         <Text variant="category">Keniaprojekt</Text>
 
         <Text>
-          Wir sind der Förderverein Watoto Kabisa! 2010 begannen die Pfadfinder
-          des Landesverbands Rheinland-Pfalz/Saar im BdP, gezielt Projekte in
-          Kenia zu unterstützen oder sogar zu initiieren. Wir arbeiten komplett
-          ehrenamtlich und sorgen so dafür, dass hundert Prozent der Spenden
-          auch nach Kenia gehen.
+          Wir sind der Förderverein Watoto Kabisa! 2010 begannen die
+          Pfadfinder*innen des Landesverbands Rheinland-Pfalz/Saar im BdP,
+          gezielt Projekte in Kenia zu unterstützen oder sogar zu initiieren.
+          Wir arbeiten komplett ehrenamtlich und sorgen so dafür, dass hundert
+          Prozent der Spenden auch nach Kenia gehen.
           <br />
           Unsere Partnerorganisation WONESU investiert das Geld vor Ort in
           verschiedene Projekte, die mehreren tausend Kindern eine stabile,

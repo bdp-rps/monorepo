@@ -19,12 +19,12 @@ export default () => (
         </Text>
       </Box>
       <Box space={2}>
-        <Text variant="category">Pädagogischer Ansatz </Text>
+        <Text variant="category">Pädagogischer Ansatz</Text>
         <Text>
           Pfadfinden fordert den ganzen Menschen. Sportliche, handwerkliche und
           musische Betätigung gehören ebenso dazu wie das Leben in der Natur,
           die Auseinandersetzung mit Gesellschaft und Umwelt sowie die Begegnung
-          mit Pfadfindern aus aller Welt. Diese Vielfalt bietet Jedem die
+          mit Pfadfinder*innen aus aller Welt. Diese Vielfalt bietet Jedem die
           Chance, seine Fähigkeiten und Kenntnisse einzubringen und von anderen
           zu lernen. Das Zusammenleben in der Gruppe fördert soziale
           Verhaltensweisen, wie Toleranz, Hilfsbereitschaft, Übernahme von

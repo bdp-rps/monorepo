@@ -1,15 +1,17 @@
 import * as React from 'react'
 import { Box, Text, Spacer } from '@bdp-rps/ui'
 
+import staemme from '../data/staemme.json'
+
 export default () => (
   <React.Fragment>
     <Text variant="subtitle">Der Landesverband</Text>
     <Spacer size={2} />
     <Text>
-      Unser Landesverband besteht derzeit aus 22 Stämmen und Aufbaugruppen in
-      Rheinland-Pfalz und dem Saarland. In diesen örtlichen Gruppen findet der
-      größte Teil unserer Pfadfinderarbeit statt. Hier trifft man sich zu
-      regelmäßigen Gruppenstunden oder bricht zu gemeinsamen Fahrten und
+      Unser Landesverband besteht derzeit aus {staemme.length} Stämmen und
+      Aufbaugruppen in Rheinland-Pfalz und dem Saarland. In diesen örtlichen
+      Gruppen findet der größte Teil unserer Pfadiarbeit statt. Hier trifft man
+      sich zu regelmäßigen Gruppenstunden oder bricht zu gemeinsamen Fahrten und
       Abenteuern auf.
       <br />
       Wir sind ein tatkräftiger Landesverband, der zusammen eine Menge auf die

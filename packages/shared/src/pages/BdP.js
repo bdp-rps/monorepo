@@ -7,8 +7,8 @@ export default () => (
     <Text variant="subtitle">Der BdP - unser Bund!</Text>
     <Spacer size={2} />
     <Text>
-      Der BdP ist Teil der Weltpfadfinderinnen- und -pfadfinderbewegung und
-      steht in der Tradition der deutschen Jugendbewegung.
+      Der BdP ist Teil der Weltpfadfinder*innenbewegung und steht in der
+      Tradition der deutschen Jugendbewegung.
       <br />
       Wir wollen durch eine zeitgemäße Kinder- und Jugendarbeit zur
       Persönlichkeitsentwicklung junger Menschen beizutragen.
@@ -18,9 +18,9 @@ export default () => (
       als verantwortliche Bürgerinnen und Bürger eine demokratische, weltoffene
       Gesellschaft mitgestalten und mittragen.
       <br />
-      Als Mitglied des Ringes deutscher Pfadfinder ist der BdP im Deutschen
-      Bundesjugendring und in den Weltorganisationen der Pfadfinderinnen und der
-      Pfadfinder vertreten.
+      Als Mitglied des Ringes deutscher Pfadfinder*innenverbände ist der BdP im
+      Deutschen Bundesjugendring und in den Weltorganisationen der
+      Pfadfinder*innen vertreten.
     </Text>
   </React.Fragment>
 )

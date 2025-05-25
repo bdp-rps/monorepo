@@ -12,10 +12,10 @@ export default () => {
         Gemeinschaft feste Richtwerte, die von dauerhafter Gültigkeit sind.
         <br />
         Wir, die Stämme im Landesverband Rheinland-Pfalz/Saar im Bund der
-        Pfadfinderinnen und Pfadfinder, haben uns die folgenden Leitsätze
-        gegeben, um die Freundschaft und Verbundenheit zwischen unseren Stämme
-        zu fördern. Sie halten fest, was das Wesen unseres Landesverbandes
-        ausmacht. Sie sind Ziel und Anspruch zugleich.
+        Pfadfinder*innen, haben uns die folgenden Leitsätze gegeben, um die
+        Freundschaft und Verbundenheit zwischen unseren Stämme zu fördern. Sie
+        halten fest, was das Wesen unseres Landesverbandes ausmacht. Sie sind
+        Ziel und Anspruch zugleich.
       </Text>
 
       <Box alignSelf="flex-start" paddingBottom={2}>

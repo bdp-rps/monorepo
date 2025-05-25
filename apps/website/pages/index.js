@@ -23,24 +23,29 @@ import getEvents from '../utils/getEvents'
 import getBlogposts from '../api/getBlogposts'
 import InstaFeed from '../components/InstaFeed'
 
+import staemme from '../../../packages/shared/src/data/staemme.json'
+
 export default function page({ events, posts }) {
   const theme = useTheme()
 
   return (
     <Template
-      description="Wir sind der Landesverband Rheinland-Pfalz/Saarland im Bund der
+      description="Wir sind der Landesverband Rheinland-Pfalz/Saar im Bund der
     Pfadfinderinnen und Pfadfinder">
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
-          <Text variant="category">Willkommen bei den Pfadfindern.</Text>
+          <Text variant="category">Willkommen bei den Pfadfinder*innen.</Text>
           <Text>
-            Wir sind der Landesverband Rheinland-Pfalz/Saarland im Bund der
-            Pfadfinderinnen und Pfadfinder.
+            Wir sind der Landesverband Rheinland-Pfalz/Saar im Bund der
+            Pfadfinder*innen.
             <br />
-            Unser Bund ist der größte interkonfessionelle Pfadfinderbund in
-            Deutschland.
+            Unser Bund ist der größte interkonfessionelle Pfadfinder*innenbund
+            in Deutschland.
             <br />
-            In Rheinland-Pfalz und im Saarland sind wir mit 22 Gruppen präsent.
+            In Rheinland-Pfalz und im Saarland sind wir mit {
+              staemme.length
+            }{' '}
+            Gruppen präsent.
           </Text>
         </Box>
       </Layout>

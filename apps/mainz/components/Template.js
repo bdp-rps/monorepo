@@ -168,7 +168,7 @@ export default function Template({
           </Box>
           <Text>
             Copyright &copy; {new Date().getFullYear()} BdP Landesverband
-            Rheinland-Pfalz/Saarland
+            Rheinland-Pfalz/Saar
           </Text>
         </Box>
         <Box paddingTop={5}>

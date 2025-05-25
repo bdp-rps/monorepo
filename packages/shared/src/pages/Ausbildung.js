@@ -52,21 +52,21 @@ export default () => (
         />
         <CardTile
           title="FAK - Der Fahrtenkurs"
-          teaser="Ab 13 Jahren"
+          teaser="ab 13 Jahren"
           description="Der Fahrtenkurs ist für alle, die gerne mit ihrer Sippe auf Fahrt gehen. Der Kurs findet komplett draußen im Zelt statt und umfasst sowohl ein paar Lagertage als auch eine Fahrt, bei der Du mit anderen Kursteilnehmenden teilweise ohne Teamende unterwegs bist. Das Abenteuer kommt bei diesem Kurs also keinesfalls zu kurz. Aber keine Bange - die Einheiten des Kurses werden Dich gut auf diese Herausforderung vorbereiten."
           image="ausbildung/fak"
           imageHeight={300}
         />
         <CardTile
           title="SFK - Der Sippenführungskurs"
-          teaser="Ab 15 Jahren"
+          teaser="ab 15 Jahren"
           description="Der SfK ist ein Must-Have für jede Sippenführung. Hier erfährst Du während einer Woche Zeltlager jede Menge Wissenswertes rund um die Leitung einer Sippe. Dabei stehen die Planung von gutem Programm für die Pfadistufe und Deine Rolle als Sippenführung im Vordergrund. Zeit für praktisches Ausprobieren gibt es auch und das Kursteam sorgt nebenbei für die nötige Action, die es für eine gelungene Kurswoche braucht."
           image="ausbildung/sfk"
           imageHeight={300}
         />
         <CardTile
           title="MFK - Der Meutenführungskurs"
-          teaser="Ab 15 Jahren"
+          teaser="ab 15 Jahren"
           description="Beim MfK lernst Du die Grundlagen der Meutenführung kennen. Der Umgang mit Kindern steht dabei genauso auf dem Kursplan wie die Gestaltung von gutem Programm. Langweilig wird’s hier nicht: Zusammen mit anderen Meutenführungen aus dem LV entwickelst Du spannende Aktionen für die Wölflingsstufe, die ihr mit einer Studiomeute ausprobieren könnt. Und ein top Kursteam sorgt dafür, dass auch zwischendurch der Spaß für Dich nicht auf der Strecke bleibt.
               Also: MfK = stabile Basis für alle Meutenführungen"
           imageHeight={300}
@@ -79,8 +79,8 @@ export default () => (
       <Grid gap={5} columns={['1fr', , '1fr 1fr']}>
         <CardTile
           title="LEGO"
-          description="LEGO ist ein Angebot für ältere Pfadis und R/Rs, die 
-              sich einer besonderen Fahrtenherausforderung stellen möchten. Bei einem Vorbereitungswochenende plant ihr zusammen mit erfahrenen Teamer*innen eine 1- wöchige Auslandsfahrt, die ihr selbstständig mit eurer Kursgruppe durchführt."
+          description="LEGO ist ein Angebot für ältere Pfadis und R*Rs, die 
+              sich einer besonderen Fahrtenherausforderung stellen möchten. Bei einem Vorbereitungswochenende plant ihr zusammen mit erfahrenen Teamer*innen eine 1-wöchige Auslandsfahrt, die ihr selbstständig mit eurer Kursgruppe durchführt."
           image="fahrt_kothe"
           imageHeight={300}
         />

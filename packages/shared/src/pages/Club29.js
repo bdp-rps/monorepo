@@ -14,18 +14,18 @@ export default () => (
           Pfadfinden hält zwar jung, aber dennoch kommt irgendwann die Zeit das
           Feld der aktiven Gruppenarbeit den jüngeren zu überlassen. Schließlich
           verstehen wir uns als eine Jugendbewegung. Aber es gibt sie, und es
-          braucht sie, die Älteren und die Alten– unsere Ehemaligen. Sie
+          braucht sie, die Älteren und die Alten – unsere Ehemaligen. Sie
           übernehmen Verantwortung im Landesverband, bereite Aktionen vor,
           bilden die Jugendlichen auf Kursen aus und sind einfach da, wenn sie
           gebraucht werden.
           <br />
-          In unserem Landesverband haben sich viele ältere Pfadfinderinnen und
-          Pfadfinder im Club 29 zusammengefunden. Aber auch jüngere Ehemalige
-          sind nicht nur gern gesehene Gäste bei Aktionen, sondern auch ein
-          wichtiger Teil unseres LVs.
+          In unserem Landesverband haben sich viele ältere Pfadfinder*innen im
+          Club 29 zusammengefunden. Aber auch jüngere Ehemalige sind nicht nur
+          gern gesehene Gäste bei Aktionen, sondern auch ein wichtiger Teil
+          unseres LVs.
           <br />
-          <br /> Du bist Ehemaliger und würdest gerne wieder mehr Informationen
-          aus dem LV bekommen?
+          <br /> Du bist Ehemalige(r) und würdest gerne wieder mehr
+          Informationen aus dem LV bekommen?
           <br />
           Meld dich{' '}
           <Link href="mailto:vorstand@bdp-rps.de">bei unserem Vorstand</Link>.
