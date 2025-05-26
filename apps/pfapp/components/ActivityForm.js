@@ -18,6 +18,8 @@ import {
   Radio,
 } from '@bdp-rps/ui'
 
+import { useRouter } from 'next/router'
+
 import TimeSlotForm from './TimeSlotForm'
 
 import Location from '../utils/location'
@@ -137,6 +139,7 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
         onClose={() => setModalVisible(false)}>
         <Box space={2} padding={2} minWidth={350}>
           <TextInput
+            onBlur={() => {}}
             onChange={(e) => setCurrentMaterialInput(e.target.value)}
           />
           <Box direction="row" justifyContent="space-between" space={2}>
@@ -261,6 +264,7 @@ const useActivityFormFields = () => {
 }
 
 export default () => {
+  const router = useRouter()
   const { fields, submit, reset } = useActivityFormFields()
   const [timeSlots, setTimeSlots] = React.useState([])
   const [isLoading, setIsLoading] = React.useState(false)
@@ -269,6 +273,9 @@ export default () => {
     useFileUpload()
   const [materialsData, setMaterialsData] = React.useState([])
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+
+  const [responseModalVisible, setResponseModalVisible] =
+    useScrollBlockingOverlay(false)
 
   return (
     <Box paddingVertical={4}>
@@ -290,13 +297,18 @@ export default () => {
                   return postActivitySlots({
                     description,
                     title,
-                  }).then((res) => res.json())
+                  })
                 })
 
                 const activitySlots = await Promise.all(
                   postActivitySlotsPromises
                 )
-                const activitySlotIds = activitySlots.map((res) => res.data.id)
+
+                const activitySlotIds = await Promise.all(
+                  activitySlots.map((res) =>
+                    res.json().then(({ data }) => data.id)
+                  )
+                )
 
                 const {
                   description,
@@ -320,13 +332,13 @@ export default () => {
                   title,
                   uploadedBy,
                   activity_slots: activitySlotIds,
-                }).then((activity) => activity.json())
+                })
 
                 setTimeSlots([])
+                setResponseModalVisible(true)
                 reset()
               } catch (error) {
                 console.error('Failed to submit activity:', error)
-                // TODO: Show error message to user
               } finally {
                 setIsLoading(false)
               }
@@ -470,6 +482,30 @@ export default () => {
             setModalVisible(false)
           }}
         />
+      </Modal>
+      <Modal
+        title="Gruppenstunde erstellt"
+        visible={responseModalVisible}
+        zIndex={10}
+        onClose={() => setResponseModalVisible(false)}>
+        <Box>
+          <Text>Die Gruppenstunde wurde erfolgreich erstellt.</Text>
+          <Box direction="row" justifyContent="space-between" space={2}>
+            <Button
+              onClick={(_) => {
+                setResponseModalVisible(false)
+                router.push('/')
+              }}>
+              Zurück zur Startseite
+            </Button>
+            <Button
+              onClick={(_) => {
+                setResponseModalVisible(false)
+              }}>
+              Weitere Gruppenstunden hinzufügen
+            </Button>
+          </Box>
+        </Box>
       </Modal>
     </Box>
   )
