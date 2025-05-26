@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"a\" AA6/2 A2B2|AG6/2 A2G2|\"C\"E2E2 E6/2D|E2F3/2 E4|\n\"a\" AA6/2 A2B2|AG6/2 A2G2|\"C\"E2E2 E6/2D|E2F3/2 E4|\n||:\"G\"D8|EG6/2 (G2A2)|\"a\"AB6/2 A2G2| ED6/2 C4|\n\"G\"DCDC DCDC|\"E7\" E2DC E2DC| \"a\" A,2A,4 A,2|A,8:|",
   "content": "{a}Buter káj egy berseszki szán, {C}móri drágo piko séj,\n{a}vorbisz mánge káki-koki, {C}móri drágo piko séj.\n\n/: {G}Áj mori séj, {a}mori drágo pikonyéj\n{G}na na na na na na na naa {E7}naa na na naa na na {a}naa naaa naaa :/\n\nKináu tuke szomnákáj, móri drágo piko séj,\nlá lumáko szomnákáj, móri drágo piko séj.\n\nÁldin dévlá murá sá, mura cina pikonya,\nmura cina pikonya, murá sukár szábiná.",
   "title": "Mori shej",
   "words": [
@@ -22,7 +22,7 @@
   ],
   "translation": [],
   "beat": "2/4",
-  "tempo": 60,
+  "tempo": "65",
   "info": "Übersetzung:\n\nDu bist gerade ein Jahr alt, kleine, winzige, liebe Tochter.\nDu plapperst mit mir, kleine, winzige, liebe Tochter.\n\nAj Tochter, meine kleine Liebe.\n\nIch werde dir goldenen Schmuck kaufen, allen Goldschmuck auf der Welt.\n\nGott segne meine Tochter, meine schöne Sabina.",
   "changes": [
     {
@@ -59,6 +59,13 @@
       "mail": "robin@weser.io",
       "type": "update",
       "content": "Layout"
+    },
+    {
+      "date": 1739894362615,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Noten aus dem BGB hinzugefügt"
     }
   ],
   "alternativeTitle": "",

@@ -40,7 +40,7 @@ export default () => {
         <Box space={8} paddingBottom={10}>
           <Text variant="subtitle">Impressum</Text>
           <Text>
-            <b>Bund der Pfadfinderinnen und Pfadfinder (BdP)</b>
+            <b>Bund der Pfadfinder*innen (BdP)</b>
             <br />
             <b>Landesverband Rheinland-Pfalz/Saar</b>
             <br />
@@ -67,6 +67,8 @@ export default () => {
             <br />
             Philipp Winicker
             <br />
+            Amina Courbier
+            <br />
             <br />
             Es sind jeweils zwei Vorstandsmitglieder gemeinsam zur Vertretung
             befugt.
@@ -76,7 +78,7 @@ export default () => {
             Sitz in Karlsruhe.
             <br />
             Er ist eine selbständige Untergliederung des Bundes der
-            Pfadfinderinnen und Pfadfinder e.V. (BdP) mit Sitz in Immenhausen.
+            Pfadfinder*innen e.V. (BdP) mit Sitz in Immenhausen.
           </Text>
           <Text>
             <b>

@@ -23,6 +23,10 @@ const staticStyle = [
     },
   },
   {
+    selector: '#__next',
+    style: { display: 'flex' },
+  },
+  {
     selector: 'body',
     style: {
       overflowY: 'scroll',

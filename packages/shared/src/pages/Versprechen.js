@@ -12,10 +12,11 @@ export default () => (
           Die Versprechen, Aufnahmefeier und Versprechensregeln
         </Text>
         <Text>
-          Jeder Pfadfinder legt bei der Aufnahme bei einer Versprechensfeier
-          sein Pfadfinderversprechen ab. Danach erhält er sein Pfadfinder- bzw.
-          Wölflingsabzeichen. In den verschiedenen Bünden gibt es viele
-          verschieden ausformulierte Versprechen, vom Sinn her sind alle gleich.
+          Alle Pfadfinder*innen legen bei der Aufnahme bei einer
+          Versprechensfeier ihr Pfadiversprechen ab. Danach erhalten sie ihr
+          Pfadfinder- bzw. Wölflingsabzeichen. In den verschiedenen Bünden gibt
+          es viele verschieden ausformulierte Versprechen, vom Sinn her sind
+          alle gleich.
         </Text>
       </Box>
       <Box space={2}>

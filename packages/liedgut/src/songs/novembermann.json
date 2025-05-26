@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "\"d\" DFG|A6/2-A3|\"g\" GAB \"d\" A2F|D3-D3|D^CD \"A7\"E2C|A,3 FFE|\"d\"D3-\"g\"D3|\n\"d\"z2z:||:\"g\"BBB|BAG \"d\"AFG|AFA \"A\"GEF|\"A7\"GAG\"d\"F2 \"A\"E|\"d\"D3:|",
   "content": "{d}Droben am Berg {g}hockt der No{d}vembermann,\nschaut uns so {A7}grimmig an, weiß was er {d}kann.\n{d}Grauweißes Haar {g}dreht sich im {d}Wirbelwind\nund alle {A7}Wolken sind ihm unter{d}tan.\n/: {g}Schließet die Fenster, ver{d}riegelt die Türen,\nund {g}leget die {A7}Sturmbalken {d}vor {a}das {d}Tor! :/\n\nSeht nur, oh seht, wie er die Peitsche hebt.\nJedwedes Wolkenpferd bäumt sich im Zwang.\nZornesentbrannt springt er zur Himmelswand,\nreißt ihre Schleusen auf im Amoklauf.\nPeitschet die Meere, fegt über die Erde\nals grollender mächtiger Machttyrann.\n\nManchmal, oh wisst, zwingt er mit Teufelslist\nlachend ein Menschenkind sich zum Vasall.\nUnd dieses sprengt, wimmernd und eingeengt,\nvom kalten Wahn gedrängt, fremdengen Wall.\nSchließet die Reihen - es trotzen die Freien,\nso komm nur du wilder Novembermann.",
   "title": "Novembermann",
   "words": [
@@ -33,6 +33,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1739905266457,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
-  ]
+  ],
+  "specialSettings": {}
 }

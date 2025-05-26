@@ -28,7 +28,7 @@ export default function Footer() {
 
           <Text>
             Copyright &copy; {new Date().getFullYear()} BdP Landesverband
-            Rheinland-Pfalz/Saarland
+            Rheinland-Pfalz/Saar
           </Text>
           <a
             href="https://vercel.com?utm_source=bdprps&utm_campaign=oss"

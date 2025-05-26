@@ -15,10 +15,10 @@ import Layout from './Layout'
 
 const nav = {
   '/': 'Startseite',
-  '/stamm': 'Stamm Tilia',
-  '/bdp': 'BdP',
-  '/landesverband': 'Landesverband',
-  '/digital': 'Digital',
+  '/stamm': 'Über uns',
+  '/bdp': 'Unser Bundesverband',
+  '/landesverband': 'Unser Landesverband',
+  '/digital': 'Digitales',
   '/kontakt': 'Kontakt',
 }
 
@@ -168,7 +168,7 @@ export default function Template({
           </Box>
           <Text>
             Copyright &copy; {new Date().getFullYear()} BdP Landesverband
-            Rheinland-Pfalz/Saarland
+            Rheinland-Pfalz/Saar
           </Text>
         </Box>
         <Box paddingTop={5}>

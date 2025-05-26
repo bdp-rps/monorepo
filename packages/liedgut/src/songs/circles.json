@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "          {G}              {D}                  {C}                        {G}\nIn the days gone by, when the world was much younger\n          {G}               {D}                      {C}          {D}        {G}\nmen wondered in spring, born of winter´s cold knife.\n  {G}                        {D}                     {C}                  {G}\nWondering oft he games oft he moon and the sunlight,\n{G}                   {D}                 {C}          {D}     {G}\nthey saw the Lady and the Lord of our life.\n\n       Round and around, and around turnst he good erarth;\n       all things must change, as the seasons go by.\n       We are the children oft he Lord and the Lady,\n       who´s mysteries we know, but we´ll never know why.\n\nIn all lands the people where tried tot he good earth,\nploughing and sowing as the seasons go by.\nWaiting to reap oft he rich golden harvest,\nknowing their joy in the laughs that they shared.\n\nTrough Flanders and Wales and the green land of Ireland,\nin the Kingdom of England and Scotland and Spain,\ncircles grew up all along in the wild coastlines\nand worked fort he land with the sun and the rain.\n\nCircles for healing and working the weather.\nCircles for knowing the moon and the sun.\nCircles for thanking the Lord and the Lady.\nCircles for dancing the dance´s never done.\n",
+  "content": "                                                                 \nIn the {G}days gone {D}by, when the {C} world was much {G}younger                                                 \n{G}men wondered in {D}spring, born of {C}winter´s  {D}cold {G}knife.                                                            \n{G}Wondering at the {D}games of the m{C}oon and the s{G}unlight,                                                \n{G}they saw there the {D} Lady and {C}Lord of  {D}all  {G}life.\n\n       Round and around, and around turns the good earth;\n       all things must change, as the seasons go by.\n       We are the children oft he Lord and the Lady,\n       who´s mysteries we know, but we´ll never know why.\n\nIn all lands the people where tried tot he good earth,\nploughing and sowing as the seasons go by.\nWaiting to reap oft he rich golden harvest,\nknowing their joy in the laughs that they shared.\n\nTrough Flanders and Wales and the green land of Ireland,\nin the Kingdom of England and Scotland and Spain,\ncircles grew up all along in the wild coastlines\nand worked fort he land with the sun and the rain.\n\nCircles for healing and working the weather.\nCircles for knowing the moon and the sun.\nCircles for thanking the Lord and the Lady.\nCircles for dancing the dance´s never done.\n",
   "title": "Circles",
   "words": [
     {
@@ -32,6 +32,14 @@
       "mail": "ronja.ley@gmx.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1740575277063,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Akkorde ordentlich in text eingebunden"
     }
-  ]
+  ],
+  "specialSettings": {}
 }

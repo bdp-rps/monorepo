@@ -1,0 +1,41 @@
+{
+  "notation": "G,G,|\"c\"C2 CD E2 DC|\"Es\"E2EF G2EE|\"B\"D2 B,B, F2 DD|\n\"F\"C2 CD C2 G,G,|\"c\" C2 CD E2 DC|\"Es\"E2 EF G2 EE|\"B\"D2 B,B, F2 DD|\n\"F\"C2 CD C2|:B,B,|\"c\"E2 DC C2 B,B,|\"F\"C2C2 z2:|",
+  "content": "Wenn der {c}Tauwind durchs lehmige {Es}Weidenland weht und der \n{B}schmutzige Schnee auf den {F}Feldern vergeht, ist der\n{c}Gräben Gefälle zu {Es}seicht und zu schwach; und es \n{B}steht bis zum Saum bald das {F}Land dass sich flach\n/: und in {c}Streifen erstreckt, unter {F}Wasser. :/\n\nLeer als hätte der gurgelnde Grund sich gesenkt, gleißt die \nFläche, die Weiden nun ragen verschränkt; finster\nteilen die Raine und Dämme die Flut, Nur ein \nWeiser, ein Kirchtumkreuz wirft seine Glut, \n/: seine strahlende schwarz übers Wasser. :/\n\nWeitab sthen nun die Flecken, zum Weg wird der Damm, selten \nstakt eine Zillle sich schwer durch den Schlamm; still und \nwarm wird die Luft, und mit grünlicher Haut über-\nziehn sich die Wellen, und lappiges Kraut\n/: keimt und treibt auf dem schlammigen Wasser. :/",
+  "title": "Land unter Wasser",
+  "words": [
+    {
+      "name": "Theodor Kramer",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Felix Dotterweich",
+      "nickname": "Fe",
+      "group": "Stamm Goldener Reiter",
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Wenn der Tauwind",
+  "tempo": 60,
+  "musicalKey": "Cm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1742472437363,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}

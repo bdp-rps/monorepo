@@ -3,7 +3,7 @@ import { Box, Text, Spacer } from '@bdp-rps/ui'
 
 export default () => (
   <React.Fragment>
-    <Text variant="subtitle">Pfadfindergeschichte</Text>
+    <Text variant="subtitle">Pfadigeschichte</Text>
     <Spacer size={4} />
     <Box space={6}>
       <Box space={2}>
@@ -24,26 +24,26 @@ export default () => (
           Die Pfadfinderidee war geboren.
           <br /> <br />
           Schnell wuchs diese Idee zu einer internationalen Jugendbewegung.
-          Heute gibt es in fast allen Ländern auf der Welt Pfadfinderinnen und
-          Pfadfinder, die die Idee von B.P. weiterleben.
+          Heute gibt es in fast allen Ländern auf der Welt Pfadfinder*innen, die
+          die Idee von B.P. weiterleben.
           <br /> <br />
           Seit 1909 entstand dann die Bewegung der Pfadfinderinnen, denn auch
           Mädchen begannen sich schnell für die Pfadfinderei zu interessieren
           und wollten, sicher auch durch die aufkommende Frauenbewegung stark
           beeinflusst, in diese Gemeinschaft aufgenommen werden.
           <br /> <br />
-          1920 fand das erste Weltpfadfindertreffen (Jamboree) statt. Rund 8000
-          Pfadfinder aus den verschiedensten Ländern, auch aus ehemals
-          verfeindeten Ländern des 1. Weltkriegs kamen in England zusammen.
-          Heute noch treffen sich alle vier Jahre Pfadfinderinnen und Pfadfinder
-          aus der ganzen Welt, um gemeinsam den internationalen Charakter der
+          1920 fand das erste Weltpfadfinder*innentreffen (Jamboree) statt. Rund
+          8000 Pfadfinder*innen aus den verschiedensten Ländern, auch aus
+          ehemals verfeindeten Ländern des 1. Weltkriegs kamen in England
+          zusammen. Heute noch treffen sich alle vier Jahre Pfadfinder*innen aus
+          der ganzen Welt, um gemeinsam den internationalen Charakter der
           Pfadfinderbewegung zu leben.
           <br /> <br />
           Da auch immer mehr jüngere Kinder in die Pfadfinderei strebten,
           entwickelte B.P. eine eigene altersgemäße Spielidee für Kinder ab ca.
           7 Jahren. Vorlage hierfür waren die Mowgli-Geschichten aus dem
           Dschungelbuch von Rudyard Kipling, englischer Schriftsteller und
-          Freund von B.P. Durch den Arzt Dr Alexander Lion kam der
+          Freund von B.P. Durch den Arzt Dr. Alexander Lion kam der
           Pfadfindergedanke von England nach Deutschland, fand durch das
           „Pfadfinderbuch“ schnelle Verbreitung und war die erste Wurzel
           deutscher Pfadfinderei.
@@ -72,12 +72,12 @@ export default () => (
           verliehen. Äußerlich sichtbar wird das zum Beispiel durch unsere
           Schwarzzelte, die Kohten und Jurten.
           <br /> <br />
-          Bündische und Pfadfindergruppen fanden dann ab 1933, mit der Zeit des
-          Nationalsozialismus, ihr vorübergehendes Ende. Sie wurden entweder
-          verboten oder in die Hitlerjugend eingegliedert, die das Monopol der
-          Jugenderziehung für sich beanspruchte.
+          Bündische und Pfadfinder*innengruppen fanden dann ab 1933, mit der
+          Zeit des Nationalsozialismus, ihr vorübergehendes Ende. Sie wurden
+          entweder verboten oder in die Hitlerjugend eingegliedert, die das
+          Monopol der Jugenderziehung für sich beanspruchte.
           <br /> <br />
-          Schon 1945 entstanden wieder die ersten Pfadfindergruppen in
+          Schon 1945 entstanden wieder die ersten Pfadfinder*innengruppen in
           Deutschland. Erst einzeln in den Westzonen lizensiert, bildeten sie
           1948 wieder bundesweite Verbände. Und als nationale Vertretung
           erlangte der heutige Ring deutscher Pfadfinderverbände 1950 die
@@ -97,7 +97,7 @@ export default () => (
           schließlich haben wir trotz unterschiedlichster Vergangenheiten und
           Entwicklungen eines gemeinsam:
           <br /> <br />
-          Wir sind Pfadfinderinnen und Pfadfinder!
+          Wir sind Pfadfinder*innen!
         </Text>
       </Box>
     </Box>

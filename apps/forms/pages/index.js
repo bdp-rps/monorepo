@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 export default function Page() {
   return (
     <Template>
-      <Layout paddingTop={10} paddingBottom={20} space={8}>
+      <Layout paddingTop={10} paddingBottom={20} space={4}>
         <NextLink href="/formulare/reisekosten" passHref>
           <Box
             padding={5}
@@ -20,7 +20,46 @@ export default function Page() {
               boxShadow: '0 0 4px rgba(0,0,0,0.2)',
               borderRadius: 8,
             }}>
-            <Text variant="category">Reisekosten - Auto</Text>
+            <Text variant="category">Reisekostenabrechnung - Auto</Text>
+          </Box>
+        </NextLink>
+        <NextLink href="/formulare/sonderurlaub" passHref>
+          <Box
+            padding={5}
+            as="a"
+            extend={{
+              textDecoration: 'none',
+              backgroundColor: 'white',
+              boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+              borderRadius: 8,
+            }}>
+            <Text variant="category">Antrag auf Sonderurlaub</Text>
+          </Box>
+        </NextLink>
+        <NextLink href="/formulare/teilnahme" passHref>
+          <Box
+            padding={5}
+            as="a"
+            extend={{
+              textDecoration: 'none',
+              backgroundColor: 'white',
+              boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+              borderRadius: 8,
+            }}>
+            <Text variant="category">Antrag auf Teilnahmebestätigung</Text>
+          </Box>
+        </NextLink>
+        <NextLink href="/formulare/anmeldung" passHref>
+          <Box
+            padding={5}
+            as="a"
+            extend={{
+              textDecoration: 'none',
+              backgroundColor: 'white',
+              boxShadow: '0 0 4px rgba(0,0,0,0.2)',
+              borderRadius: 8,
+            }}>
+            <Text variant="category">Antrag auf Anmeldebestätigung</Text>
           </Box>
         </NextLink>
       </Layout>

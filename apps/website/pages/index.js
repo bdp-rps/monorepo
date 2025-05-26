@@ -21,27 +21,31 @@ import PostTile from '../components/PostTile'
 import getEvents from '../utils/getEvents'
 
 import getBlogposts from '../api/getBlogposts'
+import InstaFeed from '../components/InstaFeed'
+
+import staemme from '../../../packages/shared/src/data/staemme.json'
 
 export default function page({ events, posts }) {
   const theme = useTheme()
 
-  const [firstPost, ...otherPosts] = posts
-
   return (
     <Template
-      description="Wir sind der Landesverband Rheinland-Pfalz/Saarland im Bund der
+      description="Wir sind der Landesverband Rheinland-Pfalz/Saar im Bund der
     Pfadfinderinnen und Pfadfinder">
       <Layout paddingTop={5} paddingBottom={5}>
         <Box space={2}>
-          <Text variant="category">Willkommen bei den Pfadfindern.</Text>
+          <Text variant="category">Willkommen bei den Pfadfinder*innen.</Text>
           <Text>
-            Wir sind der Landesverband Rheinland-Pfalz/Saarland im Bund der
-            Pfadfinderinnen und Pfadfinder.
+            Wir sind der Landesverband Rheinland-Pfalz/Saar im Bund der
+            Pfadfinder*innen.
             <br />
-            Unser Bund ist der größte interkonfessionelle Pfadfinderbund in
-            Deutschland.
+            Unser Bund ist der größte interkonfessionelle Pfadfinder*innenbund
+            in Deutschland.
             <br />
-            In Rheinland-Pfalz und im Saarland sind wir mit 22 Gruppen präsent.
+            In Rheinland-Pfalz und im Saarland sind wir mit {
+              staemme.length
+            }{' '}
+            Gruppen präsent.
           </Text>
         </Box>
       </Layout>
@@ -52,19 +56,10 @@ export default function page({ events, posts }) {
         paddingBottom={10}
         extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
         <Text variant="subtitle">Das läuft bei uns.</Text>
-        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-          <Box grow={5}>
-            <PostTile highlight {...firstPost} />
-          </Box>
-          <Box grow={1} space={4}>
-            {otherPosts.splice(0, 2).map((post, index) => (
-              <PostTile key={index} {...post} />
-            ))}
-          </Box>
-        </Box>
-        <Box paddingTop={9} alignSelf="flex-start" alignItems="flex-start">
-          <Button href="/blog" size="large">
-            Weitere Beiträge
+        <Box paddingTop={2} space={4}>
+          <Text>Unser Feed ist komplett auf Instagram umgezogen!</Text>
+          <Button href="https://www.instagram.com/pfadfinden_rps/">
+            Instagram aufrufen
           </Button>
         </Box>
       </Layout>
@@ -74,17 +69,12 @@ export default function page({ events, posts }) {
 
 export async function getStaticProps() {
   const events = await getEvents()
-  const posts = await getBlogposts()
 
   return {
     // alle 20 minuten
     revalidate: 1200,
     props: {
       events,
-      posts: posts.data.sort(
-        (a, b) =>
-          new Date(b.attributes.publish) - new Date(a.attributes.publish)
-      ),
     },
   }
 }
