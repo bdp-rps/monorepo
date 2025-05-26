@@ -1,0 +1,12 @@
+{
+  "name": "activity-uploader",
+  "version": "1.0.0",
+  "description": "Script to upload activities to Strapi API",
+  "main": "uploadActivities.js",
+  "scripts": {
+    "start": "node uploadActivities.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}

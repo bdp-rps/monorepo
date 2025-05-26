@@ -43,3 +43,6 @@ out
 .vscode
 .turbo
 .env
+
+# Activity documents
+activity-docs/
