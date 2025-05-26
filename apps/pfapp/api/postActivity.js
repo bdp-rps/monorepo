@@ -14,8 +14,9 @@ async function postActivity(req) {
       }),
     })
 
+    console.log('before', response)
     const responseData = await response.json()
-
+    console.log('responseData', responseData)
     if (!response.ok) {
       throw new Error(
         `HTTP error! status: ${response.status}, message: ${JSON.stringify(

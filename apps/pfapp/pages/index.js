@@ -20,12 +20,12 @@ import { getActivities } from '../api/getActivities'
 function ActivityListItem({ id, title, description, groupType }) {
   return (
     <ListItem href={'/' + id}>
-      <Box>
-        <Box direction="row" space={2}>
+      <Box direction="row" space={2} alignItems="center">
+        {GroupType.toIcon(groupType, 24)}
+        <Box>
           <Text color="blue">{title}</Text>
-          {GroupType.toIcon(groupType, 24)}
+          <Text>{description}</Text>
         </Box>
-        <Text>{description}</Text>
       </Box>
     </ListItem>
   )
