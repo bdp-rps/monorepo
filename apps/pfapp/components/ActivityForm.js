@@ -356,7 +356,7 @@ export default () => {
           justifyContent="space-between">
           <Box flex="1">
             <SelectInput label="Ort" {...fields.location.props}>
-              <option value={undefined}>keine Angabe</option>
+              <option value={undefined}>egal</option>
               {Location.values.map((location) => (
                 <option value={location} key={location}>
                   {Location.toText(location)}
@@ -377,7 +377,7 @@ export default () => {
           </Box>
           <Box flex="1">
             <SelectInput label="Gruppengröße" {...fields.size.props}>
-              <option value={undefined}>keine Angabe</option>
+              <option value={undefined}>egal</option>
               {Size.values.map((size) => {
                 return (
                   <option key={size} value={size}>
@@ -389,7 +389,7 @@ export default () => {
           </Box>
           <Box flex="1">
             <SelectInput label="Jahreszeit" {...fields.season.props}>
-              <option value={undefined}>keine Angabe</option>
+              <option value={undefined}>egal</option>
               {Season.values.map((season) => {
                 return (
                   <option value={season} key={season}>
