@@ -1,6 +1,6 @@
 const STRAPI_URL = 'https://docs.bdp-rps.de'
 
-export default async function postActivitySlots(req) {
+async function postActivitySlots(req) {
   return await fetch(STRAPI_URL + '/api/activity-slots', {
     method: 'POST',
     headers: {
@@ -13,3 +13,5 @@ export default async function postActivitySlots(req) {
     }),
   })
 }
+
+module.exports = postActivitySlots

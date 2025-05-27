@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import {
   Box,
   Link,
@@ -8,7 +8,9 @@ import {
   useTheme,
   useField,
   IconLilie,
+  SelectInput,
 } from '@bdp-rps/ui'
+import { useRouter } from 'next/router'
 
 import ListItem from '../components/ListItem'
 import Layout from '../components/Layout'
@@ -20,12 +22,12 @@ import { getActivities } from '../api/getActivities'
 function ActivityListItem({ id, title, description, groupType }) {
   return (
     <ListItem href={'/' + id}>
-      <Box>
-        <Box direction="row" space={2}>
+      <Box direction="row" space={2} alignItems="center">
+        {GroupType.toIcon(groupType, 24)}
+        <Box>
           <Text color="blue">{title}</Text>
-          {GroupType.toIcon(groupType, 24)}
+          <Text>{description}</Text>
         </Box>
-        <Text>{description}</Text>
       </Box>
     </ListItem>
   )
@@ -51,17 +53,16 @@ function ActivityList({ activities }) {
 export default function Page({ activities }) {
   return (
     <Template>
-      <ActivityList activities={activities} />
+      <Layout paddingTop={4}>
+        <ActivityList activities={activities} />
+      </Layout>
     </Template>
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps({ query }) {
   const activities = await getActivities()
-
   return {
-    // alle 5 minuten
-    revalidate: 300,
     props: {
       activities: activities.data,
     },

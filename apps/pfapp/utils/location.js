@@ -7,7 +7,7 @@ let toText = (location) => {
     case 'INSIDE':
       return 'drinnen'
     default:
-      return 'Keine Angaben'
+      return 'egal'
   }
 }
 

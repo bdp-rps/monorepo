@@ -18,6 +18,8 @@ import {
   Radio,
 } from '@bdp-rps/ui'
 
+import { useRouter } from 'next/router'
+
 import TimeSlotForm from './TimeSlotForm'
 
 import Location from '../utils/location'
@@ -30,12 +32,65 @@ import postActivitySlots from '../api/postActivitySlots'
 import axios from 'axios'
 import { IconMinus, IconPlus } from '@bdp-rps/ui/lib/components/icons'
 
-const FileInput = ({ handleFileChange }) => {
+const useFileUpload = () => {
+  const [file, setFile] = React.useState(null)
+  const [isUploading, setIsUploading] = React.useState(false)
+  const [error, setError] = React.useState(null)
+
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0])
+    setError(null)
+  }
+
+  const uploadFile = async () => {
+    if (!file) return null
+
+    setIsUploading(true)
+    setError(null)
+
+    try {
+      const formData = new FormData()
+      formData.append('files', file)
+      const response = await axios.post(
+        'https://docs.bdp-rps.de/api/upload',
+        formData
+      )
+      return response.data[0].id
+    } catch (error) {
+      setError('Failed to upload file. Please try again.')
+      console.error('File upload error:', error)
+      return null
+    } finally {
+      setIsUploading(false)
+    }
+  }
+
+  return {
+    file,
+    isUploading,
+    error,
+    handleFileChange,
+    uploadFile,
+  }
+}
+
+const FileInput = ({ handleFileChange, error }) => {
   return (
-    <Box direction="row" space={1} alignItems="center">
-      <Box>
-        <input type="file" onChange={handleFileChange} />
+    <Box direction="column" space={1}>
+      <Box direction="row" space={1} alignItems="center">
+        <Box>
+          <input
+            type="file"
+            onChange={handleFileChange}
+            aria-label="Upload file"
+          />
+        </Box>
       </Box>
+      {error && (
+        <Text color="error" variant="note">
+          {error}
+        </Text>
+      )}
     </Box>
   )
 }
@@ -84,6 +139,7 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
         onClose={() => setModalVisible(false)}>
         <Box space={2} padding={2} minWidth={350}>
           <TextInput
+            onBlur={() => {}}
             onChange={(e) => setCurrentMaterialInput(e.target.value)}
           />
           <Box direction="row" justifyContent="space-between" space={2}>
@@ -144,7 +200,7 @@ const MaterialInput = ({ field, materials, setMaterials }) => {
   )
 }
 
-export default () => {
+const useActivityFormFields = () => {
   const title = useField({
     name: 'title',
     required: true,
@@ -167,7 +223,6 @@ export default () => {
   const season = useField({
     name: 'season',
   })
-
   const preperation = useField({
     name: 'preperation',
     default: 0,
@@ -191,45 +246,36 @@ export default () => {
     uploadedBy
   )
 
-  const defaultForTest = [
-    {
-      title: 'Loremo Ipsum',
-      description:
-        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+  return {
+    fields: {
+      title,
+      description,
+      location,
+      groupType,
+      size,
+      season,
+      preperation,
+      uploadedBy,
+      materials,
     },
-  ]
+    submit,
+    reset,
+  }
+}
 
-  const [timeSlots, setTimeSlots] = React.useState((_) => [])
-
-  //TODO: move this to useForm somehow the changes are not applied for me
-  // too stupid
+export default () => {
+  const router = useRouter()
+  const { fields, submit, reset } = useActivityFormFields()
+  const [timeSlots, setTimeSlots] = React.useState([])
   const [isLoading, setIsLoading] = React.useState(false)
-  // const [attachmentId, setAttachmentId] = React.useState(null)
-
-  const timeslotsAreEmpty = timeSlots.length == 0
-
-  const [file, setFile] = React.useState()
-  const handleFileChange = (e) => {
-    setFile(e.target.files[0])
-  }
-  const handleFileUpload = () => {
-    if (file) {
-      const formData = new FormData()
-      formData.append('files', file)
-      return axios
-        .post('https://docs.bdp-rps.de/api/upload', formData)
-        .then((response) => {
-          return response
-        })
-        .catch((error) => {
-          //TODO: Proper error handling
-          console.error('File upload error:', error)
-        })
-    }
-  }
-
+  const timeslotsAreEmpty = timeSlots.length === 0
+  const { file, isUploading, error, handleFileChange, uploadFile } =
+    useFileUpload()
   const [materialsData, setMaterialsData] = React.useState([])
   const [modalVisible, setModalVisible] = useScrollBlockingOverlay(false)
+
+  const [responseModalVisible, setResponseModalVisible] =
+    useScrollBlockingOverlay(false)
 
   return (
     <Box paddingVertical={4}>
@@ -241,66 +287,76 @@ export default () => {
           e.preventDefault()
           submit(async (isValid, data) => {
             if (isValid) {
-              setIsLoading((_) => true)
-              //TODO: Separate the different uploads
-              //in functions to make it more readable and maintainable
+              setIsLoading(true)
 
-              const fileResponse = file ? await handleFileUpload() : null
+              try {
+                const fileId = await uploadFile()
 
-              const fileId = fileResponse?.data[0].id
+                const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
+                  const { description, title } = timeSlot
+                  return postActivitySlots({
+                    description,
+                    title,
+                  })
+                })
 
-              const postActivitySlotsPromises = timeSlots.map((timeSlot) => {
-                const { description, title } = timeSlot
-                return postActivitySlots({
+                const activitySlots = await Promise.all(
+                  postActivitySlotsPromises
+                )
+
+                const activitySlotIds = await Promise.all(
+                  activitySlots.map((res) =>
+                    res.json().then(({ data }) => data.id)
+                  )
+                )
+
+                const {
                   description,
+                  groupType,
+                  location,
+                  preperation,
+                  size,
                   title,
-                }).then((res) => res.json())
-              })
-              const activitySlots = await Promise.all(postActivitySlotsPromises)
-              const activitySlotIds = activitySlots.map((res) => res.data.id)
+                  uploadedBy,
+                  season,
+                } = data
 
-              const {
-                description,
-                groupType,
-                location,
-                preperation,
-                size,
-                title,
-                uploadedBy,
-                season,
-              } = data
-              //TODO: Try catch for error handling
-              //TODO maybe move the whole logic of not sending stuff if its empty to the api file
-              const result = await postActivity({
-                description,
-                groupType,
-                location: location != '' ? location : undefined,
-                size: size != '' ? size : undefined,
-                season: season != '' ? season : undefined,
-                attachment: fileId ? [fileId] : undefined,
-                preperation: preperation != '' ? preperation : undefined,
-                title,
-                uploadedBy,
-                activity_slots: activitySlotIds,
-              }).then((activity) => activity.json())
-              setTimeSlots((_) => [])
-              setIsLoading((_) => false)
-              reset()
+                await postActivity({
+                  description,
+                  groupType,
+                  location: location || undefined,
+                  size: size || undefined,
+                  season: season || undefined,
+                  attachment: fileId ? [fileId] : undefined,
+                  preperation: preperation || undefined,
+                  title,
+                  uploadedBy,
+                  activity_slots: activitySlotIds,
+                })
+
+                setTimeSlots([])
+                setResponseModalVisible(true)
+                reset()
+              } catch (error) {
+                console.error('Failed to submit activity:', error)
+              } finally {
+                setIsLoading(false)
+              }
             }
           })
         }}>
         <Box flex="1">
-          <TextInput label="Titel" {...title.props} />
+          <TextInput label="Titel" {...fields.title.props} />
         </Box>
-        <TextArea label="Beschreibung" {...description.props} />
+        <TextArea label="Beschreibung" {...fields.description.props} />
         <Box
           direction="row"
           wrap="wrap"
           extend={{ gap: 8 }}
           justifyContent="space-between">
           <Box flex="1">
-            <SelectInput label="Ort" {...location.props}>
-              <option value={undefined}>keine Angabe</option>
+            <SelectInput label="Ort" {...fields.location.props}>
+              <option value={undefined}>egal</option>
               {Location.values.map((location) => (
                 <option value={location} key={location}>
                   {Location.toText(location)}
@@ -309,7 +365,7 @@ export default () => {
             </SelectInput>
           </Box>
           <Box flex="1">
-            <SelectInput label="Stufe" {...groupType.props}>
+            <SelectInput label="Stufe" {...fields.groupType.props}>
               {GroupType.values.map((type) => {
                 return (
                   <option value={type} key={type}>
@@ -320,8 +376,8 @@ export default () => {
             </SelectInput>
           </Box>
           <Box flex="1">
-            <SelectInput label="Gruppengröße" {...size.props}>
-              <option value={undefined}>keine Angabe</option>
+            <SelectInput label="Gruppengröße" {...fields.size.props}>
+              <option value={undefined}>egal</option>
               {Size.values.map((size) => {
                 return (
                   <option key={size} value={size}>
@@ -332,8 +388,8 @@ export default () => {
             </SelectInput>
           </Box>
           <Box flex="1">
-            <SelectInput label="Jahreszeit" {...season.props}>
-              <option value={undefined}>keine Angabe</option>
+            <SelectInput label="Jahreszeit" {...fields.season.props}>
+              <option value={undefined}>egal</option>
               {Season.values.map((season) => {
                 return (
                   <option value={season} key={season}>
@@ -347,17 +403,17 @@ export default () => {
             <TextInput
               label="Vorbereitungszeit (Minuten)"
               type="number"
-              {...preperation.props}
+              {...fields.preperation.props}
             />
           </Box>
         </Box>
 
         <Box>
-          <FileInput handleFileChange={handleFileChange} />
+          <FileInput handleFileChange={handleFileChange} error={error} />
         </Box>
 
         <MaterialInput
-          field={materials}
+          field={fields.materials}
           materials={materialsData}
           setMaterials={setMaterialsData}
         />
@@ -366,13 +422,13 @@ export default () => {
           <Box>
             <TextInput
               label="Wer ist so nett und erstellt diese Gruppenstunde?"
-              {...uploadedBy.props}
+              {...fields.uploadedBy.props}
             />
           </Box>
           <Box alignSelf="flex-start" space={2}>
             <Button
               type="submit"
-              loading={isLoading}
+              loading={isLoading || isUploading}
               disabled={timeslotsAreEmpty}>
               Gruppenstunde erstellen
             </Button>
@@ -411,7 +467,6 @@ export default () => {
           </Box>
         </Box>
       </Box>
-      {/* TODO: Make this hiding with button */}
       <Modal
         title="Zeitblock hinzufügen"
         visible={modalVisible}
@@ -427,6 +482,30 @@ export default () => {
             setModalVisible(false)
           }}
         />
+      </Modal>
+      <Modal
+        title="Gruppenstunde erstellt"
+        visible={responseModalVisible}
+        zIndex={10}
+        onClose={() => setResponseModalVisible(false)}>
+        <Box>
+          <Text>Die Gruppenstunde wurde erfolgreich erstellt.</Text>
+          <Box direction="row" justifyContent="space-between" space={2}>
+            <Button
+              onClick={(_) => {
+                setResponseModalVisible(false)
+                router.push('/')
+              }}>
+              Zurück zur Startseite
+            </Button>
+            <Button
+              onClick={(_) => {
+                setResponseModalVisible(false)
+              }}>
+              Weitere Gruppenstunden hinzufügen
+            </Button>
+          </Box>
+        </Box>
       </Modal>
     </Box>
   )
