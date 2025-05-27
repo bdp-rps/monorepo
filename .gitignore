@@ -28,6 +28,7 @@ packages/react-pdf/dist
 apps/liedgut/public/dist
 apps/endlichwieder/public/groups
 packages/ui/src/components/icons/js
+apps/pfapp/scripts/uploadActivities.js
 
 yarn.lock
 
@@ -45,5 +46,3 @@ out
 .env
 
 # Activity documents
-activity-docs/
-scripts/uploadActivities.js
