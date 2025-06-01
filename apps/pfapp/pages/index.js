@@ -22,11 +22,17 @@ import { getActivities } from '../api/getActivities'
 function ActivityListItem({ id, title, description, groupType }) {
   return (
     <ListItem href={'/' + id}>
-      <Box direction="row" space={2} alignItems="center">
-        {GroupType.toIcon(groupType, 24)}
-        <Box>
+      <Box
+        direction="row"
+        space={2}
+        alignItems="center"
+        extend={{ overflow: 'hidden' }}>
+        <Box width={36} height={36} flex="none">
+          {GroupType.toIcon(groupType, 24)}
+        </Box>
+        <Box flex={1}>
           <Text color="blue">{title}</Text>
-          <Text>{description}</Text>
+          <Text variant="note">{description}</Text>
         </Box>
       </Box>
     </ListItem>

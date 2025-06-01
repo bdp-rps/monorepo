@@ -1,8 +1,9 @@
 const STRAPI_URL = 'https://docs.bdp-rps.de'
 
-function getActivities(filters = {}) {
+function getActivities(filters = {}, page = 1) {
   // Convert filters object to query string
   const queryParams = new URLSearchParams()
+  queryParams.append('pagination[page]', page)
 
   if (filters.groupType) {
     const groupTypes = filters.groupType.split(',')
