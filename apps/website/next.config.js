@@ -21,8 +21,8 @@ const config = {
       },
       {
         // redirect link aus ohrwurm
-        destination: '/landesverband/weltreise',
-        source: '/weltreise',
+        source: '/landesverband/weltreise',
+        destination: '/weltreise',
         permanent: true,
       },
     ]

@@ -23,6 +23,12 @@ const staticStyle = [
     },
   },
   {
+    selector: 'div',
+    style: {
+      maxWidth: '100%',
+    },
+  },
+  {
     selector: '#__next',
     style: { display: 'flex' },
   },
