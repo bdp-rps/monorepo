@@ -19,6 +19,7 @@ const nav = {
   '/': 'Startseite',
   '/bdp': 'BdP',
   '/landesverband': 'Landesverband',
+  '/weltreise': 'RPS Weltreise',
   'https://cloud.bdp-rps.de': 'Cloud',
   '/landesverband/landesleitung': 'Kontakt',
 }
@@ -42,7 +43,6 @@ const subNavs = {
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
     // '/mailverteiler': 'Mailverteiler',
-    '/weltreise': 'RPS Weltreise',
   },
 }
 

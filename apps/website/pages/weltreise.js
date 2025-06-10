@@ -15,10 +15,10 @@ import {
 } from '@bdp-rps/ui'
 import { format } from 'small-date'
 
-import Layout from '../../components/Layout'
-import Template from '../../components/Template'
+import Layout from '../components/Layout'
+import Template from '../components/Template'
 
-const MapView = dynamic(() => import('../../components/MapView'), {
+const MapView = dynamic(() => import('../components/MapView'), {
   ssr: false,
 })
 
@@ -64,7 +64,11 @@ export default ({ data }) => {
             </Card>
             <Text>Projektbeschreibung.</Text>
             <Box alignSelf="flex-start">
-              <Button href="">Fahrt einreichen</Button>
+              <Button
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc7_MK0Xqk6rfIlKDksg5SmzzYtkqObBZWCob8kOu-2fRBx0g/viewform?usp=dialog"
+                target="_blank">
+                Fahrt einreichen
+              </Button>
             </Box>
           </Box>
 
@@ -73,9 +77,10 @@ export default ({ data }) => {
           <Box space={4}>
             <Text variant="category">Fahrtenbuch</Text>
             {data.length > 0 ? (
-              <Grid gap={3} columns={['1fr', '1fr 1fr']}>
-                {data.map((entry) => (
+              <Box space={3}>
+                {data.map((entry, index) => (
                   <Entry
+                    key={index}
                     groups={entry['Stämme (semikolon-getrennt)']}
                     groupName={entry['Gruppenname (optional)']}
                     startDate={entry['Von']}
@@ -84,9 +89,10 @@ export default ({ data }) => {
                     distance={entry['Kilometer']}
                     location={entry['Fahrtengebiet'].split(',')}
                     report={entry['Fahrtenbericht (optional)']}
+                    images={entry['Fotos (optional)']}
                   />
                 ))}
-              </Grid>
+              </Box>
             ) : (
               <Text>Bisher wurden noch keine Fahrten eingereicht.</Text>
             )}
@@ -108,10 +114,13 @@ function Entry({
   distance,
   report,
   location,
+  images = '',
 }) {
+  const files = images.split(',').filter(Boolean)
+
   return (
     <Card extend={{ padding: 0 }}>
-      <Box grow={1}>
+      <Box direction="row" grow={1}>
         <Box grow={1} space={3} padding={4}>
           <Box direction="row" justifyContent="space-between">
             <Box>
@@ -140,9 +149,18 @@ function Entry({
               </Text>
             </Box>
           )}
+          {files.length > 0 && (
+            <img
+              width={400}
+              height={300}
+              src={files[0]}
+              style={{ objectFit: 'cover' }}
+            />
+          )}
         </Box>
-
-        <MapView position={location} radius={(distance * 1000) / 2} />
+        <Box width={300} height="100%">
+          <MapView position={location} radius={(distance * 1000) / 2} />
+        </Box>
       </Box>
     </Card>
   )
