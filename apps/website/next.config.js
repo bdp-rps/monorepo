@@ -19,6 +19,12 @@ const config = {
         destination: '/landesverband/liedgut',
         permanent: true,
       },
+      {
+        // redirect link aus ohrwurm
+        destination: '/landesverband/weltreise',
+        source: '/weltreise',
+        permanent: true,
+      },
     ]
   },
 }
