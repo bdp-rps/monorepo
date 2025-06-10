@@ -42,7 +42,7 @@ const subNavs = {
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
     // '/mailverteiler': 'Mailverteiler',
-    // '/weltreise': 'RPS Weltreise',
+    '/weltreise': 'RPS Weltreise',
   },
 }
 
