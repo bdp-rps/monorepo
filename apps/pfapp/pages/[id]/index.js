@@ -14,7 +14,6 @@ import {
 import Layout from '../../components/Layout'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-import ActivityTable from '../../components/ActivityTable'
 
 import { getActivities } from '../../api/getActivities'
 import { getActivity } from '../../api/getActivity'
@@ -62,6 +61,18 @@ export default function Page({ activitySlots, activity, materials }) {
             <Card>
               <Text>{description}</Text>
             </Card>
+            {activity.material ? (
+              <Box flex={1}>
+                <Card>
+                  <Box space={2}>
+                    <Text variant="category">Materialien:</Text>
+                    <Text>
+                      {activity.material?.map(({ name }) => name).join(', ')}
+                    </Text>
+                  </Box>
+                </Card>
+              </Box>
+            ) : null}
             <Box space={2}>
               <Text variant="category">Zeitplan:</Text>
               <Box
@@ -93,20 +104,7 @@ export default function Page({ activitySlots, activity, materials }) {
                   </Box>
                 </Card>
               </Box>
-
               <Box flex={1} space={2}>
-                {/* TODO: */}
-                {/* {materials && (
-                  <Card>
-                    <Box space={2}>
-                      <Text variant="category">Materialien:</Text>
-                      <Box alignItems="start">
-                        <Text>{materials}</Text>
-                      </Box>
-                    </Box>
-                  </Card>
-                )} */}
-
                 {attachment.data != null && (
                   <Card>
                     <Box space={2}>
@@ -137,7 +135,7 @@ export async function getStaticPaths() {
   const activities = await getActivities()
   const ids = activities.data.map((activity) => activity.id)
   return {
-    fallback: false,
+    fallback: 'blocking',
     paths: ids.map((id) => ({
       params: {
         id: id.toString(),
@@ -148,6 +146,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const activityData = await getActivity(params.id)
+
   const activity = activityData.data.attributes
 
   const activitySlots = activity.activity_slots.data.map(
@@ -159,12 +158,6 @@ export async function getStaticProps({ params }) {
       }
     }
   )
-
-  //TODO: MATERIALIEN!!
-
-  // const materials = activity
-  //   .map((timeSlot) => timeSlot.materials)
-  //   .join(',')
 
   const props = {
     activity,
