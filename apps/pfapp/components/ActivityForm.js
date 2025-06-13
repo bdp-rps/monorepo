@@ -51,6 +51,7 @@ const useFileUpload = () => {
     try {
       const formData = new FormData()
       formData.append('files', file)
+      
       const response = await axios.post(
         'https://docs.bdp-rps.de/api/upload',
         formData
