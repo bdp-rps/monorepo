@@ -1,0 +1,41 @@
+{
+  "notation": "",
+  "content": "Små {C}grodorna, små grodorna är lustiga att {G}se.\nSmå grodorna, små grodorna är lustiga att {C}se.\nEj öron, ej öron, ej svansar hava {G}de.\nEj öron, ej öron, ej svansar hava {C}de.\n\n/: Kou ack ack ack, kou ack ack ack,\nkou ack ack ack ack kaa. :/\n\n/: Små grisarna, små grisarna är lustiga att se. :/\n/: Båd svansar, båd svansar, och öron hava de. :/\n\n/: Å nöff, nöff, nöff, å nöff, nöff, nöff,\nå nöff, nöff, nöff, nöff, nöff. :/",
+  "title": "Små grodorna",
+  "words": [
+    {
+      "name": "schwedisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "schwedisches Volkslied",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "80",
+  "musicalKey": "",
+  "info": "Små grodorna (Die kleinen Frösche) gehört zu jeder traditionellen schwedischen Mittsommerfeier.\nMan tanzt im Kreis um den Maibaum, macht dazu Handbewegungen (an den Kopf fassen = fehlende Ohren, hinten wackeln = fehlende Schwänzchen) und hüpft wie Frösche – für Kinder und Erwachsene gleichermaßen Pflichtprogramm. \n\nDie Melodie stammt nicht aus Schweden, sondern aus dem Refrain des französischen Revolutionsmarsches \"La Chanson de l’Oignon\".\nBritische Soldaten verspotteten damals die Franzosen als \"Frogs\" und änderten den Text im Refrain zu \"Au pas, grenouilles!\" (\"Im Gleichschritt, Fröschlein!\"). Über unbekannte Wege gelangte die Melodie später nach Schweden und bekam dort ihren heutigen Text.\n\nDeutsche Übersetzung:\nDie kleinen Frösche, die kleinen Frösche sind lustig anzuschauen.\nKeine Ohren, keine Ohren, keine Schwänzchen haben sie.\n\nDie kleinen Schweinchen, die kleinen Schweinchen sind lustig anzuschauen.\nAuch Schwänzchen, auch Schwänzchen und Ohren haben sie.",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1750673817415,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
