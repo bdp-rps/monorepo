@@ -9,6 +9,14 @@
       "group": "",
       "organisation": "",
       "year": ""
+    },
+    {
+      "name": "Florian Erdbeer",
+      "nickname": "Übersetzung: Flo",
+      "group": "Stamm Raugrafen",
+      "organisation": "BdP",
+      "year": "",
+      "critical": false
     }
   ],
   "tune": [
@@ -33,6 +41,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1751272254913,
+      "name": "Flo",
+      "mail": "Florian.erdbeer@posteo.de",
+      "type": "update",
+      "content": "Übersetzung Autor Anpassung :)"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
