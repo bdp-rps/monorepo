@@ -32,21 +32,13 @@ export default () => {
               durch:
               <br />
               Verantwortlicher: <br />
-              Bund der Pfadfinderinnen und Pfadfinder e.V. (BdP)
+              DataFreshup GmbH <br />
+              Von-Arenberg-Straße 38 <br />
+              D-40668 Meerbusch <br />
               <br />
-              vertr. d. d. Vorstand
-              <br />
-              Kesselhaken 23, 34376 Immenhausen
-              <br />
-              Telefon: +49 5673-99584-0
-              <br />
-              Telefax: +49 5673-99584-44
-              <br />
-              E-Mail: info@pfadfinden.de
-              <br /> <br />
-              Die Datenschutzbeauftragte des BdP e.V. ist unter der o.g.
-              Anschrift, zu Hd. Silvia Houda, beziehungsweise unter
-              datenschutz@pfadfinden.de erreichbar.
+              Tel: +49 2159 9259 101 <br />
+              E-mail: andonie@datafreshup.de <br />
+              Web: www.datafreshup.de <br />
             </Text>
           </Box>
           <Box space={6}>
@@ -216,8 +208,8 @@ export default () => {
               ohne Angabe einer besonderen Situation von uns umgesetzt wird.
               Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch
               machen, genügt eine E-Mail an{' '}
-              <Link href="mailto:datenschutz@pfadfinden.de">
-                datenschutz@pfadfinden.de
+              <Link href="mailto:andonie@datafreshup.de">
+                andonie@datafreshup.de
               </Link>
               .
             </Text>
