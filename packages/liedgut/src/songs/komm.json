@@ -2,8 +2,26 @@
   "notation": "",
   "content": "Ko{C}mm, komm, komm, komm, komm lass uns zum Chin{G}esen gehen.\nOder lieber Piz{a}za, Magerit{F}ha, haha{G}haha\nIst d{C}ir schon mal aufgefallen, dass du wie eine P{G}izza heißt?\nNämlich Mageri{a}tha. Und ge{F}nauso wie sie hast du ü{G}berhaupt nichts drauf.\n\nIst es Z{F}ufall oder Schicksal? Ich w{G}eiß es nicht.\nHey es is{C}t mir egal, denn ich li{a}ebe dich, e{F}gal wie du heißt und w{G}as du auch tust.\n\nKomm, komm, komm, komm, komm, lass uns doch zum Inder gehen. \nAch ne du stehst auf Rinder, liebe Linda. Hahahaha\nIst dir schonmal aufgefallen, dass dein Name sich auf Tiere reimt?\nNämlich auf Rinder. Und genauso wie sie würgst du wieder alles hoch.\n\nKomm, komm, komm, komm, komm, lass uns doch was trinken gehen. \nWie wärs mit Cola, Viola? Hahahaha\nIst dir schonmal aufgefallen, dass du wie eine Bratsche heißt? Nämlich Viola\nund genauso wie sie wirst du nie die erste Geige spielen\n\nIst es Zufall oder Schicksal ich weiß es nicht\nHey es ist mir egal, denn ich liebe dich, egal wie du heißt und was du auch bist ...komm!",
   "title": "Komm!",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Jan-Philipp Dopke",
+      "nickname": "Janphi",
+      "group": "",
+      "organisation": "Ev. Jugenschaft Tyrker",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jan-Philipp Dopke",
+      "nickname": "Janphi",
+      "group": "",
+      "organisation": "Ev. Jugenschaft Tyrker",
+      "year": "",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "",
   "alternativeTitle": "",
@@ -17,6 +35,14 @@
       "mail": "floro.nele@web.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1751393140579,
+      "name": "Flo",
+      "mail": "Florian.erdbeer@posteo.de",
+      "type": "update",
+      "content": "Autor ergänzte "
     }
-  ]
+  ],
+  "specialSettings": {}
 }
