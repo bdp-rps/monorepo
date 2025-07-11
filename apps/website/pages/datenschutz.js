@@ -38,7 +38,7 @@ export default () => {
               <br />
               Tel: +49 2159 9259 101 <br />
               E-mail: andonie@datafreshup.de <br />
-              Web: www.datafreshup.de <br />
+              Web: www.datafreshup.de
             </Text>
           </Box>
           <Box space={6}>
