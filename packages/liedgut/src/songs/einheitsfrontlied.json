@@ -1,9 +1,27 @@
 {
   "notation": "",
-  "content": "Und {e}weil der Mensch ein {H7}Mensch ist, drum braucht er was zum Essen, bitte {e}sehr!\nEs {G}macht ihn {E7}ein {a}Geschwätz nicht satt, das {H7}schafft kein Essen {e}her.\n\nRef.:\t Drum {e}links, zwei, drei! {a}Drum {H7}links, zwei, drei!\nWo dein {e}Platz, {E7}Genosse, {a}ist!\nReih dich ein in die Arbeiter{e}einheits{C}front, weil du {H7}auch ein Arbeiter {e}bist.\n\nUnd weil der Mensch ein Mensch ist, drum braucht er auch Kleider und Schuh'!\nEs macht ihn ein Geschwätz nicht warm und auch kein Trommeln dazu!\n\nUnd weil der Mensch ein Mensch ist, drum hat er Stiefel im Gesicht nicht gern!\nEr will unter sich keinen Sklaven sehn und über sich keinen Herrn.\n\nUnd weil der Prolet ein Prolet ist, drum wird ihn auch kein anderer befrein.\nEs kann die Befreiung der Arbeiter nur das Werk der Arbeiter sein.",
+  "content": "Und {e}weil der Mensch ein {H7}Mensch ist, drum braucht er was zum Essen, bitte {e}sehr!\nEs {G}macht ihn {E7}ein {a}Geschwätz nicht satt, das {H7}schafft kein Essen {e}her.\n\nDrum {e}links, zwei, drei! {a}Drum {H7}links, zwei, drei!\nWo dein {e}Platz, {E7}Genosse, {a}ist!\nReih dich ein in die Arbeiter{e}einheits{C}front, weil du {H7}auch ein Arbeiter {e}bist.\n\nUnd weil der Mensch ein Mensch ist, drum braucht er auch Kleider und Schuh!\nEs macht ihn ein Geschwätz nicht warm und auch kein Trommeln dazu!\n\nUnd weil der Mensch ein Mensch ist, drum hat er Stiefel im Gesicht nicht gern!\nEr will unter sich keinen Sklaven sehn und über sich keinen Herrn.\n\nUnd weil der Prolet ein Prolet ist, drum wird ihn auch kein anderer befrein.\nEs kann die Befreiung der Arbeiter nur das Werk der Arbeiter sein.",
   "title": "Einheitsfrontlied",
-  "words": [],
-  "tune": [],
+  "words": [
+    {
+      "name": "Bertholt Brecht",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1934",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Hanns Eisler",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "1934",
+      "critical": false
+    }
+  ],
   "translation": [],
   "beat": "4/4",
   "tempo": 60,
@@ -15,7 +33,16 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1753097731647,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {},
+  "musicalKey": "Em"
 }
