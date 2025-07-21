@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "/:{e}Tanzen die {H7}Dohlen und {e}treiben {H7}überm {e}Grund. :/\n/:{G}In öden {D}Felsen, {C}da ist mein {D}Lied {G}allein,\nnur die {e}Nebelt點her zieh'n {a}mit ihm {H7}durch den Stein. :/ {e}\n\n/:Hütten, verlassen, zerfallen an dem Weg. :/\n/:Säß' gern am Feuer, die Pfanne auf dem Herd,\neine Flasch' Wacholder, die hätten wir geleert. :/\n\n/:Droben am Sattel, da geht der Regenwind. :/\n/:Und bei dem Kreuze, da hocken wir beisamm',\nwo die Dohlen tanzen und schreien über'm Kamm. :/\n\n/:Tanzen die Dohlen und treiben überm Grund. :/\n/:In öden Felsen, da ist mein Lied allein,\nnur die Nebeltücher zieh'n mit ihm durch den Stein. :/",
+  "content": "/: {e}Tanzen die {H7}Dohlen und {e}treiben {H7}überm {e}Grund. :/\n/: {G}In öden {D}Felsen, {C}da ist mein {D}Lied {G}allein,\nnur die {e}Nebeltücher ziehn {a}mit ihm {H7}durch den {e}Stein. :/ \n\n/: Hütten, verlassen, zerfallen an dem Weg. :/\n/: Säß gern am Feuer, die Pfanne auf dem Herd,\neine Flasch Wacholder, die hätten wir geleert. :/\n\n/: Droben am Sattel, da geht der Regenwind. :/\n/: Und bei dem Kreuze, da hocken wir beisamm',\nwo die Dohlen tanzen und schreien überm Kamm. :/\n\n/: Tanzen die Dohlen und treiben überm Grund. :/\n/: In öden Felsen, da ist mein Lied allein,\nnur die Nebeltücher ziehn mit ihm durch den Stein. :/",
   "title": "Tanzen die Dohlen",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "torben.poetter@stammvonhelfenstein.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1753097523692,
+      "name": "ko",
+      "mail": "",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
