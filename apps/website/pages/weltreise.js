@@ -22,6 +22,7 @@ const MapView = dynamic(() => import('../components/MapView'), {
   ssr: false,
 })
 
+// force deploy
 const toDateNumber = (date) => toDate(date).getTime()
 const toDate = (date) => new Date(...date.split('.').reverse())
 
