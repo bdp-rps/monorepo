@@ -22,6 +22,9 @@ const MapView = dynamic(() => import('../components/MapView'), {
   ssr: false,
 })
 
+const toDateNumber = (date) => toDate(date).getTime()
+const toDate = (date) => new Date(...date.split('.').reverse())
+
 export default ({ data }) => {
   const theme = useTheme()
   const total = Math.round(
@@ -30,6 +33,8 @@ export default ({ data }) => {
       0
     )
   )
+
+  const sorted = data.sort((a, b) => toDateNumber(b.Bis) - toDateNumber(a.Bis))
 
   const percentage = Math.floor((total / 40075) * 100000) / 1000
 
@@ -90,9 +95,9 @@ export default ({ data }) => {
 
           <Box space={4} maxWidth="100%">
             <Text variant="category">Fahrtenbuch</Text>
-            {data.length > 0 ? (
+            {sorted.length > 0 ? (
               <Box space={3}>
-                {data.map((entry, index) => (
+                {sorted.map((entry, index) => (
                   <Entry
                     key={index}
                     groups={entry['Stämme (semikolon-getrennt)']}
@@ -116,8 +121,6 @@ export default ({ data }) => {
     </Template>
   )
 }
-
-const toDate = (date) => new Date(date.split('.').reverse().join('-'))
 
 function Entry({
   groups,
