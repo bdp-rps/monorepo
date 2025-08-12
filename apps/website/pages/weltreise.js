@@ -22,9 +22,11 @@ const MapView = dynamic(() => import('../components/MapView'), {
   ssr: false,
 })
 
-// force deploy
 const toDateNumber = (date) => toDate(date).getTime()
-const toDate = (date) => new Date(...date.split('.').reverse())
+const toDate = (date) => {
+  const [year, month, day] = date.split('.').reverse()
+  return new Date(year, month - 1, day)
+}
 
 export default ({ data }) => {
   const theme = useTheme()
@@ -46,15 +48,17 @@ export default ({ data }) => {
       <Layout paddingTop={10} paddingBottom={15} grow={1}>
         <Box space={8}>
           <Box space={4}>
-            <Box space={2}>
+            <Box space={[6, , 2]}>
               <Box alignSelf="center">
                 <Image src="/images/weltreise.jpeg" width={300} height={300} />
               </Box>
 
               <Box space={1}>
                 <Box direction="row" justifyContent="space-between">
-                  <Text variant="subtitle">{percentage}%</Text>
-                  <Text variant="subtitle">
+                  <Text variant={['category', , 'subtitle']}>
+                    {percentage}%
+                  </Text>
+                  <Text variant={['category', , 'subtitle']}>
                     {formatter.format(total)} / {formatter.format(40075)} km
                   </Text>
                 </Box>
@@ -135,6 +139,7 @@ function Entry({
   images = '',
 }) {
   const files = images.split(',').filter(Boolean)
+  const totalDistance = Math.round(distance * people)
 
   return (
     <Card
@@ -148,9 +153,10 @@ function Entry({
             direction={['column', , 'row']}
             justifyContent="space-between">
             <Box shrink={1}>
-              <Text variant="subtitle" extend={{ lineHeight: 1 }}>
-                {groups} {groupName ? '(' + groupName + ')' : ''}
+              <Text variant="subtitle" extend={{ lineHeight: 1, fontSize: 28 }}>
+                {groups}
               </Text>
+              {groupName && <Text variant="category">{groupName}</Text>}
               <Text>
                 {format(toDate(startDate), 'dd.MM', { locale: 'de-DE' })} -{' '}
                 {format(toDate(endDate), 'dd.MM.yyyy', { locale: 'de-DE' })}
@@ -158,7 +164,7 @@ function Entry({
             </Box>
 
             <Box alignItems="flex-end">
-              <Text variant="category">{Math.round(distance * people)} km</Text>
+              <Text variant="category">{totalDistance} km</Text>
               <Text>{people} Personen</Text>
             </Box>
           </Box>
@@ -175,15 +181,23 @@ function Entry({
           )}
           {files.length > 0 && (
             <img
-              width={400}
-              height={300}
+              width="auto"
+              height="auto"
               src={files[0]}
-              style={{ objectFit: 'cover' }}
+              style={{
+                objectFit: 'contain',
+                objectPosition: '0% 0%',
+                maxWidth: '100%',
+              }}
             />
           )}
         </Box>
         <Box width={['100%', , 300]} height={[200, , '100%']}>
-          <MapView position={location} radius={(distance * 1000) / 2} />
+          <MapView
+            position={location}
+            radius={(distance * 1000) / 2}
+            zoom={distance > 200 ? 6 : 7}
+          />
         </Box>
       </Box>
     </Card>
