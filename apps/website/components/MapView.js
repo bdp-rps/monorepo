@@ -7,6 +7,7 @@ export default function MapView({ position, zoom = 7, radius = 10000 }) {
     <MapContainer
       center={position}
       zoom={zoom}
+      scrollWheelZoom={false}
       style={{ height: '100%', width: '100%' }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
