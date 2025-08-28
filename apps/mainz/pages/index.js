@@ -37,12 +37,12 @@ let gruppenDaten = [
     description:
       'Wir sind eine fröhliche und neugierige Gruppe von Kindern im Alter von 7 bis 11 Jahren, die gemeinsam die Welt der Pfadfinder entdecken. Bei uns steht das spielerische Lernen und die Entwicklung von Teamgeist im Vordergrund. Wir basteln, singen, spielen und erleben spannende Abenteuer in der Natur. Durch gemeinsame Aktivitäten und kleine Herausforderungen lernen wir, Verantwortung zu übernehmen und uns gegenseitig zu unterstützen. Unsere Gruppenstunden sind geprägt von Kreativität, Bewegung und viel Spaß.',
     since: '2022',
-    groupLeaders: 'Anna und Mimi',
+    groupLeaders: 'Anna, Leo und Jette',
   },
   {
     img: 'salix-alba',
     name: 'Salix Alba',
-    age: 'von elf bis vierzehndreizehn',
+    age: 'von elf bis dreizehn',
     place: 'Im Sommer im Garten und im Winter im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Donnerstags',

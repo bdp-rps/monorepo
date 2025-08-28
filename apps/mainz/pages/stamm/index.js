@@ -42,7 +42,7 @@ const steckbriefe = [
   {
     name: 'Thore',
     pronounce: 'dey/deren/demm',
-    jobs: 'SiFü Salix Alba',
+    jobs: 'Sippenleitung Salix Alba, Gildenleitung',
     memberSince: '2014',
     hikeOrCamp: 'Beides',
     nicestMoment:
@@ -64,7 +64,7 @@ const steckbriefe = [
   {
     name: 'Mimi',
     pronounce: 'sie',
-    jobs: 'Meutenführung',
+    jobs: '',
     memberSince: '2001',
     hikeOrCamp: 'Beides',
     nicestMoment: 'Fahrt in Wales ',
