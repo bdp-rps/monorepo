@@ -1,0 +1,41 @@
+{
+  "notation": "D2|:\"d\" D3 E F2 D2|\"G\"G6E2|\"F\"F2 F2 \"A\" E2 E2| [1\"d\"F2D2z2D2:|[2\"d\"F2D2z2D2] |:\"C\"C2 C2 \"B\" B2 B2|\n\"F\"A6A2|\"g\"B2G2D2B2|\"A\"A6A2|\"F\"A3Bc2 (BA)|\"C\"G6 E2|\"d\"F2 F2 \"A\" E2E2|[1\"d\"(F2!fermata!D4) D2:|[2\"d\"D6z2|]\n\n",
+  "content": " Lenk {d}du nur meinen {G}Schritt, er{F}barmungs{A}lose {d}Straße.\nIch  {d}schleife Sehnsucht  {G}mit, doch {F}jenseits  {A}aller  {d}Maße,\n||: trägst  {C}du mich {B}einst he{F}ran zur {g}klaren Berges{A}höh',\nwo {F}ich will rasten {C}dann im {d}weißen {A}Gipfel{d}schnee.:||\n\nEin Feuer jeder Schritt, verstummt längst die Genossen.\nAuch Zweifel trag ich mit, doch weiter, sei entschlossen.\n||: Schenk uns auch heut die Qual wohl tausend schwerer Stunden,\nhätt' ich im grauen Tal doch nie mein Glück gefunden. :||\n\nUnd immer noch ein Schritt, nur kurz die Nacht uns hält.\nDer Wille nur trägt mit, in unsere neue Welt,\n||: wo einst im Feuerschein, dann klingen unsre Lieder.\nStaubfresser kehren heim aus allen Welten wieder.:",
+  "title": "Staubfresser-Lied",
+  "words": [
+    {
+      "name": "Stefan Mahlzahn",
+      "nickname": "troubadix",
+      "group": "Stamm Witichis",
+      "organisation": "DPB ",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Stefan Mahlzahn (troubadix) und Thorsten Mahlzahn (atréju)",
+      "nickname": "",
+      "group": "Stamm Witichis",
+      "organisation": "DPB",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "90",
+  "musicalKey": "Dm",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1757444178516,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
