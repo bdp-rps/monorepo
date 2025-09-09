@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "E EE|\"a\"E3E EA AA|\"d\"A F3zD DD|\"G\"G3 G GA GF|\n\"a\"E4zE EE |A2 A2 Ac BA|\"d\" A F3zF FF |\"E\" E3 F EF EF|\"E\"E4z|\n|:\"E\" E EE|\"a\" E2 A,2zA AA|\"d\" A2 F3z D DD|\"G\" G3 G GA GF|\"C\"E4\"E7\"zE EE|\n\"a\"A2A2 Ac BA|\"d\"A2 F2zF FF|[1\"E\"E3 F EF E F| E4z:|[2\"E\"E3 F cB A^G|\"a\"A4z|]",
   "content": "Dort auf dem {a}Tisch noch ein paar leere {d}Flaschen,\nein dicker {G}Mönch lacht stolz vom Eti{a}kett.\nEin Kartenspiel noch kann mein Blick er{d}haschen\nund frische {E}Kerben auf dem dunklen Brett.\n\n/: Das ist der {a}Morgen nach langen {d}Nächten,\ndas ist das {G}Ende wohl'ger Dunkel{C}heit.{E7}\nDie uns die {a}Sorgen, die uns um{d}flechten, \nvergessen {E}lässt und sonderbar be{(a)}freit. :/\n\nDas Spiel ist aus, die Kerzen sind verflossen,\nverraucht der Doch, verglimmt im letzten Lohn.\nDie letzten Schlucke sind schon lang genossen, \nleer ist der Krüge Glaskrisall und Ton.\n/: Das ist der Morgen... :/\n\nEin letzter Blick, verbog'ne Kronkorken,\nein langes Har, das kann von mir nicht sein.\nWie geht es dir wohl nun am andern Morgen?\nAuf meinem Tisch strahlt sanft der Sonnenschein.\n/: Das ist der Morgen... :/",
   "title": "Stillleben",
   "words": [
@@ -25,7 +25,7 @@
   "translation": [],
   "beat": "4/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "90",
   "musicalKey": "",
   "info": "",
   "specialSettings": {},
@@ -36,6 +36,13 @@
       "mail": "kilian@wirsing.be",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1757446691827,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie hinzugefügt"
     }
   ]
 }
