@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "A,2|\"d\" D2E2 F2G2 A6A,2|D2E2 F2G2 A8||:\"g\"z2 B4B2 d4 c2B2|\"d\"(A6F2)A8:|\n\"A\"A2G4 GG G8|\"d\"G2F4 FF F8|\"A\"z2E4 E2 (A2G2 )F2 E2|\"d\"(D4E4)\"D\"(F4^F4)|\n\"g\"G2 G4 GG G8|\"d\" G2 F4 FF F8|\"A\" z2E4 E2 (A2G2) F2E2|\"d\" (D6A,2)D6||",
   "content": "Un {d}as der rebbe singt, un as der rebbe singt, {g}singen alle cha{d}sidim, {g}singen alle {d}chasidim:\n{A}Lalalalala, {d}lalalalala, {A}singen alle cha{d}sid{D}im. {g}Lalalalala, {d}lalalalala, {A}singen alle {d}chasidim.\n\nUn as der rebbe tantzt ... Hophophophophop\n\nUn as der rebbe wejnt ... Ojojojojoj\n\nUn as der rebbe lacht ... Hahahahaha\n\nUn as der rebbe isst ... Mjamjamjamjam\n\nUn as der rebbe trinkt ... Gluckgluckgluckgluckgluck\n\nUn as der rebbe pfeift ... \n\nUn as der rebbe schwajgt ... ",
   "title": "As der rebbe",
   "words": [
@@ -23,7 +23,7 @@
   "translation": [],
   "beat": "2/4",
   "alternativeTitle": "",
-  "tempo": 60,
+  "tempo": "120",
   "musicalKey": "Dm",
   "info": "",
   "changes": [
@@ -33,6 +33,14 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1757442144991,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie hinzugefügt (Tempo ist ge-earballed)"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
