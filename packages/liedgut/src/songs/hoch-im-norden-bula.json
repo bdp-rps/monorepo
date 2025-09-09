@@ -1,0 +1,41 @@
+{
+  "notation": "L:1/4\nV:1\n\"Hm\" B,2 B,2- |B,/2 z/2 \"A7\" C D E | \"D\" F2 F2 | z2 A F | \"A7\" E2 E4/3 A,/2 | \"G\" B, D \"A\" C A, | \"Hm\" B,2 B,4/3 z/2 |\nB,/2 C/2 \"A\" D/2 E/2 \"D\" F F | F4/3 z/2 \"G\" G2/3 G/4 G/2 G/2 | \"D\" G/2 F/2 D \"G\"G2/3 G/4 G/2 G/2 | \"D\" G/2  F/2 D \"G\" G2- | G F \"D\" D2 |\nz D \"Em\" E2- | E D \"Hm\" B,2 | z A, \"G\" B,2 | D2 \"A\" C2- | C A, \"Hm\" B,2 | B,2 |]\nV:2\nB,2 B,2- |B,/2 z/2 C D E |  F A A2 | z2  A A | G2 G4/3 A/ | B B AA | B2 B4/3 z/ |\nB,/2 C/2 D/2 E/2 F A | A4/3 z/2  B2/3 B/4 B/2 B/2 | B/ A/ F B2/3 B/4 B/2 B/2 | B/ A/ F B2- | B A F2 |\nz F G2- | G A F2 | z C B,2 | D2 E2- | E E F2 | F2  |]",
+  "content": "{h}Frühling {A7}dringt in den {D}Norden, Berg und {A7}Tal sind ein {G}Blüten{A}meer ge{h}worden.\nLetztes Eis {A}treibt {D}auf dem Fluss, {G}Vogelwerben {D}bietet dar {G}die Geburt wie {D}jedes Jahr,\n{G}Elche {D}stehn in {e}hellem {h}Grün im {G}Frühling {A}hoch im {h}Norden. {A}  {D}  {A}  {h}\n\nSommer erfüllt den Norden, Mücken sind zur Plage uns geworden.\nIn den Höhen kreist der Greif, Lachse ziehn zum Laichen, auf bis ans Ziel und sterben \ndrauf. Lichter Tag nicht enden mag im Sommer hoch im Norden.\n\nHerbstzeit durchjagt den Norden, erste Nächte sind frostig kalt geworden.\nStürme zerrn am gelben Laub, reife Früchte prahlen bunt, Bären schwelgen sich dran \nrund. Gegen Süd die Graugans flieht zur Herbstzeit hoch im Norden.\n\nWinter beherrscht den Norden, alle Wasser sind zu Kristall geworden.\nWölfe heulen fern im Tal. Lange Zeit Schneekönig Mond überm Land alleine thront.\nWie ein Spuk der Nordlichtflug im Winter hoch im Norden.",
+  "title": "Hoch im Norden (BuLa)",
+  "words": [
+    {
+      "name": "Jürgen Sesselmann",
+      "nickname": "mayer",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1980",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Jürgen Sesselmann",
+      "nickname": "mayer",
+      "group": "",
+      "organisation": "Nerother Wandervogel",
+      "year": "1980",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "Frühling dringt in den Norden",
+  "tempo": "120",
+  "musicalKey": "Bm",
+  "info": "Alternative Version für den BdP BuLa Singewettstreit 2026",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1757402994717,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
