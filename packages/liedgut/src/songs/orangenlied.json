@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{C}Zugvögel fliegen nach {d}Süden\nWenn im {F}Winter alle er{C}frier'n\nPaare gehen getrennte {d}Wege\n{F}Wenn sich die Liebe ver{C}liert\n\nGeschichten werden ver{d}gessen\nWenn {F}niemand sie mehr er{C}zählt\nMein Vater denkt immer an {d}früher\nWenn {F}er Orangen {C}schält\n\nZwischenspiel:  /: C Dm F C :/\n\nJungtiere verlassen das Rudel\nDie meisten kommen nie mehr zurück\nWer einmal über das Kuckucksnest fliegt\nWird danach von der Stille erstickt\n\nForrest Gump fand die große Liebe\nUnd verlor sie dann gleich darauf\nJeder Mensch verliert so viele Leben\nAlles nimmt seinen Lauf, Forrest, lauf\n\nMan kann Muttersprache vergessen\nWenn niemand sie mit dir spricht\nMan kann nie genug lieben\nWenn niemand sagt: \"Ich liebe dich.\"\n\nEs ist so verrückt, wie viel Zeit vergeht\nWie unglaublich viel Zeit\nOhne dass man es sieht\nUnd jedes Jahr fliegt wie die Vögel davon, wenn der Winter kommt\n\nGeschichten werden vergessen\nWenn niemand sie mehr erzählt\nMein Vater denkt immer an früher\nWenn er Orangen schält\n",
+  "content": "{C}Zugvögel fliegen nach {d}Süden, wenn im {F}Winter alle er{C}frier'n.\nPaare gehen getrennte {d}Wege, {F}wenn sich die Liebe ver{C}liert.\n\nGeschichten werden vergessen, wenn niemand sie mehr erzählt.\nMein Vater denkt immer an früher, wenn {F}er Orangen {C}schält.\n\nZwischenspiel:  /: C Dm F C :/\n\nJungtiere verlassen das Rudel, die meisten kommen nie mehr zurück.\nWer einmal über das Kuckucksnest fliegt, wird danach von der Stille erstickt.\n\nForrest Gump fand die große Liebe und verlor sie dann gleich darauf.\nJeder Mensch verliert so viele Leben, alles nimmt seinen Lauf, Forrest, lauf.\n\nMan kann Muttersprache vergessen, wenn niemand sie mit dir spricht.\nMan kann nie genug lieben, wenn niemand sagt: \"Ich liebe dich.\".\n\nEs ist so verrückt, wie viel Zeit vergeht, wie unglaublich viel Zeit.\nOhne dass man es sieht und jedes Jahr fliegt wie die Vögel davon, wenn der Winter kommt.\n\nGeschichten werden vergessen, wenn niemand sie mehr erzählt.\nMein Vater denkt immer an früher, wenn er Orangen schält.\n",
   "title": "Orangenlied",
   "words": [
     {
@@ -33,6 +33,14 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1757487883310,
+      "name": "Robin",
+      "mail": "robin@bdp-rps.de",
+      "type": "update",
+      "content": "Layout"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
