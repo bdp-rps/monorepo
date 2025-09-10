@@ -1,5 +1,5 @@
 {
-  "notation": "\"H7\"B,2|\"e\"E4 \"H7\"F4|\"e\" (GA) G F E2 E2|\"h\" (FG) F E ^D2 B,2|\"e\"E2 E2z2\nB,2|E4 \"H7\"F4\"e\"(GA) G F E2 E2| \"h\"  F2 F F ^D2 B,2|\"e\"E6\n|:\"e\"G A|\"G\"B3 A B2 G G|\"D\" A3 G A2 F F|\n\"e\" G2 G F G2 E E|\"H7\" F6 B, B,|\"e\" G2 G G \"H7\"F2 F F| \n\"e\"E2  E F G2 G G|\"h\" F2 F G A2 F2|\"e\"E6:|\n",
+  "notation": "[V:1]\n\"H7\"B,2|\"e\"E4 \"H7\"F4|\"e\" (GA) G F E2 E2|\"h\" (FG) F E D2 B,2|\"e\"E2 E2z2\n[V:2]\nB,2|B,4 B,4|E2EEE2B,2|B,2B,B,D2B,2|B,2B,2z2\n[V:3 bass]\nB,,2|G,4 F,4|B,2B,B,G,2G,2|F,2F,G,A,2F,2|G,A,B,2z2\n[V:4 bass]\nB,,2|G,4 F,4|E,2E,F,G,2G,2|F,2F,G,A,2F,2|G,F,E,2z2\n[V:1]\nB,2|E4 \"H7\"F4\"e\"(GA) G F E2 E2| \"h\" F2 F F D2 B,2|\"e\"E6\n[V:2]\nB,2|B,4 B,4|E2EEB,2B,2|B,2B,B,D2B,2|E6\n[V:3 bass]\nB,,2|G,4 F,4|B,2B,B,G,2G,2|F,2F,G,A,2F,2|E,6\n[V:4 bass]\nB,,2|G,4 F,4|E,2E,F,G,2G,2|F,2F,G,A,2F,2|E,6\n[V:1]\n|:\"e\"GA|\"G\"B3AB2GG|\"D\"A3GA2FF|\"e\"G2GFG2EE|\"H7\"F6\n[V:2]\n|:EE|D3CB,2DD|F3ED2DD|E2DCB,2CA,|B,6\n[V:3 bass]\n|:B,C|B,3CB,2B,B,|A,3B,A,2A,A,|B,2B,A,B,2G,G,|F,6\n[V:4 bass]\n|:E,E,|G,3G,G,2G,G,|D,3E,F,2F,F,|E,2E,E,E,2C,C,|B,,6\n[V:1]\nBB|\"e\"B6\"H7\"BB|\"e\"B6\"H7\"BB|\"h\"A2FGA2FF|\"e\"E6:|\n[V:2]\nB,B,|G2GGF2FF|E2EFG2GG|F2B,B,B,2B,B,|E6:|\n",
   "content": "{H7}Und {e}wie{H7}der, {e}wieder ein Jahr, und {h}wieder ein Jahr ver{e}flogen, \n{H7}und {e}wieder, {e}wieder ein Jahr so {h}schnell wie die Spreu ver{e}weht.\n/:  Und es {G}schneit, es schneit, auf die {D}Felder weit, wirbeln {e}Flocken wie fröhlicher {H7}Sinn. \nAlle Moore im {H7}Eis liegen {e}schweigend und weiß und der {h}Wind geht darüber {e}hin. :/\n\nUnd weiter, weiter das Kreuz, und wieter das Kreuz gebogen, \nund weiter, weiter das Rad, nur immer das Rad gedreht.\n/: Und es schneit, es schneit über Glück und Leid, übers Mahlwerk ein weißes Kleid.\nWeiter dreht sich das Rad, und es klopft und es knarrt, stetig rauscht im Gerinne die Zeit. :/\n\nUnd wieder, wieder ein Jahr und wieder ein Jahr verflogen, \nund wieder, wieder ein Jahr so schnell wie die Spreu verweht.\n/: Doch es schneit, es schneit, wie in Ewigkeit, aus dem Sinken die Stille steigt.\nSanft behütet das Feld tief in weiß seine Welt und die Zeit ist versunken und schweigt. :/",
   "title": "Krabats Mühlenlied",
   "words": [
@@ -36,6 +36,13 @@
       "mail": "kilian@wirsing.be",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1757524072915,
+      "name": "Torben",
+      "mail": "torben@bdp-rps.de",
+      "type": "update",
+      "content": "Letzte Zeile fehlt nur Tenor und Bass"
     }
   ]
 }
