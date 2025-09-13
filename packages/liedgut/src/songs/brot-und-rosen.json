@@ -1,30 +1,32 @@
 {
-  "notation": "",
+  "notation": "\"G\"g2gfgf|\"e\" g4 Bd|\"a\" c3 dcB|\"D\"A4 zd| \"G\" g3 fgf»\"e\" g g3 Bd|\"a\"c3 dcB | \n\"D\"A4 dd|\"G\" d d3 d|\"e\" e2 e2 ee|\"a\"e3 eee|\"D\" f2 f2 z d|\n\"G\" b3 aba|\"e\"b(bb4)|\"a\"c'4b2|\"D\"(a4(g)f)|\"G\" g6|]\n",
   "content": "{G}Wenn wir zusammen {e}gehen, geht {a}mit uns ein schöner {D}Tag,\ndurch {G}all die dunklen {e}Küchen  und wo {a}grau ein Werkshof {D}lag,\nbeginnt {G}plötzlich die {a}Sonne unsre {C}arme Welt zu {D}kosen\nund {G}jeder hört uns {e}singen: {C}Brot und {D}Ro{G}sen!\n\nWenn wir zusammen geh'n, kämpfen wir auch für den Mann,\nweil unbemuttert kein Mensch auf die Erde kommen kann.\nUnd wenn ein Leben mehr ist, als nur Arbeit, Schweiß und Bauch\nwoll'n wir mehr: Gebt uns das Brot, doch gebt die Rosen auch!\n\nWenn wir zusammen geh'n, gehen unsre Toten mit,\nihr ungehörter Schrei nach Brot schreit auch durch unser Lied.\nSie hatten für die Schönheit, Liebe, Kunst erschöpft nie Ruh,\ndrum kämpfen wir ums Brot und um die Rosen dazu.\n\nWenn wir zusammen gehen, kommt mit uns ein bess'rer Tag.\nDie Menschen die sich wehren, wehren aller Menschen Plag.\nZu Ende sei, dass kleine Leute schuften für die Großen!\n/:Her mit dem ganzen Leben: Brot und Rosen! ://\n",
   "title": "Brot und Rosen",
   "words": [
     {
-      "name": "",
+      "name": "Peter Maiwald",
       "nickname": "",
-      "group": "Textilarbeiterinnen Streik in Lawrence, Massachusetts ",
+      "group": "",
       "organisation": "",
-      "year": "1912"
+      "year": "",
+      "critical": false
     }
   ],
   "tune": [
     {
-      "name": "",
+      "name": "Renate Fresow",
       "nickname": "",
-      "group": "Textilarbeiterinnen Streik in Lawrence, Massachusetts ",
+      "group": "",
       "organisation": "",
-      "year": "1912"
+      "year": "",
+      "critical": false
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "3/4",
   "alternativeTitle": "",
-  "tempo": 60,
-  "info": "Text & Melodie: Textilarbeiterinnen Streik in Lawrence, Massachusetts 1912 („Brot“ steht für Lohn, „Rosen“ stehen für menschenwürdige Arbeits-/ Lebensbedingungen",
+  "tempo": "100",
+  "info": "Der originale Text ist ein Gedicht von James Oppenheim, welches 1917 von Caroline Kohlsaat erstmals (im 4/4-Takt) vertont wurde.\n\nDer Solgan \"Brot und Rosen\" wird oft in Verbindung gebracht mit dem Textilarbeiterinnen-Streik in Lawrence, Massachusetts 1912 („Brot“ steht für Lohn, „Rosen“ stehen für menschenwürdige Arbeits-/ Lebensbedingungen)",
   "changes": [
     {
       "date": 1673365155410,
@@ -39,7 +41,15 @@
       "mail": "kilian@wirsing.be",
       "type": "update",
       "content": "Akkorde in den text eingebunden anstatt dadrüber "
+    },
+    {
+      "date": 1757765909397,
+      "name": "kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Melodie hinzugefügt, Autor*innenschaft korrigiert"
     }
   ],
-  "specialSettings": {}
+  "specialSettings": {},
+  "musicalKey": "G"
 }
