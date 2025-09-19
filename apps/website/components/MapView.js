@@ -3,6 +3,10 @@ import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
 export default function MapView({ position, zoom = 7, radius = 10000 }) {
+  if (Number.isNaN(radius)) {
+    return null
+  }
+
   return (
     <MapContainer
       center={position}
