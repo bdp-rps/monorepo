@@ -1,5 +1,5 @@
 {
-  "notation": "",
+  "notation": "AG3F2E2|D2^D2=D4:||||\nD2D2|\"d\"E2D2E2G2|\"B\"d2d2d2d2|\"C\"c2G2A2A2|\"F\"A4|\nA2A2|\"B\"B2B2B2B2|B2B2B2B2|\"A\"A2G2F2E2|\"d\"D4|\nD2D2|\"B\"d2d2d2c2|\"d\"A2D2D2D2|\"B\"d2d2d2c2|\"A\"A4|\n|:A2A2|\"g\"B2B2c2B2|\"F\"A2F2F2F2|\"A\"G2G2F2E2|\"d\"D4:|",
   "content": "Ritter, {d}Landsknecht und Scho{B}laren, früher {C}Wandervogel{F}schick.\nWolln nicht {B}fragen was wir waren in die {A}Zukunft geht der {d}Blick.\nWollen {B}uns von Dogmen {d}trennen vor de{B}nen wir uns ver{A}neigt,\n/: werden {g}nie die Wahrheit {F}kennen da sie {A}immer neu sich {d}zeigt. :/\n\nHeut stehn wir auf festem Boden aus Kultur und Tradition,\ndoch die jungen Herzen rufen endlich nach Revolution.\nWollen uns nach vorne wagen nicht die alten Wege gehen,\n/: denn auf ausgetretnen Pfaden kann man selten Neues sehen. :/\n\nMüssen auch nicht alles drehen nur weil es Vergangenheit,\nmanche unserer Ideen haben zeitlos Gültigkeit.\n/: Gutes gilt es zu bewahren aber nicht bedingungslos,\ndenn sonst sind nach 100 Jahren wir ein müder Abklatsch bloß. :/",
   "title": "Ritter, Landsknecht und Scholaren",
   "words": [
@@ -36,6 +36,13 @@
       "mail": "",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1757526964067,
+      "name": "Torben",
+      "mail": "torben@bdp-rps.de",
+      "type": "update",
+      "content": "Ergänzung Melodie"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "notation": "",
-  "content": "{d}Cora, Kind des {C}Feuers,\nist überall be{d}kannt,\nwenn {B}sie in ihre {F}Trommel schlägt,\ndann {A}bebt das ganze {d}Land.\n\n{d}Bum bum {C}bum bum bum {d}bum-bum bum {C}bum bum bum.\n{d}bum bum {C}bum bum bum {d}bum-bum {C}bum {d}bum.\n\nSie streift durch Wald und Wiesen,\nlegt ganze Bäche brach,\ndurch Sturm und Wind jagt sie geschwind,\nden Abenteuern nach.\n\nAls Kriegerin der Flammen,\nerhellt sie ihren Pfad,\nNimm dich in Acht, wenn sie erwacht,\nTönt ferner Trommelschlag.",
+  "content": "{a}Cora, Kind des {G}Feuers, ist überall be{a}kannt,\nwenn {F}sie in ihre {C}Trommel schlägt, dann {E}bebt das ganze {a}Land.\n\n{a}Bum bum {G}bum bum bum {a}bum-bum bum {G}bum bum bum.\n{a}bum bum {G}bum bum bum {a}bum-bum {G}bum {a}bum.\n\nSie streift durch Wald und Wiesen, legt ganze Bäche brach,\ndurch Sturm und Wind jagt sie geschwind, den Abenteuern nach.\n\nAls Kriegerin der Flammen, erhellt sie ihren Pfad,\nNimm dich in Acht, wenn sie erwacht, tönt ferner Trommelschlag.",
   "title": "Cora, Kind des Feuers",
   "words": [
     {
@@ -23,11 +23,11 @@
     }
   ],
   "translation": [],
-  "beat": "4/4",
+  "beat": "2/4",
   "alternativeTitle": "",
   "tempo": "110",
   "musicalKey": "Dm",
-  "info": "",
+  "info": "Capo 3. Bund",
   "specialSettings": {},
   "changes": [
     {
@@ -36,6 +36,13 @@
       "mail": "robin@bdp-rps.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1757402256586,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": "Neue Akkorde"
     }
   ]
 }
