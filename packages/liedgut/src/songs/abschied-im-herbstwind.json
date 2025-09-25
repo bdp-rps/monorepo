@@ -31,7 +31,7 @@
   "beat": "4/4",
   "alternativeTitle": "",
   "tempo": 60,
-  "info": "",
+  "info": "Geschrieben hatte ich „Abschied im Herbstwind“ im Frühjahr/Sommer 2004, bevor ich zu den Pfadfindern (zurück-)gefunden hatte. Die erste Strophe beschreibt das, was ich empfand und erlebte, als ich 2003 zum ersten Mal in Norwegen war – im Rahmen einer Liebesgeschichte. »Murmelsteine« beschreibt zwei Dinge gleichzeitig: zum einen diese großen, runden Felsbrocken, die so wirken, als ob einst Trolle damit Murmeln gespielt hätten, zum anderen das unbestimmte Gefühl, als raunte das Land um mich herum mir etwas zu. Die Atmosphäre der zweiten Strophe, die wohl jeden, der auf Zeltlager oder Fahrt ist, irgendwann beschleicht, kannte ich nur vage aus Kindheitserinnerungen und aus Fahrtenliedern wie »Du machst Kleinholz«. Ohne Andreas Hecker, der mir immer wieder vom Trifels-Treffen erzählt hatte und mit mir »Abschied im Herbstwind« im Herbst 2004 dort vorstellte, wäre dieses Lied vielleicht nie bekannt geworden.\n\nRudolf, im September 2021",
   "changes": [
     {
       "date": 1673289674047,
@@ -39,6 +39,14 @@
       "mail": "caetch@stamm-luchs.de",
       "type": "create",
       "content": ""
+    },
+    {
+      "date": 1758832237312,
+      "name": "Robin Weser",
+      "mail": "robin@weser.io",
+      "type": "update",
+      "content": ""
     }
-  ]
+  ],
+  "specialSettings": {}
 }
