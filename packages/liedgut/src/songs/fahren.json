@@ -4,20 +4,22 @@
   "title": "Fahren",
   "words": [
     {
-      "name": "Alexj Stachowitsch",
+      "name": "Alexej Stachowitsch",
       "nickname": "axi",
       "group": "",
       "organisation": "",
-      "year": "1970"
+      "year": "1970",
+      "critical": true
     }
   ],
   "tune": [
     {
-      "name": "Alexj Stachowitsch",
+      "name": "Alexej Stachowitsch",
       "nickname": "axi",
       "group": "",
       "organisation": "",
-      "year": "1970"
+      "year": "1970",
+      "critical": true
     }
   ],
   "translation": [],
@@ -38,7 +40,15 @@
       "mail": "robin@bdp-rps.de",
       "type": "update",
       "content": "Formattierung"
+    },
+    {
+      "date": 1757445390802,
+      "name": "Kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Autor: Namen angepasst, ist zusätzlich kritisch zu betrachten"
     }
   ],
-  "alternativeTitle": ""
+  "alternativeTitle": "",
+  "specialSettings": {}
 }
