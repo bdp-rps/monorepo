@@ -1,0 +1,41 @@
+{
+  "notation": "\"Am\" A3 F E F G F| \"E\" E2 B,2 z2 E F| E3 F E2 D2|\"Am\" C4 z2 E E|\n\"Dm\" F3 F A3 F|\"Am\" E2 E2 z2 E F| \"E\" E2 D2 C2 B,2|\"Am\" A,2 A, B, C2 A,2|\n\"E\" B,2 B, C D2 B,2|\"Am\" C2 C D E2 C2|\"G\" D2 D E F2D2|\"C\" E2 E F G2 E2|\n\"Dm\" F2 F G A2 F2|\"Am\" E2 A A A2 A2|\"E\"^G2 E D C2 B,2|\"Am\" A,8|]",
+  "content": " \n{a}A la huelga, compa{E}ñero;\nno vayas a traba{a}jar.\nDeja {d}quieta la herram{a}ienta,\nque es {E}la hora de lu{a}char.\n\n \n     {a}A la huelga{E} diez, a la huelga {a}cien,\n      a la huelga, {G}madre, yo voy tam{C}bién.\n     A la huelga {d}cien, a la huelga {a}mil,\n    yo por ellos, {E}madre, y ellos por {a}mí.\n\n\nContra el gobierno del hambre\nnos vamos a levantar\ntodos los trabajadores\ncodo a codo por el pan.\n\nDesde el pozo y la besana\ndesde el torno y el telar\nirán hombres y mujeres\na la huelga general.\n\nTodos los pueblos del mundo\nla mano nos van a dar\npara devolver al pueblo\nsu perdida libertad.\n\n",
+  "title": "A la huelga",
+  "words": [
+    {
+      "name": "Chicho Sánchez Ferlosio",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "tune": [
+    {
+      "name": "Chicho Sánchez Ferlosio",
+      "nickname": "",
+      "group": "",
+      "organisation": "",
+      "year": "",
+      "critical": false
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "",
+  "tempo": "120",
+  "musicalKey": "Am",
+  "info": "la huelga = der Streik\nDas Lied ist im spanischen Bürgerkrieg populär geworden und ruft zum Generalstreik auf.",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1757764185842,
+      "name": "kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
