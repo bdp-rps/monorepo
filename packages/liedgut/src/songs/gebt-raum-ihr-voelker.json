@@ -13,11 +13,12 @@
   ],
   "tune": [
     {
-      "name": "mündlich überliefert",
+      "name": "Robert Götz",
       "nickname": "",
       "group": "",
       "organisation": "",
-      "year": ""
+      "year": "",
+      "critical": false
     }
   ],
   "translation": [],
@@ -39,6 +40,14 @@
       "mail": "chris@fieker.de",
       "type": "update",
       "content": "melodie"
+    },
+    {
+      "date": 1757709914144,
+      "name": "kichael",
+      "mail": "kilian@wirsing.be",
+      "type": "update",
+      "content": "Autor für Melodie hinzugefügt, ist robert götz, quelle u.a. hier:\nhttp://www.mayer-lieder.de/kuenstler/felix-dahn/verlesene-gedichte_von_felix-dahn/gotenzug_gedicht.html"
     }
-  ]
+  ],
+  "specialSettings": {}
 }
