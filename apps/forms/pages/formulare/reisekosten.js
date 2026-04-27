@@ -203,7 +203,7 @@ export default function Page({ defaultData, defaultGenerated }) {
     ]
 
     const body = [
-      'Hey Cätch,',
+      'Liebe Kasse,',
       '',
       'Anbei meine Reisekostenabrechnung mit folgenden Daten:',
       '',
