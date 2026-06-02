@@ -350,8 +350,8 @@ export default function Page({ defaultData, defaultGenerated }) {
                 {...note.props}
               />
               <Text>
-                1 = 0,18€ • 2 = 0,20€ • 3 = 0,22€ • 4 = 0,25€ • 5 = 0,28€ • 6+ =
-                0,31€
+                1 = 0,17€ • 2 = 0,18€ • 3 = 0,20€ • 4 = 0,22€ • 5 = 0,25€ • 6+ =
+                0,28€
               </Text>
             </Box>
             <span />
