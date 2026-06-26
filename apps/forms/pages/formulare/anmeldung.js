@@ -121,7 +121,7 @@ export default function Page({ defaultData, defaultGenerated }) {
     ]
 
     const body = [
-      'Hey Robin,',
+      'Hey Philipp,',
       '',
       'Ich brauche eine Anmeldungbestätigung mit folgenden Daten:',
       '',
@@ -152,7 +152,7 @@ export default function Page({ defaultData, defaultGenerated }) {
           <Box space={4} alignItems="flex-start">
             <Box>
               <Button
-                href={`mailto:robin@bdp-rps.de?subject=Anmeldungbestätigung ${
+                href={`mailto:philipp@bdp-rps.de?subject=Anmeldungbestätigung ${
                   event.value
                 } – ${name.value}&body=${body.join('%0D%0A')}`}>
                 Beantragen

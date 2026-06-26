@@ -142,7 +142,7 @@ export default function Page({ defaultData, defaultGenerated }) {
     ]
 
     const body = [
-      'Hey Robin,',
+      'Hey Philipp,',
       '',
       'Ich brauche einen Antrag für Sonderurlaub mit folgenden Daten:',
       '',
@@ -175,7 +175,7 @@ export default function Page({ defaultData, defaultGenerated }) {
           <Box space={4} alignItems="flex-start">
             <Box>
               <Button
-                href={`mailto:robin@bdp-rps.de?subject=Sonderurlaub ${
+                href={`mailto:philipp@bdp-rps.de?subject=Sonderurlaub ${
                   event.value
                 } – ${name.value}&body=${body.join('%0D%0A')}`}>
                 Beantragen

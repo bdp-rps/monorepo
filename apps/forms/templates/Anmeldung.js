@@ -27,8 +27,8 @@ export default function Anmeldung({
       <Box direction="row" space={4} justifyContent="space-between">
         <Box grow={1} shrink={1} basis={0} space={4} marginTop={0.75}>
           <Text variant="note" color="blue">
-            BdP Landesverband Rheinland-Pfalz/Saar • Landesvorstand c/o Robin
-            Weser • Rintheimer Hauptstraße 25, 76131 Karlsruhe
+            BdP Landesverband Rheinland-Pfalz/Saar • Landesvorstand c/o Philipp Winicker
+             • Im nassen Grund 7, 67725 Breunigweiler
           </Text>
         </Box>
         <Box grow={0} shrink={0} basis={180}>
@@ -79,15 +79,15 @@ export default function Anmeldung({
         />
 
         <Text variant="paragraph">
-          Robin Weser
+          Philipp Winicker
           <Br />
-          Landesvorsitzender
+          Stellv. Landesvorsitzender
           <Br />
           Landesverband Rheinland-Pfalz/Saar
           <Br />
-          robin@bdp-rps.de
+          philipp@bdp-rps.de
           <Br />
-          +49 0151 64330341
+          +49 1590 1471484
         </Text>
         <Image
           src="https://forms.bdp-rps.app/images/stempel.png"
