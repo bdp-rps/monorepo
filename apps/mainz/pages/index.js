@@ -19,11 +19,9 @@ import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Template from '../components/Template'
-import PostTile from '../components/PostTile'
 
 import getEvents from '../utils/getEvents'
 
-import { getBlogposts, getBlogpostsMainz } from '../api/getBlogposts'
 import { useState } from 'react'
 
 let gruppenDaten = [
