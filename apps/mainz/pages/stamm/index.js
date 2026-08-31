@@ -10,7 +10,7 @@ const steckbriefe = [
   {
     name: 'Melina',
     pronounce: 'sie/ihr',
-    jobs: 'Mitglieder Verwaltung und Büro Gedöns',
+    jobs: 'Mitglieder Verwaltung und Meutenführung',
     memberSince: '2010',
     hikeOrCamp: 'Lager',
     nicestMoment: 'Grundkurs 2023',
@@ -40,9 +40,9 @@ const steckbriefe = [
     icecream: 'Pistazie',
   },
   {
-    name: 'Thore',
+    name: 'Artemis',
     pronounce: 'dey/deren/demm',
-    jobs: 'SiFü Salix Alba',
+    jobs: 'Sippenleitung Salix Alba, Gildenleitung',
     memberSince: '2014',
     hikeOrCamp: 'Beides',
     nicestMoment:
@@ -53,7 +53,7 @@ const steckbriefe = [
   {
     name: 'Victoria',
     pronounce: 'sie/ihr',
-    jobs: 'Lagerküche, Räuberrunden, Hintergrund ',
+    jobs: 'Lagerküche, Räuberrunden, Hintergrund',
     memberSince: '2000',
     hikeOrCamp: 'Beides',
     nicestMoment:
@@ -62,9 +62,20 @@ const steckbriefe = [
     icecream: 'Zitrone',
   },
   {
+    name: 'Selma',
+    pronounce: 'sie/ihr',
+    jobs: 'Meutenfürhung',
+    memberSince: 'November 2025 ',
+    hikeOrCamp: '',
+    nicestMoment:
+      'Als wir mit den Kindern einen Film gedreht haben und am Ende dieselbe Szene fünfzigmal aufnehmen mussten, weil alle zwei Sekunden jemand zu lachen angefangen hat :D',
+    freetime: 'Lesen, Rugby spielen',
+    icecream: 'Straciatella',
+  },
+  {
     name: 'Mimi',
-    pronounce: 'sie',
-    jobs: 'Meutenführung',
+    pronounce: 'sie/ihr',
+    jobs: '',
     memberSince: '2001',
     hikeOrCamp: 'Beides',
     nicestMoment: 'Fahrt in Wales ',
@@ -72,19 +83,9 @@ const steckbriefe = [
     icecream: 'Stracciatella',
   },
   {
-    name: 'Carolina',
-    pronounce: 'Sie/ihr',
-    jobs: 'Heimwärterin',
-    memberSince: 'einem 3/4 Jahr',
-    hikeOrCamp: 'Fahrt',
-    nicestMoment: 'Die Sommerfahrt',
-    freetime: 'Studieren, lesen, Musik, mit Freunden treffen',
-    icecream: 'Haselnuss',
-  },
-  {
     name: 'Ole',
     pronounce: 'er/ihm',
-    jobs: 'Sippenleitung/Heimwärter',
+    jobs: 'Sippenleitung',
     memberSince: '1,5 Jahren',
     hikeOrCamp: 'Fahrt',
     nicestMoment: 'die Slowenien Fahrt',
@@ -105,7 +106,7 @@ const steckbriefe = [
   {
     name: 'Tobi',
     pronounce: '',
-    jobs: 'Förderungen und Finanzen',
+    jobs: 'Kasse',
     memberSince: 'ich fünf Jahre alt bin.',
     hikeOrCamp: 'Beides',
     nicestMoment:
@@ -115,19 +116,9 @@ const steckbriefe = [
     icecream: 'Spaghetti-Eis',
   },
   {
-    name: 'Theresa',
-    pronounce: 'Sie/Ihr',
-    jobs: 'Gute Laune verbreiten :)',
-    memberSince: '2023',
-    hikeOrCamp: 'Lager',
-    nicestMoment: 'Die Slowenien-Fahrt!',
-    freetime: 'Studieren',
-    icecream: 'Zitrone-Minze',
-  },
-  {
     name: 'Mira',
     pronounce: 'sie/ihr',
-    jobs: 'Gruppenleitung Ignishedera',
+    jobs: 'Gruppenleitung Ignis hedera',
     memberSince: '2007',
     hikeOrCamp: 'Beides',
     nicestMoment: 'Pfadiversprechen meiner aktuellen Sippe',
