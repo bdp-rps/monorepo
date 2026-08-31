@@ -28,10 +28,6 @@ export default () => {
             <Button href="https://instagram.com/pfadfinden_mainz/">
               Instagram
             </Button>
-            <Button href="/landesverband/blog/">
-              Blogbeiträge Landesverband
-            </Button>
-            <Button href="/blog/stamm">Blogbeiträge Stamm Tilia</Button>
             <Button href="/bdp/ausbildung">Ausbildung</Button>
             <Button href="https://www.watoto-kabisa.de/">Keniaprojekt</Button>
             <Button href="https://www.pfadfinden.de/">
