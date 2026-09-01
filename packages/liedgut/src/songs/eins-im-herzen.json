@@ -1,0 +1,39 @@
+{
+  "notation": "X: 1\nT: Eins im Herzen - Rheinland-Pfalz Saar\nM: 4/4\nL: 1/4\nK: G\nStrophe\nG G G A B | G E G G G A B | A G C C D E D | C C D E D C |\nA A B A G | A G E G E G | A A B A G | A G E G E G |\n\n\nRefrain:\nC C D E G | E D C D E G | C C D E G | E D C D E G |\nC C D E G | E D C D E G | A A B A G | A G E G E G |\n\nBridge:\nE E E F G | F E D E F G | E E E F G | F E D E F G |\nE E E F G | F E D E F G | A A B A G | A G E G E G |\n\nOutro:\nG G G A B | G E G G G A B | A G C C D E D | C C D E D C |\nA A B A G | A G E G E G | A A B A G | A G E G E G |\n",
+  "content": "G\nGemeinsam gehen wir hinaus, in die weite Welt,\n     C\nÜber Berge, durch die Täler, wo uns das Abenteuer hält.\n     Am           D           G\nHand in Hand und Seite an Seite, nie allein,\n   Am             D               G\nPfadfinderinnen, Pfadfinder, im Sonnen- und Mondenschein.\n\nRefrain:\nC         D         G\nEins im Herzen, stark verbunden,\n       C         D             G\nDurch die Zeiten, durch die Stunden.\n      C             D          G       Em\nRheinland-Pfalz Saar, wir sind vereint,\n     Am            D         G\nUnser Weg, den jeder von uns meint.\n\nAm Lagerfeuer sitzend, die Sterne über uns,  \nLieder singen, Geschichten teilen, das ist unser Grund.  \nFreundschaft, die uns tief verbindet, Tag für Tag,  \nGemeinschaft, die uns trägt, in Freude und in Plag.\n\nRefrain\n\nBridge:\nEm          C        G       D\nWir wachsen, wir lernen, gemeinsam groß,\n     Em        C          G       D\nJeder Schritt, den wir tun, ist nie umsonst.\n     Em            C          G         D\nDie Natur unser Lehrmeister, stets dabei,\n      Am           D         G\nGemeinsam stark, wir fühlen uns frei.\n\nRefrain:\n\nOutro\nG\nSo gehen wir weiter, im Pfadfindergeist,\n     C\nRheinland-Pfalz Saar, das uns immer umkreist.\n     Am             D            G       Em\nFür immer verbunden, durch die Zeit und Raum,\n    Am             D          G\nIm Landesverband, unser schönster Traum.",
+  "title": "Eins im Herzen",
+  "words": [
+    {
+      "name": "Sandro",
+      "nickname": "",
+      "group": "Raugrafen ",
+      "organisation": "BdP",
+      "year": "2024"
+    }
+  ],
+  "tune": [
+    {
+      "name": "Sandro",
+      "nickname": "",
+      "group": "Raugrafen ",
+      "organisation": "BdP",
+      "year": "2024"
+    }
+  ],
+  "translation": [],
+  "beat": "4/4",
+  "alternativeTitle": "RPS-Song",
+  "tempo": "100",
+  "musicalKey": "G",
+  "info": "",
+  "specialSettings": {},
+  "changes": [
+    {
+      "date": 1719103679987,
+      "name": "Sandro ",
+      "mail": "sandro@bdp-rps.de",
+      "type": "create",
+      "content": ""
+    }
+  ]
+}
