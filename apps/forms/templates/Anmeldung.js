@@ -27,8 +27,8 @@ export default function Anmeldung({
       <Box direction="row" space={4} justifyContent="space-between">
         <Box grow={1} shrink={1} basis={0} space={4} marginTop={0.75}>
           <Text variant="note" color="blue">
-            BdP Landesverband Rheinland-Pfalz/Saar • Landesvorstand c/o Philipp Winicker
-             • Im nassen Grund 7, 67725 Breunigweiler
+            BdP Landesverband Rheinland-Pfalz/Saar • Landesvorstand c/o Philipp
+            Winicker • Im nassen Grund 7, 67725 Breunigweiler
           </Text>
         </Box>
         <Box grow={0} shrink={0} basis={180}>
@@ -73,7 +73,7 @@ export default function Anmeldung({
           Mit freundlichen Grüßen
         </Text>
         <Image
-          src="https://forms.bdp-rps.app/images/unterschrift_robin.png"
+          src="https://forms.bdp-rps.app/images/unterschrift_philipp.png"
           height={50}
           style={{ marginLeft: -8, marginTop: 10 }}
         />

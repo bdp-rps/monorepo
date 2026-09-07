@@ -98,7 +98,7 @@ export default function Sonderurlaub({
           Mit freundlichen Grüßen
         </Text>
         <Image
-          src="https://forms.bdp-rps.app/images/unterschrift_robin.png"
+          src="https://forms.bdp-rps.app/images/unterschrift_philipp.png"
           height={50}
           style={{ marginLeft: -8, marginTop: 10 }}
         />
