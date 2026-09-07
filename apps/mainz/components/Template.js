@@ -42,10 +42,8 @@ const subNavs = {
     '/intakt': 'Intakt',
     '/liedgut': 'Liedgut',
     '/termine': 'Termine',
-    '/blog': 'Blog',
   },
   '/stamm': {
-    '/blog': 'Blog',
     '/mit-machen': 'Mit machen!',
     '/termine': 'Termine',
   },
