@@ -29,32 +29,32 @@ import { useState } from 'react'
 let gruppenDaten = [
   {
     img: 'schlange',
-    name: 'Meute Schlange',
+    name: 'Meute Wölfe',
     age: 'von sieben bis elf',
-    place: 'Im Stammesheim',
+    place: 'Im Sommer im Garten und im Winter im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Mittwochs',
     description:
       'Wir sind eine fröhliche und neugierige Gruppe von Kindern im Alter von 7 bis 11 Jahren, die gemeinsam die Welt der Pfadfinder entdecken. Bei uns steht das spielerische Lernen und die Entwicklung von Teamgeist im Vordergrund. Wir basteln, singen, spielen und erleben spannende Abenteuer in der Natur. Durch gemeinsame Aktivitäten und kleine Herausforderungen lernen wir, Verantwortung zu übernehmen und uns gegenseitig zu unterstützen. Unsere Gruppenstunden sind geprägt von Kreativität, Bewegung und viel Spaß.',
     since: '2022',
-    groupLeaders: 'Anna und Mimi',
+    groupLeaders: 'Anna, Leo, Selma und Jette',
   },
   {
     img: 'salix-alba',
     name: 'Salix Alba',
-    age: 'von elf bis vierzehndreizehn',
+    age: 'von elf bis dreizehn',
     place: 'Im Sommer im Garten und im Winter im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Donnerstags',
     description:
       'Wir sind eine Gruppe von Jugendlichen, die ihre Begeisterung für die Natur, Gemeinschaft und Musik teilt. Bei uns steht das gemeinsame Erleben im Vordergrund - ob beim Wandern, Zelten oder Musizieren. Unsere Fahrt nach Slowenien war dabei nur einer von vielen Höhepunkten. In unseren Gruppenstunden entdecken wir die Natur, lernen neue Lieder und wachsen als Gruppe zusammen.',
     since: '2024',
-    groupLeaders: 'Thore und Timon',
+    groupLeaders: 'Artemis und Timon',
   },
   {
     img: 'ignis-hedera',
     name: 'Ignis Hedera',
-    age: 'von zwölf bis fünfzehn',
+    age: 'von dreizehn bis sechzehn',
     place: 'Im Sommer im Garten und im Winter im Stammesheim',
     time: 'ab 17:00 Uhr bis 18:30 Uhr',
     day: 'Mittwochs',
@@ -144,11 +144,8 @@ const GroupComponent = ({ data }) => {
   )
 }
 
-export default function page({ events, posts, postsMainz }) {
+export default function page() {
   const theme = useTheme()
-
-  const [firstPost, ...otherPosts] = posts
-  const [firstPostsMainz, ...otherPostsMainz] = postsMainz
 
   return (
     <Template>
@@ -186,87 +183,6 @@ export default function page({ events, posts, postsMainz }) {
           </Box>
         </Box>
       </Layout>
-
-      <Layout
-        grow={1}
-        alignSelf="stretch"
-        paddingTop={5}
-        paddingBottom={10}
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-        <Text variant="subtitle">Das läuft bei uns.</Text>
-        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-          <Box grow={5}>
-            <PostTile
-              highlight
-              href={'/stamm/blog/' + firstPostsMainz.id}
-              {...firstPostsMainz}
-            />
-          </Box>
-          <Box grow={1} space={4}>
-            {otherPostsMainz.splice(0, 2).map((post, index) => (
-              <PostTile key={index} href={'/stamm/blog/' + post.id} {...post} />
-            ))}
-          </Box>
-        </Box>
-        <Box paddingTop={9} alignSelf="flex-start" alignItems="flex-start">
-          <Button href="/stamm/blog" size="large">
-            Weitere Beiträge
-          </Button>
-        </Box>
-      </Layout>
-      <Layout
-        grow={1}
-        alignSelf="stretch"
-        paddingTop={5}
-        paddingBottom={10}
-        extend={{ backgroundColor: 'rgb(235, 235, 235)' }}>
-        <Text variant="subtitle">Das läuft in unserem Landesverband.</Text>
-        <Box paddingTop={2} direction={['column', , , 'row']} space={4}>
-          <Box grow={5}>
-            <PostTile
-              highlight
-              href={'/landesverband/blog/' + firstPost.id}
-              {...firstPost}
-            />
-          </Box>
-          <Box grow={1} space={4}>
-            {otherPosts.splice(0, 2).map((post, index) => (
-              <PostTile
-                key={index}
-                href={'/landesverband/blog/' + post.id}
-                {...post}
-              />
-            ))}
-          </Box>
-        </Box>
-        <Box paddingTop={9} alignSelf="flex-start" alignItems="flex-start">
-          <Button href="/landesverband/blog/" size="large">
-            Weitere Beiträge
-          </Button>
-        </Box>
-      </Layout>
     </Template>
   )
-}
-
-export async function getStaticProps() {
-  const events = await getEvents()
-  const posts = await getBlogposts()
-  const postsMainz = await getBlogpostsMainz()
-
-  return {
-    // alle 20 minuten
-    revalidate: 1200,
-    props: {
-      events,
-      posts: posts.data.sort(
-        (a, b) =>
-          new Date(b.attributes.publish) - new Date(a.attributes.publish)
-      ),
-      postsMainz: postsMainz.data.sort(
-        (a, b) =>
-          new Date(b.attributes.publish) - new Date(a.attributes.publish)
-      ),
-    },
-  }
 }
